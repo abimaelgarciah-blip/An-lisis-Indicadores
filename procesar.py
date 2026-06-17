@@ -155,16 +155,24 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
         if isinstance(fecha_alta_raw, float) and fecha_alta_raw:
             fecha = xlrd.xldate_as_datetime(fecha_alta_raw, wb.datemode).date()
 
+        # Tiempos de proceso adicionales (en horas si son float, else None)
+        gc = float(row[28]) if row[28] and isinstance(row[28], (int, float)) else None
+        gf = float(row[38]) if row[38] and isinstance(row[38], (int, float)) else None
+        usuario_recibe = str(row[40]).strip() if row[40] else ""
+
         rows.append({
-            "estudio":  estudio,
-            "depto":    depto,
-            "sucursal": sucursal,
-            "ag":       ag,
-            "af":       af_hours,
-            "te":       te,
-            "fecha":    fecha,
-            "semana":   semana,
-            "archivo":  filepath.name,
+            "estudio":         estudio,
+            "depto":           depto,
+            "sucursal":        sucursal,
+            "ag":              ag,
+            "af":              af_hours,
+            "te":              te,
+            "gc":              gc,   # alta → transcripción
+            "gf":              gf,   # alta → recibe entrega
+            "usuario_recibe":  usuario_recibe,
+            "fecha":           fecha,
+            "semana":          semana,
+            "archivo":         filepath.name,
         })
     return rows
 
@@ -529,6 +537,114 @@ def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
         json.dump(clean(data), f, ensure_ascii=False, indent=2, default=str)
 
 
+def _analisis_web(rows):
+    """Calcula todos los análisis detallados para el dashboard web."""
+    from collections import defaultdict, Counter
+
+    def avg(lst): return sum(lst) / len(lst) if lst else None
+
+    DEPTOS_MODAL = set(DEPTO_A_MOD.keys())
+
+    # ── Incumplimiento por departamento ──────────────────────────────────────
+    depto_data = defaultdict(lambda: {"total": 0, "incump": 0, "estudios_incump": Counter()})
+    for r in rows:
+        d = r["depto"]
+        depto_data[d]["total"] += 1
+        if es_incumplimiento(r["af"]):
+            depto_data[d]["incump"] += 1
+            depto_data[d]["estudios_incump"][r["estudio"]] += 1
+
+    incump_depto = []
+    for d, v in sorted(depto_data.items(), key=lambda x: -x[1]["incump"]):
+        top_est = [{"estudio": e, "n": n}
+                   for e, n in v["estudios_incump"].most_common(5)]
+        incump_depto.append({
+            "depto":   d,
+            "total":   v["total"],
+            "incump":  v["incump"],
+            "pct_cumpl": round((v["total"] - v["incump"]) / v["total"] * 100, 1)
+                         if v["total"] else None,
+            "top_estudios": top_est,
+        })
+
+    # ── Top estudios con más incumplimientos (global) ────────────────────────
+    est_incump = Counter(r["estudio"] for r in rows if es_incumplimiento(r["af"]))
+    top_estudios_incump = [{"estudio": e, "n": n}
+                           for e, n in est_incump.most_common(10)]
+
+    # ── Mapa de calor: depto × sucursal → %cumplimiento ─────────────────────
+    SUCURSALES_ORD = list(SUCURSALES.keys())
+    deptos_modal   = sorted(DEPTOS_MODAL)
+    calor = {}
+    for d in deptos_modal:
+        calor[d] = {}
+        for cod, nom in SUCURSALES.items():
+            sub = [r for r in rows if r["depto"] == d and r["sucursal"] == nom]
+            if not sub:
+                calor[d][cod] = None
+            else:
+                inc = sum(1 for r in sub if es_incumplimiento(r["af"]))
+                calor[d][cod] = round((len(sub) - inc) / len(sub) * 100, 1)
+
+    # ── Tiempos de proceso por modalidad (GC y GF) ───────────────────────────
+    tiempos_modal = {}
+    for mod, cfg in MODALIDADES.items():
+        depto  = cfg["depto"]
+        lim_ag = cfg["lim_ag"]
+        sub    = [r for r in rows if r["depto"] == depto
+                  and r["ag"] is not None and r["ag"] <= lim_ag]
+        gc_vals = [r["gc"] for r in sub if r["gc"] is not None and 0 < r["gc"] <= lim_ag * 3]
+        gf_vals = [r["gf"] for r in sub if r["gf"] is not None and 0 < r["gf"] <= lim_ag * 3]
+        tiempos_modal[mod] = {
+            "gc_avg": round(avg(gc_vals), 2) if avg(gc_vals) else None,
+            "gf_avg": round(avg(gf_vals), 2) if avg(gf_vals) else None,
+            "n":      len(sub),
+        }
+
+    # ── Usuarios recibe entregas ──────────────────────────────────────────────
+    usr_data = defaultdict(lambda: {"total": 0, "incump": 0, "deptos": Counter()})
+    for r in rows:
+        u = r.get("usuario_recibe", "").strip()
+        if not u:
+            continue
+        usr_data[u]["total"] += 1
+        usr_data[u]["deptos"][r["depto"]] += 1
+        if es_incumplimiento(r["af"]):
+            usr_data[u]["incump"] += 1
+
+    usuarios_recibe = sorted(
+        [{"usuario": u,
+          "total":   v["total"],
+          "incump":  v["incump"],
+          "pct_cumpl": round((v["total"] - v["incump"]) / v["total"] * 100, 1)
+                       if v["total"] else None,
+          "top_deptos": [{"depto": d, "n": n}
+                         for d, n in v["deptos"].most_common(3)]}
+         for u, v in usr_data.items()],
+        key=lambda x: -x["total"]
+    )
+
+    # ── Distribución A-F de incumplimientos (histograma en intervalos de 1h) ─
+    incump_rows = [r for r in rows if es_incumplimiento(r["af"])]
+    # buckets: 0-1h, 1-2h, 2-3h, ... -23h a -24h
+    buckets = defaultdict(int)
+    for r in incump_rows:
+        b = int(abs(r["af"]))  # horas enteras (0 = <1h, 1 = 1-2h, etc.)
+        buckets[b] += 1
+    dist_af = [{"hora": h, "n": buckets.get(h, 0)} for h in range(24)]
+
+    return {
+        "incump_depto":       incump_depto,
+        "top_estudios_incump": top_estudios_incump,
+        "calor_deptos":       deptos_modal,
+        "calor_sucursales":   SUCURSALES_ORD,
+        "calor":              calor,
+        "tiempos_modal":      tiempos_modal,
+        "usuarios_recibe":    usuarios_recibe,
+        "dist_af":            dist_af,
+    }
+
+
 def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
                  semanas_presentes, fecha_min, fecha_max):
     """Genera docs/data.js con los datos para el dashboard web (GitHub Pages)."""
@@ -552,15 +668,24 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
             rangos[str(sem)] = {"inicio": min(fechas).isoformat(),
                                 "fin": max(fechas).isoformat()}
 
+    # Análisis detallados acumulados y por semana
+    analisis_acum = _analisis_web(todas_las_filas)
+    analisis_sem  = {}
+    for sem in semanas_presentes:
+        sub = [r for r in todas_las_filas if r.get("semana") == sem]
+        analisis_sem[str(sem)] = _analisis_web(sub)
+
     data = {
-        "generado":   datetime.datetime.now().isoformat(),
-        "rango":      {"inicio": fecha_min.isoformat(), "fin": fecha_max.isoformat()},
-        "semanas":    sorted(str(s) for s in semanas_presentes),
-        "rangos":     rangos,
-        "acumulado":  tabla_acum,
-        "por_semana": tabla_por_semana,
-        "sucursales": SUCURSALES,
+        "generado":        datetime.datetime.now().isoformat(),
+        "rango":           {"inicio": fecha_min.isoformat(), "fin": fecha_max.isoformat()},
+        "semanas":         sorted(str(s) for s in semanas_presentes),
+        "rangos":          rangos,
+        "acumulado":       tabla_acum,
+        "por_semana":      tabla_por_semana,
+        "sucursales":      SUCURSALES,
         "total_registros": len(todas_las_filas),
+        "analisis":        analisis_acum,
+        "analisis_sem":    analisis_sem,
     }
 
     DOCS_DIR = Path(__file__).parent / "docs"

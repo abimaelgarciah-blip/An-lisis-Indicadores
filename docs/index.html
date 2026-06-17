@@ -6,106 +6,255 @@
 <title>Dashboard de Entrega de Resultados</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
-  :root{
-    --azul-oscuro:#1F3864; --azul:#2E5FA3; --azul-claro:#BDD7EE;
-    --verde:#70AD47; --amarillo:#E0A800; --rojo:#D9534F;
-    --gris:#f4f6fa; --texto:#2c3e50; --borde:#e3e8ef;
-  }
-  *{box-sizing:border-box;margin:0;padding:0;}
-  body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-       background:var(--gris);color:var(--texto);font-size:14px;}
-  header{background:linear-gradient(135deg,var(--azul-oscuro),var(--azul));
-         color:#fff;padding:22px 32px;box-shadow:0 2px 8px rgba(0,0,0,.15);}
-  header h1{font-size:22px;font-weight:600;}
-  header p{font-size:13px;opacity:.85;margin-top:4px;}
-  .wrap{max-width:1400px;margin:0 auto;padding:24px 32px;}
-  .controls{display:flex;gap:16px;flex-wrap:wrap;align-items:center;
-            background:#fff;padding:16px 20px;border-radius:10px;
-            box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:24px;}
-  .controls label{font-weight:600;font-size:13px;color:var(--azul-oscuro);}
-  select{padding:8px 12px;border:1px solid var(--borde);border-radius:6px;
-         font-size:14px;background:#fff;cursor:pointer;min-width:180px;}
-  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-        gap:16px;margin-bottom:24px;}
-  .kpi{background:#fff;border-radius:10px;padding:20px;
-       box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:5px solid var(--azul);}
-  .kpi .label{font-size:12px;text-transform:uppercase;letter-spacing:.5px;
-              color:#888;font-weight:600;}
-  .kpi .value{font-size:30px;font-weight:700;margin-top:6px;color:var(--azul-oscuro);}
-  .kpi .sub{font-size:12px;color:#999;margin-top:2px;}
-  .kpi.verde{border-left-color:var(--verde);} .kpi.verde .value{color:var(--verde);}
-  .kpi.amarillo{border-left-color:var(--amarillo);} .kpi.amarillo .value{color:var(--amarillo);}
-  .kpi.rojo{border-left-color:var(--rojo);} .kpi.rojo .value{color:var(--rojo);}
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px;}
-  @media(max-width:900px){.grid2{grid-template-columns:1fr;}}
-  .card{background:#fff;border-radius:10px;padding:20px;
-        box-shadow:0 1px 4px rgba(0,0,0,.06);}
-  .card h3{font-size:15px;color:var(--azul-oscuro);margin-bottom:16px;
-           border-bottom:2px solid var(--azul-claro);padding-bottom:8px;}
-  table{width:100%;border-collapse:collapse;font-size:13px;}
-  th,td{padding:9px 10px;text-align:center;border-bottom:1px solid var(--borde);}
-  th{background:var(--azul-oscuro);color:#fff;font-weight:600;font-size:12px;
-     position:sticky;top:0;}
-  td:first-child,th:first-child{text-align:left;font-weight:600;}
-  tr.general{background:var(--azul-claro);font-weight:700;}
-  tr:not(.general):nth-child(even){background:#f8fafc;}
-  tr.sel{outline:2px solid var(--azul);outline-offset:-2px;background:#fff4d6 !important;}
-  .tabla-scroll{overflow-x:auto;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
-  .badge{display:inline-block;padding:3px 10px;border-radius:12px;
-         font-weight:700;font-size:12px;color:#fff;}
-  .badge.verde{background:var(--verde);} .badge.amarillo{background:var(--amarillo);}
-  .badge.rojo{background:var(--rojo);}
-  footer{text-align:center;padding:20px;color:#999;font-size:12px;}
-  .no-data{text-align:center;padding:60px;color:#999;}
-  /* Pestañas por sucursal */
-  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:24px;
-        border-bottom:2px solid var(--borde);padding-bottom:0;}
-  .tab{padding:10px 18px;border:none;background:transparent;cursor:pointer;
-       font-size:14px;font-weight:600;color:#7a8aa0;border-radius:8px 8px 0 0;
-       border-bottom:3px solid transparent;transition:all .15s;}
-  .tab:hover{background:#eef3fa;color:var(--azul);}
-  .tab.activa{color:var(--azul-oscuro);border-bottom-color:var(--azul);
-              background:#fff;box-shadow:0 -1px 4px rgba(0,0,0,.05);}
-  .tab .punto{display:inline-block;width:8px;height:8px;border-radius:50%;
-              margin-left:6px;vertical-align:middle;}
+:root{
+  --azul:#1F3864; --azul2:#2E5FA3; --azul-c:#BDD7EE;
+  --verde:#52a53f; --amari:#d4920a; --rojo:#c0392b;
+  --gris:#f0f3f8; --borde:#dde3ee; --texto:#1e2b3c;
+  --blanco:#ffffff;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+     background:var(--gris);color:var(--texto);font-size:14px;}
+
+/* ── Header ── */
+header{background:linear-gradient(135deg,#1a3160,#2e5fa3);
+       color:#fff;padding:18px 32px 14px;
+       display:flex;align-items:center;gap:20px;
+       box-shadow:0 2px 8px rgba(0,0,0,.18);}
+header h1{font-size:20px;font-weight:700;letter-spacing:.3px;}
+header p{font-size:12px;opacity:.8;margin-top:2px;}
+#generado{margin-left:auto;font-size:11px;opacity:.65;white-space:nowrap;}
+
+/* ── Barra de controles ── */
+.controls{background:#fff;border-bottom:1px solid var(--borde);
+          padding:10px 32px;display:flex;align-items:center;gap:16px;
+          position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.controls label{font-weight:600;font-size:12px;color:#6a7d95;}
+select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
+       font-size:13px;background:#fff;cursor:pointer;}
+
+/* ── Pestañas ── */
+.tabs{display:flex;gap:4px;flex-wrap:wrap;
+      background:#fff;border-bottom:2px solid var(--borde);
+      padding:0 32px;}
+.tab{padding:10px 16px;border:none;background:transparent;cursor:pointer;
+     font-size:13px;font-weight:600;color:#7a8aa0;
+     border-bottom:3px solid transparent;margin-bottom:-2px;
+     transition:all .14s;border-radius:6px 6px 0 0;}
+.tab:hover{background:#eef3fa;color:var(--azul2);}
+.tab.activa{color:var(--azul);border-bottom-color:var(--azul2);background:#fff;}
+.punto{display:inline-block;width:8px;height:8px;border-radius:50%;
+       margin-left:5px;vertical-align:middle;}
+
+/* ── Layout ── */
+.wrap{max-width:1440px;margin:0 auto;padding:24px 32px;}
+.seccion{margin-bottom:32px;}
+.sec-titulo{font-size:15px;font-weight:700;color:var(--azul);
+            margin-bottom:16px;padding-bottom:8px;
+            border-bottom:3px solid var(--azul-c);display:flex;align-items:center;gap:8px;}
+.sec-titulo span{font-size:18px;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+@media(max-width:1100px){.grid3{grid-template-columns:1fr 1fr;}}
+@media(max-width:800px){.grid2,.grid3,.grid4{grid-template-columns:1fr;}}
+
+/* ── Cards ── */
+.card{background:#fff;border-radius:10px;padding:20px;
+      box-shadow:0 1px 4px rgba(0,0,0,.07);}
+.card h3{font-size:13px;font-weight:700;color:#4a5e78;
+         margin-bottom:14px;text-transform:uppercase;letter-spacing:.4px;}
+
+/* ── KPI cards ── */
+.kpi{border-radius:10px;padding:18px 20px;
+     box-shadow:0 1px 4px rgba(0,0,0,.07);
+     border-left:5px solid var(--azul2);background:#fff;}
+.kpi .klabel{font-size:11px;text-transform:uppercase;
+             letter-spacing:.6px;color:#8899aa;font-weight:700;}
+.kpi .kval{font-size:32px;font-weight:800;margin-top:6px;line-height:1;}
+.kpi .ksub{font-size:11px;color:#aab;margin-top:4px;}
+.kpi.verde{border-left-color:var(--verde);} .kpi.verde .kval{color:var(--verde);}
+.kpi.amari{border-left-color:var(--amari);} .kpi.amari .kval{color:var(--amari);}
+.kpi.rojo {border-left-color:var(--rojo);}  .kpi.rojo  .kval{color:var(--rojo);}
+
+/* ── Indicador grande ── */
+.ind-grande{display:flex;align-items:center;justify-content:center;
+            flex-direction:column;padding:28px;text-align:center;}
+.ind-grande .num{font-size:64px;font-weight:900;line-height:1;}
+.ind-grande .etq{font-size:13px;text-transform:uppercase;
+                 letter-spacing:.6px;color:#8899aa;margin-top:4px;}
+.ind-grande .meta{font-size:12px;margin-top:8px;color:#aab;}
+.anillo-wrap{position:relative;width:160px;height:160px;margin:0 auto 12px;}
+
+/* ── Tabla base ── */
+.tabla-scroll{overflow-x:auto;border-radius:8px;}
+table{width:100%;border-collapse:collapse;font-size:13px;}
+th,td{padding:8px 10px;text-align:center;border-bottom:1px solid var(--borde);}
+th{background:var(--azul);color:#fff;font-weight:600;font-size:11px;
+   text-transform:uppercase;letter-spacing:.3px;position:sticky;top:0;}
+td:first-child,th:first-child{text-align:left;}
+tr:nth-child(even){background:#f7f9fc;}
+tr:hover{background:#edf3fb;}
+
+/* ── Badge ── */
+.badge{display:inline-block;padding:2px 9px;border-radius:10px;
+       font-weight:700;font-size:11px;color:#fff;}
+.badge.verde{background:var(--verde);}.badge.amari{background:var(--amari);}
+.badge.rojo{background:var(--rojo);}
+
+/* ── Mapa de calor ── */
+.calor-wrap{overflow-x:auto;}
+.calor-tabla{border-collapse:collapse;font-size:12px;width:100%;}
+.calor-tabla th{background:var(--azul);color:#fff;padding:7px 10px;
+                font-size:11px;white-space:nowrap;}
+.calor-tabla td{padding:7px 10px;text-align:center;font-weight:700;font-size:12px;}
+.calor-tabla td.etq{text-align:left;font-weight:600;color:#4a5e78;background:#f7f9fc;}
+
+/* ── Barra de usuario ── */
+.usr-bar{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+.usr-nombre{font-size:12px;font-weight:600;color:var(--texto);min-width:200px;}
+.usr-pista{flex:1;height:18px;background:#edf1f7;border-radius:4px;overflow:hidden;}
+.usr-fill{height:100%;border-radius:4px;background:var(--azul2);transition:width .4s;}
+.usr-num{font-size:12px;font-weight:700;color:var(--azul2);min-width:36px;text-align:right;}
+.usr-pct{font-size:11px;color:#aab;min-width:48px;text-align:right;}
+
+footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
 </style>
 </head>
 <body>
+
 <header>
-  <h1>📊 Dashboard de Entrega de Resultados</h1>
-  <p id="subtitulo">Cargando…</p>
+  <div>
+    <h1>📊 Dashboard · Entrega de Resultados</h1>
+    <p id="subtitulo">Cargando…</p>
+  </div>
+  <span id="generado"></span>
 </header>
 
-<div class="wrap">
-  <div class="controls">
-    <label for="periodo">Periodo:</label>
-    <select id="periodo"></select>
-    <span id="generado" style="margin-left:auto;font-size:12px;color:#999;"></span>
-  </div>
-
-  <div class="tabs" id="tabs"></div>
-
-  <div class="kpis" id="kpis"></div>
-
-  <div class="grid2">
-    <div class="card"><h3>Estudios por Modalidad <span id="tit1" style="font-weight:400;color:#888"></span></h3>
-      <canvas id="chartModalidades" height="160"></canvas></div>
-    <div class="card"><h3>Tiempo de Entrega Promedio (horas) <span id="tit2" style="font-weight:400;color:#888"></span></h3>
-      <canvas id="chartTE" height="160"></canvas></div>
-  </div>
-
-  <div class="grid2">
-    <div class="card"><h3>Indicador de Cumplimiento por Sucursal</h3>
-      <canvas id="chartIndicador" height="160"></canvas></div>
-    <div class="card"><h3>Clasificación RM</h3>
-      <canvas id="chartRM" height="160"></canvas></div>
-  </div>
-
-  <div class="card">
-    <h3>Tabla Detallada por Unidad</h3>
-    <div class="tabla-scroll"><table id="tabla"></table></div>
-  </div>
+<div class="controls">
+  <label>Periodo:</label>
+  <select id="periodo"></select>
 </div>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="wrap">
+
+  <!-- ══════════════════════════════════════════════════════
+       SECCIÓN 1 · INDICADOR E INCUMPLIMIENTO
+  ═══════════════════════════════════════════════════════ -->
+  <div class="seccion">
+    <div class="sec-titulo"><span>📈</span> Indicador de Cumplimiento e Incumplimiento</div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+
+      <!-- Anillo indicador -->
+      <div class="card" style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
+        <div style="flex:0 0 180px;">
+          <canvas id="chartAnillo" height="180" width="180"></canvas>
+        </div>
+        <div style="flex:1;min-width:160px;">
+          <div class="klabel" style="margin-bottom:12px;">Cumplimiento global</div>
+          <div id="kpi-ind" class="kpi" style="margin-bottom:12px;border-left-width:6px;">
+            <div class="kval" id="val-ind">–</div>
+            <div class="ksub">Meta: ≥ 95%</div>
+          </div>
+          <div id="kpi-inc" class="kpi rojo">
+            <div class="klabel">Incumplimientos</div>
+            <div class="kval" id="val-inc">–</div>
+            <div class="ksub" id="sub-inc">de estudios catalogados</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Distribución de retraso (A-F) -->
+      <div class="card">
+        <h3>Distribución de Retrasos — Horas de incumplimiento (A-F)</h3>
+        <canvas id="chartDistAF" height="170"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          Solo registros con −24h &lt; A-F &lt; 0. Los con A-F ≤ −24h se clasifican como cumplimiento (anomalía de sistema).
+        </p>
+      </div>
+    </div>
+
+    <div class="grid2">
+      <!-- Incumplimiento por departamento -->
+      <div class="card">
+        <h3>Incumplimiento por Departamento</h3>
+        <canvas id="chartIncDepto" height="190"></canvas>
+      </div>
+
+      <!-- Top estudios con incumplimiento -->
+      <div class="card">
+        <h3>Estudios con más Incumplimientos</h3>
+        <canvas id="chartTopEstudios" height="190"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECCIÓN 2 · ESTUDIOS
+  ═══════════════════════════════════════════════════════ -->
+  <div class="seccion">
+    <div class="sec-titulo"><span>🔬</span> Estudios por Modalidad</div>
+
+    <div class="grid4" style="margin-bottom:20px;" id="kpis-estudios"></div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <!-- Cantidad de estudios por departamento -->
+      <div class="card">
+        <h3>Cantidad de Estudios por Departamento (dentro de límite A-G)</h3>
+        <canvas id="chartEstDeptoBar" height="190"></canvas>
+      </div>
+
+      <!-- Tiempos de proceso -->
+      <div class="card">
+        <h3>Tiempos de Proceso por Modalidad (horas promedio)</h3>
+        <canvas id="chartTiempos" height="190"></canvas>
+      </div>
+    </div>
+
+    <!-- Mapa de calor -->
+    <div class="card" style="margin-bottom:20px;">
+      <h3>Mapa de Calor — % Cumplimiento por Departamento × Sucursal</h3>
+      <div class="calor-wrap" id="mapaCalor"></div>
+    </div>
+
+    <!-- Tabla detallada por modalidad -->
+    <div class="card">
+      <h3>Detalle por Modalidad</h3>
+      <div class="tabla-scroll"><table id="tablaModal"></table></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECCIÓN 3 · USUARIOS
+  ═══════════════════════════════════════════════════════ -->
+  <div class="seccion">
+    <div class="sec-titulo"><span>👥</span> Usuarios · Recepción de Entregas</div>
+
+    <div class="grid2">
+      <!-- Barras de usuarios -->
+      <div class="card">
+        <h3>Total de Estudios Recibidos por Usuario</h3>
+        <div id="usrBarras" style="margin-top:8px;"></div>
+      </div>
+
+      <!-- Gráfica de dona usuarios -->
+      <div class="card">
+        <h3>Distribución de Carga por Usuario</h3>
+        <canvas id="chartUsrDona" height="280"></canvas>
+      </div>
+    </div>
+
+    <!-- Tabla de usuarios -->
+    <div class="card" style="margin-top:20px;">
+      <h3>Detalle por Usuario</h3>
+      <div class="tabla-scroll"><table id="tablaUsuarios"></table></div>
+    </div>
+  </div>
+
+</div><!-- /wrap -->
 
 <footer id="footer"></footer>
 
@@ -113,139 +262,306 @@
 <script>
 const D = window.DASHBOARD_DATA;
 const MOD = ["Cardiología","Densitometría","Ecosonografía","Mamografía","Radiología","RM","Tomografía"];
-const charts = {};
+const CHARTS = {};
+let UNIDAD = 'General';
 
-function colorInd(v){ if(v==null)return ''; return v>=95?'verde':v>=90?'amarillo':'rojo'; }
-function fmtHoras(v){ if(v==null)return '–'; const n=v<0; v=Math.abs(v);
-  const h=Math.floor(v), m=Math.round((v-h)*60); return (n?'-':'')+String(h).padStart(2,'0')+':'+String(m).padStart(2,'0'); }
-function num(v){ return v==null?'–':(typeof v==='number'?Math.round(v):v); }
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function ci(v){ return v>=95?'verde':v>=90?'amari':'rojo'; }
+function cpunto(v){ return v==null?'#ccc':v>=95?'#52a53f':v>=90?'#d4920a':'#c0392b'; }
+function fh(v){ if(v==null)return '–'; const n=v<0; v=Math.abs(v);
+  return (n?'-':'')+String(Math.floor(v)).padStart(2,'0')+':'+String(Math.round((v%1)*60)).padStart(2,'0'); }
+function num(v){ return v==null?'–':Math.round(v); }
+function pct(v){ return v==null?'–':v.toFixed(1)+'%'; }
+function mk(id,cfg){ if(CHARTS[id])CHARTS[id].destroy(); CHARTS[id]=new Chart(document.getElementById(id),cfg); }
 
-let UNIDAD_SEL = 'General';   // pestaña activa
+// Color de celda calor
+function cCalor(v){
+  if(v==null) return '#f0f3f8';
+  if(v>=97)   return '#1a6e38';
+  if(v>=95)   return '#52a53f';
+  if(v>=92)   return '#a3c96b';
+  if(v>=90)   return '#d4920a';
+  if(v>=85)   return '#e87722';
+  return '#c0392b';
+}
+
+// Análisis del periodo/unidad activo
+function analisisActivo(){
+  const p = document.getElementById('periodo').value;
+  if(p==='acumulado') return D.analisis;
+  return D.analisis_sem[p] || D.analisis;
+}
 
 function tablaActual(){
   const p = document.getElementById('periodo').value;
   return p==='acumulado' ? D.acumulado : (D.por_semana[p]||[]);
 }
 
-function colorPunto(v){ if(v==null)return '#ccc'; return v>=95?'#70AD47':v>=90?'#E0A800':'#D9534F'; }
-
-function renderTabs(){
-  const tabla = tablaActual();
-  const cont = document.getElementById('tabs');
-  cont.innerHTML = D.acumulado.map(r=>{
-    const nom = r.Unidad==='General' ? 'General' : (D.sucursales[r.Unidad]||r.Unidad);
-    // indicador de esta unidad en el periodo actual (para el puntito de color)
-    const filaP = tabla.find(x=>x.Unidad===r.Unidad);
-    const ind = filaP ? filaP.indicador : null;
-    const activa = r.Unidad===UNIDAD_SEL ? 'activa' : '';
-    const punto = r.Unidad==='General' ? '' :
-      `<span class="punto" style="background:${colorPunto(ind)}"></span>`;
-    return `<button class="tab ${activa}" data-unidad="${r.Unidad}">${nom}${punto}</button>`;
-  }).join('');
-  cont.querySelectorAll('.tab').forEach(b=>{
-    b.onclick = ()=>{ UNIDAD_SEL = b.dataset.unidad; render(); };
-  });
+function filaUnidad(){
+  const t = tablaActual();
+  return t.find(r=>r.Unidad===UNIDAD) || t[0];
 }
 
+// Filtrar análisis por unidad (para incump_depto y tiempos el análisis ya
+// viene global; para usuarios se filtra aquí si tuviéramos datos por unidad)
+// En esta versión los análisis detallados son globales del periodo.
+
+// ── Init ─────────────────────────────────────────────────────────────────────
 function initControles(){
   const per = document.getElementById('periodo');
-  per.innerHTML = '<option value="acumulado">Acumulado (todas)</option>' +
-    D.semanas.map(s=>`<option value="${s}">Semana ${s}</option>`).join('');
+  per.innerHTML = '<option value="acumulado">Acumulado (todas las semanas)</option>' +
+    D.semanas.map(s=>`<option value="${s}">Semana ${s} (${D.rangos[s]?.inicio||''} – ${D.rangos[s]?.fin||''})</option>`).join('');
   per.onchange = render;
 
   const r = D.rango;
   document.getElementById('subtitulo').textContent =
-    `Periodo ${r.inicio} al ${r.fin} · ${D.total_registros.toLocaleString()} registros · ${D.semanas.length} semana(s)`;
+    `${r.inicio}  →  ${r.fin}  ·  ${D.total_registros.toLocaleString()} registros  ·  ${D.semanas.length} semana(s)`;
   document.getElementById('generado').textContent =
-    'Actualizado: ' + new Date(D.generado).toLocaleString('es-MX');
+    'Actualizado ' + new Date(D.generado).toLocaleString('es-MX');
+  document.getElementById('footer').textContent =
+    'Dashboard de Entrega de Resultados · procesar.py';
 }
 
-function render(){
-  const tabla = tablaActual();
-  // si la unidad seleccionada no existe en el periodo, volver a General
-  if(!tabla.find(r=>r.Unidad===UNIDAD_SEL)) UNIDAD_SEL = 'General';
-  const fila = tabla.find(r=>r.Unidad===UNIDAD_SEL) || tabla[0];
-  renderTabs();
-  renderKPIs(fila);
-  renderTabla(tabla, UNIDAD_SEL);
-  renderCharts(tabla, fila);
-  const nom = UNIDAD_SEL==='General' ? 'General' : (D.sucursales[UNIDAD_SEL]||UNIDAD_SEL);
-  document.getElementById('tit1').textContent = '· '+nom;
-  document.getElementById('tit2').textContent = '· '+nom;
+function renderTabs(){
+  const t = tablaActual();
+  document.getElementById('tabs').innerHTML = D.acumulado.map(r=>{
+    const nom = r.Unidad==='General'?'General':(D.sucursales[r.Unidad]||r.Unidad);
+    const fp  = t.find(x=>x.Unidad===r.Unidad);
+    const ind = fp ? fp.indicador : null;
+    const p   = r.Unidad==='General' ? '' :
+      `<span class="punto" style="background:${cpunto(ind)}"></span>`;
+    return `<button class="tab${r.Unidad===UNIDAD?' activa':''}" data-u="${r.Unidad}">${nom}${p}</button>`;
+  }).join('');
+  document.querySelectorAll('.tab').forEach(b=>{
+    b.onclick=()=>{ UNIDAD=b.dataset.u; render(); };
+  });
 }
 
-function renderKPIs(f){
+// ── Sección 1: Indicador ─────────────────────────────────────────────────────
+function renderIndicador(){
+  const f   = filaUnidad();
   const ind = f.indicador;
-  const k = [
-    {label:'Indicador Cumplimiento', value: ind!=null?ind.toFixed(1)+'%':'–', cls:colorInd(ind), sub:'Meta ≥ 95%'},
-    {label:'Estudios Catalogados', value:num(f.estudios), cls:'', sub:'con modalidad'},
-    {label:'Incumplimientos', value:num(f.incumplimiento), cls: f.incumplimiento>0?'rojo':'verde', sub:'tardíos (-24h a 0)'},
-    {label:'Registros Totales', value:num(f.modalidades_total), cls:'', sub:'todos los departamentos'},
-  ];
-  document.getElementById('kpis').innerHTML = k.map(x=>
-    `<div class="kpi ${x.cls}"><div class="label">${x.label}</div>
-     <div class="value">${x.value}</div><div class="sub">${x.sub}</div></div>`).join('');
+  const inc = f.incumplimiento;
+  const tot = f.estudios;
+  const cls = ind!=null ? ci(ind) : '';
+
+  // KPIs
+  const kInd = document.getElementById('kpi-ind');
+  kInd.className = 'kpi '+cls;
+  document.getElementById('val-ind').textContent = ind!=null ? ind.toFixed(1)+'%' : '–';
+  document.getElementById('val-inc').textContent = inc!=null ? inc : '–';
+  document.getElementById('sub-inc').textContent =
+    tot ? `de ${tot.toLocaleString()} estudios catalogados (${((inc/tot)*100).toFixed(1)}%)` : '';
+
+  // Anillo
+  const cumpl = tot - inc;
+  mk('chartAnillo',{type:'doughnut',
+    data:{labels:['Cumplimiento','Incumplimiento'],
+      datasets:[{data:[cumpl, inc],
+        backgroundColor:['#52a53f','#c0392b'],
+        borderWidth:0}]},
+    options:{cutout:'72%',plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>c.label+': '+c.raw.toLocaleString()}}}}});
 }
 
-function renderTabla(tabla, sel){
-  const cols = [['Unidad','Unidad'],['Indicador','indicador'],['Estudios','estudios'],
-    ['Incump.','incumplimiento'],['Total','modalidades_total'],
-    ['Cardio','Cardiología'],['Densito','Densitometría'],['Ecoso','Ecosonografía'],
-    ['Mamo','Mamografía'],['Radio','Radiología'],['RM','RM'],
-    ['RM 5h','RM_5h'],['RM 24h','RM_24h'],['RM 48h','RM_48h'],['Tomo','Tomografía']];
-  let html = '<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>';
-  tabla.forEach(r=>{
-    const clase = (r.Unidad==='General'?'general':'') + (r.Unidad===sel?' sel':'');
-    html += `<tr class="${clase.trim()}">`;
-    cols.forEach(c=>{
-      let v = r[c[1]];
-      if(c[1]==='Unidad'){ v = r.Unidad==='General'?'General':(D.sucursales[r.Unidad]||r.Unidad); }
-      else if(c[1]==='indicador'){ v = v!=null?`<span class="badge ${colorInd(v)}">${v.toFixed(1)}%</span>`:'–'; }
-      else { v = num(v); }
-      html += `<td>${v}</td>`;
+function renderDistAF(){
+  const a = analisisActivo();
+  const dist = a.dist_af || [];
+  // solo mostrar horas con datos
+  const labels = dist.map(d=>`-${d.hora}h`);
+  const data   = dist.map(d=>d.n);
+  mk('chartDistAF',{type:'bar',
+    data:{labels, datasets:[{label:'Incumplimientos',data,
+      backgroundColor:'#c0392b',borderRadius:3}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{x:{ticks:{font:{size:10}}},y:{beginAtZero:true,
+        title:{display:true,text:'Cantidad de estudios',font:{size:11}}}}}});
+}
+
+function renderIncDepto(){
+  const a = analisisActivo();
+  const items = (a.incump_depto||[]).filter(x=>x.incump>0)
+                                     .sort((a,b)=>b.incump-a.incump)
+                                     .slice(0,10);
+  mk('chartIncDepto',{type:'bar',
+    data:{labels:items.map(x=>x.depto.replace('Tomografía Axial Computada','TAC')
+                                       .replace('Resonancia Magnética','RM')),
+      datasets:[
+        {label:'Incumplimientos',data:items.map(x=>x.incump),backgroundColor:'#c0392b',borderRadius:3,yAxisID:'y'},
+        {label:'% Cumplimiento',data:items.map(x=>x.pct_cumpl),
+         type:'line',borderColor:'#2e5fa3',backgroundColor:'#2e5fa320',
+         yAxisID:'y2',tension:.3,pointRadius:4}
+      ]},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11}}}},
+      scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'Incumplimientos'}},
+              y2:{beginAtZero:false,min:85,max:100,position:'right',
+                  grid:{drawOnChartArea:false},
+                  ticks:{callback:v=>v+'%'},
+                  title:{display:true,text:'% Cumplimiento'}}}}});
+}
+
+function renderTopEstudios(){
+  const a = analisisActivo();
+  const items = (a.top_estudios_incump||[]).slice(0,10);
+  // Nombres cortos
+  const labels = items.map(x=>x.estudio.length>38?x.estudio.slice(0,38)+'…':x.estudio);
+  mk('chartTopEstudios',{type:'bar',
+    data:{labels,
+      datasets:[{label:'Incumplimientos',data:items.map(x=>x.n),
+        backgroundColor:'#e87722',borderRadius:3}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false}},
+      scales:{x:{beginAtZero:true,ticks:{stepSize:1}},
+              y:{ticks:{font:{size:10}}}}}});
+}
+
+// ── Sección 2: Estudios ───────────────────────────────────────────────────────
+function renderKpisEstudios(){
+  const f = filaUnidad();
+  const items = MOD.map(m=>({mod:m, n:f[m]||0, te:f['TE_'+m]}));
+  document.getElementById('kpis-estudios').innerHTML = items.map(x=>
+    `<div class="kpi" style="border-left-color:#2e5fa3;">
+       <div class="klabel">${x.mod}</div>
+       <div class="kval" style="font-size:24px;color:#2e5fa3;">${x.n}</div>
+       <div class="ksub">TE prom: ${fh(x.te)}</div>
+     </div>`).join('');
+}
+
+function renderEstDeptoBar(){
+  const f = filaUnidad();
+  const vals = MOD.map(m=>f[m]||0);
+  mk('chartEstDeptoBar',{type:'bar',
+    data:{labels:MOD,datasets:[{label:'Estudios',data:vals,
+      backgroundColor:'#2e5fa3',borderRadius:4}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true}}}});
+}
+
+function renderTiempos(){
+  const a = analisisActivo();
+  const tm = a.tiempos_modal || {};
+  const gcVals = MOD.map(m=>tm[m]?.gc_avg||null);
+  const gfVals = MOD.map(m=>tm[m]?.gf_avg||null);
+  mk('chartTiempos',{type:'bar',
+    data:{labels:MOD,datasets:[
+      {label:'G→C (alta→transcripción)',data:gcVals,backgroundColor:'#5b9bd5',borderRadius:3},
+      {label:'G→F (alta→recibe entrega)',data:gfVals,backgroundColor:'#52a53f',borderRadius:3}
+    ]},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11}}}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'Horas promedio'}}}}});
+}
+
+function renderMapaCalor(){
+  const a   = analisisActivo();
+  const dep = a.calor_deptos  || [];
+  const suc = a.calor_sucursales || [];
+  const cal = a.calor || {};
+
+  const nomSuc = cod=> D.sucursales[cod]||cod;
+  const nomDep = d=> d.replace('Tomografía Axial Computada','TAC').replace('Resonancia Magnética','RM');
+
+  let html = '<table class="calor-tabla"><thead><tr><th>Departamento</th>'
+    + suc.map(c=>`<th>${c}<br><small>${nomSuc(c).split(' ')[0]}</small></th>`).join('')
+    + '</tr></thead><tbody>';
+  dep.forEach(d=>{
+    html += `<tr><td class="etq">${nomDep(d)}</td>`;
+    suc.forEach(c=>{
+      const v = cal[d]?.[c];
+      const bg = cCalor(v);
+      const tc = (v!=null && v<90) ? '#fff' : '#fff';
+      html += `<td style="background:${bg};color:#fff;">${v!=null?v.toFixed(1)+'%':'–'}</td>`;
     });
     html += '</tr>';
   });
-  document.getElementById('tabla').innerHTML = html + '</tbody>';
+  document.getElementById('mapaCalor').innerHTML = html + '</tbody></table>';
 }
 
-function mkChart(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart(document.getElementById(id),cfg); }
-
-function renderCharts(tabla, fila){
-  // Modalidades (barras) — de la unidad seleccionada
-  mkChart('chartModalidades',{type:'bar',
-    data:{labels:MOD,datasets:[{label:'Estudios',data:MOD.map(m=>fila[m]||0),
-      backgroundColor:'#2E5FA3',borderRadius:4}]},
-    options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}});
-
-  // TE (barras horizontales)
-  mkChart('chartTE',{type:'bar',
-    data:{labels:MOD,datasets:[{label:'Horas',data:MOD.map(m=>fila['TE_'+m]||0),
-      backgroundColor:'#70AD47',borderRadius:4}]},
-    options:{indexAxis:'y',plugins:{legend:{display:false},
-      tooltip:{callbacks:{label:c=>fmtHoras(c.raw)+' h'}}},scales:{x:{beginAtZero:true}}}});
-
-  // Indicador por sucursal (sin General)
-  const suc = tabla.filter(r=>r.Unidad!=='General');
-  mkChart('chartIndicador',{type:'bar',
-    data:{labels:suc.map(r=>r.Unidad),datasets:[{label:'Indicador %',
-      data:suc.map(r=>r.indicador!=null?+r.indicador.toFixed(1):0),
-      backgroundColor:suc.map(r=>r.indicador>=95?'#70AD47':r.indicador>=90?'#E0A800':'#D9534F'),
-      borderRadius:4}]},
-    options:{plugins:{legend:{display:false}},
-      scales:{y:{beginAtZero:true,max:100,ticks:{callback:v=>v+'%'}}}}});
-
-  // RM doughnut — unidad seleccionada
-  mkChart('chartRM',{type:'doughnut',
-    data:{labels:['RM 5h','RM 24h','RM 48h'],
-      datasets:[{data:[fila.RM_5h||0,fila.RM_24h||0,fila.RM_48h||0],
-        backgroundColor:['#2E5FA3','#E0A800','#D9534F']}]},
-    options:{plugins:{legend:{position:'bottom'}}}});
+function renderTablaModal(){
+  const f = filaUnidad();
+  const cols = [['Modalidad','mod'],['Estudios','n'],['TE Prom','te'],
+                ['RM 5h','rm5'],['RM 24h','rm24'],['RM 48h','rm48']];
+  const items = MOD.map(m=>({mod:m, n:f[m]||0, te:f['TE_'+m],
+    rm5:m==='RM'?(f.RM_5h||0):'-',
+    rm24:m==='RM'?(f.RM_24h||0):'-',
+    rm48:m==='RM'?(f.RM_48h||0):'-'}));
+  let html = '<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>';
+  items.forEach(r=>{
+    html += '<tr>'+ cols.map(c=>{
+      if(c[1]==='te') return `<td>${fh(r.te)}</td>`;
+      return `<td>${r[c[1]]}</td>`;
+    }).join('')+'</tr>';
+  });
+  document.getElementById('tablaModal').innerHTML = html+'</tbody>';
 }
 
-if(!D){ document.querySelector('.wrap').innerHTML='<div class="no-data">No hay datos. Ejecuta <code>python procesar.py</code> para generarlos.</div>'; }
-else { initControles(); render();
-  document.getElementById('footer').textContent='Dashboard de Entrega de Resultados · Generado con procesar.py'; }
+// ── Sección 3: Usuarios ───────────────────────────────────────────────────────
+function renderUsuarios(){
+  const a = analisisActivo();
+  const usrs = (a.usuarios_recibe||[]);
+  const max  = usrs[0]?.total || 1;
+
+  // Barras manuales
+  document.getElementById('usrBarras').innerHTML = usrs.map(u=>{
+    const w = Math.round(u.total/max*100);
+    const cls = ci(u.pct_cumpl);
+    return `<div class="usr-bar">
+      <div class="usr-nombre" title="${u.usuario}">${u.usuario.length>28?u.usuario.slice(0,28)+'…':u.usuario}</div>
+      <div class="usr-pista"><div class="usr-fill" style="width:${w}%;background:var(--azul2);"></div></div>
+      <div class="usr-num">${u.total}</div>
+      <div class="usr-pct"><span class="badge ${cls}">${pct(u.pct_cumpl)}</span></div>
+    </div>`;
+  }).join('');
+
+  // Dona top 10
+  const top = usrs.slice(0,10);
+  const PALETA = ['#1f3864','#2e5fa3','#4472c4','#5b9bd5','#70b0e0',
+                  '#52a53f','#a3c96b','#d4920a','#e87722','#c0392b'];
+  mk('chartUsrDona',{type:'doughnut',
+    data:{labels:top.map(u=>u.usuario.split(' ')[0]+' '+u.usuario.split(' ')[2||1]||u.usuario.slice(0,14)),
+      datasets:[{data:top.map(u=>u.total),backgroundColor:PALETA,borderWidth:1}]},
+    options:{plugins:{legend:{position:'right',labels:{font:{size:11},boxWidth:12}}}}});
+
+  // Tabla
+  let html = '<thead><tr><th>Usuario</th><th>Total</th><th>Incumpl.</th><th>% Cumpl.</th><th>Top departamentos</th></tr></thead><tbody>';
+  usrs.forEach((u,i)=>{
+    const cls = ci(u.pct_cumpl);
+    const deps = (u.top_deptos||[]).map(d=>`${d.depto.split(' ')[0]} (${d.n})`).join(', ');
+    html += `<tr>
+      <td>${u.usuario}</td>
+      <td>${u.total}</td>
+      <td>${u.incump}</td>
+      <td><span class="badge ${cls}">${pct(u.pct_cumpl)}</span></td>
+      <td style="font-size:11px;color:#6a7d95;">${deps}</td>
+    </tr>`;
+  });
+  document.getElementById('tablaUsuarios').innerHTML = html+'</tbody>';
+}
+
+// ── Render principal ──────────────────────────────────────────────────────────
+function render(){
+  const t = tablaActual();
+  if(!t.find(r=>r.Unidad===UNIDAD)) UNIDAD='General';
+  renderTabs();
+  // S1
+  renderIndicador();
+  renderDistAF();
+  renderIncDepto();
+  renderTopEstudios();
+  // S2
+  renderKpisEstudios();
+  renderEstDeptoBar();
+  renderTiempos();
+  renderMapaCalor();
+  renderTablaModal();
+  // S3
+  renderUsuarios();
+}
+
+if(!D){
+  document.querySelector('.wrap').innerHTML='<p style="padding:60px;text-align:center;">No hay datos. Ejecuta <code>python procesar.py</code>.</p>';
+} else {
+  initControles();
+  render();
+}
 </script>
 </body>
 </html>
