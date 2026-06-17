@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard de Entrega de Resultados</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --azul-oscuro:#1F3864; --azul:#2E5FA3; --azul-claro:#BDD7EE;
+    --verde:#70AD47; --amarillo:#E0A800; --rojo:#D9534F;
+    --gris:#f4f6fa; --texto:#2c3e50; --borde:#e3e8ef;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+       background:var(--gris);color:var(--texto);font-size:14px;}
+  header{background:linear-gradient(135deg,var(--azul-oscuro),var(--azul));
+         color:#fff;padding:22px 32px;box-shadow:0 2px 8px rgba(0,0,0,.15);}
+  header h1{font-size:22px;font-weight:600;}
+  header p{font-size:13px;opacity:.85;margin-top:4px;}
+  .wrap{max-width:1400px;margin:0 auto;padding:24px 32px;}
+  .controls{display:flex;gap:16px;flex-wrap:wrap;align-items:center;
+            background:#fff;padding:16px 20px;border-radius:10px;
+            box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:24px;}
+  .controls label{font-weight:600;font-size:13px;color:var(--azul-oscuro);}
+  select{padding:8px 12px;border:1px solid var(--borde);border-radius:6px;
+         font-size:14px;background:#fff;cursor:pointer;min-width:180px;}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+        gap:16px;margin-bottom:24px;}
+  .kpi{background:#fff;border-radius:10px;padding:20px;
+       box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:5px solid var(--azul);}
+  .kpi .label{font-size:12px;text-transform:uppercase;letter-spacing:.5px;
+              color:#888;font-weight:600;}
+  .kpi .value{font-size:30px;font-weight:700;margin-top:6px;color:var(--azul-oscuro);}
+  .kpi .sub{font-size:12px;color:#999;margin-top:2px;}
+  .kpi.verde{border-left-color:var(--verde);} .kpi.verde .value{color:var(--verde);}
+  .kpi.amarillo{border-left-color:var(--amarillo);} .kpi.amarillo .value{color:var(--amarillo);}
+  .kpi.rojo{border-left-color:var(--rojo);} .kpi.rojo .value{color:var(--rojo);}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px;}
+  @media(max-width:900px){.grid2{grid-template-columns:1fr;}}
+  .card{background:#fff;border-radius:10px;padding:20px;
+        box-shadow:0 1px 4px rgba(0,0,0,.06);}
+  .card h3{font-size:15px;color:var(--azul-oscuro);margin-bottom:16px;
+           border-bottom:2px solid var(--azul-claro);padding-bottom:8px;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{padding:9px 10px;text-align:center;border-bottom:1px solid var(--borde);}
+  th{background:var(--azul-oscuro);color:#fff;font-weight:600;font-size:12px;
+     position:sticky;top:0;}
+  td:first-child,th:first-child{text-align:left;font-weight:600;}
+  tr.general{background:var(--azul-claro);font-weight:700;}
+  tr:not(.general):nth-child(even){background:#f8fafc;}
+  .tabla-scroll{overflow-x:auto;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+  .badge{display:inline-block;padding:3px 10px;border-radius:12px;
+         font-weight:700;font-size:12px;color:#fff;}
+  .badge.verde{background:var(--verde);} .badge.amarillo{background:var(--amarillo);}
+  .badge.rojo{background:var(--rojo);}
+  footer{text-align:center;padding:20px;color:#999;font-size:12px;}
+  .no-data{text-align:center;padding:60px;color:#999;}
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 Dashboard de Entrega de Resultados</h1>
+  <p id="subtitulo">Cargando…</p>
+</header>
+
+<div class="wrap">
+  <div class="controls">
+    <label for="periodo">Periodo:</label>
+    <select id="periodo"></select>
+    <label for="unidad">Unidad:</label>
+    <select id="unidad"></select>
+    <span id="generado" style="margin-left:auto;font-size:12px;color:#999;"></span>
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="grid2">
+    <div class="card"><h3>Estudios por Modalidad</h3>
+      <canvas id="chartModalidades" height="160"></canvas></div>
+    <div class="card"><h3>Tiempo de Entrega Promedio (horas)</h3>
+      <canvas id="chartTE" height="160"></canvas></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card"><h3>Indicador de Cumplimiento por Sucursal</h3>
+      <canvas id="chartIndicador" height="160"></canvas></div>
+    <div class="card"><h3>Clasificación RM</h3>
+      <canvas id="chartRM" height="160"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h3>Tabla Detallada por Unidad</h3>
+    <div class="tabla-scroll"><table id="tabla"></table></div>
+  </div>
+</div>
+
+<footer id="footer"></footer>
+
+<script src="data.js"></script>
+<script>
+const D = window.DASHBOARD_DATA;
+const MOD = ["Cardiología","Densitometría","Ecosonografía","Mamografía","Radiología","RM","Tomografía"];
+const charts = {};
+
+function colorInd(v){ if(v==null)return ''; return v>=95?'verde':v>=90?'amarillo':'rojo'; }
+function fmtHoras(v){ if(v==null)return '–'; const n=v<0; v=Math.abs(v);
+  const h=Math.floor(v), m=Math.round((v-h)*60); return (n?'-':'')+String(h).padStart(2,'0')+':'+String(m).padStart(2,'0'); }
+function num(v){ return v==null?'–':(typeof v==='number'?Math.round(v):v); }
+
+function tablaActual(){
+  const p = document.getElementById('periodo').value;
+  return p==='acumulado' ? D.acumulado : (D.por_semana[p]||[]);
+}
+
+function initControles(){
+  const per = document.getElementById('periodo');
+  per.innerHTML = '<option value="acumulado">Acumulado (todas)</option>' +
+    D.semanas.map(s=>`<option value="${s}">Semana ${s}</option>`).join('');
+  const uni = document.getElementById('unidad');
+  uni.innerHTML = D.acumulado.map(r=>{
+    const nom = r.Unidad==='General'?'General (todas)':(D.sucursales[r.Unidad]||r.Unidad);
+    return `<option value="${r.Unidad}">${nom}</option>`;
+  }).join('');
+  per.onchange = render;
+  uni.onchange = render;
+
+  const r = D.rango;
+  document.getElementById('subtitulo').textContent =
+    `Periodo ${r.inicio} al ${r.fin} · ${D.total_registros.toLocaleString()} registros · ${D.semanas.length} semana(s)`;
+  document.getElementById('generado').textContent =
+    'Actualizado: ' + new Date(D.generado).toLocaleString('es-MX');
+}
+
+function render(){
+  const tabla = tablaActual();
+  const unidadSel = document.getElementById('unidad').value;
+  const fila = tabla.find(r=>r.Unidad===unidadSel) || tabla[0];
+  renderKPIs(fila);
+  renderTabla(tabla, unidadSel);
+  renderCharts(tabla, fila);
+}
+
+function renderKPIs(f){
+  const ind = f.indicador;
+  const k = [
+    {label:'Indicador Cumplimiento', value: ind!=null?ind.toFixed(1)+'%':'–', cls:colorInd(ind), sub:'Meta ≥ 95%'},
+    {label:'Estudios Catalogados', value:num(f.estudios), cls:'', sub:'con modalidad'},
+    {label:'Incumplimientos', value:num(f.incumplimiento), cls: f.incumplimiento>0?'rojo':'verde', sub:'tardíos (-24h a 0)'},
+    {label:'Registros Totales', value:num(f.modalidades_total), cls:'', sub:'todos los departamentos'},
+  ];
+  document.getElementById('kpis').innerHTML = k.map(x=>
+    `<div class="kpi ${x.cls}"><div class="label">${x.label}</div>
+     <div class="value">${x.value}</div><div class="sub">${x.sub}</div></div>`).join('');
+}
+
+function renderTabla(tabla){
+  const cols = [['Unidad','Unidad'],['Indicador','indicador'],['Estudios','estudios'],
+    ['Incump.','incumplimiento'],['Total','modalidades_total'],
+    ['Cardio','Cardiología'],['Densito','Densitometría'],['Ecoso','Ecosonografía'],
+    ['Mamo','Mamografía'],['Radio','Radiología'],['RM','RM'],
+    ['RM 5h','RM_5h'],['RM 24h','RM_24h'],['RM 48h','RM_48h'],['Tomo','Tomografía']];
+  let html = '<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>';
+  tabla.forEach(r=>{
+    html += `<tr class="${r.Unidad==='General'?'general':''}">`;
+    cols.forEach(c=>{
+      let v = r[c[1]];
+      if(c[1]==='Unidad'){ v = r.Unidad==='General'?'General':(D.sucursales[r.Unidad]||r.Unidad); }
+      else if(c[1]==='indicador'){ v = v!=null?`<span class="badge ${colorInd(v)}">${v.toFixed(1)}%</span>`:'–'; }
+      else { v = num(v); }
+      html += `<td>${v}</td>`;
+    });
+    html += '</tr>';
+  });
+  document.getElementById('tabla').innerHTML = html + '</tbody>';
+}
+
+function mkChart(id,cfg){ if(charts[id])charts[id].destroy(); charts[id]=new Chart(document.getElementById(id),cfg); }
+
+function renderCharts(tabla, fila){
+  // Modalidades (barras) — de la unidad seleccionada
+  mkChart('chartModalidades',{type:'bar',
+    data:{labels:MOD,datasets:[{label:'Estudios',data:MOD.map(m=>fila[m]||0),
+      backgroundColor:'#2E5FA3',borderRadius:4}]},
+    options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}});
+
+  // TE (barras horizontales)
+  mkChart('chartTE',{type:'bar',
+    data:{labels:MOD,datasets:[{label:'Horas',data:MOD.map(m=>fila['TE_'+m]||0),
+      backgroundColor:'#70AD47',borderRadius:4}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false},
+      tooltip:{callbacks:{label:c=>fmtHoras(c.raw)+' h'}}},scales:{x:{beginAtZero:true}}}});
+
+  // Indicador por sucursal (sin General)
+  const suc = tabla.filter(r=>r.Unidad!=='General');
+  mkChart('chartIndicador',{type:'bar',
+    data:{labels:suc.map(r=>r.Unidad),datasets:[{label:'Indicador %',
+      data:suc.map(r=>r.indicador!=null?+r.indicador.toFixed(1):0),
+      backgroundColor:suc.map(r=>r.indicador>=95?'#70AD47':r.indicador>=90?'#E0A800':'#D9534F'),
+      borderRadius:4}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true,max:100,ticks:{callback:v=>v+'%'}}}}});
+
+  // RM doughnut — unidad seleccionada
+  mkChart('chartRM',{type:'doughnut',
+    data:{labels:['RM 5h','RM 24h','RM 48h'],
+      datasets:[{data:[fila.RM_5h||0,fila.RM_24h||0,fila.RM_48h||0],
+        backgroundColor:['#2E5FA3','#E0A800','#D9534F']}]},
+    options:{plugins:{legend:{position:'bottom'}}}});
+}
+
+if(!D){ document.querySelector('.wrap').innerHTML='<div class="no-data">No hay datos. Ejecuta <code>python procesar.py</code> para generarlos.</div>'; }
+else { initControles(); render();
+  document.getElementById('footer').textContent='Dashboard de Entrega de Resultados · Generado con procesar.py'; }
+</script>
+</body>
+</html>

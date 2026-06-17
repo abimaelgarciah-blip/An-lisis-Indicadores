@@ -529,6 +529,51 @@ def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
         json.dump(clean(data), f, ensure_ascii=False, indent=2, default=str)
 
 
+def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
+                 semanas_presentes, fecha_min, fecha_max):
+    """Genera docs/data.js con los datos para el dashboard web (GitHub Pages)."""
+    def clean(obj):
+        if isinstance(obj, dict):
+            return {k: clean(v) for k, v in obj.items()}
+        if isinstance(obj, list):
+            return [clean(v) for v in obj]
+        if isinstance(obj, datetime.date):
+            return obj.isoformat()
+        if isinstance(obj, float) and obj != obj:
+            return None
+        return obj
+
+    # Rango de fechas por semana
+    rangos = {}
+    for sem in semanas_presentes:
+        fechas = [r["fecha"] for r in todas_las_filas
+                  if r.get("semana") == sem and r["fecha"]]
+        if fechas:
+            rangos[str(sem)] = {"inicio": min(fechas).isoformat(),
+                                "fin": max(fechas).isoformat()}
+
+    data = {
+        "generado":   datetime.datetime.now().isoformat(),
+        "rango":      {"inicio": fecha_min.isoformat(), "fin": fecha_max.isoformat()},
+        "semanas":    sorted(str(s) for s in semanas_presentes),
+        "rangos":     rangos,
+        "acumulado":  tabla_acum,
+        "por_semana": tabla_por_semana,
+        "sucursales": SUCURSALES,
+        "total_registros": len(todas_las_filas),
+    }
+
+    DOCS_DIR = Path(__file__).parent / "docs"
+    DOCS_DIR.mkdir(exist_ok=True)
+    ruta = DOCS_DIR / "data.js"
+    with open(ruta, "w", encoding="utf-8") as f:
+        f.write("// Generado automáticamente por procesar.py — no editar a mano\n")
+        f.write("window.DASHBOARD_DATA = ")
+        json.dump(clean(data), f, ensure_ascii=False, indent=2, default=str)
+        f.write(";\n")
+    return ruta
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -627,6 +672,11 @@ def main():
     # Generar JSON
     exportar_json(tabla_acum, tabla_por_semana, todas_las_filas, ruta_json)
     print(f"✓ JSON  generado: {ruta_json}")
+
+    # Generar datos para el dashboard web (GitHub Pages)
+    ruta_web = exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
+                            semanas_presentes, fecha_min, fecha_max)
+    print(f"✓ Web   generado: {ruta_web}")
 
     # Resumen rápido en consola
     general = tabla_acum[0]
