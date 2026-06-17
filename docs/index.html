@@ -49,6 +49,7 @@
   td:first-child,th:first-child{text-align:left;font-weight:600;}
   tr.general{background:var(--azul-claro);font-weight:700;}
   tr:not(.general):nth-child(even){background:#f8fafc;}
+  tr.sel{outline:2px solid var(--azul);outline-offset:-2px;background:#fff4d6 !important;}
   .tabla-scroll{overflow-x:auto;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
   .badge{display:inline-block;padding:3px 10px;border-radius:12px;
          font-weight:700;font-size:12px;color:#fff;}
@@ -56,6 +57,17 @@
   .badge.rojo{background:var(--rojo);}
   footer{text-align:center;padding:20px;color:#999;font-size:12px;}
   .no-data{text-align:center;padding:60px;color:#999;}
+  /* Pestañas por sucursal */
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:24px;
+        border-bottom:2px solid var(--borde);padding-bottom:0;}
+  .tab{padding:10px 18px;border:none;background:transparent;cursor:pointer;
+       font-size:14px;font-weight:600;color:#7a8aa0;border-radius:8px 8px 0 0;
+       border-bottom:3px solid transparent;transition:all .15s;}
+  .tab:hover{background:#eef3fa;color:var(--azul);}
+  .tab.activa{color:var(--azul-oscuro);border-bottom-color:var(--azul);
+              background:#fff;box-shadow:0 -1px 4px rgba(0,0,0,.05);}
+  .tab .punto{display:inline-block;width:8px;height:8px;border-radius:50%;
+              margin-left:6px;vertical-align:middle;}
 </style>
 </head>
 <body>
@@ -68,17 +80,17 @@
   <div class="controls">
     <label for="periodo">Periodo:</label>
     <select id="periodo"></select>
-    <label for="unidad">Unidad:</label>
-    <select id="unidad"></select>
     <span id="generado" style="margin-left:auto;font-size:12px;color:#999;"></span>
   </div>
+
+  <div class="tabs" id="tabs"></div>
 
   <div class="kpis" id="kpis"></div>
 
   <div class="grid2">
-    <div class="card"><h3>Estudios por Modalidad</h3>
+    <div class="card"><h3>Estudios por Modalidad <span id="tit1" style="font-weight:400;color:#888"></span></h3>
       <canvas id="chartModalidades" height="160"></canvas></div>
-    <div class="card"><h3>Tiempo de Entrega Promedio (horas)</h3>
+    <div class="card"><h3>Tiempo de Entrega Promedio (horas) <span id="tit2" style="font-weight:400;color:#888"></span></h3>
       <canvas id="chartTE" height="160"></canvas></div>
   </div>
 
@@ -108,22 +120,38 @@ function fmtHoras(v){ if(v==null)return '–'; const n=v<0; v=Math.abs(v);
   const h=Math.floor(v), m=Math.round((v-h)*60); return (n?'-':'')+String(h).padStart(2,'0')+':'+String(m).padStart(2,'0'); }
 function num(v){ return v==null?'–':(typeof v==='number'?Math.round(v):v); }
 
+let UNIDAD_SEL = 'General';   // pestaña activa
+
 function tablaActual(){
   const p = document.getElementById('periodo').value;
   return p==='acumulado' ? D.acumulado : (D.por_semana[p]||[]);
+}
+
+function colorPunto(v){ if(v==null)return '#ccc'; return v>=95?'#70AD47':v>=90?'#E0A800':'#D9534F'; }
+
+function renderTabs(){
+  const tabla = tablaActual();
+  const cont = document.getElementById('tabs');
+  cont.innerHTML = D.acumulado.map(r=>{
+    const nom = r.Unidad==='General' ? 'General' : (D.sucursales[r.Unidad]||r.Unidad);
+    // indicador de esta unidad en el periodo actual (para el puntito de color)
+    const filaP = tabla.find(x=>x.Unidad===r.Unidad);
+    const ind = filaP ? filaP.indicador : null;
+    const activa = r.Unidad===UNIDAD_SEL ? 'activa' : '';
+    const punto = r.Unidad==='General' ? '' :
+      `<span class="punto" style="background:${colorPunto(ind)}"></span>`;
+    return `<button class="tab ${activa}" data-unidad="${r.Unidad}">${nom}${punto}</button>`;
+  }).join('');
+  cont.querySelectorAll('.tab').forEach(b=>{
+    b.onclick = ()=>{ UNIDAD_SEL = b.dataset.unidad; render(); };
+  });
 }
 
 function initControles(){
   const per = document.getElementById('periodo');
   per.innerHTML = '<option value="acumulado">Acumulado (todas)</option>' +
     D.semanas.map(s=>`<option value="${s}">Semana ${s}</option>`).join('');
-  const uni = document.getElementById('unidad');
-  uni.innerHTML = D.acumulado.map(r=>{
-    const nom = r.Unidad==='General'?'General (todas)':(D.sucursales[r.Unidad]||r.Unidad);
-    return `<option value="${r.Unidad}">${nom}</option>`;
-  }).join('');
   per.onchange = render;
-  uni.onchange = render;
 
   const r = D.rango;
   document.getElementById('subtitulo').textContent =
@@ -134,11 +162,16 @@ function initControles(){
 
 function render(){
   const tabla = tablaActual();
-  const unidadSel = document.getElementById('unidad').value;
-  const fila = tabla.find(r=>r.Unidad===unidadSel) || tabla[0];
+  // si la unidad seleccionada no existe en el periodo, volver a General
+  if(!tabla.find(r=>r.Unidad===UNIDAD_SEL)) UNIDAD_SEL = 'General';
+  const fila = tabla.find(r=>r.Unidad===UNIDAD_SEL) || tabla[0];
+  renderTabs();
   renderKPIs(fila);
-  renderTabla(tabla, unidadSel);
+  renderTabla(tabla, UNIDAD_SEL);
   renderCharts(tabla, fila);
+  const nom = UNIDAD_SEL==='General' ? 'General' : (D.sucursales[UNIDAD_SEL]||UNIDAD_SEL);
+  document.getElementById('tit1').textContent = '· '+nom;
+  document.getElementById('tit2').textContent = '· '+nom;
 }
 
 function renderKPIs(f){
@@ -154,7 +187,7 @@ function renderKPIs(f){
      <div class="value">${x.value}</div><div class="sub">${x.sub}</div></div>`).join('');
 }
 
-function renderTabla(tabla){
+function renderTabla(tabla, sel){
   const cols = [['Unidad','Unidad'],['Indicador','indicador'],['Estudios','estudios'],
     ['Incump.','incumplimiento'],['Total','modalidades_total'],
     ['Cardio','Cardiología'],['Densito','Densitometría'],['Ecoso','Ecosonografía'],
@@ -162,7 +195,8 @@ function renderTabla(tabla){
     ['RM 5h','RM_5h'],['RM 24h','RM_24h'],['RM 48h','RM_48h'],['Tomo','Tomografía']];
   let html = '<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>';
   tabla.forEach(r=>{
-    html += `<tr class="${r.Unidad==='General'?'general':''}">`;
+    const clase = (r.Unidad==='General'?'general':'') + (r.Unidad===sel?' sel':'');
+    html += `<tr class="${clase.trim()}">`;
     cols.forEach(c=>{
       let v = r[c[1]];
       if(c[1]==='Unidad'){ v = r.Unidad==='General'?'General':(D.sucursales[r.Unidad]||r.Unidad); }
