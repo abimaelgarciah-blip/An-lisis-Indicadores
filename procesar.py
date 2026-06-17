@@ -152,8 +152,11 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
         af_hours = parse_af_hours(af_str)
 
         fecha = None
+        hora_alta = None
         if isinstance(fecha_alta_raw, float) and fecha_alta_raw:
-            fecha = xlrd.xldate_as_datetime(fecha_alta_raw, wb.datemode).date()
+            dt = xlrd.xldate_as_datetime(fecha_alta_raw, wb.datemode)
+            fecha = dt.date()
+            hora_alta = dt.hour
 
         # Tiempos de proceso adicionales (en horas si son float, else None)
         gc = float(row[28]) if row[28] and isinstance(row[28], (int, float)) else None
@@ -171,6 +174,7 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
             "gf":              gf,   # alta → recibe entrega
             "usuario_recibe":  usuario_recibe,
             "fecha":           fecha,
+            "hora_alta":       hora_alta,
             "semana":          semana,
             "archivo":         filepath.name,
         })
@@ -626,22 +630,40 @@ def _analisis_web(rows):
 
     # ── Distribución A-F de incumplimientos (histograma en intervalos de 1h) ─
     incump_rows = [r for r in rows if es_incumplimiento(r["af"])]
-    # buckets: 0-1h, 1-2h, 2-3h, ... -23h a -24h
     buckets = defaultdict(int)
     for r in incump_rows:
-        b = int(abs(r["af"]))  # horas enteras (0 = <1h, 1 = 1-2h, etc.)
+        b = int(abs(r["af"]))
         buckets[b] += 1
     dist_af = [{"hora": h, "n": buckets.get(h, 0)} for h in range(24)]
 
+    # ── Mapa de calor horario: hora (7-21) × departamento ────────────────────
+    HORAS = list(range(7, 22))
+    deptos_incump = sorted({r["depto"] for r in incump_rows})
+    calor_hora = {}
+    for d in deptos_incump:
+        calor_hora[d] = {}
+        for h in HORAS:
+            calor_hora[d][h] = sum(
+                1 for r in incump_rows
+                if r["depto"] == d and r.get("hora_alta") == h
+            )
+    # Total por hora (todos los deptos)
+    total_hora = {h: sum(1 for r in incump_rows if r.get("hora_alta") == h)
+                  for h in HORAS}
+
     return {
-        "incump_depto":       incump_depto,
+        "incump_depto":        incump_depto,
         "top_estudios_incump": top_estudios_incump,
-        "calor_deptos":       deptos_modal,
-        "calor_sucursales":   SUCURSALES_ORD,
-        "calor":              calor,
-        "tiempos_modal":      tiempos_modal,
-        "usuarios_recibe":    usuarios_recibe,
-        "dist_af":            dist_af,
+        "calor_deptos":        deptos_modal,
+        "calor_sucursales":    SUCURSALES_ORD,
+        "calor":               calor,
+        "tiempos_modal":       tiempos_modal,
+        "usuarios_recibe":     usuarios_recibe,
+        "dist_af":             dist_af,
+        "calor_hora":          calor_hora,
+        "calor_hora_total":    total_hora,
+        "calor_hora_deptos":   deptos_incump,
+        "calor_horas":         HORAS,
     }
 
 

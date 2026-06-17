@@ -102,13 +102,25 @@ tr:hover{background:#edf3fb;}
 .badge.verde{background:var(--verde);}.badge.amari{background:var(--amari);}
 .badge.rojo{background:var(--rojo);}
 
-/* ── Mapa de calor ── */
+/* ── Mapa de calor (sucursal) ── */
 .calor-wrap{overflow-x:auto;}
 .calor-tabla{border-collapse:collapse;font-size:12px;width:100%;}
 .calor-tabla th{background:var(--azul);color:#fff;padding:7px 10px;
                 font-size:11px;white-space:nowrap;}
 .calor-tabla td{padding:7px 10px;text-align:center;font-weight:700;font-size:12px;}
 .calor-tabla td.etq{text-align:left;font-weight:600;color:#4a5e78;background:#f7f9fc;}
+
+/* ── Mapa de calor horario ── */
+.calor-hora-tabla{border-collapse:collapse;font-size:11px;width:100%;}
+.calor-hora-tabla th{background:var(--azul);color:#fff;padding:5px 8px;
+                     font-size:10px;white-space:nowrap;text-align:center;}
+.calor-hora-tabla th.depto-th{text-align:left;min-width:130px;}
+.calor-hora-tabla td{padding:5px 8px;text-align:center;font-size:11px;
+                     font-weight:700;border:1px solid #e8ecf2;}
+.calor-hora-tabla td.etq{text-align:left;font-weight:600;color:#4a5e78;
+                          background:#f7f9fc;white-space:nowrap;border:1px solid #e8ecf2;}
+.calor-hora-tabla tr.total-row td{border-top:2px solid #fff;}
+.calor-hora-tabla tr.total-row td.etq{font-weight:800;color:var(--azul);}
 
 /* ── Barra de usuario ── */
 .usr-bar{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
@@ -177,18 +189,27 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
       </div>
     </div>
 
-    <div class="grid2">
+    <div class="grid2" style="margin-bottom:20px;">
       <!-- Incumplimiento por departamento -->
       <div class="card">
         <h3>Incumplimiento por Departamento</h3>
-        <canvas id="chartIncDepto" height="190"></canvas>
+        <canvas id="chartIncDepto" height="210"></canvas>
       </div>
 
       <!-- Top estudios con incumplimiento -->
       <div class="card">
         <h3>Estudios con más Incumplimientos</h3>
-        <canvas id="chartTopEstudios" height="190"></canvas>
+        <canvas id="chartTopEstudios" height="210"></canvas>
       </div>
+    </div>
+
+    <!-- Mapa de calor horario -->
+    <div class="card">
+      <h3>Mapa de Calor Horario — Incumplimientos por hora y departamento (07:00 – 21:00)</h3>
+      <div style="overflow-x:auto;margin-top:8px;" id="mapaCalorHora"></div>
+      <p style="font-size:11px;color:#aab;margin-top:10px;">
+        Celda vacía (–) = sin incumplimientos en ese horario. Color más intenso = mayor concentración de retrasos.
+      </p>
     </div>
   </div>
 
@@ -383,21 +404,28 @@ function renderIncDepto(){
   const items = (a.incump_depto||[]).filter(x=>x.incump>0)
                                      .sort((a,b)=>b.incump-a.incump)
                                      .slice(0,10);
+  const labels = items.map(x=>x.depto.replace('Tomografía Axial Computada','TAC')
+                                       .replace('Resonancia Magnética','RM'));
   mk('chartIncDepto',{type:'bar',
-    data:{labels:items.map(x=>x.depto.replace('Tomografía Axial Computada','TAC')
-                                       .replace('Resonancia Magnética','RM')),
+    data:{labels,
       datasets:[
-        {label:'Incumplimientos',data:items.map(x=>x.incump),backgroundColor:'#c0392b',borderRadius:3,yAxisID:'y'},
+        // order:1 → se renderiza encima de las barras (order más bajo = encima)
         {label:'% Cumplimiento',data:items.map(x=>x.pct_cumpl),
-         type:'line',borderColor:'#2e5fa3',backgroundColor:'#2e5fa320',
-         yAxisID:'y2',tension:.3,pointRadius:4}
+         type:'line',order:1,
+         borderColor:'#2e5fa3',backgroundColor:'#2e5fa340',
+         yAxisID:'y2',tension:.3,pointRadius:5,pointHoverRadius:7,
+         pointBackgroundColor:'#2e5fa3',borderWidth:2,fill:false},
+        {label:'Incumplimientos',data:items.map(x=>x.incump),
+         order:2,backgroundColor:'#c0392b',borderRadius:4,yAxisID:'y'}
       ]},
-    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11}}}},
-      scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'Incumplimientos'}},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},
+               usePointStyle:true,pointStyleWidth:10}}},
+      scales:{y:{beginAtZero:true,position:'left',
+                 title:{display:true,text:'Incumplimientos',font:{size:11}}},
               y2:{beginAtZero:false,min:85,max:100,position:'right',
                   grid:{drawOnChartArea:false},
-                  ticks:{callback:v=>v+'%'},
-                  title:{display:true,text:'% Cumplimiento'}}}}});
+                  ticks:{callback:v=>v+'%',font:{size:11}},
+                  title:{display:true,text:'% Cumplimiento',font:{size:11}}}}}});
 }
 
 function renderTopEstudios(){
@@ -412,6 +440,59 @@ function renderTopEstudios(){
     options:{indexAxis:'y',plugins:{legend:{display:false}},
       scales:{x:{beginAtZero:true,ticks:{stepSize:1}},
               y:{ticks:{font:{size:10}}}}}});
+}
+
+function renderMapaCalorHora(){
+  const a    = analisisActivo();
+  const hora = a.calor_hora        || {};
+  const tot  = a.calor_hora_total  || {};
+  const deps = a.calor_hora_deptos || [];
+  const hs   = (a.calor_horas || []).filter(h=>h>=7 && h<=21);
+
+  // Máximo global para escalar colores
+  const maxVal = Math.max(1, ...Object.values(tot).map(Number));
+
+  function bgHora(v){
+    if(!v) return '#f7f9fc';
+    const p = v / maxVal;
+    if(p >= .8) return '#7b1010';
+    if(p >= .6) return '#c0392b';
+    if(p >= .4) return '#e87722';
+    if(p >= .2) return '#d4920a';
+    if(p >  0)  return '#f0c040';
+    return '#f7f9fc';
+  }
+  function tcHora(v){ return v && v/maxVal >= .2 ? '#fff' : '#5a6a7a'; }
+
+  let html = '<table class="calor-hora-tabla"><thead><tr>'
+    + '<th class="depto-th">Departamento</th>'
+    + hs.map(h=>`<th>${h}:00</th>`).join('')
+    + '<th>Total</th></tr></thead><tbody>';
+
+  // Fila por departamento
+  deps.forEach(d=>{
+    const short = d.replace('Tomografía Axial Computada','TAC')
+                   .replace('Resonancia Magnética','RM')
+                   .replace('Ecosonografía','Ecosono.');
+    const rowTot = hs.reduce((s,h)=>s+(hora[d]?.[h]||0),0);
+    html += `<tr><td class="etq">${short}</td>`;
+    hs.forEach(h=>{
+      const v = hora[d]?.[h] || 0;
+      html += `<td style="background:${bgHora(v)};color:${tcHora(v)};">${v||'–'}</td>`;
+    });
+    html += `<td style="background:#1f3864;color:#fff;font-weight:800;">${rowTot}</td></tr>`;
+  });
+
+  // Fila total
+  const totalGlobal = hs.reduce((s,h)=>s+(tot[h]||0),0);
+  html += '<tr class="total-row"><td class="etq" style="background:#1f3864;color:#fff;">TOTAL</td>';
+  hs.forEach(h=>{
+    const v = tot[h] || 0;
+    html += `<td style="background:${bgHora(v)};color:${tcHora(v)};">${v||'–'}</td>`;
+  });
+  html += `<td style="background:#1a2a4a;color:#fff;font-weight:800;">${totalGlobal}</td></tr>`;
+
+  document.getElementById('mapaCalorHora').innerHTML = html + '</tbody></table>';
 }
 
 // ── Sección 2: Estudios ───────────────────────────────────────────────────────
@@ -546,6 +627,7 @@ function render(){
   renderDistAF();
   renderIncDepto();
   renderTopEstudios();
+  renderMapaCalorHora();
   // S2
   renderKpisEstudios();
   renderEstDeptoBar();
