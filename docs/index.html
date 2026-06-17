@@ -122,7 +122,7 @@ tr:hover{background:#edf3fb;}
 .calor-hora-tabla tr.total-row td{border-top:2px solid #fff;}
 .calor-hora-tabla tr.total-row td.etq{font-weight:800;color:var(--azul);}
 
-/* ── Barra de usuario ── */
+/* ── Barras genéricas (usuario / interpretaciones) ── */
 .usr-bar{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
 .usr-nombre{font-size:12px;font-weight:600;color:var(--texto);min-width:200px;}
 .usr-pista{flex:1;height:18px;background:#edf1f7;border-radius:4px;overflow:hidden;}
@@ -272,6 +272,50 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
     <div class="card" style="margin-top:20px;">
       <h3>Detalle por Usuario</h3>
       <div class="tabla-scroll"><table id="tablaUsuarios"></table></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       SECCIÓN 4 · INTERPRETACIONES EXA / SIO
+  ═══════════════════════════════════════════════════════ -->
+  <div class="seccion">
+    <div class="sec-titulo"><span>🩻</span> Interpretaciones por Usuario</div>
+
+    <!-- Selector de semana propio para interpretaciones -->
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;
+                background:#fff;padding:12px 16px;border-radius:8px;
+                box-shadow:0 1px 3px rgba(0,0,0,.06);">
+      <span style="font-weight:700;font-size:12px;color:#6a7d95;text-transform:uppercase;">Semana:</span>
+      <div id="interp-tabs" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
+    </div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <!-- EXA -->
+      <div class="card">
+        <h3 style="color:#1a6e38;">🔬 EXA — Interpretaciones por Radiólogo</h3>
+        <div id="exaBarras" style="margin-top:10px;"></div>
+        <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;">
+          <canvas id="chartExaDona" height="200"></canvas>
+        </div>
+      </div>
+
+      <!-- SIO -->
+      <div class="card">
+        <h3 style="color:#2e5fa3;">📋 SIO — Interpretaciones por Transcriptor</h3>
+        <div id="sioBarras" style="margin-top:10px;"></div>
+        <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;">
+          <canvas id="chartSioDona" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparativo EXA vs SIO -->
+    <div class="card">
+      <h3>Comparativo de Interpretaciones — EXA vs SIO</h3>
+      <div class="grid2" style="gap:16px;">
+        <div id="exaTabla"></div>
+        <div id="sioTabla"></div>
+      </div>
     </div>
   </div>
 
@@ -617,6 +661,107 @@ function renderUsuarios(){
   document.getElementById('tablaUsuarios').innerHTML = html+'</tbody>';
 }
 
+// ── Sección 4: Interpretaciones ──────────────────────────────────────────────
+let INTERP_SEM = 'acumulado';
+
+const PALETA_EXA = ['#1a6e38','#2d9e56','#52a53f','#80c46a','#a3c96b',
+                    '#c6e0a0','#e8f4d8','#b8dbc0','#5ab87a','#3a9e60'];
+const PALETA_SIO = ['#1f3864','#2e5fa3','#4472c4','#5b9bd5','#70b0e0',
+                    '#8dc5ef','#a8d4f5','#3a6fbe','#2456a0','#1a4080'];
+
+function interpActual(sistema){
+  const interp = D.interpretaciones?.[sistema];
+  if(!interp) return {};
+  if(INTERP_SEM === 'acumulado') return interp.acumulado || {};
+  return interp.por_semana?.[INTERP_SEM] || {};
+}
+
+function renderInterpTabs(){
+  const sems = D.semanas || [];
+  document.getElementById('interp-tabs').innerHTML =
+    ['acumulado',...sems].map(s=>{
+      const lbl = s==='acumulado'?'Acumulado (todas)':`Semana ${s}`;
+      const act = s===INTERP_SEM;
+      return `<button onclick="INTERP_SEM='${s}';renderInterpSection();"
+        style="padding:6px 14px;border:none;border-radius:20px;cursor:pointer;
+               font-size:12px;font-weight:600;
+               background:${act?'#2e5fa3':'#eef3fa'};
+               color:${act?'#fff':'#6a7d95'};">${lbl}</button>`;
+    }).join('');
+}
+
+function barrasInterp(datos, containerId, paleta, maxExterno){
+  const items = Object.entries(datos).sort((a,b)=>b[1]-a[1]);
+  const maxVal = maxExterno || (items[0]?.[1] || 1);
+  const total  = items.reduce((s,x)=>s+x[1],0);
+  document.getElementById(containerId).innerHTML = items.map(([usr,n],i)=>{
+    const w   = Math.round(n/maxVal*100);
+    const nom = usr.length>32 ? usr.slice(0,32)+'…' : usr;
+    const col = paleta[i % paleta.length];
+    return `<div class="usr-bar">
+      <div class="usr-nombre" style="min-width:210px;font-size:12px;" title="${usr}">${nom}</div>
+      <div class="usr-pista" style="flex:1;height:16px;background:#edf1f7;border-radius:4px;overflow:hidden;">
+        <div style="width:${w}%;height:100%;background:${col};border-radius:4px;transition:width .4s;"></div>
+      </div>
+      <div style="font-size:12px;font-weight:800;color:${col};min-width:36px;text-align:right;">${n}</div>
+      <div style="font-size:11px;color:#aab;min-width:42px;text-align:right;">${total?(n/total*100).toFixed(1)+'%':'–'}</div>
+    </div>`;
+  }).join('');
+}
+
+function donaInterp(datos, canvasId, paleta){
+  const items = Object.entries(datos).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const labels = items.map(([u])=>{
+    const parts = u.split(/[, ]+/);
+    return parts.length>=2 ? parts[0]+' '+parts[1] : u.slice(0,16);
+  });
+  mk(canvasId,{type:'doughnut',
+    data:{labels, datasets:[{data:items.map(([,n])=>n),
+      backgroundColor:paleta,borderWidth:1}]},
+    options:{plugins:{legend:{position:'bottom',
+      labels:{font:{size:10},boxWidth:10}}}}});
+}
+
+function tablaInterp(datos, containerId, color){
+  const items = Object.entries(datos).sort((a,b)=>b[1]-a[1]);
+  const total  = items.reduce((s,x)=>s+x[1],0);
+  let html = `<table style="width:100%;border-collapse:collapse;font-size:12px;">
+    <thead><tr>
+      <th style="background:${color};color:#fff;padding:7px 10px;text-align:left;">Usuario</th>
+      <th style="background:${color};color:#fff;padding:7px 10px;">Estudios</th>
+      <th style="background:${color};color:#fff;padding:7px 10px;">%</th>
+    </tr></thead><tbody>`;
+  items.forEach(([usr,n],i)=>{
+    const pct = total ? (n/total*100).toFixed(1)+'%' : '–';
+    html += `<tr style="background:${i%2?'#f7f9fc':'#fff'}">
+      <td style="padding:6px 10px;">${usr}</td>
+      <td style="padding:6px 10px;text-align:center;font-weight:700;">${n}</td>
+      <td style="padding:6px 10px;text-align:center;color:#8899aa;">${pct}</td>
+    </tr>`;
+  });
+  const bold = `font-weight:800;color:${color};`;
+  html += `<tr style="background:#f0f3f8;border-top:2px solid ${color}">
+    <td style="padding:6px 10px;${bold}">TOTAL</td>
+    <td style="padding:6px 10px;text-align:center;${bold}">${total}</td>
+    <td style="padding:6px 10px;text-align:center;${bold}">100%</td>
+  </tr>`;
+  document.getElementById(containerId).innerHTML = html+'</tbody></table>';
+}
+
+function renderInterpSection(){
+  renderInterpTabs();
+  const exa = interpActual('exa');
+  const sio = interpActual('sio');
+  const maxExa = Math.max(1,...Object.values(exa).map(Number));
+  const maxSio = Math.max(1,...Object.values(sio).map(Number));
+  barrasInterp(exa, 'exaBarras', PALETA_EXA, maxExa);
+  barrasInterp(sio, 'sioBarras', PALETA_SIO, maxSio);
+  donaInterp(exa, 'chartExaDona', PALETA_EXA);
+  donaInterp(sio, 'chartSioDona', PALETA_SIO);
+  tablaInterp(exa, 'exaTabla', '#1a6e38');
+  tablaInterp(sio, 'sioTabla', '#2e5fa3');
+}
+
 // ── Render principal ──────────────────────────────────────────────────────────
 function render(){
   const t = tablaActual();
@@ -636,6 +781,8 @@ function render(){
   renderTablaModal();
   // S3
   renderUsuarios();
+  // S4
+  renderInterpSection();
 }
 
 if(!D){

@@ -118,6 +118,84 @@ def fmt_horas(val):
     return f"{'-' if neg else ''}{h:02d}:{mn:02d}"
 
 
+# ── Interpretaciones (EXA / SIO) ─────────────────────────────────────────────
+
+INTERP_DIR = Path(__file__).parent / "datos" / "interpretaciones"
+
+
+def _semana_interp(path: Path) -> int | None:
+    m = re.search(r"[Ss]emana[_\s]*(\d+)|[Ww]eek[_\s]*(\d+)", path.stem)
+    if m:
+        return int(m.group(1) or m.group(2))
+    return None
+
+
+def leer_exa(path: Path) -> dict:
+    """Lee un archivo EXA .xlsx y retorna {usuario: total_estudios}."""
+    wb = openpyxl.load_workbook(str(path))
+    ws = wb.active
+    usuarios = {}
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        user, _, _, _, count = (list(row) + [None]*5)[:5]
+        if user:
+            usuarios[str(user).strip()] = int(count) if count else 0
+    return usuarios
+
+
+def leer_sio(path: Path) -> dict:
+    """Lee un archivo SIO .xls y retorna {usuario: total_estudios}."""
+    wb = xlrd.open_workbook(str(path))
+    ws = wb.sheet_by_index(0)
+    # Fila 3: nombres de usuario (cols 1 en adelante, hasta 'Total' o 'sio')
+    usuarios_row = ws.row_values(3)
+    totales_row  = ws.row_values(21)
+    resultado = {}
+    for i, usr in enumerate(usuarios_row):
+        if not usr or usr in ("Total", "sio"):
+            continue
+        total = totales_row[i] if i < len(totales_row) else 0
+        if total:
+            resultado[str(usr).strip()] = int(total)
+    return resultado
+
+
+def leer_todas_interpretaciones() -> dict:
+    """
+    Lee todos los archivos EXA y SIO de datos/interpretaciones/.
+    Retorna dict con claves 'exa' y 'sio', cada una con:
+      { 'acumulado': {usuario: n}, 'por_semana': {semana: {usuario: n}} }
+    """
+    resultado = {
+        "exa": {"acumulado": {}, "por_semana": {}},
+        "sio": {"acumulado": {}, "por_semana": {}},
+    }
+    if not INTERP_DIR.exists():
+        return resultado
+
+    for path in sorted(INTERP_DIR.iterdir()):
+        sem = _semana_interp(path)
+        nombre = path.name.lower()
+        if "exa" in nombre and path.suffix in (".xlsx", ".xls"):
+            datos = leer_exa(path) if path.suffix == ".xlsx" else {}
+            sistema = "exa"
+        elif "sio" in nombre and path.suffix in (".xls", ".xlsx"):
+            datos = leer_sio(path) if path.suffix == ".xls" else {}
+            sistema = "sio"
+        else:
+            continue
+
+        if sem:
+            resultado[sistema]["por_semana"][str(sem)] = datos
+
+        # Acumular
+        for usr, n in datos.items():
+            resultado[sistema]["acumulado"][usr] = (
+                resultado[sistema]["acumulado"].get(usr, 0) + n
+            )
+
+    return resultado
+
+
 # ── Lectura de XLS ────────────────────────────────────────────────────────────
 
 def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
@@ -708,6 +786,7 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         "total_registros": len(todas_las_filas),
         "analisis":        analisis_acum,
         "analisis_sem":    analisis_sem,
+        "interpretaciones": leer_todas_interpretaciones(),
     }
 
     DOCS_DIR = Path(__file__).parent / "docs"

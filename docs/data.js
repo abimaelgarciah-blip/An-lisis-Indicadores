@@ -1,6 +1,6 @@
 // Generado automáticamente por procesar.py — no editar a mano
 window.DASHBOARD_DATA = {
-  "generado": "2026-06-17T19:41:09.177717",
+  "generado": "2026-06-17T19:58:15.399903",
   "rango": {
     "inicio": "2026-05-07",
     "fin": "2026-06-15"
@@ -3938,6 +3938,158 @@ window.DASHBOARD_DATA = {
         20,
         21
       ]
+    }
+  },
+  "interpretaciones": {
+    "exa": {
+      "acumulado": {
+        "Anaya Constante, Monica Margarita": 31,
+        "Enriquez Velazquez, Manuel Ivan": 34,
+        "Garcia Godinez, Laura Matilde": 37,
+        "Gonzalez Medina, Nestor Alan": 33,
+        "Gonzalez Perez, Humberto Salvador": 1,
+        "Martinez Andrade, Sandra Estefania": 40,
+        "Tabares Martinez, Hugo": 65,
+        "Garcia Hernandez, Abimael": 5
+      },
+      "por_semana": {
+        "23": {
+          "Anaya Constante, Monica Margarita": 8,
+          "Enriquez Velazquez, Manuel Ivan": 5,
+          "Garcia Godinez, Laura Matilde": 6,
+          "Gonzalez Medina, Nestor Alan": 7,
+          "Gonzalez Perez, Humberto Salvador": 1,
+          "Martinez Andrade, Sandra Estefania": 10,
+          "Tabares Martinez, Hugo": 6
+        },
+        "24": {
+          "Anaya Constante, Monica Margarita": 23,
+          "Enriquez Velazquez, Manuel Ivan": 29,
+          "Garcia Godinez, Laura Matilde": 31,
+          "Garcia Hernandez, Abimael": 5,
+          "Gonzalez Medina, Nestor Alan": 26,
+          "Martinez Andrade, Sandra Estefania": 30,
+          "Tabares Martinez, Hugo": 59
+        }
+      }
+    },
+    "sio": {
+      "acumulado": {
+        "abimaelgh": 26,
+        "adrianapg1": 1,
+        "albertova": 87,
+        "anaor": 42,
+        "anasg": 60,
+        "angelicaie": 23,
+        "angelicavr": 19,
+        "belenfsump": 57,
+        "casandracr": 79,
+        "cesarhm": 334,
+        "christopherml": 100,
+        "claudiahm1": 4,
+        "claudiarg": 28,
+        "danielzh": 1,
+        "davidgf": 151,
+        "davidoo": 128,
+        "franciscopl": 87,
+        "gadielvp": 201,
+        "gracielacv": 209,
+        "hugotm": 199,
+        "humbertogp1": 118,
+        "josesa": 108,
+        "lauragg": 201,
+        "luissm": 164,
+        "manuelev": 18,
+        "mariaad": 93,
+        "mariaap1": 85,
+        "monicaac": 157,
+        "nestorgm": 50,
+        "noragm": 88,
+        "oswaldorm": 62,
+        "quintanaay": 1,
+        "reneag": 156,
+        "samantamp": 80,
+        "sandrama": 138,
+        "diegoda": 54,
+        "ivantm": 32,
+        "mairatd": 36
+      },
+      "por_semana": {
+        "23": {
+          "abimaelgh": 11,
+          "adrianapg1": 1,
+          "albertova": 28,
+          "anaor": 24,
+          "anasg": 25,
+          "angelicaie": 12,
+          "angelicavr": 8,
+          "belenfsump": 32,
+          "casandracr": 22,
+          "cesarhm": 208,
+          "christopherml": 64,
+          "claudiahm1": 2,
+          "claudiarg": 12,
+          "danielzh": 1,
+          "davidgf": 82,
+          "davidoo": 24,
+          "franciscopl": 35,
+          "gadielvp": 99,
+          "gracielacv": 75,
+          "hugotm": 94,
+          "humbertogp1": 49,
+          "josesa": 59,
+          "lauragg": 98,
+          "luissm": 102,
+          "manuelev": 10,
+          "mariaad": 52,
+          "mariaap1": 49,
+          "monicaac": 74,
+          "nestorgm": 26,
+          "noragm": 43,
+          "oswaldorm": 25,
+          "quintanaay": 1,
+          "reneag": 75,
+          "samantamp": 36,
+          "sandrama": 68
+        },
+        "24": {
+          "abimaelgh": 15,
+          "albertova": 59,
+          "anaor": 18,
+          "anasg": 35,
+          "angelicaie": 11,
+          "angelicavr": 11,
+          "belenfsump": 25,
+          "casandracr": 57,
+          "cesarhm": 126,
+          "christopherml": 36,
+          "claudiahm1": 2,
+          "claudiarg": 16,
+          "davidgf": 69,
+          "davidoo": 104,
+          "diegoda": 54,
+          "franciscopl": 52,
+          "gadielvp": 102,
+          "gracielacv": 134,
+          "hugotm": 105,
+          "humbertogp1": 69,
+          "ivantm": 32,
+          "josesa": 49,
+          "lauragg": 103,
+          "luissm": 62,
+          "mairatd": 36,
+          "manuelev": 8,
+          "mariaad": 41,
+          "mariaap1": 36,
+          "monicaac": 83,
+          "nestorgm": 24,
+          "noragm": 45,
+          "oswaldorm": 37,
+          "reneag": 81,
+          "samantamp": 44,
+          "sandrama": 70
+        }
+      }
     }
   }
 };
