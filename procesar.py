@@ -148,7 +148,15 @@ def leer_sio(path: Path) -> dict:
     ws = wb.sheet_by_index(0)
     # Fila 3: nombres de usuario (cols 1 en adelante, hasta 'Total' o 'sio')
     usuarios_row = ws.row_values(3)
-    totales_row  = ws.row_values(21)
+    # La fila de totales no está en un índice fijo (varía según las categorías
+    # presentes en cada semana). Se localiza buscando "Total" en la columna 0.
+    totales_row = None
+    for i in range(ws.nrows):
+        if str(ws.cell_value(i, 0)).strip().lower() == "total":
+            totales_row = ws.row_values(i)
+            break
+    if totales_row is None:
+        totales_row = ws.row_values(ws.nrows - 1)
     resultado = {}
     for i, usr in enumerate(usuarios_row):
         if not usr or usr in ("Total", "sio"):

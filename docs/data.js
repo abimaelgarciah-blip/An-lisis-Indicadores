@@ -1,9 +1,9 @@
 // Generado automáticamente por procesar.py — no editar a mano
 window.DASHBOARD_DATA = {
-  "generado": "2026-06-18T15:49:13.962201",
+  "generado": "2026-06-23T16:29:48.290958",
   "rango": {
     "inicio": "2026-03-31",
-    "fin": "2026-06-15"
+    "fin": "2026-06-21"
   },
   "semanas": [
     "18",
@@ -12,7 +12,8 @@ window.DASHBOARD_DATA = {
     "21",
     "22",
     "23",
-    "24"
+    "24",
+    "25"
   ],
   "rangos": {
     "18": {
@@ -42,105 +43,109 @@ window.DASHBOARD_DATA = {
     "24": {
       "inicio": "2026-05-29",
       "fin": "2026-06-15"
+    },
+    "25": {
+      "inicio": "2026-05-29",
+      "fin": "2026-06-21"
     }
   },
   "acumulado": [
     {
       "Unidad": "General",
-      "Fecha": "2026-06-15",
-      "indicador": 96.46285475792989,
-      "estudios": 9584,
-      "incumplimiento": 339,
-      "modalidades_total": 12685,
-      "Cardiología": 195,
-      "TE_Cardiología": 3.247089060705117,
-      "Densitometría": 537,
-      "TE_Densitometría": 0.9357497194217461,
-      "Ecosonografía": 1497,
-      "TE_Ecosonografía": 0.8054826490717508,
-      "Mamografía": 610,
-      "TE_Mamografía": 1.1152154768622382,
-      "Radiología": 1083,
-      "TE_Radiología": 0.8659833059669129,
-      "RM": 553,
-      "TE_RM": 2.191117989415569,
-      "RM_5h": 409,
-      "RM_24h": 143,
+      "Fecha": "2026-06-21",
+      "indicador": 96.58864090001813,
+      "estudios": 11022,
+      "incumplimiento": 376,
+      "modalidades_total": 14619,
+      "Cardiología": 245,
+      "TE_Cardiología": 3.391128187614577,
+      "Densitometría": 570,
+      "TE_Densitometría": 0.9365884418948554,
+      "Ecosonografía": 1696,
+      "TE_Ecosonografía": 0.7997125197646017,
+      "Mamografía": 682,
+      "TE_Mamografía": 1.1025702811286509,
+      "Radiología": 1251,
+      "TE_Radiología": 0.8639660363168271,
+      "RM": 647,
+      "TE_RM": 2.2947136404688426,
+      "RM_5h": 484,
+      "RM_24h": 162,
       "RM_48h": 1,
-      "Tomografía": 624,
-      "TE_Tomografía": 1.4978403361370403
+      "Tomografía": 700,
+      "TE_Tomografía": 1.5016041979048125
     },
     {
       "Unidad": "LM",
       "Fecha": "",
-      "indicador": 95.88586595885866,
-      "estudios": 4521,
-      "incumplimiento": 186,
-      "modalidades_total": 5857,
-      "Cardiología": 189,
-      "TE_Cardiología": 3.2529122340372156,
-      "Densitometría": 364,
-      "TE_Densitometría": 0.9280731258458031,
-      "Ecosonografía": 645,
-      "TE_Ecosonografía": 0.7515091409271853,
-      "Mamografía": 267,
-      "TE_Mamografía": 0.8035503144659331,
-      "Radiología": 789,
-      "TE_Radiología": 0.82746864394359,
-      "RM": 250,
-      "TE_RM": 2.2573982624575657,
-      "RM_5h": 173,
-      "RM_24h": 76,
+      "indicador": 96.11479890667708,
+      "estudios": 5122,
+      "incumplimiento": 199,
+      "modalidades_total": 6620,
+      "Cardiología": 238,
+      "TE_Cardiología": 3.3912751992510137,
+      "Densitometría": 384,
+      "TE_Densitometría": 0.9322373015954093,
+      "Ecosonografía": 742,
+      "TE_Ecosonografía": 0.7460622499211417,
+      "Mamografía": 294,
+      "TE_Mamografía": 0.7916533485569669,
+      "Radiología": 891,
+      "TE_Radiología": 0.8103734061945436,
+      "RM": 290,
+      "TE_RM": 2.3593888888875623,
+      "RM_5h": 201,
+      "RM_24h": 88,
       "RM_48h": 1,
-      "Tomografía": 529,
-      "TE_Tomografía": 1.4244197769222906
+      "Tomografía": 600,
+      "TE_Tomografía": 1.4342328042367458
     },
     {
       "Unidad": "AC",
       "Fecha": "",
-      "indicador": 93.43873517786562,
-      "estudios": 1265,
-      "incumplimiento": 83,
-      "modalidades_total": 1274,
+      "indicador": 93.75838926174497,
+      "estudios": 1490,
+      "incumplimiento": 93,
+      "modalidades_total": 1502,
       "Cardiología": 2,
       "TE_Cardiología": 3.8156944444344845,
       "Densitometría": 4,
       "TE_Densitometría": 0.8869444444135297,
-      "Ecosonografía": 272,
-      "TE_Ecosonografía": 0.9499047991703264,
-      "Mamografía": 1,
-      "TE_Mamografía": 2.842222222185228,
-      "Radiología": 274,
-      "TE_Radiología": 0.9805121170558081,
-      "RM": 71,
-      "TE_RM": 2.8468012152879965,
-      "RM_5h": 65,
-      "RM_24h": 6,
+      "Ecosonografía": 303,
+      "TE_Ecosonografía": 0.9638090128800532,
+      "Mamografía": 2,
+      "TE_Mamografía": 1.6590277777577285,
+      "Radiología": 339,
+      "TE_Radiología": 1.0091585233439357,
+      "RM": 92,
+      "TE_RM": 2.9436241830192396,
+      "RM_5h": 84,
+      "RM_24h": 8,
       "RM_48h": 0,
-      "Tomografía": 93,
-      "TE_Tomografía": 2.005429629632272
+      "Tomografía": 98,
+      "TE_Tomografía": 2.016659451661444
     },
     {
       "Unidad": "CH",
       "Fecha": "",
-      "indicador": 96.85658153241651,
-      "estudios": 509,
-      "incumplimiento": 16,
-      "modalidades_total": 514,
+      "indicador": 97.06390328151986,
+      "estudios": 579,
+      "incumplimiento": 17,
+      "modalidades_total": 584,
       "Cardiología": 1,
       "TE_Cardiología": 2.6805555554456078,
       "Densitometría": 2,
       "TE_Densitometría": 1.3868055555503815,
-      "Ecosonografía": 79,
-      "TE_Ecosonografía": 0.689948830424232,
+      "Ecosonografía": 83,
+      "TE_Ecosonografía": 0.6870590277896553,
       "Mamografía": 1,
       "TE_Mamografía": 2.156666666676756,
       "Radiología": 1,
       "TE_Radiología": 1.1502777777495794,
-      "RM": 230,
-      "TE_RM": 1.9161754115161278,
-      "RM_5h": 170,
-      "RM_24h": 60,
+      "RM": 263,
+      "TE_RM": 1.9948062275932077,
+      "RM_5h": 198,
+      "RM_24h": 65,
       "RM_48h": 0,
       "Tomografía": 1,
       "TE_Tomografía": 1.3897222222876735
@@ -148,16 +153,16 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "GP",
       "Fecha": "",
-      "indicador": 71.42857142857143,
-      "estudios": 14,
-      "incumplimiento": 4,
-      "modalidades_total": 14,
+      "indicador": 72.72727272727273,
+      "estudios": 22,
+      "incumplimiento": 6,
+      "modalidades_total": 22,
       "Cardiología": 0,
       "TE_Cardiología": null,
       "Densitometría": 0,
       "TE_Densitometría": null,
-      "Ecosonografía": 11,
-      "TE_Ecosonografía": 0.989722222162527,
+      "Ecosonografía": 17,
+      "TE_Ecosonografía": 0.84236111107748,
       "Mamografía": 1,
       "TE_Mamografía": 2.9938888888573274,
       "Radiología": 1,
@@ -173,18 +178,18 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "CM",
       "Fecha": "",
-      "indicador": 95.9825327510917,
-      "estudios": 1145,
-      "incumplimiento": 46,
-      "modalidades_total": 1219,
+      "indicador": 95.64541213063764,
+      "estudios": 1286,
+      "incumplimiento": 56,
+      "modalidades_total": 1371,
       "Cardiología": 1,
       "TE_Cardiología": 1.1908333333558403,
-      "Densitometría": 162,
-      "TE_Densitometría": 0.941960891811361,
-      "Ecosonografía": 479,
-      "TE_Ecosonografía": 0.8263921188639997,
-      "Mamografía": 336,
-      "TE_Mamografía": 1.3522144340644546,
+      "Densitometría": 175,
+      "TE_Densitometría": 0.9361387163545989,
+      "Ecosonografía": 540,
+      "TE_Ecosonografía": 0.8152800546449726,
+      "Mamografía": 380,
+      "TE_Mamografía": 1.3355685286986665,
       "Radiología": 10,
       "TE_Radiología": 1.01463888893486,
       "RM": 1,
@@ -198,20 +203,20 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "MP",
       "Fecha": "",
-      "indicador": 99.9054820415879,
-      "estudios": 2116,
+      "indicador": 99.92022337455126,
+      "estudios": 2507,
       "incumplimiento": 2,
-      "modalidades_total": 3789,
-      "Cardiología": 2,
-      "TE_Cardiología": 3.4425000000628643,
+      "modalidades_total": 4499,
+      "Cardiología": 3,
+      "TE_Cardiología": 4.066759259265382,
       "Densitometría": 2,
       "TE_Densitometría": 1.6287499999743886,
       "Ecosonografía": 8,
       "TE_Ecosonografía": 0.8074305556001491,
       "Mamografía": 2,
       "TE_Mamografía": 1.110972222260898,
-      "Radiología": 6,
-      "TE_Radiología": 0.6997685184760485,
+      "Radiología": 7,
+      "TE_Radiología": 0.7210317459955279,
       "RM": 0,
       "TE_RM": null,
       "RM_5h": 0,
@@ -223,10 +228,10 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "LA",
       "Fecha": "",
-      "indicador": 92.3076923076923,
-      "estudios": 13,
-      "incumplimiento": 1,
-      "modalidades_total": 17,
+      "indicador": 86.66666666666667,
+      "estudios": 15,
+      "incumplimiento": 2,
+      "modalidades_total": 20,
       "Cardiología": 0,
       "TE_Cardiología": null,
       "Densitometría": 3,
@@ -1660,6 +1665,208 @@ window.DASHBOARD_DATA = {
         "Tomografía": 0,
         "TE_Tomografía": null
       }
+    ],
+    "25": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 97.4269819193324,
+        "estudios": 1438,
+        "incumplimiento": 37,
+        "modalidades_total": 1934,
+        "Cardiología": 50,
+        "TE_Cardiología": 3.950000000023283,
+        "Densitometría": 33,
+        "TE_Densitometría": 0.951965020568524,
+        "Ecosonografía": 199,
+        "TE_Ecosonografía": 0.7564682539681659,
+        "Mamografía": 72,
+        "TE_Mamografía": 0.9969561815509428,
+        "Radiología": 168,
+        "TE_Radiología": 0.8516315261069657,
+        "RM": 94,
+        "TE_RM": 2.899021604946271,
+        "RM_5h": 75,
+        "RM_24h": 19,
+        "RM_48h": 0,
+        "Tomografía": 76,
+        "TE_Tomografía": 1.532708333346818
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 97.8369384359401,
+        "estudios": 601,
+        "incumplimiento": 13,
+        "modalidades_total": 763,
+        "Cardiología": 49,
+        "TE_Cardiología": 3.922137188234566,
+        "Densitometría": 20,
+        "TE_Densitometría": 1.009043209865922,
+        "Ecosonografía": 97,
+        "TE_Ecosonografía": 0.7105439814858983,
+        "Mamografía": 27,
+        "TE_Mamografía": 0.6748868313022993,
+        "Radiología": 102,
+        "TE_Radiología": 0.6829207920853169,
+        "RM": 40,
+        "TE_RM": 3.0292192192251064,
+        "RM_5h": 28,
+        "RM_24h": 12,
+        "RM_48h": 0,
+        "Tomografía": 71,
+        "TE_Tomografía": 1.5068492063637158
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 95.55555555555556,
+        "estudios": 225,
+        "incumplimiento": 10,
+        "modalidades_total": 228,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 31,
+        "TE_Ecosonografía": 1.1118888888886431,
+        "Mamografía": 1,
+        "TE_Mamografía": 0.4758333333302289,
+        "Radiología": 65,
+        "TE_Radiología": 1.1179253472191704,
+        "RM": 21,
+        "TE_RM": 3.238703703723981,
+        "RM_5h": 19,
+        "RM_24h": 2,
+        "RM_48h": 0,
+        "Tomografía": 5,
+        "TE_Tomografía": 2.4377777777554
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 98.57142857142858,
+        "estudios": 70,
+        "incumplimiento": 1,
+        "modalidades_total": 70,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 4,
+        "TE_Ecosonografía": 0.6321527777326992,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 33,
+        "TE_RM": 2.525564236113496,
+        "RM_5h": 28,
+        "RM_24h": 5,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": 75.0,
+        "estudios": 8,
+        "incumplimiento": 2,
+        "modalidades_total": 8,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 6,
+        "TE_Ecosonografía": 0.547638888907386,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 92.90780141843972,
+        "estudios": 141,
+        "incumplimiento": 10,
+        "modalidades_total": 152,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 13,
+        "TE_Densitometría": 0.8378086419737277,
+        "Ecosonografía": 61,
+        "TE_Ecosonografía": 0.7328975095728749,
+        "Mamografía": 44,
+        "TE_Mamografía": 1.2113049095726658,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 391,
+        "incumplimiento": 0,
+        "modalidades_total": 710,
+        "Cardiología": 1,
+        "TE_Cardiología": 5.315277777670417,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 1,
+        "TE_Radiología": 0.8486111111124046,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 50.0,
+        "estudios": 2,
+        "incumplimiento": 1,
+        "modalidades_total": 3,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      }
     ]
   },
   "sucursales": {
@@ -1671,18 +1878,46 @@ window.DASHBOARD_DATA = {
     "MP": "Medicina Preventiva",
     "LA": "Las Águilas"
   },
-  "total_registros": 12685,
+  "total_registros": 14619,
   "analisis": {
     "incump_depto": [
       {
+        "depto": "Resonancia Magnética",
+        "total": 2035,
+        "incump": 89,
+        "pct_cumpl": 95.6,
+        "top_estudios": [
+          {
+            "estudio": "RM 3.0T Digital - Cráneo",
+            "n": 15
+          },
+          {
+            "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+            "n": 12
+          },
+          {
+            "estudio": "RM 1.5T - Cráneo",
+            "n": 6
+          },
+          {
+            "estudio": "RM 1.5T - Columna - Lumbar",
+            "n": 5
+          },
+          {
+            "estudio": "RM 3.0T Digital - Pelvis Femenina (Endometriosis)",
+            "n": 4
+          }
+        ]
+      },
+      {
         "depto": "Radiología",
-        "total": 1898,
-        "incump": 82,
-        "pct_cumpl": 95.7,
+        "total": 2201,
+        "incump": 85,
+        "pct_cumpl": 96.1,
         "top_estudios": [
           {
             "estudio": "RX Tórax - 1P",
-            "n": 11
+            "n": 12
           },
           {
             "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
@@ -1703,42 +1938,14 @@ window.DASHBOARD_DATA = {
         ]
       },
       {
-        "depto": "Resonancia Magnética",
-        "total": 1762,
-        "incump": 77,
-        "pct_cumpl": 95.6,
-        "top_estudios": [
-          {
-            "estudio": "RM 3.0T Digital - Cráneo",
-            "n": 13
-          },
-          {
-            "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
-            "n": 10
-          },
-          {
-            "estudio": "RM 1.5T - Cráneo",
-            "n": 5
-          },
-          {
-            "estudio": "RM 1.5T - Columna - Lumbar",
-            "n": 5
-          },
-          {
-            "estudio": "RM 1.5T - Columna - Cervical",
-            "n": 3
-          }
-        ]
-      },
-      {
         "depto": "Densitometría",
-        "total": 723,
-        "incump": 60,
-        "pct_cumpl": 91.7,
+        "total": 795,
+        "incump": 68,
+        "pct_cumpl": 91.4,
         "top_estudios": [
           {
             "estudio": "Densitometría de Cadera y Columna Lumbar",
-            "n": 57
+            "n": 65
           },
           {
             "estudio": "Densitometría de 3 Regiones (excepto Cuerpo entero)",
@@ -1748,69 +1955,69 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Tomografía Axial Computada",
-        "total": 909,
-        "incump": 46,
-        "pct_cumpl": 94.9,
+        "total": 1025,
+        "incump": 54,
+        "pct_cumpl": 94.7,
         "top_estudios": [
           {
             "estudio": "TAC - Abdomen - Total [C]",
-            "n": 8
+            "n": 11
           },
           {
             "estudio": "TAC - 2R - Tórax y Abdomen [C]",
-            "n": 8
+            "n": 9
           },
           {
             "estudio": "TAC - Cráneo",
-            "n": 4
-          },
-          {
-            "estudio": "TAC - Vías Urinarias - UroTAC [C]",
-            "n": 4
+            "n": 6
           },
           {
             "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
+            "n": 5
+          },
+          {
+            "estudio": "TAC - Senos Paranasales (SNP)",
             "n": 4
           }
         ]
       },
       {
         "depto": "Ecosonografía",
-        "total": 2392,
-        "incump": 39,
+        "total": 2745,
+        "incump": 43,
         "pct_cumpl": 98.4,
         "top_estudios": [
           {
             "estudio": "Eco de Mama",
-            "n": 16
+            "n": 17
+          },
+          {
+            "estudio": "Eco de Pelvis",
+            "n": 5
+          },
+          {
+            "estudio": "Eco de Pelvis Transvaginal",
+            "n": 5
           },
           {
             "estudio": "Eco de Tiroides",
             "n": 4
           },
           {
-            "estudio": "Eco de Pelvis",
-            "n": 4
-          },
-          {
-            "estudio": "Eco de Pelvis Transvaginal",
-            "n": 4
-          },
-          {
-            "estudio": "Eco de Abdomen y Pelvis",
-            "n": 1
+            "estudio": "Eco de Riñón",
+            "n": 2
           }
         ]
       },
       {
         "depto": "Mamografía",
-        "total": 797,
-        "incump": 29,
-        "pct_cumpl": 96.4,
+        "total": 894,
+        "incump": 31,
+        "pct_cumpl": 96.5,
         "top_estudios": [
           {
             "estudio": "Mamografía - Bilateral",
-            "n": 24
+            "n": 26
           },
           {
             "estudio": "Mamografía - Bilateral con Tomosíntesis",
@@ -1820,9 +2027,9 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Salud Visual",
-        "total": 661,
+        "total": 739,
         "incump": 13,
-        "pct_cumpl": 98.0,
+        "pct_cumpl": 98.2,
         "top_estudios": [
           {
             "estudio": "Agudeza Visual",
@@ -1848,7 +2055,7 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Cardiología",
-        "total": 1103,
+        "total": 1327,
         "incump": 6,
         "pct_cumpl": 99.5,
         "top_estudios": [
@@ -1864,10 +2071,14 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Servicios Especiales",
-        "total": 1290,
-        "incump": 3,
-        "pct_cumpl": 99.8,
+        "total": 1520,
+        "incump": 6,
+        "pct_cumpl": 99.6,
         "top_estudios": [
+          {
+            "estudio": "Evaluación Médico Internista (2 consultas)",
+            "n": 3
+          },
           {
             "estudio": "Complemento - RM 3.0T Digital",
             "n": 1
@@ -1877,16 +2088,16 @@ window.DASHBOARD_DATA = {
             "n": 1
           },
           {
-            "estudio": "Evaluación Médico Internista (2 consultas)",
+            "estudio": "Evaluación Oftalmológica",
             "n": 1
           }
         ]
       },
       {
         "depto": "Medicina Nuclear",
-        "total": 286,
+        "total": 317,
         "incump": 2,
-        "pct_cumpl": 99.3,
+        "pct_cumpl": 99.4,
         "top_estudios": [
           {
             "estudio": "Gammagrama Óseo",
@@ -1900,9 +2111,9 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Paquetes",
-        "total": 103,
+        "total": 122,
         "incump": 2,
-        "pct_cumpl": 98.1,
+        "pct_cumpl": 98.4,
         "top_estudios": [
           {
             "estudio": "Eco de Mama con Biopsia Unilateral",
@@ -1912,9 +2123,9 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Bioimpedanciología",
-        "total": 221,
+        "total": 249,
         "incump": 1,
-        "pct_cumpl": 99.5,
+        "pct_cumpl": 99.6,
         "top_estudios": [
           {
             "estudio": "Análisis de Composición Corporal",
@@ -1924,28 +2135,28 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Eeg Y Mapeo Cerebral",
-        "total": 141,
+        "total": 158,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
       },
       {
         "depto": "Electromiografía Y Potenciales Evocados",
-        "total": 69,
+        "total": 80,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
       },
       {
         "depto": "Espirometría",
-        "total": 298,
+        "total": 362,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
       },
       {
         "depto": "Servicio Dental",
-        "total": 32,
+        "total": 50,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
@@ -1954,39 +2165,39 @@ window.DASHBOARD_DATA = {
     "top_estudios_incump": [
       {
         "estudio": "Densitometría de Cadera y Columna Lumbar",
-        "n": 57
+        "n": 65
       },
       {
         "estudio": "Mamografía - Bilateral",
-        "n": 24
+        "n": 26
       },
       {
         "estudio": "Eco de Mama",
-        "n": 16
+        "n": 17
       },
       {
         "estudio": "RM 3.0T Digital - Cráneo",
-        "n": 13
+        "n": 15
       },
       {
         "estudio": "RX Tórax - 1P",
-        "n": 11
+        "n": 12
       },
       {
         "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
-        "n": 10
+        "n": 12
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "n": 11
       },
       {
         "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
         "n": 9
       },
       {
-        "estudio": "TAC - Abdomen - Total [C]",
-        "n": 8
-      },
-      {
         "estudio": "TAC - 2R - Tórax y Abdomen [C]",
-        "n": 8
+        "n": 9
       },
       {
         "estudio": "RX Rodillas Comparativas - 2P",
@@ -2013,7 +2224,7 @@ window.DASHBOARD_DATA = {
     ],
     "calor": {
       "Cardiología": {
-        "LM": 98.3,
+        "LM": 98.6,
         "AC": 100.0,
         "CH": 100.0,
         "GP": null,
@@ -2022,53 +2233,53 @@ window.DASHBOARD_DATA = {
         "LA": null
       },
       "Densitometría": {
-        "LM": 88.2,
+        "LM": 89.0,
         "AC": 100.0,
         "CH": 100.0,
         "GP": null,
-        "CM": 94.7,
+        "CM": 92.4,
         "MP": 100.0,
-        "LA": 75.0
+        "LA": 60.0
       },
       "Ecosonografía": {
-        "LM": 98.4,
-        "AC": 98.0,
-        "CH": 98.1,
-        "GP": 81.8,
+        "LM": 98.6,
+        "AC": 98.3,
+        "CH": 98.2,
+        "GP": 77.8,
         "CM": 97.1,
         "MP": 100.0,
         "LA": 100.0
       },
       "Mamografía": {
-        "LM": 97.5,
-        "AC": 0.0,
+        "LM": 97.8,
+        "AC": 50.0,
         "CH": 100.0,
         "GP": 0.0,
-        "CM": 95.0,
+        "CM": 95.1,
         "MP": 100.0,
         "LA": 100.0
       },
       "Radiología": {
-        "LM": 94.7,
-        "AC": 92.2,
+        "LM": 95.1,
+        "AC": 93.3,
         "CH": 100.0,
         "GP": 100.0,
-        "CM": 90.0,
-        "MP": 99.6,
+        "CM": 90.9,
+        "MP": 99.7,
         "LA": 100.0
       },
       "Resonancia Magnética": {
         "LM": 96.5,
-        "AC": 93.0,
-        "CH": 96.5,
-        "GP": 0.0,
+        "AC": 92.9,
+        "CH": 96.7,
+        "GP": 50.0,
         "CM": 100.0,
         "MP": 100.0,
         "LA": 100.0
       },
       "Tomografía Axial Computada": {
-        "LM": 96.3,
-        "AC": 89.4,
+        "LM": 96.1,
+        "AC": 89.2,
         "CH": 100.0,
         "GP": null,
         "CM": null,
@@ -2078,275 +2289,279 @@ window.DASHBOARD_DATA = {
     },
     "tiempos_modal": {
       "Cardiología": {
-        "gc_avg": 1.97,
-        "gf_avg": 2.9,
-        "n": 195
+        "gc_avg": 2.18,
+        "gf_avg": 3.03,
+        "n": 245
       },
       "Densitometría": {
-        "gc_avg": 1.16,
-        "gf_avg": 1.18,
-        "n": 537
+        "gc_avg": 1.18,
+        "gf_avg": 1.2,
+        "n": 570
       },
       "Ecosonografía": {
-        "gc_avg": 1.36,
-        "gf_avg": 1.32,
-        "n": 1497
+        "gc_avg": 1.39,
+        "gf_avg": 1.33,
+        "n": 1696
       },
       "Mamografía": {
-        "gc_avg": 1.31,
-        "gf_avg": 1.34,
-        "n": 610
+        "gc_avg": 1.3,
+        "gf_avg": 1.31,
+        "n": 682
       },
       "Radiología": {
-        "gc_avg": 1.23,
-        "gf_avg": 1.23,
-        "n": 1083
+        "gc_avg": 1.21,
+        "gf_avg": 1.21,
+        "n": 1251
       },
       "RM": {
-        "gc_avg": 1.92,
-        "gf_avg": 2.11,
-        "n": 553
+        "gc_avg": 1.96,
+        "gf_avg": 2.17,
+        "n": 647
       },
       "Tomografía": {
-        "gc_avg": 1.32,
-        "gf_avg": 1.33,
-        "n": 624
+        "gc_avg": 1.31,
+        "gf_avg": 1.32,
+        "n": 700
       }
     },
     "usuarios_recibe": [
       {
         "usuario": "Mora Ponce Samanta Noemi",
-        "total": 3713,
-        "incump": 111,
-        "pct_cumpl": 97.0,
+        "total": 4230,
+        "incump": 118,
+        "pct_cumpl": 97.2,
         "top_deptos": [
           {
             "depto": "Ecosonografía",
-            "n": 678
+            "n": 794
           },
           {
             "depto": "Resonancia Magnética",
-            "n": 629
+            "n": 713
           },
           {
             "depto": "Radiología",
-            "n": 612
+            "n": 694
           }
         ]
       },
       {
         "usuario": "Cortés Vázquez Graciela",
-        "total": 1790,
-        "incump": 14,
-        "pct_cumpl": 99.2,
+        "total": 2018,
+        "incump": 15,
+        "pct_cumpl": 99.3,
         "top_deptos": [
           {
             "depto": "Cardiología",
-            "n": 521
+            "n": 603
           },
           {
             "depto": "Ecosonografía",
-            "n": 323
+            "n": 354
           },
           {
             "depto": "Radiología",
-            "n": 282
+            "n": 310
           }
         ]
       },
       {
         "usuario": "Rios Meza Oswaldo Josue",
-        "total": 1762,
-        "incump": 75,
-        "pct_cumpl": 95.7,
+        "total": 1979,
+        "incump": 79,
+        "pct_cumpl": 96.0,
         "top_deptos": [
           {
             "depto": "Radiología",
-            "n": 312
+            "n": 342
           },
           {
             "depto": "Resonancia Magnética",
-            "n": 249
+            "n": 282
           },
           {
             "depto": "Medicina Nuclear",
-            "n": 248
+            "n": 277
           }
         ]
       },
       {
         "usuario": "González Pérez Humberto",
-        "total": 1300,
+        "total": 1651,
         "incump": 1,
         "pct_cumpl": 99.9,
         "top_deptos": [
           {
-            "depto": "Ecosonografía",
-            "n": 289
+            "depto": "Radiología",
+            "n": 363
           },
           {
-            "depto": "Radiología",
-            "n": 285
+            "depto": "Ecosonografía",
+            "n": 362
           },
           {
             "depto": "Cardiología",
-            "n": 240
-          }
-        ]
-      },
-      {
-        "usuario": "Macías Rodríguez Karla Lizbet",
-        "total": 651,
-        "incump": 25,
-        "pct_cumpl": 96.2,
-        "top_deptos": [
-          {
-            "depto": "Ecosonografía",
-            "n": 286
-          },
-          {
-            "depto": "Mamografía",
-            "n": 212
-          },
-          {
-            "depto": "Densitometría",
-            "n": 102
+            "n": 309
           }
         ]
       },
       {
         "usuario": "Gonzalez Medina Nestor Alan",
-        "total": 613,
-        "incump": 44,
-        "pct_cumpl": 92.8,
+        "total": 714,
+        "incump": 49,
+        "pct_cumpl": 93.1,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 201
+            "n": 242
           },
           {
             "depto": "Radiología",
-            "n": 193
+            "n": 227
           },
           {
             "depto": "Ecosonografía",
-            "n": 128
+            "n": 147
+          }
+        ]
+      },
+      {
+        "usuario": "Macías Rodríguez Karla Lizbet",
+        "total": 713,
+        "incump": 28,
+        "pct_cumpl": 96.1,
+        "top_deptos": [
+          {
+            "depto": "Ecosonografía",
+            "n": 313
+          },
+          {
+            "depto": "Mamografía",
+            "n": 228
+          },
+          {
+            "depto": "Densitometría",
+            "n": 111
           }
         ]
       },
       {
         "usuario": "Enriquez Velazquez Manuel",
-        "total": 593,
-        "incump": 34,
-        "pct_cumpl": 94.3,
+        "total": 687,
+        "incump": 36,
+        "pct_cumpl": 94.8,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 200
+            "n": 229
           },
           {
             "depto": "Ecosonografía",
-            "n": 159
+            "n": 173
           },
           {
             "depto": "Radiología",
-            "n": 130
+            "n": 169
           }
         ]
       },
       {
         "usuario": "Valdez Aguilar Alberto de Jesús",
-        "total": 415,
+        "total": 484,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
             "depto": "Servicios Especiales",
-            "n": 415
+            "n": 482
+          },
+          {
+            "depto": "Espirometría",
+            "n": 2
           }
         ]
       },
       {
         "usuario": "Ceballos Romero Casandra",
-        "total": 387,
-        "incump": 1,
-        "pct_cumpl": 99.7,
+        "total": 448,
+        "incump": 3,
+        "pct_cumpl": 99.3,
         "top_deptos": [
           {
             "depto": "Servicios Especiales",
-            "n": 387
+            "n": 448
           }
         ]
       },
       {
         "usuario": "Contreras Sánchez Janette",
-        "total": 278,
-        "incump": 5,
-        "pct_cumpl": 98.2,
+        "total": 314,
+        "incump": 6,
+        "pct_cumpl": 98.1,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 209
+            "n": 240
           },
           {
             "depto": "Ecosonografía",
-            "n": 69
-          }
-        ]
-      },
-      {
-        "usuario": "Angel Guzman Yadyra Jannet",
-        "total": 255,
-        "incump": 10,
-        "pct_cumpl": 96.1,
-        "top_deptos": [
-          {
-            "depto": "Ecosonografía",
-            "n": 153
-          },
-          {
-            "depto": "Densitometría",
-            "n": 46
-          },
-          {
-            "depto": "Mamografía",
-            "n": 40
+            "n": 74
           }
         ]
       },
       {
         "usuario": "Chavez Jimenez America",
-        "total": 230,
-        "incump": 8,
-        "pct_cumpl": 96.5,
+        "total": 288,
+        "incump": 14,
+        "pct_cumpl": 95.1,
         "top_deptos": [
           {
             "depto": "Ecosonografía",
-            "n": 119
+            "n": 148
           },
           {
             "depto": "Mamografía",
-            "n": 60
+            "n": 79
           },
           {
             "depto": "Densitometría",
-            "n": 34
+            "n": 43
+          }
+        ]
+      },
+      {
+        "usuario": "Angel Guzman Yadyra Jannet",
+        "total": 271,
+        "incump": 11,
+        "pct_cumpl": 95.9,
+        "top_deptos": [
+          {
+            "depto": "Ecosonografía",
+            "n": 164
+          },
+          {
+            "depto": "Densitometría",
+            "n": 49
+          },
+          {
+            "depto": "Mamografía",
+            "n": 41
           }
         ]
       },
       {
         "usuario": "Ponce Sanchez Brayaan Yahir",
-        "total": 139,
+        "total": 158,
         "incump": 3,
-        "pct_cumpl": 97.8,
+        "pct_cumpl": 98.1,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 114
+            "n": 131
           },
           {
             "depto": "Ecosonografía",
-            "n": 21
+            "n": 23
           },
           {
             "depto": "Salud Visual",
@@ -2375,6 +2590,66 @@ window.DASHBOARD_DATA = {
         ]
       },
       {
+        "usuario": "Anaya Constante Monica",
+        "total": 117,
+        "incump": 3,
+        "pct_cumpl": 97.4,
+        "top_deptos": [
+          {
+            "depto": "Tomografía Axial Computada",
+            "n": 52
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 22
+          },
+          {
+            "depto": "Resonancia Magnética",
+            "n": 21
+          }
+        ]
+      },
+      {
+        "usuario": "Martinez Andrade Sandra",
+        "total": 92,
+        "incump": 0,
+        "pct_cumpl": 100.0,
+        "top_deptos": [
+          {
+            "depto": "Mamografía",
+            "n": 70
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 21
+          },
+          {
+            "depto": "Servicios Especiales",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "usuario": "Garcia Hernandez Abimael",
+        "total": 80,
+        "incump": 18,
+        "pct_cumpl": 77.5,
+        "top_deptos": [
+          {
+            "depto": "Resonancia Magnética",
+            "n": 20
+          },
+          {
+            "depto": "Radiología",
+            "n": 15
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 13
+          }
+        ]
+      },
+      {
         "usuario": "Perez Rodriguez Heli Janette",
         "total": 79,
         "incump": 1,
@@ -2395,74 +2670,14 @@ window.DASHBOARD_DATA = {
         ]
       },
       {
-        "usuario": "Anaya Constante Monica",
-        "total": 77,
-        "incump": 1,
-        "pct_cumpl": 98.7,
-        "top_deptos": [
-          {
-            "depto": "Tomografía Axial Computada",
-            "n": 45
-          },
-          {
-            "depto": "Ecosonografía",
-            "n": 16
-          },
-          {
-            "depto": "Radiología",
-            "n": 7
-          }
-        ]
-      },
-      {
-        "usuario": "Martinez Andrade Sandra",
-        "total": 74,
-        "incump": 0,
-        "pct_cumpl": 100.0,
-        "top_deptos": [
-          {
-            "depto": "Mamografía",
-            "n": 56
-          },
-          {
-            "depto": "Ecosonografía",
-            "n": 17
-          },
-          {
-            "depto": "Servicios Especiales",
-            "n": 1
-          }
-        ]
-      },
-      {
-        "usuario": "Garcia Hernandez Abimael",
-        "total": 62,
-        "incump": 12,
-        "pct_cumpl": 80.6,
-        "top_deptos": [
-          {
-            "depto": "Resonancia Magnética",
-            "n": 16
-          },
-          {
-            "depto": "Radiología",
-            "n": 13
-          },
-          {
-            "depto": "Ecosonografía",
-            "n": 10
-          }
-        ]
-      },
-      {
         "usuario": "García Araiza Jaime Damián",
-        "total": 57,
+        "total": 60,
         "incump": 4,
-        "pct_cumpl": 93.0,
+        "pct_cumpl": 93.3,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 47
+            "n": 50
           },
           {
             "depto": "Ecosonografía",
@@ -2472,33 +2687,33 @@ window.DASHBOARD_DATA = {
       },
       {
         "usuario": "Garcia Godinez Laura Matilde",
-        "total": 27,
+        "total": 36,
         "incump": 5,
-        "pct_cumpl": 81.5,
+        "pct_cumpl": 86.1,
         "top_deptos": [
           {
             "depto": "Tomografía Axial Computada",
-            "n": 9
+            "n": 16
+          },
+          {
+            "depto": "Radiología",
+            "n": 6
           },
           {
             "depto": "Salud Visual",
             "n": 6
-          },
-          {
-            "depto": "Radiología",
-            "n": 5
           }
         ]
       },
       {
         "usuario": "Estrada Valle Gloria Itzel",
-        "total": 24,
+        "total": 31,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 21
+            "n": 28
           },
           {
             "depto": "Ecosonografía",
@@ -2508,32 +2723,44 @@ window.DASHBOARD_DATA = {
       },
       {
         "usuario": "Carrillo Vazquez Celin",
-        "total": 18,
+        "total": 20,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
+          {
+            "depto": "Mamografía",
+            "n": 7
+          },
           {
             "depto": "Ecosonografía",
             "n": 7
           },
           {
-            "depto": "Mamografía",
-            "n": 6
-          },
-          {
             "depto": "Densitometría",
-            "n": 4
+            "n": 5
           }
         ]
       },
       {
         "usuario": "Velázquez González Dana",
-        "total": 5,
+        "total": 10,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
             "depto": "Ecosonografía",
+            "n": 10
+          }
+        ]
+      },
+      {
+        "usuario": "Contreras Castro Alexis",
+        "total": 5,
+        "incump": 0,
+        "pct_cumpl": 100.0,
+        "top_deptos": [
+          {
+            "depto": "Resonancia Magnética",
             "n": 5
           }
         ]
@@ -2575,18 +2802,6 @@ window.DASHBOARD_DATA = {
         ]
       },
       {
-        "usuario": "Contreras Castro Alexis",
-        "total": 3,
-        "incump": 0,
-        "pct_cumpl": 100.0,
-        "top_deptos": [
-          {
-            "depto": "Resonancia Magnética",
-            "n": 3
-          }
-        ]
-      },
-      {
         "usuario": "Gonzalez Gomez Alejandra",
         "total": 1,
         "incump": 0,
@@ -2602,7 +2817,7 @@ window.DASHBOARD_DATA = {
     "dist_af": [
       {
         "hora": 0,
-        "n": 262
+        "n": 288
       },
       {
         "hora": 1,
@@ -2622,7 +2837,7 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 5,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 6,
@@ -2642,7 +2857,7 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 10,
-        "n": 2
+        "n": 5
       },
       {
         "hora": 11,
@@ -2658,15 +2873,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 14,
-        "n": 1
+        "n": 4
       },
       {
         "hora": 15,
-        "n": 3
+        "n": 5
       },
       {
         "hora": 16,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 17,
@@ -2674,11 +2889,11 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 18,
-        "n": 1
+        "n": 3
       },
       {
         "hora": 19,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 20,
@@ -2690,7 +2905,7 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 22,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 23,
@@ -2736,27 +2951,27 @@ window.DASHBOARD_DATA = {
         "7": 1,
         "8": 5,
         "9": 5,
-        "10": 10,
-        "11": 10,
+        "10": 11,
+        "11": 11,
         "12": 8,
-        "13": 5,
-        "14": 3,
+        "13": 7,
+        "14": 4,
         "15": 4,
-        "16": 2,
-        "17": 4,
-        "18": 1,
+        "16": 3,
+        "17": 5,
+        "18": 2,
         "19": 2,
         "20": 0,
         "21": 0
       },
       "Ecosonografía": {
         "7": 2,
-        "8": 5,
-        "9": 9,
+        "8": 6,
+        "9": 11,
         "10": 6,
         "11": 3,
         "12": 4,
-        "13": 3,
+        "13": 4,
         "14": 3,
         "15": 1,
         "16": 2,
@@ -2773,13 +2988,13 @@ window.DASHBOARD_DATA = {
         "10": 5,
         "11": 2,
         "12": 1,
-        "13": 2,
+        "13": 3,
         "14": 4,
         "15": 0,
         "16": 2,
         "17": 1,
         "18": 2,
-        "19": 1,
+        "19": 2,
         "20": 0,
         "21": 0
       },
@@ -2818,16 +3033,16 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "Radiología": {
-        "7": 1,
+        "7": 2,
         "8": 2,
-        "9": 8,
+        "9": 9,
         "10": 13,
         "11": 11,
         "12": 8,
         "13": 14,
         "14": 10,
         "15": 6,
-        "16": 4,
+        "16": 5,
         "17": 2,
         "18": 0,
         "19": 0,
@@ -2836,18 +3051,18 @@ window.DASHBOARD_DATA = {
       },
       "Resonancia Magnética": {
         "7": 2,
-        "8": 9,
-        "9": 11,
-        "10": 12,
+        "8": 10,
+        "9": 12,
+        "10": 14,
         "11": 8,
-        "12": 5,
-        "13": 3,
+        "12": 6,
+        "13": 6,
         "14": 3,
-        "15": 7,
+        "15": 9,
         "16": 4,
         "17": 5,
-        "18": 4,
-        "19": 2,
+        "18": 5,
+        "19": 3,
         "20": 2,
         "21": 0
       },
@@ -2870,8 +3085,8 @@ window.DASHBOARD_DATA = {
       },
       "Servicios Especiales": {
         "7": 0,
-        "8": 1,
-        "9": 1,
+        "8": 3,
+        "9": 2,
         "10": 0,
         "11": 1,
         "12": 0,
@@ -2886,16 +3101,16 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "Tomografía Axial Computada": {
-        "7": 1,
-        "8": 9,
+        "7": 2,
+        "8": 10,
         "9": 6,
-        "10": 4,
+        "10": 7,
         "11": 4,
-        "12": 10,
-        "13": 5,
+        "12": 11,
+        "13": 6,
         "14": 4,
         "15": 1,
-        "16": 1,
+        "16": 2,
         "17": 0,
         "18": 0,
         "19": 0,
@@ -2904,19 +3119,19 @@ window.DASHBOARD_DATA = {
       }
     },
     "calor_hora_total": {
-      "7": 9,
-      "8": 38,
-      "9": 47,
-      "10": 52,
-      "11": 39,
-      "12": 38,
-      "13": 34,
-      "14": 32,
-      "15": 20,
-      "16": 15,
-      "17": 17,
-      "18": 8,
-      "19": 5,
+      "7": 11,
+      "8": 43,
+      "9": 52,
+      "10": 58,
+      "11": 40,
+      "12": 40,
+      "13": 42,
+      "14": 33,
+      "15": 22,
+      "16": 18,
+      "17": 18,
+      "18": 10,
+      "19": 7,
       "20": 6,
       "21": 0
     },
@@ -10164,19 +10379,1032 @@ window.DASHBOARD_DATA = {
         20,
         21
       ]
+    },
+    "25": {
+      "incump_depto": [
+        {
+          "depto": "Resonancia Magnética",
+          "total": 273,
+          "incump": 12,
+          "pct_cumpl": 95.6,
+          "top_estudios": [
+            {
+              "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Cráneo",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Pelvis Femenina (Endometriosis)",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Columna - Lumbar",
+              "n": 1
+            },
+            {
+              "estudio": "RM 1.5T - Articulación - Rodilla",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Densitometría",
+          "total": 72,
+          "incump": 8,
+          "pct_cumpl": 88.9,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 116,
+          "incump": 8,
+          "pct_cumpl": 93.1,
+          "top_estudios": [
+            {
+              "estudio": "TAC - Abdomen - Total [C]",
+              "n": 3
+            },
+            {
+              "estudio": "TAC - Cráneo",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Senos Paranasales (SNP)",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Ecosonografía",
+          "total": 353,
+          "incump": 4,
+          "pct_cumpl": 98.9,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Mama",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Pelvis Transvaginal",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Riñón",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Pelvis",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Radiología",
+          "total": 303,
+          "incump": 3,
+          "pct_cumpl": 99.0,
+          "top_estudios": [
+            {
+              "estudio": "RX Pies Comparativos - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Muñeca - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Tórax - 1P",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 230,
+          "incump": 3,
+          "pct_cumpl": 98.7,
+          "top_estudios": [
+            {
+              "estudio": "Evaluación Médico Internista (2 consultas)",
+              "n": 2
+            },
+            {
+              "estudio": "Evaluación Oftalmológica",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Mamografía",
+          "total": 97,
+          "incump": 2,
+          "pct_cumpl": 97.9,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 28,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Cardiología",
+          "total": 224,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 17,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 11,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 64,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 31,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 19,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 78,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicio Dental",
+          "total": 18,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 8
+        },
+        {
+          "estudio": "TAC - Abdomen - Total [C]",
+          "n": 3
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 2
+        },
+        {
+          "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+          "n": 2
+        },
+        {
+          "estudio": "RM 3.0T Digital - Cráneo",
+          "n": 2
+        },
+        {
+          "estudio": "Evaluación Médico Internista (2 consultas)",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - Cráneo",
+          "n": 2
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Pelvis Transvaginal",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Riñón",
+          "n": 1
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 100.0,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 97.2,
+          "AC": null,
+          "CH": 100.0,
+          "GP": null,
+          "CM": 72.7,
+          "MP": 100.0,
+          "LA": 0.0
+        },
+        "Ecosonografía": {
+          "LM": 100.0,
+          "AC": 100.0,
+          "CH": 100.0,
+          "GP": 71.4,
+          "CM": 97.1,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Mamografía": {
+          "LM": 100.0,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": 95.9,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Radiología": {
+          "LM": 98.3,
+          "AC": 98.7,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Resonancia Magnética": {
+          "LM": 95.9,
+          "AC": 92.8,
+          "CH": 98.4,
+          "GP": 100.0,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Tomografía Axial Computada": {
+          "LM": 94.6,
+          "AC": 87.5,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": null
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 2.97,
+          "gf_avg": 3.52,
+          "n": 50
+        },
+        "Densitometría": {
+          "gc_avg": 1.44,
+          "gf_avg": 1.38,
+          "n": 33
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.63,
+          "gf_avg": 1.44,
+          "n": 199
+        },
+        "Mamografía": {
+          "gc_avg": 1.13,
+          "gf_avg": 1.1,
+          "n": 72
+        },
+        "Radiología": {
+          "gc_avg": 1.0,
+          "gf_avg": 1.02,
+          "n": 168
+        },
+        "RM": {
+          "gc_avg": 2.13,
+          "gf_avg": 2.47,
+          "n": 94
+        },
+        "Tomografía": {
+          "gc_avg": 1.29,
+          "gf_avg": 1.29,
+          "n": 76
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 517,
+          "incump": 7,
+          "pct_cumpl": 98.6,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 116
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 84
+            },
+            {
+              "depto": "Radiología",
+              "n": 82
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 351,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 78
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 73
+            },
+            {
+              "depto": "Cardiología",
+              "n": 69
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 228,
+          "incump": 1,
+          "pct_cumpl": 99.6,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 82
+            },
+            {
+              "depto": "Servicios Especiales",
+              "n": 36
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 31
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 217,
+          "incump": 4,
+          "pct_cumpl": 98.2,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 48
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 33
+            },
+            {
+              "depto": "Radiología",
+              "n": 30
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 101,
+          "incump": 5,
+          "pct_cumpl": 95.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 41
+            },
+            {
+              "depto": "Radiología",
+              "n": 34
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 19
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 94,
+          "incump": 2,
+          "pct_cumpl": 97.9,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 39
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 29
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 14
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 69,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 67
+            },
+            {
+              "depto": "Espirometría",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 62,
+          "incump": 3,
+          "pct_cumpl": 95.2,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 27
+            },
+            {
+              "depto": "Mamografía",
+              "n": 16
+            },
+            {
+              "depto": "Densitometría",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 61,
+          "incump": 2,
+          "pct_cumpl": 96.7,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 61
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 58,
+          "incump": 6,
+          "pct_cumpl": 89.7,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 29
+            },
+            {
+              "depto": "Mamografía",
+              "n": 19
+            },
+            {
+              "depto": "Densitometría",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 40,
+          "incump": 2,
+          "pct_cumpl": 95.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 16
+            },
+            {
+              "depto": "Radiología",
+              "n": 8
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 7
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 36,
+          "incump": 1,
+          "pct_cumpl": 97.2,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 31
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 19,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 17
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 18,
+          "incump": 6,
+          "pct_cumpl": 66.7,
+          "top_deptos": [
+            {
+              "depto": "Salud Visual",
+              "n": 5
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 4
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 3
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 18,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 14
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 16,
+          "incump": 1,
+          "pct_cumpl": 93.8,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 11
+            },
+            {
+              "depto": "Densitometría",
+              "n": 3
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Godinez Laura Matilde",
+          "total": 9,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 7
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Radiología",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 7,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 7
+            }
+          ]
+        },
+        {
+          "usuario": "Velázquez González Dana",
+          "total": 5,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 3,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 3
+            }
+          ]
+        },
+        {
+          "usuario": "Carrillo Vazquez Celin",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 1
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Castro Alexis",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 2
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 26
+        },
+        {
+          "hora": 1,
+          "n": 0
+        },
+        {
+          "hora": 2,
+          "n": 0
+        },
+        {
+          "hora": 3,
+          "n": 0
+        },
+        {
+          "hora": 4,
+          "n": 0
+        },
+        {
+          "hora": 5,
+          "n": 1
+        },
+        {
+          "hora": 6,
+          "n": 0
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 3
+        },
+        {
+          "hora": 11,
+          "n": 0
+        },
+        {
+          "hora": 12,
+          "n": 0
+        },
+        {
+          "hora": 13,
+          "n": 0
+        },
+        {
+          "hora": 14,
+          "n": 3
+        },
+        {
+          "hora": 15,
+          "n": 2
+        },
+        {
+          "hora": 16,
+          "n": 1
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 2
+        },
+        {
+          "hora": 19,
+          "n": 1
+        },
+        {
+          "hora": 20,
+          "n": 0
+        },
+        {
+          "hora": 21,
+          "n": 0
+        },
+        {
+          "hora": 22,
+          "n": 1
+        },
+        {
+          "hora": 23,
+          "n": 0
+        }
+      ],
+      "calor_hora": {
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 2,
+          "14": 1,
+          "15": 0,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 1,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 2,
+          "11": 0,
+          "12": 1,
+          "13": 3,
+          "14": 0,
+          "15": 2,
+          "16": 0,
+          "17": 0,
+          "18": 1,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 0,
+          "8": 2,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 1,
+          "8": 1,
+          "9": 0,
+          "10": 3,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 2,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 1,
+        "12": 2,
+        "13": 8,
+        "14": 1,
+        "15": 2,
+        "16": 3,
+        "17": 1,
+        "18": 2,
+        "19": 2,
+        "20": 0,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Servicios Especiales",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
     }
   },
   "interpretaciones": {
     "exa": {
       "acumulado": {
-        "Anaya Constante, Monica Margarita": 31,
-        "Enriquez Velazquez, Manuel Ivan": 34,
-        "Garcia Godinez, Laura Matilde": 37,
-        "Gonzalez Medina, Nestor Alan": 33,
+        "Anaya Constante, Monica Margarita": 77,
+        "Enriquez Velazquez, Manuel Ivan": 57,
+        "Garcia Godinez, Laura Matilde": 77,
+        "Gonzalez Medina, Nestor Alan": 66,
         "Gonzalez Perez, Humberto Salvador": 1,
-        "Martinez Andrade, Sandra Estefania": 40,
-        "Tabares Martinez, Hugo": 65,
-        "Garcia Hernandez, Abimael": 5
+        "Martinez Andrade, Sandra Estefania": 73,
+        "Tabares Martinez, Hugo": 135,
+        "Garcia Hernandez, Abimael": 15
       },
       "por_semana": {
         "23": {
@@ -10196,49 +11424,59 @@ window.DASHBOARD_DATA = {
           "Gonzalez Medina, Nestor Alan": 26,
           "Martinez Andrade, Sandra Estefania": 30,
           "Tabares Martinez, Hugo": 59
+        },
+        "25": {
+          "Anaya Constante, Monica Margarita": 46,
+          "Enriquez Velazquez, Manuel Ivan": 23,
+          "Garcia Godinez, Laura Matilde": 40,
+          "Garcia Hernandez, Abimael": 10,
+          "Gonzalez Medina, Nestor Alan": 33,
+          "Martinez Andrade, Sandra Estefania": 33,
+          "Tabares Martinez, Hugo": 70
         }
       }
     },
     "sio": {
       "acumulado": {
-        "abimaelgh": 26,
+        "abimaelgh": 37,
         "adrianapg1": 1,
-        "albertova": 87,
-        "anaor": 42,
-        "anasg": 60,
-        "angelicaie": 23,
-        "angelicavr": 19,
-        "belenfsump": 57,
-        "casandracr": 79,
-        "cesarhm": 334,
-        "christopherml": 100,
+        "albertova": 134,
+        "anaor": 68,
+        "anasg": 93,
+        "angelicaie": 29,
+        "angelicavr": 27,
+        "belenfsump": 80,
+        "casandracr": 139,
+        "cesarhm": 362,
+        "christopherml": 193,
         "claudiahm1": 4,
-        "claudiarg": 28,
+        "claudiarg": 47,
         "danielzh": 1,
-        "davidgf": 151,
-        "davidoo": 128,
-        "franciscopl": 87,
-        "gadielvp": 201,
-        "gracielacv": 209,
-        "hugotm": 199,
-        "humbertogp1": 118,
-        "josesa": 108,
-        "lauragg": 201,
-        "luissm": 164,
-        "manuelev": 18,
-        "mariaad": 93,
-        "mariaap1": 85,
-        "monicaac": 157,
-        "nestorgm": 50,
-        "noragm": 88,
-        "oswaldorm": 62,
+        "davidgf": 218,
+        "davidoo": 289,
+        "franciscopl": 147,
+        "gadielvp": 285,
+        "gracielacv": 326,
+        "hugotm": 282,
+        "humbertogp1": 204,
+        "josesa": 186,
+        "lauragg": 301,
+        "luissm": 227,
+        "manuelev": 29,
+        "mariaad": 130,
+        "mariaap1": 126,
+        "monicaac": 197,
+        "nestorgm": 59,
+        "noragm": 135,
+        "oswaldorm": 87,
         "quintanaay": 1,
-        "reneag": 156,
-        "samantamp": 80,
-        "sandrama": 138,
-        "diegoda": 54,
-        "ivantm": 32,
-        "mairatd": 36
+        "reneag": 248,
+        "samantamp": 125,
+        "sandrama": 197,
+        "diegoda": 125,
+        "ivantm": 75,
+        "mairatd": 65,
+        "mayrage": 5
       },
       "por_semana": {
         "23": {
@@ -10314,6 +11552,43 @@ window.DASHBOARD_DATA = {
           "reneag": 81,
           "samantamp": 44,
           "sandrama": 70
+        },
+        "25": {
+          "abimaelgh": 11,
+          "albertova": 47,
+          "anaor": 26,
+          "anasg": 33,
+          "angelicaie": 6,
+          "angelicavr": 8,
+          "belenfsump": 23,
+          "casandracr": 60,
+          "cesarhm": 28,
+          "christopherml": 93,
+          "claudiarg": 19,
+          "davidgf": 67,
+          "davidoo": 161,
+          "diegoda": 71,
+          "franciscopl": 60,
+          "gadielvp": 84,
+          "gracielacv": 117,
+          "hugotm": 83,
+          "humbertogp1": 86,
+          "ivantm": 43,
+          "josesa": 78,
+          "lauragg": 100,
+          "luissm": 63,
+          "mairatd": 29,
+          "manuelev": 11,
+          "mariaad": 37,
+          "mariaap1": 41,
+          "mayrage": 5,
+          "monicaac": 40,
+          "nestorgm": 9,
+          "noragm": 47,
+          "oswaldorm": 25,
+          "reneag": 92,
+          "samantamp": 45,
+          "sandrama": 59
         }
       }
     }
