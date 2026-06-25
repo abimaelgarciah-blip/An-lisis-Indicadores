@@ -16,6 +16,8 @@ import re
 import json
 import argparse
 import datetime
+import zipfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import xlrd
@@ -148,7 +150,9 @@ def leer_sio(path: Path) -> dict:
     ws = wb.sheet_by_index(0)
     # Fila 3: nombres de usuario (cols 1 en adelante, hasta 'Total' o 'sio')
     usuarios_row = ws.row_values(3)
-    totales_row  = ws.row_values(21)
+    # Fila 21: totales (algunos archivos traen menos filas → última fila disponible)
+    fila_totales = 21 if ws.nrows > 21 else ws.nrows - 1
+    totales_row  = ws.row_values(fila_totales) if fila_totales >= 0 else []
     resultado = {}
     for i, usr in enumerate(usuarios_row):
         if not usr or usr in ("Total", "sio"):
@@ -194,6 +198,127 @@ def leer_todas_interpretaciones() -> dict:
             )
 
     return resultado
+
+
+# ── Chequeos de transcripción / entrega (.ods) ───────────────────────────────
+
+CHEQUEOS_DIR = Path(__file__).parent / "datos" / "chequeos"
+
+# Umbrales (días) para el total Realización → Entregado
+CHK_LIM_VERDE    = 7
+CHK_LIM_AMARILLO = 10
+
+_ODS_NS = {
+    "table":  "urn:oasis:names:tc:opendocument:xmlns:table:1.0",
+    "office": "urn:oasis:names:tc:opendocument:xmlns:office:1.0",
+}
+
+
+def _ods_q(tag: str) -> str:
+    prefijo, nombre = tag.split(":")
+    return "{%s}%s" % (_ODS_NS[prefijo], nombre)
+
+
+def _dias(a, b):
+    """Días transcurridos entre dos fechas (b - a). None si falta alguna."""
+    if a and b:
+        return (b - a).days
+    return None
+
+
+def _parse_fecha_chequeo(val):
+    """Parsea una fecha de chequeos: ISO, dd/mm/aaaa y typos comunes (24/062026)."""
+    if not val:
+        return None
+    s = str(val).strip()
+    if not s or s == "-":
+        return None
+    # Formato ISO (lo que entrega LibreOffice en office:date-value): YYYY-MM-DD
+    m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})", s)
+    if m:
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    else:
+        s2 = s.replace("-", "/")
+        m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", s2)          # dd/mm/aaaa
+        if not m:
+            m = re.match(r"(\d{1,2})/(\d{1,2})(\d{4})$", s2)       # typo: dd/mmaaaa
+        if not m:
+            return None
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    try:
+        return datetime.date(y, mo, d)
+    except ValueError:
+        return None
+
+
+def leer_chequeos_ods(path: Path) -> list[dict]:
+    """Lee un .ods de chequeos y retorna registros con fechas y días por proceso."""
+    z = zipfile.ZipFile(str(path))
+    root = ET.fromstring(z.read("content.xml"))
+    sheet = next(root.iter(_ods_q("table:table")), None)
+    if sheet is None:
+        return []
+
+    filas = []
+    for r in sheet.iter(_ods_q("table:table-row")):
+        celdas = []
+        for c in r.iter(_ods_q("table:table-cell")):
+            rep = int(c.get(_ods_q("table:number-columns-repeated"), "1") or 1)
+            date_v = c.get(_ods_q("office:date-value"))
+            num_v  = c.get(_ods_q("office:value"))
+            txt    = "".join(c.itertext())
+            celdas.extend([date_v or num_v or txt] * rep)
+        while celdas and celdas[-1] in ("", None):
+            celdas.pop()
+        filas.append(celdas)
+
+    sem = _semana_interp(path) or semana_de_archivo(path)
+    registros = []
+    for fila in filas[1:]:  # primera fila = encabezados
+        if not fila or not str(fila[0]).strip():
+            continue
+
+        def g(i):
+            return str(fila[i]).strip() if i < len(fila) and fila[i] is not None else ""
+
+        realizacion  = _parse_fecha_chequeo(g(0))
+        semaforo     = _parse_fecha_chequeo(g(1))
+        entrega_real = _parse_fecha_chequeo(g(2))
+        terminado    = _parse_fecha_chequeo(g(3))
+        entregado    = _parse_fecha_chequeo(g(4))
+
+        registros.append({
+            "semana":           sem,
+            "realizacion":      realizacion,
+            "semaforo":         semaforo,
+            "entrega_real":     entrega_real,
+            "terminado":        terminado,
+            "entregado":        entregado,
+            "entrega_digital":  g(5),
+            "medico":           g(6),
+            "estado":           g(7),
+            "transcriptor":     g(8),
+            "audio":            g(9),
+            "notas":            g(10),
+            # Días por proceso
+            "d_realiz_semaforo":      _dias(realizacion, semaforo),
+            "d_realiz_terminado":     _dias(realizacion, terminado),
+            "d_terminado_entregado":  _dias(terminado, entregado),
+            "d_realiz_entregado":     _dias(realizacion, entregado),  # ← TOTAL
+            "d_entregado_vs_real":    _dias(entrega_real, entregado), # + = retraso vs compromiso
+        })
+    return registros
+
+
+def leer_todos_chequeos() -> list[dict]:
+    """Lee todos los .ods de datos/chequeos/."""
+    if not CHEQUEOS_DIR.exists():
+        return []
+    regs = []
+    for path in sorted(CHEQUEOS_DIR.iterdir()):
+        if path.suffix.lower() == ".ods":
+            regs.extend(leer_chequeos_ods(path))
+    return regs
 
 
 # ── Lectura de XLS ────────────────────────────────────────────────────────────
@@ -593,6 +718,166 @@ def escribir_hoja_semanas(ws_sem, todas_las_filas: list[dict], semanas: list[int
         fila_actual += 2  # espacio entre semanas
 
 
+def escribir_hoja_chequeos(ws, registros: list[dict]):
+    """Hoja con los días que pasa cada estudio en cada proceso (transcripción → entrega)."""
+    PROCESOS = [
+        ("Realización → Semáforo (objetivo)",            "d_realiz_semaforo"),
+        ("Realización → Terminado (transcripción)",      "d_realiz_terminado"),
+        ("Terminado → Entregado (entrega)",              "d_terminado_entregado"),
+        ("Realización → Entregado (TOTAL)",              "d_realiz_entregado"),
+        ("Entregado vs compromiso (+ = retraso)",        "d_entregado_vs_real"),
+    ]
+
+    columnas = [
+        ("Semana", 8), ("Realización", 13), ("Semáforo", 13), ("Terminado", 13),
+        ("Entregado", 13), ("Médico", 12), ("Transcriptor", 13), ("Estado", 12),
+        ("Entrega Digital", 13),
+        ("R→Terminado", 12), ("Term→Entreg.", 13),
+        ("R→Entregado (TOTAL)", 18), ("R→Semáforo", 12), ("Δ vs compromiso", 14),
+    ]
+    n_cols = len(columnas)
+
+    # — Título —
+    ws.merge_cells(f"A1:{get_column_letter(n_cols)}1")
+    c = ws.cell(1, 1, "Días por Proceso — Transcripción y Entrega de Estudios")
+    c.fill = fill(COLOR_AZUL_OSCURO)
+    c.font = Font(bold=True, size=14, color=COLOR_BLANCO)
+    c.alignment = center()
+    ws.row_dimensions[1].height = 28
+
+    fila = 3
+
+    # — Resumen: días promedio por proceso —
+    ws.merge_cells(start_row=fila, start_column=1, end_row=fila, end_column=5)
+    c = ws.cell(fila, 1, "Resumen — días por proceso")
+    c.fill = fill(COLOR_AZUL_MEDIO); c.font = bold_font(11); c.alignment = center()
+    fila += 1
+
+    for j, h in enumerate(["Proceso", "Promedio (días)", "Mín", "Máx", "N"], 1):
+        cc = ws.cell(fila, j, h)
+        cc.fill = fill(COLOR_AZUL_CLARO); cc.font = Font(bold=True, size=10, color="1F3864")
+        cc.alignment = center(); cc.border = thin_border()
+    fila += 1
+
+    for etiqueta, key in PROCESOS:
+        vals = [r[key] for r in registros if r[key] is not None]
+        avg  = sum(vals) / len(vals) if vals else None
+        destacado = key == "d_realiz_entregado"
+        valores = [
+            etiqueta,
+            f"{avg:.1f}" if avg is not None else "-",
+            str(min(vals)) if vals else "-",
+            str(max(vals)) if vals else "-",
+            len(vals),
+        ]
+        for j, v in enumerate(valores, 1):
+            cc = ws.cell(fila, j, v)
+            cc.border = thin_border()
+            cc.alignment = left() if j == 1 else center()
+            if destacado:
+                cc.fill = fill(COLOR_AMARILLO); cc.font = Font(bold=True, size=10)
+            else:
+                cc.fill = fill(COLOR_BLANCO); cc.font = normal_font(10)
+        fila += 1
+
+    fila += 1
+
+    # — Resumen por transcriptor (días totales R→Entregado) —
+    ws.merge_cells(start_row=fila, start_column=1, end_row=fila, end_column=5)
+    c = ws.cell(fila, 1, "Resumen por transcriptor — Realización → Entregado")
+    c.fill = fill(COLOR_AZUL_MEDIO); c.font = bold_font(11); c.alignment = center()
+    fila += 1
+
+    for j, h in enumerate(["Transcriptor", "Entregados", "Prom. días", "Mín", "Máx"], 1):
+        cc = ws.cell(fila, j, h)
+        cc.fill = fill(COLOR_AZUL_CLARO); cc.font = Font(bold=True, size=10, color="1F3864")
+        cc.alignment = center(); cc.border = thin_border()
+    fila += 1
+
+    por_tr = {}
+    for r in registros:
+        tr = r["transcriptor"] or "(sin asignar)"
+        if tr in ("-",):
+            tr = "(sin asignar)"
+        por_tr.setdefault(tr, []).append(r["d_realiz_entregado"])
+
+    for tr in sorted(por_tr):
+        vals = [v for v in por_tr[tr] if v is not None]
+        avg  = sum(vals) / len(vals) if vals else None
+        valores = [
+            tr,
+            len(vals),
+            f"{avg:.1f}" if avg is not None else "-",
+            str(min(vals)) if vals else "-",
+            str(max(vals)) if vals else "-",
+        ]
+        for j, v in enumerate(valores, 1):
+            cc = ws.cell(fila, j, v)
+            cc.border = thin_border()
+            cc.alignment = left() if j == 1 else center()
+            cc.fill = fill(COLOR_BLANCO); cc.font = normal_font(10)
+        fila += 1
+
+    fila += 1
+
+    # — Encabezados del detalle —
+    encab_fila = fila
+    for col_idx, (nombre, ancho) in enumerate(columnas, 1):
+        cc = ws.cell(encab_fila, col_idx, nombre)
+        cc.fill = fill(COLOR_ENCABEZADO); cc.font = bold_font(9)
+        cc.alignment = center(); cc.border = thin_border()
+        ws.column_dimensions[get_column_letter(col_idx)].width = ancho
+    ws.row_dimensions[encab_fila].height = 30
+    fila += 1
+
+    def fdate(d):
+        return d.isoformat() if d else "-"
+
+    def fnum(n):
+        return n if n is not None else "-"
+
+    for r in registros:
+        total = r["d_realiz_entregado"]
+        valores = [
+            r.get("semana") or "",
+            fdate(r["realizacion"]),
+            fdate(r["semaforo"]),
+            fdate(r["terminado"]),
+            fdate(r["entregado"]) if r["entregado"] else "En proceso",
+            r["medico"],
+            r["transcriptor"],
+            r["estado"],
+            r["entrega_digital"],
+            fnum(r["d_realiz_terminado"]),
+            fnum(r["d_terminado_entregado"]),
+            fnum(total),
+            fnum(r["d_realiz_semaforo"]),
+            fnum(r["d_entregado_vs_real"]),
+        ]
+        color_fondo = COLOR_FILA_PAR if fila % 2 == 0 else COLOR_BLANCO
+        for col_idx, v in enumerate(valores, 1):
+            cc = ws.cell(fila, col_idx, v)
+            cc.border = thin_border()
+            cc.font = normal_font(9)
+            cc.alignment = left() if col_idx <= 9 else center()
+            cc.fill = fill(color_fondo)
+            # Semáforo de color en la columna TOTAL (col 12)
+            if col_idx == 12 and total is not None:
+                if total <= CHK_LIM_VERDE:
+                    cc.fill = fill(COLOR_VERDE_CLARO); cc.font = Font(size=9, bold=True, color="1F6B2E")
+                elif total <= CHK_LIM_AMARILLO:
+                    cc.fill = fill(COLOR_AMARILLO); cc.font = Font(size=9, bold=True, color="7A5C00")
+                else:
+                    cc.fill = fill("FFC7C7"); cc.font = Font(size=9, bold=True, color=COLOR_ROJO)
+        ws.row_dimensions[fila].height = 16
+        fila += 1
+
+    ws.freeze_panes = ws.cell(encab_fila + 1, 1)
+    ws.auto_filter.ref = (
+        f"A{encab_fila}:{get_column_letter(n_cols)}{fila - 1}"
+    )
+
+
 # ── Exportar JSON ─────────────────────────────────────────────────────────────
 
 def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
@@ -891,6 +1176,13 @@ def main():
     # Hoja 3: Detalle de registros
     ws_det = wb.create_sheet("Detalle Registros")
     escribir_hoja_detalle(ws_det, todas_las_filas)
+
+    # Hoja 4: Días por proceso (chequeos de transcripción / entrega)
+    chequeos = leer_todos_chequeos()
+    if chequeos:
+        ws_chk = wb.create_sheet("Días por Proceso")
+        escribir_hoja_chequeos(ws_chk, chequeos)
+        print(f"  • Chequeos: {len(chequeos)} registros → hoja 'Días por Proceso'")
 
     wb.save(ruta_xlsx)
     print(f"\n✓ Excel generado: {ruta_xlsx}")
