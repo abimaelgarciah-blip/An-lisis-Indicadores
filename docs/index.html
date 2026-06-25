@@ -33,6 +33,14 @@ header p{font-size:12px;opacity:.8;margin-top:2px;}
 select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
        font-size:13px;background:#fff;cursor:pointer;}
 
+/* ── Navegación principal (Dashboard / Chequeos) ── */
+.mainnav{display:flex;gap:6px;background:var(--azul);padding:0 32px;}
+.mainnav-btn{padding:12px 22px;border:none;background:transparent;cursor:pointer;
+     font-size:14px;font-weight:700;color:#cdd9ec;
+     border-bottom:4px solid transparent;transition:all .14s;}
+.mainnav-btn:hover{color:#fff;background:rgba(255,255,255,.08);}
+.mainnav-btn.activa{color:#fff;border-bottom-color:#fff;}
+
 /* ── Pestañas ── */
 .tabs{display:flex;gap:4px;flex-wrap:wrap;
       background:#fff;border-bottom:2px solid var(--borde);
@@ -143,14 +151,19 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
   <span id="generado"></span>
 </header>
 
-<div class="controls">
+<div class="mainnav">
+  <button class="mainnav-btn activa" data-vista="dashboard">📊 Dashboard</button>
+  <button class="mainnav-btn" data-vista="chequeos">📋 Chequeos</button>
+</div>
+
+<div class="controls" id="controls">
   <label>Periodo:</label>
   <select id="periodo"></select>
 </div>
 
 <div class="tabs" id="tabs"></div>
 
-<div class="wrap">
+<div class="wrap" id="vista-dashboard">
 
   <!-- ══════════════════════════════════════════════════════
        SECCIÓN 1 · INDICADOR E INCUMPLIMIENTO
@@ -320,6 +333,53 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
   </div>
 
 </div><!-- /wrap -->
+
+<!-- ══════════════════════════════════════════════════════
+     VISTA · CHEQUEOS (Días por Proceso)
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-chequeos" style="display:none;">
+  <div class="seccion">
+    <div class="sec-titulo"><span>📋</span> Chequeos · Días por Proceso (Transcripción → Entrega)</div>
+    <p id="chk-subtitulo" style="font-size:12px;color:#6a7d95;margin:-6px 0 18px;"></p>
+
+    <!-- KPIs -->
+    <div class="grid4" id="chk-kpis" style="margin-bottom:20px;"></div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <!-- Días promedio por proceso -->
+      <div class="card">
+        <h3>Días Promedio por Proceso</h3>
+        <canvas id="chartChkProcesos" height="200"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          Promedio de días entre cada etapa. El total Realización → Entregado es el indicador principal.
+        </p>
+      </div>
+
+      <!-- Distribución del total -->
+      <div class="card">
+        <h3>Distribución — Días Realización → Entregado</h3>
+        <canvas id="chartChkDist" height="200"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          <span style="color:#52a53f;font-weight:700;">■</span> ≤ <span id="chk-lim-v">7</span> días &nbsp;
+          <span style="color:#d4920a;font-weight:700;">■</span> ≤ <span id="chk-lim-a">10</span> días &nbsp;
+          <span style="color:#c0392b;font-weight:700;">■</span> &gt; límite
+        </p>
+      </div>
+    </div>
+
+    <!-- Por transcriptor -->
+    <div class="card" style="margin-bottom:20px;">
+      <h3>Días Promedio por Transcriptor (Realización → Entregado)</h3>
+      <div id="chkTranscriptores" style="margin-top:10px;"></div>
+    </div>
+
+    <!-- Detalle -->
+    <div class="card">
+      <h3>Detalle de Registros</h3>
+      <div class="tabla-scroll"><table id="tablaChequeos"></table></div>
+    </div>
+  </div>
+</div><!-- /vista-chequeos -->
 
 <footer id="footer"></footer>
 
@@ -762,6 +822,120 @@ function renderInterpSection(){
   tablaInterp(sio, 'sioTabla', '#2e5fa3');
 }
 
+// ── Vista Chequeos ────────────────────────────────────────────────────────────
+function cChk(d, lv, la){
+  if(d==null)  return '#cfd6e0';
+  if(d<=lv)    return '#52a53f';
+  if(d<=la)    return '#d4920a';
+  return '#c0392b';
+}
+
+function renderChequeos(){
+  const C = D.chequeos;
+  const cont = document.querySelector('#vista-chequeos .seccion');
+  if(!C || !C.total){
+    cont.innerHTML = '<p style="padding:40px;text-align:center;color:#aab;">'
+      + 'No hay datos de chequeos. Coloca archivos .ods en <code>datos/chequeos/</code>.</p>';
+    return;
+  }
+  const P = C.procesos;
+
+  document.getElementById('chk-subtitulo').textContent =
+    `${C.total} registros · ${C.entregados} entregados · ${C.en_proceso} en proceso`
+    + (C.semanas.length ? ` · Semana(s) ${C.semanas.join(', ')}` : '');
+  document.getElementById('chk-lim-v').textContent = C.lim_verde;
+  document.getElementById('chk-lim-a').textContent = C.lim_amarillo;
+
+  // KPIs
+  const tot = P.realiz_entregado;
+  const kpis = [
+    {lab:'Realización → Entregado', val: tot.avg!=null? tot.avg+' días':'–',
+     sub:`promedio · mín ${tot.min??'–'} / máx ${tot.max??'–'}`, cls:''},
+    {lab:'Transcripción (R → Terminado)', val: P.realiz_terminado.avg!=null? P.realiz_terminado.avg+' d':'–',
+     sub:'promedio', cls:''},
+    {lab:'Entrega (Terminado → Entregado)', val: P.terminado_entregado.avg!=null? P.terminado_entregado.avg+' d':'–',
+     sub:'promedio', cls:''},
+    {lab:'Entregados', val: C.entregados+'/'+C.total, sub: C.en_proceso+' en proceso', cls:'verde'},
+  ];
+  document.getElementById('chk-kpis').innerHTML = kpis.map(k=>
+    `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div>`
+    + `<div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
+
+  // Gráfica: días por proceso
+  mk('chartChkProcesos', {
+    type:'bar',
+    data:{labels:['R→Semáforo','R→Terminado','Term→Entreg.','R→Entregado'],
+      datasets:[{data:[P.realiz_semaforo.avg, P.realiz_terminado.avg,
+                       P.terminado_entregado.avg, P.realiz_entregado.avg],
+        backgroundColor:['#7a8aa0','#2e5fa3','#5a8fd6','#1F3864']}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'días'}}}}
+  });
+
+  // Gráfica: distribución del total
+  const dist = C.distribucion;
+  mk('chartChkDist', {
+    type:'bar',
+    data:{labels:dist.map(x=>x.dias+'d'),
+      datasets:[{data:dist.map(x=>x.n),
+        backgroundColor:dist.map(x=>cChk(x.dias,C.lim_verde,C.lim_amarillo))}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
+  });
+
+  // Barras por transcriptor
+  const maxAvg = Math.max(...C.transcriptores.map(t=>t.avg||0), 1);
+  document.getElementById('chkTranscriptores').innerHTML = C.transcriptores.map(t=>{
+    const w = t.avg!=null ? (t.avg/maxAvg*100) : 0;
+    const col = cChk(t.avg, C.lim_verde, C.lim_amarillo);
+    return `<div class="usr-bar">
+      <span class="usr-nombre">${t.transcriptor}</span>
+      <div class="usr-pista"><div class="usr-fill" style="width:${w}%;background:${col};"></div></div>
+      <span class="usr-num">${t.avg!=null? t.avg+'d':'–'}</span>
+      <span class="usr-pct">${t.entregados} entreg.</span>
+    </div>`;
+  }).join('');
+
+  // Tabla de detalle
+  const f = v => v==null ? '–' : v;
+  let html = `<thead><tr>
+    <th>Sem</th><th>Realización</th><th>Semáforo</th><th>Terminado</th><th>Entregado</th>
+    <th>Médico</th><th>Transcriptor</th><th>Estado</th><th>Digital</th>
+    <th>R→Term</th><th>Term→Ent</th><th>R→Entreg</th><th>R→Sem</th><th>Δ comp.</th>
+  </tr></thead><tbody>`;
+  for(const r of C.detalle){
+    const t = r.d_realiz_entregado;
+    const totCell = t==null
+      ? '<td style="text-align:center;color:#aab;">–</td>'
+      : `<td style="text-align:center;font-weight:700;color:#fff;background:${cChk(t,C.lim_verde,C.lim_amarillo)};">${t}</td>`;
+    const entregadoCell = r.entregado || '<span style="color:#d4920a;font-weight:600;">En proceso</span>';
+    html += `<tr>
+      <td>${r.semana??''}</td><td>${r.realizacion??'–'}</td><td>${r.semaforo??'–'}</td>
+      <td>${r.terminado??'–'}</td><td>${entregadoCell}</td>
+      <td>${r.medico||''}</td><td>${r.transcriptor||''}</td><td>${r.estado||''}</td><td>${r.entrega_digital||''}</td>
+      <td style="text-align:center;">${f(r.d_realiz_terminado)}</td>
+      <td style="text-align:center;">${f(r.d_terminado_entregado)}</td>
+      ${totCell}
+      <td style="text-align:center;">${f(r.d_realiz_semaforo)}</td>
+      <td style="text-align:center;">${f(r.d_entregado_vs_real)}</td>
+    </tr>`;
+  }
+  document.getElementById('tablaChequeos').innerHTML = html + '</tbody>';
+}
+
+// ── Cambio de vista principal (Dashboard / Chequeos) ──────────────────────────
+let CHQ_RENDERED = false;
+function setVista(v){
+  const esChk = v === 'chequeos';
+  document.getElementById('vista-dashboard').style.display = esChk ? 'none' : '';
+  document.getElementById('controls').style.display        = esChk ? 'none' : '';
+  document.getElementById('tabs').style.display            = esChk ? 'none' : '';
+  document.getElementById('vista-chequeos').style.display  = esChk ? '' : 'none';
+  document.querySelectorAll('.mainnav-btn').forEach(b=>
+    b.classList.toggle('activa', b.dataset.vista===v));
+  if(esChk && !CHQ_RENDERED){ renderChequeos(); CHQ_RENDERED = true; }
+}
+
 // ── Render principal ──────────────────────────────────────────────────────────
 function render(){
   const t = tablaActual();
@@ -788,6 +962,9 @@ function render(){
 if(!D){
   document.querySelector('.wrap').innerHTML='<p style="padding:60px;text-align:center;">No hay datos. Ejecuta <code>python procesar.py</code>.</p>';
 } else {
+  // Navegación principal primero, para que funcione aunque una gráfica falle
+  document.querySelectorAll('.mainnav-btn').forEach(b=>
+    b.onclick = ()=> setVista(b.dataset.vista));
   initControles();
   render();
 }

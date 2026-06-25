@@ -904,6 +904,87 @@ def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
         json.dump(clean(data), f, ensure_ascii=False, indent=2, default=str)
 
 
+def _analisis_chequeos(registros: list[dict]) -> dict:
+    """Resume los chequeos (días por proceso) para el dashboard web."""
+    def stats(key):
+        vals = [r[key] for r in registros if r[key] is not None]
+        return {
+            "avg": round(sum(vals) / len(vals), 1) if vals else None,
+            "min": min(vals) if vals else None,
+            "max": max(vals) if vals else None,
+            "n":   len(vals),
+        }
+
+    procesos = {
+        "realiz_semaforo":     stats("d_realiz_semaforo"),
+        "realiz_terminado":    stats("d_realiz_terminado"),
+        "terminado_entregado": stats("d_terminado_entregado"),
+        "realiz_entregado":    stats("d_realiz_entregado"),
+        "entregado_vs_real":   stats("d_entregado_vs_real"),
+    }
+
+    # Por transcriptor (sobre el total Realización → Entregado)
+    por_tr = {}
+    for r in registros:
+        tr = r["transcriptor"] or "(sin asignar)"
+        if tr == "-":
+            tr = "(sin asignar)"
+        por_tr.setdefault(tr, []).append(r["d_realiz_entregado"])
+    transcriptores = []
+    for tr in sorted(por_tr):
+        vals = [v for v in por_tr[tr] if v is not None]
+        transcriptores.append({
+            "transcriptor": tr,
+            "entregados":   len(vals),
+            "avg": round(sum(vals) / len(vals), 1) if vals else None,
+            "min": min(vals) if vals else None,
+            "max": max(vals) if vals else None,
+        })
+    transcriptores.sort(key=lambda x: -x["entregados"])
+
+    # Distribución del total de días Realización → Entregado
+    dist = {}
+    for r in registros:
+        d = r["d_realiz_entregado"]
+        if d is not None:
+            dist[d] = dist.get(d, 0) + 1
+    distribucion = [{"dias": k, "n": dist[k]} for k in sorted(dist)]
+
+    entregados = sum(1 for r in registros if r["entregado"])
+
+    detalle = [{
+        "semana":        r["semana"],
+        "realizacion":   r["realizacion"].isoformat() if r["realizacion"] else None,
+        "semaforo":      r["semaforo"].isoformat() if r["semaforo"] else None,
+        "terminado":     r["terminado"].isoformat() if r["terminado"] else None,
+        "entregado":     r["entregado"].isoformat() if r["entregado"] else None,
+        "medico":        r["medico"],
+        "transcriptor":  r["transcriptor"],
+        "estado":        r["estado"],
+        "entrega_digital": r["entrega_digital"],
+        "d_realiz_terminado":    r["d_realiz_terminado"],
+        "d_terminado_entregado": r["d_terminado_entregado"],
+        "d_realiz_entregado":    r["d_realiz_entregado"],
+        "d_realiz_semaforo":     r["d_realiz_semaforo"],
+        "d_entregado_vs_real":   r["d_entregado_vs_real"],
+    } for r in registros]
+
+    semanas = sorted({str(r["semana"]) for r in registros if r["semana"]})
+
+    return {
+        "procesos":       procesos,
+        "transcriptores": transcriptores,
+        "distribucion":   distribucion,
+        "total":          len(registros),
+        "entregados":     entregados,
+        "en_proceso":     len(registros) - entregados,
+        "lim_verde":      CHK_LIM_VERDE,
+        "lim_amarillo":   CHK_LIM_AMARILLO,
+        "semanas":        semanas,
+        "detalle":        detalle,
+    }
+
+
 def _analisis_web(rows):
     """Calcula todos los análisis detallados para el dashboard web."""
     from collections import defaultdict, Counter
@@ -1072,6 +1153,7 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         "analisis":        analisis_acum,
         "analisis_sem":    analisis_sem,
         "interpretaciones": leer_todas_interpretaciones(),
+        "chequeos":        _analisis_chequeos(leer_todos_chequeos()),
     }
 
     DOCS_DIR = Path(__file__).parent / "docs"
