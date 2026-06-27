@@ -16,6 +16,8 @@ import re
 import json
 import argparse
 import datetime
+import zipfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import xlrd
@@ -148,7 +150,15 @@ def leer_sio(path: Path) -> dict:
     ws = wb.sheet_by_index(0)
     # Fila 3: nombres de usuario (cols 1 en adelante, hasta 'Total' o 'sio')
     usuarios_row = ws.row_values(3)
-    totales_row  = ws.row_values(21)
+    # La fila de totales no está en un índice fijo (varía según las categorías
+    # presentes en cada semana). Se localiza buscando "Total" en la columna 0.
+    totales_row = None
+    for i in range(ws.nrows):
+        if str(ws.cell_value(i, 0)).strip().lower() == "total":
+            totales_row = ws.row_values(i)
+            break
+    if totales_row is None:
+        totales_row = ws.row_values(ws.nrows - 1)
     resultado = {}
     for i, usr in enumerate(usuarios_row):
         if not usr or usr in ("Total", "sio"):
@@ -196,6 +206,316 @@ def leer_todas_interpretaciones() -> dict:
     return resultado
 
 
+# ── Chequeos de transcripción / entrega (.ods / .xlsx) ───────────────────────
+
+CHEQUEOS_DIR = Path(__file__).parent / "datos" / "chequeos"
+
+# Umbrales (días) para el total Realización → Entregado
+CHK_LIM_VERDE    = 7
+CHK_LIM_AMARILLO = 10
+
+# Objetivos de cumplimiento solicitados
+OBJ_ENTREGA_REAL   = 95   # % entregado al menos 1 día antes de la Fecha entrega real
+OBJ_REALIZ_TERM    = 95   # % con Realización → Terminado ≤ 4 días
+LIM_REALIZ_TERM    = 4    # días límite para la transcripción
+DIAS_ANTES_OBJ     = 1    # días de anticipación requeridos vs Fecha entrega real
+
+# Ventana de saneamiento: descarta diferencias de días imposibles
+# (errores de captura con años mal escritos, p. ej. 0226 → diferencias de miles de días).
+DIAS_MIN_VALIDO = -60
+DIAS_MAX_VALIDO = 365
+
+# Normalización de nombres (unifica variantes/typos a un nombre canónico)
+INTERNISTAS_CANON = ["Oropeza", "Castellón", "Santoyo", "Toriz", "Blanca"]
+TRANSCRIPTORES_CANON = ["Casandra", "Beto", "Mayra", "Graciela", "Humberto"]
+
+_INTERNISTA_ALIAS = {
+    "castellon":     "Castellón",
+    "castellón":     "Castellón",
+    "dra. blanca":   "Blanca",
+    "dra blanca":    "Blanca",
+    "blanca":        "Blanca",
+    "oropeza":       "Oropeza",
+    "santoyo":       "Santoyo",
+    "toriz":         "Toriz",
+}
+
+_TRANSCRIPTOR_ALIAS = {
+    "casandra":  "Casandra",
+    "beto":      "Beto",
+    "mayra":     "Mayra",
+    "graciela":  "Graciela",
+    "humberto":  "Humberto",
+}
+
+
+def _norm_internista(nombre: str) -> str:
+    """Devuelve el internista canónico o 'Otros' para valores fuera de la lista."""
+    if not nombre:
+        return "(sin asignar)"
+    clave = str(nombre).strip().lower()
+    if not clave or clave in ("-", "?", "x"):
+        return "(sin asignar)"
+    return _INTERNISTA_ALIAS.get(clave, "Otros")
+
+
+def _norm_transcriptor(nombre: str) -> str:
+    """Devuelve el transcriptor canónico o 'Otros' para valores fuera de la lista."""
+    if not nombre:
+        return "(sin asignar)"
+    clave = str(nombre).strip().lower()
+    if not clave or clave in ("-", "sin transcriptor"):
+        return "(sin asignar)"
+    return _TRANSCRIPTOR_ALIAS.get(clave, "Otros")
+
+
+def _dias_valido(d):
+    """True si la diferencia de días cae en un rango plausible (descarta typos)."""
+    return d is not None and DIAS_MIN_VALIDO <= d <= DIAS_MAX_VALIDO
+
+_ODS_NS = {
+    "table":  "urn:oasis:names:tc:opendocument:xmlns:table:1.0",
+    "office": "urn:oasis:names:tc:opendocument:xmlns:office:1.0",
+}
+
+
+def _ods_q(tag: str) -> str:
+    prefijo, nombre = tag.split(":")
+    return "{%s}%s" % (_ODS_NS[prefijo], nombre)
+
+
+# Días festivos / no laborables (no se cuentan en los días transcurridos)
+FESTIVOS = {
+    datetime.date(2026, 1, 1),
+    datetime.date(2026, 2, 2),
+    datetime.date(2026, 2, 23),
+    datetime.date(2026, 3, 16),
+    datetime.date(2026, 4, 3),
+    datetime.date(2026, 4, 4),
+    datetime.date(2026, 5, 1),
+}
+
+
+def _no_laborable(d):
+    """True si la fecha es domingo o festivo (no cuenta como día transcurrido)."""
+    return d.weekday() == 6 or d in FESTIVOS
+
+
+def _dias_laborables(a, b):
+    """Días laborables (lun–sáb, sin festivos) en el intervalo (a, b], a<b."""
+    n = 0
+    d = a
+    while d < b:
+        d += datetime.timedelta(days=1)
+        if not _no_laborable(d):
+            n += 1
+    return n
+
+
+def _dias(a, b):
+    """
+    Días transcurridos entre dos fechas (b − a) contando solo días laborables:
+    de lunes a sábado, excluyendo además los festivos definidos en FESTIVOS.
+    None si falta alguna fecha.
+    """
+    if not (a and b):
+        return None
+    if b >= a:
+        return _dias_laborables(a, b)
+    return -_dias_laborables(b, a)   # diferencia negativa (errores de captura)
+
+
+def _parse_fecha_chequeo(val):
+    """Parsea una fecha de chequeos: ISO, dd/mm/aaaa y typos comunes (24/062026)."""
+    if not val:
+        return None
+    s = str(val).strip()
+    if not s or s == "-":
+        return None
+    # Formato ISO (lo que entrega LibreOffice en office:date-value): YYYY-MM-DD
+    m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})", s)
+    if m:
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    else:
+        s2 = s.replace("-", "/")
+        m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", s2)          # dd/mm/aaaa
+        if not m:
+            m = re.match(r"(\d{1,2})/(\d{1,2})(\d{4})$", s2)       # typo: dd/mmaaaa
+        if not m:
+            return None
+        d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    try:
+        return datetime.date(y, mo, d)
+    except ValueError:
+        return None
+
+
+def leer_chequeos_ods(path: Path) -> list[dict]:
+    """Lee un .ods de chequeos y retorna registros con fechas y días por proceso."""
+    z = zipfile.ZipFile(str(path))
+    root = ET.fromstring(z.read("content.xml"))
+    sheet = next(root.iter(_ods_q("table:table")), None)
+    if sheet is None:
+        return []
+
+    filas = []
+    for r in sheet.iter(_ods_q("table:table-row")):
+        celdas = []
+        for c in r.iter(_ods_q("table:table-cell")):
+            rep = int(c.get(_ods_q("table:number-columns-repeated"), "1") or 1)
+            date_v = c.get(_ods_q("office:date-value"))
+            num_v  = c.get(_ods_q("office:value"))
+            txt    = "".join(c.itertext())
+            celdas.extend([date_v or num_v or txt] * rep)
+        while celdas and celdas[-1] in ("", None):
+            celdas.pop()
+        filas.append(celdas)
+
+    sem = _semana_interp(path) or semana_de_archivo(path)
+    registros = []
+    for fila in filas[1:]:  # primera fila = encabezados
+        if not fila or not str(fila[0]).strip():
+            continue
+
+        def g(i):
+            return str(fila[i]).strip() if i < len(fila) and fila[i] is not None else ""
+
+        realizacion  = _parse_fecha_chequeo(g(0))
+        semaforo     = _parse_fecha_chequeo(g(1))
+        entrega_real = _parse_fecha_chequeo(g(2))
+        terminado    = _parse_fecha_chequeo(g(3))
+        entregado    = _parse_fecha_chequeo(g(4))
+
+        registros.append({
+            "semana":           sem,
+            "realizacion":      realizacion,
+            "semaforo":         semaforo,
+            "entrega_real":     entrega_real,
+            "terminado":        terminado,
+            "entregado":        entregado,
+            "entrega_digital":  g(5),
+            "medico":           g(6),
+            "estado":           g(7),
+            "transcriptor":     g(8),
+            "audio":            g(9),
+            "notas":            g(10),
+            # Días por proceso
+            "d_realiz_semaforo":      _dias(realizacion, semaforo),
+            "d_realiz_terminado":     _dias(realizacion, terminado),
+            "d_terminado_entregado":  _dias(terminado, entregado),
+            "d_realiz_entregado":     _dias(realizacion, entregado),  # ← TOTAL
+            "d_entregado_vs_real":    _dias(entrega_real, entregado), # + = retraso vs compromiso
+        })
+    return registros
+
+
+def leer_chequeos_xlsx(path: Path) -> list[dict]:
+    """
+    Lee un .xlsx de chequeos (formato combinado con columna 'Cita' inicial) y
+    retorna registros con el mismo esquema que leer_chequeos_ods.
+
+    La semana de cada registro se deriva de la Fecha de realización (semana ISO),
+    porque un archivo combinado cubre varias semanas.
+    """
+    wb = openpyxl.load_workbook(str(path), data_only=True)
+    ws = wb.active
+
+    filas = list(ws.iter_rows(min_row=1, values_only=True))
+    if not filas:
+        return []
+
+    # Mapa de columnas por encabezado (tolerante a acentos/espacios).
+    encab = [str(c).strip().lower() if c is not None else "" for c in filas[0]]
+
+    def col(*claves):
+        for i, h in enumerate(encab):
+            if any(k in h for k in claves):
+                return i
+        return None
+
+    c_realiz = col("realiz")
+    c_semaf  = col("semáforo", "semaforo")
+    c_ereal  = col("entrega real")
+    c_term   = col("terminado")
+    c_entr   = col("entregado")
+    c_digital= col("entrega digital", "digital")
+    c_medico = col("internista", "médico", "medico")
+    c_estado = col("estado")
+    c_transc = col("transcriptor")
+    c_audio  = col("audio")
+
+    def celda(fila, idx):
+        if idx is None or idx >= len(fila):
+            return None
+        return fila[idx]
+
+    def fecha(v):
+        if isinstance(v, datetime.datetime):
+            return v.date()
+        if isinstance(v, datetime.date):
+            return v
+        return _parse_fecha_chequeo(v)
+
+    def texto(v):
+        return str(v).strip() if v is not None else ""
+
+    registros = []
+    for fila in filas[1:]:
+        if not fila or all(c is None or str(c).strip() == "" for c in fila):
+            continue
+
+        realizacion  = fecha(celda(fila, c_realiz))
+        semaforo     = fecha(celda(fila, c_semaf))
+        entrega_real = fecha(celda(fila, c_ereal))
+        terminado    = fecha(celda(fila, c_term))
+        entregado    = fecha(celda(fila, c_entr))
+
+        # Semana ISO y mes a partir de la fecha de realización.
+        sem = realizacion.isocalendar()[1] if realizacion else None
+        mes = realizacion.strftime("%Y-%m") if realizacion else None
+
+        registros.append({
+            "semana":           sem,
+            "mes":              mes,
+            "realizacion":      realizacion,
+            "semaforo":         semaforo,
+            "entrega_real":     entrega_real,
+            "terminado":        terminado,
+            "entregado":        entregado,
+            "entrega_digital":  texto(celda(fila, c_digital)),
+            "medico":           texto(celda(fila, c_medico)),
+            "estado":           texto(celda(fila, c_estado)),
+            "transcriptor":     texto(celda(fila, c_transc)),
+            "audio":            texto(celda(fila, c_audio)),
+            "notas":            "",
+            "d_realiz_semaforo":      _dias(realizacion, semaforo),
+            "d_realiz_terminado":     _dias(realizacion, terminado),
+            "d_terminado_entregado":  _dias(terminado, entregado),
+            "d_realiz_entregado":     _dias(realizacion, entregado),
+            "d_entregado_vs_real":    _dias(entrega_real, entregado),
+        })
+    return registros
+
+
+def leer_todos_chequeos() -> list[dict]:
+    """Lee todos los .ods y .xlsx de datos/chequeos/."""
+    if not CHEQUEOS_DIR.exists():
+        return []
+    regs = []
+    for path in sorted(CHEQUEOS_DIR.iterdir()):
+        if path.name.startswith("~$"):
+            continue
+        if path.suffix.lower() == ".ods":
+            regs.extend(leer_chequeos_ods(path))
+        elif path.suffix.lower() == ".xlsx":
+            regs.extend(leer_chequeos_xlsx(path))
+    # Asegura que todo registro tenga 'mes' (los .ods no lo traen)
+    for r in regs:
+        if "mes" not in r or r["mes"] is None:
+            r["mes"] = r["realizacion"].strftime("%Y-%m") if r.get("realizacion") else None
+    return regs
+
+
 # ── Lectura de XLS ────────────────────────────────────────────────────────────
 
 def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
@@ -231,10 +551,19 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
 
         fecha = None
         hora_alta = None
+        dia_semana = None
         if isinstance(fecha_alta_raw, float) and fecha_alta_raw:
             dt = xlrd.xldate_as_datetime(fecha_alta_raw, wb.datemode)
             fecha = dt.date()
             hora_alta = dt.hour
+            dia_semana = dt.weekday()   # 0=lunes … 6=domingo
+
+        # Hora de entrega (recepción de la entrega) para el mapa de calor de
+        # estudios entregados tarde.
+        hora_entrega = None
+        if isinstance(fecha_recibe_raw, float) and fecha_recibe_raw:
+            dt_e = xlrd.xldate_as_datetime(fecha_recibe_raw, wb.datemode)
+            hora_entrega = dt_e.hour
 
         # Tiempos de proceso adicionales (en horas si son float, else None)
         gc = float(row[28]) if row[28] and isinstance(row[28], (int, float)) else None
@@ -253,6 +582,8 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
             "usuario_recibe":  usuario_recibe,
             "fecha":           fecha,
             "hora_alta":       hora_alta,
+            "hora_entrega":    hora_entrega,
+            "dia_semana":      dia_semana,
             "semana":          semana,
             "archivo":         filepath.name,
         })
@@ -593,6 +924,166 @@ def escribir_hoja_semanas(ws_sem, todas_las_filas: list[dict], semanas: list[int
         fila_actual += 2  # espacio entre semanas
 
 
+def escribir_hoja_chequeos(ws, registros: list[dict]):
+    """Hoja con los días que pasa cada estudio en cada proceso (transcripción → entrega)."""
+    PROCESOS = [
+        ("Realización → Semáforo (objetivo)",            "d_realiz_semaforo"),
+        ("Realización → Terminado (transcripción)",      "d_realiz_terminado"),
+        ("Terminado → Entregado (entrega)",              "d_terminado_entregado"),
+        ("Realización → Entregado (TOTAL)",              "d_realiz_entregado"),
+        ("Entregado vs compromiso (+ = retraso)",        "d_entregado_vs_real"),
+    ]
+
+    columnas = [
+        ("Semana", 8), ("Realización", 13), ("Semáforo", 13), ("Terminado", 13),
+        ("Entregado", 13), ("Médico", 12), ("Transcriptor", 13), ("Estado", 12),
+        ("Entrega Digital", 13),
+        ("R→Terminado", 12), ("Term→Entreg.", 13),
+        ("R→Entregado (TOTAL)", 18), ("R→Semáforo", 12), ("Δ vs compromiso", 14),
+    ]
+    n_cols = len(columnas)
+
+    # — Título —
+    ws.merge_cells(f"A1:{get_column_letter(n_cols)}1")
+    c = ws.cell(1, 1, "Días por Proceso — Transcripción y Entrega de Estudios")
+    c.fill = fill(COLOR_AZUL_OSCURO)
+    c.font = Font(bold=True, size=14, color=COLOR_BLANCO)
+    c.alignment = center()
+    ws.row_dimensions[1].height = 28
+
+    fila = 3
+
+    # — Resumen: días promedio por proceso —
+    ws.merge_cells(start_row=fila, start_column=1, end_row=fila, end_column=5)
+    c = ws.cell(fila, 1, "Resumen — días por proceso")
+    c.fill = fill(COLOR_AZUL_MEDIO); c.font = bold_font(11); c.alignment = center()
+    fila += 1
+
+    for j, h in enumerate(["Proceso", "Promedio (días)", "Mín", "Máx", "N"], 1):
+        cc = ws.cell(fila, j, h)
+        cc.fill = fill(COLOR_AZUL_CLARO); cc.font = Font(bold=True, size=10, color="1F3864")
+        cc.alignment = center(); cc.border = thin_border()
+    fila += 1
+
+    for etiqueta, key in PROCESOS:
+        vals = [r[key] for r in registros if _dias_valido(r[key])]
+        avg  = sum(vals) / len(vals) if vals else None
+        destacado = key == "d_realiz_entregado"
+        valores = [
+            etiqueta,
+            f"{avg:.1f}" if avg is not None else "-",
+            str(min(vals)) if vals else "-",
+            str(max(vals)) if vals else "-",
+            len(vals),
+        ]
+        for j, v in enumerate(valores, 1):
+            cc = ws.cell(fila, j, v)
+            cc.border = thin_border()
+            cc.alignment = left() if j == 1 else center()
+            if destacado:
+                cc.fill = fill(COLOR_AMARILLO); cc.font = Font(bold=True, size=10)
+            else:
+                cc.fill = fill(COLOR_BLANCO); cc.font = normal_font(10)
+        fila += 1
+
+    fila += 1
+
+    # — Resumen por transcriptor (días totales R→Entregado) —
+    ws.merge_cells(start_row=fila, start_column=1, end_row=fila, end_column=5)
+    c = ws.cell(fila, 1, "Resumen por transcriptor — Realización → Entregado")
+    c.fill = fill(COLOR_AZUL_MEDIO); c.font = bold_font(11); c.alignment = center()
+    fila += 1
+
+    for j, h in enumerate(["Transcriptor", "Entregados", "Prom. días", "Mín", "Máx"], 1):
+        cc = ws.cell(fila, j, h)
+        cc.fill = fill(COLOR_AZUL_CLARO); cc.font = Font(bold=True, size=10, color="1F3864")
+        cc.alignment = center(); cc.border = thin_border()
+    fila += 1
+
+    por_tr = {}
+    for r in registros:
+        tr = r["transcriptor"] or "(sin asignar)"
+        if tr in ("-",):
+            tr = "(sin asignar)"
+        por_tr.setdefault(tr, []).append(r["d_realiz_entregado"])
+
+    for tr in sorted(por_tr):
+        vals = [v for v in por_tr[tr] if v is not None]
+        avg  = sum(vals) / len(vals) if vals else None
+        valores = [
+            tr,
+            len(vals),
+            f"{avg:.1f}" if avg is not None else "-",
+            str(min(vals)) if vals else "-",
+            str(max(vals)) if vals else "-",
+        ]
+        for j, v in enumerate(valores, 1):
+            cc = ws.cell(fila, j, v)
+            cc.border = thin_border()
+            cc.alignment = left() if j == 1 else center()
+            cc.fill = fill(COLOR_BLANCO); cc.font = normal_font(10)
+        fila += 1
+
+    fila += 1
+
+    # — Encabezados del detalle —
+    encab_fila = fila
+    for col_idx, (nombre, ancho) in enumerate(columnas, 1):
+        cc = ws.cell(encab_fila, col_idx, nombre)
+        cc.fill = fill(COLOR_ENCABEZADO); cc.font = bold_font(9)
+        cc.alignment = center(); cc.border = thin_border()
+        ws.column_dimensions[get_column_letter(col_idx)].width = ancho
+    ws.row_dimensions[encab_fila].height = 30
+    fila += 1
+
+    def fdate(d):
+        return d.isoformat() if d else "-"
+
+    def fnum(n):
+        return n if n is not None else "-"
+
+    for r in registros:
+        total = r["d_realiz_entregado"]
+        valores = [
+            r.get("semana") or "",
+            fdate(r["realizacion"]),
+            fdate(r["semaforo"]),
+            fdate(r["terminado"]),
+            fdate(r["entregado"]) if r["entregado"] else "En proceso",
+            r["medico"],
+            r["transcriptor"],
+            r["estado"],
+            r["entrega_digital"],
+            fnum(r["d_realiz_terminado"]),
+            fnum(r["d_terminado_entregado"]),
+            fnum(total),
+            fnum(r["d_realiz_semaforo"]),
+            fnum(r["d_entregado_vs_real"]),
+        ]
+        color_fondo = COLOR_FILA_PAR if fila % 2 == 0 else COLOR_BLANCO
+        for col_idx, v in enumerate(valores, 1):
+            cc = ws.cell(fila, col_idx, v)
+            cc.border = thin_border()
+            cc.font = normal_font(9)
+            cc.alignment = left() if col_idx <= 9 else center()
+            cc.fill = fill(color_fondo)
+            # Semáforo de color en la columna TOTAL (col 12)
+            if col_idx == 12 and total is not None:
+                if total <= CHK_LIM_VERDE:
+                    cc.fill = fill(COLOR_VERDE_CLARO); cc.font = Font(size=9, bold=True, color="1F6B2E")
+                elif total <= CHK_LIM_AMARILLO:
+                    cc.fill = fill(COLOR_AMARILLO); cc.font = Font(size=9, bold=True, color="7A5C00")
+                else:
+                    cc.fill = fill("FFC7C7"); cc.font = Font(size=9, bold=True, color=COLOR_ROJO)
+        ws.row_dimensions[fila].height = 16
+        fila += 1
+
+    ws.freeze_panes = ws.cell(encab_fila + 1, 1)
+    ws.auto_filter.ref = (
+        f"A{encab_fila}:{get_column_letter(n_cols)}{fila - 1}"
+    )
+
+
 # ── Exportar JSON ─────────────────────────────────────────────────────────────
 
 def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
@@ -617,6 +1108,349 @@ def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
     }
     with open(ruta, "w", encoding="utf-8") as f:
         json.dump(clean(data), f, ensure_ascii=False, indent=2, default=str)
+
+
+def _resumen_periodo(registros: list[dict]) -> dict:
+    """
+    Calcula el paquete de métricas solicitadas para un subconjunto de registros
+    (sirve para el acumulado y para cada semana / mes):
+
+      • Entregado − Entrega real  → días de anticipación y % a tiempo (obj. 95%)
+      • Realización → Terminado   → días de transcripción y % ≤ 4 días (obj. 98%)
+      • Cantidad por internista
+      • Cantidad por transcriptor
+    """
+    def stats(key):
+        vals = [r[key] for r in registros if _dias_valido(r[key])]
+        return {
+            "avg": round(sum(vals) / len(vals), 1) if vals else None,
+            "min": min(vals) if vals else None,
+            "max": max(vals) if vals else None,
+            "n":   len(vals),
+        }
+
+    # ── Entregado vs Fecha entrega real ──────────────────────────────────────
+    # dias_antes = entrega_real − entregado  (positivo = entregado antes de la fecha)
+    antes_vals = [-r["d_entregado_vs_real"] for r in registros
+                  if _dias_valido(r["d_entregado_vs_real"])]
+    a_tiempo = sum(1 for d in antes_vals if d >= 0)            # en/antes de la fecha
+    un_dia    = sum(1 for d in antes_vals if d >= DIAS_ANTES_OBJ)  # ≥1 día antes (objetivo)
+    entrega_real = {
+        "n":            len(antes_vals),
+        "a_tiempo":     a_tiempo,
+        "tarde":        len(antes_vals) - a_tiempo,
+        "pct_a_tiempo": round(a_tiempo / len(antes_vals) * 100, 1) if antes_vals else None,
+        # Indicador objetivo: entregado al menos 1 día antes de la fecha real
+        "un_dia_antes": un_dia,
+        "pct_1dia":     round(un_dia / len(antes_vals) * 100, 1) if antes_vals else None,
+        "dias_antes_obj": DIAS_ANTES_OBJ,
+        "avg_antes":    round(sum(antes_vals) / len(antes_vals), 1) if antes_vals else None,
+        "objetivo":     OBJ_ENTREGA_REAL,
+    }
+    dist_antes_map = {}
+    for d in antes_vals:
+        dist_antes_map[d] = dist_antes_map.get(d, 0) + 1
+    entrega_real["dist"] = [{"dias": k, "n": dist_antes_map[k]}
+                            for k in sorted(dist_antes_map)]
+
+    # ── Realización → Terminado (transcripción) ──────────────────────────────
+    rt_vals = [r["d_realiz_terminado"] for r in registros
+               if _dias_valido(r["d_realiz_terminado"])]
+    rt_ok = sum(1 for d in rt_vals if d <= LIM_REALIZ_TERM)
+    realiz_term = {
+        "n":          len(rt_vals),
+        "ok":         rt_ok,
+        "fuera":      len(rt_vals) - rt_ok,
+        "pct_ok":     round(rt_ok / len(rt_vals) * 100, 1) if rt_vals else None,
+        "avg":        round(sum(rt_vals) / len(rt_vals), 1) if rt_vals else None,
+        "limite":     LIM_REALIZ_TERM,
+        "objetivo":   OBJ_REALIZ_TERM,
+    }
+    dist_rt_map = {}
+    for d in rt_vals:
+        dist_rt_map[d] = dist_rt_map.get(d, 0) + 1
+    realiz_term["dist"] = [{"dias": k, "n": dist_rt_map[k]}
+                           for k in sorted(dist_rt_map)]
+
+    # ── Cantidad por internista ──────────────────────────────────────────────
+    int_cnt = {}
+    for r in registros:
+        int_cnt[_norm_internista(r["medico"])] = \
+            int_cnt.get(_norm_internista(r["medico"]), 0) + 1
+    orden_int = INTERNISTAS_CANON + ["Otros", "(sin asignar)"]
+    internistas = [{"nombre": n, "n": int_cnt[n]}
+                   for n in orden_int if int_cnt.get(n)]
+
+    # ── Cantidad por transcriptor ────────────────────────────────────────────
+    tr_cnt = {}
+    for r in registros:
+        tr_cnt[_norm_transcriptor(r["transcriptor"])] = \
+            tr_cnt.get(_norm_transcriptor(r["transcriptor"]), 0) + 1
+    orden_tr = TRANSCRIPTORES_CANON + ["Otros", "(sin asignar)"]
+    transcriptores_cnt = [{"nombre": n, "n": tr_cnt[n]}
+                          for n in orden_tr if tr_cnt.get(n)]
+
+    return {
+        "total":          len(registros),
+        "entregados":     sum(1 for r in registros if r["entregado"]),
+        "realiz_terminado":    stats("d_realiz_terminado"),
+        "terminado_entregado": stats("d_terminado_entregado"),
+        "realiz_entregado":    stats("d_realiz_entregado"),
+        "entrega_real":   entrega_real,
+        "realiz_term_obj": realiz_term,
+        "internistas":    internistas,
+        "transcriptores_cnt": transcriptores_cnt,
+    }
+
+
+_DOW_NOMBRES = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+
+
+def _patrones_chequeos(registros, por_semana, por_mes, resumen) -> dict:
+    """
+    Detecta patrones accionables: tendencia temporal, días pico de la semana,
+    desempeño por transcriptor / internista y hallazgos automáticos para la
+    toma de decisiones.
+    """
+    # ── Tendencia por semana y por mes (serie temporal) ──────────────────────
+    def serie(dic, claves):
+        out = []
+        for k in claves:
+            b = dic[k]
+            out.append({
+                "periodo":     k,
+                "total":       b["total"],
+                "pct_transc":  b["realiz_term_obj"]["pct_ok"],
+                "avg_transc":  b["realiz_term_obj"]["avg"],
+                "pct_entrega": b["entrega_real"]["pct_a_tiempo"],
+            })
+        return out
+
+    tendencia_semana = serie(por_semana, sorted(por_semana, key=lambda x: int(x)))
+    tendencia_mes    = serie(por_mes, sorted(por_mes))
+
+    # ── Volumen por día de la semana (lun–sáb; domingo no se cuenta) ──────────
+    dow = {i: 0 for i in range(6)}
+    for r in registros:
+        f = r.get("realizacion")
+        if f and f.weekday() < 6:
+            dow[f.weekday()] += 1
+    por_dia = [{"dia": _DOW_NOMBRES[i], "n": dow[i]} for i in range(6)]
+
+    # ── Desempeño por transcriptor / internista ──────────────────────────────
+    def desempeno(group_fn, dkey, lim):
+        g = {}
+        for r in registros:
+            v = r[dkey]
+            if not _dias_valido(v):
+                continue
+            k = group_fn(r)
+            g.setdefault(k, {"n": 0, "ok": 0, "suma": 0})
+            g[k]["n"]   += 1
+            g[k]["suma"] += v
+            if v <= lim:
+                g[k]["ok"] += 1
+        filas = []
+        for k, v in g.items():
+            filas.append({
+                "nombre": k, "n": v["n"],
+                "pct_ok": round(v["ok"] / v["n"] * 100, 1) if v["n"] else None,
+                "avg":    round(v["suma"] / v["n"], 1) if v["n"] else None,
+            })
+        return sorted(filas, key=lambda x: -x["n"])
+
+    transc_perf = desempeno(lambda r: _norm_transcriptor(r["transcriptor"]),
+                            "d_realiz_terminado", LIM_REALIZ_TERM)
+    intern_perf = desempeno(lambda r: _norm_internista(r["medico"]),
+                            "d_realiz_entregado", CHK_LIM_VERDE)
+
+    # ── Hallazgos automáticos ────────────────────────────────────────────────
+    hallazgos = []
+    er = resumen["entrega_real"]
+    rt = resumen["realiz_term_obj"]
+
+    # Cuello de botella
+    if rt["pct_ok"] is not None and er["pct_a_tiempo"] is not None:
+        if rt["pct_ok"] < OBJ_REALIZ_TERM and er["pct_a_tiempo"] >= OBJ_ENTREGA_REAL:
+            hallazgos.append({
+                "tipo": "bad",
+                "txt": f"El cuello de botella es la TRANSCRIPCIÓN: solo {rt['pct_ok']}% se "
+                       f"termina en ≤{LIM_REALIZ_TERM} días (objetivo {OBJ_REALIZ_TERM}%), "
+                       f"mientras que la entrega final cumple {er['pct_a_tiempo']}% "
+                       f"(objetivo {OBJ_ENTREGA_REAL}%). El retraso se origina antes de la entrega.",
+            })
+        elif rt["pct_ok"] >= OBJ_REALIZ_TERM:
+            hallazgos.append({
+                "tipo": "good",
+                "txt": f"Ambos objetivos se cumplen: transcripción {rt['pct_ok']}% "
+                       f"(≥{OBJ_REALIZ_TERM}%) y entrega {er['pct_a_tiempo']}% (≥{OBJ_ENTREGA_REAL}%).",
+            })
+
+    # Semanas críticas (más de 8 registros y cumplimiento bajo)
+    criticas = [s for s in tendencia_semana
+                if s["total"] >= 8 and s["pct_transc"] is not None
+                and s["pct_transc"] < 60]
+    if criticas:
+        criticas.sort(key=lambda x: x["pct_transc"])
+        etqs = ", ".join(f"Sem {c['periodo']} ({c['pct_transc']}%)" for c in criticas[:4])
+        hallazgos.append({
+            "tipo": "bad",
+            "txt": f"Semanas críticas en transcripción (<60% en ≤{LIM_REALIZ_TERM} días): {etqs}. "
+                   f"Conviene revisar carga de trabajo o ausencias en esas semanas.",
+        })
+
+    # Tendencia entre primer y último mes
+    if len(tendencia_mes) >= 2:
+        m0, m1 = tendencia_mes[0], tendencia_mes[-1]
+        if m0["pct_transc"] is not None and m1["pct_transc"] is not None:
+            delta = round(m1["pct_transc"] - m0["pct_transc"], 1)
+            if abs(delta) >= 5:
+                hallazgos.append({
+                    "tipo": "good" if delta > 0 else "warn",
+                    "txt": f"La transcripción {'mejoró' if delta>0 else 'empeoró'} "
+                           f"{abs(delta)} puntos de {m0['periodo']} ({m0['pct_transc']}%) "
+                           f"a {m1['periodo']} ({m1['pct_transc']}%).",
+                })
+
+    # Día pico de realización
+    if por_dia:
+        pico = max(por_dia, key=lambda x: x["n"])
+        total_dias = sum(x["n"] for x in por_dia) or 1
+        hallazgos.append({
+            "tipo": "info",
+            "txt": f"El {pico['dia']} concentra el mayor volumen de estudios "
+                   f"({pico['n']}, {round(pico['n']/total_dias*100)}% del total). "
+                   f"La carga se acumula a fin de semana (jueves a sábado), lo que presiona "
+                   f"la transcripción de los días siguientes.",
+        })
+
+    # Comparación entre transcriptores principales
+    principales = [t for t in transc_perf
+                   if t["nombre"] in TRANSCRIPTORES_CANON and t["n"] >= 20]
+    if len(principales) >= 2:
+        principales.sort(key=lambda x: -(x["pct_ok"] or 0))
+        mejor, peor = principales[0], principales[-1]
+        if (mejor["pct_ok"] or 0) - (peor["pct_ok"] or 0) >= 5:
+            hallazgos.append({
+                "tipo": "info",
+                "txt": f"Entre transcriptores, {mejor['nombre']} cumple {mejor['pct_ok']}% "
+                       f"en ≤{LIM_REALIZ_TERM} días vs {peor['nombre']} {peor['pct_ok']}% "
+                       f"(volúmenes {mejor['n']} y {peor['n']}).",
+            })
+
+    return {
+        "tendencia_semana": tendencia_semana,
+        "tendencia_mes":    tendencia_mes,
+        "por_dia":          por_dia,
+        "transc_perf":      transc_perf,
+        "intern_perf":      intern_perf,
+        "hallazgos":        hallazgos,
+    }
+
+
+def _analisis_chequeos(registros: list[dict]) -> dict:
+    """Resume los chequeos (días por proceso) para el dashboard web."""
+    def stats(key):
+        vals = [r[key] for r in registros if _dias_valido(r[key])]
+        return {
+            "avg": round(sum(vals) / len(vals), 1) if vals else None,
+            "min": min(vals) if vals else None,
+            "max": max(vals) if vals else None,
+            "n":   len(vals),
+        }
+
+    procesos = {
+        "realiz_semaforo":     stats("d_realiz_semaforo"),
+        "realiz_terminado":    stats("d_realiz_terminado"),
+        "terminado_entregado": stats("d_terminado_entregado"),
+        "realiz_entregado":    stats("d_realiz_entregado"),
+        "entregado_vs_real":   stats("d_entregado_vs_real"),
+    }
+
+    # Por transcriptor (sobre el total Realización → Entregado)
+    por_tr = {}
+    for r in registros:
+        tr = r["transcriptor"] or "(sin asignar)"
+        if tr == "-":
+            tr = "(sin asignar)"
+        por_tr.setdefault(tr, []).append(r["d_realiz_entregado"])
+    transcriptores = []
+    for tr in sorted(por_tr):
+        vals = [v for v in por_tr[tr] if _dias_valido(v)]
+        transcriptores.append({
+            "transcriptor": tr,
+            "entregados":   len(vals),
+            "avg": round(sum(vals) / len(vals), 1) if vals else None,
+            "min": min(vals) if vals else None,
+            "max": max(vals) if vals else None,
+        })
+    transcriptores.sort(key=lambda x: -x["entregados"])
+
+    # Distribución del total de días Realización → Entregado
+    dist = {}
+    for r in registros:
+        d = r["d_realiz_entregado"]
+        if _dias_valido(d):
+            dist[d] = dist.get(d, 0) + 1
+    distribucion = [{"dias": k, "n": dist[k]} for k in sorted(dist)]
+
+    entregados = sum(1 for r in registros if r["entregado"])
+
+    # ── Desglose por semana y por mes (métricas solicitadas) ─────────────────
+    semanas_ord = sorted({r["semana"] for r in registros if r["semana"] is not None})
+    meses_ord   = sorted({r.get("mes") for r in registros if r.get("mes")})
+
+    por_semana = {str(s): _resumen_periodo([r for r in registros if r["semana"] == s])
+                  for s in semanas_ord}
+    por_mes    = {m: _resumen_periodo([r for r in registros if r.get("mes") == m])
+                  for m in meses_ord}
+    resumen_global = _resumen_periodo(registros)
+    patrones = _patrones_chequeos(registros, por_semana, por_mes, resumen_global)
+
+    detalle = [{
+        "semana":        r["semana"],
+        "mes":           r.get("mes"),
+        "internista_norm":   _norm_internista(r["medico"]),
+        "transcriptor_norm": _norm_transcriptor(r["transcriptor"]),
+        "realizacion":   r["realizacion"].isoformat() if r["realizacion"] else None,
+        "semaforo":      r["semaforo"].isoformat() if r["semaforo"] else None,
+        "terminado":     r["terminado"].isoformat() if r["terminado"] else None,
+        "entregado":     r["entregado"].isoformat() if r["entregado"] else None,
+        "medico":        r["medico"],
+        "transcriptor":  r["transcriptor"],
+        "estado":        r["estado"],
+        "entrega_digital": r["entrega_digital"],
+        "d_realiz_terminado":    r["d_realiz_terminado"],
+        "d_terminado_entregado": r["d_terminado_entregado"],
+        "d_realiz_entregado":    r["d_realiz_entregado"],
+        "d_realiz_semaforo":     r["d_realiz_semaforo"],
+        "d_entregado_vs_real":   r["d_entregado_vs_real"],
+    } for r in registros]
+
+    semanas = sorted({str(r["semana"]) for r in registros if r["semana"]})
+
+    return {
+        "procesos":       procesos,
+        "transcriptores": transcriptores,
+        "distribucion":   distribucion,
+        "total":          len(registros),
+        "entregados":     entregados,
+        "en_proceso":     len(registros) - entregados,
+        "lim_verde":      CHK_LIM_VERDE,
+        "lim_amarillo":   CHK_LIM_AMARILLO,
+        "semanas":        semanas,
+        "detalle":        detalle,
+        # ── Métricas solicitadas (acumulado + desglose) ──────────────────────
+        "resumen":        resumen_global,
+        "por_semana":     por_semana,
+        "por_mes":        por_mes,
+        "lista_semanas":  [str(s) for s in semanas_ord],
+        "lista_meses":    meses_ord,
+        "obj_entrega_real": OBJ_ENTREGA_REAL,
+        "obj_realiz_term":  OBJ_REALIZ_TERM,
+        "lim_realiz_term":  LIM_REALIZ_TERM,
+        "patrones":       patrones,
+    }
 
 
 def _analisis_web(rows):
@@ -729,6 +1563,46 @@ def _analisis_web(rows):
     total_hora = {h: sum(1 for r in incump_rows if r.get("hora_alta") == h)
                   for h in HORAS}
 
+    # ── Mapa de calor: HORA DE ENTREGA de los estudios entregados tarde ───────
+    # (incumplimiento = entregado después de la hora promesa). Usa hora_entrega.
+    calor_entrega = {}
+    for d in deptos_incump:
+        calor_entrega[d] = {}
+        for h in HORAS:
+            calor_entrega[d][h] = sum(
+                1 for r in incump_rows
+                if r["depto"] == d and r.get("hora_entrega") == h
+            )
+    total_entrega_hora = {h: sum(1 for r in incump_rows if r.get("hora_entrega") == h)
+                          for h in HORAS}
+
+    # ── Incumplimiento por día de la semana (lun–sáb) ────────────────────────
+    DOW = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+    modal_rows_all = [r for r in rows if r["depto"] in DEPTOS_MODAL]
+    dow_tot = {i: 0 for i in range(6)}
+    dow_inc = {i: 0 for i in range(6)}
+    for r in modal_rows_all:
+        ds = r.get("dia_semana")
+        if ds is None or ds > 5:
+            continue
+        dow_tot[ds] += 1
+        if es_incumplimiento(r["af"]):
+            dow_inc[ds] += 1
+    incump_dow = [{
+        "dia": DOW[i], "total": dow_tot[i], "incump": dow_inc[i],
+        "pct_cumpl": round((dow_tot[i]-dow_inc[i])/dow_tot[i]*100, 1) if dow_tot[i] else None,
+    } for i in range(6)]
+
+    # ── Tiempo POSTERIOR a Fecha Promesa (horas de retraso = |A-F|) ──────────
+    # Histograma del retraso con el que se entregaron los estudios tarde.
+    retraso_buckets = defaultdict(int)
+    for r in incump_rows:
+        retraso_buckets[int(abs(r["af"]))] += 1
+    dist_retraso = [{"horas": h, "n": retraso_buckets.get(h, 0)} for h in range(24)
+                    if retraso_buckets.get(h, 0) > 0]
+    retraso_vals = [abs(r["af"]) for r in incump_rows]
+    retraso_prom = round(sum(retraso_vals)/len(retraso_vals), 1) if retraso_vals else None
+
     return {
         "incump_depto":        incump_depto,
         "top_estudios_incump": top_estudios_incump,
@@ -742,6 +1616,105 @@ def _analisis_web(rows):
         "calor_hora_total":    total_hora,
         "calor_hora_deptos":   deptos_incump,
         "calor_horas":         HORAS,
+        # Nuevos: entrega tardía por hora, incumplimiento por día, retraso
+        "calor_entrega":       calor_entrega,
+        "calor_entrega_total": total_entrega_hora,
+        "incump_dow":          incump_dow,
+        "dist_retraso":        dist_retraso,
+        "retraso_prom":        retraso_prom,
+        "total_incump":        len(incump_rows),
+    }
+
+
+def _generar_acciones(tabla_por_semana, analisis_sem, chequeos):
+    """
+    Genera la vista de ACCIONES: análisis semana a semana combinando el
+    indicador de cumplimiento (A-F) y los indicadores de chequeos, con
+    recomendaciones concretas, avisos y patrones para la toma de decisiones.
+    """
+    OBJ_AF = 98
+    chk_sem = chequeos.get("por_semana", {})
+
+    # Indicador A-F por semana (fila General de cada tabla semanal)
+    af_sem = {}
+    for s, tabla in tabla_por_semana.items():
+        g = next((r for r in tabla if r["Unidad"] == "General"), None)
+        if g:
+            af_sem[s] = {"ind": g.get("indicador"), "estudios": g.get("estudios"),
+                         "incump": g.get("incumplimiento")}
+
+    semanas = sorted(set(af_sem) | set(chk_sem), key=lambda x: int(x))
+
+    semanal = []
+    for s in semanas:
+        af  = af_sem.get(s, {})
+        chk = chk_sem.get(s, {})
+        rt  = chk.get("realiz_term_obj", {}) if chk else {}
+        er  = chk.get("entrega_real", {}) if chk else {}
+        an  = analisis_sem.get(s, {})
+
+        acciones = []
+        # Cumplimiento A-F
+        if af.get("ind") is not None and af["ind"] < OBJ_AF:
+            top = [d for d in (an.get("incump_depto") or []) if d["incump"] > 0][:2]
+            depts = ", ".join(f"{d['depto'].split(' ')[0]} ({d['incump']})" for d in top)
+            acciones.append({"tipo": "bad",
+                "txt": f"Cumplimiento {af['ind']:.1f}% (<{OBJ_AF}%). Enfocar en {depts or 'deptos con más retrasos'}."})
+        # Transcripción ≤4 días
+        if rt.get("pct_ok") is not None and rt["pct_ok"] < OBJ_REALIZ_TERM:
+            acciones.append({"tipo": "warn",
+                "txt": f"Transcripción {rt['pct_ok']}% en ≤{LIM_REALIZ_TERM} días (<{OBJ_REALIZ_TERM}%). "
+                       f"Reforzar capacidad de transcripción esta semana."})
+        # Entrega 1 día antes
+        if er.get("pct_1dia") is not None and er["pct_1dia"] < OBJ_ENTREGA_REAL:
+            acciones.append({"tipo": "warn",
+                "txt": f"Entrega anticipada {er['pct_1dia']}% (<{OBJ_ENTREGA_REAL}%). "
+                       f"Adelantar entregas para dejar ≥1 día de margen."})
+        if not acciones and (af.get("ind") is not None or rt.get("pct_ok") is not None):
+            acciones.append({"tipo": "good", "txt": "Semana en objetivo. Mantener el ritmo."})
+
+        semanal.append({
+            "semana":     s,
+            "af_ind":     round(af["ind"], 1) if af.get("ind") is not None else None,
+            "chk_transc": rt.get("pct_ok"),
+            "chk_1dia":   er.get("pct_1dia"),
+            "total_chk":  chk.get("total") if chk else None,
+            "estudios":   af.get("estudios"),
+            "acciones":   acciones,
+        })
+
+    # ── Avisos globales (estado actual) ──────────────────────────────────────
+    avisos = []
+    res = chequeos.get("resumen", {})
+    rt_g, er_g = res.get("realiz_term_obj", {}), res.get("entrega_real", {})
+    if rt_g.get("pct_ok") is not None:
+        falta = round(OBJ_REALIZ_TERM - rt_g["pct_ok"], 1)
+        avisos.append({"tipo": "bad" if falta > 0 else "good",
+            "txt": (f"Transcripción ≤{LIM_REALIZ_TERM} días: {rt_g['pct_ok']}% "
+                    + (f"— faltan {falta} pts para el objetivo {OBJ_REALIZ_TERM}%." if falta > 0
+                       else f"— cumple el objetivo {OBJ_REALIZ_TERM}%."))})
+    if er_g.get("pct_1dia") is not None:
+        falta = round(OBJ_ENTREGA_REAL - er_g["pct_1dia"], 1)
+        avisos.append({"tipo": "bad" if falta > 0 else "good",
+            "txt": (f"Entrega ≥1 día antes: {er_g['pct_1dia']}% "
+                    + (f"— faltan {falta} pts para el objetivo {OBJ_ENTREGA_REAL}%." if falta > 0
+                       else f"— cumple el objetivo {OBJ_ENTREGA_REAL}%."))})
+    # Peor semana reciente de transcripción
+    recientes = [w for w in semanal if w["chk_transc"] is not None]
+    if recientes:
+        peor = min(recientes, key=lambda x: x["chk_transc"])
+        if peor["chk_transc"] < OBJ_REALIZ_TERM:
+            avisos.append({"tipo": "warn",
+                "txt": f"La semana {peor['semana']} es la más baja en transcripción "
+                       f"({peor['chk_transc']}%). Revisar qué ocurrió (ausencias, picos de volumen)."})
+
+    return {
+        "semanal":  semanal,
+        "avisos":   avisos,
+        "obj_af":   OBJ_AF,
+        "obj_transc": OBJ_REALIZ_TERM,
+        "obj_1dia": OBJ_ENTREGA_REAL,
+        "patrones": chequeos.get("patrones", {}),
     }
 
 
@@ -775,6 +1748,9 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         sub = [r for r in todas_las_filas if r.get("semana") == sem]
         analisis_sem[str(sem)] = _analisis_web(sub)
 
+    chequeos = _analisis_chequeos(leer_todos_chequeos())
+    acciones = _generar_acciones(tabla_por_semana, analisis_sem, chequeos)
+
     data = {
         "generado":        datetime.datetime.now().isoformat(),
         "rango":           {"inicio": fecha_min.isoformat(), "fin": fecha_max.isoformat()},
@@ -787,6 +1763,8 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         "analisis":        analisis_acum,
         "analisis_sem":    analisis_sem,
         "interpretaciones": leer_todas_interpretaciones(),
+        "chequeos":        chequeos,
+        "acciones":        acciones,
     }
 
     DOCS_DIR = Path(__file__).parent / "docs"
@@ -891,6 +1869,13 @@ def main():
     # Hoja 3: Detalle de registros
     ws_det = wb.create_sheet("Detalle Registros")
     escribir_hoja_detalle(ws_det, todas_las_filas)
+
+    # Hoja 4: Días por proceso (chequeos de transcripción / entrega)
+    chequeos = leer_todos_chequeos()
+    if chequeos:
+        ws_chk = wb.create_sheet("Días por Proceso")
+        escribir_hoja_chequeos(ws_chk, chequeos)
+        print(f"  • Chequeos: {len(chequeos)} registros → hoja 'Días por Proceso'")
 
     wb.save(ruta_xlsx)
     print(f"\n✓ Excel generado: {ruta_xlsx}")

@@ -1,141 +1,171 @@
 // Generado automáticamente por procesar.py — no editar a mano
 window.DASHBOARD_DATA = {
-  "generado": "2026-06-17T19:58:15.399903",
+  "generado": "2026-06-27T19:03:14.569472",
   "rango": {
-    "inicio": "2026-05-07",
-    "fin": "2026-06-15"
+    "inicio": "2026-03-31",
+    "fin": "2026-06-21"
   },
   "semanas": [
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
     "23",
-    "24"
+    "24",
+    "25"
   ],
   "rangos": {
-    "24": {
-      "inicio": "2026-05-29",
-      "fin": "2026-06-15"
+    "18": {
+      "inicio": "2026-03-31",
+      "fin": "2026-05-20"
+    },
+    "19": {
+      "inicio": "2026-04-01",
+      "fin": "2026-05-10"
+    },
+    "20": {
+      "inicio": "2026-04-23",
+      "fin": "2026-05-17"
+    },
+    "21": {
+      "inicio": "2026-04-18",
+      "fin": "2026-05-23"
+    },
+    "22": {
+      "inicio": "2026-04-10",
+      "fin": "2026-05-31"
     },
     "23": {
       "inicio": "2026-05-07",
       "fin": "2026-06-07"
+    },
+    "24": {
+      "inicio": "2026-05-29",
+      "fin": "2026-06-15"
+    },
+    "25": {
+      "inicio": "2026-05-29",
+      "fin": "2026-06-21"
     }
   },
   "acumulado": [
     {
       "Unidad": "General",
-      "Fecha": "2026-06-15",
-      "indicador": 95.91990933131848,
-      "estudios": 2647,
-      "incumplimiento": 108,
-      "modalidades_total": 3460,
-      "Cardiología": 74,
-      "TE_Cardiología": 3.173173515981682,
-      "Densitometría": 155,
-      "TE_Densitometría": 0.8024718468443245,
-      "Ecosonografía": 423,
-      "TE_Ecosonografía": 0.756818576389378,
-      "Mamografía": 177,
-      "TE_Mamografía": 0.9866414141443701,
-      "Radiología": 333,
-      "TE_Radiología": 0.8597698412818967,
-      "RM": 113,
-      "TE_RM": 2.296518338728895,
-      "RM_5h": 91,
-      "RM_24h": 22,
-      "RM_48h": 0,
-      "Tomografía": 144,
-      "TE_Tomografía": 1.5350526094301709
+      "Fecha": "2026-06-21",
+      "indicador": 96.58864090001813,
+      "estudios": 11022,
+      "incumplimiento": 376,
+      "modalidades_total": 14619,
+      "Cardiología": 245,
+      "TE_Cardiología": 3.391128187614577,
+      "Densitometría": 570,
+      "TE_Densitometría": 0.9365884418948554,
+      "Ecosonografía": 1696,
+      "TE_Ecosonografía": 0.7997125197646017,
+      "Mamografía": 682,
+      "TE_Mamografía": 1.1025702811286509,
+      "Radiología": 1251,
+      "TE_Radiología": 0.8639660363168271,
+      "RM": 647,
+      "TE_RM": 2.2947136404688426,
+      "RM_5h": 484,
+      "RM_24h": 162,
+      "RM_48h": 1,
+      "Tomografía": 700,
+      "TE_Tomografía": 1.5016041979048125
     },
     {
       "Unidad": "LM",
       "Fecha": "",
-      "indicador": 95.50473186119874,
-      "estudios": 1268,
-      "incumplimiento": 57,
-      "modalidades_total": 1642,
-      "Cardiología": 74,
-      "TE_Cardiología": 3.173173515981682,
-      "Densitometría": 106,
-      "TE_Densitometría": 0.7615566556681971,
-      "Ecosonografía": 193,
-      "TE_Ecosonografía": 0.6775321637408955,
-      "Mamografía": 81,
-      "TE_Mamografía": 0.7043861454111282,
-      "Radiología": 236,
-      "TE_Radiología": 0.8293849206461995,
-      "RM": 45,
-      "TE_RM": 2.4226785714313985,
-      "RM_5h": 38,
-      "RM_24h": 7,
-      "RM_48h": 0,
-      "Tomografía": 123,
-      "TE_Tomografía": 1.484049953317794
+      "indicador": 96.11479890667708,
+      "estudios": 5122,
+      "incumplimiento": 199,
+      "modalidades_total": 6620,
+      "Cardiología": 238,
+      "TE_Cardiología": 3.3912751992510137,
+      "Densitometría": 384,
+      "TE_Densitometría": 0.9322373015954093,
+      "Ecosonografía": 742,
+      "TE_Ecosonografía": 0.7460622499211417,
+      "Mamografía": 294,
+      "TE_Mamografía": 0.7916533485569669,
+      "Radiología": 891,
+      "TE_Radiología": 0.8103734061945436,
+      "RM": 290,
+      "TE_RM": 2.3593888888875623,
+      "RM_5h": 201,
+      "RM_24h": 88,
+      "RM_48h": 1,
+      "Tomografía": 600,
+      "TE_Tomografía": 1.4342328042367458
     },
     {
       "Unidad": "AC",
       "Fecha": "",
-      "indicador": 91.06628242074927,
-      "estudios": 347,
-      "incumplimiento": 31,
-      "modalidades_total": 350,
-      "Cardiología": 0,
-      "TE_Cardiología": null,
-      "Densitometría": 1,
-      "TE_Densitometría": 1.471944444521796,
-      "Ecosonografía": 61,
-      "TE_Ecosonografía": 0.9972696477027678,
-      "Mamografía": 1,
-      "TE_Mamografía": 2.842222222185228,
-      "Radiología": 91,
-      "TE_Radiología": 0.9083725490333403,
-      "RM": 18,
-      "TE_RM": 3.272152777779411,
-      "RM_5h": 15,
-      "RM_24h": 3,
+      "indicador": 93.75838926174497,
+      "estudios": 1490,
+      "incumplimiento": 93,
+      "modalidades_total": 1502,
+      "Cardiología": 2,
+      "TE_Cardiología": 3.8156944444344845,
+      "Densitometría": 4,
+      "TE_Densitometría": 0.8869444444135297,
+      "Ecosonografía": 303,
+      "TE_Ecosonografía": 0.9638090128800532,
+      "Mamografía": 2,
+      "TE_Mamografía": 1.6590277777577285,
+      "Radiología": 339,
+      "TE_Radiología": 1.0091585233439357,
+      "RM": 92,
+      "TE_RM": 2.9436241830192396,
+      "RM_5h": 84,
+      "RM_24h": 8,
       "RM_48h": 0,
-      "Tomografía": 21,
-      "TE_Tomografía": 2.0019230769203906
+      "Tomografía": 98,
+      "TE_Tomografía": 2.016659451661444
     },
     {
       "Unidad": "CH",
       "Fecha": "",
-      "indicador": 97.45762711864407,
-      "estudios": 118,
-      "incumplimiento": 3,
-      "modalidades_total": 119,
-      "Cardiología": 0,
-      "TE_Cardiología": null,
-      "Densitometría": 0,
-      "TE_Densitometría": null,
-      "Ecosonografía": 16,
-      "TE_Ecosonografía": 0.5719074074178934,
-      "Mamografía": 0,
-      "TE_Mamografía": null,
-      "Radiología": 0,
-      "TE_Radiología": null,
-      "RM": 49,
-      "TE_RM": 1.7777398989908926,
-      "RM_5h": 38,
-      "RM_24h": 11,
+      "indicador": 97.06390328151986,
+      "estudios": 579,
+      "incumplimiento": 17,
+      "modalidades_total": 584,
+      "Cardiología": 1,
+      "TE_Cardiología": 2.6805555554456078,
+      "Densitometría": 2,
+      "TE_Densitometría": 1.3868055555503815,
+      "Ecosonografía": 83,
+      "TE_Ecosonografía": 0.6870590277896553,
+      "Mamografía": 1,
+      "TE_Mamografía": 2.156666666676756,
+      "Radiología": 1,
+      "TE_Radiología": 1.1502777777495794,
+      "RM": 263,
+      "TE_RM": 1.9948062275932077,
+      "RM_5h": 198,
+      "RM_24h": 65,
       "RM_48h": 0,
-      "Tomografía": 0,
-      "TE_Tomografía": null
+      "Tomografía": 1,
+      "TE_Tomografía": 1.3897222222876735
     },
     {
       "Unidad": "GP",
       "Fecha": "",
-      "indicador": 85.71428571428571,
-      "estudios": 7,
-      "incumplimiento": 1,
-      "modalidades_total": 7,
+      "indicador": 72.72727272727273,
+      "estudios": 22,
+      "incumplimiento": 6,
+      "modalidades_total": 22,
       "Cardiología": 0,
       "TE_Cardiología": null,
       "Densitometría": 0,
       "TE_Densitometría": null,
-      "Ecosonografía": 6,
-      "TE_Ecosonografía": 1.0056481480714865,
-      "Mamografía": 0,
-      "TE_Mamografía": null,
-      "Radiología": 0,
+      "Ecosonografía": 17,
+      "TE_Ecosonografía": 0.84236111107748,
+      "Mamografía": 1,
+      "TE_Mamografía": 2.9938888888573274,
+      "Radiología": 1,
       "TE_Radiología": null,
       "RM": 0,
       "TE_RM": null,
@@ -148,23 +178,23 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "CM",
       "Fecha": "",
-      "indicador": 95.20958083832335,
-      "estudios": 334,
-      "incumplimiento": 16,
-      "modalidades_total": 352,
-      "Cardiología": 0,
-      "TE_Cardiología": null,
-      "Densitometría": 46,
-      "TE_Densitometría": 0.8606123737223573,
-      "Ecosonografía": 145,
-      "TE_Ecosonografía": 0.7970598290647524,
-      "Mamografía": 94,
-      "TE_Mamografía": 1.2097132616496133,
-      "Radiología": 4,
-      "TE_Radiología": 1.3415277778403834,
-      "RM": 0,
-      "TE_RM": null,
-      "RM_5h": 0,
+      "indicador": 95.64541213063764,
+      "estudios": 1286,
+      "incumplimiento": 56,
+      "modalidades_total": 1371,
+      "Cardiología": 1,
+      "TE_Cardiología": 1.1908333333558403,
+      "Densitometría": 175,
+      "TE_Densitometría": 0.9361387163545989,
+      "Ecosonografía": 540,
+      "TE_Ecosonografía": 0.8152800546449726,
+      "Mamografía": 380,
+      "TE_Mamografía": 1.3355685286986665,
+      "Radiología": 10,
+      "TE_Radiología": 1.01463888893486,
+      "RM": 1,
+      "TE_RM": 1.4861111111822538,
+      "RM_5h": 1,
       "RM_24h": 0,
       "RM_48h": 0,
       "Tomografía": 0,
@@ -173,20 +203,20 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "MP",
       "Fecha": "",
-      "indicador": 100.0,
-      "estudios": 568,
-      "incumplimiento": 0,
-      "modalidades_total": 982,
-      "Cardiología": 0,
-      "TE_Cardiología": null,
-      "Densitometría": 1,
-      "TE_Densitometría": 1.7672222221735865,
-      "Ecosonografía": 1,
-      "TE_Ecosonografía": 1.5216666666674428,
-      "Mamografía": 0,
-      "TE_Mamografía": null,
-      "Radiología": 1,
-      "TE_Radiología": 1.2613888888154179,
+      "indicador": 99.92022337455126,
+      "estudios": 2507,
+      "incumplimiento": 2,
+      "modalidades_total": 4499,
+      "Cardiología": 3,
+      "TE_Cardiología": 4.066759259265382,
+      "Densitometría": 2,
+      "TE_Densitometría": 1.6287499999743886,
+      "Ecosonografía": 8,
+      "TE_Ecosonografía": 0.8074305556001491,
+      "Mamografía": 2,
+      "TE_Mamografía": 1.110972222260898,
+      "Radiología": 7,
+      "TE_Radiología": 0.7210317459955279,
       "RM": 0,
       "TE_RM": null,
       "RM_5h": 0,
@@ -198,30 +228,1040 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "LA",
       "Fecha": "",
-      "indicador": 100.0,
-      "estudios": 5,
-      "incumplimiento": 0,
-      "modalidades_total": 8,
+      "indicador": 86.66666666666667,
+      "estudios": 15,
+      "incumplimiento": 2,
+      "modalidades_total": 20,
       "Cardiología": 0,
       "TE_Cardiología": null,
-      "Densitometría": 1,
-      "TE_Densitometría": 0.7424999999930151,
-      "Ecosonografía": 1,
-      "TE_Ecosonografía": 1.24722222215496,
-      "Mamografía": 1,
-      "TE_Mamografía": 1.248055555508472,
-      "Radiología": 1,
-      "TE_Radiología": 1.2061111110378988,
+      "Densitometría": 3,
+      "TE_Densitometría": 0.7729629629757255,
+      "Ecosonografía": 3,
+      "TE_Ecosonografía": 1.2473148147691973,
+      "Mamografía": 2,
+      "TE_Mamografía": 2.0531944444519468,
+      "Radiología": 2,
+      "TE_Radiología": 1.0647222221887205,
       "RM": 1,
       "TE_RM": 4.213888888887595,
       "RM_5h": 0,
       "RM_24h": 1,
       "RM_48h": 0,
-      "Tomografía": 0,
-      "TE_Tomografía": null
+      "Tomografía": 1,
+      "TE_Tomografía": 1.568611111084465
     }
   ],
   "por_semana": {
+    "18": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 98.0649188514357,
+        "estudios": 1602,
+        "incumplimiento": 31,
+        "modalidades_total": 2209,
+        "Cardiología": 21,
+        "TE_Cardiología": 3.0247619047544765,
+        "Densitometría": 51,
+        "TE_Densitometría": 0.8497281324011868,
+        "Ecosonografía": 178,
+        "TE_Ecosonografía": 0.7064906832337616,
+        "Mamografía": 68,
+        "TE_Mamografía": 1.0733417508361691,
+        "Radiología": 143,
+        "TE_Radiología": 0.868990807361874,
+        "RM": 80,
+        "TE_RM": 1.963151709395998,
+        "RM_5h": 56,
+        "RM_24h": 24,
+        "RM_48h": 0,
+        "Tomografía": 90,
+        "TE_Tomografía": 1.4802034883759916
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 97.10391822827938,
+        "estudios": 587,
+        "incumplimiento": 17,
+        "modalidades_total": 734,
+        "Cardiología": 20,
+        "TE_Cardiología": 3.0419722222199197,
+        "Densitometría": 37,
+        "TE_Densitometría": 0.8824691358167911,
+        "Ecosonografía": 73,
+        "TE_Ecosonografía": 0.6014003044174512,
+        "Mamografía": 31,
+        "TE_Mamografía": 0.6779121863655746,
+        "Radiología": 118,
+        "TE_Radiología": 0.8641398635548907,
+        "RM": 41,
+        "TE_RM": 1.9769376693761953,
+        "RM_5h": 22,
+        "RM_24h": 19,
+        "RM_48h": 0,
+        "Tomografía": 76,
+        "TE_Tomografía": 1.390086336340598
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 96.71052631578947,
+        "estudios": 152,
+        "incumplimiento": 5,
+        "modalidades_total": 154,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 1,
+        "TE_Densitometría": 0.7580555555177853,
+        "Ecosonografía": 39,
+        "TE_Ecosonografía": 0.9535370370431338,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 23,
+        "TE_Radiología": 0.8784420289979924,
+        "RM": 11,
+        "TE_RM": 1.98627777780639,
+        "RM_5h": 11,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 14,
+        "TE_Tomografía": 2.035925925927586
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 96.3855421686747,
+        "estudios": 83,
+        "incumplimiento": 3,
+        "modalidades_total": 83,
+        "Cardiología": 1,
+        "TE_Cardiología": 2.6805555554456078,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 16,
+        "TE_Ecosonografía": 0.7061805555713363,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 1,
+        "TE_Radiología": 1.1502777777495794,
+        "RM": 28,
+        "TE_RM": 1.933652263348146,
+        "RM_5h": 23,
+        "RM_24h": 5,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": 0.0,
+        "estudios": 1,
+        "incumplimiento": 1,
+        "modalidades_total": 1,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 1,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 97.58064516129032,
+        "estudios": 124,
+        "incumplimiento": 3,
+        "modalidades_total": 139,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 13,
+        "TE_Densitometría": 0.7410277777933516,
+        "Ecosonografía": 48,
+        "TE_Ecosonografía": 0.7213211382111739,
+        "Mamografía": 36,
+        "TE_Mamografía": 1.413431372553425,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 99.69418960244649,
+        "estudios": 654,
+        "incumplimiento": 2,
+        "modalidades_total": 1096,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 1,
+        "TE_Ecosonografía": 0.3636111110681668,
+        "Mamografía": 1,
+        "TE_Mamografía": 1.7686111110378988,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 1,
+        "incumplimiento": 0,
+        "modalidades_total": 2,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 1,
+        "TE_Radiología": 0.9233333333395422,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      }
+    ],
+    "19": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 96.43112062812277,
+        "estudios": 1401,
+        "incumplimiento": 50,
+        "modalidades_total": 1902,
+        "Cardiología": 33,
+        "TE_Cardiología": 3.5956481481394307,
+        "Densitometría": 75,
+        "TE_Densitometría": 1.0201247987241242,
+        "Ecosonografía": 248,
+        "TE_Ecosonografía": 0.8046678743960397,
+        "Mamografía": 93,
+        "TE_Mamografía": 1.3040066425082446,
+        "Radiología": 177,
+        "TE_Radiología": 0.8182563587577161,
+        "RM": 82,
+        "TE_RM": 2.0823523206651045,
+        "RM_5h": 59,
+        "RM_24h": 23,
+        "RM_48h": 0,
+        "Tomografía": 105,
+        "TE_Tomografía": 1.4055694444477558
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 95.08448540706605,
+        "estudios": 651,
+        "incumplimiento": 32,
+        "modalidades_total": 847,
+        "Cardiología": 32,
+        "TE_Cardiología": 3.670798611101418,
+        "Densitometría": 47,
+        "TE_Densitometría": 1.0288888889140586,
+        "Ecosonografía": 94,
+        "TE_Ecosonografía": 0.7366666666550926,
+        "Mamografía": 28,
+        "TE_Mamografía": 0.7418650793406414,
+        "Radiología": 122,
+        "TE_Radiología": 0.7770009416168343,
+        "RM": 43,
+        "TE_RM": 2.0130490956010383,
+        "RM_5h": 31,
+        "RM_24h": 12,
+        "RM_48h": 0,
+        "Tomografía": 90,
+        "TE_Tomografía": 1.3545138888935484
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 96.01769911504425,
+        "estudios": 226,
+        "incumplimiento": 9,
+        "modalidades_total": 227,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 1,
+        "TE_Densitometría": 0.7930555554921739,
+        "Ecosonografía": 48,
+        "TE_Ecosonografía": 0.8750142450086199,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 51,
+        "TE_Radiología": 0.9366913579947626,
+        "RM": 9,
+        "TE_RM": 3.3041666666727645,
+        "RM_5h": 8,
+        "RM_24h": 1,
+        "RM_48h": 0,
+        "Tomografía": 15,
+        "TE_Tomografía": 1.7799768518452765
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 94.52054794520548,
+        "estudios": 73,
+        "incumplimiento": 4,
+        "modalidades_total": 73,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 12,
+        "TE_Ecosonografía": 0.7233333333861083,
+        "Mamografía": 1,
+        "TE_Mamografía": 2.156666666676756,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 30,
+        "TE_RM": 1.8901915708616985,
+        "RM_5h": 20,
+        "RM_24h": 10,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": 80.0,
+        "estudios": 5,
+        "incumplimiento": 1,
+        "modalidades_total": 5,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 3,
+        "TE_Ecosonografía": 0.9419444444356486,
+        "Mamografía": 1,
+        "TE_Mamografía": 2.9938888888573274,
+        "Radiología": 1,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 98.07692307692307,
+        "estudios": 208,
+        "incumplimiento": 4,
+        "modalidades_total": 219,
+        "Cardiología": 1,
+        "TE_Cardiología": 1.1908333333558403,
+        "Densitometría": 25,
+        "TE_Densitometría": 1.0333888888824732,
+        "Ecosonografía": 88,
+        "TE_Ecosonografía": 0.8415887533934083,
+        "Mamografía": 62,
+        "TE_Mamografía": 1.5343032786918454,
+        "Radiología": 2,
+        "TE_Radiología": 0.9023611111042555,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 235,
+        "incumplimiento": 0,
+        "modalidades_total": 528,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 2,
+        "TE_Ecosonografía": 0.9958333334361669,
+        "Mamografía": 1,
+        "TE_Mamografía": 0.45333333348389715,
+        "Radiología": 1,
+        "TE_Radiología": 0.18861111102160066,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 3,
+        "incumplimiento": 0,
+        "modalidades_total": 3,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 2,
+        "TE_Densitometría": 0.7881944444670808,
+        "Ecosonografía": 1,
+        "TE_Ecosonografía": 1.6088888888480142,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      }
+    ],
+    "20": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 96.796875,
+        "estudios": 1280,
+        "incumplimiento": 41,
+        "modalidades_total": 1706,
+        "Cardiología": 23,
+        "TE_Cardiología": 3.291376811604056,
+        "Densitometría": 85,
+        "TE_Densitometría": 1.0626638176685306,
+        "Ecosonografía": 202,
+        "TE_Ecosonografía": 1.0058427495236697,
+        "Mamografía": 88,
+        "TE_Mamografía": 1.29038821954311,
+        "Radiología": 150,
+        "TE_Radiología": 0.8650287356319966,
+        "RM": 90,
+        "TE_RM": 2.3627676151795085,
+        "RM_5h": 63,
+        "RM_24h": 27,
+        "RM_48h": 0,
+        "Tomografía": 96,
+        "TE_Tomografía": 1.5555092592585424
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 96.50986342943855,
+        "estudios": 659,
+        "incumplimiento": 23,
+        "modalidades_total": 870,
+        "Cardiología": 21,
+        "TE_Cardiología": 3.2769841269889315,
+        "Densitometría": 61,
+        "TE_Densitometría": 1.0298065476215146,
+        "Ecosonografía": 93,
+        "TE_Ecosonografía": 1.0164367816017554,
+        "Mamografía": 46,
+        "TE_Mamografía": 1.0262247474708024,
+        "Radiología": 120,
+        "TE_Radiología": 0.8287691570846525,
+        "RM": 37,
+        "TE_RM": 2.3487345679022837,
+        "RM_5h": 25,
+        "RM_24h": 12,
+        "RM_48h": 0,
+        "Tomografía": 83,
+        "TE_Tomografía": 1.4846218206144095
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 95.2755905511811,
+        "estudios": 127,
+        "incumplimiento": 6,
+        "modalidades_total": 127,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 40,
+        "TE_Ecosonografía": 0.8364950980381657,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 28,
+        "TE_Radiología": 1.0113374485711877,
+        "RM": 3,
+        "TE_RM": 2.10805555555271,
+        "RM_5h": 2,
+        "RM_24h": 1,
+        "RM_48h": 0,
+        "Tomografía": 12,
+        "TE_Tomografía": 2.0596296296280343
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 96.73913043478261,
+        "estudios": 92,
+        "incumplimiento": 3,
+        "modalidades_total": 92,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 2,
+        "TE_Densitometría": 1.3868055555503815,
+        "Ecosonografía": 14,
+        "TE_Ecosonografía": 0.9137499999986696,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 50,
+        "TE_RM": 2.385827020207547,
+        "RM_5h": 36,
+        "RM_24h": 14,
+        "RM_48h": 0,
+        "Tomografía": 1,
+        "TE_Tomografía": 1.3897222222876735
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": 0.0,
+        "estudios": 1,
+        "incumplimiento": 1,
+        "modalidades_total": 1,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 1,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 93.75,
+        "estudios": 128,
+        "incumplimiento": 8,
+        "modalidades_total": 137,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 22,
+        "TE_Densitometría": 1.1222500000119908,
+        "Ecosonografía": 51,
+        "TE_Ecosonografía": 1.1766096866026952,
+        "Mamografía": 41,
+        "TE_Mamografía": 1.5549999999991422,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 271,
+        "incumplimiento": 0,
+        "modalidades_total": 477,
+        "Cardiología": 2,
+        "TE_Cardiología": 3.4425000000628643,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 2,
+        "TE_Ecosonografía": 0.7986111111240461,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 2,
+        "TE_Radiología": 0.9929166666988749,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 2,
+        "incumplimiento": 0,
+        "modalidades_total": 2,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 1,
+        "TE_Ecosonografía": 0.8858333333046176,
+        "Mamografía": 1,
+        "TE_Mamografía": 2.8583333333954215,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      }
+    ],
+    "21": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 95.52941176470588,
+        "estudios": 1275,
+        "incumplimiento": 57,
+        "modalidades_total": 1653,
+        "Cardiología": 20,
+        "TE_Cardiología": 2.8581527777627342,
+        "Densitometría": 79,
+        "TE_Densitometría": 0.9936029411893448,
+        "Ecosonografía": 237,
+        "TE_Ecosonografía": 0.7831205402686765,
+        "Mamografía": 88,
+        "TE_Mamografía": 1.0369345238265981,
+        "Radiología": 142,
+        "TE_Radiología": 0.9163298337650668,
+        "RM": 85,
+        "TE_RM": 2.45962301587029,
+        "RM_5h": 60,
+        "RM_24h": 25,
+        "RM_48h": 0,
+        "Tomografía": 90,
+        "TE_Tomografía": 1.5283531745995529
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 94.83870967741936,
+        "estudios": 620,
+        "incumplimiento": 32,
+        "modalidades_total": 805,
+        "Cardiología": 20,
+        "TE_Cardiología": 2.8581527777627342,
+        "Densitometría": 54,
+        "TE_Densitometría": 1.0418813131519444,
+        "Ecosonografía": 91,
+        "TE_Ecosonografía": 0.774194444452102,
+        "Mamografía": 33,
+        "TE_Mamografía": 0.7451094276356426,
+        "Radiología": 106,
+        "TE_Radiología": 0.8776083333254792,
+        "RM": 33,
+        "TE_RM": 2.6432204861084756,
+        "RM_5h": 21,
+        "RM_24h": 12,
+        "RM_48h": 0,
+        "Tomografía": 76,
+        "TE_Tomografía": 1.4436453576837602
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 92.71844660194175,
+        "estudios": 206,
+        "incumplimiento": 15,
+        "modalidades_total": 208,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 46,
+        "TE_Ecosonografía": 0.9600825825945247,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 34,
+        "TE_Radiología": 1.1056666666734964,
+        "RM": 19,
+        "TE_RM": 2.8795906432787888,
+        "RM_5h": 18,
+        "RM_24h": 1,
+        "RM_48h": 0,
+        "Tomografía": 14,
+        "TE_Tomografía": 2.090505050495267
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 98.68421052631578,
+        "estudios": 76,
+        "incumplimiento": 1,
+        "modalidades_total": 80,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 16,
+        "TE_Ecosonografía": 0.48924074074020607,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 33,
+        "TE_RM": 2.0397895622829143,
+        "RM_5h": 21,
+        "RM_24h": 12,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": null,
+        "estudios": 0,
+        "incumplimiento": 0,
+        "modalidades_total": 0,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 95.62841530054644,
+        "estudios": 183,
+        "incumplimiento": 8,
+        "modalidades_total": 193,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 24,
+        "TE_Densitometría": 0.8796497584528128,
+        "Ecosonografía": 82,
+        "TE_Ecosonografía": 0.7729166666599544,
+        "Mamografía": 55,
+        "TE_Mamografía": 1.2257625272442751,
+        "Radiología": 1,
+        "TE_Radiología": 0.5886111111030914,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 189,
+        "incumplimiento": 0,
+        "modalidades_total": 366,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 1,
+        "TE_Densitometría": 1.4902777777751908,
+        "Ecosonografía": 2,
+        "TE_Ecosonografía": 0.49263888897257857,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 1,
+        "TE_Radiología": 0.3827777776750736,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 0.0,
+        "estudios": 1,
+        "incumplimiento": 1,
+        "modalidades_total": 1,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      }
+    ],
+    "22": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 96.2291515591008,
+        "estudios": 1379,
+        "incumplimiento": 52,
+        "modalidades_total": 1755,
+        "Cardiología": 24,
+        "TE_Cardiología": 3.468854166647361,
+        "Densitometría": 92,
+        "TE_Densitometría": 0.9841372549054487,
+        "Ecosonografía": 209,
+        "TE_Ecosonografía": 0.8272522909503152,
+        "Mamografía": 96,
+        "TE_Mamografía": 1.1158695652221744,
+        "Radiología": 138,
+        "TE_Radiología": 0.8920505871604446,
+        "RM": 103,
+        "TE_RM": 1.977864758695377,
+        "RM_5h": 80,
+        "RM_24h": 22,
+        "RM_48h": 1,
+        "Tomografía": 99,
+        "TE_Tomografía": 1.4744644902728152
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 96.60326086956522,
+        "estudios": 736,
+        "incumplimiento": 25,
+        "modalidades_total": 959,
+        "Cardiología": 22,
+        "TE_Cardiología": 3.4373232323030773,
+        "Densitometría": 59,
+        "TE_Densitometría": 0.9951440329249535,
+        "Ecosonografía": 101,
+        "TE_Ecosonografía": 0.7652186761155695,
+        "Mamografía": 48,
+        "TE_Mamografía": 0.9240740740751789,
+        "Radiología": 87,
+        "TE_Radiología": 0.7803155006711475,
+        "RM": 51,
+        "TE_RM": 2.245759637180564,
+        "RM_5h": 36,
+        "RM_24h": 14,
+        "RM_48h": 1,
+        "Tomografía": 81,
+        "TE_Tomografía": 1.365113168730642
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 91.78743961352657,
+        "estudios": 207,
+        "incumplimiento": 17,
+        "modalidades_total": 208,
+        "Cardiología": 2,
+        "TE_Cardiología": 3.8156944444344845,
+        "Densitometría": 1,
+        "TE_Densitometría": 0.5247222221223637,
+        "Ecosonografía": 38,
+        "TE_Ecosonografía": 1.0858159722356504,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 47,
+        "TE_Radiología": 1.1513084795197326,
+        "RM": 11,
+        "TE_RM": 2.7920555555785542,
+        "RM_5h": 11,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 17,
+        "TE_Tomografía": 2.0586851852131076
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 97.01492537313433,
+        "estudios": 67,
+        "incumplimiento": 2,
+        "modalidades_total": 67,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 5,
+        "TE_Ecosonografía": 0.9368750000285218,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 40,
+        "TE_RM": 1.4451210826160745,
+        "RM_5h": 32,
+        "RM_24h": 8,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": null,
+        "estudios": 0,
+        "incumplimiento": 0,
+        "modalidades_total": 0,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 95.83333333333334,
+        "estudios": 168,
+        "incumplimiento": 7,
+        "modalidades_total": 179,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 32,
+        "TE_Densitometría": 0.9796388888964429,
+        "Ecosonografía": 65,
+        "TE_Ecosonografía": 0.7822309027787924,
+        "Mamografía": 48,
+        "TE_Mamografía": 1.325101010109806,
+        "Radiología": 3,
+        "TE_Radiología": 0.7956481482251547,
+        "RM": 1,
+        "TE_RM": 1.4861111111822538,
+        "RM_5h": 1,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 199,
+        "incumplimiento": 0,
+        "modalidades_total": 340,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 1,
+        "TE_Radiología": 0.37999999994644895,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 1,
+        "incumplimiento": 0,
+        "modalidades_total": 1,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 1,
+        "TE_Tomografía": 1.568611111084465
+      }
+    ],
     "23": [
       {
         "Unidad": "General",
@@ -625,6 +1665,208 @@ window.DASHBOARD_DATA = {
         "Tomografía": 0,
         "TE_Tomografía": null
       }
+    ],
+    "25": [
+      {
+        "Unidad": "General",
+        "Fecha": "",
+        "indicador": 97.4269819193324,
+        "estudios": 1438,
+        "incumplimiento": 37,
+        "modalidades_total": 1934,
+        "Cardiología": 50,
+        "TE_Cardiología": 3.950000000023283,
+        "Densitometría": 33,
+        "TE_Densitometría": 0.951965020568524,
+        "Ecosonografía": 199,
+        "TE_Ecosonografía": 0.7564682539681659,
+        "Mamografía": 72,
+        "TE_Mamografía": 0.9969561815509428,
+        "Radiología": 168,
+        "TE_Radiología": 0.8516315261069657,
+        "RM": 94,
+        "TE_RM": 2.899021604946271,
+        "RM_5h": 75,
+        "RM_24h": 19,
+        "RM_48h": 0,
+        "Tomografía": 76,
+        "TE_Tomografía": 1.532708333346818
+      },
+      {
+        "Unidad": "LM",
+        "Fecha": "",
+        "indicador": 97.8369384359401,
+        "estudios": 601,
+        "incumplimiento": 13,
+        "modalidades_total": 763,
+        "Cardiología": 49,
+        "TE_Cardiología": 3.922137188234566,
+        "Densitometría": 20,
+        "TE_Densitometría": 1.009043209865922,
+        "Ecosonografía": 97,
+        "TE_Ecosonografía": 0.7105439814858983,
+        "Mamografía": 27,
+        "TE_Mamografía": 0.6748868313022993,
+        "Radiología": 102,
+        "TE_Radiología": 0.6829207920853169,
+        "RM": 40,
+        "TE_RM": 3.0292192192251064,
+        "RM_5h": 28,
+        "RM_24h": 12,
+        "RM_48h": 0,
+        "Tomografía": 71,
+        "TE_Tomografía": 1.5068492063637158
+      },
+      {
+        "Unidad": "AC",
+        "Fecha": "",
+        "indicador": 95.55555555555556,
+        "estudios": 225,
+        "incumplimiento": 10,
+        "modalidades_total": 228,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 31,
+        "TE_Ecosonografía": 1.1118888888886431,
+        "Mamografía": 1,
+        "TE_Mamografía": 0.4758333333302289,
+        "Radiología": 65,
+        "TE_Radiología": 1.1179253472191704,
+        "RM": 21,
+        "TE_RM": 3.238703703723981,
+        "RM_5h": 19,
+        "RM_24h": 2,
+        "RM_48h": 0,
+        "Tomografía": 5,
+        "TE_Tomografía": 2.4377777777554
+      },
+      {
+        "Unidad": "CH",
+        "Fecha": "",
+        "indicador": 98.57142857142858,
+        "estudios": 70,
+        "incumplimiento": 1,
+        "modalidades_total": 70,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 4,
+        "TE_Ecosonografía": 0.6321527777326992,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 33,
+        "TE_RM": 2.525564236113496,
+        "RM_5h": 28,
+        "RM_24h": 5,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "GP",
+        "Fecha": "",
+        "indicador": 75.0,
+        "estudios": 8,
+        "incumplimiento": 2,
+        "modalidades_total": 8,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 6,
+        "TE_Ecosonografía": 0.547638888907386,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "CM",
+        "Fecha": "",
+        "indicador": 92.90780141843972,
+        "estudios": 141,
+        "incumplimiento": 10,
+        "modalidades_total": 152,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 13,
+        "TE_Densitometría": 0.8378086419737277,
+        "Ecosonografía": 61,
+        "TE_Ecosonografía": 0.7328975095728749,
+        "Mamografía": 44,
+        "TE_Mamografía": 1.2113049095726658,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "MP",
+        "Fecha": "",
+        "indicador": 100.0,
+        "estudios": 391,
+        "incumplimiento": 0,
+        "modalidades_total": 710,
+        "Cardiología": 1,
+        "TE_Cardiología": 5.315277777670417,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 1,
+        "TE_Radiología": 0.8486111111124046,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      },
+      {
+        "Unidad": "LA",
+        "Fecha": "",
+        "indicador": 50.0,
+        "estudios": 2,
+        "incumplimiento": 1,
+        "modalidades_total": 3,
+        "Cardiología": 0,
+        "TE_Cardiología": null,
+        "Densitometría": 0,
+        "TE_Densitometría": null,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
+        "Mamografía": 0,
+        "TE_Mamografía": null,
+        "Radiología": 0,
+        "TE_Radiología": null,
+        "RM": 0,
+        "TE_RM": null,
+        "RM_5h": 0,
+        "RM_24h": 0,
+        "RM_48h": 0,
+        "Tomografía": 0,
+        "TE_Tomografía": null
+      }
     ]
   },
   "sucursales": {
@@ -636,162 +1878,190 @@ window.DASHBOARD_DATA = {
     "MP": "Medicina Preventiva",
     "LA": "Las Águilas"
   },
-  "total_registros": 3460,
+  "total_registros": 14619,
   "analisis": {
     "incump_depto": [
       {
         "depto": "Resonancia Magnética",
-        "total": 474,
-        "incump": 27,
-        "pct_cumpl": 94.3,
+        "total": 2035,
+        "incump": 89,
+        "pct_cumpl": 95.6,
         "top_estudios": [
           {
             "estudio": "RM 3.0T Digital - Cráneo",
-            "n": 6
+            "n": 15
           },
           {
             "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
-            "n": 3
-          },
-          {
-            "estudio": "RM 3.0T Digital - Columna - Lumbar",
-            "n": 2
-          },
-          {
-            "estudio": "RM 1.5T - Columna - Lumbar",
-            "n": 2
+            "n": 12
           },
           {
             "estudio": "RM 1.5T - Cráneo",
-            "n": 2
+            "n": 6
+          },
+          {
+            "estudio": "RM 1.5T - Columna - Lumbar",
+            "n": 5
+          },
+          {
+            "estudio": "RM 3.0T Digital - Pelvis Femenina (Endometriosis)",
+            "n": 4
           }
         ]
       },
       {
         "depto": "Radiología",
-        "total": 569,
-        "incump": 23,
-        "pct_cumpl": 96.0,
+        "total": 2201,
+        "incump": 85,
+        "pct_cumpl": 96.1,
         "top_estudios": [
           {
-            "estudio": "RX Pelvis - 1P",
-            "n": 3
-          },
-          {
-            "estudio": "RX Rodillas Comparativas - 2P",
-            "n": 3
+            "estudio": "RX Tórax - 1P",
+            "n": 12
           },
           {
             "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
-            "n": 3
+            "n": 9
           },
           {
-            "estudio": "RX Tórax - 1P",
-            "n": 3
+            "estudio": "RX Rodillas Comparativas - 2P",
+            "n": 7
           },
           {
-            "estudio": "RX Tobillo - 2P",
-            "n": 2
-          }
-        ]
-      },
-      {
-        "depto": "Tomografía Axial Computada",
-        "total": 225,
-        "incump": 23,
-        "pct_cumpl": 89.8,
-        "top_estudios": [
-          {
-            "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+            "estudio": "RX Panorámica de Columna Completa AP",
             "n": 5
           },
           {
-            "estudio": "TAC - Cráneo",
-            "n": 3
-          },
-          {
-            "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
-            "n": 3
-          },
-          {
-            "estudio": "TAC - Senos Paranasales (SNP)",
-            "n": 2
-          },
-          {
-            "estudio": "TAC - Vías Urinarias - UroTAC [C]",
-            "n": 2
-          }
-        ]
-      },
-      {
-        "depto": "Ecosonografía",
-        "total": 679,
-        "incump": 12,
-        "pct_cumpl": 98.2,
-        "top_estudios": [
-          {
-            "estudio": "Eco de Mama",
-            "n": 6
-          },
-          {
-            "estudio": "Eco de Pelvis Transvaginal",
-            "n": 2
-          },
-          {
-            "estudio": "Eco de Tiroides",
-            "n": 1
-          },
-          {
-            "estudio": "Eco de Próstata vía Abdominal",
-            "n": 1
-          },
-          {
-            "estudio": "Eco de Partes Pequeñas",
-            "n": 1
+            "estudio": "RX Columna Lumbar - 2P",
+            "n": 5
           }
         ]
       },
       {
         "depto": "Densitometría",
-        "total": 192,
-        "incump": 11,
-        "pct_cumpl": 94.3,
+        "total": 795,
+        "incump": 68,
+        "pct_cumpl": 91.4,
         "top_estudios": [
           {
             "estudio": "Densitometría de Cadera y Columna Lumbar",
-            "n": 10
+            "n": 65
           },
           {
             "estudio": "Densitometría de 3 Regiones (excepto Cuerpo entero)",
-            "n": 1
+            "n": 3
           }
         ]
       },
       {
-        "depto": "Mamografía",
-        "total": 226,
-        "incump": 7,
-        "pct_cumpl": 96.9,
+        "depto": "Tomografía Axial Computada",
+        "total": 1025,
+        "incump": 54,
+        "pct_cumpl": 94.7,
         "top_estudios": [
           {
-            "estudio": "Mamografía - Bilateral",
+            "estudio": "TAC - Abdomen - Total [C]",
+            "n": 11
+          },
+          {
+            "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+            "n": 9
+          },
+          {
+            "estudio": "TAC - Cráneo",
+            "n": 6
+          },
+          {
+            "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
             "n": 5
           },
           {
-            "estudio": "Mamografía - Bilateral con Tomosíntesis",
+            "estudio": "TAC - Senos Paranasales (SNP)",
+            "n": 4
+          }
+        ]
+      },
+      {
+        "depto": "Ecosonografía",
+        "total": 2745,
+        "incump": 43,
+        "pct_cumpl": 98.4,
+        "top_estudios": [
+          {
+            "estudio": "Eco de Mama",
+            "n": 17
+          },
+          {
+            "estudio": "Eco de Pelvis",
+            "n": 5
+          },
+          {
+            "estudio": "Eco de Pelvis Transvaginal",
+            "n": 5
+          },
+          {
+            "estudio": "Eco de Tiroides",
+            "n": 4
+          },
+          {
+            "estudio": "Eco de Riñón",
             "n": 2
           }
         ]
       },
       {
-        "depto": "Cardiología",
-        "total": 282,
-        "incump": 5,
+        "depto": "Mamografía",
+        "total": 894,
+        "incump": 31,
+        "pct_cumpl": 96.5,
+        "top_estudios": [
+          {
+            "estudio": "Mamografía - Bilateral",
+            "n": 26
+          },
+          {
+            "estudio": "Mamografía - Bilateral con Tomosíntesis",
+            "n": 5
+          }
+        ]
+      },
+      {
+        "depto": "Salud Visual",
+        "total": 739,
+        "incump": 13,
         "pct_cumpl": 98.2,
         "top_estudios": [
           {
-            "estudio": "Electrocardiograma",
+            "estudio": "Agudeza Visual",
+            "n": 6
+          },
+          {
+            "estudio": "Diagnóstico Ojo Seco",
             "n": 4
+          },
+          {
+            "estudio": "Tomografía de Coherencia Óptica (OCT-A) de Retina",
+            "n": 1
+          },
+          {
+            "estudio": "Campimetría: Pruebas de Campo Visual",
+            "n": 1
+          },
+          {
+            "estudio": "Tomografía de Coherencia Óptica (OCT-A) de Nervio Óptico",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "depto": "Cardiología",
+        "total": 1327,
+        "incump": 6,
+        "pct_cumpl": 99.5,
+        "top_estudios": [
+          {
+            "estudio": "Electrocardiograma",
+            "n": 5
           },
           {
             "estudio": "Mapa de 24 horas",
@@ -800,46 +2070,62 @@ window.DASHBOARD_DATA = {
         ]
       },
       {
-        "depto": "Salud Visual",
-        "total": 183,
-        "incump": 3,
-        "pct_cumpl": 98.4,
-        "top_estudios": [
-          {
-            "estudio": "Diagnóstico Ojo Seco",
-            "n": 1
-          },
-          {
-            "estudio": "Tomografía de Coherencia Óptica (OCT-A) de Nervio Óptico",
-            "n": 1
-          },
-          {
-            "estudio": "Agudeza Visual",
-            "n": 1
-          }
-        ]
-      },
-      {
         "depto": "Servicios Especiales",
-        "total": 318,
-        "incump": 2,
-        "pct_cumpl": 99.4,
+        "total": 1520,
+        "incump": 6,
+        "pct_cumpl": 99.6,
         "top_estudios": [
+          {
+            "estudio": "Evaluación Médico Internista (2 consultas)",
+            "n": 3
+          },
+          {
+            "estudio": "Complemento - RM 3.0T Digital",
+            "n": 1
+          },
           {
             "estudio": "Consulta Médica (SME 1 consulta)",
             "n": 1
           },
           {
-            "estudio": "Evaluación Médico Internista (2 consultas)",
+            "estudio": "Evaluación Oftalmológica",
             "n": 1
           }
         ]
       },
       {
+        "depto": "Medicina Nuclear",
+        "total": 317,
+        "incump": 2,
+        "pct_cumpl": 99.4,
+        "top_estudios": [
+          {
+            "estudio": "Gammagrama Óseo",
+            "n": 1
+          },
+          {
+            "estudio": "Gammagrama Renal con Filtración Dinámico - Estático",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "depto": "Paquetes",
+        "total": 122,
+        "incump": 2,
+        "pct_cumpl": 98.4,
+        "top_estudios": [
+          {
+            "estudio": "Eco de Mama con Biopsia Unilateral",
+            "n": 2
+          }
+        ]
+      },
+      {
         "depto": "Bioimpedanciología",
-        "total": 38,
+        "total": 249,
         "incump": 1,
-        "pct_cumpl": 97.4,
+        "pct_cumpl": 99.6,
         "top_estudios": [
           {
             "estudio": "Análisis de Composición Corporal",
@@ -849,42 +2135,28 @@ window.DASHBOARD_DATA = {
       },
       {
         "depto": "Eeg Y Mapeo Cerebral",
-        "total": 35,
+        "total": 158,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
       },
       {
         "depto": "Electromiografía Y Potenciales Evocados",
-        "total": 22,
+        "total": 80,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
       },
       {
         "depto": "Espirometría",
-        "total": 75,
-        "incump": 0,
-        "pct_cumpl": 100.0,
-        "top_estudios": []
-      },
-      {
-        "depto": "Medicina Nuclear",
-        "total": 82,
-        "incump": 0,
-        "pct_cumpl": 100.0,
-        "top_estudios": []
-      },
-      {
-        "depto": "Paquetes",
-        "total": 30,
+        "total": 362,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
       },
       {
         "depto": "Servicio Dental",
-        "total": 30,
+        "total": 50,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_estudios": []
@@ -893,43 +2165,43 @@ window.DASHBOARD_DATA = {
     "top_estudios_incump": [
       {
         "estudio": "Densitometría de Cadera y Columna Lumbar",
-        "n": 10
-      },
-      {
-        "estudio": "Eco de Mama",
-        "n": 6
-      },
-      {
-        "estudio": "RM 3.0T Digital - Cráneo",
-        "n": 6
-      },
-      {
-        "estudio": "TAC - 2R - Tórax y Abdomen [C]",
-        "n": 5
+        "n": 65
       },
       {
         "estudio": "Mamografía - Bilateral",
-        "n": 5
+        "n": 26
       },
       {
-        "estudio": "Electrocardiograma",
-        "n": 4
+        "estudio": "Eco de Mama",
+        "n": 17
       },
       {
-        "estudio": "RX Pelvis - 1P",
-        "n": 3
+        "estudio": "RM 3.0T Digital - Cráneo",
+        "n": 15
       },
       {
-        "estudio": "RX Rodillas Comparativas - 2P",
-        "n": 3
-      },
-      {
-        "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
-        "n": 3
+        "estudio": "RX Tórax - 1P",
+        "n": 12
       },
       {
         "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
-        "n": 3
+        "n": 12
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "n": 11
+      },
+      {
+        "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
+        "n": 9
+      },
+      {
+        "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+        "n": 9
+      },
+      {
+        "estudio": "RX Rodillas Comparativas - 2P",
+        "n": 7
       }
     ],
     "calor_deptos": [
@@ -952,523 +2224,591 @@ window.DASHBOARD_DATA = {
     ],
     "calor": {
       "Cardiología": {
-        "LM": 95.6,
+        "LM": 98.6,
         "AC": 100.0,
-        "CH": null,
+        "CH": 100.0,
         "GP": null,
-        "CM": null,
+        "CM": 100.0,
         "MP": 100.0,
         "LA": null
       },
       "Densitometría": {
-        "LM": 93.1,
+        "LM": 89.0,
         "AC": 100.0,
-        "CH": null,
+        "CH": 100.0,
         "GP": null,
-        "CM": 94.2,
+        "CM": 92.4,
         "MP": 100.0,
-        "LA": 100.0
+        "LA": 60.0
       },
       "Ecosonografía": {
-        "LM": 99.1,
-        "AC": 95.8,
-        "CH": 100.0,
-        "GP": 100.0,
-        "CM": 95.8,
+        "LM": 98.6,
+        "AC": 98.3,
+        "CH": 98.2,
+        "GP": 77.8,
+        "CM": 97.1,
         "MP": 100.0,
         "LA": 100.0
       },
       "Mamografía": {
-        "LM": 98.9,
-        "AC": 0.0,
-        "CH": null,
-        "GP": null,
-        "CM": 95.5,
+        "LM": 97.8,
+        "AC": 50.0,
+        "CH": 100.0,
+        "GP": 0.0,
+        "CM": 95.1,
         "MP": 100.0,
         "LA": 100.0
       },
       "Radiología": {
-        "LM": 94.2,
-        "AC": 95.2,
-        "CH": null,
-        "GP": null,
-        "CM": 75.0,
-        "MP": 100.0,
+        "LM": 95.1,
+        "AC": 93.3,
+        "CH": 100.0,
+        "GP": 100.0,
+        "CM": 90.9,
+        "MP": 99.7,
         "LA": 100.0
       },
       "Resonancia Magnética": {
-        "LM": 95.2,
-        "AC": 91.3,
+        "LM": 96.5,
+        "AC": 92.9,
         "CH": 96.7,
-        "GP": 0.0,
-        "CM": null,
+        "GP": 50.0,
+        "CM": 100.0,
         "MP": 100.0,
         "LA": 100.0
       },
       "Tomografía Axial Computada": {
-        "LM": 93.4,
-        "AC": 74.4,
-        "CH": null,
+        "LM": 96.1,
+        "AC": 89.2,
+        "CH": 100.0,
         "GP": null,
         "CM": null,
         "MP": null,
-        "LA": null
+        "LA": 100.0
       }
     },
     "tiempos_modal": {
       "Cardiología": {
-        "gc_avg": 1.91,
-        "gf_avg": 2.78,
-        "n": 74
+        "gc_avg": 2.18,
+        "gf_avg": 3.03,
+        "n": 245
       },
       "Densitometría": {
-        "gc_avg": 1.15,
-        "gf_avg": 1.17,
-        "n": 155
+        "gc_avg": 1.18,
+        "gf_avg": 1.2,
+        "n": 570
       },
       "Ecosonografía": {
-        "gc_avg": 1.49,
-        "gf_avg": 1.44,
-        "n": 423
+        "gc_avg": 1.39,
+        "gf_avg": 1.33,
+        "n": 1696
       },
       "Mamografía": {
-        "gc_avg": 1.26,
-        "gf_avg": 1.27,
-        "n": 177
+        "gc_avg": 1.3,
+        "gf_avg": 1.31,
+        "n": 682
       },
       "Radiología": {
         "gc_avg": 1.21,
         "gf_avg": 1.21,
-        "n": 333
+        "n": 1251
       },
       "RM": {
-        "gc_avg": 2.05,
-        "gf_avg": 2.31,
-        "n": 113
+        "gc_avg": 1.96,
+        "gf_avg": 2.17,
+        "n": 647
       },
       "Tomografía": {
-        "gc_avg": 1.41,
-        "gf_avg": 1.45,
-        "n": 144
+        "gc_avg": 1.31,
+        "gf_avg": 1.32,
+        "n": 700
       }
     },
     "usuarios_recibe": [
       {
         "usuario": "Mora Ponce Samanta Noemi",
-        "total": 1026,
-        "incump": 33,
-        "pct_cumpl": 96.8,
+        "total": 4230,
+        "incump": 118,
+        "pct_cumpl": 97.2,
         "top_deptos": [
           {
             "depto": "Ecosonografía",
-            "n": 185
+            "n": 794
           },
           {
             "depto": "Resonancia Magnética",
-            "n": 173
+            "n": 713
           },
           {
             "depto": "Radiología",
-            "n": 165
+            "n": 694
           }
         ]
       },
       {
         "usuario": "Cortés Vázquez Graciela",
-        "total": 552,
-        "incump": 2,
-        "pct_cumpl": 99.6,
+        "total": 2018,
+        "incump": 15,
+        "pct_cumpl": 99.3,
         "top_deptos": [
           {
             "depto": "Cardiología",
-            "n": 145
+            "n": 603
           },
           {
             "depto": "Ecosonografía",
-            "n": 111
+            "n": 354
           },
           {
             "depto": "Radiología",
-            "n": 107
+            "n": 310
           }
         ]
       },
       {
         "usuario": "Rios Meza Oswaldo Josue",
-        "total": 544,
-        "incump": 26,
-        "pct_cumpl": 95.2,
+        "total": 1979,
+        "incump": 79,
+        "pct_cumpl": 96.0,
         "top_deptos": [
           {
             "depto": "Radiología",
-            "n": 121
-          },
-          {
-            "depto": "Tomografía Axial Computada",
-            "n": 76
+            "n": 342
           },
           {
             "depto": "Resonancia Magnética",
-            "n": 74
+            "n": 282
+          },
+          {
+            "depto": "Medicina Nuclear",
+            "n": 277
           }
         ]
       },
       {
         "usuario": "González Pérez Humberto",
-        "total": 274,
-        "incump": 0,
-        "pct_cumpl": 100.0,
+        "total": 1651,
+        "incump": 1,
+        "pct_cumpl": 99.9,
         "top_deptos": [
-          {
-            "depto": "Ecosonografía",
-            "n": 74
-          },
           {
             "depto": "Radiología",
-            "n": 63
-          },
-          {
-            "depto": "Servicios Especiales",
-            "n": 47
-          }
-        ]
-      },
-      {
-        "usuario": "Enriquez Velazquez Manuel",
-        "total": 165,
-        "incump": 10,
-        "pct_cumpl": 93.9,
-        "top_deptos": [
-          {
-            "depto": "Resonancia Magnética",
-            "n": 57
+            "n": 363
           },
           {
             "depto": "Ecosonografía",
-            "n": 44
+            "n": 362
           },
           {
-            "depto": "Radiología",
-            "n": 37
+            "depto": "Cardiología",
+            "n": 309
           }
         ]
       },
       {
         "usuario": "Gonzalez Medina Nestor Alan",
-        "total": 149,
-        "incump": 16,
-        "pct_cumpl": 89.3,
+        "total": 714,
+        "incump": 49,
+        "pct_cumpl": 93.1,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 57
+            "n": 242
           },
           {
             "depto": "Radiología",
-            "n": 48
+            "n": 227
           },
           {
             "depto": "Ecosonografía",
-            "n": 25
+            "n": 147
           }
         ]
       },
       {
         "usuario": "Macías Rodríguez Karla Lizbet",
-        "total": 144,
-        "incump": 6,
-        "pct_cumpl": 95.8,
+        "total": 713,
+        "incump": 28,
+        "pct_cumpl": 96.1,
         "top_deptos": [
           {
             "depto": "Ecosonografía",
-            "n": 59
+            "n": 313
           },
           {
             "depto": "Mamografía",
-            "n": 51
+            "n": 228
           },
           {
             "depto": "Densitometría",
-            "n": 23
+            "n": 111
           }
         ]
       },
       {
-        "usuario": "Chavez Jimenez America",
-        "total": 96,
-        "incump": 7,
-        "pct_cumpl": 92.7,
+        "usuario": "Enriquez Velazquez Manuel",
+        "total": 687,
+        "incump": 36,
+        "pct_cumpl": 94.8,
         "top_deptos": [
           {
+            "depto": "Resonancia Magnética",
+            "n": 229
+          },
+          {
             "depto": "Ecosonografía",
-            "n": 51
+            "n": 173
           },
           {
-            "depto": "Mamografía",
-            "n": 22
-          },
-          {
-            "depto": "Densitometría",
-            "n": 16
+            "depto": "Radiología",
+            "n": 169
           }
         ]
       },
       {
         "usuario": "Valdez Aguilar Alberto de Jesús",
-        "total": 92,
+        "total": 484,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
             "depto": "Servicios Especiales",
-            "n": 92
+            "n": 482
+          },
+          {
+            "depto": "Espirometría",
+            "n": 2
           }
         ]
       },
       {
         "usuario": "Ceballos Romero Casandra",
-        "total": 91,
-        "incump": 1,
-        "pct_cumpl": 98.9,
+        "total": 448,
+        "incump": 3,
+        "pct_cumpl": 99.3,
         "top_deptos": [
           {
             "depto": "Servicios Especiales",
-            "n": 91
-          }
-        ]
-      },
-      {
-        "usuario": "Angel Guzman Yadyra Jannet",
-        "total": 76,
-        "incump": 3,
-        "pct_cumpl": 96.1,
-        "top_deptos": [
-          {
-            "depto": "Ecosonografía",
-            "n": 53
-          },
-          {
-            "depto": "Densitometría",
-            "n": 12
-          },
-          {
-            "depto": "Mamografía",
-            "n": 6
+            "n": 448
           }
         ]
       },
       {
         "usuario": "Contreras Sánchez Janette",
-        "total": 65,
-        "incump": 1,
-        "pct_cumpl": 98.5,
+        "total": 314,
+        "incump": 6,
+        "pct_cumpl": 98.1,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 48
+            "n": 240
           },
           {
             "depto": "Ecosonografía",
-            "n": 17
+            "n": 74
           }
         ]
       },
       {
-        "usuario": "Tabares Martínez Hugo",
-        "total": 32,
-        "incump": 0,
-        "pct_cumpl": 100.0,
+        "usuario": "Chavez Jimenez America",
+        "total": 288,
+        "incump": 14,
+        "pct_cumpl": 95.1,
         "top_deptos": [
           {
-            "depto": "Radiología",
-            "n": 15
+            "depto": "Ecosonografía",
+            "n": 148
           },
-          {
-            "depto": "Resonancia Magnética",
-            "n": 8
-          },
-          {
-            "depto": "Tomografía Axial Computada",
-            "n": 7
-          }
-        ]
-      },
-      {
-        "usuario": "Martinez Andrade Sandra",
-        "total": 32,
-        "incump": 0,
-        "pct_cumpl": 100.0,
-        "top_deptos": [
           {
             "depto": "Mamografía",
-            "n": 27
+            "n": 79
           },
           {
+            "depto": "Densitometría",
+            "n": 43
+          }
+        ]
+      },
+      {
+        "usuario": "Angel Guzman Yadyra Jannet",
+        "total": 271,
+        "incump": 11,
+        "pct_cumpl": 95.9,
+        "top_deptos": [
+          {
             "depto": "Ecosonografía",
-            "n": 5
+            "n": 164
+          },
+          {
+            "depto": "Densitometría",
+            "n": 49
+          },
+          {
+            "depto": "Mamografía",
+            "n": 41
           }
         ]
       },
       {
         "usuario": "Ponce Sanchez Brayaan Yahir",
-        "total": 31,
-        "incump": 1,
-        "pct_cumpl": 96.8,
+        "total": 158,
+        "incump": 3,
+        "pct_cumpl": 98.1,
         "top_deptos": [
+          {
+            "depto": "Resonancia Magnética",
+            "n": 131
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 23
+          },
+          {
+            "depto": "Salud Visual",
+            "n": 4
+          }
+        ]
+      },
+      {
+        "usuario": "Tabares Martínez Hugo",
+        "total": 123,
+        "incump": 6,
+        "pct_cumpl": 95.1,
+        "top_deptos": [
+          {
+            "depto": "Radiología",
+            "n": 37
+          },
           {
             "depto": "Resonancia Magnética",
             "n": 26
           },
           {
-            "depto": "Ecosonografía",
-            "n": 5
-          }
-        ]
-      },
-      {
-        "usuario": "Garcia Hernandez Abimael",
-        "total": 20,
-        "incump": 5,
-        "pct_cumpl": 75.0,
-        "top_deptos": [
-          {
-            "depto": "Resonancia Magnética",
-            "n": 6
-          },
-          {
-            "depto": "Radiología",
-            "n": 5
-          },
-          {
-            "depto": "Salud Visual",
-            "n": 5
+            "depto": "Tomografía Axial Computada",
+            "n": 25
           }
         ]
       },
       {
         "usuario": "Anaya Constante Monica",
-        "total": 16,
+        "total": 117,
+        "incump": 3,
+        "pct_cumpl": 97.4,
+        "top_deptos": [
+          {
+            "depto": "Tomografía Axial Computada",
+            "n": 52
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 22
+          },
+          {
+            "depto": "Resonancia Magnética",
+            "n": 21
+          }
+        ]
+      },
+      {
+        "usuario": "Martinez Andrade Sandra",
+        "total": 92,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
-            "depto": "Tomografía Axial Computada",
-            "n": 11
+            "depto": "Mamografía",
+            "n": 70
           },
           {
-            "depto": "Resonancia Magnética",
-            "n": 3
+            "depto": "Ecosonografía",
+            "n": 21
           },
           {
-            "depto": "Radiología",
+            "depto": "Servicios Especiales",
             "n": 1
           }
         ]
       },
       {
-        "usuario": "Carrillo Vazquez Celin",
-        "total": 13,
-        "incump": 0,
-        "pct_cumpl": 100.0,
-        "top_deptos": [
-          {
-            "depto": "Ecosonografía",
-            "n": 7
-          },
-          {
-            "depto": "Mamografía",
-            "n": 4
-          },
-          {
-            "depto": "Densitometría",
-            "n": 2
-          }
-        ]
-      },
-      {
-        "usuario": "Garcia Godinez Laura Matilde",
-        "total": 13,
-        "incump": 3,
-        "pct_cumpl": 76.9,
-        "top_deptos": [
-          {
-            "depto": "Salud Visual",
-            "n": 6
-          },
-          {
-            "depto": "Radiología",
-            "n": 3
-          },
-          {
-            "depto": "Ecosonografía",
-            "n": 2
-          }
-        ]
-      },
-      {
-        "usuario": "Estrada Valle Gloria Itzel",
-        "total": 10,
-        "incump": 0,
-        "pct_cumpl": 100.0,
+        "usuario": "Garcia Hernandez Abimael",
+        "total": 80,
+        "incump": 18,
+        "pct_cumpl": 77.5,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 8
+            "n": 20
+          },
+          {
+            "depto": "Radiología",
+            "n": 15
           },
           {
             "depto": "Ecosonografía",
-            "n": 2
+            "n": 13
+          }
+        ]
+      },
+      {
+        "usuario": "Perez Rodriguez Heli Janette",
+        "total": 79,
+        "incump": 1,
+        "pct_cumpl": 98.7,
+        "top_deptos": [
+          {
+            "depto": "Ecosonografía",
+            "n": 19
+          },
+          {
+            "depto": "Resonancia Magnética",
+            "n": 15
+          },
+          {
+            "depto": "Radiología",
+            "n": 12
           }
         ]
       },
       {
         "usuario": "García Araiza Jaime Damián",
-        "total": 8,
+        "total": 60,
+        "incump": 4,
+        "pct_cumpl": 93.3,
+        "top_deptos": [
+          {
+            "depto": "Resonancia Magnética",
+            "n": 50
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 10
+          }
+        ]
+      },
+      {
+        "usuario": "Garcia Godinez Laura Matilde",
+        "total": 36,
+        "incump": 5,
+        "pct_cumpl": 86.1,
+        "top_deptos": [
+          {
+            "depto": "Tomografía Axial Computada",
+            "n": 16
+          },
+          {
+            "depto": "Radiología",
+            "n": 6
+          },
+          {
+            "depto": "Salud Visual",
+            "n": 6
+          }
+        ]
+      },
+      {
+        "usuario": "Estrada Valle Gloria Itzel",
+        "total": 31,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 6
+            "n": 28
           },
           {
             "depto": "Ecosonografía",
-            "n": 2
+            "n": 3
           }
         ]
       },
       {
-        "usuario": "Velázquez González Dana",
-        "total": 5,
+        "usuario": "Carrillo Vazquez Celin",
+        "total": 20,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
+            "depto": "Mamografía",
+            "n": 7
+          },
+          {
             "depto": "Ecosonografía",
+            "n": 7
+          },
+          {
+            "depto": "Densitometría",
             "n": 5
           }
         ]
       },
       {
+        "usuario": "Velázquez González Dana",
+        "total": 10,
+        "incump": 0,
+        "pct_cumpl": 100.0,
+        "top_deptos": [
+          {
+            "depto": "Ecosonografía",
+            "n": 10
+          }
+        ]
+      },
+      {
         "usuario": "Contreras Castro Alexis",
+        "total": 5,
+        "incump": 0,
+        "pct_cumpl": 100.0,
+        "top_deptos": [
+          {
+            "depto": "Resonancia Magnética",
+            "n": 5
+          }
+        ]
+      },
+      {
+        "usuario": "Contreras Saldaña Oscar",
+        "total": 3,
+        "incump": 0,
+        "pct_cumpl": 100.0,
+        "top_deptos": [
+          {
+            "depto": "Ecosonografía",
+            "n": 1
+          },
+          {
+            "depto": "Mamografía",
+            "n": 1
+          },
+          {
+            "depto": "Resonancia Magnética",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "usuario": "Serna Gomez Ruth Maria",
         "total": 3,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
             "depto": "Resonancia Magnética",
-            "n": 3
+            "n": 2
+          },
+          {
+            "depto": "Ecosonografía",
+            "n": 1
           }
         ]
       },
       {
-        "usuario": "Contreras Saldaña Oscar",
+        "usuario": "Gonzalez Gomez Alejandra",
         "total": 1,
         "incump": 0,
         "pct_cumpl": 100.0,
         "top_deptos": [
           {
-            "depto": "Resonancia Magnética",
+            "depto": "Tomografía Axial Computada",
             "n": 1
           }
         ]
@@ -1477,31 +2817,31 @@ window.DASHBOARD_DATA = {
     "dist_af": [
       {
         "hora": 0,
-        "n": 72
+        "n": 288
       },
       {
         "hora": 1,
-        "n": 20
+        "n": 45
       },
       {
         "hora": 2,
-        "n": 9
+        "n": 19
       },
       {
         "hora": 3,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 4,
-        "n": 0
+        "n": 3
       },
       {
         "hora": 5,
-        "n": 0
+        "n": 2
       },
       {
         "hora": 6,
-        "n": 0
+        "n": 1
       },
       {
         "hora": 7,
@@ -1517,31 +2857,31 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 10,
-        "n": 0
+        "n": 5
       },
       {
         "hora": 11,
-        "n": 1
-      },
-      {
-        "hora": 12,
-        "n": 1
-      },
-      {
-        "hora": 13,
         "n": 2
       },
       {
+        "hora": 12,
+        "n": 4
+      },
+      {
+        "hora": 13,
+        "n": 3
+      },
+      {
         "hora": 14,
-        "n": 1
+        "n": 4
       },
       {
         "hora": 15,
-        "n": 0
+        "n": 5
       },
       {
         "hora": 16,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 17,
@@ -1549,11 +2889,11 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 18,
-        "n": 0
+        "n": 3
       },
       {
         "hora": 19,
-        "n": 0
+        "n": 2
       },
       {
         "hora": 20,
@@ -1561,15 +2901,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 21,
-        "n": 1
+        "n": 3
       },
       {
         "hora": 22,
-        "n": 1
+        "n": 2
       },
       {
         "hora": 23,
-        "n": 1
+        "n": 2
       }
     ],
     "calor_hora": {
@@ -1597,7 +2937,7 @@ window.DASHBOARD_DATA = {
         "10": 0,
         "11": 0,
         "12": 0,
-        "13": 0,
+        "13": 1,
         "14": 0,
         "15": 0,
         "16": 0,
@@ -1608,34 +2948,34 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "Densitometría": {
-        "7": 0,
-        "8": 0,
-        "9": 1,
-        "10": 2,
-        "11": 2,
-        "12": 1,
-        "13": 0,
-        "14": 1,
-        "15": 1,
-        "16": 0,
-        "17": 2,
-        "18": 0,
-        "19": 1,
+        "7": 1,
+        "8": 5,
+        "9": 5,
+        "10": 11,
+        "11": 11,
+        "12": 8,
+        "13": 7,
+        "14": 4,
+        "15": 4,
+        "16": 3,
+        "17": 5,
+        "18": 2,
+        "19": 2,
         "20": 0,
         "21": 0
       },
       "Ecosonografía": {
         "7": 2,
-        "8": 1,
-        "9": 2,
-        "10": 3,
-        "11": 1,
-        "12": 1,
-        "13": 0,
-        "14": 2,
-        "15": 0,
-        "16": 0,
-        "17": 0,
+        "8": 6,
+        "9": 11,
+        "10": 6,
+        "11": 3,
+        "12": 4,
+        "13": 4,
+        "14": 3,
+        "15": 1,
+        "16": 2,
+        "17": 1,
         "18": 0,
         "19": 0,
         "20": 0,
@@ -1643,9 +2983,43 @@ window.DASHBOARD_DATA = {
       },
       "Mamografía": {
         "7": 1,
-        "8": 2,
+        "8": 4,
+        "9": 4,
+        "10": 5,
+        "11": 2,
+        "12": 1,
+        "13": 3,
+        "14": 4,
+        "15": 0,
+        "16": 2,
+        "17": 1,
+        "18": 2,
+        "19": 2,
+        "20": 0,
+        "21": 0
+      },
+      "Medicina Nuclear": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 1,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 1,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "Paquetes": {
+        "7": 1,
+        "8": 0,
         "9": 1,
-        "10": 3,
+        "10": 0,
         "11": 0,
         "12": 0,
         "13": 0,
@@ -1659,60 +3033,60 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "Radiología": {
-        "7": 1,
-        "8": 0,
-        "9": 1,
-        "10": 3,
-        "11": 3,
-        "12": 6,
-        "13": 3,
-        "14": 2,
-        "15": 2,
-        "16": 0,
+        "7": 2,
+        "8": 2,
+        "9": 9,
+        "10": 13,
+        "11": 11,
+        "12": 8,
+        "13": 14,
+        "14": 10,
+        "15": 6,
+        "16": 5,
         "17": 2,
         "18": 0,
         "19": 0,
-        "20": 0,
+        "20": 3,
         "21": 0
       },
       "Resonancia Magnética": {
-        "7": 1,
-        "8": 2,
-        "9": 6,
-        "10": 2,
-        "11": 3,
-        "12": 2,
-        "13": 1,
-        "14": 1,
-        "15": 4,
-        "16": 1,
-        "17": 2,
-        "18": 0,
-        "19": 1,
-        "20": 1,
+        "7": 2,
+        "8": 10,
+        "9": 12,
+        "10": 14,
+        "11": 8,
+        "12": 6,
+        "13": 6,
+        "14": 3,
+        "15": 9,
+        "16": 4,
+        "17": 5,
+        "18": 5,
+        "19": 3,
+        "20": 2,
         "21": 0
       },
       "Salud Visual": {
         "7": 0,
         "8": 0,
-        "9": 0,
+        "9": 1,
         "10": 0,
         "11": 0,
-        "12": 0,
+        "12": 2,
         "13": 1,
-        "14": 0,
+        "14": 5,
         "15": 0,
         "16": 0,
-        "17": 2,
-        "18": 0,
+        "17": 3,
+        "18": 1,
         "19": 0,
         "20": 0,
         "21": 0
       },
       "Servicios Especiales": {
         "7": 0,
-        "8": 0,
-        "9": 1,
+        "8": 3,
+        "9": 2,
         "10": 0,
         "11": 1,
         "12": 0,
@@ -1727,16 +3101,16 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "Tomografía Axial Computada": {
-        "7": 0,
-        "8": 4,
-        "9": 4,
-        "10": 2,
-        "11": 2,
-        "12": 3,
-        "13": 4,
-        "14": 2,
+        "7": 2,
+        "8": 10,
+        "9": 6,
+        "10": 7,
+        "11": 4,
+        "12": 11,
+        "13": 6,
+        "14": 4,
         "15": 1,
-        "16": 0,
+        "16": 2,
         "17": 0,
         "18": 0,
         "19": 0,
@@ -1745,20 +3119,20 @@ window.DASHBOARD_DATA = {
       }
     },
     "calor_hora_total": {
-      "7": 5,
-      "8": 12,
-      "9": 17,
-      "10": 16,
-      "11": 12,
-      "12": 13,
-      "13": 9,
-      "14": 8,
-      "15": 8,
-      "16": 1,
-      "17": 9,
-      "18": 0,
-      "19": 2,
-      "20": 2,
+      "7": 11,
+      "8": 43,
+      "9": 52,
+      "10": 58,
+      "11": 40,
+      "12": 40,
+      "13": 42,
+      "14": 33,
+      "15": 22,
+      "16": 18,
+      "17": 18,
+      "18": 10,
+      "19": 7,
+      "20": 6,
       "21": 0
     },
     "calor_hora_deptos": [
@@ -1767,6 +3141,8 @@ window.DASHBOARD_DATA = {
       "Densitometría",
       "Ecosonografía",
       "Mamografía",
+      "Medicina Nuclear",
+      "Paquetes",
       "Radiología",
       "Resonancia Magnética",
       "Salud Visual",
@@ -1789,9 +3165,7763 @@ window.DASHBOARD_DATA = {
       19,
       20,
       21
-    ]
+    ],
+    "calor_entrega": {
+      "Bioimpedanciología": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 1,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "Cardiología": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 4,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 1,
+        "18": 0,
+        "19": 1,
+        "20": 0,
+        "21": 0
+      },
+      "Densitometría": {
+        "7": 2,
+        "8": 2,
+        "9": 4,
+        "10": 6,
+        "11": 8,
+        "12": 11,
+        "13": 3,
+        "14": 10,
+        "15": 6,
+        "16": 2,
+        "17": 6,
+        "18": 2,
+        "19": 4,
+        "20": 2,
+        "21": 0
+      },
+      "Ecosonografía": {
+        "7": 0,
+        "8": 0,
+        "9": 4,
+        "10": 4,
+        "11": 6,
+        "12": 8,
+        "13": 6,
+        "14": 4,
+        "15": 1,
+        "16": 4,
+        "17": 1,
+        "18": 2,
+        "19": 1,
+        "20": 2,
+        "21": 0
+      },
+      "Mamografía": {
+        "7": 4,
+        "8": 0,
+        "9": 3,
+        "10": 4,
+        "11": 4,
+        "12": 5,
+        "13": 3,
+        "14": 1,
+        "15": 0,
+        "16": 4,
+        "17": 0,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 0
+      },
+      "Medicina Nuclear": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 1,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 1,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "Paquetes": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 2,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "Radiología": {
+        "7": 1,
+        "8": 3,
+        "9": 4,
+        "10": 4,
+        "11": 6,
+        "12": 5,
+        "13": 16,
+        "14": 8,
+        "15": 13,
+        "16": 10,
+        "17": 8,
+        "18": 6,
+        "19": 0,
+        "20": 1,
+        "21": 0
+      },
+      "Resonancia Magnética": {
+        "7": 4,
+        "8": 2,
+        "9": 12,
+        "10": 6,
+        "11": 9,
+        "12": 6,
+        "13": 4,
+        "14": 5,
+        "15": 13,
+        "16": 9,
+        "17": 9,
+        "18": 8,
+        "19": 2,
+        "20": 0,
+        "21": 0
+      },
+      "Salud Visual": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 3,
+        "11": 0,
+        "12": 0,
+        "13": 1,
+        "14": 2,
+        "15": 4,
+        "16": 1,
+        "17": 2,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "Servicios Especiales": {
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 1,
+        "11": 1,
+        "12": 0,
+        "13": 0,
+        "14": 1,
+        "15": 0,
+        "16": 0,
+        "17": 2,
+        "18": 0,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "Tomografía Axial Computada": {
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 9,
+        "11": 6,
+        "12": 5,
+        "13": 9,
+        "14": 7,
+        "15": 5,
+        "16": 5,
+        "17": 5,
+        "18": 1,
+        "19": 0,
+        "20": 2,
+        "21": 0
+      }
+    },
+    "calor_entrega_total": {
+      "7": 12,
+      "8": 7,
+      "9": 27,
+      "10": 38,
+      "11": 42,
+      "12": 40,
+      "13": 47,
+      "14": 38,
+      "15": 42,
+      "16": 35,
+      "17": 34,
+      "18": 21,
+      "19": 9,
+      "20": 8,
+      "21": 0
+    },
+    "incump_dow": [
+      {
+        "dia": "Lunes",
+        "total": 1849,
+        "incump": 85,
+        "pct_cumpl": 95.4
+      },
+      {
+        "dia": "Martes",
+        "total": 1705,
+        "incump": 53,
+        "pct_cumpl": 96.9
+      },
+      {
+        "dia": "Miércoles",
+        "total": 1732,
+        "incump": 56,
+        "pct_cumpl": 96.8
+      },
+      {
+        "dia": "Jueves",
+        "total": 1834,
+        "incump": 52,
+        "pct_cumpl": 97.2
+      },
+      {
+        "dia": "Viernes",
+        "total": 1918,
+        "incump": 67,
+        "pct_cumpl": 96.5
+      },
+      {
+        "dia": "Sábado",
+        "total": 1656,
+        "incump": 54,
+        "pct_cumpl": 96.7
+      }
+    ],
+    "dist_retraso": [
+      {
+        "horas": 0,
+        "n": 288
+      },
+      {
+        "horas": 1,
+        "n": 45
+      },
+      {
+        "horas": 2,
+        "n": 19
+      },
+      {
+        "horas": 3,
+        "n": 2
+      },
+      {
+        "horas": 4,
+        "n": 3
+      },
+      {
+        "horas": 5,
+        "n": 2
+      },
+      {
+        "horas": 6,
+        "n": 1
+      },
+      {
+        "horas": 10,
+        "n": 5
+      },
+      {
+        "horas": 11,
+        "n": 2
+      },
+      {
+        "horas": 12,
+        "n": 4
+      },
+      {
+        "horas": 13,
+        "n": 3
+      },
+      {
+        "horas": 14,
+        "n": 4
+      },
+      {
+        "horas": 15,
+        "n": 5
+      },
+      {
+        "horas": 16,
+        "n": 2
+      },
+      {
+        "horas": 17,
+        "n": 1
+      },
+      {
+        "horas": 18,
+        "n": 3
+      },
+      {
+        "horas": 19,
+        "n": 2
+      },
+      {
+        "horas": 20,
+        "n": 2
+      },
+      {
+        "horas": 21,
+        "n": 3
+      },
+      {
+        "horas": 22,
+        "n": 2
+      },
+      {
+        "horas": 23,
+        "n": 2
+      }
+    ],
+    "retraso_prom": 2.2,
+    "total_incump": 400
   },
   "analisis_sem": {
+    "18": {
+      "incump_depto": [
+        {
+          "depto": "Radiología",
+          "total": 348,
+          "incump": 10,
+          "pct_cumpl": 97.1,
+          "top_estudios": [
+            {
+              "estudio": "RX Columna Lumbar - 2P",
+              "n": 2
+            },
+            {
+              "estudio": "RX Columna Sacro-Coxígea - 1P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Abdomen - 1P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Panorámica de Columna Completa LAT",
+              "n": 1
+            },
+            {
+              "estudio": "RX Panorámica de Columna Completa AP",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Resonancia Magnética",
+          "total": 222,
+          "incump": 8,
+          "pct_cumpl": 96.4,
+          "top_estudios": [
+            {
+              "estudio": "RM 1.5T - Columna - Cervical",
+              "n": 1
+            },
+            {
+              "estudio": "E - RM 3.0T Digital de Mama",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Pelvis Femenina (Endometriosis)",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Oncológica - Valoración Funcional",
+              "n": 1
+            },
+            {
+              "estudio": "RM 1.5T - Cráneo",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 132,
+          "incump": 6,
+          "pct_cumpl": 95.5,
+          "top_estudios": [
+            {
+              "estudio": "TAC - Abdomen - Total [C]",
+              "n": 3
+            },
+            {
+              "estudio": "TAC - Angio de Carótidas [C]",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - Cráneo",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Ecosonografía",
+          "total": 403,
+          "incump": 4,
+          "pct_cumpl": 99.0,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Tiroides",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Mama",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Pelvis",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Pelvis Transvaginal",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Densitometría",
+          "total": 115,
+          "incump": 2,
+          "pct_cumpl": 98.3,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "depto": "Mamografía",
+          "total": 109,
+          "incump": 1,
+          "pct_cumpl": 99.1,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 61,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Cardiología",
+          "total": 273,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 20,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 86,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 28,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 11,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 74,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 323,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "TAC - Abdomen - Total [C]",
+          "n": 3
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 2
+        },
+        {
+          "estudio": "RX Columna Lumbar - 2P",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - Angio de Carótidas [C]",
+          "n": 2
+        },
+        {
+          "estudio": "Eco de Tiroides",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Pelvis",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Pelvis Transvaginal",
+          "n": 1
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 1
+        },
+        {
+          "estudio": "RX Columna Sacro-Coxígea - 1P",
+          "n": 1
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 100.0,
+          "AC": 100.0,
+          "CH": 100.0,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 97.6,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": 94.4,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Ecosonografía": {
+          "LM": 98.9,
+          "AC": 97.8,
+          "CH": 100.0,
+          "GP": 0.0,
+          "CM": 98.4,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Mamografía": {
+          "LM": 100.0,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 97.8,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Radiología": {
+          "LM": 96.4,
+          "AC": 93.0,
+          "CH": 100.0,
+          "GP": null,
+          "CM": null,
+          "MP": 98.8,
+          "LA": 100.0
+        },
+        "Resonancia Magnética": {
+          "LM": 95.7,
+          "AC": 100.0,
+          "CH": 95.3,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Tomografía Axial Computada": {
+          "LM": 95.5,
+          "AC": 95.2,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": null
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 1.44,
+          "gf_avg": 2.79,
+          "n": 21
+        },
+        "Densitometría": {
+          "gc_avg": 1.21,
+          "gf_avg": 1.22,
+          "n": 51
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.47,
+          "gf_avg": 1.38,
+          "n": 178
+        },
+        "Mamografía": {
+          "gc_avg": 1.46,
+          "gf_avg": 1.42,
+          "n": 68
+        },
+        "Radiología": {
+          "gc_avg": 1.07,
+          "gf_avg": 1.08,
+          "n": 143
+        },
+        "RM": {
+          "gc_avg": 1.63,
+          "gf_avg": 1.9,
+          "n": 80
+        },
+        "Tomografía": {
+          "gc_avg": 1.29,
+          "gf_avg": 1.3,
+          "n": 90
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 680,
+          "incump": 1,
+          "pct_cumpl": 99.9,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 182
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 127
+            },
+            {
+              "depto": "Radiología",
+              "n": 110
+            }
+          ]
+        },
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 390,
+          "incump": 8,
+          "pct_cumpl": 97.9,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 82
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 71
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 65
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 246,
+          "incump": 1,
+          "pct_cumpl": 99.6,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 56
+            },
+            {
+              "depto": "Radiología",
+              "n": 55
+            },
+            {
+              "depto": "Cardiología",
+              "n": 45
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 232,
+          "incump": 9,
+          "pct_cumpl": 96.1,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 40
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 39
+            },
+            {
+              "depto": "Salud Visual",
+              "n": 35
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 91,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 91
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 87,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 87
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 83,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 24
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 22
+            },
+            {
+              "depto": "Radiología",
+              "n": 22
+            }
+          ]
+        },
+        {
+          "usuario": "Perez Rodriguez Heli Janette",
+          "total": 75,
+          "incump": 1,
+          "pct_cumpl": 98.7,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 17
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 15
+            },
+            {
+              "depto": "Radiología",
+              "n": 12
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 58,
+          "incump": 2,
+          "pct_cumpl": 96.6,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 27
+            },
+            {
+              "depto": "Mamografía",
+              "n": 18
+            },
+            {
+              "depto": "Densitometría",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "Tabares Martínez Hugo",
+          "total": 48,
+          "incump": 4,
+          "pct_cumpl": 91.7,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 18
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 14
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 10
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 40,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 17
+            },
+            {
+              "depto": "Densitometría",
+              "n": 9
+            },
+            {
+              "depto": "Mamografía",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 36,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 26
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 10
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 34,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 19
+            },
+            {
+              "depto": "Mamografía",
+              "n": 9
+            },
+            {
+              "depto": "Densitometría",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 30,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 24
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 6
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 26,
+          "incump": 1,
+          "pct_cumpl": 96.2,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 9
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 8
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 12,
+          "incump": 2,
+          "pct_cumpl": 83.3,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 11
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 11,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 9
+            },
+            {
+              "depto": "Densitometría",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 10,
+          "incump": 1,
+          "pct_cumpl": 90.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 3
+            },
+            {
+              "depto": "Radiología",
+              "n": 3
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 3
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 10,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 8
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Godinez Laura Matilde",
+          "total": 5,
+          "incump": 1,
+          "pct_cumpl": 80.0,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 2
+            },
+            {
+              "depto": "Radiología",
+              "n": 2
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Saldaña Oscar",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Serna Gomez Ruth Maria",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Gomez Alejandra",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 25
+        },
+        {
+          "hora": 1,
+          "n": 4
+        },
+        {
+          "hora": 2,
+          "n": 1
+        },
+        {
+          "hora": 3,
+          "n": 0
+        },
+        {
+          "hora": 4,
+          "n": 0
+        },
+        {
+          "hora": 5,
+          "n": 0
+        },
+        {
+          "hora": 6,
+          "n": 0
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 0
+        },
+        {
+          "hora": 11,
+          "n": 0
+        },
+        {
+          "hora": 12,
+          "n": 1
+        },
+        {
+          "hora": 13,
+          "n": 0
+        },
+        {
+          "hora": 14,
+          "n": 0
+        },
+        {
+          "hora": 15,
+          "n": 0
+        },
+        {
+          "hora": 16,
+          "n": 0
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 0
+        },
+        {
+          "hora": 19,
+          "n": 0
+        },
+        {
+          "hora": 20,
+          "n": 0
+        },
+        {
+          "hora": 21,
+          "n": 0
+        },
+        {
+          "hora": 22,
+          "n": 0
+        },
+        {
+          "hora": 23,
+          "n": 0
+        }
+      ],
+      "calor_hora": {
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 3,
+          "14": 2,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 3,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 2,
+          "12": 2,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 2,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 1,
+          "8": 2,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 1,
+        "8": 3,
+        "9": 4,
+        "10": 2,
+        "11": 3,
+        "12": 4,
+        "13": 3,
+        "14": 3,
+        "15": 1,
+        "16": 2,
+        "17": 2,
+        "18": 0,
+        "19": 0,
+        "20": 3,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "calor_entrega": {
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 1,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 1,
+          "9": 3,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 4,
+          "16": 0,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 0,
+          "11": 2,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 2,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 0,
+        "8": 1,
+        "9": 5,
+        "10": 1,
+        "11": 4,
+        "12": 3,
+        "13": 2,
+        "14": 2,
+        "15": 7,
+        "16": 2,
+        "17": 2,
+        "18": 1,
+        "19": 0,
+        "20": 1,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 324,
+          "incump": 9,
+          "pct_cumpl": 97.2
+        },
+        {
+          "dia": "Martes",
+          "total": 327,
+          "incump": 5,
+          "pct_cumpl": 98.5
+        },
+        {
+          "dia": "Miércoles",
+          "total": 294,
+          "incump": 3,
+          "pct_cumpl": 99.0
+        },
+        {
+          "dia": "Jueves",
+          "total": 266,
+          "incump": 8,
+          "pct_cumpl": 97.0
+        },
+        {
+          "dia": "Viernes",
+          "total": 64,
+          "incump": 0,
+          "pct_cumpl": 100.0
+        },
+        {
+          "dia": "Sábado",
+          "total": 289,
+          "incump": 5,
+          "pct_cumpl": 98.3
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 25
+        },
+        {
+          "horas": 1,
+          "n": 4
+        },
+        {
+          "horas": 2,
+          "n": 1
+        },
+        {
+          "horas": 12,
+          "n": 1
+        }
+      ],
+      "retraso_prom": 1.0,
+      "total_incump": 31
+    },
+    "19": {
+      "incump_depto": [
+        {
+          "depto": "Resonancia Magnética",
+          "total": 279,
+          "incump": 14,
+          "pct_cumpl": 95.0,
+          "top_estudios": [
+            {
+              "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Cráneo",
+              "n": 2
+            },
+            {
+              "estudio": "RM 1.5T - Columna - Dorsal",
+              "n": 1
+            },
+            {
+              "estudio": "RM 1.5T - Columna - Cervical",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Tórax a Muslo",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Densitometría",
+          "total": 92,
+          "incump": 11,
+          "pct_cumpl": 88.0,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 11
+            }
+          ]
+        },
+        {
+          "depto": "Radiología",
+          "total": 283,
+          "incump": 8,
+          "pct_cumpl": 97.2,
+          "top_estudios": [
+            {
+              "estudio": "RX Rodillas Comparativas - 2P",
+              "n": 2
+            },
+            {
+              "estudio": "RX Rotula(S) - 1P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Columna Lumbar - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Cuello (Adenoides) - 1P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Columna Lumbar - 4P",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Mamografía",
+          "total": 110,
+          "incump": 7,
+          "pct_cumpl": 93.6,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 6
+            },
+            {
+              "estudio": "Mamografía - Bilateral con Tomosíntesis",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Ecosonografía",
+          "total": 358,
+          "incump": 6,
+          "pct_cumpl": 98.3,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Mama",
+              "n": 3
+            },
+            {
+              "estudio": "Eco de Abdomen y Pelvis",
+              "n": 1
+            },
+            {
+              "estudio": "Eco Obstétrico II Nivel Primer Trimestre con cálculo de riesgo",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Tiroides",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 133,
+          "incump": 4,
+          "pct_cumpl": 97.0,
+          "top_estudios": [
+            {
+              "estudio": "TAC - Abdomen - Total [C]",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - 1 Región Anatómica",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Columna Lumbar",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 31,
+          "incump": 1,
+          "pct_cumpl": 96.8,
+          "top_estudios": [
+            {
+              "estudio": "Gammagrama Óseo",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 230,
+          "incump": 1,
+          "pct_cumpl": 99.6,
+          "top_estudios": [
+            {
+              "estudio": "Complemento - RM 3.0T Digital",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 52,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Cardiología",
+          "total": 146,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 15,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 9,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 36,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 15,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 113,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 11
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 6
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 3
+        },
+        {
+          "estudio": "RX Rodillas Comparativas - 2P",
+          "n": 2
+        },
+        {
+          "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+          "n": 2
+        },
+        {
+          "estudio": "RM 3.0T Digital - Cráneo",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - Abdomen - Total [C]",
+          "n": 2
+        },
+        {
+          "estudio": "Eco de Abdomen y Pelvis",
+          "n": 1
+        },
+        {
+          "estudio": "Eco Obstétrico II Nivel Primer Trimestre con cálculo de riesgo",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Tiroides",
+          "n": 1
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 100.0,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 78.4,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Ecosonografía": {
+          "LM": 96.6,
+          "AC": 98.1,
+          "CH": 100.0,
+          "GP": 100.0,
+          "CM": 99.1,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Mamografía": {
+          "LM": 90.9,
+          "AC": null,
+          "CH": 100.0,
+          "GP": 0.0,
+          "CM": 95.5,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Radiología": {
+          "LM": 95.9,
+          "AC": 97.3,
+          "CH": null,
+          "GP": 100.0,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Resonancia Magnética": {
+          "LM": 96.5,
+          "AC": 93.3,
+          "CH": 93.1,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Tomografía Axial Computada": {
+          "LM": 97.2,
+          "AC": 95.8,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": null
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 2.0,
+          "gf_avg": 3.12,
+          "n": 33
+        },
+        "Densitometría": {
+          "gc_avg": 1.26,
+          "gf_avg": 1.27,
+          "n": 75
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.17,
+          "gf_avg": 1.25,
+          "n": 248
+        },
+        "Mamografía": {
+          "gc_avg": 1.3,
+          "gf_avg": 1.46,
+          "n": 93
+        },
+        "Radiología": {
+          "gc_avg": 1.1,
+          "gf_avg": 1.2,
+          "n": 177
+        },
+        "RM": {
+          "gc_avg": 1.88,
+          "gf_avg": 1.89,
+          "n": 82
+        },
+        "Tomografía": {
+          "gc_avg": 1.25,
+          "gf_avg": 1.26,
+          "n": 105
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 561,
+          "incump": 20,
+          "pct_cumpl": 96.4,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 105
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 102
+            },
+            {
+              "depto": "Radiología",
+              "n": 99
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 237,
+          "incump": 8,
+          "pct_cumpl": 96.6,
+          "top_deptos": [
+            {
+              "depto": "Salud Visual",
+              "n": 44
+            },
+            {
+              "depto": "Radiología",
+              "n": 42
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 37
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 210,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 51
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 49
+            },
+            {
+              "depto": "Servicios Especiales",
+              "n": 34
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 160,
+          "incump": 1,
+          "pct_cumpl": 99.4,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 78
+            },
+            {
+              "depto": "Mamografía",
+              "n": 49
+            },
+            {
+              "depto": "Densitometría",
+              "n": 22
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 148,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 66
+            },
+            {
+              "depto": "Bioimpedanciología",
+              "n": 29
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 13
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 121,
+          "incump": 11,
+          "pct_cumpl": 90.9,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 47
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 31
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 25
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 119,
+          "incump": 2,
+          "pct_cumpl": 98.3,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 45
+            },
+            {
+              "depto": "Radiología",
+              "n": 33
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 30
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 101,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 101
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 76,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 76
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 44,
+          "incump": 3,
+          "pct_cumpl": 93.2,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 33
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 11
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 41,
+          "incump": 3,
+          "pct_cumpl": 92.7,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 26
+            },
+            {
+              "depto": "Mamografía",
+              "n": 7
+            },
+            {
+              "depto": "Densitometría",
+              "n": 6
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 18,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 10
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 13,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 11
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 12,
+          "incump": 3,
+          "pct_cumpl": 75.0,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 3
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 3
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 10,
+          "incump": 1,
+          "pct_cumpl": 90.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 10
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 8,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 7
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 6,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 4
+            },
+            {
+              "depto": "Paquetes",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Godinez Laura Matilde",
+          "total": 5,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 3
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Tabares Martínez Hugo",
+          "total": 5,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 4
+            },
+            {
+              "depto": "Radiología",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Perez Rodriguez Heli Janette",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            },
+            {
+              "depto": "Paquetes",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 3,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 3
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 41
+        },
+        {
+          "hora": 1,
+          "n": 7
+        },
+        {
+          "hora": 2,
+          "n": 1
+        },
+        {
+          "hora": 3,
+          "n": 1
+        },
+        {
+          "hora": 4,
+          "n": 0
+        },
+        {
+          "hora": 5,
+          "n": 0
+        },
+        {
+          "hora": 6,
+          "n": 0
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 0
+        },
+        {
+          "hora": 11,
+          "n": 0
+        },
+        {
+          "hora": 12,
+          "n": 2
+        },
+        {
+          "hora": 13,
+          "n": 0
+        },
+        {
+          "hora": 14,
+          "n": 0
+        },
+        {
+          "hora": 15,
+          "n": 0
+        },
+        {
+          "hora": 16,
+          "n": 0
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 0
+        },
+        {
+          "hora": 19,
+          "n": 0
+        },
+        {
+          "hora": 20,
+          "n": 0
+        },
+        {
+          "hora": 21,
+          "n": 0
+        },
+        {
+          "hora": 22,
+          "n": 0
+        },
+        {
+          "hora": 23,
+          "n": 0
+        }
+      ],
+      "calor_hora": {
+        "Densitometría": {
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 1,
+          "12": 3,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 0,
+          "14": 3,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Medicina Nuclear": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 0,
+          "12": 0,
+          "13": 3,
+          "14": 0,
+          "15": 0,
+          "16": 3,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 5,
+          "9": 1,
+          "10": 2,
+          "11": 2,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 2,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 0,
+          "8": 1,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 2,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 1,
+        "8": 8,
+        "9": 5,
+        "10": 10,
+        "11": 4,
+        "12": 7,
+        "13": 6,
+        "14": 3,
+        "15": 2,
+        "16": 4,
+        "17": 1,
+        "18": 1,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Medicina Nuclear",
+        "Radiología",
+        "Resonancia Magnética",
+        "Servicios Especiales",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "calor_entrega": {
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 2,
+          "12": 2,
+          "13": 1,
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 0,
+          "16": 3,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Medicina Nuclear": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 1,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 3,
+          "16": 0,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 1,
+          "8": 1,
+          "9": 3,
+          "10": 0,
+          "11": 2,
+          "12": 1,
+          "13": 0,
+          "14": 2,
+          "15": 0,
+          "16": 1,
+          "17": 1,
+          "18": 2,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 1,
+        "8": 1,
+        "9": 6,
+        "10": 5,
+        "11": 6,
+        "12": 5,
+        "13": 4,
+        "14": 6,
+        "15": 7,
+        "16": 5,
+        "17": 2,
+        "18": 3,
+        "19": 1,
+        "20": 0,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 243,
+          "incump": 10,
+          "pct_cumpl": 95.9
+        },
+        {
+          "dia": "Martes",
+          "total": 212,
+          "incump": 10,
+          "pct_cumpl": 95.3
+        },
+        {
+          "dia": "Miércoles",
+          "total": 213,
+          "incump": 11,
+          "pct_cumpl": 94.8
+        },
+        {
+          "dia": "Jueves",
+          "total": 303,
+          "incump": 7,
+          "pct_cumpl": 97.7
+        },
+        {
+          "dia": "Viernes",
+          "total": 224,
+          "incump": 1,
+          "pct_cumpl": 99.6
+        },
+        {
+          "dia": "Sábado",
+          "total": 176,
+          "incump": 9,
+          "pct_cumpl": 94.9
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 41
+        },
+        {
+          "horas": 1,
+          "n": 7
+        },
+        {
+          "horas": 2,
+          "n": 1
+        },
+        {
+          "horas": 3,
+          "n": 1
+        },
+        {
+          "horas": 12,
+          "n": 2
+        }
+      ],
+      "retraso_prom": 1.0,
+      "total_incump": 52
+    },
+    "20": {
+      "incump_depto": [
+        {
+          "depto": "Ecosonografía",
+          "total": 307,
+          "incump": 9,
+          "pct_cumpl": 97.1,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Mama",
+              "n": 3
+            },
+            {
+              "estudio": "Eco de Pelvis Transvaginal",
+              "n": 1
+            },
+            {
+              "estudio": "Eco Articular o MSK",
+              "n": 1
+            },
+            {
+              "estudio": "Eco Obstétrico II Nivel Segundo Trimestre (18-24 Semanas)",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Riñón",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Resonancia Magnética",
+          "total": 219,
+          "incump": 9,
+          "pct_cumpl": 95.9,
+          "top_estudios": [
+            {
+              "estudio": "RM 1.5T - Columna - Lumbar",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Columna - Cervical",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Pelvis Femenina (Endometriosis)",
+              "n": 1
+            },
+            {
+              "estudio": "RM 1.5T - Articulación - Hombro",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Articulación - Hombro",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Densitometría",
+          "total": 109,
+          "incump": 8,
+          "pct_cumpl": 92.7,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "depto": "Radiología",
+          "total": 237,
+          "incump": 7,
+          "pct_cumpl": 97.0,
+          "top_estudios": [
+            {
+              "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
+              "n": 2
+            },
+            {
+              "estudio": "RX Columna Lumbar - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Cadera - 1P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Columna Lumbar - 4P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Pies Comparativos - 1P",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Mamografía",
+          "total": 113,
+          "incump": 4,
+          "pct_cumpl": 96.5,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 130,
+          "incump": 3,
+          "pct_cumpl": 97.7,
+          "top_estudios": [
+            {
+              "estudio": "TAC - (3D) 1 Región Anatómica",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Senos Paranasales (SNP)",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Cuello",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Cardiología",
+          "total": 165,
+          "incump": 1,
+          "pct_cumpl": 99.4,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 96,
+          "incump": 1,
+          "pct_cumpl": 99.0,
+          "top_estudios": [
+            {
+              "estudio": "Agudeza Visual",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 24,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 22,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 12,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 40,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 50,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 16,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 166,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 8
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 4
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 3
+        },
+        {
+          "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
+          "n": 2
+        },
+        {
+          "estudio": "RM 1.5T - Columna - Lumbar",
+          "n": 2
+        },
+        {
+          "estudio": "RM 3.0T Digital - Columna - Cervical",
+          "n": 2
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Pelvis Transvaginal",
+          "n": 1
+        },
+        {
+          "estudio": "Eco Articular o MSK",
+          "n": 1
+        },
+        {
+          "estudio": "Eco Obstétrico II Nivel Segundo Trimestre (18-24 Semanas)",
+          "n": 1
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 97.9,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 90.4,
+          "AC": null,
+          "CH": 100.0,
+          "GP": null,
+          "CM": 96.2,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Ecosonografía": {
+          "LM": 98.3,
+          "AC": 97.7,
+          "CH": 100.0,
+          "GP": 0.0,
+          "CM": 91.2,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Mamografía": {
+          "LM": 96.6,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 95.6,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Radiología": {
+          "LM": 94.9,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Resonancia Magnética": {
+          "LM": 99.2,
+          "AC": 76.2,
+          "CH": 96.0,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Tomografía Axial Computada": {
+          "LM": 97.0,
+          "AC": 100.0,
+          "CH": 100.0,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": null
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 2.16,
+          "gf_avg": 3.0,
+          "n": 23
+        },
+        "Densitometría": {
+          "gc_avg": 1.07,
+          "gf_avg": 1.09,
+          "n": 85
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.28,
+          "gf_avg": 1.3,
+          "n": 202
+        },
+        "Mamografía": {
+          "gc_avg": 1.36,
+          "gf_avg": 1.33,
+          "n": 88
+        },
+        "Radiología": {
+          "gc_avg": 1.06,
+          "gf_avg": 1.07,
+          "n": 150
+        },
+        "RM": {
+          "gc_avg": 2.3,
+          "gf_avg": 2.29,
+          "n": 90
+        },
+        "Tomografía": {
+          "gc_avg": 1.28,
+          "gf_avg": 1.28,
+          "n": 96
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 600,
+          "incump": 11,
+          "pct_cumpl": 98.2,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 104
+            },
+            {
+              "depto": "Radiología",
+              "n": 101
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 88
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 247,
+          "incump": 7,
+          "pct_cumpl": 97.2,
+          "top_deptos": [
+            {
+              "depto": "Medicina Nuclear",
+              "n": 49
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 38
+            },
+            {
+              "depto": "Salud Visual",
+              "n": 32
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 206,
+          "incump": 8,
+          "pct_cumpl": 96.1,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 60
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 45
+            },
+            {
+              "depto": "Radiología",
+              "n": 38
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 186,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 55
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 31
+            },
+            {
+              "depto": "Radiología",
+              "n": 31
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 95,
+          "incump": 5,
+          "pct_cumpl": 94.7,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 47
+            },
+            {
+              "depto": "Mamografía",
+              "n": 29
+            },
+            {
+              "depto": "Densitometría",
+              "n": 13
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 62,
+          "incump": 6,
+          "pct_cumpl": 90.3,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 23
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 18
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 12
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 55,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 55
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 54,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 54
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 39,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 16
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 13
+            },
+            {
+              "depto": "Radiología",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 39,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 30
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 30,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 15
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 8
+            },
+            {
+              "depto": "Radiología",
+              "n": 6
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 30,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 28
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 16,
+          "incump": 1,
+          "pct_cumpl": 93.8,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 6
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 5
+            },
+            {
+              "depto": "Mamografía",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 14,
+          "incump": 1,
+          "pct_cumpl": 92.9,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 12
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 12,
+          "incump": 2,
+          "pct_cumpl": 83.3,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 3
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 3
+            },
+            {
+              "depto": "Mamografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 7,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 5
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Servicios Especiales",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Carrillo Vazquez Celin",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 2
+            },
+            {
+              "depto": "Mamografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            },
+            {
+              "depto": "Densitometría",
+              "n": 1
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Godinez Laura Matilde",
+          "total": 4,
+          "incump": 1,
+          "pct_cumpl": 75.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 3
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 34
+        },
+        {
+          "hora": 1,
+          "n": 1
+        },
+        {
+          "hora": 2,
+          "n": 2
+        },
+        {
+          "hora": 3,
+          "n": 0
+        },
+        {
+          "hora": 4,
+          "n": 0
+        },
+        {
+          "hora": 5,
+          "n": 1
+        },
+        {
+          "hora": 6,
+          "n": 0
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 0
+        },
+        {
+          "hora": 11,
+          "n": 0
+        },
+        {
+          "hora": 12,
+          "n": 0
+        },
+        {
+          "hora": 13,
+          "n": 0
+        },
+        {
+          "hora": 14,
+          "n": 0
+        },
+        {
+          "hora": 15,
+          "n": 2
+        },
+        {
+          "hora": 16,
+          "n": 0
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 0
+        },
+        {
+          "hora": 19,
+          "n": 0
+        },
+        {
+          "hora": 20,
+          "n": 0
+        },
+        {
+          "hora": 21,
+          "n": 2
+        },
+        {
+          "hora": 22,
+          "n": 0
+        },
+        {
+          "hora": 23,
+          "n": 0
+        }
+      ],
+      "calor_hora": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Densitometría": {
+          "7": 0,
+          "8": 1,
+          "9": 0,
+          "10": 1,
+          "11": 2,
+          "12": 2,
+          "13": 0,
+          "14": 1,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 2,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 2,
+          "14": 0,
+          "15": 3,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 1,
+          "8": 0,
+          "9": 1,
+          "10": 2,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 2,
+          "19": 1,
+          "20": 1,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 2,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 1,
+        "8": 5,
+        "9": 4,
+        "10": 5,
+        "11": 3,
+        "12": 4,
+        "13": 4,
+        "14": 3,
+        "15": 5,
+        "16": 3,
+        "17": 1,
+        "18": 2,
+        "19": 1,
+        "20": 1,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Salud Visual",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 2,
+          "13": 0,
+          "14": 2,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 2,
+          "15": 0,
+          "16": 1,
+          "17": 1,
+          "18": 0,
+          "19": 1,
+          "20": 1,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 1,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 2,
+          "16": 0,
+          "17": 0,
+          "18": 2,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 2,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 0,
+        "8": 1,
+        "9": 5,
+        "10": 6,
+        "11": 4,
+        "12": 4,
+        "13": 1,
+        "14": 6,
+        "15": 5,
+        "16": 2,
+        "17": 2,
+        "18": 2,
+        "19": 3,
+        "20": 1,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 175,
+          "incump": 8,
+          "pct_cumpl": 95.4
+        },
+        {
+          "dia": "Martes",
+          "total": 178,
+          "incump": 0,
+          "pct_cumpl": 100.0
+        },
+        {
+          "dia": "Miércoles",
+          "total": 198,
+          "incump": 3,
+          "pct_cumpl": 98.5
+        },
+        {
+          "dia": "Jueves",
+          "total": 207,
+          "incump": 7,
+          "pct_cumpl": 96.6
+        },
+        {
+          "dia": "Viernes",
+          "total": 285,
+          "incump": 15,
+          "pct_cumpl": 94.7
+        },
+        {
+          "dia": "Sábado",
+          "total": 185,
+          "incump": 5,
+          "pct_cumpl": 97.3
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 34
+        },
+        {
+          "horas": 1,
+          "n": 1
+        },
+        {
+          "horas": 2,
+          "n": 2
+        },
+        {
+          "horas": 5,
+          "n": 1
+        },
+        {
+          "horas": 15,
+          "n": 2
+        },
+        {
+          "horas": 21,
+          "n": 2
+        }
+      ],
+      "retraso_prom": 2.3,
+      "total_incump": 42
+    },
+    "21": {
+      "incump_depto": [
+        {
+          "depto": "Densitometría",
+          "total": 95,
+          "incump": 22,
+          "pct_cumpl": 76.8,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 21
+            },
+            {
+              "estudio": "Densitometría de 3 Regiones (excepto Cuerpo entero)",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Radiología",
+          "total": 218,
+          "incump": 18,
+          "pct_cumpl": 91.7,
+          "top_estudios": [
+            {
+              "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
+              "n": 4
+            },
+            {
+              "estudio": "RX Tórax - 1P",
+              "n": 2
+            },
+            {
+              "estudio": "RX Rodillas Comparativas - 2P",
+              "n": 2
+            },
+            {
+              "estudio": "RX Mano - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Abdomen - 1P",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Resonancia Magnética",
+          "total": 270,
+          "incump": 6,
+          "pct_cumpl": 97.8,
+          "top_estudios": [
+            {
+              "estudio": "RM 3.0T Digital - Cráneo",
+              "n": 3
+            },
+            {
+              "estudio": "RM 3.0T Digital - Hipófisis (Silla Turca) [C]",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Oncológica - Valoración Funcional",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Cráneo con Difusión, Perfusión y",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 103,
+          "incump": 6,
+          "pct_cumpl": 94.2,
+          "top_estudios": [
+            {
+              "estudio": "Agudeza Visual",
+              "n": 2
+            },
+            {
+              "estudio": "Diagnóstico Ojo Seco",
+              "n": 2
+            },
+            {
+              "estudio": "Tomografía de Coherencia Óptica (OCT-A) de Retina",
+              "n": 1
+            },
+            {
+              "estudio": "Campimetría: Pruebas de Campo Visual",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Ecosonografía",
+          "total": 325,
+          "incump": 4,
+          "pct_cumpl": 98.8,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Mama",
+              "n": 2
+            },
+            {
+              "estudio": "Eco de Tiroides",
+              "n": 1
+            },
+            {
+              "estudio": "Eco Inguinal",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 135,
+          "incump": 4,
+          "pct_cumpl": 97.0,
+          "top_estudios": [
+            {
+              "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - Vías Urinarias - UroTAC [C]",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Abdomen - Total [C]",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Mamografía",
+          "total": 112,
+          "incump": 3,
+          "pct_cumpl": 97.3,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral con Tomosíntesis",
+              "n": 2
+            },
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Paquetes",
+          "total": 15,
+          "incump": 2,
+          "pct_cumpl": 86.7,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Mama con Biopsia Unilateral",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 38,
+          "incump": 1,
+          "pct_cumpl": 97.4,
+          "top_estudios": [
+            {
+              "estudio": "Gammagrama Renal con Filtración Dinámico - Estático",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 24,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Cardiología",
+          "total": 120,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 20,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 9,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 31,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicio Dental",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 137,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 21
+        },
+        {
+          "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
+          "n": 4
+        },
+        {
+          "estudio": "RM 3.0T Digital - Cráneo",
+          "n": 3
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 2
+        },
+        {
+          "estudio": "Mamografía - Bilateral con Tomosíntesis",
+          "n": 2
+        },
+        {
+          "estudio": "Eco de Mama con Biopsia Unilateral",
+          "n": 2
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 2
+        },
+        {
+          "estudio": "RX Rodillas Comparativas - 2P",
+          "n": 2
+        },
+        {
+          "estudio": "Agudeza Visual",
+          "n": 2
+        },
+        {
+          "estudio": "Diagnóstico Ojo Seco",
+          "n": 2
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 100.0,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 71.2,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 85.7,
+          "MP": 100.0,
+          "LA": 0.0
+        },
+        "Ecosonografía": {
+          "LM": 98.3,
+          "AC": 100.0,
+          "CH": 94.4,
+          "GP": null,
+          "CM": 98.9,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Mamografía": {
+          "LM": 100.0,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 95.1,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Radiología": {
+          "LM": 93.3,
+          "AC": 80.0,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Resonancia Magnética": {
+          "LM": 97.7,
+          "AC": 96.0,
+          "CH": 100.0,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Tomografía Axial Computada": {
+          "LM": 98.1,
+          "AC": 93.3,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": null
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 2.0,
+          "gf_avg": 2.67,
+          "n": 20
+        },
+        "Densitometría": {
+          "gc_avg": 1.18,
+          "gf_avg": 1.24,
+          "n": 79
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.51,
+          "gf_avg": 1.27,
+          "n": 237
+        },
+        "Mamografía": {
+          "gc_avg": 1.15,
+          "gf_avg": 1.21,
+          "n": 88
+        },
+        "Radiología": {
+          "gc_avg": 1.46,
+          "gf_avg": 1.38,
+          "n": 142
+        },
+        "RM": {
+          "gc_avg": 1.81,
+          "gf_avg": 2.23,
+          "n": 85
+        },
+        "Tomografía": {
+          "gc_avg": 1.36,
+          "gf_avg": 1.38,
+          "n": 90
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 516,
+          "incump": 21,
+          "pct_cumpl": 95.9,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 107
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 87
+            },
+            {
+              "depto": "Radiología",
+              "n": 73
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 259,
+          "incump": 19,
+          "pct_cumpl": 92.7,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 46
+            },
+            {
+              "depto": "Salud Visual",
+              "n": 44
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 36
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 207,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 51
+            },
+            {
+              "depto": "Radiología",
+              "n": 43
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 36
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 124,
+          "incump": 12,
+          "pct_cumpl": 90.3,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 46
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 32
+            },
+            {
+              "depto": "Radiología",
+              "n": 28
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 111,
+          "incump": 6,
+          "pct_cumpl": 94.6,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 46
+            },
+            {
+              "depto": "Mamografía",
+              "n": 37
+            },
+            {
+              "depto": "Densitometría",
+              "n": 20
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 84,
+          "incump": 2,
+          "pct_cumpl": 97.6,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 25
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 14
+            },
+            {
+              "depto": "Bioimpedanciología",
+              "n": 10
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 84,
+          "incump": 3,
+          "pct_cumpl": 96.4,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 32
+            },
+            {
+              "depto": "Radiología",
+              "n": 20
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 18
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 53,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 38
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 15
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 47,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 47
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 46,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 46
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 38,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 21
+            },
+            {
+              "depto": "Mamografía",
+              "n": 12
+            },
+            {
+              "depto": "Densitometría",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 31,
+          "incump": 2,
+          "pct_cumpl": 93.5,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 22
+            },
+            {
+              "depto": "Densitometría",
+              "n": 4
+            },
+            {
+              "depto": "Mamografía",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 19,
+          "incump": 1,
+          "pct_cumpl": 94.7,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 14
+            },
+            {
+              "depto": "Salud Visual",
+              "n": 4
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 9,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 7
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 5,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 4
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 5,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 3
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 2
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Tabares Martínez Hugo",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 2
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Serna Gomez Ruth Maria",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Carrillo Vazquez Celin",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Paquetes",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 52
+        },
+        {
+          "hora": 1,
+          "n": 6
+        },
+        {
+          "hora": 2,
+          "n": 2
+        },
+        {
+          "hora": 3,
+          "n": 0
+        },
+        {
+          "hora": 4,
+          "n": 3
+        },
+        {
+          "hora": 5,
+          "n": 0
+        },
+        {
+          "hora": 6,
+          "n": 0
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 2
+        },
+        {
+          "hora": 11,
+          "n": 1
+        },
+        {
+          "hora": 12,
+          "n": 0
+        },
+        {
+          "hora": 13,
+          "n": 0
+        },
+        {
+          "hora": 14,
+          "n": 0
+        },
+        {
+          "hora": 15,
+          "n": 0
+        },
+        {
+          "hora": 16,
+          "n": 0
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 0
+        },
+        {
+          "hora": 19,
+          "n": 0
+        },
+        {
+          "hora": 20,
+          "n": 0
+        },
+        {
+          "hora": 21,
+          "n": 0
+        },
+        {
+          "hora": 22,
+          "n": 0
+        },
+        {
+          "hora": 23,
+          "n": 0
+        }
+      ],
+      "calor_hora": {
+        "Densitometría": {
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 4,
+          "11": 5,
+          "12": 2,
+          "13": 3,
+          "14": 0,
+          "15": 2,
+          "16": 2,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Medicina Nuclear": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Paquetes": {
+          "7": 1,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 1,
+          "9": 5,
+          "10": 3,
+          "11": 3,
+          "12": 2,
+          "13": 0,
+          "14": 3,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 2,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 2,
+          "13": 0,
+          "14": 2,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 1,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 1,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 1,
+        "8": 3,
+        "9": 11,
+        "10": 10,
+        "11": 8,
+        "12": 7,
+        "13": 5,
+        "14": 6,
+        "15": 4,
+        "16": 4,
+        "17": 2,
+        "18": 3,
+        "19": 2,
+        "20": 0,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Medicina Nuclear",
+        "Paquetes",
+        "Radiología",
+        "Resonancia Magnética",
+        "Salud Visual",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "calor_entrega": {
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 2,
+          "12": 4,
+          "13": 1,
+          "14": 6,
+          "15": 2,
+          "16": 0,
+          "17": 2,
+          "18": 2,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 1,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 3,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Medicina Nuclear": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Paquetes": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 2,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 2,
+          "12": 2,
+          "13": 5,
+          "14": 2,
+          "15": 0,
+          "16": 3,
+          "17": 3,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 2,
+          "18": 1,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 1,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 3,
+        "8": 0,
+        "9": 0,
+        "10": 4,
+        "11": 9,
+        "12": 7,
+        "13": 8,
+        "14": 10,
+        "15": 4,
+        "16": 5,
+        "17": 8,
+        "18": 5,
+        "19": 1,
+        "20": 2,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 207,
+          "incump": 12,
+          "pct_cumpl": 94.2
+        },
+        {
+          "dia": "Martes",
+          "total": 201,
+          "incump": 6,
+          "pct_cumpl": 97.0
+        },
+        {
+          "dia": "Miércoles",
+          "total": 180,
+          "incump": 15,
+          "pct_cumpl": 91.7
+        },
+        {
+          "dia": "Jueves",
+          "total": 217,
+          "incump": 11,
+          "pct_cumpl": 94.9
+        },
+        {
+          "dia": "Viernes",
+          "total": 244,
+          "incump": 9,
+          "pct_cumpl": 96.3
+        },
+        {
+          "dia": "Sábado",
+          "total": 191,
+          "incump": 4,
+          "pct_cumpl": 97.9
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 52
+        },
+        {
+          "horas": 1,
+          "n": 6
+        },
+        {
+          "horas": 2,
+          "n": 2
+        },
+        {
+          "horas": 4,
+          "n": 3
+        },
+        {
+          "horas": 10,
+          "n": 2
+        },
+        {
+          "horas": 11,
+          "n": 1
+        }
+      ],
+      "retraso_prom": 1.1,
+      "total_incump": 66
+    },
+    "22": {
+      "incump_depto": [
+        {
+          "depto": "Radiología",
+          "total": 243,
+          "incump": 16,
+          "pct_cumpl": 93.4,
+          "top_estudios": [
+            {
+              "estudio": "RX Tórax - 1P",
+              "n": 4
+            },
+            {
+              "estudio": "RX Panorámica de Columna Completa AP",
+              "n": 2
+            },
+            {
+              "estudio": "RX Columna Cervical - 2P",
+              "n": 2
+            },
+            {
+              "estudio": "RX Panorámica de Columna Completa LAT",
+              "n": 1
+            },
+            {
+              "estudio": "RX Rodilla - 2P",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Resonancia Magnética",
+          "total": 298,
+          "incump": 13,
+          "pct_cumpl": 95.6,
+          "top_estudios": [
+            {
+              "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+              "n": 5
+            },
+            {
+              "estudio": "RM 3.0T Digital - Vías Urinarias - UroRM [C]",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Articulación - Hombro",
+              "n": 1
+            },
+            {
+              "estudio": "RM 3.0T Digital - Oncológica - Valoración Funcional",
+              "n": 1
+            },
+            {
+              "estudio": "RM 1.5T - Columna - Cervical",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Mamografía",
+          "total": 127,
+          "incump": 7,
+          "pct_cumpl": 94.5,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 7
+            }
+          ]
+        },
+        {
+          "depto": "Densitometría",
+          "total": 120,
+          "incump": 6,
+          "pct_cumpl": 95.0,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 5
+            },
+            {
+              "estudio": "Densitometría de 3 Regiones (excepto Cuerpo entero)",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 154,
+          "incump": 6,
+          "pct_cumpl": 96.1,
+          "top_estudios": [
+            {
+              "estudio": "TAC - Abdomen - Total [C]",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - 2 Regiones Anatómicas",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Vías Urinarias - UroTAC [C]",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Ecosonografía",
+          "total": 320,
+          "incump": 4,
+          "pct_cumpl": 98.8,
+          "top_estudios": [
+            {
+              "estudio": "Eco Doppler - 1 extremidad - Venoso",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Mama",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Hígado y Vías Biliares",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Pelvis",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 92,
+          "incump": 3,
+          "pct_cumpl": 96.7,
+          "top_estudios": [
+            {
+              "estudio": "Agudeza Visual",
+              "n": 2
+            },
+            {
+              "estudio": "Diagnóstico Ojo Seco",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 22,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Cardiología",
+          "total": 117,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 29,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 13,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 30,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 57,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 16,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicio Dental",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 116,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 7
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 5
+        },
+        {
+          "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+          "n": 5
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 4
+        },
+        {
+          "estudio": "RX Panorámica de Columna Completa AP",
+          "n": 2
+        },
+        {
+          "estudio": "RX Columna Cervical - 2P",
+          "n": 2
+        },
+        {
+          "estudio": "Agudeza Visual",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - Abdomen - Total [C]",
+          "n": 2
+        },
+        {
+          "estudio": "Densitometría de 3 Regiones (excepto Cuerpo entero)",
+          "n": 1
+        },
+        {
+          "estudio": "Eco Doppler - 1 extremidad - Venoso",
+          "n": 1
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 100.0,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 93.5,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": 97.1,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Ecosonografía": {
+          "LM": 98.6,
+          "AC": 100.0,
+          "CH": 92.9,
+          "GP": null,
+          "CM": 98.6,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Mamografía": {
+          "LM": 96.9,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 90.9,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Radiología": {
+          "LM": 94.0,
+          "AC": 84.9,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Resonancia Magnética": {
+          "LM": 96.4,
+          "AC": 93.3,
+          "CH": 98.1,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Tomografía Axial Computada": {
+          "LM": 98.3,
+          "AC": 88.2,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": 100.0
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 2.11,
+          "gf_avg": 3.18,
+          "n": 24
+        },
+        "Densitometría": {
+          "gc_avg": 1.14,
+          "gf_avg": 1.14,
+          "n": 92
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.25,
+          "gf_avg": 1.24,
+          "n": 209
+        },
+        "Mamografía": {
+          "gc_avg": 1.38,
+          "gf_avg": 1.34,
+          "n": 96
+        },
+        "Radiología": {
+          "gc_avg": 1.48,
+          "gf_avg": 1.43,
+          "n": 138
+        },
+        "RM": {
+          "gc_avg": 1.7,
+          "gf_avg": 1.95,
+          "n": 103
+        },
+        "Tomografía": {
+          "gc_avg": 1.26,
+          "gf_avg": 1.23,
+          "n": 99
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 620,
+          "incump": 18,
+          "pct_cumpl": 97.1,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 112
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 108
+            },
+            {
+              "depto": "Radiología",
+              "n": 92
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 243,
+          "incump": 6,
+          "pct_cumpl": 97.5,
+          "top_deptos": [
+            {
+              "depto": "Medicina Nuclear",
+              "n": 52
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 38
+            },
+            {
+              "depto": "Salud Visual",
+              "n": 33
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 177,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 43
+            },
+            {
+              "depto": "Radiología",
+              "n": 42
+            },
+            {
+              "depto": "Cardiología",
+              "n": 35
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 120,
+          "incump": 1,
+          "pct_cumpl": 99.2,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 43
+            },
+            {
+              "depto": "Radiología",
+              "n": 15
+            },
+            {
+              "depto": "Servicios Especiales",
+              "n": 14
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 120,
+          "incump": 9,
+          "pct_cumpl": 92.5,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 41
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 28
+            },
+            {
+              "depto": "Radiología",
+              "n": 23
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 114,
+          "incump": 8,
+          "pct_cumpl": 93.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 45
+            },
+            {
+              "depto": "Radiología",
+              "n": 33
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 20
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 83,
+          "incump": 5,
+          "pct_cumpl": 94.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 29
+            },
+            {
+              "depto": "Mamografía",
+              "n": 28
+            },
+            {
+              "depto": "Densitometría",
+              "n": 19
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 52,
+          "incump": 1,
+          "pct_cumpl": 98.1,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 22
+            },
+            {
+              "depto": "Mamografía",
+              "n": 16
+            },
+            {
+              "depto": "Densitometría",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 51,
+          "incump": 1,
+          "pct_cumpl": 98.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 30
+            },
+            {
+              "depto": "Mamografía",
+              "n": 10
+            },
+            {
+              "depto": "Densitometría",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 41,
+          "incump": 1,
+          "pct_cumpl": 97.6,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 34
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 7
+            }
+          ]
+        },
+        {
+          "usuario": "Tabares Martínez Hugo",
+          "total": 34,
+          "incump": 2,
+          "pct_cumpl": 94.1,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 11
+            },
+            {
+              "depto": "Densitometría",
+              "n": 7
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 7
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 32,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 32
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 30,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 30
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 16,
+          "incump": 1,
+          "pct_cumpl": 93.8,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 11
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 8,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 6
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 4,
+          "incump": 1,
+          "pct_cumpl": 75.0,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 1
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 3,
+          "incump": 1,
+          "pct_cumpl": 66.7,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 3
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 2
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 38
+        },
+        {
+          "hora": 1,
+          "n": 7
+        },
+        {
+          "hora": 2,
+          "n": 4
+        },
+        {
+          "hora": 3,
+          "n": 0
+        },
+        {
+          "hora": 4,
+          "n": 0
+        },
+        {
+          "hora": 5,
+          "n": 0
+        },
+        {
+          "hora": 6,
+          "n": 1
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 0
+        },
+        {
+          "hora": 11,
+          "n": 0
+        },
+        {
+          "hora": 12,
+          "n": 0
+        },
+        {
+          "hora": 13,
+          "n": 1
+        },
+        {
+          "hora": 14,
+          "n": 0
+        },
+        {
+          "hora": 15,
+          "n": 1
+        },
+        {
+          "hora": 16,
+          "n": 0
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 1
+        },
+        {
+          "hora": 19,
+          "n": 1
+        },
+        {
+          "hora": 20,
+          "n": 0
+        },
+        {
+          "hora": 21,
+          "n": 0
+        },
+        {
+          "hora": 22,
+          "n": 0
+        },
+        {
+          "hora": 23,
+          "n": 1
+        }
+      ],
+      "calor_hora": {
+        "Densitometría": {
+          "7": 0,
+          "8": 3,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 2,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 4,
+          "11": 4,
+          "12": 0,
+          "13": 3,
+          "14": 3,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 2,
+          "9": 2,
+          "10": 3,
+          "11": 1,
+          "12": 0,
+          "13": 1,
+          "14": 2,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 2,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 2,
+          "12": 3,
+          "13": 0,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 0,
+        "8": 7,
+        "9": 6,
+        "10": 9,
+        "11": 9,
+        "12": 3,
+        "13": 7,
+        "14": 9,
+        "15": 0,
+        "16": 1,
+        "17": 2,
+        "18": 2,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Salud Visual",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "calor_entrega": {
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 2,
+          "10": 0,
+          "11": 2,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 3,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 8,
+          "14": 0,
+          "15": 1,
+          "16": 3,
+          "17": 2,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 2,
+          "14": 2,
+          "15": 3,
+          "16": 1,
+          "17": 2,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 2,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 1,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 1,
+        "8": 0,
+        "9": 4,
+        "10": 7,
+        "11": 5,
+        "12": 4,
+        "13": 13,
+        "14": 2,
+        "15": 6,
+        "16": 6,
+        "17": 6,
+        "18": 1,
+        "19": 0,
+        "20": 0,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 217,
+          "incump": 13,
+          "pct_cumpl": 94.0
+        },
+        {
+          "dia": "Martes",
+          "total": 208,
+          "incump": 10,
+          "pct_cumpl": 95.2
+        },
+        {
+          "dia": "Miércoles",
+          "total": 191,
+          "incump": 5,
+          "pct_cumpl": 97.4
+        },
+        {
+          "dia": "Jueves",
+          "total": 210,
+          "incump": 5,
+          "pct_cumpl": 97.6
+        },
+        {
+          "dia": "Viernes",
+          "total": 241,
+          "incump": 10,
+          "pct_cumpl": 95.9
+        },
+        {
+          "dia": "Sábado",
+          "total": 242,
+          "incump": 8,
+          "pct_cumpl": 96.7
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 38
+        },
+        {
+          "horas": 1,
+          "n": 7
+        },
+        {
+          "horas": 2,
+          "n": 4
+        },
+        {
+          "horas": 6,
+          "n": 1
+        },
+        {
+          "horas": 13,
+          "n": 1
+        },
+        {
+          "horas": 15,
+          "n": 1
+        },
+        {
+          "horas": 18,
+          "n": 1
+        },
+        {
+          "horas": 19,
+          "n": 1
+        },
+        {
+          "horas": 23,
+          "n": 1
+        }
+      ],
+      "retraso_prom": 2.3,
+      "total_incump": 55
+    },
+    "23": {
+      "incump_depto": [
+        {
+          "depto": "Resonancia Magnética",
+          "total": 231,
+          "incump": 14,
+          "pct_cumpl": 93.9,
+          "top_estudios": [
+            {
+              "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+              "n": 3
+            },
+            {
+              "estudio": "RM 3.0T Digital - Columna - Lumbar",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Cráneo",
+              "n": 2
+            },
+            {
+              "estudio": "RM 1.5T - Cráneo",
+              "n": 2
+            },
+            {
+              "estudio": "RM 3.0T Digital - Angioresonancia - Cráneo [C]",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 114,
+          "incump": 12,
+          "pct_cumpl": 89.5,
+          "top_estudios": [
+            {
+              "estudio": "TAC - Cráneo",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - Senos Paranasales (SNP)",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+              "n": 2
+            },
+            {
+              "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
+              "n": 1
+            },
+            {
+              "estudio": "TAC - Columna Dorsal",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Radiología",
+          "total": 270,
+          "incump": 8,
+          "pct_cumpl": 97.0,
+          "top_estudios": [
+            {
+              "estudio": "RX Cadera - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Pelvis - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Pie - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Pelvis - 1P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Rodillas Comparativas - 2P",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Densitometría",
+          "total": 98,
+          "incump": 5,
+          "pct_cumpl": 94.9,
+          "top_estudios": [
+            {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "depto": "Ecosonografía",
+          "total": 295,
+          "incump": 4,
+          "pct_cumpl": 98.6,
+          "top_estudios": [
+            {
+              "estudio": "Eco de Mama",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Pelvis Transvaginal",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Tiroides",
+              "n": 1
+            },
+            {
+              "estudio": "Eco de Próstata vía Abdominal",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 15,
+          "incump": 1,
+          "pct_cumpl": 93.3,
+          "top_estudios": [
+            {
+              "estudio": "Análisis de Composición Corporal",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 78,
+          "incump": 1,
+          "pct_cumpl": 98.7,
+          "top_estudios": [
+            {
+              "estudio": "Diagnóstico Ojo Seco",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Servicios Especiales",
+          "total": 119,
+          "incump": 1,
+          "pct_cumpl": 99.2,
+          "top_estudios": [
+            {
+              "estudio": "Consulta Médica (SME 1 consulta)",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Cardiología",
+          "total": 137,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Eeg Y Mapeo Cerebral",
+          "total": 19,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 12,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 33,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Mamografía",
+          "total": 110,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 39,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 17,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Servicio Dental",
+          "total": 7,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        }
+      ],
+      "top_estudios_incump": [
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 5
+        },
+        {
+          "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+          "n": 3
+        },
+        {
+          "estudio": "RM 3.0T Digital - Columna - Lumbar",
+          "n": 2
+        },
+        {
+          "estudio": "RM 3.0T Digital - Cráneo",
+          "n": 2
+        },
+        {
+          "estudio": "RM 1.5T - Cráneo",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - Cráneo",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - Senos Paranasales (SNP)",
+          "n": 2
+        },
+        {
+          "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+          "n": 2
+        },
+        {
+          "estudio": "Análisis de Composición Corporal",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 1
+        }
+      ],
+      "calor_deptos": [
+        "Cardiología",
+        "Densitometría",
+        "Ecosonografía",
+        "Mamografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Tomografía Axial Computada"
+      ],
+      "calor_sucursales": [
+        "LM",
+        "AC",
+        "CH",
+        "GP",
+        "CM",
+        "MP",
+        "LA"
+      ],
+      "calor": {
+        "Cardiología": {
+          "LM": 100.0,
+          "AC": 100.0,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": null
+        },
+        "Densitometría": {
+          "LM": 94.3,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 95.5,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Ecosonografía": {
+          "LM": 100.0,
+          "AC": 89.3,
+          "CH": 100.0,
+          "GP": 100.0,
+          "CM": 98.6,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Mamografía": {
+          "LM": 100.0,
+          "AC": null,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Radiología": {
+          "LM": 96.5,
+          "AC": 95.0,
+          "CH": null,
+          "GP": null,
+          "CM": 100.0,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Resonancia Magnética": {
+          "LM": 93.4,
+          "AC": 93.5,
+          "CH": 95.6,
+          "GP": null,
+          "CM": null,
+          "MP": 100.0,
+          "LA": 100.0
+        },
+        "Tomografía Axial Computada": {
+          "LM": 96.7,
+          "AC": 59.1,
+          "CH": null,
+          "GP": null,
+          "CM": null,
+          "MP": null,
+          "LA": null
+        }
+      },
+      "tiempos_modal": {
+        "Cardiología": {
+          "gc_avg": 1.45,
+          "gf_avg": 2.62,
+          "n": 34
+        },
+        "Densitometría": {
+          "gc_avg": 1.1,
+          "gf_avg": 1.1,
+          "n": 87
+        },
+        "Ecosonografía": {
+          "gc_avg": 1.43,
+          "gf_avg": 1.47,
+          "n": 192
+        },
+        "Mamografía": {
+          "gc_avg": 1.38,
+          "gf_avg": 1.3,
+          "n": 88
+        },
+        "Radiología": {
+          "gc_avg": 1.17,
+          "gf_avg": 1.16,
+          "n": 172
+        },
+        "RM": {
+          "gc_avg": 1.83,
+          "gf_avg": 2.11,
+          "n": 67
+        },
+        "Tomografía": {
+          "gc_avg": 1.42,
+          "gf_avg": 1.49,
+          "n": 83
+        }
+      },
+      "usuarios_recibe": [
+        {
+          "usuario": "Mora Ponce Samanta Noemi",
+          "total": 533,
+          "incump": 8,
+          "pct_cumpl": 98.5,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 97
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 82
+            },
+            {
+              "depto": "Radiología",
+              "n": 80
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 277,
+          "incump": 12,
+          "pct_cumpl": 95.7,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 60
+            },
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 44
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 37
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 214,
+          "incump": 1,
+          "pct_cumpl": 99.5,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 62
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 43
+            },
+            {
+              "depto": "Radiología",
+              "n": 43
+            }
+          ]
+        },
+        {
+          "usuario": "González Pérez Humberto",
+          "total": 103,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 28
+            },
+            {
+              "depto": "Radiología",
+              "n": 22
+            },
+            {
+              "depto": "Servicios Especiales",
+              "n": 16
+            }
+          ]
+        },
+        {
+          "usuario": "Enriquez Velazquez Manuel",
+          "total": 90,
+          "incump": 7,
+          "pct_cumpl": 92.2,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 30
+            },
+            {
+              "depto": "Radiología",
+              "n": 24
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 18
+            }
+          ]
+        },
+        {
+          "usuario": "Macías Rodríguez Karla Lizbet",
+          "total": 72,
+          "incump": 1,
+          "pct_cumpl": 98.6,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 29
+            },
+            {
+              "depto": "Mamografía",
+              "n": 23
+            },
+            {
+              "depto": "Densitometría",
+              "n": 14
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 56,
+          "incump": 12,
+          "pct_cumpl": 78.6,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 23
+            },
+            {
+              "depto": "Radiología",
+              "n": 18
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 34,
+          "incump": 1,
+          "pct_cumpl": 97.1,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 17
+            },
+            {
+              "depto": "Mamografía",
+              "n": 9
+            },
+            {
+              "depto": "Densitometría",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Sánchez Janette",
+          "total": 33,
+          "incump": 1,
+          "pct_cumpl": 97.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 25
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 32,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 26
+            },
+            {
+              "depto": "Densitometría",
+              "n": 2
+            },
+            {
+              "depto": "Mamografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 32,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 32
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 32,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 32
+            }
+          ]
+        },
+        {
+          "usuario": "Tabares Martínez Hugo",
+          "total": 27,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 15
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 8
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 17,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 12
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 13,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 12
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Hernandez Abimael",
+          "total": 10,
+          "incump": 3,
+          "pct_cumpl": 70.0,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 4
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 4
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Estrada Valle Gloria Itzel",
+          "total": 6,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 5
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Anaya Constante Monica",
+          "total": 4,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 2
+            },
+            {
+              "depto": "Radiología",
+              "n": 1
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Carrillo Vazquez Celin",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Densitometría",
+              "n": 1
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Velázquez González Dana",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Contreras Castro Alexis",
+          "total": 2,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Godinez Laura Matilde",
+          "total": 1,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Radiología",
+              "n": 1
+            }
+          ]
+        }
+      ],
+      "dist_af": [
+        {
+          "hora": 0,
+          "n": 33
+        },
+        {
+          "hora": 1,
+          "n": 7
+        },
+        {
+          "hora": 2,
+          "n": 1
+        },
+        {
+          "hora": 3,
+          "n": 0
+        },
+        {
+          "hora": 4,
+          "n": 0
+        },
+        {
+          "hora": 5,
+          "n": 0
+        },
+        {
+          "hora": 6,
+          "n": 0
+        },
+        {
+          "hora": 7,
+          "n": 0
+        },
+        {
+          "hora": 8,
+          "n": 0
+        },
+        {
+          "hora": 9,
+          "n": 0
+        },
+        {
+          "hora": 10,
+          "n": 0
+        },
+        {
+          "hora": 11,
+          "n": 0
+        },
+        {
+          "hora": 12,
+          "n": 1
+        },
+        {
+          "hora": 13,
+          "n": 1
+        },
+        {
+          "hora": 14,
+          "n": 1
+        },
+        {
+          "hora": 15,
+          "n": 0
+        },
+        {
+          "hora": 16,
+          "n": 0
+        },
+        {
+          "hora": 17,
+          "n": 0
+        },
+        {
+          "hora": 18,
+          "n": 0
+        },
+        {
+          "hora": 19,
+          "n": 0
+        },
+        {
+          "hora": 20,
+          "n": 1
+        },
+        {
+          "hora": 21,
+          "n": 1
+        },
+        {
+          "hora": 22,
+          "n": 0
+        },
+        {
+          "hora": 23,
+          "n": 0
+        }
+      ],
+      "calor_hora": {
+        "Bioimpedanciología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 1,
+          "8": 1,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 2,
+          "12": 0,
+          "13": 2,
+          "14": 1,
+          "15": 2,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 1,
+          "8": 1,
+          "9": 3,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 3,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 3,
+          "9": 2,
+          "10": 0,
+          "11": 1,
+          "12": 1,
+          "13": 4,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_hora_total": {
+        "7": 2,
+        "8": 5,
+        "9": 7,
+        "10": 4,
+        "11": 5,
+        "12": 3,
+        "13": 7,
+        "14": 3,
+        "15": 5,
+        "16": 1,
+        "17": 3,
+        "18": 0,
+        "19": 1,
+        "20": 0,
+        "21": 0
+      },
+      "calor_hora_deptos": [
+        "Bioimpedanciología",
+        "Densitometría",
+        "Ecosonografía",
+        "Radiología",
+        "Resonancia Magnética",
+        "Salud Visual",
+        "Servicios Especiales",
+        "Tomografía Axial Computada"
+      ],
+      "calor_horas": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "calor_entrega": {
+        "Bioimpedanciología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Densitometría": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 2,
+          "16": 1,
+          "17": 1,
+          "18": 2,
+          "19": 0,
+          "20": 1,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 3,
+          "8": 1,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 3,
+          "16": 1,
+          "17": 3,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 1,
+          "12": 0,
+          "13": 2,
+          "14": 2,
+          "15": 0,
+          "16": 1,
+          "17": 4,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 3,
+        "8": 1,
+        "9": 1,
+        "10": 6,
+        "11": 1,
+        "12": 2,
+        "13": 4,
+        "14": 5,
+        "15": 6,
+        "16": 3,
+        "17": 9,
+        "18": 2,
+        "19": 2,
+        "20": 1,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 202,
+          "incump": 8,
+          "pct_cumpl": 96.0
+        },
+        {
+          "dia": "Martes",
+          "total": 183,
+          "incump": 1,
+          "pct_cumpl": 99.5
+        },
+        {
+          "dia": "Miércoles",
+          "total": 227,
+          "incump": 8,
+          "pct_cumpl": 96.5
+        },
+        {
+          "dia": "Jueves",
+          "total": 189,
+          "incump": 6,
+          "pct_cumpl": 96.8
+        },
+        {
+          "dia": "Viernes",
+          "total": 252,
+          "incump": 13,
+          "pct_cumpl": 94.8
+        },
+        {
+          "dia": "Sábado",
+          "total": 159,
+          "incump": 5,
+          "pct_cumpl": 96.9
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 33
+        },
+        {
+          "horas": 1,
+          "n": 7
+        },
+        {
+          "horas": 2,
+          "n": 1
+        },
+        {
+          "horas": 12,
+          "n": 1
+        },
+        {
+          "horas": 13,
+          "n": 1
+        },
+        {
+          "horas": 14,
+          "n": 1
+        },
+        {
+          "horas": 20,
+          "n": 1
+        },
+        {
+          "horas": 21,
+          "n": 1
+        }
+      ],
+      "retraso_prom": 2.3,
+      "total_incump": 46
+    },
     "24": {
       "incump_depto": [
         {
@@ -2897,22 +12027,276 @@ window.DASHBOARD_DATA = {
         19,
         20,
         21
-      ]
+      ],
+      "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 4,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Densitometría": {
+          "7": 0,
+          "8": 1,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 1,
+          "18": 0,
+          "19": 2,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 3,
+          "13": 2,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 0,
+          "18": 2,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 3,
+          "12": 4,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 2,
+          "12": 1,
+          "13": 2,
+          "14": 4,
+          "15": 1,
+          "16": 3,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 1,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 4,
+          "17": 0,
+          "18": 4,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Salud Visual": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 1,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 2,
+          "12": 1,
+          "13": 2,
+          "14": 2,
+          "15": 1,
+          "16": 3,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 1,
+        "8": 1,
+        "9": 0,
+        "10": 6,
+        "11": 8,
+        "12": 10,
+        "13": 11,
+        "14": 6,
+        "15": 3,
+        "16": 11,
+        "17": 3,
+        "18": 6,
+        "19": 2,
+        "20": 0,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 216,
+          "incump": 17,
+          "pct_cumpl": 92.1
+        },
+        {
+          "dia": "Martes",
+          "total": 185,
+          "incump": 14,
+          "pct_cumpl": 92.4
+        },
+        {
+          "dia": "Miércoles",
+          "total": 208,
+          "incump": 6,
+          "pct_cumpl": 97.1
+        },
+        {
+          "dia": "Jueves",
+          "total": 199,
+          "incump": 2,
+          "pct_cumpl": 99.0
+        },
+        {
+          "dia": "Viernes",
+          "total": 324,
+          "incump": 14,
+          "pct_cumpl": 95.7
+        },
+        {
+          "dia": "Sábado",
+          "total": 232,
+          "incump": 12,
+          "pct_cumpl": 94.8
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 39
+        },
+        {
+          "horas": 1,
+          "n": 13
+        },
+        {
+          "horas": 2,
+          "n": 8
+        },
+        {
+          "horas": 3,
+          "n": 1
+        },
+        {
+          "horas": 11,
+          "n": 1
+        },
+        {
+          "horas": 13,
+          "n": 1
+        },
+        {
+          "horas": 16,
+          "n": 1
+        },
+        {
+          "horas": 17,
+          "n": 1
+        },
+        {
+          "horas": 20,
+          "n": 1
+        },
+        {
+          "horas": 22,
+          "n": 1
+        },
+        {
+          "horas": 23,
+          "n": 1
+        }
+      ],
+      "retraso_prom": 2.6,
+      "total_incump": 68
     },
-    "23": {
+    "25": {
       "incump_depto": [
         {
           "depto": "Resonancia Magnética",
-          "total": 231,
-          "incump": 14,
-          "pct_cumpl": 93.9,
+          "total": 273,
+          "incump": 12,
+          "pct_cumpl": 95.6,
           "top_estudios": [
             {
               "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
-              "n": 3
-            },
-            {
-              "estudio": "RM 3.0T Digital - Columna - Lumbar",
               "n": 2
             },
             {
@@ -2920,31 +12304,43 @@ window.DASHBOARD_DATA = {
               "n": 2
             },
             {
-              "estudio": "RM 1.5T - Cráneo",
-              "n": 2
+              "estudio": "RM 3.0T Digital - Pelvis Femenina (Endometriosis)",
+              "n": 1
             },
             {
-              "estudio": "RM 3.0T Digital - Angioresonancia - Cráneo [C]",
+              "estudio": "RM 3.0T Digital - Columna - Lumbar",
+              "n": 1
+            },
+            {
+              "estudio": "RM 1.5T - Articulación - Rodilla",
               "n": 1
             }
           ]
         },
         {
-          "depto": "Tomografía Axial Computada",
-          "total": 114,
-          "incump": 12,
-          "pct_cumpl": 89.5,
+          "depto": "Densitometría",
+          "total": 72,
+          "incump": 8,
+          "pct_cumpl": 88.9,
           "top_estudios": [
             {
+              "estudio": "Densitometría de Cadera y Columna Lumbar",
+              "n": 8
+            }
+          ]
+        },
+        {
+          "depto": "Tomografía Axial Computada",
+          "total": 116,
+          "incump": 8,
+          "pct_cumpl": 93.1,
+          "top_estudios": [
+            {
+              "estudio": "TAC - Abdomen - Total [C]",
+              "n": 3
+            },
+            {
               "estudio": "TAC - Cráneo",
-              "n": 2
-            },
-            {
-              "estudio": "TAC - Senos Paranasales (SNP)",
-              "n": 2
-            },
-            {
-              "estudio": "TAC - 2R - Tórax y Abdomen [C]",
               "n": 2
             },
             {
@@ -2952,56 +12348,20 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "estudio": "TAC - Columna Dorsal",
-              "n": 1
-            }
-          ]
-        },
-        {
-          "depto": "Radiología",
-          "total": 270,
-          "incump": 8,
-          "pct_cumpl": 97.0,
-          "top_estudios": [
-            {
-              "estudio": "RX Cadera - 2P",
+              "estudio": "TAC - 2R - Tórax y Abdomen [C]",
               "n": 1
             },
             {
-              "estudio": "RX Pelvis - 2P",
+              "estudio": "TAC - Senos Paranasales (SNP)",
               "n": 1
-            },
-            {
-              "estudio": "RX Pie - 2P",
-              "n": 1
-            },
-            {
-              "estudio": "RX Pelvis - 1P",
-              "n": 1
-            },
-            {
-              "estudio": "RX Rodillas Comparativas - 2P",
-              "n": 1
-            }
-          ]
-        },
-        {
-          "depto": "Densitometría",
-          "total": 98,
-          "incump": 5,
-          "pct_cumpl": 94.9,
-          "top_estudios": [
-            {
-              "estudio": "Densitometría de Cadera y Columna Lumbar",
-              "n": 5
             }
           ]
         },
         {
           "depto": "Ecosonografía",
-          "total": 295,
+          "total": 353,
           "incump": 4,
-          "pct_cumpl": 98.6,
+          "pct_cumpl": 98.9,
           "top_estudios": [
             {
               "estudio": "Eco de Mama",
@@ -3012,103 +12372,122 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "estudio": "Eco de Tiroides",
+              "estudio": "Eco de Riñón",
               "n": 1
             },
             {
-              "estudio": "Eco de Próstata vía Abdominal",
+              "estudio": "Eco de Pelvis",
               "n": 1
             }
           ]
         },
         {
-          "depto": "Bioimpedanciología",
-          "total": 15,
-          "incump": 1,
-          "pct_cumpl": 93.3,
+          "depto": "Radiología",
+          "total": 303,
+          "incump": 3,
+          "pct_cumpl": 99.0,
           "top_estudios": [
             {
-              "estudio": "Análisis de Composición Corporal",
+              "estudio": "RX Pies Comparativos - 2P",
               "n": 1
-            }
-          ]
-        },
-        {
-          "depto": "Salud Visual",
-          "total": 78,
-          "incump": 1,
-          "pct_cumpl": 98.7,
-          "top_estudios": [
+            },
             {
-              "estudio": "Diagnóstico Ojo Seco",
+              "estudio": "RX Muñeca - 2P",
+              "n": 1
+            },
+            {
+              "estudio": "RX Tórax - 1P",
               "n": 1
             }
           ]
         },
         {
           "depto": "Servicios Especiales",
-          "total": 119,
-          "incump": 1,
-          "pct_cumpl": 99.2,
+          "total": 230,
+          "incump": 3,
+          "pct_cumpl": 98.7,
           "top_estudios": [
             {
-              "estudio": "Consulta Médica (SME 1 consulta)",
+              "estudio": "Evaluación Médico Internista (2 consultas)",
+              "n": 2
+            },
+            {
+              "estudio": "Evaluación Oftalmológica",
               "n": 1
             }
           ]
         },
         {
+          "depto": "Mamografía",
+          "total": 97,
+          "incump": 2,
+          "pct_cumpl": 97.9,
+          "top_estudios": [
+            {
+              "estudio": "Mamografía - Bilateral",
+              "n": 2
+            }
+          ]
+        },
+        {
+          "depto": "Bioimpedanciología",
+          "total": 28,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
           "depto": "Cardiología",
-          "total": 137,
+          "total": 224,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_estudios": []
         },
         {
           "depto": "Eeg Y Mapeo Cerebral",
-          "total": 19,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
-          "depto": "Electromiografía Y Potenciales Evocados",
-          "total": 12,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
-          "depto": "Espirometría",
-          "total": 33,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
-          "depto": "Mamografía",
-          "total": 110,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
-          "depto": "Medicina Nuclear",
-          "total": 39,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
-          "depto": "Paquetes",
           "total": 17,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_estudios": []
         },
         {
+          "depto": "Electromiografía Y Potenciales Evocados",
+          "total": 11,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Espirometría",
+          "total": 64,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Medicina Nuclear",
+          "total": 31,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Paquetes",
+          "total": 19,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
+          "depto": "Salud Visual",
+          "total": 78,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_estudios": []
+        },
+        {
           "depto": "Servicio Dental",
-          "total": 7,
+          "total": 18,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_estudios": []
@@ -3117,14 +12496,18 @@ window.DASHBOARD_DATA = {
       "top_estudios_incump": [
         {
           "estudio": "Densitometría de Cadera y Columna Lumbar",
-          "n": 5
+          "n": 8
         },
         {
-          "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
+          "estudio": "TAC - Abdomen - Total [C]",
           "n": 3
         },
         {
-          "estudio": "RM 3.0T Digital - Columna - Lumbar",
+          "estudio": "Mamografía - Bilateral",
+          "n": 2
+        },
+        {
+          "estudio": "E - RM 3.0T Digital - Próstata Multiparamétrica [C]",
           "n": 2
         },
         {
@@ -3132,7 +12515,7 @@ window.DASHBOARD_DATA = {
           "n": 2
         },
         {
-          "estudio": "RM 1.5T - Cráneo",
+          "estudio": "Evaluación Médico Internista (2 consultas)",
           "n": 2
         },
         {
@@ -3140,19 +12523,15 @@ window.DASHBOARD_DATA = {
           "n": 2
         },
         {
-          "estudio": "TAC - Senos Paranasales (SNP)",
-          "n": 2
-        },
-        {
-          "estudio": "TAC - 2R - Tórax y Abdomen [C]",
-          "n": 2
-        },
-        {
-          "estudio": "Análisis de Composición Corporal",
+          "estudio": "Eco de Mama",
           "n": 1
         },
         {
-          "estudio": "Eco de Mama",
+          "estudio": "Eco de Pelvis Transvaginal",
+          "n": 1
+        },
+        {
+          "estudio": "Eco de Riñón",
           "n": 1
         }
       ],
@@ -3177,7 +12556,7 @@ window.DASHBOARD_DATA = {
       "calor": {
         "Cardiología": {
           "LM": 100.0,
-          "AC": 100.0,
+          "AC": null,
           "CH": null,
           "GP": null,
           "CM": null,
@@ -3185,53 +12564,53 @@ window.DASHBOARD_DATA = {
           "LA": null
         },
         "Densitometría": {
-          "LM": 94.3,
+          "LM": 97.2,
           "AC": null,
-          "CH": null,
+          "CH": 100.0,
           "GP": null,
-          "CM": 95.5,
+          "CM": 72.7,
           "MP": 100.0,
-          "LA": 100.0
+          "LA": 0.0
         },
         "Ecosonografía": {
           "LM": 100.0,
-          "AC": 89.3,
+          "AC": 100.0,
           "CH": 100.0,
-          "GP": 100.0,
-          "CM": 98.6,
+          "GP": 71.4,
+          "CM": 97.1,
           "MP": 100.0,
           "LA": 100.0
         },
         "Mamografía": {
           "LM": 100.0,
-          "AC": null,
+          "AC": 100.0,
           "CH": null,
           "GP": null,
-          "CM": 100.0,
+          "CM": 95.9,
           "MP": 100.0,
-          "LA": 100.0
+          "LA": null
         },
         "Radiología": {
-          "LM": 96.5,
-          "AC": 95.0,
+          "LM": 98.3,
+          "AC": 98.7,
           "CH": null,
           "GP": null,
           "CM": 100.0,
           "MP": 100.0,
-          "LA": 100.0
+          "LA": null
         },
         "Resonancia Magnética": {
-          "LM": 93.4,
-          "AC": 93.5,
-          "CH": 95.6,
-          "GP": null,
+          "LM": 95.9,
+          "AC": 92.8,
+          "CH": 98.4,
+          "GP": 100.0,
           "CM": null,
           "MP": 100.0,
-          "LA": 100.0
+          "LA": null
         },
         "Tomografía Axial Computada": {
-          "LM": 96.7,
-          "AC": 59.1,
+          "LM": 94.6,
+          "AC": 87.5,
           "CH": null,
           "GP": null,
           "CM": null,
@@ -3241,147 +12620,215 @@ window.DASHBOARD_DATA = {
       },
       "tiempos_modal": {
         "Cardiología": {
-          "gc_avg": 1.45,
-          "gf_avg": 2.62,
-          "n": 34
+          "gc_avg": 2.97,
+          "gf_avg": 3.52,
+          "n": 50
         },
         "Densitometría": {
-          "gc_avg": 1.1,
-          "gf_avg": 1.1,
-          "n": 87
+          "gc_avg": 1.44,
+          "gf_avg": 1.38,
+          "n": 33
         },
         "Ecosonografía": {
-          "gc_avg": 1.43,
-          "gf_avg": 1.47,
-          "n": 192
+          "gc_avg": 1.63,
+          "gf_avg": 1.44,
+          "n": 199
         },
         "Mamografía": {
-          "gc_avg": 1.38,
-          "gf_avg": 1.3,
-          "n": 88
+          "gc_avg": 1.13,
+          "gf_avg": 1.1,
+          "n": 72
         },
         "Radiología": {
-          "gc_avg": 1.17,
-          "gf_avg": 1.16,
-          "n": 172
+          "gc_avg": 1.0,
+          "gf_avg": 1.02,
+          "n": 168
         },
         "RM": {
-          "gc_avg": 1.83,
-          "gf_avg": 2.11,
-          "n": 67
+          "gc_avg": 2.13,
+          "gf_avg": 2.47,
+          "n": 94
         },
         "Tomografía": {
-          "gc_avg": 1.42,
-          "gf_avg": 1.49,
-          "n": 83
+          "gc_avg": 1.29,
+          "gf_avg": 1.29,
+          "n": 76
         }
       },
       "usuarios_recibe": [
         {
           "usuario": "Mora Ponce Samanta Noemi",
-          "total": 533,
-          "incump": 8,
-          "pct_cumpl": 98.5,
+          "total": 517,
+          "incump": 7,
+          "pct_cumpl": 98.6,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
-              "n": 97
+              "n": 116
             },
             {
               "depto": "Resonancia Magnética",
+              "n": 84
+            },
+            {
+              "depto": "Radiología",
               "n": 82
-            },
-            {
-              "depto": "Radiología",
-              "n": 80
-            }
-          ]
-        },
-        {
-          "usuario": "Rios Meza Oswaldo Josue",
-          "total": 277,
-          "incump": 12,
-          "pct_cumpl": 95.7,
-          "top_deptos": [
-            {
-              "depto": "Radiología",
-              "n": 60
-            },
-            {
-              "depto": "Tomografía Axial Computada",
-              "n": 44
-            },
-            {
-              "depto": "Resonancia Magnética",
-              "n": 37
-            }
-          ]
-        },
-        {
-          "usuario": "Cortés Vázquez Graciela",
-          "total": 214,
-          "incump": 1,
-          "pct_cumpl": 99.5,
-          "top_deptos": [
-            {
-              "depto": "Cardiología",
-              "n": 62
-            },
-            {
-              "depto": "Ecosonografía",
-              "n": 43
-            },
-            {
-              "depto": "Radiología",
-              "n": 43
             }
           ]
         },
         {
           "usuario": "González Pérez Humberto",
-          "total": 103,
+          "total": 351,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_deptos": [
             {
-              "depto": "Ecosonografía",
-              "n": 28
+              "depto": "Radiología",
+              "n": 78
             },
             {
-              "depto": "Radiología",
-              "n": 22
+              "depto": "Ecosonografía",
+              "n": 73
+            },
+            {
+              "depto": "Cardiología",
+              "n": 69
+            }
+          ]
+        },
+        {
+          "usuario": "Cortés Vázquez Graciela",
+          "total": 228,
+          "incump": 1,
+          "pct_cumpl": 99.6,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 82
             },
             {
               "depto": "Servicios Especiales",
-              "n": 16
+              "n": 36
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 31
+            }
+          ]
+        },
+        {
+          "usuario": "Rios Meza Oswaldo Josue",
+          "total": 217,
+          "incump": 4,
+          "pct_cumpl": 98.2,
+          "top_deptos": [
+            {
+              "depto": "Cardiología",
+              "n": 48
+            },
+            {
+              "depto": "Resonancia Magnética",
+              "n": 33
+            },
+            {
+              "depto": "Radiología",
+              "n": 30
+            }
+          ]
+        },
+        {
+          "usuario": "Gonzalez Medina Nestor Alan",
+          "total": 101,
+          "incump": 5,
+          "pct_cumpl": 95.0,
+          "top_deptos": [
+            {
+              "depto": "Resonancia Magnética",
+              "n": 41
+            },
+            {
+              "depto": "Radiología",
+              "n": 34
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 19
             }
           ]
         },
         {
           "usuario": "Enriquez Velazquez Manuel",
-          "total": 90,
-          "incump": 7,
-          "pct_cumpl": 92.2,
+          "total": 94,
+          "incump": 2,
+          "pct_cumpl": 97.9,
           "top_deptos": [
             {
-              "depto": "Resonancia Magnética",
-              "n": 30
+              "depto": "Radiología",
+              "n": 39
             },
             {
-              "depto": "Radiología",
-              "n": 24
+              "depto": "Resonancia Magnética",
+              "n": 29
             },
             {
               "depto": "Ecosonografía",
-              "n": 18
+              "n": 14
+            }
+          ]
+        },
+        {
+          "usuario": "Valdez Aguilar Alberto de Jesús",
+          "total": 69,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 67
+            },
+            {
+              "depto": "Espirometría",
+              "n": 2
             }
           ]
         },
         {
           "usuario": "Macías Rodríguez Karla Lizbet",
-          "total": 72,
-          "incump": 1,
-          "pct_cumpl": 98.6,
+          "total": 62,
+          "incump": 3,
+          "pct_cumpl": 95.2,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 27
+            },
+            {
+              "depto": "Mamografía",
+              "n": 16
+            },
+            {
+              "depto": "Densitometría",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "usuario": "Ceballos Romero Casandra",
+          "total": 61,
+          "incump": 2,
+          "pct_cumpl": 96.7,
+          "top_deptos": [
+            {
+              "depto": "Servicios Especiales",
+              "n": 61
+            }
+          ]
+        },
+        {
+          "usuario": "Chavez Jimenez America",
+          "total": 58,
+          "incump": 6,
+          "pct_cumpl": 89.7,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -3389,143 +12836,43 @@ window.DASHBOARD_DATA = {
             },
             {
               "depto": "Mamografía",
-              "n": 23
+              "n": 19
             },
             {
               "depto": "Densitometría",
-              "n": 14
+              "n": 9
             }
           ]
         },
         {
-          "usuario": "Gonzalez Medina Nestor Alan",
-          "total": 56,
-          "incump": 12,
-          "pct_cumpl": 78.6,
+          "usuario": "Anaya Constante Monica",
+          "total": 40,
+          "incump": 2,
+          "pct_cumpl": 95.0,
           "top_deptos": [
             {
               "depto": "Resonancia Magnética",
-              "n": 23
+              "n": 16
             },
             {
               "depto": "Radiología",
-              "n": 18
-            },
-            {
-              "depto": "Ecosonografía",
               "n": 8
-            }
-          ]
-        },
-        {
-          "usuario": "Chavez Jimenez America",
-          "total": 34,
-          "incump": 1,
-          "pct_cumpl": 97.1,
-          "top_deptos": [
-            {
-              "depto": "Ecosonografía",
-              "n": 17
             },
             {
-              "depto": "Mamografía",
-              "n": 9
-            },
-            {
-              "depto": "Densitometría",
-              "n": 5
+              "depto": "Tomografía Axial Computada",
+              "n": 7
             }
           ]
         },
         {
           "usuario": "Contreras Sánchez Janette",
-          "total": 33,
+          "total": 36,
           "incump": 1,
-          "pct_cumpl": 97.0,
+          "pct_cumpl": 97.2,
           "top_deptos": [
             {
               "depto": "Resonancia Magnética",
-              "n": 25
-            },
-            {
-              "depto": "Ecosonografía",
-              "n": 8
-            }
-          ]
-        },
-        {
-          "usuario": "Angel Guzman Yadyra Jannet",
-          "total": 32,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Ecosonografía",
-              "n": 26
-            },
-            {
-              "depto": "Densitometría",
-              "n": 2
-            },
-            {
-              "depto": "Mamografía",
-              "n": 2
-            }
-          ]
-        },
-        {
-          "usuario": "Ceballos Romero Casandra",
-          "total": 32,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Servicios Especiales",
-              "n": 32
-            }
-          ]
-        },
-        {
-          "usuario": "Valdez Aguilar Alberto de Jesús",
-          "total": 32,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Servicios Especiales",
-              "n": 32
-            }
-          ]
-        },
-        {
-          "usuario": "Tabares Martínez Hugo",
-          "total": 27,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Radiología",
-              "n": 15
-            },
-            {
-              "depto": "Resonancia Magnética",
-              "n": 8
-            },
-            {
-              "depto": "Ecosonografía",
-              "n": 2
-            }
-          ]
-        },
-        {
-          "usuario": "Ponce Sanchez Brayaan Yahir",
-          "total": 17,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Resonancia Magnética",
-              "n": 12
+              "n": 31
             },
             {
               "depto": "Ecosonografía",
@@ -3534,30 +12881,30 @@ window.DASHBOARD_DATA = {
           ]
         },
         {
-          "usuario": "Martinez Andrade Sandra",
-          "total": 13,
+          "usuario": "Ponce Sanchez Brayaan Yahir",
+          "total": 19,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_deptos": [
             {
-              "depto": "Mamografía",
-              "n": 12
+              "depto": "Resonancia Magnética",
+              "n": 17
             },
             {
               "depto": "Ecosonografía",
-              "n": 1
+              "n": 2
             }
           ]
         },
         {
           "usuario": "Garcia Hernandez Abimael",
-          "total": 10,
-          "incump": 3,
-          "pct_cumpl": 70.0,
+          "total": 18,
+          "incump": 6,
+          "pct_cumpl": 66.7,
           "top_deptos": [
             {
-              "depto": "Radiología",
-              "n": 4
+              "depto": "Salud Visual",
+              "n": 5
             },
             {
               "depto": "Resonancia Magnética",
@@ -3565,43 +12912,99 @@ window.DASHBOARD_DATA = {
             },
             {
               "depto": "Ecosonografía",
+              "n": 3
+            }
+          ]
+        },
+        {
+          "usuario": "Martinez Andrade Sandra",
+          "total": 18,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Mamografía",
+              "n": 14
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 4
+            }
+          ]
+        },
+        {
+          "usuario": "Angel Guzman Yadyra Jannet",
+          "total": 16,
+          "incump": 1,
+          "pct_cumpl": 93.8,
+          "top_deptos": [
+            {
+              "depto": "Ecosonografía",
+              "n": 11
+            },
+            {
+              "depto": "Densitometría",
+              "n": 3
+            },
+            {
+              "depto": "Mamografía",
+              "n": 1
+            }
+          ]
+        },
+        {
+          "usuario": "Garcia Godinez Laura Matilde",
+          "total": 9,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
+            {
+              "depto": "Tomografía Axial Computada",
+              "n": 7
+            },
+            {
+              "depto": "Ecosonografía",
+              "n": 1
+            },
+            {
+              "depto": "Radiología",
               "n": 1
             }
           ]
         },
         {
           "usuario": "Estrada Valle Gloria Itzel",
-          "total": 6,
+          "total": 7,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_deptos": [
             {
               "depto": "Resonancia Magnética",
-              "n": 5
-            },
-            {
-              "depto": "Ecosonografía",
-              "n": 1
+              "n": 7
             }
           ]
         },
         {
-          "usuario": "Anaya Constante Monica",
-          "total": 4,
+          "usuario": "Velázquez González Dana",
+          "total": 5,
           "incump": 0,
           "pct_cumpl": 100.0,
           "top_deptos": [
             {
-              "depto": "Tomografía Axial Computada",
-              "n": 2
-            },
-            {
-              "depto": "Radiología",
-              "n": 1
-            },
+              "depto": "Ecosonografía",
+              "n": 5
+            }
+          ]
+        },
+        {
+          "usuario": "García Araiza Jaime Damián",
+          "total": 3,
+          "incump": 0,
+          "pct_cumpl": 100.0,
+          "top_deptos": [
             {
               "depto": "Resonancia Magnética",
-              "n": 1
+              "n": 3
             }
           ]
         },
@@ -3622,18 +13025,6 @@ window.DASHBOARD_DATA = {
           ]
         },
         {
-          "usuario": "Velázquez González Dana",
-          "total": 2,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Ecosonografía",
-              "n": 2
-            }
-          ]
-        },
-        {
           "usuario": "Contreras Castro Alexis",
           "total": 2,
           "incump": 0,
@@ -3644,32 +13035,20 @@ window.DASHBOARD_DATA = {
               "n": 2
             }
           ]
-        },
-        {
-          "usuario": "Garcia Godinez Laura Matilde",
-          "total": 1,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_deptos": [
-            {
-              "depto": "Radiología",
-              "n": 1
-            }
-          ]
         }
       ],
       "dist_af": [
         {
           "hora": 0,
-          "n": 33
+          "n": 26
         },
         {
           "hora": 1,
-          "n": 7
+          "n": 0
         },
         {
           "hora": 2,
-          "n": 1
+          "n": 0
         },
         {
           "hora": 3,
@@ -3681,7 +13060,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 5,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 6,
@@ -3701,7 +13080,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 10,
-          "n": 0
+          "n": 3
         },
         {
           "hora": 11,
@@ -3709,23 +13088,23 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 12,
-          "n": 1
+          "n": 0
         },
         {
           "hora": 13,
-          "n": 1
+          "n": 0
         },
         {
           "hora": 14,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 15,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 16,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 17,
@@ -3733,23 +13112,23 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 18,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 19,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 20,
-          "n": 1
+          "n": 0
         },
         {
           "hora": 21,
-          "n": 1
+          "n": 0
         },
         {
           "hora": 22,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 23,
@@ -3757,14 +13136,31 @@ window.DASHBOARD_DATA = {
         }
       ],
       "calor_hora": {
-        "Bioimpedanciología": {
+        "Densitometría": {
           "7": 0,
           "8": 0,
           "9": 0,
           "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 2,
+          "14": 1,
+          "15": 0,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 1,
+          "9": 2,
+          "10": 0,
           "11": 0,
           "12": 0,
-          "13": 0,
+          "13": 1,
           "14": 0,
           "15": 0,
           "16": 0,
@@ -3774,67 +13170,33 @@ window.DASHBOARD_DATA = {
           "20": 0,
           "21": 0
         },
-        "Densitometría": {
+        "Mamografía": {
           "7": 0,
           "8": 0,
-          "9": 1,
-          "10": 1,
+          "9": 0,
+          "10": 0,
           "11": 0,
-          "12": 1,
-          "13": 0,
+          "12": 0,
+          "13": 1,
           "14": 0,
           "15": 0,
           "16": 0,
-          "17": 1,
+          "17": 0,
           "18": 0,
           "19": 1,
           "20": 0,
           "21": 0
         },
-        "Ecosonografía": {
+        "Radiología": {
           "7": 1,
-          "8": 1,
-          "9": 0,
-          "10": 1,
-          "11": 1,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
           "12": 0,
           "13": 0,
           "14": 0,
           "15": 0,
-          "16": 0,
-          "17": 0,
-          "18": 0,
-          "19": 0,
-          "20": 0,
-          "21": 0
-        },
-        "Radiología": {
-          "7": 0,
-          "8": 0,
-          "9": 0,
-          "10": 0,
-          "11": 2,
-          "12": 0,
-          "13": 2,
-          "14": 1,
-          "15": 2,
-          "16": 0,
-          "17": 1,
-          "18": 0,
-          "19": 0,
-          "20": 0,
-          "21": 0
-        },
-        "Resonancia Magnética": {
-          "7": 1,
-          "8": 1,
-          "9": 3,
-          "10": 1,
-          "11": 1,
-          "12": 1,
-          "13": 1,
-          "14": 1,
-          "15": 3,
           "16": 1,
           "17": 0,
           "18": 0,
@@ -3842,26 +13204,26 @@ window.DASHBOARD_DATA = {
           "20": 0,
           "21": 0
         },
-        "Salud Visual": {
+        "Resonancia Magnética": {
           "7": 0,
-          "8": 0,
-          "9": 0,
-          "10": 0,
+          "8": 1,
+          "9": 1,
+          "10": 2,
           "11": 0,
-          "12": 0,
-          "13": 0,
+          "12": 1,
+          "13": 3,
           "14": 0,
-          "15": 0,
+          "15": 2,
           "16": 0,
-          "17": 1,
-          "18": 0,
-          "19": 0,
+          "17": 0,
+          "18": 1,
+          "19": 1,
           "20": 0,
           "21": 0
         },
         "Servicios Especiales": {
           "7": 0,
-          "8": 0,
+          "8": 2,
           "9": 1,
           "10": 0,
           "11": 0,
@@ -3877,16 +13239,16 @@ window.DASHBOARD_DATA = {
           "21": 0
         },
         "Tomografía Axial Computada": {
-          "7": 0,
-          "8": 3,
-          "9": 2,
-          "10": 0,
-          "11": 1,
+          "7": 1,
+          "8": 1,
+          "9": 0,
+          "10": 3,
+          "11": 0,
           "12": 1,
-          "13": 4,
-          "14": 1,
+          "13": 1,
+          "14": 0,
           "15": 0,
-          "16": 0,
+          "16": 1,
           "17": 0,
           "18": 0,
           "19": 0,
@@ -3897,27 +13259,26 @@ window.DASHBOARD_DATA = {
       "calor_hora_total": {
         "7": 2,
         "8": 5,
-        "9": 7,
-        "10": 4,
-        "11": 5,
-        "12": 3,
-        "13": 7,
-        "14": 3,
-        "15": 5,
-        "16": 1,
-        "17": 3,
-        "18": 0,
-        "19": 1,
+        "9": 5,
+        "10": 6,
+        "11": 1,
+        "12": 2,
+        "13": 8,
+        "14": 1,
+        "15": 2,
+        "16": 3,
+        "17": 1,
+        "18": 2,
+        "19": 2,
         "20": 0,
         "21": 0
       },
       "calor_hora_deptos": [
-        "Bioimpedanciología",
         "Densitometría",
         "Ecosonografía",
+        "Mamografía",
         "Radiología",
         "Resonancia Magnética",
-        "Salud Visual",
         "Servicios Especiales",
         "Tomografía Axial Computada"
       ],
@@ -3937,22 +13298,247 @@ window.DASHBOARD_DATA = {
         19,
         20,
         21
-      ]
+      ],
+      "calor_entrega": {
+        "Densitometría": {
+          "7": 2,
+          "8": 1,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 1,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 2,
+          "21": 0
+        },
+        "Ecosonografía": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 3,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Mamografía": {
+          "7": 1,
+          "8": 0,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Radiología": {
+          "7": 0,
+          "8": 1,
+          "9": 1,
+          "10": 0,
+          "11": 0,
+          "12": 1,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Resonancia Magnética": {
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 0,
+          "11": 1,
+          "12": 2,
+          "13": 1,
+          "14": 0,
+          "15": 3,
+          "16": 0,
+          "17": 1,
+          "18": 1,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Servicios Especiales": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 1,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Tomografía Axial Computada": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 2,
+          "11": 0,
+          "12": 1,
+          "13": 3,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 1,
+          "21": 0
+        }
+      },
+      "calor_entrega_total": {
+        "7": 3,
+        "8": 2,
+        "9": 6,
+        "10": 3,
+        "11": 5,
+        "12": 5,
+        "13": 4,
+        "14": 1,
+        "15": 4,
+        "16": 1,
+        "17": 2,
+        "18": 1,
+        "19": 0,
+        "20": 3,
+        "21": 0
+      },
+      "incump_dow": [
+        {
+          "dia": "Lunes",
+          "total": 265,
+          "incump": 8,
+          "pct_cumpl": 97.0
+        },
+        {
+          "dia": "Martes",
+          "total": 211,
+          "incump": 7,
+          "pct_cumpl": 96.7
+        },
+        {
+          "dia": "Miércoles",
+          "total": 221,
+          "incump": 5,
+          "pct_cumpl": 97.7
+        },
+        {
+          "dia": "Jueves",
+          "total": 243,
+          "incump": 6,
+          "pct_cumpl": 97.5
+        },
+        {
+          "dia": "Viernes",
+          "total": 284,
+          "incump": 5,
+          "pct_cumpl": 98.2
+        },
+        {
+          "dia": "Sábado",
+          "total": 182,
+          "incump": 6,
+          "pct_cumpl": 96.7
+        }
+      ],
+      "dist_retraso": [
+        {
+          "horas": 0,
+          "n": 26
+        },
+        {
+          "horas": 5,
+          "n": 1
+        },
+        {
+          "horas": 10,
+          "n": 3
+        },
+        {
+          "horas": 14,
+          "n": 3
+        },
+        {
+          "horas": 15,
+          "n": 2
+        },
+        {
+          "horas": 16,
+          "n": 1
+        },
+        {
+          "horas": 18,
+          "n": 2
+        },
+        {
+          "horas": 19,
+          "n": 1
+        },
+        {
+          "horas": 22,
+          "n": 1
+        }
+      ],
+      "retraso_prom": 5.4,
+      "total_incump": 40
     }
   },
   "interpretaciones": {
     "exa": {
       "acumulado": {
-        "Anaya Constante, Monica Margarita": 31,
-        "Enriquez Velazquez, Manuel Ivan": 34,
-        "Garcia Godinez, Laura Matilde": 37,
-        "Gonzalez Medina, Nestor Alan": 33,
-        "Gonzalez Perez, Humberto Salvador": 1,
-        "Martinez Andrade, Sandra Estefania": 40,
-        "Tabares Martinez, Hugo": 65,
-        "Garcia Hernandez, Abimael": 5
+        "Anaya Constante, Monica Margarita": 123,
+        "Enriquez Velazquez, Manuel Ivan": 80,
+        "Garcia Godinez, Laura Matilde": 117,
+        "Garcia Hernandez, Abimael": 25,
+        "Gonzalez Medina, Nestor Alan": 99,
+        "Martinez Andrade, Sandra Estefania": 106,
+        "Tabares Martinez, Hugo": 205,
+        "Gonzalez Perez, Humberto Salvador": 1
       },
       "por_semana": {
+        "25": {
+          "Anaya Constante, Monica Margarita": 46,
+          "Enriquez Velazquez, Manuel Ivan": 23,
+          "Garcia Godinez, Laura Matilde": 40,
+          "Garcia Hernandez, Abimael": 10,
+          "Gonzalez Medina, Nestor Alan": 33,
+          "Martinez Andrade, Sandra Estefania": 33,
+          "Tabares Martinez, Hugo": 70
+        },
         "23": {
           "Anaya Constante, Monica Margarita": 8,
           "Enriquez Velazquez, Manuel Ivan": 5,
@@ -3975,44 +13561,45 @@ window.DASHBOARD_DATA = {
     },
     "sio": {
       "acumulado": {
-        "abimaelgh": 26,
+        "abimaelgh": 37,
         "adrianapg1": 1,
-        "albertova": 87,
-        "anaor": 42,
-        "anasg": 60,
-        "angelicaie": 23,
-        "angelicavr": 19,
-        "belenfsump": 57,
-        "casandracr": 79,
-        "cesarhm": 334,
-        "christopherml": 100,
+        "albertova": 134,
+        "anaor": 68,
+        "anasg": 93,
+        "angelicaie": 29,
+        "angelicavr": 27,
+        "belenfsump": 80,
+        "casandracr": 139,
+        "cesarhm": 362,
+        "christopherml": 193,
         "claudiahm1": 4,
-        "claudiarg": 28,
+        "claudiarg": 47,
         "danielzh": 1,
-        "davidgf": 151,
-        "davidoo": 128,
-        "franciscopl": 87,
-        "gadielvp": 201,
-        "gracielacv": 209,
-        "hugotm": 199,
-        "humbertogp1": 118,
-        "josesa": 108,
-        "lauragg": 201,
-        "luissm": 164,
-        "manuelev": 18,
-        "mariaad": 93,
-        "mariaap1": 85,
-        "monicaac": 157,
-        "nestorgm": 50,
-        "noragm": 88,
-        "oswaldorm": 62,
+        "davidgf": 218,
+        "davidoo": 289,
+        "franciscopl": 147,
+        "gadielvp": 285,
+        "gracielacv": 326,
+        "hugotm": 282,
+        "humbertogp1": 204,
+        "josesa": 186,
+        "lauragg": 301,
+        "luissm": 227,
+        "manuelev": 29,
+        "mariaad": 130,
+        "mariaap1": 126,
+        "monicaac": 197,
+        "nestorgm": 59,
+        "noragm": 135,
+        "oswaldorm": 87,
         "quintanaay": 1,
-        "reneag": 156,
-        "samantamp": 80,
-        "sandrama": 138,
-        "diegoda": 54,
-        "ivantm": 32,
-        "mairatd": 36
+        "reneag": 248,
+        "samantamp": 125,
+        "sandrama": 197,
+        "diegoda": 125,
+        "ivantm": 75,
+        "mairatd": 65,
+        "mayrage": 5
       },
       "por_semana": {
         "23": {
@@ -4088,8 +13675,24003 @@ window.DASHBOARD_DATA = {
           "reneag": 81,
           "samantamp": 44,
           "sandrama": 70
+        },
+        "25": {
+          "abimaelgh": 11,
+          "albertova": 47,
+          "anaor": 26,
+          "anasg": 33,
+          "angelicaie": 6,
+          "angelicavr": 8,
+          "belenfsump": 23,
+          "casandracr": 60,
+          "cesarhm": 28,
+          "christopherml": 93,
+          "claudiarg": 19,
+          "davidgf": 67,
+          "davidoo": 161,
+          "diegoda": 71,
+          "franciscopl": 60,
+          "gadielvp": 84,
+          "gracielacv": 117,
+          "hugotm": 83,
+          "humbertogp1": 86,
+          "ivantm": 43,
+          "josesa": 78,
+          "lauragg": 100,
+          "luissm": 63,
+          "mairatd": 29,
+          "manuelev": 11,
+          "mariaad": 37,
+          "mariaap1": 41,
+          "mayrage": 5,
+          "monicaac": 40,
+          "nestorgm": 9,
+          "noragm": 47,
+          "oswaldorm": 25,
+          "reneag": 92,
+          "samantamp": 45,
+          "sandrama": 59
         }
       }
+    }
+  },
+  "chequeos": {
+    "procesos": {
+      "realiz_semaforo": {
+        "avg": 3.9,
+        "min": -21,
+        "max": 8,
+        "n": 973
+      },
+      "realiz_terminado": {
+        "avg": 3.8,
+        "min": -47,
+        "max": 157,
+        "n": 949
+      },
+      "terminado_entregado": {
+        "avg": 2.3,
+        "min": -2,
+        "max": 51,
+        "n": 916
+      },
+      "realiz_entregado": {
+        "avg": 5.9,
+        "min": 1,
+        "max": 43,
+        "n": 928
+      },
+      "entregado_vs_real": {
+        "avg": -2.5,
+        "min": -23,
+        "max": 25,
+        "n": 923
+      }
+    },
+    "transcriptores": [
+      {
+        "transcriptor": "Beto",
+        "entregados": 462,
+        "avg": 5.8,
+        "min": 1,
+        "max": 27
+      },
+      {
+        "transcriptor": "Casandra",
+        "entregados": 425,
+        "avg": 6.2,
+        "min": 2,
+        "max": 43
+      },
+      {
+        "transcriptor": "BACARDI",
+        "entregados": 24,
+        "avg": 3.4,
+        "min": 2,
+        "max": 6
+      },
+      {
+        "transcriptor": "Casandra/Beto",
+        "entregados": 5,
+        "avg": 6.4,
+        "min": 4,
+        "max": 9
+      },
+      {
+        "transcriptor": "(sin asignar)",
+        "entregados": 2,
+        "avg": 11.0,
+        "min": 5,
+        "max": 17
+      },
+      {
+        "transcriptor": "Beto/Cas",
+        "entregados": 1,
+        "avg": 5.0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "transcriptor": "Beto/Casa",
+        "entregados": 1,
+        "avg": 5.0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "transcriptor": "Beto/Casandra",
+        "entregados": 1,
+        "avg": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "transcriptor": "Beto/Graciela",
+        "entregados": 1,
+        "avg": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "transcriptor": "Casandra / Graciela",
+        "entregados": 1,
+        "avg": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      {
+        "transcriptor": "Casandra/Graciela",
+        "entregados": 1,
+        "avg": 4.0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "transcriptor": "Casandra/Humberto",
+        "entregados": 1,
+        "avg": 11.0,
+        "min": 11,
+        "max": 11
+      },
+      {
+        "transcriptor": "Martha",
+        "entregados": 1,
+        "avg": 3.0,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "transcriptor": "Mayra",
+        "entregados": 1,
+        "avg": 2.0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "transcriptor": "Sin transcriptor",
+        "entregados": 1,
+        "avg": 11.0,
+        "min": 11,
+        "max": 11
+      },
+      {
+        "transcriptor": "AON RISK",
+        "entregados": 0,
+        "avg": null,
+        "min": null,
+        "max": null
+      },
+      {
+        "transcriptor": "Humberto",
+        "entregados": 0,
+        "avg": null,
+        "min": null,
+        "max": null
+      }
+    ],
+    "distribucion": [
+      {
+        "dias": 1,
+        "n": 2
+      },
+      {
+        "dias": 2,
+        "n": 14
+      },
+      {
+        "dias": 3,
+        "n": 89
+      },
+      {
+        "dias": 4,
+        "n": 271
+      },
+      {
+        "dias": 5,
+        "n": 254
+      },
+      {
+        "dias": 6,
+        "n": 78
+      },
+      {
+        "dias": 7,
+        "n": 40
+      },
+      {
+        "dias": 8,
+        "n": 28
+      },
+      {
+        "dias": 9,
+        "n": 52
+      },
+      {
+        "dias": 10,
+        "n": 34
+      },
+      {
+        "dias": 11,
+        "n": 13
+      },
+      {
+        "dias": 12,
+        "n": 7
+      },
+      {
+        "dias": 13,
+        "n": 9
+      },
+      {
+        "dias": 14,
+        "n": 10
+      },
+      {
+        "dias": 15,
+        "n": 6
+      },
+      {
+        "dias": 16,
+        "n": 2
+      },
+      {
+        "dias": 17,
+        "n": 2
+      },
+      {
+        "dias": 19,
+        "n": 2
+      },
+      {
+        "dias": 20,
+        "n": 3
+      },
+      {
+        "dias": 21,
+        "n": 1
+      },
+      {
+        "dias": 22,
+        "n": 3
+      },
+      {
+        "dias": 25,
+        "n": 2
+      },
+      {
+        "dias": 26,
+        "n": 2
+      },
+      {
+        "dias": 27,
+        "n": 1
+      },
+      {
+        "dias": 28,
+        "n": 1
+      },
+      {
+        "dias": 31,
+        "n": 1
+      },
+      {
+        "dias": 43,
+        "n": 1
+      }
+    ],
+    "total": 974,
+    "entregados": 931,
+    "en_proceso": 43,
+    "lim_verde": 7,
+    "lim_amarillo": 10,
+    "semanas": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "detalle": [
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-08",
+        "semaforo": "2026-06-12",
+        "terminado": "2026-06-12",
+        "entregado": "2026-06-13",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-08",
+        "semaforo": "2026-06-12",
+        "terminado": "2026-06-12",
+        "entregado": "2026-06-16",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-08",
+        "semaforo": "2026-06-12",
+        "terminado": "2026-06-12",
+        "entregado": "2026-06-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-08",
+        "semaforo": "2026-06-12",
+        "terminado": "2026-06-12",
+        "entregado": "2026-06-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-08",
+        "semaforo": "2026-06-12",
+        "terminado": "2026-06-12",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-06-08",
+        "semaforo": "2026-06-12",
+        "terminado": "2026-06-12",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "-",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-09",
+        "semaforo": "2026-06-13",
+        "terminado": "2026-06-12",
+        "entregado": "2026-06-15",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-10",
+        "semaforo": "2026-06-15",
+        "terminado": "2026-06-12",
+        "entregado": "2026-06-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-06-10",
+        "semaforo": "2026-06-15",
+        "terminado": "2026-06-15",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "-",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-10",
+        "semaforo": "2026-06-15",
+        "terminado": "2026-06-15",
+        "entregado": "2026-06-16",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-10",
+        "semaforo": "2026-06-15",
+        "terminado": "2026-06-13",
+        "entregado": "2026-06-15",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-13",
+        "entregado": "2026-06-15",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-16",
+        "entregado": null,
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-15",
+        "entregado": "2026-06-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-15",
+        "entregado": "2026-06-17",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-15",
+        "entregado": "2026-06-16",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "-",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-11",
+        "semaforo": "2026-06-16",
+        "terminado": "2026-06-13",
+        "entregado": "2026-06-18",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": null,
+        "entregado": "2026-06-18",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "Sí",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-16",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "Sí",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": null,
+        "entregado": "2026-06-18",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "Sí",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-18",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-19",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-24",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": null,
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "Terminado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-16",
+        "entregado": "2026-06-17",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-19",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": null,
+        "entregado": "2026-06-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-17",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-23",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-25",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-17",
+        "entregado": "2026-06-24",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-12",
+        "semaforo": "2026-06-17",
+        "terminado": "2026-06-18",
+        "entregado": "2026-06-19",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": "2026-06-16",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "Terminado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": "2026-06-19",
+        "entregado": "2026-06-19",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": "2026-06-18",
+        "entregado": "2026-06-19",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": "2026-06-18",
+        "entregado": "2026-06-19",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": "2026-06-18",
+        "entregado": "2026-06-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": "2026-06-18",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "Terminado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 24,
+        "mes": "2026-06",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-06-13",
+        "semaforo": "2026-06-18",
+        "terminado": null,
+        "entregado": "2026-06-19",
+        "medico": "Carolina",
+        "transcriptor": "-",
+        "estado": "FINALIZADO",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-05",
+        "semaforo": "2026-01-09",
+        "terminado": "2026-01-09",
+        "entregado": "2026-01-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-05",
+        "semaforo": "2026-01-09",
+        "terminado": "2026-01-08",
+        "entregado": "2026-01-08",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-05",
+        "semaforo": "2026-01-09",
+        "terminado": "2026-01-08",
+        "entregado": "2026-01-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-01-05",
+        "semaforo": "2026-01-09",
+        "terminado": "2026-01-07",
+        "entregado": "2026-01-08",
+        "medico": "Toriz",
+        "transcriptor": "Martha",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-05",
+        "semaforo": "2026-01-09",
+        "terminado": "2026-01-08",
+        "entregado": "2026-01-08",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-08",
+        "semaforo": "2026-01-13",
+        "terminado": "2026-01-13",
+        "entregado": "2026-01-13",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-09",
+        "semaforo": "2026-01-14",
+        "terminado": "2026-01-13",
+        "entregado": "2026-01-14",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-09",
+        "semaforo": "2026-01-14",
+        "terminado": "2026-01-14",
+        "entregado": "2026-01-15",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-09",
+        "semaforo": "2026-01-14",
+        "terminado": "2026-01-13",
+        "entregado": "2026-01-13",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-09",
+        "semaforo": "2026-01-14",
+        "terminado": "2026-01-14",
+        "entregado": "2026-01-15",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-09",
+        "semaforo": "2026-01-14",
+        "terminado": "2026-01-14",
+        "entregado": "2026-01-14",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-10",
+        "semaforo": "2026-01-15",
+        "terminado": "2026-01-14",
+        "entregado": "2026-01-15",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-10",
+        "semaforo": "2026-01-15",
+        "terminado": "2026-01-13",
+        "entregado": "2026-01-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-10",
+        "semaforo": "2026-01-15",
+        "terminado": "2026-01-15",
+        "entregado": "2026-01-15",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-10",
+        "semaforo": "2026-01-20",
+        "terminado": "2026-01-29",
+        "entregado": "2026-01-30",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 16,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 8,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-10",
+        "semaforo": "2026-01-15",
+        "terminado": "2026-01-15",
+        "entregado": "2026-01-16",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 2,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-10",
+        "semaforo": "2026-01-15",
+        "terminado": "2026-01-13",
+        "entregado": "2026-01-14",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-13",
+        "semaforo": "2026-01-17",
+        "terminado": "2026-01-15",
+        "entregado": "2026-01-16",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-13",
+        "semaforo": "2026-01-17",
+        "terminado": null,
+        "entregado": "2026-02-16",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 28,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 19
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-14",
+        "semaforo": "2026-01-19",
+        "terminado": "2026-01-19",
+        "entregado": "2026-01-19",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-14",
+        "semaforo": "2026-01-19",
+        "terminado": "2026-01-17",
+        "entregado": "2026-01-16",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": -1,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-15",
+        "semaforo": "2026-01-20",
+        "terminado": "2026-01-19",
+        "entregado": "2026-01-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-16",
+        "semaforo": "2026-01-21",
+        "terminado": "2026-01-20",
+        "entregado": "2026-01-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-16",
+        "semaforo": "2026-01-21",
+        "terminado": "2026-01-20",
+        "entregado": "2026-01-20",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-16",
+        "semaforo": "2026-01-21",
+        "terminado": "2026-01-20",
+        "entregado": "2026-01-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-16",
+        "semaforo": "2026-01-21",
+        "terminado": "2026-01-21",
+        "entregado": "2026-01-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-16",
+        "semaforo": "2026-01-21",
+        "terminado": "2026-01-21",
+        "entregado": "2026-01-21",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-16",
+        "semaforo": "2026-01-21",
+        "terminado": "2026-01-19",
+        "entregado": "2026-01-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-17",
+        "semaforo": "2026-01-22",
+        "terminado": "2026-01-20",
+        "entregado": "2026-01-21",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 3,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-17",
+        "semaforo": "2026-01-22",
+        "terminado": "2026-01-20",
+        "entregado": "2026-01-20",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-20",
+        "semaforo": "2026-01-24",
+        "terminado": "2026-01-23",
+        "entregado": "2026-01-23",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-21",
+        "semaforo": "2026-01-26",
+        "terminado": "2026-01-24",
+        "entregado": "2026-01-24",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-21",
+        "semaforo": "2026-01-26",
+        "terminado": "2026-01-23",
+        "entregado": "2026-01-24",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-21",
+        "semaforo": "2026-01-26",
+        "terminado": "2026-01-23",
+        "entregado": "2026-01-23",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-21",
+        "semaforo": "2026-01-26",
+        "terminado": "2026-01-28",
+        "entregado": "2026-01-30",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-22",
+        "semaforo": "2026-01-27",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-22",
+        "semaforo": "2026-01-27",
+        "terminado": "2026-01-28",
+        "entregado": "2026-01-29",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-28",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-28",
+        "entregado": "2026-01-29",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-27",
+        "entregado": "2026-01-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Mayra",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-26",
+        "entregado": "2026-01-26",
+        "medico": "Santoyo",
+        "transcriptor": "Mayra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-23",
+        "semaforo": "2026-01-28",
+        "terminado": "2026-01-28",
+        "entregado": "2026-01-28",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-24",
+        "semaforo": "2026-01-29",
+        "terminado": "2026-01-29",
+        "entregado": "2026-01-29",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-24",
+        "semaforo": "2026-01-29",
+        "terminado": "2026-01-28",
+        "entregado": "2026-01-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-24",
+        "semaforo": "2026-01-29",
+        "terminado": "2026-01-29",
+        "entregado": "2026-01-30",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-24",
+        "semaforo": "2026-01-29",
+        "terminado": "2026-01-29",
+        "entregado": "2026-01-29",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-24",
+        "semaforo": "2026-01-29",
+        "terminado": "2026-01-29",
+        "entregado": "2026-01-30",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 4,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-24",
+        "semaforo": "2026-01-29",
+        "terminado": "2026-01-29",
+        "entregado": "2026-01-30",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-26",
+        "semaforo": "2026-01-30",
+        "terminado": "2026-01-30",
+        "entregado": "2026-01-31",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-01-26",
+        "semaforo": "2026-01-30",
+        "terminado": null,
+        "entregado": null,
+        "medico": "AMERICAN EXPRESS",
+        "transcriptor": "-",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-01-26",
+        "semaforo": "2026-01-30",
+        "terminado": null,
+        "entregado": null,
+        "medico": "AMERICAN EXPRESS",
+        "transcriptor": "-",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-27",
+        "semaforo": "2026-01-31",
+        "terminado": "2026-01-30",
+        "entregado": "2026-01-31",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-27",
+        "semaforo": "2026-01-31",
+        "terminado": "2026-01-30",
+        "entregado": "2026-02-03",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-28",
+        "semaforo": "2026-02-03",
+        "terminado": "2026-01-30",
+        "entregado": "2026-02-03",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-28",
+        "semaforo": "2026-02-03",
+        "terminado": "2026-02-03",
+        "entregado": "2026-02-03",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-01-28",
+        "semaforo": "2026-02-03",
+        "terminado": "2026-02-03",
+        "entregado": "2026-02-04",
+        "medico": "Santoyo",
+        "transcriptor": "Beto/Cas",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-28",
+        "semaforo": "2026-02-03",
+        "terminado": "2026-01-30",
+        "entregado": "2026-02-03",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-28",
+        "semaforo": "2026-02-03",
+        "terminado": "2026-01-30",
+        "entregado": "2026-02-03",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-29",
+        "semaforo": "2026-02-04",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-05",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-29",
+        "semaforo": "2026-02-04",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-04",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-05",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-05",
+        "entregado": "2026-02-05",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-05",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-26",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 16,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 21,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-05",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-04",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-05",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-05",
+        "entregado": "2026-02-05",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-05",
+        "entregado": "2026-02-06",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -17
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-31",
+        "semaforo": "2026-02-06",
+        "terminado": "2026-02-05",
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-31",
+        "semaforo": "2026-02-06",
+        "terminado": "2026-02-06",
+        "entregado": "2026-02-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "(sin asignar)",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-31",
+        "semaforo": "2026-02-06",
+        "terminado": null,
+        "entregado": null,
+        "medico": "-",
+        "transcriptor": "Casandra",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-31",
+        "semaforo": "2026-02-06",
+        "terminado": "2026-02-06",
+        "entregado": "2026-02-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-31",
+        "semaforo": "2026-02-06",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-01-31",
+        "semaforo": "2026-02-06",
+        "terminado": "2026-02-06",
+        "entregado": "2026-02-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": "2026-02-05",
+        "entregado": "2026-02-06",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": "2026-02-07",
+        "entregado": "2026-02-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": "2026-02-07",
+        "entregado": "2026-02-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra/Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": "2026-02-06",
+        "entregado": "2026-02-06",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": "2026-02-05",
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": null,
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": "2026-02-06",
+        "entregado": "2026-02-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-03",
+        "semaforo": "2026-02-07",
+        "terminado": null,
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra/Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": "2026-02-07",
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": -1,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": "2026-02-07",
+        "entregado": "2026-02-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": null,
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-04",
+        "semaforo": "2026-02-09",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-07",
+        "entregado": "2026-02-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": -1,
+        "d_realiz_entregado": 1,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-06",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": -2,
+        "d_realiz_entregado": 1,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-10",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-05",
+        "semaforo": "2026-02-10",
+        "terminado": "2026-02-09",
+        "entregado": "2026-02-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -13
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-12",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-13",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-13",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -17
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-12",
+        "entregado": "2026-02-12",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-12",
+        "entregado": "2026-02-12",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-12",
+        "entregado": "2026-02-12",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-12",
+        "entregado": "2026-02-12",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-12",
+        "entregado": "2026-02-12",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Dra. Carolina",
+        "transcriptor": "BACARDI",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": "2026-02-13",
+        "entregado": "2026-02-13",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": "2026-02-13",
+        "entregado": "2026-02-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": "2026-02-13",
+        "entregado": "2026-02-13",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Dra. Carolina",
+        "transcriptor": "BACARDI",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-10",
+        "semaforo": "2026-02-14",
+        "terminado": null,
+        "entregado": "2026-02-16",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-10",
+        "semaforo": "2026-02-14",
+        "terminado": "2026-02-13",
+        "entregado": "2026-02-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-10",
+        "semaforo": "2026-02-14",
+        "terminado": null,
+        "entregado": "2026-02-14",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-10",
+        "semaforo": "2026-02-14",
+        "terminado": "2026-02-14",
+        "entregado": "2026-02-14",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-10",
+        "semaforo": "2026-02-14",
+        "terminado": "2026-02-14",
+        "entregado": "2026-02-16",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 2,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Humberto",
+        "realizacion": "2026-02-09",
+        "semaforo": "2026-02-13",
+        "terminado": "2026-02-11",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Humberto",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-11",
+        "semaforo": "2026-02-16",
+        "terminado": "2026-02-16",
+        "entregado": "2024-02-18",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -623,
+        "d_realiz_entregado": -619,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -626
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-02-16",
+        "entregado": "2026-02-18",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-02-16",
+        "entregado": "2026-02-18",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-02-14",
+        "entregado": "2026-02-16",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-02-16",
+        "entregado": "2026-02-18",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-02-16",
+        "entregado": "2026-02-18",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-03-12",
+        "entregado": "2026-04-08",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 23,
+        "d_terminado_entregado": 20,
+        "d_realiz_entregado": 43,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 25
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-12",
+        "semaforo": "2026-02-17",
+        "terminado": "2026-02-16",
+        "entregado": "2026-02-18",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-18",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-18",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-19",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-24",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-18",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-18",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-24",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-13",
+        "semaforo": "2026-02-18",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-18",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-24",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-19",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -23
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-19",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-19",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-19",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-18",
+        "entregado": "2026-02-24",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-24",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-24",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-20",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 7,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-14",
+        "semaforo": "2026-02-19",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-19",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Dra. Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-21",
+        "entregado": "2026-02-21",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-20",
+        "entregado": "2026-02-20",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-21",
+        "entregado": "2026-02-21",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-20",
+        "entregado": "2026-03-02",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-20",
+        "entregado": "2026-02-27",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-20",
+        "entregado": "2026-02-20",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-20",
+        "entregado": "2026-02-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-19",
+        "entregado": "2026-02-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-20",
+        "entregado": null,
+        "medico": "Dra. Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-16",
+        "semaforo": "2026-02-20",
+        "terminado": "2026-02-21",
+        "entregado": "2026-02-24",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-26",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-25",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-20",
+        "entregado": "2026-02-25",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-21",
+        "entregado": "2026-02-25",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-21",
+        "entregado": "2026-02-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -17
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-24",
+        "entregado": null,
+        "medico": "Dra. Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-17",
+        "semaforo": "2026-02-23",
+        "terminado": "0026-02-22",
+        "entregado": "2026-02-24",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": -626124,
+        "d_terminado_entregado": 626129,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-18",
+        "semaforo": "2026-02-23",
+        "terminado": "2026-02-24",
+        "entregado": "2026-02-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-19",
+        "semaforo": "2026-02-24",
+        "terminado": "2026-02-24",
+        "entregado": "2026-02-28",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-19",
+        "semaforo": "2026-02-24",
+        "terminado": "2026-02-24",
+        "entregado": "2026-02-25",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-26",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-26",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-26",
+        "entregado": null,
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-24",
+        "entregado": "2026-02-25",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-28",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-27",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-26",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-26",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-20",
+        "semaforo": "2026-02-25",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-27",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-25",
+        "entregado": "2026-02-26",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-27",
+        "entregado": "2026-02-27",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-03-03",
+        "entregado": "2026-03-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 7,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-27",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-27",
+        "entregado": "2026-02-27",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-26",
+        "entregado": "2026-02-27",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 8,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-21",
+        "semaforo": "2026-02-26",
+        "terminado": "2026-02-27",
+        "entregado": "2026-02-28",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-24",
+        "semaforo": "2026-02-28",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-02",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-25",
+        "semaforo": "2026-03-02",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-03",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -18
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-02-25",
+        "semaforo": "2026-03-02",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Excluyo consulta",
+        "transcriptor": "-",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-25",
+        "semaforo": "2026-03-02",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-02",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-25",
+        "semaforo": "2026-03-02",
+        "terminado": "2026-03-02",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-25",
+        "semaforo": "2026-03-02",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-03-02",
+        "entregado": "2026-03-03",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Excluyo consulta",
+        "transcriptor": "-",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-03",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -21
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-03-02",
+        "entregado": "2026-03-03",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-03-02",
+        "entregado": "2026-03-03",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-02",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-02-28",
+        "entregado": "2026-03-02",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-03-03",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-26",
+        "semaforo": "2026-03-03",
+        "terminado": "2026-03-02",
+        "entregado": "2026-03-03",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-03",
+        "entregado": "2026-03-04",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-03",
+        "entregado": "2026-03-04",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-03",
+        "entregado": "2026-03-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-02",
+        "entregado": "2026-03-03",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-02",
+        "entregado": "2026-03-03",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-04",
+        "entregado": "2026-03-04",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-02-04",
+        "entregado": "2026-03-04",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": -19,
+        "d_terminado_entregado": 23,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-04",
+        "entregado": "2026-03-05",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-04",
+        "entregado": "2026-03-05",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-04",
+        "entregado": "2026-03-06",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-02-04",
+        "entregado": null,
+        "medico": "Santoyo-Blanca",
+        "transcriptor": "Casandra",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": -19,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-27",
+        "semaforo": "2026-03-04",
+        "terminado": "2026-03-03",
+        "entregado": "2026-03-04",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-04",
+        "entregado": "2026-03-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-04",
+        "entregado": "2026-03-05",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-05",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-05",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Excluyo consulta",
+        "transcriptor": "-",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 9,
+        "mes": "2026-02",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-02-28",
+        "semaforo": "2026-03-05",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Excluyo consulta",
+        "transcriptor": "-",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-06",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-02",
+        "semaforo": "2026-03-06",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-07",
+        "entregado": "2026-03-09",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-06",
+        "entregado": "2026-03-07",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-05",
+        "entregado": "2026-03-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-03",
+        "semaforo": "2026-03-07",
+        "terminado": "2026-03-07",
+        "entregado": "2026-03-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-04",
+        "semaforo": "2026-03-09",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra / Graciela",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 7,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-04",
+        "semaforo": "2026-03-09",
+        "terminado": "2026-03-07",
+        "entregado": "2026-03-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-04",
+        "semaforo": "2026-03-09",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-04",
+        "semaforo": "2026-03-09",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-04",
+        "semaforo": "2026-03-09",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-04",
+        "semaforo": "2026-03-09",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-10",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-10",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 22,
+        "d_realiz_entregado": 26,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-10",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-10",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-10",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-05",
+        "semaforo": "2026-03-10",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-13",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-11",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-18",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-11",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-09",
+        "entregado": "2026-03-09",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-11",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-11",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-12",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-12",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-19",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-12",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-14",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-19",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-07",
+        "semaforo": "2026-03-12",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-13",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-20",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-13",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-12",
+        "entregado": "2026-03-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-09",
+        "semaforo": "2026-03-13",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-14",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-14",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-17",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-14",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-10",
+        "semaforo": null,
+        "terminado": "2026-03-13",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": null,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-14",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "AON RISK",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-14",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-10",
+        "semaforo": "2026-03-14",
+        "terminado": "2026-03-14",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-20",
+        "medico": "Santoyo",
+        "transcriptor": "Beto/Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-19",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Otros",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": null,
+        "entregado": null,
+        "medico": "Excluyo consulta",
+        "transcriptor": "Sin transcriptor",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-13",
+        "entregado": "2026-03-14",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-17",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-18",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto/Casa",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-18",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-17",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-17",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-11",
+        "semaforo": "2026-03-17",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-17",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-19",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-18",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-14",
+        "entregado": "2026-03-20",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-19",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-12",
+        "semaforo": "2026-03-18",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-19",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-17",
+        "entregado": "2026-03-17",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-18",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-19",
+        "medico": "Santoyo",
+        "transcriptor": "Beto/Graciela",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-18",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-19",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra/Graciela",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-19",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-19",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-20",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-19",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-26",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-18",
+        "entregado": "2026-03-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-19",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-13",
+        "semaforo": "2026-03-19",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-20",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-20",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-20",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 16,
+        "d_realiz_entregado": 20,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-20",
+        "entregado": "2026-03-20",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-19",
+        "entregado": "2026-03-20",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-20",
+        "entregado": "2026-03-20",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-20",
+        "entregado": "2026-03-20",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 11,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-14",
+        "semaforo": "2026-03-20",
+        "terminado": "2026-03-20",
+        "entregado": "2026-03-20",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-17",
+        "semaforo": "2026-03-21",
+        "terminado": "2026-03-21",
+        "entregado": "2026-03-23",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-17",
+        "semaforo": "2026-03-21",
+        "terminado": "2026-03-20",
+        "entregado": "2026-03-21",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-17",
+        "semaforo": "2026-03-21",
+        "terminado": "2026-03-21",
+        "entregado": "2026-03-23",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-17",
+        "semaforo": "2026-03-21",
+        "terminado": "2026-03-21",
+        "entregado": "2026-03-25",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-17",
+        "semaforo": "2026-03-21",
+        "terminado": "2026-03-21",
+        "entregado": "2026-03-23",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-25",
+        "medico": "Blanca",
+        "transcriptor": "BACARDI",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-25",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-21",
+        "entregado": "2026-03-23",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-23",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-25",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-09-21",
+        "entregado": "2026-04-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 157,
+        "d_terminado_entregado": -142,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-23",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-24",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-25",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-18",
+        "semaforo": "2026-03-23",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-24",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-24",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-23",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-28",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-25",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-04-07",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-25",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-26",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-24",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-19",
+        "semaforo": "2026-03-24",
+        "terminado": "2026-03-23",
+        "entregado": "2026-03-24",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-04-08",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-04-14",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 15,
+        "d_realiz_entregado": 19,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-27",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-04-14",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 15,
+        "d_realiz_entregado": 19,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-30",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-04-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-24",
+        "entregado": "2026-03-25",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-27",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-24",
+        "entregado": "2026-04-01",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-26",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-26",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-28",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-23",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 21,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 27,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-26",
+        "entregado": "2026-03-26",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-20",
+        "semaforo": "2026-03-25",
+        "terminado": "2026-03-25",
+        "entregado": "2026-03-26",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-27",
+        "entregado": "2026-03-27",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-27",
+        "entregado": "2026-03-27",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-26",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-27",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-26",
+        "entregado": "2026-03-30",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-26",
+        "entregado": "2026-03-27",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-25",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-26",
+        "entregado": "2026-03-26",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 12,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-21",
+        "semaforo": "2026-03-26",
+        "terminado": "2026-03-26",
+        "entregado": "2026-03-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-27",
+        "entregado": "2026-03-28",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-27",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-27",
+        "entregado": "2026-03-28",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-27",
+        "entregado": "2026-04-06",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-28",
+        "entregado": "2026-03-27",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": -1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-26",
+        "entregado": "2026-03-28",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-27",
+        "entregado": "2026-03-28",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-23",
+        "semaforo": "2026-03-27",
+        "terminado": "2026-03-27",
+        "entregado": "2026-03-30",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-24",
+        "semaforo": "2026-03-28",
+        "terminado": "2026-03-28",
+        "entregado": "2026-03-30",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-24",
+        "semaforo": "2026-03-28",
+        "terminado": "2026-03-28",
+        "entregado": "2026-03-31",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-24",
+        "semaforo": "2026-03-28",
+        "terminado": "2026-03-28",
+        "entregado": "2026-03-30",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-24",
+        "semaforo": "2026-03-28",
+        "terminado": "2026-03-28",
+        "entregado": "2026-03-30",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-24",
+        "semaforo": "2026-03-28",
+        "terminado": "2026-03-28",
+        "entregado": "2026-03-30",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-30",
+        "entregado": "2026-03-31",
+        "medico": "Castellón",
+        "transcriptor": "Casandra/Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-30",
+        "entregado": "2026-03-30",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-28",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-30",
+        "entregado": "2026-03-31",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-30",
+        "entregado": "2026-03-31",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-30",
+        "entregado": "2026-03-30",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-28",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-25",
+        "semaforo": "2026-03-30",
+        "terminado": "2026-03-30",
+        "entregado": "2026-04-07",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-30",
+        "entregado": "2026-03-31",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-30",
+        "entregado": "2026-04-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-30",
+        "entregado": "2026-04-08",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-07",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-01",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-28",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-26",
+        "semaforo": "2026-03-31",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-14",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-07",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-14",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-08",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-09",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-01",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": null,
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-01",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-09",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-09",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-27",
+        "semaforo": "2026-04-01",
+        "terminado": "2026-04-01",
+        "entregado": "2026-04-01",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra/Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra/Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 9,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-16",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-02",
+        "entregado": "2026-04-14",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 13,
+        "mes": "2026-03",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-28",
+        "semaforo": "2026-04-02",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-10",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-07",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-07",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "(sin asignar)",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-03-31",
+        "entregado": "2026-04-14",
+        "medico": "?",
+        "transcriptor": "Sin transcriptor",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 1,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-17",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-07",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-07",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-17",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-30",
+        "semaforo": "2026-04-06",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-11",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-08",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-09",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-06",
+        "entregado": "2026-04-10",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-08",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-31",
+        "semaforo": "2026-04-07",
+        "terminado": "2026-04-07",
+        "entregado": "2026-04-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-05-04",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 21,
+        "d_realiz_entregado": 25,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-11",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-14",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-14",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-10",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-01",
+        "semaforo": "2026-04-08",
+        "terminado": "2026-04-08",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-02",
+        "semaforo": "2026-04-09",
+        "terminado": "2026-04-09",
+        "entregado": "2026-04-16",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 14,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-02",
+        "semaforo": "2026-04-09",
+        "terminado": "2026-04-09",
+        "entregado": "2026-04-10",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-09",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-09",
+        "entregado": "2026-04-15",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-09",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-10",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-17",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-15",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-15",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-10",
+        "entregado": "2026-05-04",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 19,
+        "d_realiz_entregado": 22,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-11",
+        "entregado": "2026-04-11",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-13",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-11",
+        "entregado": "2026-04-15",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-13",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-11",
+        "entregado": "2026-04-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-15",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-08",
+        "semaforo": "2026-04-13",
+        "terminado": "2026-04-11",
+        "entregado": "2026-04-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-09",
+        "semaforo": "2026-04-14",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-16",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-09",
+        "semaforo": "2026-04-14",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-16",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-09",
+        "semaforo": "2026-04-14",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-14",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-09",
+        "semaforo": "2026-04-14",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-09",
+        "semaforo": "2026-04-14",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-09",
+        "semaforo": "2026-04-14",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-15",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-15",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-17",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-15",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-18",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-28",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-17",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-17",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-13",
+        "entregado": "2026-04-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-18",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-16",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-17",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-10",
+        "semaforo": "2026-04-15",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-20",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-16",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 18,
+        "d_realiz_entregado": 22,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-20",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-28",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-16",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-16",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-14",
+        "entregado": "2026-04-16",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-21",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-11",
+        "semaforo": "2026-04-16",
+        "terminado": "2026-04-15",
+        "entregado": "2026-04-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-17",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-17",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-17",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-21",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-18",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-18",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-20",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-14",
+        "semaforo": "2026-04-18",
+        "terminado": "2026-04-18",
+        "entregado": "2026-05-15",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 22,
+        "d_realiz_entregado": 26,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-20",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-27",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-21",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-21",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-24",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-15",
+        "semaforo": "2026-04-20",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-18",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-22",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-21",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-22",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-21",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-21",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-21",
+        "entregado": "2026-05-04",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-16",
+        "semaforo": "2026-04-21",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-22",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-22",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-22",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-20",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-27",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-23",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-29",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-23",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-17",
+        "semaforo": "2026-04-22",
+        "terminado": "2026-04-21",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-23",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-24",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-22",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-22",
+        "entregado": "2026-04-29",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-05-08",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-05-15",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 18,
+        "d_realiz_entregado": 22,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-05-02",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-29",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-24",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "0206-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -569761,
+        "d_realiz_entregado": -569757,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -569774
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-18",
+        "semaforo": "2026-04-23",
+        "terminado": "2026-04-23",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-30",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-24",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-29",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-30",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-27",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-05-15",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 16,
+        "d_realiz_entregado": 20,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -11
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-05-15",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 16,
+        "d_realiz_entregado": 20,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -11
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-29",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-21",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 25,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 25,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-05-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-21",
+        "semaforo": "2026-04-25",
+        "terminado": "2026-04-25",
+        "entregado": "2026-04-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-29",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-22",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-29",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-27",
+        "terminado": "2026-04-27",
+        "entregado": "2026-05-04",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 3,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-05-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-28",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-28",
+        "entregado": "2026-04-29",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-29",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-30",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-30",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-29",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-27",
+        "entregado": "2026-04-29",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-28",
+        "entregado": "2026-04-29",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-27",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-02",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-04",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-06",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-09",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "Terminado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-04-30",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-02",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-04",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-08",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-04-30",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-12",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-15",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-25",
+        "semaforo": "2026-04-30",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-08",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-29",
+        "entregado": "2026-05-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-04",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-04",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-02",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-04",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-04",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-06",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Otros",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-05-02",
+        "entregado": "2026-05-11",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra/Humberto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-02",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-27",
+        "semaforo": "2026-05-02",
+        "terminado": "2026-04-30",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-06",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-04",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-12",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-28",
+        "semaforo": "2026-05-04",
+        "terminado": "2026-05-04",
+        "entregado": "2026-05-05",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-09",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-06",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-09",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "(sin asignar)",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": null,
+        "entregado": null,
+        "medico": "x",
+        "transcriptor": "Beto",
+        "estado": "",
+        "entrega_digital": "",
+        "d_realiz_terminado": null,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-14",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-09",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-07",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-07",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-14",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-07",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-11",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 8,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-06",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-30",
+        "semaforo": "2026-05-06",
+        "terminado": "2026-05-06",
+        "entregado": "2026-05-07",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-02",
+        "semaforo": "2026-05-07",
+        "terminado": "2026-05-07",
+        "entregado": "2026-05-09",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-02",
+        "semaforo": "2026-05-07",
+        "terminado": "2026-05-07",
+        "entregado": "2026-05-09",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-02",
+        "semaforo": "2026-05-07",
+        "terminado": "2026-05-07",
+        "entregado": "2026-05-14",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-02",
+        "semaforo": "2026-05-07",
+        "terminado": "2026-05-07",
+        "entregado": "2026-05-14",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-04",
+        "semaforo": "2026-05-08",
+        "terminado": "2026-05-08",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-04",
+        "semaforo": "2026-05-08",
+        "terminado": "2026-05-08",
+        "entregado": "2026-05-09",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-04",
+        "semaforo": "2026-05-08",
+        "terminado": "2026-05-08",
+        "entregado": "2026-05-09",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-04",
+        "semaforo": "2026-05-08",
+        "terminado": "2026-05-08",
+        "entregado": "2026-05-14",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-06",
+        "semaforo": "2026-05-11",
+        "terminado": "2026-05-11",
+        "entregado": "2026-05-12",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-06",
+        "semaforo": "2026-05-11",
+        "terminado": "2026-05-09",
+        "entregado": "2026-05-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-07",
+        "semaforo": "2026-04-12",
+        "terminado": "2026-05-11",
+        "entregado": "2026-05-14",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": -21,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-07",
+        "semaforo": "2026-04-12",
+        "terminado": "2026-05-09",
+        "entregado": "2026-05-14",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": -21,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-07",
+        "semaforo": "2026-04-12",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-16",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": -21,
+        "d_entregado_vs_real": -13
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-07",
+        "semaforo": "2026-04-12",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-14",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": -21,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-11",
+        "entregado": "2026-05-12",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-13",
+        "entregado": "2026-05-14",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-13",
+        "entregado": "2026-05-15",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-13",
+        "entregado": "2026-05-14",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-15",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-13",
+        "entregado": "2026-05-14",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-15",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-14",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-15",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-15",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-15",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-09",
+        "semaforo": "2026-05-14",
+        "terminado": "2026-05-14",
+        "entregado": "2026-05-15",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-11",
+        "semaforo": "2026-05-15",
+        "terminado": "2026-05-15",
+        "entregado": "2026-05-16",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-12",
+        "semaforo": "2026-05-16",
+        "terminado": "2026-05-15",
+        "entregado": "2026-05-19",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 0
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-12",
+        "semaforo": "2026-05-16",
+        "terminado": "2026-05-16",
+        "entregado": "2026-05-16",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-13",
+        "semaforo": "2026-05-18",
+        "terminado": "2026-05-16",
+        "entregado": "2026-05-16",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-13",
+        "semaforo": "2026-05-18",
+        "terminado": "2026-05-16",
+        "entregado": "2026-05-18",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-13",
+        "semaforo": "2026-05-18",
+        "terminado": "2026-05-18",
+        "entregado": "0206-05-18",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -569772,
+        "d_realiz_entregado": -569768,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -569777
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-14",
+        "semaforo": "2026-05-19",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-19",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-14",
+        "semaforo": "2026-05-19",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-19",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-14",
+        "semaforo": "2026-05-19",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-14",
+        "semaforo": "2026-05-19",
+        "terminado": "2026-05-18",
+        "entregado": "2026-05-18",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-14",
+        "semaforo": "2026-05-19",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-19",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-19",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-21",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-20",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-21",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-20",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-20",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-21",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-19",
+        "entregado": "2026-05-19",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-21",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-20",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-15",
+        "semaforo": "2026-05-20",
+        "terminado": "2026-05-20",
+        "entregado": "2026-05-21",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-21",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-22",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-22",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -13
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-21",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-22",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-22",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 20,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-16",
+        "semaforo": "2026-05-21",
+        "terminado": "2026-05-21",
+        "entregado": "2026-05-22",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-18",
+        "semaforo": "2026-05-22",
+        "terminado": "2026-05-22",
+        "entregado": "2026-05-23",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-20",
+        "semaforo": "2026-05-25",
+        "terminado": "2026-05-23",
+        "entregado": "2026-05-23",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-21",
+        "semaforo": "2026-05-26",
+        "terminado": "2026-05-25",
+        "entregado": "2026-05-25",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-21",
+        "semaforo": "2026-05-26",
+        "terminado": "2026-05-23",
+        "entregado": "2026-05-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-21",
+        "semaforo": "2026-05-26",
+        "terminado": "2026-05-25",
+        "entregado": "2026-05-25",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-21",
+        "semaforo": "2026-05-26",
+        "terminado": "2026-05-26",
+        "entregado": "2026-05-27",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-27",
+        "entregado": "2026-05-27",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-25",
+        "entregado": "2026-05-26",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-27",
+        "entregado": "2026-05-27",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-26",
+        "entregado": "2026-05-26",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-27",
+        "entregado": "2026-05-27",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-25",
+        "entregado": "2026-05-26",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-27",
+        "entregado": "2026-05-27",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-22",
+        "semaforo": "2026-05-27",
+        "terminado": "2026-05-26",
+        "entregado": "2026-05-26",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-23",
+        "semaforo": "2026-05-28",
+        "terminado": "2026-05-28",
+        "entregado": "2026-05-28",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-23",
+        "semaforo": "2026-05-28",
+        "terminado": "2026-05-27",
+        "entregado": "2026-05-27",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-23",
+        "semaforo": "2026-05-28",
+        "terminado": "2026-05-28",
+        "entregado": "2026-05-28",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-23",
+        "semaforo": "2026-05-28",
+        "terminado": "2026-05-28",
+        "entregado": "2026-05-28",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-23",
+        "semaforo": "2026-05-28",
+        "terminado": "2026-05-26",
+        "entregado": "2026-05-27",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 21,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-23",
+        "semaforo": "2026-05-28",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 9,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-25",
+        "semaforo": "2026-05-29",
+        "terminado": "2026-05-29",
+        "entregado": "2026-05-29",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-25",
+        "semaforo": "2026-05-29",
+        "terminado": "2026-05-29",
+        "entregado": "2026-05-29",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-26",
+        "semaforo": "2026-05-30",
+        "terminado": "2026-05-29",
+        "entregado": "2026-05-29",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-26",
+        "semaforo": "2026-05-30",
+        "terminado": "2026-05-30",
+        "entregado": "2026-05-30",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-26",
+        "semaforo": "2026-05-30",
+        "terminado": "2026-03-29",
+        "entregado": "2026-05-30",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": -47,
+        "d_terminado_entregado": 51,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-27",
+        "semaforo": "2026-06-01",
+        "terminado": "2026-05-30",
+        "entregado": "2026-05-30",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-27",
+        "semaforo": "2026-06-01",
+        "terminado": "2026-06-01",
+        "entregado": "2026-06-01",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-27",
+        "semaforo": "2026-06-01",
+        "terminado": "2026-06-01",
+        "entregado": "2026-07-02",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 27,
+        "d_realiz_entregado": 31,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 25
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-27",
+        "semaforo": "2026-06-01",
+        "terminado": "2026-06-01",
+        "entregado": "2026-06-01",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-28",
+        "semaforo": "2026-06-02",
+        "terminado": "2026-05-30",
+        "entregado": "2026-06-01",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-28",
+        "semaforo": "2026-06-02",
+        "terminado": "2026-06-01",
+        "entregado": "2026-06-01",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-03",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -14
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-02",
+        "entregado": "2026-06-02",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-01",
+        "entregado": "2026-06-02",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-03",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-04",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-03",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-04",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-03",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -11
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-01",
+        "entregado": "2026-06-02",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-29",
+        "semaforo": "2026-06-03",
+        "terminado": "2026-06-03",
+        "entregado": "2026-06-03",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-30",
+        "semaforo": "2026-06-04",
+        "terminado": "2026-06-04",
+        "entregado": "2026-06-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-30",
+        "semaforo": "2026-06-04",
+        "terminado": "2026-06-04",
+        "entregado": "2026-06-04",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 22,
+        "mes": "2026-05",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-30",
+        "semaforo": "2026-06-04",
+        "terminado": "2026-06-04",
+        "entregado": "2026-06-05",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-01",
+        "semaforo": "2026-06-05",
+        "terminado": "2026-06-04",
+        "entregado": "2026-06-05",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-02",
+        "semaforo": "2026-06-06",
+        "terminado": "2026-06-06",
+        "entregado": "2026-06-08",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-03",
+        "semaforo": "2026-06-08",
+        "terminado": "2026-06-08",
+        "entregado": "2026-06-10",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-03",
+        "semaforo": "2026-06-08",
+        "terminado": "2026-06-06",
+        "entregado": "2026-06-06",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -18
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-03",
+        "semaforo": "2026-06-08",
+        "terminado": "2026-06-06",
+        "entregado": "2026-06-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-03",
+        "semaforo": "2026-06-08",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-09",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-03",
+        "semaforo": "2026-06-08",
+        "terminado": "2026-06-08",
+        "entregado": null,
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-06-08",
+        "entregado": "2026-06-09",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-06-06",
+        "entregado": "2026-06-06",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-06-06",
+        "entregado": null,
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-10",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-06-08",
+        "entregado": "2026-06-09",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-09-09",
+        "entregado": null,
+        "medico": "Blanca",
+        "transcriptor": "-",
+        "estado": "Terminado",
+        "entrega_digital": "SI",
+        "d_realiz_terminado": 83,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-04",
+        "semaforo": "2026-06-09",
+        "terminado": "2026-06-08",
+        "entregado": null,
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2006-06-08",
+        "entregado": null,
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": -6252,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-17",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-10",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-09",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-10",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-05",
+        "semaforo": "2026-06-10",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": "2026-06-12",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-10",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": "2026-06-12",
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-09",
+        "entregado": "2026-06-12",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": "2026-06-12",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "NO",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": "2026-06-18",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "FINALIZADO",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": null,
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": null,
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-11",
+        "entregado": null,
+        "medico": "Oropeza",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "SÍ",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": null,
+        "d_realiz_entregado": null,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": null
+      },
+      {
+        "semana": 23,
+        "mes": "2026-06",
+        "internista_norm": "Blanca",
+        "transcriptor_norm": "(sin asignar)",
+        "realizacion": "2026-06-06",
+        "semaforo": "2026-06-11",
+        "terminado": "2026-06-10",
+        "entregado": "2026-06-26",
+        "medico": "Blanca",
+        "transcriptor": "-",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 14,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      }
+    ],
+    "resumen": {
+      "total": 974,
+      "entregados": 931,
+      "realiz_terminado": {
+        "avg": 3.8,
+        "min": -47,
+        "max": 157,
+        "n": 949
+      },
+      "terminado_entregado": {
+        "avg": 2.3,
+        "min": -2,
+        "max": 51,
+        "n": 916
+      },
+      "realiz_entregado": {
+        "avg": 5.9,
+        "min": 1,
+        "max": 43,
+        "n": 928
+      },
+      "entrega_real": {
+        "n": 923,
+        "a_tiempo": 919,
+        "tarde": 4,
+        "pct_a_tiempo": 99.6,
+        "un_dia_antes": 907,
+        "pct_1dia": 98.3,
+        "dias_antes_obj": 1,
+        "avg_antes": 2.5,
+        "objetivo": 95,
+        "dist": [
+          {
+            "dias": -25,
+            "n": 2
+          },
+          {
+            "dias": -19,
+            "n": 1
+          },
+          {
+            "dias": -1,
+            "n": 1
+          },
+          {
+            "dias": 0,
+            "n": 12
+          },
+          {
+            "dias": 1,
+            "n": 295
+          },
+          {
+            "dias": 2,
+            "n": 307
+          },
+          {
+            "dias": 3,
+            "n": 142
+          },
+          {
+            "dias": 4,
+            "n": 51
+          },
+          {
+            "dias": 5,
+            "n": 32
+          },
+          {
+            "dias": 6,
+            "n": 22
+          },
+          {
+            "dias": 7,
+            "n": 22
+          },
+          {
+            "dias": 8,
+            "n": 13
+          },
+          {
+            "dias": 9,
+            "n": 5
+          },
+          {
+            "dias": 10,
+            "n": 4
+          },
+          {
+            "dias": 11,
+            "n": 3
+          },
+          {
+            "dias": 13,
+            "n": 3
+          },
+          {
+            "dias": 14,
+            "n": 1
+          },
+          {
+            "dias": 17,
+            "n": 3
+          },
+          {
+            "dias": 18,
+            "n": 2
+          },
+          {
+            "dias": 21,
+            "n": 1
+          },
+          {
+            "dias": 23,
+            "n": 1
+          }
+        ]
+      },
+      "realiz_term_obj": {
+        "n": 949,
+        "ok": 914,
+        "fuera": 35,
+        "pct_ok": 96.3,
+        "avg": 3.8,
+        "limite": 4,
+        "objetivo": 95,
+        "dist": [
+          {
+            "dias": -47,
+            "n": 1
+          },
+          {
+            "dias": -19,
+            "n": 2
+          },
+          {
+            "dias": 1,
+            "n": 1
+          },
+          {
+            "dias": 2,
+            "n": 69
+          },
+          {
+            "dias": 3,
+            "n": 284
+          },
+          {
+            "dias": 4,
+            "n": 557
+          },
+          {
+            "dias": 5,
+            "n": 17
+          },
+          {
+            "dias": 6,
+            "n": 6
+          },
+          {
+            "dias": 7,
+            "n": 2
+          },
+          {
+            "dias": 8,
+            "n": 1
+          },
+          {
+            "dias": 9,
+            "n": 2
+          },
+          {
+            "dias": 16,
+            "n": 2
+          },
+          {
+            "dias": 21,
+            "n": 1
+          },
+          {
+            "dias": 23,
+            "n": 1
+          },
+          {
+            "dias": 25,
+            "n": 1
+          },
+          {
+            "dias": 83,
+            "n": 1
+          },
+          {
+            "dias": 157,
+            "n": 1
+          }
+        ]
+      },
+      "internistas": [
+        {
+          "nombre": "Oropeza",
+          "n": 119
+        },
+        {
+          "nombre": "Castellón",
+          "n": 217
+        },
+        {
+          "nombre": "Santoyo",
+          "n": 232
+        },
+        {
+          "nombre": "Toriz",
+          "n": 355
+        },
+        {
+          "nombre": "Blanca",
+          "n": 37
+        },
+        {
+          "nombre": "Otros",
+          "n": 11
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 3
+        }
+      ],
+      "transcriptores_cnt": [
+        {
+          "nombre": "Casandra",
+          "n": 438
+        },
+        {
+          "nombre": "Beto",
+          "n": 473
+        },
+        {
+          "nombre": "Mayra",
+          "n": 1
+        },
+        {
+          "nombre": "Humberto",
+          "n": 1
+        },
+        {
+          "nombre": "Otros",
+          "n": 47
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 14
+        }
+      ]
+    },
+    "por_semana": {
+      "2": {
+        "total": 17,
+        "entregados": 17,
+        "realiz_terminado": {
+          "avg": 4.0,
+          "min": 2,
+          "max": 16,
+          "n": 17
+        },
+        "terminado_entregado": {
+          "avg": 0.6,
+          "min": 0,
+          "max": 2,
+          "n": 17
+        },
+        "realiz_entregado": {
+          "avg": 4.6,
+          "min": 2,
+          "max": 17,
+          "n": 17
+        },
+        "entrega_real": {
+          "n": 17,
+          "a_tiempo": 17,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 17,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 4
+            },
+            {
+              "dias": 2,
+              "n": 2
+            },
+            {
+              "dias": 3,
+              "n": 7
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 10,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 17,
+          "ok": 16,
+          "fuera": 1,
+          "pct_ok": 94.1,
+          "avg": 4.0,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 3
+            },
+            {
+              "dias": 3,
+              "n": 6
+            },
+            {
+              "dias": 4,
+              "n": 7
+            },
+            {
+              "dias": 16,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 2
+          },
+          {
+            "nombre": "Castellón",
+            "n": 3
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 5
+          },
+          {
+            "nombre": "Toriz",
+            "n": 7
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 7
+          },
+          {
+            "nombre": "Beto",
+            "n": 9
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ]
+      },
+      "3": {
+        "total": 13,
+        "entregados": 13,
+        "realiz_terminado": {
+          "avg": 2.9,
+          "min": 2,
+          "max": 4,
+          "n": 12
+        },
+        "terminado_entregado": {
+          "avg": 0.1,
+          "min": -1,
+          "max": 1,
+          "n": 12
+        },
+        "realiz_entregado": {
+          "avg": 4.9,
+          "min": 2,
+          "max": 28,
+          "n": 13
+        },
+        "entrega_real": {
+          "n": 13,
+          "a_tiempo": 12,
+          "tarde": 1,
+          "pct_a_tiempo": 92.3,
+          "un_dia_antes": 12,
+          "pct_1dia": 92.3,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.0,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -19,
+              "n": 1
+            },
+            {
+              "dias": 2,
+              "n": 1
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 4,
+              "n": 3
+            },
+            {
+              "dias": 5,
+              "n": 2
+            },
+            {
+              "dias": 6,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 12,
+          "ok": 12,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 2.9,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 4
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 4,
+              "n": 3
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 3
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 3
+          },
+          {
+            "nombre": "Toriz",
+            "n": 7
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 7
+          },
+          {
+            "nombre": "Beto",
+            "n": 6
+          }
+        ]
+      },
+      "4": {
+        "total": 23,
+        "entregados": 23,
+        "realiz_terminado": {
+          "avg": 3.4,
+          "min": 2,
+          "max": 6,
+          "n": 23
+        },
+        "terminado_entregado": {
+          "avg": 0.4,
+          "min": 0,
+          "max": 2,
+          "n": 23
+        },
+        "realiz_entregado": {
+          "avg": 3.8,
+          "min": 2,
+          "max": 8,
+          "n": 23
+        },
+        "entrega_real": {
+          "n": 23,
+          "a_tiempo": 23,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 21,
+          "pct_1dia": 91.3,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.2,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 2
+            },
+            {
+              "dias": 1,
+              "n": 4
+            },
+            {
+              "dias": 2,
+              "n": 5
+            },
+            {
+              "dias": 3,
+              "n": 6
+            },
+            {
+              "dias": 4,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 3
+            },
+            {
+              "dias": 8,
+              "n": 2
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 23,
+          "ok": 21,
+          "fuera": 2,
+          "pct_ok": 91.3,
+          "avg": 3.4,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 3
+            },
+            {
+              "dias": 3,
+              "n": 10
+            },
+            {
+              "dias": 4,
+              "n": 8
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 4
+          },
+          {
+            "nombre": "Castellón",
+            "n": 4
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 7
+          },
+          {
+            "nombre": "Toriz",
+            "n": 8
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 11
+          },
+          {
+            "nombre": "Beto",
+            "n": 11
+          },
+          {
+            "nombre": "Mayra",
+            "n": 1
+          }
+        ]
+      },
+      "5": {
+        "total": 28,
+        "entregados": 25,
+        "realiz_terminado": {
+          "avg": 3.8,
+          "min": 2,
+          "max": 16,
+          "n": 25
+        },
+        "terminado_entregado": {
+          "avg": 1.0,
+          "min": 0,
+          "max": 5,
+          "n": 25
+        },
+        "realiz_entregado": {
+          "avg": 4.8,
+          "min": 3,
+          "max": 21,
+          "n": 25
+        },
+        "entrega_real": {
+          "n": 25,
+          "a_tiempo": 25,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 25,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.3,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 15
+            },
+            {
+              "dias": 2,
+              "n": 7
+            },
+            {
+              "dias": 3,
+              "n": 1
+            },
+            {
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 17,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 25,
+          "ok": 24,
+          "fuera": 1,
+          "pct_ok": 96.0,
+          "avg": 3.8,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 4
+            },
+            {
+              "dias": 3,
+              "n": 9
+            },
+            {
+              "dias": 4,
+              "n": 11
+            },
+            {
+              "dias": 16,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 6
+          },
+          {
+            "nombre": "Castellón",
+            "n": 3
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 6
+          },
+          {
+            "nombre": "Toriz",
+            "n": 10
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 13
+          },
+          {
+            "nombre": "Beto",
+            "n": 12
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 2
+          }
+        ]
+      },
+      "6": {
+        "total": 43,
+        "entregados": 43,
+        "realiz_terminado": {
+          "avg": 3.4,
+          "min": 2,
+          "max": 4,
+          "n": 40
+        },
+        "terminado_entregado": {
+          "avg": 0.7,
+          "min": -2,
+          "max": 3,
+          "n": 40
+        },
+        "realiz_entregado": {
+          "avg": 4.0,
+          "min": 1,
+          "max": 6,
+          "n": 43
+        },
+        "entrega_real": {
+          "n": 43,
+          "a_tiempo": 43,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 43,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.7,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 6
+            },
+            {
+              "dias": 2,
+              "n": 18
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 4,
+              "n": 1
+            },
+            {
+              "dias": 5,
+              "n": 3
+            },
+            {
+              "dias": 6,
+              "n": 3
+            },
+            {
+              "dias": 7,
+              "n": 4
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 13,
+              "n": 1
+            },
+            {
+              "dias": 17,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 40,
+          "ok": 40,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.4,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 5
+            },
+            {
+              "dias": 3,
+              "n": 15
+            },
+            {
+              "dias": 4,
+              "n": 20
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 13
+          },
+          {
+            "nombre": "Castellón",
+            "n": 5
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 8
+          },
+          {
+            "nombre": "Toriz",
+            "n": 17
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 3
+          },
+          {
+            "nombre": "Beto",
+            "n": 38
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          }
+        ]
+      },
+      "7": {
+        "total": 39,
+        "entregados": 35,
+        "realiz_terminado": {
+          "avg": 4.1,
+          "min": 2,
+          "max": 23,
+          "n": 35
+        },
+        "terminado_entregado": {
+          "avg": 1.8,
+          "min": 0,
+          "max": 20,
+          "n": 32
+        },
+        "realiz_entregado": {
+          "avg": 5.9,
+          "min": 3,
+          "max": 43,
+          "n": 34
+        },
+        "entrega_real": {
+          "n": 34,
+          "a_tiempo": 33,
+          "tarde": 1,
+          "pct_a_tiempo": 97.1,
+          "un_dia_antes": 33,
+          "pct_1dia": 97.1,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -25,
+              "n": 1
+            },
+            {
+              "dias": 1,
+              "n": 2
+            },
+            {
+              "dias": 2,
+              "n": 11
+            },
+            {
+              "dias": 3,
+              "n": 6
+            },
+            {
+              "dias": 4,
+              "n": 6
+            },
+            {
+              "dias": 5,
+              "n": 4
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 23,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 35,
+          "ok": 34,
+          "fuera": 1,
+          "pct_ok": 97.1,
+          "avg": 4.1,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 4
+            },
+            {
+              "dias": 3,
+              "n": 8
+            },
+            {
+              "dias": 4,
+              "n": 22
+            },
+            {
+              "dias": 23,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 11
+          },
+          {
+            "nombre": "Castellón",
+            "n": 3
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 9
+          },
+          {
+            "nombre": "Toriz",
+            "n": 14
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 18
+          },
+          {
+            "nombre": "Beto",
+            "n": 18
+          },
+          {
+            "nombre": "Humberto",
+            "n": 1
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          }
+        ]
+      },
+      "8": {
+        "total": 41,
+        "entregados": 37,
+        "realiz_terminado": {
+          "avg": 3.8,
+          "min": 2,
+          "max": 7,
+          "n": 39
+        },
+        "terminado_entregado": {
+          "avg": 1.5,
+          "min": 0,
+          "max": 7,
+          "n": 36
+        },
+        "realiz_entregado": {
+          "avg": 5.3,
+          "min": 3,
+          "max": 11,
+          "n": 37
+        },
+        "entrega_real": {
+          "n": 37,
+          "a_tiempo": 37,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 34,
+          "pct_1dia": 91.9,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 3
+            },
+            {
+              "dias": 1,
+              "n": 18
+            },
+            {
+              "dias": 2,
+              "n": 8
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 17,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 39,
+          "ok": 32,
+          "fuera": 7,
+          "pct_ok": 82.1,
+          "avg": 3.8,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 2
+            },
+            {
+              "dias": 3,
+              "n": 14
+            },
+            {
+              "dias": 4,
+              "n": 16
+            },
+            {
+              "dias": 5,
+              "n": 4
+            },
+            {
+              "dias": 6,
+              "n": 2
+            },
+            {
+              "dias": 7,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 15
+          },
+          {
+            "nombre": "Castellón",
+            "n": 3
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 6
+          },
+          {
+            "nombre": "Toriz",
+            "n": 14
+          },
+          {
+            "nombre": "Blanca",
+            "n": 3
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 19
+          },
+          {
+            "nombre": "Beto",
+            "n": 19
+          },
+          {
+            "nombre": "Otros",
+            "n": 3
+          }
+        ]
+      },
+      "9": {
+        "total": 37,
+        "entregados": 30,
+        "realiz_terminado": {
+          "avg": 1.9,
+          "min": -19,
+          "max": 4,
+          "n": 33
+        },
+        "terminado_entregado": {
+          "avg": 1.8,
+          "min": 0,
+          "max": 23,
+          "n": 30
+        },
+        "realiz_entregado": {
+          "avg": 4.2,
+          "min": 3,
+          "max": 6,
+          "n": 30
+        },
+        "entrega_real": {
+          "n": 30,
+          "a_tiempo": 30,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 30,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 4.6,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 2
+            },
+            {
+              "dias": 2,
+              "n": 9
+            },
+            {
+              "dias": 3,
+              "n": 7
+            },
+            {
+              "dias": 4,
+              "n": 3
+            },
+            {
+              "dias": 5,
+              "n": 2
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 2
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 18,
+              "n": 1
+            },
+            {
+              "dias": 21,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 33,
+          "ok": 33,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 1.9,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -19,
+              "n": 2
+            },
+            {
+              "dias": 2,
+              "n": 5
+            },
+            {
+              "dias": 3,
+              "n": 13
+            },
+            {
+              "dias": 4,
+              "n": 13
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 12
+          },
+          {
+            "nombre": "Castellón",
+            "n": 3
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 7
+          },
+          {
+            "nombre": "Toriz",
+            "n": 8
+          },
+          {
+            "nombre": "Blanca",
+            "n": 2
+          },
+          {
+            "nombre": "Otros",
+            "n": 5
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 16
+          },
+          {
+            "nombre": "Beto",
+            "n": 15
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 4
+          }
+        ]
+      },
+      "10": {
+        "total": 62,
+        "entregados": 62,
+        "realiz_terminado": {
+          "avg": 3.3,
+          "min": 2,
+          "max": 7,
+          "n": 62
+        },
+        "terminado_entregado": {
+          "avg": 1.5,
+          "min": 0,
+          "max": 22,
+          "n": 62
+        },
+        "realiz_entregado": {
+          "avg": 4.8,
+          "min": 2,
+          "max": 26,
+          "n": 62
+        },
+        "entrega_real": {
+          "n": 62,
+          "a_tiempo": 62,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 61,
+          "pct_1dia": 98.4,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 1
+            },
+            {
+              "dias": 1,
+              "n": 4
+            },
+            {
+              "dias": 2,
+              "n": 31
+            },
+            {
+              "dias": 3,
+              "n": 6
+            },
+            {
+              "dias": 4,
+              "n": 7
+            },
+            {
+              "dias": 5,
+              "n": 5
+            },
+            {
+              "dias": 6,
+              "n": 5
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 10,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 62,
+          "ok": 61,
+          "fuera": 1,
+          "pct_ok": 98.4,
+          "avg": 3.3,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 8
+            },
+            {
+              "dias": 3,
+              "n": 29
+            },
+            {
+              "dias": 4,
+              "n": 24
+            },
+            {
+              "dias": 7,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 5
+          },
+          {
+            "nombre": "Castellón",
+            "n": 12
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 10
+          },
+          {
+            "nombre": "Toriz",
+            "n": 21
+          },
+          {
+            "nombre": "Blanca",
+            "n": 14
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 24
+          },
+          {
+            "nombre": "Beto",
+            "n": 23
+          },
+          {
+            "nombre": "Otros",
+            "n": 15
+          }
+        ]
+      },
+      "11": {
+        "total": 61,
+        "entregados": 56,
+        "realiz_terminado": {
+          "avg": 3.6,
+          "min": 2,
+          "max": 5,
+          "n": 60
+        },
+        "terminado_entregado": {
+          "avg": 1.4,
+          "min": 0,
+          "max": 16,
+          "n": 56
+        },
+        "realiz_entregado": {
+          "avg": 5.0,
+          "min": 2,
+          "max": 20,
+          "n": 56
+        },
+        "entrega_real": {
+          "n": 56,
+          "a_tiempo": 55,
+          "tarde": 1,
+          "pct_a_tiempo": 98.2,
+          "un_dia_antes": 53,
+          "pct_1dia": 94.6,
+          "dias_antes_obj": 1,
+          "avg_antes": 1.9,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -1,
+              "n": 1
+            },
+            {
+              "dias": 0,
+              "n": 2
+            },
+            {
+              "dias": 1,
+              "n": 25
+            },
+            {
+              "dias": 2,
+              "n": 16
+            },
+            {
+              "dias": 3,
+              "n": 6
+            },
+            {
+              "dias": 4,
+              "n": 1
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 4
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 60,
+          "ok": 57,
+          "fuera": 3,
+          "pct_ok": 95.0,
+          "avg": 3.6,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 5
+            },
+            {
+              "dias": 3,
+              "n": 17
+            },
+            {
+              "dias": 4,
+              "n": 35
+            },
+            {
+              "dias": 5,
+              "n": 3
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 4
+          },
+          {
+            "nombre": "Castellón",
+            "n": 11
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 15
+          },
+          {
+            "nombre": "Toriz",
+            "n": 18
+          },
+          {
+            "nombre": "Blanca",
+            "n": 12
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 23
+          },
+          {
+            "nombre": "Beto",
+            "n": 21
+          },
+          {
+            "nombre": "Otros",
+            "n": 16
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ]
+      },
+      "12": {
+        "total": 51,
+        "entregados": 51,
+        "realiz_terminado": {
+          "avg": 7.3,
+          "min": 3,
+          "max": 157,
+          "n": 51
+        },
+        "terminado_entregado": {
+          "avg": 3.0,
+          "min": -1,
+          "max": 15,
+          "n": 50
+        },
+        "realiz_entregado": {
+          "avg": 7.5,
+          "min": 3,
+          "max": 27,
+          "n": 51
+        },
+        "entrega_real": {
+          "n": 50,
+          "a_tiempo": 50,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 49,
+          "pct_1dia": 98.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 1.6,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 1
+            },
+            {
+              "dias": 1,
+              "n": 25
+            },
+            {
+              "dias": 2,
+              "n": 17
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 4,
+              "n": 2
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 51,
+          "ok": 44,
+          "fuera": 7,
+          "pct_ok": 86.3,
+          "avg": 7.3,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 3,
+              "n": 9
+            },
+            {
+              "dias": 4,
+              "n": 35
+            },
+            {
+              "dias": 5,
+              "n": 4
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 21,
+              "n": 1
+            },
+            {
+              "dias": 157,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 4
+          },
+          {
+            "nombre": "Castellón",
+            "n": 14
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 16
+          },
+          {
+            "nombre": "Toriz",
+            "n": 16
+          },
+          {
+            "nombre": "Blanca",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 25
+          },
+          {
+            "nombre": "Beto",
+            "n": 25
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ]
+      },
+      "13": {
+        "total": 58,
+        "entregados": 56,
+        "realiz_terminado": {
+          "avg": 4.0,
+          "min": 2,
+          "max": 9,
+          "n": 58
+        },
+        "terminado_entregado": {
+          "avg": 3.5,
+          "min": -1,
+          "max": 10,
+          "n": 56
+        },
+        "realiz_entregado": {
+          "avg": 7.5,
+          "min": 4,
+          "max": 14,
+          "n": 56
+        },
+        "entrega_real": {
+          "n": 56,
+          "a_tiempo": 56,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 56,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 1.5,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 33
+            },
+            {
+              "dias": 2,
+              "n": 19
+            },
+            {
+              "dias": 3,
+              "n": 4
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 58,
+          "ok": 54,
+          "fuera": 4,
+          "pct_ok": 93.1,
+          "avg": 4.0,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 1
+            },
+            {
+              "dias": 3,
+              "n": 9
+            },
+            {
+              "dias": 4,
+              "n": 44
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 2
+            },
+            {
+              "dias": 9,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 6
+          },
+          {
+            "nombre": "Castellón",
+            "n": 16
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 14
+          },
+          {
+            "nombre": "Toriz",
+            "n": 22
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 26
+          },
+          {
+            "nombre": "Beto",
+            "n": 29
+          },
+          {
+            "nombre": "Otros",
+            "n": 3
+          }
+        ]
+      },
+      "14": {
+        "total": 39,
+        "entregados": 39,
+        "realiz_terminado": {
+          "avg": 3.8,
+          "min": 1,
+          "max": 4,
+          "n": 39
+        },
+        "terminado_entregado": {
+          "avg": 3.3,
+          "min": 0,
+          "max": 21,
+          "n": 39
+        },
+        "realiz_entregado": {
+          "avg": 7.1,
+          "min": 4,
+          "max": 25,
+          "n": 39
+        },
+        "entrega_real": {
+          "n": 39,
+          "a_tiempo": 39,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 39,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 1.6,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 22
+            },
+            {
+              "dias": 2,
+              "n": 13
+            },
+            {
+              "dias": 3,
+              "n": 3
+            },
+            {
+              "dias": 4,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 39,
+          "ok": 39,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.8,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 1
+            },
+            {
+              "dias": 3,
+              "n": 3
+            },
+            {
+              "dias": 4,
+              "n": 35
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Castellón",
+            "n": 10
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 15
+          },
+          {
+            "nombre": "Toriz",
+            "n": 13
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 19
+          },
+          {
+            "nombre": "Beto",
+            "n": 19
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ]
+      },
+      "15": {
+        "total": 47,
+        "entregados": 47,
+        "realiz_terminado": {
+          "avg": 3.5,
+          "min": 2,
+          "max": 4,
+          "n": 47
+        },
+        "terminado_entregado": {
+          "avg": 3.8,
+          "min": 0,
+          "max": 19,
+          "n": 47
+        },
+        "realiz_entregado": {
+          "avg": 7.3,
+          "min": 3,
+          "max": 22,
+          "n": 47
+        },
+        "entrega_real": {
+          "n": 47,
+          "a_tiempo": 47,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 47,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 1
+            },
+            {
+              "dias": 2,
+              "n": 34
+            },
+            {
+              "dias": 3,
+              "n": 8
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 2
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 47,
+          "ok": 47,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.5,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 3
+            },
+            {
+              "dias": 3,
+              "n": 17
+            },
+            {
+              "dias": 4,
+              "n": 27
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 4
+          },
+          {
+            "nombre": "Castellón",
+            "n": 13
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 15
+          },
+          {
+            "nombre": "Toriz",
+            "n": 15
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 24
+          },
+          {
+            "nombre": "Beto",
+            "n": 23
+          }
+        ]
+      },
+      "16": {
+        "total": 69,
+        "entregados": 69,
+        "realiz_terminado": {
+          "avg": 3.6,
+          "min": 2,
+          "max": 4,
+          "n": 69
+        },
+        "terminado_entregado": {
+          "avg": 3.3,
+          "min": 0,
+          "max": 22,
+          "n": 68
+        },
+        "realiz_entregado": {
+          "avg": 6.9,
+          "min": 3,
+          "max": 26,
+          "n": 68
+        },
+        "entrega_real": {
+          "n": 68,
+          "a_tiempo": 68,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 68,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.3,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 15
+            },
+            {
+              "dias": 2,
+              "n": 26
+            },
+            {
+              "dias": 3,
+              "n": 22
+            },
+            {
+              "dias": 4,
+              "n": 3
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 69,
+          "ok": 69,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.6,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 2
+            },
+            {
+              "dias": 3,
+              "n": 23
+            },
+            {
+              "dias": 4,
+              "n": 44
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Castellón",
+            "n": 29
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 12
+          },
+          {
+            "nombre": "Toriz",
+            "n": 28
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 34
+          },
+          {
+            "nombre": "Beto",
+            "n": 35
+          }
+        ]
+      },
+      "17": {
+        "total": 76,
+        "entregados": 75,
+        "realiz_terminado": {
+          "avg": 3.9,
+          "min": 2,
+          "max": 25,
+          "n": 76
+        },
+        "terminado_entregado": {
+          "avg": 4.1,
+          "min": -1,
+          "max": 16,
+          "n": 75
+        },
+        "realiz_entregado": {
+          "avg": 8.0,
+          "min": 3,
+          "max": 25,
+          "n": 75
+        },
+        "entrega_real": {
+          "n": 75,
+          "a_tiempo": 75,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 75,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 38
+            },
+            {
+              "dias": 2,
+              "n": 25
+            },
+            {
+              "dias": 3,
+              "n": 1
+            },
+            {
+              "dias": 4,
+              "n": 7
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 11,
+              "n": 2
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 76,
+          "ok": 75,
+          "fuera": 1,
+          "pct_ok": 98.7,
+          "avg": 3.9,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 2
+            },
+            {
+              "dias": 3,
+              "n": 27
+            },
+            {
+              "dias": 4,
+              "n": 46
+            },
+            {
+              "dias": 25,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 8
+          },
+          {
+            "nombre": "Castellón",
+            "n": 21
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 15
+          },
+          {
+            "nombre": "Toriz",
+            "n": 32
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 38
+          },
+          {
+            "nombre": "Beto",
+            "n": 38
+          }
+        ]
+      },
+      "18": {
+        "total": 70,
+        "entregados": 69,
+        "realiz_terminado": {
+          "avg": 3.8,
+          "min": 2,
+          "max": 8,
+          "n": 69
+        },
+        "terminado_entregado": {
+          "avg": 3.1,
+          "min": 0,
+          "max": 10,
+          "n": 69
+        },
+        "realiz_entregado": {
+          "avg": 7.0,
+          "min": 4,
+          "max": 13,
+          "n": 69
+        },
+        "entrega_real": {
+          "n": 69,
+          "a_tiempo": 69,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 67,
+          "pct_1dia": 97.1,
+          "dias_antes_obj": 1,
+          "avg_antes": 1.8,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 2
+            },
+            {
+              "dias": 1,
+              "n": 31
+            },
+            {
+              "dias": 2,
+              "n": 19
+            },
+            {
+              "dias": 3,
+              "n": 14
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 69,
+          "ok": 68,
+          "fuera": 1,
+          "pct_ok": 98.6,
+          "avg": 3.8,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 1
+            },
+            {
+              "dias": 3,
+              "n": 15
+            },
+            {
+              "dias": 4,
+              "n": 52
+            },
+            {
+              "dias": 8,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Castellón",
+            "n": 21
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 15
+          },
+          {
+            "nombre": "Toriz",
+            "n": 33
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 34
+          },
+          {
+            "nombre": "Beto",
+            "n": 35
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ]
+      },
+      "19": {
+        "total": 32,
+        "entregados": 32,
+        "realiz_terminado": {
+          "avg": 3.5,
+          "min": 2,
+          "max": 4,
+          "n": 32
+        },
+        "terminado_entregado": {
+          "avg": 1.4,
+          "min": 0,
+          "max": 5,
+          "n": 32
+        },
+        "realiz_entregado": {
+          "avg": 4.9,
+          "min": 3,
+          "max": 9,
+          "n": 32
+        },
+        "entrega_real": {
+          "n": 32,
+          "a_tiempo": 32,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 32,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 4.8,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 5
+            },
+            {
+              "dias": 2,
+              "n": 6
+            },
+            {
+              "dias": 3,
+              "n": 4
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 2
+            },
+            {
+              "dias": 7,
+              "n": 5
+            },
+            {
+              "dias": 8,
+              "n": 4
+            },
+            {
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 10,
+              "n": 1
+            },
+            {
+              "dias": 13,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 32,
+          "ok": 32,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.5,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 2
+            },
+            {
+              "dias": 3,
+              "n": 13
+            },
+            {
+              "dias": 4,
+              "n": 17
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 4
+          },
+          {
+            "nombre": "Castellón",
+            "n": 7
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 8
+          },
+          {
+            "nombre": "Toriz",
+            "n": 13
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 16
+          },
+          {
+            "nombre": "Beto",
+            "n": 16
+          }
+        ]
+      },
+      "20": {
+        "total": 33,
+        "entregados": 33,
+        "realiz_terminado": {
+          "avg": 3.8,
+          "min": 3,
+          "max": 5,
+          "n": 33
+        },
+        "terminado_entregado": {
+          "avg": 0.5,
+          "min": 0,
+          "max": 3,
+          "n": 32
+        },
+        "realiz_entregado": {
+          "avg": 4.3,
+          "min": 3,
+          "max": 6,
+          "n": 32
+        },
+        "entrega_real": {
+          "n": 32,
+          "a_tiempo": 32,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 31,
+          "pct_1dia": 96.9,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.3,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 1
+            },
+            {
+              "dias": 1,
+              "n": 6
+            },
+            {
+              "dias": 2,
+              "n": 10
+            },
+            {
+              "dias": 3,
+              "n": 4
+            },
+            {
+              "dias": 4,
+              "n": 3
+            },
+            {
+              "dias": 5,
+              "n": 4
+            },
+            {
+              "dias": 7,
+              "n": 2
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 13,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 33,
+          "ok": 32,
+          "fuera": 1,
+          "pct_ok": 97.0,
+          "avg": 3.8,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 3,
+              "n": 7
+            },
+            {
+              "dias": 4,
+              "n": 25
+            },
+            {
+              "dias": 5,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 4
+          },
+          {
+            "nombre": "Castellón",
+            "n": 9
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 9
+          },
+          {
+            "nombre": "Toriz",
+            "n": 11
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 17
+          },
+          {
+            "nombre": "Beto",
+            "n": 16
+          }
+        ]
+      },
+      "21": {
+        "total": 20,
+        "entregados": 20,
+        "realiz_terminado": {
+          "avg": 3.5,
+          "min": 2,
+          "max": 9,
+          "n": 20
+        },
+        "terminado_entregado": {
+          "avg": 0.3,
+          "min": 0,
+          "max": 1,
+          "n": 20
+        },
+        "realiz_entregado": {
+          "avg": 3.9,
+          "min": 3,
+          "max": 10,
+          "n": 20
+        },
+        "entrega_real": {
+          "n": 20,
+          "a_tiempo": 20,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 20,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.6,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 8
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 2
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 9,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 20,
+          "ok": 19,
+          "fuera": 1,
+          "pct_ok": 95.0,
+          "avg": 3.5,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 4
+            },
+            {
+              "dias": 3,
+              "n": 6
+            },
+            {
+              "dias": 4,
+              "n": 9
+            },
+            {
+              "dias": 9,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 3
+          },
+          {
+            "nombre": "Castellón",
+            "n": 4
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 6
+          },
+          {
+            "nombre": "Toriz",
+            "n": 7
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 10
+          },
+          {
+            "nombre": "Beto",
+            "n": 10
+          }
+        ]
+      },
+      "22": {
+        "total": 24,
+        "entregados": 24,
+        "realiz_terminado": {
+          "avg": 1.5,
+          "min": -47,
+          "max": 4,
+          "n": 24
+        },
+        "terminado_entregado": {
+          "avg": 3.5,
+          "min": 0,
+          "max": 51,
+          "n": 24
+        },
+        "realiz_entregado": {
+          "avg": 5.0,
+          "min": 3,
+          "max": 31,
+          "n": 24
+        },
+        "entrega_real": {
+          "n": 24,
+          "a_tiempo": 23,
+          "tarde": 1,
+          "pct_a_tiempo": 95.8,
+          "un_dia_antes": 23,
+          "pct_1dia": 95.8,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -25,
+              "n": 1
+            },
+            {
+              "dias": 1,
+              "n": 1
+            },
+            {
+              "dias": 2,
+              "n": 6
+            },
+            {
+              "dias": 3,
+              "n": 9
+            },
+            {
+              "dias": 4,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 10,
+              "n": 1
+            },
+            {
+              "dias": 11,
+              "n": 1
+            },
+            {
+              "dias": 14,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 24,
+          "ok": 24,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 1.5,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -47,
+              "n": 1
+            },
+            {
+              "dias": 2,
+              "n": 3
+            },
+            {
+              "dias": 3,
+              "n": 4
+            },
+            {
+              "dias": 4,
+              "n": 16
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 2
+          },
+          {
+            "nombre": "Castellón",
+            "n": 7
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 7
+          },
+          {
+            "nombre": "Toriz",
+            "n": 8
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 11
+          },
+          {
+            "nombre": "Beto",
+            "n": 13
+          }
+        ]
+      },
+      "23": {
+        "total": 42,
+        "entregados": 34,
+        "realiz_terminado": {
+          "avg": 5.4,
+          "min": 2,
+          "max": 83,
+          "n": 41
+        },
+        "terminado_entregado": {
+          "avg": 1.9,
+          "min": 0,
+          "max": 14,
+          "n": 34
+        },
+        "realiz_entregado": {
+          "avg": 5.3,
+          "min": 2,
+          "max": 17,
+          "n": 34
+        },
+        "entrega_real": {
+          "n": 34,
+          "a_tiempo": 34,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 34,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.6,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 19
+            },
+            {
+              "dias": 2,
+              "n": 5
+            },
+            {
+              "dias": 3,
+              "n": 4
+            },
+            {
+              "dias": 4,
+              "n": 1
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 18,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 41,
+          "ok": 39,
+          "fuera": 2,
+          "pct_ok": 95.1,
+          "avg": 5.4,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 4
+            },
+            {
+              "dias": 3,
+              "n": 15
+            },
+            {
+              "dias": 4,
+              "n": 20
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 83,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 6
+          },
+          {
+            "nombre": "Castellón",
+            "n": 9
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 10
+          },
+          {
+            "nombre": "Toriz",
+            "n": 15
+          },
+          {
+            "nombre": "Blanca",
+            "n": 2
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 20
+          },
+          {
+            "nombre": "Beto",
+            "n": 20
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 2
+          }
+        ]
+      },
+      "24": {
+        "total": 49,
+        "entregados": 41,
+        "realiz_terminado": {
+          "avg": 3.6,
+          "min": 2,
+          "max": 5,
+          "n": 44
+        },
+        "terminado_entregado": {
+          "avg": 1.8,
+          "min": 0,
+          "max": 7,
+          "n": 37
+        },
+        "realiz_entregado": {
+          "avg": 5.3,
+          "min": 3,
+          "max": 11,
+          "n": 41
+        },
+        "entrega_real": {
+          "n": 37,
+          "a_tiempo": 37,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 37,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 1.8,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 19
+            },
+            {
+              "dias": 2,
+              "n": 11
+            },
+            {
+              "dias": 3,
+              "n": 5
+            },
+            {
+              "dias": 4,
+              "n": 1
+            },
+            {
+              "dias": 5,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 44,
+          "ok": 42,
+          "fuera": 2,
+          "pct_ok": 95.5,
+          "avg": 3.6,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 4
+            },
+            {
+              "dias": 3,
+              "n": 10
+            },
+            {
+              "dias": 4,
+              "n": 28
+            },
+            {
+              "dias": 5,
+              "n": 2
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 3
+          },
+          {
+            "nombre": "Castellón",
+            "n": 10
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 14
+          },
+          {
+            "nombre": "Toriz",
+            "n": 18
+          },
+          {
+            "nombre": "Blanca",
+            "n": 3
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 23
+          },
+          {
+            "nombre": "Beto",
+            "n": 22
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 4
+          }
+        ]
+      }
+    },
+    "por_mes": {
+      "2026-01": {
+        "total": 81,
+        "entregados": 78,
+        "realiz_terminado": {
+          "avg": 3.6,
+          "min": 2,
+          "max": 16,
+          "n": 77
+        },
+        "terminado_entregado": {
+          "avg": 0.6,
+          "min": -1,
+          "max": 5,
+          "n": 77
+        },
+        "realiz_entregado": {
+          "avg": 4.5,
+          "min": 2,
+          "max": 28,
+          "n": 78
+        },
+        "entrega_real": {
+          "n": 78,
+          "a_tiempo": 77,
+          "tarde": 1,
+          "pct_a_tiempo": 98.7,
+          "un_dia_antes": 75,
+          "pct_1dia": 96.2,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.7,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -19,
+              "n": 1
+            },
+            {
+              "dias": 0,
+              "n": 2
+            },
+            {
+              "dias": 1,
+              "n": 23
+            },
+            {
+              "dias": 2,
+              "n": 15
+            },
+            {
+              "dias": 3,
+              "n": 19
+            },
+            {
+              "dias": 4,
+              "n": 6
+            },
+            {
+              "dias": 5,
+              "n": 3
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 3
+            },
+            {
+              "dias": 8,
+              "n": 2
+            },
+            {
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 10,
+              "n": 1
+            },
+            {
+              "dias": 17,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 77,
+          "ok": 73,
+          "fuera": 4,
+          "pct_ok": 94.8,
+          "avg": 3.6,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 14
+            },
+            {
+              "dias": 3,
+              "n": 30
+            },
+            {
+              "dias": 4,
+              "n": 29
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 16,
+              "n": 2
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 15
+          },
+          {
+            "nombre": "Castellón",
+            "n": 10
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 21
+          },
+          {
+            "nombre": "Toriz",
+            "n": 32
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 38
+          },
+          {
+            "nombre": "Beto",
+            "n": 38
+          },
+          {
+            "nombre": "Mayra",
+            "n": 1
+          },
+          {
+            "nombre": "Otros",
+            "n": 2
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 2
+          }
+        ]
+      },
+      "2026-02": {
+        "total": 160,
+        "entregados": 145,
+        "realiz_terminado": {
+          "avg": 3.3,
+          "min": -19,
+          "max": 23,
+          "n": 147
+        },
+        "terminado_entregado": {
+          "avg": 1.4,
+          "min": -2,
+          "max": 23,
+          "n": 138
+        },
+        "realiz_entregado": {
+          "avg": 4.8,
+          "min": 1,
+          "max": 43,
+          "n": 144
+        },
+        "entrega_real": {
+          "n": 144,
+          "a_tiempo": 143,
+          "tarde": 1,
+          "pct_a_tiempo": 99.3,
+          "un_dia_antes": 140,
+          "pct_1dia": 97.2,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.3,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -25,
+              "n": 1
+            },
+            {
+              "dias": 0,
+              "n": 3
+            },
+            {
+              "dias": 1,
+              "n": 28
+            },
+            {
+              "dias": 2,
+              "n": 46
+            },
+            {
+              "dias": 3,
+              "n": 23
+            },
+            {
+              "dias": 4,
+              "n": 10
+            },
+            {
+              "dias": 5,
+              "n": 10
+            },
+            {
+              "dias": 6,
+              "n": 6
+            },
+            {
+              "dias": 7,
+              "n": 7
+            },
+            {
+              "dias": 8,
+              "n": 2
+            },
+            {
+              "dias": 9,
+              "n": 2
+            },
+            {
+              "dias": 13,
+              "n": 1
+            },
+            {
+              "dias": 17,
+              "n": 2
+            },
+            {
+              "dias": 18,
+              "n": 1
+            },
+            {
+              "dias": 21,
+              "n": 1
+            },
+            {
+              "dias": 23,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 147,
+          "ok": 139,
+          "fuera": 8,
+          "pct_ok": 94.6,
+          "avg": 3.3,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -19,
+              "n": 2
+            },
+            {
+              "dias": 2,
+              "n": 16
+            },
+            {
+              "dias": 3,
+              "n": 50
+            },
+            {
+              "dias": 4,
+              "n": 71
+            },
+            {
+              "dias": 5,
+              "n": 4
+            },
+            {
+              "dias": 6,
+              "n": 2
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 23,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 51
+          },
+          {
+            "nombre": "Castellón",
+            "n": 14
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 30
+          },
+          {
+            "nombre": "Toriz",
+            "n": 53
+          },
+          {
+            "nombre": "Blanca",
+            "n": 5
+          },
+          {
+            "nombre": "Otros",
+            "n": 7
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 56
+          },
+          {
+            "nombre": "Beto",
+            "n": 90
+          },
+          {
+            "nombre": "Humberto",
+            "n": 1
+          },
+          {
+            "nombre": "Otros",
+            "n": 9
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 4
+          }
+        ]
+      },
+      "2026-03": {
+        "total": 254,
+        "entregados": 247,
+        "realiz_terminado": {
+          "avg": 4.4,
+          "min": 1,
+          "max": 157,
+          "n": 253
+        },
+        "terminado_entregado": {
+          "avg": 2.4,
+          "min": -1,
+          "max": 22,
+          "n": 246
+        },
+        "realiz_entregado": {
+          "avg": 6.2,
+          "min": 2,
+          "max": 27,
+          "n": 247
+        },
+        "entrega_real": {
+          "n": 246,
+          "a_tiempo": 245,
+          "tarde": 1,
+          "pct_a_tiempo": 99.6,
+          "un_dia_antes": 241,
+          "pct_1dia": 98.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.0,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -1,
+              "n": 1
+            },
+            {
+              "dias": 0,
+              "n": 4
+            },
+            {
+              "dias": 1,
+              "n": 100
+            },
+            {
+              "dias": 2,
+              "n": 91
+            },
+            {
+              "dias": 3,
+              "n": 22
+            },
+            {
+              "dias": 4,
+              "n": 10
+            },
+            {
+              "dias": 5,
+              "n": 6
+            },
+            {
+              "dias": 6,
+              "n": 9
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 10,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 253,
+          "ok": 238,
+          "fuera": 15,
+          "pct_ok": 94.1,
+          "avg": 4.4,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 1
+            },
+            {
+              "dias": 2,
+              "n": 14
+            },
+            {
+              "dias": 3,
+              "n": 67
+            },
+            {
+              "dias": 4,
+              "n": 156
+            },
+            {
+              "dias": 5,
+              "n": 8
+            },
+            {
+              "dias": 6,
+              "n": 3
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 21,
+              "n": 1
+            },
+            {
+              "dias": 157,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 19
+          },
+          {
+            "nombre": "Castellón",
+            "n": 57
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 65
+          },
+          {
+            "nombre": "Toriz",
+            "n": 84
+          },
+          {
+            "nombre": "Blanca",
+            "n": 27
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 109
+          },
+          {
+            "nombre": "Beto",
+            "n": 108
+          },
+          {
+            "nombre": "Otros",
+            "n": 35
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 2
+          }
+        ]
+      },
+      "2026-04": {
+        "total": 275,
+        "entregados": 273,
+        "realiz_terminado": {
+          "avg": 3.7,
+          "min": 2,
+          "max": 25,
+          "n": 274
+        },
+        "terminado_entregado": {
+          "avg": 3.6,
+          "min": -1,
+          "max": 22,
+          "n": 272
+        },
+        "realiz_entregado": {
+          "avg": 7.3,
+          "min": 3,
+          "max": 26,
+          "n": 272
+        },
+        "entrega_real": {
+          "n": 272,
+          "a_tiempo": 272,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 270,
+          "pct_1dia": 99.3,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.1,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 0,
+              "n": 2
+            },
+            {
+              "dias": 1,
+              "n": 92
+            },
+            {
+              "dias": 2,
+              "n": 107
+            },
+            {
+              "dias": 3,
+              "n": 47
+            },
+            {
+              "dias": 4,
+              "n": 15
+            },
+            {
+              "dias": 5,
+              "n": 4
+            },
+            {
+              "dias": 6,
+              "n": 2
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 11,
+              "n": 2
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 274,
+          "ok": 272,
+          "fuera": 2,
+          "pct_ok": 99.3,
+          "avg": 3.7,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 8
+            },
+            {
+              "dias": 3,
+              "n": 82
+            },
+            {
+              "dias": 4,
+              "n": 182
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 25,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 12
+          },
+          {
+            "nombre": "Castellón",
+            "n": 88
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 62
+          },
+          {
+            "nombre": "Toriz",
+            "n": 112
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 136
+          },
+          {
+            "nombre": "Beto",
+            "n": 138
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ]
+      },
+      "2026-05": {
+        "total": 113,
+        "entregados": 113,
+        "realiz_terminado": {
+          "avg": 3.2,
+          "min": -47,
+          "max": 9,
+          "n": 113
+        },
+        "terminado_entregado": {
+          "avg": 1.5,
+          "min": 0,
+          "max": 51,
+          "n": 112
+        },
+        "realiz_entregado": {
+          "avg": 4.7,
+          "min": 3,
+          "max": 31,
+          "n": 112
+        },
+        "entrega_real": {
+          "n": 112,
+          "a_tiempo": 111,
+          "tarde": 1,
+          "pct_a_tiempo": 99.1,
+          "un_dia_antes": 110,
+          "pct_1dia": 98.2,
+          "dias_antes_obj": 1,
+          "avg_antes": 3.7,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -25,
+              "n": 1
+            },
+            {
+              "dias": 0,
+              "n": 1
+            },
+            {
+              "dias": 1,
+              "n": 14
+            },
+            {
+              "dias": 2,
+              "n": 32
+            },
+            {
+              "dias": 3,
+              "n": 22
+            },
+            {
+              "dias": 4,
+              "n": 8
+            },
+            {
+              "dias": 5,
+              "n": 7
+            },
+            {
+              "dias": 6,
+              "n": 3
+            },
+            {
+              "dias": 7,
+              "n": 9
+            },
+            {
+              "dias": 8,
+              "n": 7
+            },
+            {
+              "dias": 9,
+              "n": 2
+            },
+            {
+              "dias": 10,
+              "n": 2
+            },
+            {
+              "dias": 11,
+              "n": 1
+            },
+            {
+              "dias": 13,
+              "n": 2
+            },
+            {
+              "dias": 14,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 113,
+          "ok": 111,
+          "fuera": 2,
+          "pct_ok": 98.2,
+          "avg": 3.2,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": -47,
+              "n": 1
+            },
+            {
+              "dias": 2,
+              "n": 9
+            },
+            {
+              "dias": 3,
+              "n": 30
+            },
+            {
+              "dias": 4,
+              "n": 71
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 9,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 13
+          },
+          {
+            "nombre": "Castellón",
+            "n": 29
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 30
+          },
+          {
+            "nombre": "Toriz",
+            "n": 41
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 56
+          },
+          {
+            "nombre": "Beto",
+            "n": 57
+          }
+        ]
+      },
+      "2026-06": {
+        "total": 91,
+        "entregados": 75,
+        "realiz_terminado": {
+          "avg": 4.5,
+          "min": 2,
+          "max": 83,
+          "n": 85
+        },
+        "terminado_entregado": {
+          "avg": 1.8,
+          "min": 0,
+          "max": 14,
+          "n": 71
+        },
+        "realiz_entregado": {
+          "avg": 5.3,
+          "min": 2,
+          "max": 17,
+          "n": 75
+        },
+        "entrega_real": {
+          "n": 71,
+          "a_tiempo": 71,
+          "tarde": 0,
+          "pct_a_tiempo": 100.0,
+          "un_dia_antes": 71,
+          "pct_1dia": 100.0,
+          "dias_antes_obj": 1,
+          "avg_antes": 2.2,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 1,
+              "n": 38
+            },
+            {
+              "dias": 2,
+              "n": 16
+            },
+            {
+              "dias": 3,
+              "n": 9
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 2
+            },
+            {
+              "dias": 6,
+              "n": 1
+            },
+            {
+              "dias": 7,
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 1
+            },
+            {
+              "dias": 18,
+              "n": 1
+            }
+          ]
+        },
+        "realiz_term_obj": {
+          "n": 85,
+          "ok": 81,
+          "fuera": 4,
+          "pct_ok": 95.3,
+          "avg": 4.5,
+          "limite": 4,
+          "objetivo": 95,
+          "dist": [
+            {
+              "dias": 2,
+              "n": 8
+            },
+            {
+              "dias": 3,
+              "n": 25
+            },
+            {
+              "dias": 4,
+              "n": 48
+            },
+            {
+              "dias": 5,
+              "n": 3
+            },
+            {
+              "dias": 83,
+              "n": 1
+            }
+          ]
+        },
+        "internistas": [
+          {
+            "nombre": "Oropeza",
+            "n": 9
+          },
+          {
+            "nombre": "Castellón",
+            "n": 19
+          },
+          {
+            "nombre": "Santoyo",
+            "n": 24
+          },
+          {
+            "nombre": "Toriz",
+            "n": 33
+          },
+          {
+            "nombre": "Blanca",
+            "n": 5
+          },
+          {
+            "nombre": "Otros",
+            "n": 1
+          }
+        ],
+        "transcriptores_cnt": [
+          {
+            "nombre": "Casandra",
+            "n": 43
+          },
+          {
+            "nombre": "Beto",
+            "n": 42
+          },
+          {
+            "nombre": "(sin asignar)",
+            "n": 6
+          }
+        ]
+      }
+    },
+    "lista_semanas": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "lista_meses": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "obj_entrega_real": 95,
+    "obj_realiz_term": 95,
+    "lim_realiz_term": 4,
+    "patrones": {
+      "tendencia_semana": [
+        {
+          "periodo": "2",
+          "total": 17,
+          "pct_transc": 94.1,
+          "avg_transc": 4.0,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "3",
+          "total": 13,
+          "pct_transc": 100.0,
+          "avg_transc": 2.9,
+          "pct_entrega": 92.3
+        },
+        {
+          "periodo": "4",
+          "total": 23,
+          "pct_transc": 91.3,
+          "avg_transc": 3.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "5",
+          "total": 28,
+          "pct_transc": 96.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "6",
+          "total": 43,
+          "pct_transc": 100.0,
+          "avg_transc": 3.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "7",
+          "total": 39,
+          "pct_transc": 97.1,
+          "avg_transc": 4.1,
+          "pct_entrega": 97.1
+        },
+        {
+          "periodo": "8",
+          "total": 41,
+          "pct_transc": 82.1,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "9",
+          "total": 37,
+          "pct_transc": 100.0,
+          "avg_transc": 1.9,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "10",
+          "total": 62,
+          "pct_transc": 98.4,
+          "avg_transc": 3.3,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "11",
+          "total": 61,
+          "pct_transc": 95.0,
+          "avg_transc": 3.6,
+          "pct_entrega": 98.2
+        },
+        {
+          "periodo": "12",
+          "total": 51,
+          "pct_transc": 86.3,
+          "avg_transc": 7.3,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "13",
+          "total": 58,
+          "pct_transc": 93.1,
+          "avg_transc": 4.0,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "14",
+          "total": 39,
+          "pct_transc": 100.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "15",
+          "total": 47,
+          "pct_transc": 100.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "16",
+          "total": 69,
+          "pct_transc": 100.0,
+          "avg_transc": 3.6,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "17",
+          "total": 76,
+          "pct_transc": 98.7,
+          "avg_transc": 3.9,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "18",
+          "total": 70,
+          "pct_transc": 98.6,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "19",
+          "total": 32,
+          "pct_transc": 100.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "20",
+          "total": 33,
+          "pct_transc": 97.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "21",
+          "total": 20,
+          "pct_transc": 95.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "22",
+          "total": 24,
+          "pct_transc": 100.0,
+          "avg_transc": 1.5,
+          "pct_entrega": 95.8
+        },
+        {
+          "periodo": "23",
+          "total": 42,
+          "pct_transc": 95.1,
+          "avg_transc": 5.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "24",
+          "total": 49,
+          "pct_transc": 95.5,
+          "avg_transc": 3.6,
+          "pct_entrega": 100.0
+        }
+      ],
+      "tendencia_mes": [
+        {
+          "periodo": "2026-01",
+          "total": 81,
+          "pct_transc": 94.8,
+          "avg_transc": 3.6,
+          "pct_entrega": 98.7
+        },
+        {
+          "periodo": "2026-02",
+          "total": 160,
+          "pct_transc": 94.6,
+          "avg_transc": 3.3,
+          "pct_entrega": 99.3
+        },
+        {
+          "periodo": "2026-03",
+          "total": 254,
+          "pct_transc": 94.1,
+          "avg_transc": 4.4,
+          "pct_entrega": 99.6
+        },
+        {
+          "periodo": "2026-04",
+          "total": 275,
+          "pct_transc": 99.3,
+          "avg_transc": 3.7,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "2026-05",
+          "total": 113,
+          "pct_transc": 98.2,
+          "avg_transc": 3.2,
+          "pct_entrega": 99.1
+        },
+        {
+          "periodo": "2026-06",
+          "total": 91,
+          "pct_transc": 95.3,
+          "avg_transc": 4.5,
+          "pct_entrega": 100.0
+        }
+      ],
+      "por_dia": [
+        {
+          "dia": "Lunes",
+          "n": 116
+        },
+        {
+          "dia": "Martes",
+          "n": 111
+        },
+        {
+          "dia": "Miércoles",
+          "n": 135
+        },
+        {
+          "dia": "Jueves",
+          "n": 157
+        },
+        {
+          "dia": "Viernes",
+          "n": 266
+        },
+        {
+          "dia": "Sábado",
+          "n": 189
+        }
+      ],
+      "transc_perf": [
+        {
+          "nombre": "Beto",
+          "n": 467,
+          "pct_ok": 97.2,
+          "avg": 3.6
+        },
+        {
+          "nombre": "Casandra",
+          "n": 431,
+          "pct_ok": 96.1,
+          "avg": 4.0
+        },
+        {
+          "nombre": "Otros",
+          "n": 44,
+          "pct_ok": 90.9,
+          "avg": 3.7
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 5,
+          "pct_ok": 80.0,
+          "avg": 19.0
+        },
+        {
+          "nombre": "Mayra",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 2.0
+        },
+        {
+          "nombre": "Humberto",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 2.0
+        }
+      ],
+      "intern_perf": [
+        {
+          "nombre": "Toriz",
+          "n": 344,
+          "pct_ok": 80.8,
+          "avg": 5.7
+        },
+        {
+          "nombre": "Santoyo",
+          "n": 230,
+          "pct_ok": 84.3,
+          "avg": 5.9
+        },
+        {
+          "nombre": "Castellón",
+          "n": 213,
+          "pct_ok": 75.1,
+          "avg": 6.5
+        },
+        {
+          "nombre": "Oropeza",
+          "n": 114,
+          "pct_ok": 79.8,
+          "avg": 6.0
+        },
+        {
+          "nombre": "Blanca",
+          "n": 25,
+          "pct_ok": 96.0,
+          "avg": 3.9
+        },
+        {
+          "nombre": "Otros",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 5.0
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 1,
+          "pct_ok": 0.0,
+          "avg": 11.0
+        }
+      ],
+      "hallazgos": [
+        {
+          "tipo": "good",
+          "txt": "Ambos objetivos se cumplen: transcripción 96.3% (≥95%) y entrega 99.6% (≥95%)."
+        },
+        {
+          "tipo": "info",
+          "txt": "El Viernes concentra el mayor volumen de estudios (266, 27% del total). La carga se acumula a fin de semana (jueves a sábado), lo que presiona la transcripción de los días siguientes."
+        }
+      ]
+    }
+  },
+  "acciones": {
+    "semanal": [
+      {
+        "semana": "2",
+        "af_ind": null,
+        "chk_transc": 94.1,
+        "chk_1dia": 100.0,
+        "total_chk": 17,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Transcripción 94.1% en ≤4 días (<95%). Reforzar capacidad de transcripción esta semana."
+          }
+        ]
+      },
+      {
+        "semana": "3",
+        "af_ind": null,
+        "chk_transc": 100.0,
+        "chk_1dia": 92.3,
+        "total_chk": 13,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Entrega anticipada 92.3% (<95%). Adelantar entregas para dejar ≥1 día de margen."
+          }
+        ]
+      },
+      {
+        "semana": "4",
+        "af_ind": null,
+        "chk_transc": 91.3,
+        "chk_1dia": 91.3,
+        "total_chk": 23,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Transcripción 91.3% en ≤4 días (<95%). Reforzar capacidad de transcripción esta semana."
+          },
+          {
+            "tipo": "warn",
+            "txt": "Entrega anticipada 91.3% (<95%). Adelantar entregas para dejar ≥1 día de margen."
+          }
+        ]
+      },
+      {
+        "semana": "5",
+        "af_ind": null,
+        "chk_transc": 96.0,
+        "chk_1dia": 100.0,
+        "total_chk": 28,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "6",
+        "af_ind": null,
+        "chk_transc": 100.0,
+        "chk_1dia": 100.0,
+        "total_chk": 43,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "7",
+        "af_ind": null,
+        "chk_transc": 97.1,
+        "chk_1dia": 97.1,
+        "total_chk": 39,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "8",
+        "af_ind": null,
+        "chk_transc": 82.1,
+        "chk_1dia": 91.9,
+        "total_chk": 41,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Transcripción 82.1% en ≤4 días (<95%). Reforzar capacidad de transcripción esta semana."
+          },
+          {
+            "tipo": "warn",
+            "txt": "Entrega anticipada 91.9% (<95%). Adelantar entregas para dejar ≥1 día de margen."
+          }
+        ]
+      },
+      {
+        "semana": "9",
+        "af_ind": null,
+        "chk_transc": 100.0,
+        "chk_1dia": 100.0,
+        "total_chk": 37,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "10",
+        "af_ind": null,
+        "chk_transc": 98.4,
+        "chk_1dia": 98.4,
+        "total_chk": 62,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "11",
+        "af_ind": null,
+        "chk_transc": 95.0,
+        "chk_1dia": 94.6,
+        "total_chk": 61,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Entrega anticipada 94.6% (<95%). Adelantar entregas para dejar ≥1 día de margen."
+          }
+        ]
+      },
+      {
+        "semana": "12",
+        "af_ind": null,
+        "chk_transc": 86.3,
+        "chk_1dia": 98.0,
+        "total_chk": 51,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Transcripción 86.3% en ≤4 días (<95%). Reforzar capacidad de transcripción esta semana."
+          }
+        ]
+      },
+      {
+        "semana": "13",
+        "af_ind": null,
+        "chk_transc": 93.1,
+        "chk_1dia": 100.0,
+        "total_chk": 58,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "warn",
+            "txt": "Transcripción 93.1% en ≤4 días (<95%). Reforzar capacidad de transcripción esta semana."
+          }
+        ]
+      },
+      {
+        "semana": "14",
+        "af_ind": null,
+        "chk_transc": 100.0,
+        "chk_1dia": 100.0,
+        "total_chk": 39,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "15",
+        "af_ind": null,
+        "chk_transc": 100.0,
+        "chk_1dia": 100.0,
+        "total_chk": 47,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "16",
+        "af_ind": null,
+        "chk_transc": 100.0,
+        "chk_1dia": 100.0,
+        "total_chk": 69,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "17",
+        "af_ind": null,
+        "chk_transc": 98.7,
+        "chk_1dia": 100.0,
+        "total_chk": 76,
+        "estudios": null,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "18",
+        "af_ind": 98.1,
+        "chk_transc": 98.6,
+        "chk_1dia": 97.1,
+        "total_chk": 70,
+        "estudios": 1602,
+        "acciones": [
+          {
+            "tipo": "good",
+            "txt": "Semana en objetivo. Mantener el ritmo."
+          }
+        ]
+      },
+      {
+        "semana": "19",
+        "af_ind": 96.4,
+        "chk_transc": 100.0,
+        "chk_1dia": 100.0,
+        "total_chk": 32,
+        "estudios": 1401,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 96.4% (<98%). Enfocar en Resonancia (14), Densitometría (11)."
+          }
+        ]
+      },
+      {
+        "semana": "20",
+        "af_ind": 96.8,
+        "chk_transc": 97.0,
+        "chk_1dia": 96.9,
+        "total_chk": 33,
+        "estudios": 1280,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 96.8% (<98%). Enfocar en Ecosonografía (9), Resonancia (9)."
+          }
+        ]
+      },
+      {
+        "semana": "21",
+        "af_ind": 95.5,
+        "chk_transc": 95.0,
+        "chk_1dia": 100.0,
+        "total_chk": 20,
+        "estudios": 1275,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 95.5% (<98%). Enfocar en Densitometría (22), Radiología (18)."
+          }
+        ]
+      },
+      {
+        "semana": "22",
+        "af_ind": 96.2,
+        "chk_transc": 100.0,
+        "chk_1dia": 95.8,
+        "total_chk": 24,
+        "estudios": 1379,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 96.2% (<98%). Enfocar en Radiología (16), Resonancia (13)."
+          }
+        ]
+      },
+      {
+        "semana": "23",
+        "af_ind": 96.6,
+        "chk_transc": 95.1,
+        "chk_1dia": 100.0,
+        "total_chk": 42,
+        "estudios": 1255,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 96.6% (<98%). Enfocar en Resonancia (14), Tomografía (12)."
+          }
+        ]
+      },
+      {
+        "semana": "24",
+        "af_ind": 95.3,
+        "chk_transc": 95.5,
+        "chk_1dia": 100.0,
+        "total_chk": 49,
+        "estudios": 1392,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 95.3% (<98%). Enfocar en Radiología (15), Resonancia (13)."
+          }
+        ]
+      },
+      {
+        "semana": "25",
+        "af_ind": 97.4,
+        "chk_transc": null,
+        "chk_1dia": null,
+        "total_chk": null,
+        "estudios": 1438,
+        "acciones": [
+          {
+            "tipo": "bad",
+            "txt": "Cumplimiento 97.4% (<98%). Enfocar en Resonancia (12), Densitometría (8)."
+          }
+        ]
+      }
+    ],
+    "avisos": [
+      {
+        "tipo": "good",
+        "txt": "Transcripción ≤4 días: 96.3% — cumple el objetivo 95%."
+      },
+      {
+        "tipo": "good",
+        "txt": "Entrega ≥1 día antes: 98.3% — cumple el objetivo 95%."
+      },
+      {
+        "tipo": "warn",
+        "txt": "La semana 8 es la más baja en transcripción (82.1%). Revisar qué ocurrió (ausencias, picos de volumen)."
+      }
+    ],
+    "obj_af": 98,
+    "obj_transc": 95,
+    "obj_1dia": 95,
+    "patrones": {
+      "tendencia_semana": [
+        {
+          "periodo": "2",
+          "total": 17,
+          "pct_transc": 94.1,
+          "avg_transc": 4.0,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "3",
+          "total": 13,
+          "pct_transc": 100.0,
+          "avg_transc": 2.9,
+          "pct_entrega": 92.3
+        },
+        {
+          "periodo": "4",
+          "total": 23,
+          "pct_transc": 91.3,
+          "avg_transc": 3.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "5",
+          "total": 28,
+          "pct_transc": 96.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "6",
+          "total": 43,
+          "pct_transc": 100.0,
+          "avg_transc": 3.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "7",
+          "total": 39,
+          "pct_transc": 97.1,
+          "avg_transc": 4.1,
+          "pct_entrega": 97.1
+        },
+        {
+          "periodo": "8",
+          "total": 41,
+          "pct_transc": 82.1,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "9",
+          "total": 37,
+          "pct_transc": 100.0,
+          "avg_transc": 1.9,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "10",
+          "total": 62,
+          "pct_transc": 98.4,
+          "avg_transc": 3.3,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "11",
+          "total": 61,
+          "pct_transc": 95.0,
+          "avg_transc": 3.6,
+          "pct_entrega": 98.2
+        },
+        {
+          "periodo": "12",
+          "total": 51,
+          "pct_transc": 86.3,
+          "avg_transc": 7.3,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "13",
+          "total": 58,
+          "pct_transc": 93.1,
+          "avg_transc": 4.0,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "14",
+          "total": 39,
+          "pct_transc": 100.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "15",
+          "total": 47,
+          "pct_transc": 100.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "16",
+          "total": 69,
+          "pct_transc": 100.0,
+          "avg_transc": 3.6,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "17",
+          "total": 76,
+          "pct_transc": 98.7,
+          "avg_transc": 3.9,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "18",
+          "total": 70,
+          "pct_transc": 98.6,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "19",
+          "total": 32,
+          "pct_transc": 100.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "20",
+          "total": 33,
+          "pct_transc": 97.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "21",
+          "total": 20,
+          "pct_transc": 95.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "22",
+          "total": 24,
+          "pct_transc": 100.0,
+          "avg_transc": 1.5,
+          "pct_entrega": 95.8
+        },
+        {
+          "periodo": "23",
+          "total": 42,
+          "pct_transc": 95.1,
+          "avg_transc": 5.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "24",
+          "total": 49,
+          "pct_transc": 95.5,
+          "avg_transc": 3.6,
+          "pct_entrega": 100.0
+        }
+      ],
+      "tendencia_mes": [
+        {
+          "periodo": "2026-01",
+          "total": 81,
+          "pct_transc": 94.8,
+          "avg_transc": 3.6,
+          "pct_entrega": 98.7
+        },
+        {
+          "periodo": "2026-02",
+          "total": 160,
+          "pct_transc": 94.6,
+          "avg_transc": 3.3,
+          "pct_entrega": 99.3
+        },
+        {
+          "periodo": "2026-03",
+          "total": 254,
+          "pct_transc": 94.1,
+          "avg_transc": 4.4,
+          "pct_entrega": 99.6
+        },
+        {
+          "periodo": "2026-04",
+          "total": 275,
+          "pct_transc": 99.3,
+          "avg_transc": 3.7,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "2026-05",
+          "total": 113,
+          "pct_transc": 98.2,
+          "avg_transc": 3.2,
+          "pct_entrega": 99.1
+        },
+        {
+          "periodo": "2026-06",
+          "total": 91,
+          "pct_transc": 95.3,
+          "avg_transc": 4.5,
+          "pct_entrega": 100.0
+        }
+      ],
+      "por_dia": [
+        {
+          "dia": "Lunes",
+          "n": 116
+        },
+        {
+          "dia": "Martes",
+          "n": 111
+        },
+        {
+          "dia": "Miércoles",
+          "n": 135
+        },
+        {
+          "dia": "Jueves",
+          "n": 157
+        },
+        {
+          "dia": "Viernes",
+          "n": 266
+        },
+        {
+          "dia": "Sábado",
+          "n": 189
+        }
+      ],
+      "transc_perf": [
+        {
+          "nombre": "Beto",
+          "n": 467,
+          "pct_ok": 97.2,
+          "avg": 3.6
+        },
+        {
+          "nombre": "Casandra",
+          "n": 431,
+          "pct_ok": 96.1,
+          "avg": 4.0
+        },
+        {
+          "nombre": "Otros",
+          "n": 44,
+          "pct_ok": 90.9,
+          "avg": 3.7
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 5,
+          "pct_ok": 80.0,
+          "avg": 19.0
+        },
+        {
+          "nombre": "Mayra",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 2.0
+        },
+        {
+          "nombre": "Humberto",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 2.0
+        }
+      ],
+      "intern_perf": [
+        {
+          "nombre": "Toriz",
+          "n": 344,
+          "pct_ok": 80.8,
+          "avg": 5.7
+        },
+        {
+          "nombre": "Santoyo",
+          "n": 230,
+          "pct_ok": 84.3,
+          "avg": 5.9
+        },
+        {
+          "nombre": "Castellón",
+          "n": 213,
+          "pct_ok": 75.1,
+          "avg": 6.5
+        },
+        {
+          "nombre": "Oropeza",
+          "n": 114,
+          "pct_ok": 79.8,
+          "avg": 6.0
+        },
+        {
+          "nombre": "Blanca",
+          "n": 25,
+          "pct_ok": 96.0,
+          "avg": 3.9
+        },
+        {
+          "nombre": "Otros",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 5.0
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 1,
+          "pct_ok": 0.0,
+          "avg": 11.0
+        }
+      ],
+      "hallazgos": [
+        {
+          "tipo": "good",
+          "txt": "Ambos objetivos se cumplen: transcripción 96.3% (≥95%) y entrega 99.6% (≥95%)."
+        },
+        {
+          "tipo": "info",
+          "txt": "El Viernes concentra el mayor volumen de estudios (266, 27% del total). La carga se acumula a fin de semana (jueves a sábado), lo que presiona la transcripción de los días siguientes."
+        }
+      ]
     }
   }
 };
