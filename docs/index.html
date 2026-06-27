@@ -339,8 +339,59 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
 ═══════════════════════════════════════════════════════ -->
 <div class="wrap" id="vista-chequeos" style="display:none;">
   <div class="seccion">
-    <div class="sec-titulo"><span>📋</span> Chequeos · Días por Proceso (Transcripción → Entrega)</div>
-    <p id="chk-subtitulo" style="font-size:12px;color:#6a7d95;margin:-6px 0 18px;"></p>
+    <div class="sec-titulo"><span>📋</span> Chequeos · Indicadores de Entrega y Transcripción</div>
+    <p id="chk-subtitulo" style="font-size:12px;color:#6a7d95;margin:-6px 0 14px;"></p>
+
+    <!-- Selector de periodo (Acumulado / Semana / Mes) -->
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:18px;">
+      <div class="tabs" style="padding:0;border:none;background:transparent;" id="chk-modo">
+        <button class="tab activa" data-modo="acum">Acumulado</button>
+        <button class="tab" data-modo="semana">Por semana</button>
+        <button class="tab" data-modo="mes">Por mes</button>
+      </div>
+      <select id="chk-periodo" style="display:none;padding:7px 12px;border:1px solid var(--borde);
+              border-radius:7px;font-size:13px;font-weight:600;color:var(--azul);background:#fff;"></select>
+    </div>
+
+    <!-- KPIs de cumplimiento (solicitados) -->
+    <div class="grid4" id="chk-obj-kpis" style="margin-bottom:20px;"></div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <!-- Entregado vs Fecha entrega real -->
+      <div class="card">
+        <h3>Días de anticipación · Entregado vs Fecha entrega real</h3>
+        <canvas id="chartChkEntregaReal" height="200"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          Días que el estudio se entregó <b>antes</b> de su Fecha entrega real
+          (positivo = a tiempo). Objetivo: <b>95%</b> en/antes de la fecha.
+        </p>
+      </div>
+      <!-- Realización → Terminado -->
+      <div class="card">
+        <h3>Días de transcripción · Realización → Terminado</h3>
+        <canvas id="chartChkRealizTerm" height="200"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          <span style="color:#52a53f;font-weight:700;">■</span> ≤ 4 días (objetivo) &nbsp;
+          <span style="color:#c0392b;font-weight:700;">■</span> &gt; 4 días &nbsp;·&nbsp;
+          Objetivo: <b>98%</b> en ≤ 4 días.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid2" style="margin-bottom:24px;">
+      <!-- Cantidad por internista -->
+      <div class="card">
+        <h3>Cantidad por Médico Internista</h3>
+        <canvas id="chartChkInternistas" height="200"></canvas>
+      </div>
+      <!-- Cantidad por transcriptor -->
+      <div class="card">
+        <h3>Cantidad por Transcriptor</h3>
+        <canvas id="chartChkTranscriptores" height="200"></canvas>
+      </div>
+    </div>
+
+    <div class="sec-titulo" style="margin-top:8px;"><span>⏱️</span> Días por Proceso (Transcripción → Entrega)</div>
 
     <!-- KPIs -->
     <div class="grid4" id="chk-kpis" style="margin-bottom:20px;"></div>
@@ -830,6 +881,109 @@ function cChk(d, lv, la){
   return '#c0392b';
 }
 
+// ── Indicadores de cumplimiento (Entrega real / Transcripción / Conteos) ──────
+let CHK_MODO = 'acum';
+
+function chkBundleActivo(){
+  const C = D.chequeos;
+  if(CHK_MODO === 'semana'){
+    const k = document.getElementById('chk-periodo').value;
+    return {b: C.por_semana[k], lab: 'Semana ' + k};
+  }
+  if(CHK_MODO === 'mes'){
+    const k = document.getElementById('chk-periodo').value;
+    return {b: C.por_mes[k], lab: 'Mes ' + k};
+  }
+  return {b: C.resumen, lab: 'Acumulado (Semana 1 a 23)'};
+}
+
+function renderChkObjetivos(){
+  const {b, lab} = chkBundleActivo();
+  if(!b) return;
+  const ER = b.entrega_real, RT = b.realiz_term_obj;
+
+  // KPIs de cumplimiento
+  const clsObj = (v,obj) => v==null ? '' : (v>=obj ? 'verde' : 'rojo');
+  const kpis = [
+    {lab:'Entregado a tiempo', val: ER.pct_a_tiempo!=null? ER.pct_a_tiempo+'%':'–',
+     sub:`objetivo ${ER.objetivo}% · ${ER.a_tiempo}/${ER.n}`, cls: clsObj(ER.pct_a_tiempo, ER.objetivo)},
+    {lab:'Anticipación promedio', val: ER.avg_antes!=null? ER.avg_antes+' d':'–',
+     sub:'días antes de la fecha real', cls:''},
+    {lab:'Transcrito ≤ 4 días', val: RT.pct_ok!=null? RT.pct_ok+'%':'–',
+     sub:`objetivo ${RT.objetivo}% · ${RT.ok}/${RT.n}`, cls: clsObj(RT.pct_ok, RT.objetivo)},
+    {lab:'Registros del periodo', val: b.total, sub:`${b.entregados} entregados`, cls:''},
+  ];
+  document.getElementById('chk-obj-kpis').innerHTML = kpis.map(k=>
+    `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div>`
+    + `<div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
+
+  // Histograma: días de anticipación (Entregado vs Fecha real)
+  mk('chartChkEntregaReal', {
+    type:'bar',
+    data:{labels: ER.dist.map(x=> x.dias>0? '+'+x.dias+'d' : x.dias+'d'),
+      datasets:[{data: ER.dist.map(x=>x.n),
+        backgroundColor: ER.dist.map(x=> x.dias>=0 ? '#52a53f' : '#c0392b')}]},
+    options:{plugins:{legend:{display:false},
+        tooltip:{callbacks:{title:i=> (ER.dist[i[0].dataIndex].dias>=0?'Entregado ':'Retraso ')
+          + Math.abs(ER.dist[i[0].dataIndex].dias)+' día(s)'}}},
+      scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
+  });
+
+  // Histograma: días Realización → Terminado
+  mk('chartChkRealizTerm', {
+    type:'bar',
+    data:{labels: RT.dist.map(x=>x.dias+'d'),
+      datasets:[{data: RT.dist.map(x=>x.n),
+        backgroundColor: RT.dist.map(x=> x.dias<=RT.limite ? '#52a53f' : '#c0392b')}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
+  });
+
+  // Cantidad por internista
+  mk('chartChkInternistas', {
+    type:'bar',
+    data:{labels: b.internistas.map(x=>x.nombre),
+      datasets:[{data: b.internistas.map(x=>x.n),
+        backgroundColor:'#2e5fa3'}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:i=> i.parsed.x+' estudios'}}},
+      scales:{x:{beginAtZero:true,ticks:{precision:0}}}}
+  });
+
+  // Cantidad por transcriptor
+  mk('chartChkTranscriptores', {
+    type:'bar',
+    data:{labels: b.transcriptores_cnt.map(x=>x.nombre),
+      datasets:[{data: b.transcriptores_cnt.map(x=>x.n),
+        backgroundColor:'#1f9c8a'}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:i=> i.parsed.x+' estudios'}}},
+      scales:{x:{beginAtZero:true,ticks:{precision:0}}}}
+  });
+}
+
+function initChkSelector(){
+  const C = D.chequeos;
+  const sel = document.getElementById('chk-periodo');
+  document.querySelectorAll('#chk-modo .tab').forEach(btn=>{
+    btn.onclick = () => {
+      CHK_MODO = btn.dataset.modo;
+      document.querySelectorAll('#chk-modo .tab').forEach(b=>
+        b.classList.toggle('activa', b===btn));
+      if(CHK_MODO === 'acum'){
+        sel.style.display = 'none';
+      } else {
+        const lista = CHK_MODO === 'semana' ? C.lista_semanas : C.lista_meses;
+        sel.innerHTML = lista.map(k=>
+          `<option value="${k}">${CHK_MODO==='semana'? 'Semana '+k : k}</option>`).join('');
+        sel.style.display = '';
+      }
+      renderChkObjetivos();
+    };
+  });
+  sel.onchange = renderChkObjetivos;
+}
+
 function renderChequeos(){
   const C = D.chequeos;
   const cont = document.querySelector('#vista-chequeos .seccion');
@@ -842,7 +996,7 @@ function renderChequeos(){
 
   document.getElementById('chk-subtitulo').textContent =
     `${C.total} registros · ${C.entregados} entregados · ${C.en_proceso} en proceso`
-    + (C.semanas.length ? ` · Semana(s) ${C.semanas.join(', ')}` : '');
+    + ((C.lista_semanas||C.semanas).length ? ` · Semana(s) ${(C.lista_semanas||C.semanas).join(', ')}` : '');
   document.getElementById('chk-lim-v').textContent = C.lim_verde;
   document.getElementById('chk-lim-a').textContent = C.lim_amarillo;
 
@@ -860,6 +1014,10 @@ function renderChequeos(){
   document.getElementById('chk-kpis').innerHTML = kpis.map(k=>
     `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div>`
     + `<div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
+
+  // Indicadores de cumplimiento solicitados (entrega real / transcripción / conteos)
+  initChkSelector();
+  renderChkObjetivos();
 
   // Gráfica: días por proceso
   mk('chartChkProcesos', {

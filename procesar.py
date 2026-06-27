@@ -206,13 +206,71 @@ def leer_todas_interpretaciones() -> dict:
     return resultado
 
 
-# ── Chequeos de transcripción / entrega (.ods) ───────────────────────────────
+# ── Chequeos de transcripción / entrega (.ods / .xlsx) ───────────────────────
 
 CHEQUEOS_DIR = Path(__file__).parent / "datos" / "chequeos"
 
 # Umbrales (días) para el total Realización → Entregado
 CHK_LIM_VERDE    = 7
 CHK_LIM_AMARILLO = 10
+
+# Objetivos de cumplimiento solicitados
+OBJ_ENTREGA_REAL   = 95   # % entregado en/antes de la Fecha entrega real
+OBJ_REALIZ_TERM    = 98   # % con Realización → Terminado ≤ 4 días
+LIM_REALIZ_TERM    = 4    # días límite para la transcripción
+
+# Ventana de saneamiento: descarta diferencias de días imposibles
+# (errores de captura con años mal escritos, p. ej. 0226 → diferencias de miles de días).
+DIAS_MIN_VALIDO = -60
+DIAS_MAX_VALIDO = 365
+
+# Normalización de nombres (unifica variantes/typos a un nombre canónico)
+INTERNISTAS_CANON = ["Oropeza", "Castellón", "Santoyo", "Toriz", "Blanca"]
+TRANSCRIPTORES_CANON = ["Casandra", "Beto", "Mayra", "Graciela", "Humberto"]
+
+_INTERNISTA_ALIAS = {
+    "castellon":     "Castellón",
+    "castellón":     "Castellón",
+    "dra. blanca":   "Blanca",
+    "dra blanca":    "Blanca",
+    "blanca":        "Blanca",
+    "oropeza":       "Oropeza",
+    "santoyo":       "Santoyo",
+    "toriz":         "Toriz",
+}
+
+_TRANSCRIPTOR_ALIAS = {
+    "casandra":  "Casandra",
+    "beto":      "Beto",
+    "mayra":     "Mayra",
+    "graciela":  "Graciela",
+    "humberto":  "Humberto",
+}
+
+
+def _norm_internista(nombre: str) -> str:
+    """Devuelve el internista canónico o 'Otros' para valores fuera de la lista."""
+    if not nombre:
+        return "(sin asignar)"
+    clave = str(nombre).strip().lower()
+    if not clave or clave in ("-", "?", "x"):
+        return "(sin asignar)"
+    return _INTERNISTA_ALIAS.get(clave, "Otros")
+
+
+def _norm_transcriptor(nombre: str) -> str:
+    """Devuelve el transcriptor canónico o 'Otros' para valores fuera de la lista."""
+    if not nombre:
+        return "(sin asignar)"
+    clave = str(nombre).strip().lower()
+    if not clave or clave in ("-", "sin transcriptor"):
+        return "(sin asignar)"
+    return _TRANSCRIPTOR_ALIAS.get(clave, "Otros")
+
+
+def _dias_valido(d):
+    """True si la diferencia de días cae en un rango plausible (descarta typos)."""
+    return d is not None and DIAS_MIN_VALIDO <= d <= DIAS_MAX_VALIDO
 
 _ODS_NS = {
     "table":  "urn:oasis:names:tc:opendocument:xmlns:table:1.0",
@@ -316,14 +374,110 @@ def leer_chequeos_ods(path: Path) -> list[dict]:
     return registros
 
 
+def leer_chequeos_xlsx(path: Path) -> list[dict]:
+    """
+    Lee un .xlsx de chequeos (formato combinado con columna 'Cita' inicial) y
+    retorna registros con el mismo esquema que leer_chequeos_ods.
+
+    La semana de cada registro se deriva de la Fecha de realización (semana ISO),
+    porque un archivo combinado cubre varias semanas.
+    """
+    wb = openpyxl.load_workbook(str(path), data_only=True)
+    ws = wb.active
+
+    filas = list(ws.iter_rows(min_row=1, values_only=True))
+    if not filas:
+        return []
+
+    # Mapa de columnas por encabezado (tolerante a acentos/espacios).
+    encab = [str(c).strip().lower() if c is not None else "" for c in filas[0]]
+
+    def col(*claves):
+        for i, h in enumerate(encab):
+            if any(k in h for k in claves):
+                return i
+        return None
+
+    c_realiz = col("realiz")
+    c_semaf  = col("semáforo", "semaforo")
+    c_ereal  = col("entrega real")
+    c_term   = col("terminado")
+    c_entr   = col("entregado")
+    c_digital= col("entrega digital", "digital")
+    c_medico = col("internista", "médico", "medico")
+    c_estado = col("estado")
+    c_transc = col("transcriptor")
+    c_audio  = col("audio")
+
+    def celda(fila, idx):
+        if idx is None or idx >= len(fila):
+            return None
+        return fila[idx]
+
+    def fecha(v):
+        if isinstance(v, datetime.datetime):
+            return v.date()
+        if isinstance(v, datetime.date):
+            return v
+        return _parse_fecha_chequeo(v)
+
+    def texto(v):
+        return str(v).strip() if v is not None else ""
+
+    registros = []
+    for fila in filas[1:]:
+        if not fila or all(c is None or str(c).strip() == "" for c in fila):
+            continue
+
+        realizacion  = fecha(celda(fila, c_realiz))
+        semaforo     = fecha(celda(fila, c_semaf))
+        entrega_real = fecha(celda(fila, c_ereal))
+        terminado    = fecha(celda(fila, c_term))
+        entregado    = fecha(celda(fila, c_entr))
+
+        # Semana ISO y mes a partir de la fecha de realización.
+        sem = realizacion.isocalendar()[1] if realizacion else None
+        mes = realizacion.strftime("%Y-%m") if realizacion else None
+
+        registros.append({
+            "semana":           sem,
+            "mes":              mes,
+            "realizacion":      realizacion,
+            "semaforo":         semaforo,
+            "entrega_real":     entrega_real,
+            "terminado":        terminado,
+            "entregado":        entregado,
+            "entrega_digital":  texto(celda(fila, c_digital)),
+            "medico":           texto(celda(fila, c_medico)),
+            "estado":           texto(celda(fila, c_estado)),
+            "transcriptor":     texto(celda(fila, c_transc)),
+            "audio":            texto(celda(fila, c_audio)),
+            "notas":            "",
+            "d_realiz_semaforo":      _dias(realizacion, semaforo),
+            "d_realiz_terminado":     _dias(realizacion, terminado),
+            "d_terminado_entregado":  _dias(terminado, entregado),
+            "d_realiz_entregado":     _dias(realizacion, entregado),
+            "d_entregado_vs_real":    _dias(entrega_real, entregado),
+        })
+    return registros
+
+
 def leer_todos_chequeos() -> list[dict]:
-    """Lee todos los .ods de datos/chequeos/."""
+    """Lee todos los .ods y .xlsx de datos/chequeos/."""
     if not CHEQUEOS_DIR.exists():
         return []
     regs = []
     for path in sorted(CHEQUEOS_DIR.iterdir()):
+        if path.name.startswith("~$"):
+            continue
         if path.suffix.lower() == ".ods":
             regs.extend(leer_chequeos_ods(path))
+        elif path.suffix.lower() == ".xlsx":
+            regs.extend(leer_chequeos_xlsx(path))
+    # Asegura que todo registro tenga 'mes' (los .ods no lo traen)
+    for r in regs:
+        if "mes" not in r or r["mes"] is None:
+            r["mes"] = r["realizacion"].strftime("%Y-%m") if r.get("realizacion") else None
     return regs
 
 
@@ -766,7 +920,7 @@ def escribir_hoja_chequeos(ws, registros: list[dict]):
     fila += 1
 
     for etiqueta, key in PROCESOS:
-        vals = [r[key] for r in registros if r[key] is not None]
+        vals = [r[key] for r in registros if _dias_valido(r[key])]
         avg  = sum(vals) / len(vals) if vals else None
         destacado = key == "d_realiz_entregado"
         valores = [
@@ -910,10 +1064,98 @@ def exportar_json(tabla_acum: list[dict], tabla_por_semana: dict,
         json.dump(clean(data), f, ensure_ascii=False, indent=2, default=str)
 
 
+def _resumen_periodo(registros: list[dict]) -> dict:
+    """
+    Calcula el paquete de métricas solicitadas para un subconjunto de registros
+    (sirve para el acumulado y para cada semana / mes):
+
+      • Entregado − Entrega real  → días de anticipación y % a tiempo (obj. 95%)
+      • Realización → Terminado   → días de transcripción y % ≤ 4 días (obj. 98%)
+      • Cantidad por internista
+      • Cantidad por transcriptor
+    """
+    def stats(key):
+        vals = [r[key] for r in registros if _dias_valido(r[key])]
+        return {
+            "avg": round(sum(vals) / len(vals), 1) if vals else None,
+            "min": min(vals) if vals else None,
+            "max": max(vals) if vals else None,
+            "n":   len(vals),
+        }
+
+    # ── Entregado vs Fecha entrega real ──────────────────────────────────────
+    # dias_antes = entrega_real − entregado  (positivo = entregado antes de la fecha)
+    antes_vals = [-r["d_entregado_vs_real"] for r in registros
+                  if _dias_valido(r["d_entregado_vs_real"])]
+    a_tiempo = sum(1 for d in antes_vals if d >= 0)
+    entrega_real = {
+        "n":            len(antes_vals),
+        "a_tiempo":     a_tiempo,
+        "tarde":        len(antes_vals) - a_tiempo,
+        "pct_a_tiempo": round(a_tiempo / len(antes_vals) * 100, 1) if antes_vals else None,
+        "avg_antes":    round(sum(antes_vals) / len(antes_vals), 1) if antes_vals else None,
+        "objetivo":     OBJ_ENTREGA_REAL,
+    }
+    dist_antes_map = {}
+    for d in antes_vals:
+        dist_antes_map[d] = dist_antes_map.get(d, 0) + 1
+    entrega_real["dist"] = [{"dias": k, "n": dist_antes_map[k]}
+                            for k in sorted(dist_antes_map)]
+
+    # ── Realización → Terminado (transcripción) ──────────────────────────────
+    rt_vals = [r["d_realiz_terminado"] for r in registros
+               if _dias_valido(r["d_realiz_terminado"])]
+    rt_ok = sum(1 for d in rt_vals if d <= LIM_REALIZ_TERM)
+    realiz_term = {
+        "n":          len(rt_vals),
+        "ok":         rt_ok,
+        "fuera":      len(rt_vals) - rt_ok,
+        "pct_ok":     round(rt_ok / len(rt_vals) * 100, 1) if rt_vals else None,
+        "avg":        round(sum(rt_vals) / len(rt_vals), 1) if rt_vals else None,
+        "limite":     LIM_REALIZ_TERM,
+        "objetivo":   OBJ_REALIZ_TERM,
+    }
+    dist_rt_map = {}
+    for d in rt_vals:
+        dist_rt_map[d] = dist_rt_map.get(d, 0) + 1
+    realiz_term["dist"] = [{"dias": k, "n": dist_rt_map[k]}
+                           for k in sorted(dist_rt_map)]
+
+    # ── Cantidad por internista ──────────────────────────────────────────────
+    int_cnt = {}
+    for r in registros:
+        int_cnt[_norm_internista(r["medico"])] = \
+            int_cnt.get(_norm_internista(r["medico"]), 0) + 1
+    orden_int = INTERNISTAS_CANON + ["Otros", "(sin asignar)"]
+    internistas = [{"nombre": n, "n": int_cnt[n]}
+                   for n in orden_int if int_cnt.get(n)]
+
+    # ── Cantidad por transcriptor ────────────────────────────────────────────
+    tr_cnt = {}
+    for r in registros:
+        tr_cnt[_norm_transcriptor(r["transcriptor"])] = \
+            tr_cnt.get(_norm_transcriptor(r["transcriptor"]), 0) + 1
+    orden_tr = TRANSCRIPTORES_CANON + ["Otros", "(sin asignar)"]
+    transcriptores_cnt = [{"nombre": n, "n": tr_cnt[n]}
+                          for n in orden_tr if tr_cnt.get(n)]
+
+    return {
+        "total":          len(registros),
+        "entregados":     sum(1 for r in registros if r["entregado"]),
+        "realiz_terminado":    stats("d_realiz_terminado"),
+        "terminado_entregado": stats("d_terminado_entregado"),
+        "realiz_entregado":    stats("d_realiz_entregado"),
+        "entrega_real":   entrega_real,
+        "realiz_term_obj": realiz_term,
+        "internistas":    internistas,
+        "transcriptores_cnt": transcriptores_cnt,
+    }
+
+
 def _analisis_chequeos(registros: list[dict]) -> dict:
     """Resume los chequeos (días por proceso) para el dashboard web."""
     def stats(key):
-        vals = [r[key] for r in registros if r[key] is not None]
+        vals = [r[key] for r in registros if _dias_valido(r[key])]
         return {
             "avg": round(sum(vals) / len(vals), 1) if vals else None,
             "min": min(vals) if vals else None,
@@ -938,7 +1180,7 @@ def _analisis_chequeos(registros: list[dict]) -> dict:
         por_tr.setdefault(tr, []).append(r["d_realiz_entregado"])
     transcriptores = []
     for tr in sorted(por_tr):
-        vals = [v for v in por_tr[tr] if v is not None]
+        vals = [v for v in por_tr[tr] if _dias_valido(v)]
         transcriptores.append({
             "transcriptor": tr,
             "entregados":   len(vals),
@@ -952,14 +1194,27 @@ def _analisis_chequeos(registros: list[dict]) -> dict:
     dist = {}
     for r in registros:
         d = r["d_realiz_entregado"]
-        if d is not None:
+        if _dias_valido(d):
             dist[d] = dist.get(d, 0) + 1
     distribucion = [{"dias": k, "n": dist[k]} for k in sorted(dist)]
 
     entregados = sum(1 for r in registros if r["entregado"])
 
+    # ── Desglose por semana y por mes (métricas solicitadas) ─────────────────
+    semanas_ord = sorted({r["semana"] for r in registros if r["semana"] is not None})
+    meses_ord   = sorted({r.get("mes") for r in registros if r.get("mes")})
+
+    por_semana = {str(s): _resumen_periodo([r for r in registros if r["semana"] == s])
+                  for s in semanas_ord}
+    por_mes    = {m: _resumen_periodo([r for r in registros if r.get("mes") == m])
+                  for m in meses_ord}
+    resumen_global = _resumen_periodo(registros)
+
     detalle = [{
         "semana":        r["semana"],
+        "mes":           r.get("mes"),
+        "internista_norm":   _norm_internista(r["medico"]),
+        "transcriptor_norm": _norm_transcriptor(r["transcriptor"]),
         "realizacion":   r["realizacion"].isoformat() if r["realizacion"] else None,
         "semaforo":      r["semaforo"].isoformat() if r["semaforo"] else None,
         "terminado":     r["terminado"].isoformat() if r["terminado"] else None,
@@ -988,6 +1243,15 @@ def _analisis_chequeos(registros: list[dict]) -> dict:
         "lim_amarillo":   CHK_LIM_AMARILLO,
         "semanas":        semanas,
         "detalle":        detalle,
+        # ── Métricas solicitadas (acumulado + desglose) ──────────────────────
+        "resumen":        resumen_global,
+        "por_semana":     por_semana,
+        "por_mes":        por_mes,
+        "lista_semanas":  [str(s) for s in semanas_ord],
+        "lista_meses":    meses_ord,
+        "obj_entrega_real": OBJ_ENTREGA_REAL,
+        "obj_realiz_term":  OBJ_REALIZ_TERM,
+        "lim_realiz_term":  LIM_REALIZ_TERM,
     }
 
 
