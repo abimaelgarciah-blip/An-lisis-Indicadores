@@ -11,10 +11,19 @@
   --verde:#52a53f; --amari:#d4920a; --rojo:#c0392b;
   --gris:#f0f3f8; --borde:#dde3ee; --texto:#1e2b3c;
   --blanco:#ffffff;
+  /* Superficies (cambian con el tema) */
+  --bg:#f0f3f8; --card:#ffffff; --muted:#8899aa; --fila:#f7f9fc;
+  --fila-hover:#edf3fb; --heading:#4a5e78; --pista:#edf1f7;
+}
+:root[data-theme="dark"]{
+  --azul-c:#3a5a86;
+  --gris:#0f1722; --borde:#2a3a4d; --texto:#e6edf5;
+  --bg:#0f1722; --card:#18232f; --muted:#9fb2c4; --fila:#1d2a38;
+  --fila-hover:#243446; --heading:#bcd0e6; --pista:#243446;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-     background:var(--gris);color:var(--texto);font-size:14px;}
+     background:var(--bg);color:var(--texto);font-size:14px;transition:background .2s,color .2s;}
 
 /* ── Header ── */
 header{background:linear-gradient(135deg,#1a3160,#2e5fa3);
@@ -26,12 +35,12 @@ header p{font-size:12px;opacity:.8;margin-top:2px;}
 #generado{margin-left:auto;font-size:11px;opacity:.65;white-space:nowrap;}
 
 /* ── Barra de controles ── */
-.controls{background:#fff;border-bottom:1px solid var(--borde);
-          padding:10px 32px;display:flex;align-items:center;gap:16px;
+.controls{background:var(--card);border-bottom:1px solid var(--borde);
+          padding:10px 32px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;
           position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06);}
-.controls label{font-weight:600;font-size:12px;color:#6a7d95;}
+.controls label{font-weight:600;font-size:12px;color:var(--muted);}
 select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
-       font-size:13px;background:#fff;cursor:pointer;}
+       font-size:13px;background:var(--card);color:var(--texto);cursor:pointer;}
 
 /* ── Navegación principal (Dashboard / Chequeos) ── */
 .mainnav{display:flex;gap:6px;background:var(--azul);padding:0 32px;}
@@ -43,14 +52,16 @@ select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
 
 /* ── Pestañas ── */
 .tabs{display:flex;gap:4px;flex-wrap:wrap;
-      background:#fff;border-bottom:2px solid var(--borde);
+      background:var(--card);border-bottom:2px solid var(--borde);
       padding:0 32px;}
 .tab{padding:10px 16px;border:none;background:transparent;cursor:pointer;
-     font-size:13px;font-weight:600;color:#7a8aa0;
+     font-size:13px;font-weight:600;color:var(--muted);
      border-bottom:3px solid transparent;margin-bottom:-2px;
-     transition:all .14s;border-radius:6px 6px 0 0;}
-.tab:hover{background:#eef3fa;color:var(--azul2);}
-.tab.activa{color:var(--azul);border-bottom-color:var(--azul2);background:#fff;}
+     transition:all .14s;border-radius:6px 6px 0 0;display:inline-flex;align-items:center;gap:6px;}
+.tab:hover{background:var(--fila-hover);color:var(--azul2);}
+.tab.activa{color:var(--azul);border-bottom-color:var(--azul2);background:var(--card);}
+:root[data-theme="dark"] .tab.activa{color:#cfe0f5;}
+.tab .uswatch{width:9px;height:9px;border-radius:2px;display:inline-block;}
 .punto{display:inline-block;width:8px;height:8px;border-radius:50%;
        margin-left:5px;vertical-align:middle;}
 
@@ -68,17 +79,17 @@ select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
 @media(max-width:800px){.grid2,.grid3,.grid4{grid-template-columns:1fr;}}
 
 /* ── Cards ── */
-.card{background:#fff;border-radius:10px;padding:20px;
+.card{background:var(--card);border-radius:10px;padding:20px;
       box-shadow:0 1px 4px rgba(0,0,0,.07);}
-.card h3{font-size:13px;font-weight:700;color:#4a5e78;
+.card h3{font-size:13px;font-weight:700;color:var(--heading);
          margin-bottom:14px;text-transform:uppercase;letter-spacing:.4px;}
 
 /* ── KPI cards ── */
 .kpi{border-radius:10px;padding:18px 20px;
      box-shadow:0 1px 4px rgba(0,0,0,.07);
-     border-left:5px solid var(--azul2);background:#fff;}
+     border-left:5px solid var(--azul2);background:var(--card);}
 .kpi .klabel{font-size:11px;text-transform:uppercase;
-             letter-spacing:.6px;color:#8899aa;font-weight:700;}
+             letter-spacing:.6px;color:var(--muted);font-weight:700;}
 .kpi .kval{font-size:32px;font-weight:800;margin-top:6px;line-height:1;}
 .kpi .ksub{font-size:11px;color:#aab;margin-top:4px;}
 .kpi.verde{border-left-color:var(--verde);} .kpi.verde .kval{color:var(--verde);}
@@ -101,8 +112,8 @@ th,td{padding:8px 10px;text-align:center;border-bottom:1px solid var(--borde);}
 th{background:var(--azul);color:#fff;font-weight:600;font-size:11px;
    text-transform:uppercase;letter-spacing:.3px;position:sticky;top:0;}
 td:first-child,th:first-child{text-align:left;}
-tr:nth-child(even){background:#f7f9fc;}
-tr:hover{background:#edf3fb;}
+tr:nth-child(even){background:var(--fila);}
+tr:hover{background:var(--fila-hover);}
 
 /* ── Badge ── */
 .badge{display:inline-block;padding:2px 9px;border-radius:10px;
@@ -133,7 +144,7 @@ tr:hover{background:#edf3fb;}
 /* ── Barras genéricas (usuario / interpretaciones) ── */
 .usr-bar{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
 .usr-nombre{font-size:12px;font-weight:600;color:var(--texto);min-width:200px;}
-.usr-pista{flex:1;height:18px;background:#edf1f7;border-radius:4px;overflow:hidden;}
+.usr-pista{flex:1;height:18px;background:var(--pista);border-radius:4px;overflow:hidden;}
 .usr-fill{height:100%;border-radius:4px;background:var(--azul2);transition:width .4s;}
 .usr-num{font-size:12px;font-weight:700;color:var(--azul2);min-width:36px;text-align:right;}
 .usr-pct{font-size:11px;color:#aab;min-width:48px;text-align:right;}
@@ -141,14 +152,43 @@ tr:hover{background:#edf3fb;}
 /* ── Hallazgos / patrones ── */
 .hallazgo{display:flex;gap:10px;align-items:flex-start;padding:12px 16px;
           border-radius:8px;margin-bottom:8px;font-size:13px;line-height:1.45;
-          background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:5px solid var(--azul2);}
+          background:var(--card);box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:5px solid var(--azul2);}
 .hallazgo .ico{font-size:16px;line-height:1.3;}
 .hallazgo.bad{border-left-color:var(--rojo);background:#fdf3f2;}
 .hallazgo.warn{border-left-color:var(--amari);background:#fdf9ef;}
 .hallazgo.good{border-left-color:var(--verde);background:#f1f9ef;}
 .hallazgo.info{border-left-color:var(--azul2);background:#f2f6fc;}
+:root[data-theme="dark"] .hallazgo.bad{background:#2c1a1a;}
+:root[data-theme="dark"] .hallazgo.warn{background:#2c2615;}
+:root[data-theme="dark"] .hallazgo.good{background:#16271a;}
+:root[data-theme="dark"] .hallazgo.info{background:#172435;}
 
-footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
+/* ── Botones header (tema / export) ── */
+.hbtn{background:rgba(255,255,255,.14);color:#fff;border:none;cursor:pointer;
+      padding:7px 12px;border-radius:7px;font-size:13px;font-weight:600;
+      display:inline-flex;align-items:center;gap:6px;transition:background .14s;}
+.hbtn:hover{background:rgba(255,255,255,.26);}
+.hgroup{margin-left:auto;display:flex;align-items:center;gap:10px;}
+
+/* ── Chips de comparador de unidades ── */
+.uchips{display:flex;flex-wrap:wrap;gap:7px;}
+.uchip{display:inline-flex;align-items:center;gap:7px;cursor:pointer;
+       padding:5px 12px;border-radius:18px;font-size:12px;font-weight:600;
+       border:1.5px solid var(--borde);background:var(--card);color:var(--muted);
+       transition:all .12s;user-select:none;}
+.uchip .sw{width:11px;height:11px;border-radius:50%;}
+.uchip.on{color:var(--texto);border-color:currentColor;}
+.uchip:hover{filter:brightness(1.05);}
+
+footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
+
+/* ── Impresión / PDF ── */
+@media print{
+  .mainnav,.controls,.tabs,.hgroup,#cmp-controls,.uchips{display:none !important;}
+  body{background:#fff;}
+  .card,.kpi{break-inside:avoid;box-shadow:none;border:1px solid #ddd;}
+  .wrap{max-width:none;}
+}
 </style>
 </head>
 <body>
@@ -158,7 +198,11 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
     <h1>📊 Dashboard · Entrega de Resultados</h1>
     <p id="subtitulo">Cargando…</p>
   </div>
-  <span id="generado"></span>
+  <div class="hgroup">
+    <span id="generado"></span>
+    <button class="hbtn" id="export-btn" title="Exportar / Imprimir a PDF">🖨️ PDF</button>
+    <button class="hbtn" id="theme-toggle" title="Cambiar tema claro/oscuro">🌙 Tema</button>
+  </div>
 </header>
 
 <div class="mainnav">
@@ -174,6 +218,79 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
 <div class="tabs" id="tabs"></div>
 
 <div class="wrap" id="vista-dashboard">
+
+  <!-- ══════════════════════════════════════════════════════
+       SECCIÓN 0 · COMPARATIVO ENTRE UNIDADES (acumulado / rango)
+  ═══════════════════════════════════════════════════════ -->
+  <div class="seccion">
+    <div class="sec-titulo"><span>🏥</span> Comparativo entre Unidades</div>
+
+    <!-- Controles: rango de semanas + comparador de unidades -->
+    <div class="card" id="cmp-controls" style="margin-bottom:18px;display:flex;flex-wrap:wrap;
+         gap:18px 28px;align-items:center;padding:14px 20px;">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span style="font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;">Rango:</span>
+        <select id="cmp-desde" style="min-width:90px;"></select>
+        <span style="color:var(--muted);">→</span>
+        <select id="cmp-hasta" style="min-width:90px;"></select>
+        <button class="hbtn" id="cmp-reset" style="background:var(--azul2);">Todo</button>
+      </div>
+      <div style="flex:1;min-width:260px;">
+        <div style="font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;margin-bottom:6px;">
+          Comparar unidades (clic para mostrar/ocultar):</div>
+        <div class="uchips" id="cmp-chips"></div>
+      </div>
+    </div>
+
+    <div class="grid3" style="margin-bottom:20px;">
+      <!-- Gauge global -->
+      <div class="card">
+        <h3>Indicador Global vs Meta</h3>
+        <div style="position:relative;">
+          <canvas id="chartGauge" height="170"></canvas>
+          <div id="gauge-val" style="position:absolute;left:0;right:0;bottom:6px;text-align:center;
+               font-size:30px;font-weight:900;"></div>
+        </div>
+      </div>
+      <!-- Barras por unidad -->
+      <div class="card" style="grid-column:span 2;">
+        <h3>Indicador de Cumplimiento por Unidad (meta 95%)</h3>
+        <canvas id="chartUniBar" height="150"></canvas>
+      </div>
+    </div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <!-- Burbujas volumen vs cumplimiento -->
+      <div class="card">
+        <h3>Volumen vs % Cumplimiento por Unidad</h3>
+        <canvas id="chartUniBubble" height="210"></canvas>
+        <p style="font-size:11px;color:var(--muted);margin-top:8px;">
+          Eje X = estudios · Eje Y = % cumplimiento · tamaño = volumen. Abajo-derecha (mucho volumen, bajo %) = prioridad.
+        </p>
+      </div>
+      <!-- Radar perfil por modalidad -->
+      <div class="card">
+        <h3>Perfil por Modalidad (% del volumen de cada unidad)</h3>
+        <canvas id="chartUniRadar" height="210"></canvas>
+        <p style="font-size:11px;color:var(--muted);margin-top:8px;">
+          Usa los chips de arriba para comparar unidades.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid2" style="margin-bottom:8px;">
+      <!-- Polar composición de modalidades -->
+      <div class="card">
+        <h3>Composición de Estudios por Modalidad</h3>
+        <canvas id="chartUniPolar" height="210"></canvas>
+      </div>
+      <!-- Tendencia del indicador por unidad -->
+      <div class="card">
+        <h3>Tendencia del Indicador por Unidad (semanas)</h3>
+        <canvas id="chartUniTrend" height="210"></canvas>
+      </div>
+    </div>
+  </div>
 
   <!-- ══════════════════════════════════════════════════════
        SECCIÓN 1 · INDICADOR E INCUMPLIMIENTO
@@ -508,6 +625,181 @@ function cCalor(v){
   return '#c0392b';
 }
 
+// ── Identidad de color por unidad ─────────────────────────────────────────────
+const UCOLOR = {General:'#1F3864', LM:'#2E5FA3', AC:'#52A53F', CH:'#D4920A',
+                GP:'#8E44AD', CM:'#E84393', MP:'#16A085', LA:'#C0392B'};
+const ucol     = u => UCOLOR[u] || '#7a8aa0';
+const unombre  = u => u==='General' ? 'General' : (D.sucursales?.[u] || u);
+const unidades = () => D.acumulado.map(r=>r.Unidad);
+
+// ── Tema claro / oscuro ───────────────────────────────────────────────────────
+function themeIsDark(){ return document.documentElement.getAttribute('data-theme')==='dark'; }
+function setTheme(t, rerender){
+  document.documentElement.setAttribute('data-theme', t);
+  try{ localStorage.setItem('dash-theme', t); }catch(e){}
+  if(window.Chart){
+    Chart.defaults.color       = t==='dark' ? '#c3d2e2' : '#5a6a7a';
+    Chart.defaults.borderColor = t==='dark' ? 'rgba(255,255,255,.10)' : 'rgba(0,0,0,.08)';
+  }
+  const btn = document.getElementById('theme-toggle');
+  if(btn) btn.textContent = t==='dark' ? '☀️ Tema' : '🌙 Tema';
+  if(rerender) reRenderActivo();
+}
+function reRenderActivo(){
+  const enChk = document.getElementById('vista-chequeos').style.display !== 'none';
+  if(enChk && CHQ_RENDERED) renderChequeos(); else render();
+}
+
+// ── Comparativo entre unidades (rango de semanas + selección) ─────────────────
+const SEMS = ((D && D.semanas) || []).slice();
+let CMP_DESDE = null, CMP_HASTA = null;          // null = acumulado (todo)
+let CMP_UNI = null;                               // Set de unidades para radar/tendencia
+
+function semsEnRango(){
+  if(CMP_DESDE==null || CMP_HASTA==null) return null;
+  let i = SEMS.indexOf(CMP_DESDE), j = SEMS.indexOf(CMP_HASTA);
+  if(i<0||j<0) return null;
+  if(i>j)[i,j]=[j,i];
+  return SEMS.slice(i, j+1);
+}
+function unidadesAgg(){
+  const weeks = semsEnRango();
+  if(!weeks) return D.acumulado;                  // acumulado precalculado
+  return unidades().map(u=>{
+    const acc = {Unidad:u, estudios:0, incumplimiento:0, modalidades_total:0};
+    MOD.forEach(m=>acc[m]=0);
+    weeks.forEach(w=>{
+      const row = (D.por_semana[w]||[]).find(r=>r.Unidad===u);
+      if(row){
+        acc.estudios          += row.estudios||0;
+        acc.incumplimiento    += row.incumplimiento||0;
+        acc.modalidades_total += row.modalidades_total||0;
+        MOD.forEach(m=>acc[m] += row[m]||0);
+      }
+    });
+    acc.indicador = acc.estudios ? (acc.estudios-acc.incumplimiento)/acc.estudios*100 : null;
+    return acc;
+  });
+}
+function rangoTexto(){
+  const w = semsEnRango();
+  return w ? `Semanas ${w[0]}–${w[w.length-1]}` : 'Acumulado (todas las semanas)';
+}
+
+function renderCmpChips(){
+  const cont = document.getElementById('cmp-chips');
+  cont.innerHTML = unidades().map(u=>{
+    const on = CMP_UNI.has(u);
+    return `<span class="uchip${on?' on':''}" data-u="${u}" style="${on?'color:'+ucol(u):''}">
+      <span class="sw" style="background:${ucol(u)}"></span>${unombre(u)}</span>`;
+  }).join('');
+  cont.querySelectorAll('.uchip').forEach(c=> c.onclick=()=>{
+    const u=c.dataset.u;
+    if(CMP_UNI.has(u)) CMP_UNI.delete(u); else CMP_UNI.add(u);
+    renderCmpChips(); renderComparativo();
+  });
+}
+
+function initComparativo(){
+  if(!CMP_UNI){
+    CMP_UNI = new Set(['General', ...unidades().filter(u=>u!=='General').slice(0,3)]);
+  }
+  const ds=document.getElementById('cmp-desde'), hs=document.getElementById('cmp-hasta');
+  const opts = SEMS.map(s=>`<option value="${s}">Sem ${s}</option>`).join('');
+  ds.innerHTML=opts; hs.innerHTML=opts;
+  ds.value=SEMS[0]; hs.value=SEMS[SEMS.length-1];
+  ds.onchange = hs.onchange = ()=>{ CMP_DESDE=ds.value; CMP_HASTA=hs.value; renderComparativo(); };
+  document.getElementById('cmp-reset').onclick = ()=>{
+    CMP_DESDE=CMP_HASTA=null; ds.value=SEMS[0]; hs.value=SEMS[SEMS.length-1]; renderComparativo();
+  };
+  renderCmpChips();
+}
+
+function renderComparativo(){
+  renderGauge(); renderUniBar(); renderUniBubble();
+  renderUniRadar(); renderUniPolar(); renderUniTrend();
+}
+
+function renderGauge(){
+  const g = unidadesAgg().find(r=>r.Unidad==='General') || {};
+  const ind = g.indicador;
+  const v = ind==null ? 0 : ind;
+  const col = ind==null ? '#888' : (ind>=95?'#52a53f':ind>=90?'#d4920a':'#c0392b');
+  mk('chartGauge',{type:'doughnut',
+    data:{datasets:[{data:[v,100-v],
+      backgroundColor:[col, themeIsDark()?'#243446':'#e7ecf3'],
+      borderWidth:0, circumference:180, rotation:270}]},
+    options:{cutout:'70%',plugins:{legend:{display:false},tooltip:{enabled:false}}}});
+  const el = document.getElementById('gauge-val');
+  el.textContent = ind==null ? '–' : ind.toFixed(1)+'%';
+  el.style.color = col;
+}
+
+function renderUniBar(){
+  const rows = unidadesAgg();
+  mk('chartUniBar',{type:'bar',
+    data:{labels:rows.map(r=>unombre(r.Unidad)),
+      datasets:[
+        {label:'Indicador %',data:rows.map(r=>r.indicador),
+         backgroundColor:rows.map(r=>ucol(r.Unidad)),borderRadius:5},
+        {type:'line',label:'Meta 95%',data:rows.map(()=>95),
+         borderColor:'#c0392b',borderDash:[6,4],pointRadius:0,borderWidth:1.5}
+      ]},
+    options:{plugins:{legend:{display:false},
+        tooltip:{callbacks:{afterLabel:c=>{const r=rows[c.dataIndex];
+          return `${r.estudios} estudios · ${r.incumplimiento} incumpl.`;}}}},
+      scales:{y:{min:80,max:100,ticks:{callback:v=>v+'%'}}}}});
+}
+
+function renderUniBubble(){
+  const rows = unidadesAgg().filter(r=>r.Unidad!=='General' && r.estudios>0);
+  mk('chartUniBubble',{type:'bubble',
+    data:{datasets:rows.map(r=>({label:unombre(r.Unidad),
+      data:[{x:r.estudios,y:r.indicador, r:Math.min(36, 7+Math.sqrt(r.estudios)/2)}],
+      backgroundColor:ucol(r.Unidad)+'cc',borderColor:ucol(r.Unidad),borderWidth:1.5}))},
+    options:{plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${c.raw.x} est · ${c.raw.y!=null?c.raw.y.toFixed(1):'–'}%`}}},
+      scales:{x:{beginAtZero:true,title:{display:true,text:'estudios'}},
+              y:{min:80,max:100,title:{display:true,text:'% cumplimiento'},ticks:{callback:v=>v+'%'}}}}});
+}
+
+function renderUniRadar(){
+  const rows = unidadesAgg();
+  const sel = unidades().filter(u=>CMP_UNI.has(u));
+  mk('chartUniRadar',{type:'radar',
+    data:{labels:MOD,datasets:sel.map(u=>{
+      const r=rows.find(x=>x.Unidad===u)||{};
+      const tot=MOD.reduce((s,m)=>s+(r[m]||0),0)||1;
+      return {label:unombre(u),data:MOD.map(m=>+(((r[m]||0)/tot)*100).toFixed(1)),
+        borderColor:ucol(u),backgroundColor:ucol(u)+'22',
+        pointBackgroundColor:ucol(u),borderWidth:2,pointRadius:2};
+    })},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:12}}},
+      scales:{r:{suggestedMin:0,ticks:{backdropColor:'transparent',font:{size:9},callback:v=>v+'%'}}}}});
+}
+
+function renderUniPolar(){
+  const g = unidadesAgg().find(r=>r.Unidad==='General') || {};
+  const PAL=['#2E5FA3','#52A53F','#D4920A','#8E44AD','#E84393','#16A085','#C0392B'];
+  mk('chartUniPolar',{type:'polarArea',
+    data:{labels:MOD,datasets:[{data:MOD.map(m=>g[m]||0),
+      backgroundColor:PAL.map(c=>c+'cc'),borderWidth:1}]},
+    options:{plugins:{legend:{position:'right',labels:{font:{size:11},boxWidth:12}}},
+      scales:{r:{ticks:{backdropColor:'transparent',font:{size:9}}}}}});
+}
+
+function renderUniTrend(){
+  const sel = unidades().filter(u=>CMP_UNI.has(u));
+  mk('chartUniTrend',{type:'line',
+    data:{labels:SEMS.map(s=>'S'+s),datasets:sel.map(u=>({
+      label:unombre(u),
+      data:SEMS.map(w=>{const row=(D.por_semana[w]||[]).find(r=>r.Unidad===u);return row?row.indicador:null;}),
+      borderColor:ucol(u),backgroundColor:ucol(u)+'22',tension:.25,
+      pointRadius:2,spanGaps:true,borderWidth:2}))},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:12}}},
+      scales:{y:{suggestedMin:60,max:100,ticks:{callback:v=>v+'%'}}}}});
+}
+
 // Análisis del periodo/unidad activo
 function analisisActivo(){
   const p = document.getElementById('periodo').value;
@@ -553,7 +845,8 @@ function renderTabs(){
     const ind = fp ? fp.indicador : null;
     const p   = r.Unidad==='General' ? '' :
       `<span class="punto" style="background:${cpunto(ind)}"></span>`;
-    return `<button class="tab${r.Unidad===UNIDAD?' activa':''}" data-u="${r.Unidad}">${nom}${p}</button>`;
+    const sw  = `<span class="uswatch" style="background:${ucol(r.Unidad)}"></span>`;
+    return `<button class="tab${r.Unidad===UNIDAD?' activa':''}" data-u="${r.Unidad}">${sw}${nom}${p}</button>`;
   }).join('');
   document.querySelectorAll('.tab').forEach(b=>{
     b.onclick=()=>{ UNIDAD=b.dataset.u; render(); };
@@ -1220,6 +1513,8 @@ function render(){
   const t = tablaActual();
   if(!t.find(r=>r.Unidad===UNIDAD)) UNIDAD='General';
   renderTabs();
+  // S0 · Comparativo entre unidades
+  renderComparativo();
   // S1
   renderIndicador();
   renderDistAF();
@@ -1238,6 +1533,18 @@ function render(){
   renderInterpSection();
 }
 
+// ── Tema y exportación (siempre activos) ──────────────────────────────────────
+(function initChrome(){
+  let saved='light';
+  try{ saved = localStorage.getItem('dash-theme') ||
+       (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'); }catch(e){}
+  setTheme(saved, false);
+  const tb=document.getElementById('theme-toggle');
+  if(tb) tb.onclick=()=> setTheme(themeIsDark()?'light':'dark', true);
+  const eb=document.getElementById('export-btn');
+  if(eb) eb.onclick=()=> window.print();
+})();
+
 if(!D){
   document.querySelector('.wrap').innerHTML='<p style="padding:60px;text-align:center;">No hay datos. Ejecuta <code>python procesar.py</code>.</p>';
 } else {
@@ -1245,6 +1552,7 @@ if(!D){
   document.querySelectorAll('.mainnav-btn').forEach(b=>
     b.onclick = ()=> setVista(b.dataset.vista));
   initControles();
+  initComparativo();
   render();
 }
 </script>
