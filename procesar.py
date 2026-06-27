@@ -215,9 +215,10 @@ CHK_LIM_VERDE    = 7
 CHK_LIM_AMARILLO = 10
 
 # Objetivos de cumplimiento solicitados
-OBJ_ENTREGA_REAL   = 95   # % entregado en/antes de la Fecha entrega real
-OBJ_REALIZ_TERM    = 98   # % con Realización → Terminado ≤ 4 días
+OBJ_ENTREGA_REAL   = 95   # % entregado al menos 1 día antes de la Fecha entrega real
+OBJ_REALIZ_TERM    = 95   # % con Realización → Terminado ≤ 4 días
 LIM_REALIZ_TERM    = 4    # días límite para la transcripción
+DIAS_ANTES_OBJ     = 1    # días de anticipación requeridos vs Fecha entrega real
 
 # Ventana de saneamiento: descarta diferencias de días imposibles
 # (errores de captura con años mal escritos, p. ej. 0226 → diferencias de miles de días).
@@ -283,29 +284,45 @@ def _ods_q(tag: str) -> str:
     return "{%s}%s" % (_ODS_NS[prefijo], nombre)
 
 
-def _domingos_en_rango(a, b):
-    """Número de domingos en el intervalo (a, b]  (a excluido, b incluido)."""
-    inicio = a + datetime.timedelta(days=1)
-    if inicio > b:
-        return 0
-    # Primer domingo ≥ inicio (Python: lunes=0 … domingo=6)
-    primer = inicio + datetime.timedelta(days=(6 - inicio.weekday()) % 7)
-    if primer > b:
-        return 0
-    return (b - primer).days // 7 + 1
+# Días festivos / no laborables (no se cuentan en los días transcurridos)
+FESTIVOS = {
+    datetime.date(2026, 1, 1),
+    datetime.date(2026, 2, 2),
+    datetime.date(2026, 2, 23),
+    datetime.date(2026, 3, 16),
+    datetime.date(2026, 4, 3),
+    datetime.date(2026, 4, 4),
+    datetime.date(2026, 5, 1),
+}
+
+
+def _no_laborable(d):
+    """True si la fecha es domingo o festivo (no cuenta como día transcurrido)."""
+    return d.weekday() == 6 or d in FESTIVOS
+
+
+def _dias_laborables(a, b):
+    """Días laborables (lun–sáb, sin festivos) en el intervalo (a, b], a<b."""
+    n = 0
+    d = a
+    while d < b:
+        d += datetime.timedelta(days=1)
+        if not _no_laborable(d):
+            n += 1
+    return n
 
 
 def _dias(a, b):
     """
-    Días hábiles transcurridos entre dos fechas (b − a), contando solo de
-    lunes a sábado: los domingos NO se cuentan. None si falta alguna fecha.
+    Días transcurridos entre dos fechas (b − a) contando solo días laborables:
+    de lunes a sábado, excluyendo además los festivos definidos en FESTIVOS.
+    None si falta alguna fecha.
     """
     if not (a and b):
         return None
     if b >= a:
-        return (b - a).days - _domingos_en_rango(a, b)
-    # Diferencia negativa (errores de captura): simétrico
-    return -((a - b).days - _domingos_en_rango(b, a))
+        return _dias_laborables(a, b)
+    return -_dias_laborables(b, a)   # diferencia negativa (errores de captura)
 
 
 def _parse_fecha_chequeo(val):
@@ -534,10 +551,19 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
 
         fecha = None
         hora_alta = None
+        dia_semana = None
         if isinstance(fecha_alta_raw, float) and fecha_alta_raw:
             dt = xlrd.xldate_as_datetime(fecha_alta_raw, wb.datemode)
             fecha = dt.date()
             hora_alta = dt.hour
+            dia_semana = dt.weekday()   # 0=lunes … 6=domingo
+
+        # Hora de entrega (recepción de la entrega) para el mapa de calor de
+        # estudios entregados tarde.
+        hora_entrega = None
+        if isinstance(fecha_recibe_raw, float) and fecha_recibe_raw:
+            dt_e = xlrd.xldate_as_datetime(fecha_recibe_raw, wb.datemode)
+            hora_entrega = dt_e.hour
 
         # Tiempos de proceso adicionales (en horas si son float, else None)
         gc = float(row[28]) if row[28] and isinstance(row[28], (int, float)) else None
@@ -556,6 +582,8 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
             "usuario_recibe":  usuario_recibe,
             "fecha":           fecha,
             "hora_alta":       hora_alta,
+            "hora_entrega":    hora_entrega,
+            "dia_semana":      dia_semana,
             "semana":          semana,
             "archivo":         filepath.name,
         })
@@ -1105,12 +1133,17 @@ def _resumen_periodo(registros: list[dict]) -> dict:
     # dias_antes = entrega_real − entregado  (positivo = entregado antes de la fecha)
     antes_vals = [-r["d_entregado_vs_real"] for r in registros
                   if _dias_valido(r["d_entregado_vs_real"])]
-    a_tiempo = sum(1 for d in antes_vals if d >= 0)
+    a_tiempo = sum(1 for d in antes_vals if d >= 0)            # en/antes de la fecha
+    un_dia    = sum(1 for d in antes_vals if d >= DIAS_ANTES_OBJ)  # ≥1 día antes (objetivo)
     entrega_real = {
         "n":            len(antes_vals),
         "a_tiempo":     a_tiempo,
         "tarde":        len(antes_vals) - a_tiempo,
         "pct_a_tiempo": round(a_tiempo / len(antes_vals) * 100, 1) if antes_vals else None,
+        # Indicador objetivo: entregado al menos 1 día antes de la fecha real
+        "un_dia_antes": un_dia,
+        "pct_1dia":     round(un_dia / len(antes_vals) * 100, 1) if antes_vals else None,
+        "dias_antes_obj": DIAS_ANTES_OBJ,
         "avg_antes":    round(sum(antes_vals) / len(antes_vals), 1) if antes_vals else None,
         "objetivo":     OBJ_ENTREGA_REAL,
     }
@@ -1530,6 +1563,46 @@ def _analisis_web(rows):
     total_hora = {h: sum(1 for r in incump_rows if r.get("hora_alta") == h)
                   for h in HORAS}
 
+    # ── Mapa de calor: HORA DE ENTREGA de los estudios entregados tarde ───────
+    # (incumplimiento = entregado después de la hora promesa). Usa hora_entrega.
+    calor_entrega = {}
+    for d in deptos_incump:
+        calor_entrega[d] = {}
+        for h in HORAS:
+            calor_entrega[d][h] = sum(
+                1 for r in incump_rows
+                if r["depto"] == d and r.get("hora_entrega") == h
+            )
+    total_entrega_hora = {h: sum(1 for r in incump_rows if r.get("hora_entrega") == h)
+                          for h in HORAS}
+
+    # ── Incumplimiento por día de la semana (lun–sáb) ────────────────────────
+    DOW = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+    modal_rows_all = [r for r in rows if r["depto"] in DEPTOS_MODAL]
+    dow_tot = {i: 0 for i in range(6)}
+    dow_inc = {i: 0 for i in range(6)}
+    for r in modal_rows_all:
+        ds = r.get("dia_semana")
+        if ds is None or ds > 5:
+            continue
+        dow_tot[ds] += 1
+        if es_incumplimiento(r["af"]):
+            dow_inc[ds] += 1
+    incump_dow = [{
+        "dia": DOW[i], "total": dow_tot[i], "incump": dow_inc[i],
+        "pct_cumpl": round((dow_tot[i]-dow_inc[i])/dow_tot[i]*100, 1) if dow_tot[i] else None,
+    } for i in range(6)]
+
+    # ── Tiempo POSTERIOR a Fecha Promesa (horas de retraso = |A-F|) ──────────
+    # Histograma del retraso con el que se entregaron los estudios tarde.
+    retraso_buckets = defaultdict(int)
+    for r in incump_rows:
+        retraso_buckets[int(abs(r["af"]))] += 1
+    dist_retraso = [{"horas": h, "n": retraso_buckets.get(h, 0)} for h in range(24)
+                    if retraso_buckets.get(h, 0) > 0]
+    retraso_vals = [abs(r["af"]) for r in incump_rows]
+    retraso_prom = round(sum(retraso_vals)/len(retraso_vals), 1) if retraso_vals else None
+
     return {
         "incump_depto":        incump_depto,
         "top_estudios_incump": top_estudios_incump,
@@ -1543,6 +1616,105 @@ def _analisis_web(rows):
         "calor_hora_total":    total_hora,
         "calor_hora_deptos":   deptos_incump,
         "calor_horas":         HORAS,
+        # Nuevos: entrega tardía por hora, incumplimiento por día, retraso
+        "calor_entrega":       calor_entrega,
+        "calor_entrega_total": total_entrega_hora,
+        "incump_dow":          incump_dow,
+        "dist_retraso":        dist_retraso,
+        "retraso_prom":        retraso_prom,
+        "total_incump":        len(incump_rows),
+    }
+
+
+def _generar_acciones(tabla_por_semana, analisis_sem, chequeos):
+    """
+    Genera la vista de ACCIONES: análisis semana a semana combinando el
+    indicador de cumplimiento (A-F) y los indicadores de chequeos, con
+    recomendaciones concretas, avisos y patrones para la toma de decisiones.
+    """
+    OBJ_AF = 98
+    chk_sem = chequeos.get("por_semana", {})
+
+    # Indicador A-F por semana (fila General de cada tabla semanal)
+    af_sem = {}
+    for s, tabla in tabla_por_semana.items():
+        g = next((r for r in tabla if r["Unidad"] == "General"), None)
+        if g:
+            af_sem[s] = {"ind": g.get("indicador"), "estudios": g.get("estudios"),
+                         "incump": g.get("incumplimiento")}
+
+    semanas = sorted(set(af_sem) | set(chk_sem), key=lambda x: int(x))
+
+    semanal = []
+    for s in semanas:
+        af  = af_sem.get(s, {})
+        chk = chk_sem.get(s, {})
+        rt  = chk.get("realiz_term_obj", {}) if chk else {}
+        er  = chk.get("entrega_real", {}) if chk else {}
+        an  = analisis_sem.get(s, {})
+
+        acciones = []
+        # Cumplimiento A-F
+        if af.get("ind") is not None and af["ind"] < OBJ_AF:
+            top = [d for d in (an.get("incump_depto") or []) if d["incump"] > 0][:2]
+            depts = ", ".join(f"{d['depto'].split(' ')[0]} ({d['incump']})" for d in top)
+            acciones.append({"tipo": "bad",
+                "txt": f"Cumplimiento {af['ind']:.1f}% (<{OBJ_AF}%). Enfocar en {depts or 'deptos con más retrasos'}."})
+        # Transcripción ≤4 días
+        if rt.get("pct_ok") is not None and rt["pct_ok"] < OBJ_REALIZ_TERM:
+            acciones.append({"tipo": "warn",
+                "txt": f"Transcripción {rt['pct_ok']}% en ≤{LIM_REALIZ_TERM} días (<{OBJ_REALIZ_TERM}%). "
+                       f"Reforzar capacidad de transcripción esta semana."})
+        # Entrega 1 día antes
+        if er.get("pct_1dia") is not None and er["pct_1dia"] < OBJ_ENTREGA_REAL:
+            acciones.append({"tipo": "warn",
+                "txt": f"Entrega anticipada {er['pct_1dia']}% (<{OBJ_ENTREGA_REAL}%). "
+                       f"Adelantar entregas para dejar ≥1 día de margen."})
+        if not acciones and (af.get("ind") is not None or rt.get("pct_ok") is not None):
+            acciones.append({"tipo": "good", "txt": "Semana en objetivo. Mantener el ritmo."})
+
+        semanal.append({
+            "semana":     s,
+            "af_ind":     round(af["ind"], 1) if af.get("ind") is not None else None,
+            "chk_transc": rt.get("pct_ok"),
+            "chk_1dia":   er.get("pct_1dia"),
+            "total_chk":  chk.get("total") if chk else None,
+            "estudios":   af.get("estudios"),
+            "acciones":   acciones,
+        })
+
+    # ── Avisos globales (estado actual) ──────────────────────────────────────
+    avisos = []
+    res = chequeos.get("resumen", {})
+    rt_g, er_g = res.get("realiz_term_obj", {}), res.get("entrega_real", {})
+    if rt_g.get("pct_ok") is not None:
+        falta = round(OBJ_REALIZ_TERM - rt_g["pct_ok"], 1)
+        avisos.append({"tipo": "bad" if falta > 0 else "good",
+            "txt": (f"Transcripción ≤{LIM_REALIZ_TERM} días: {rt_g['pct_ok']}% "
+                    + (f"— faltan {falta} pts para el objetivo {OBJ_REALIZ_TERM}%." if falta > 0
+                       else f"— cumple el objetivo {OBJ_REALIZ_TERM}%."))})
+    if er_g.get("pct_1dia") is not None:
+        falta = round(OBJ_ENTREGA_REAL - er_g["pct_1dia"], 1)
+        avisos.append({"tipo": "bad" if falta > 0 else "good",
+            "txt": (f"Entrega ≥1 día antes: {er_g['pct_1dia']}% "
+                    + (f"— faltan {falta} pts para el objetivo {OBJ_ENTREGA_REAL}%." if falta > 0
+                       else f"— cumple el objetivo {OBJ_ENTREGA_REAL}%."))})
+    # Peor semana reciente de transcripción
+    recientes = [w for w in semanal if w["chk_transc"] is not None]
+    if recientes:
+        peor = min(recientes, key=lambda x: x["chk_transc"])
+        if peor["chk_transc"] < OBJ_REALIZ_TERM:
+            avisos.append({"tipo": "warn",
+                "txt": f"La semana {peor['semana']} es la más baja en transcripción "
+                       f"({peor['chk_transc']}%). Revisar qué ocurrió (ausencias, picos de volumen)."})
+
+    return {
+        "semanal":  semanal,
+        "avisos":   avisos,
+        "obj_af":   OBJ_AF,
+        "obj_transc": OBJ_REALIZ_TERM,
+        "obj_1dia": OBJ_ENTREGA_REAL,
+        "patrones": chequeos.get("patrones", {}),
     }
 
 
@@ -1576,6 +1748,9 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         sub = [r for r in todas_las_filas if r.get("semana") == sem]
         analisis_sem[str(sem)] = _analisis_web(sub)
 
+    chequeos = _analisis_chequeos(leer_todos_chequeos())
+    acciones = _generar_acciones(tabla_por_semana, analisis_sem, chequeos)
+
     data = {
         "generado":        datetime.datetime.now().isoformat(),
         "rango":           {"inicio": fecha_min.isoformat(), "fin": fecha_max.isoformat()},
@@ -1588,7 +1763,8 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         "analisis":        analisis_acum,
         "analisis_sem":    analisis_sem,
         "interpretaciones": leer_todas_interpretaciones(),
-        "chequeos":        _analisis_chequeos(leer_todos_chequeos()),
+        "chequeos":        chequeos,
+        "acciones":        acciones,
     }
 
     DOCS_DIR = Path(__file__).parent / "docs"
