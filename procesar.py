@@ -283,11 +283,29 @@ def _ods_q(tag: str) -> str:
     return "{%s}%s" % (_ODS_NS[prefijo], nombre)
 
 
+def _domingos_en_rango(a, b):
+    """Número de domingos en el intervalo (a, b]  (a excluido, b incluido)."""
+    inicio = a + datetime.timedelta(days=1)
+    if inicio > b:
+        return 0
+    # Primer domingo ≥ inicio (Python: lunes=0 … domingo=6)
+    primer = inicio + datetime.timedelta(days=(6 - inicio.weekday()) % 7)
+    if primer > b:
+        return 0
+    return (b - primer).days // 7 + 1
+
+
 def _dias(a, b):
-    """Días transcurridos entre dos fechas (b - a). None si falta alguna."""
-    if a and b:
-        return (b - a).days
-    return None
+    """
+    Días hábiles transcurridos entre dos fechas (b − a), contando solo de
+    lunes a sábado: los domingos NO se cuentan. None si falta alguna fecha.
+    """
+    if not (a and b):
+        return None
+    if b >= a:
+        return (b - a).days - _domingos_en_rango(a, b)
+    # Diferencia negativa (errores de captura): simétrico
+    return -((a - b).days - _domingos_en_rango(b, a))
 
 
 def _parse_fecha_chequeo(val):
@@ -1152,6 +1170,151 @@ def _resumen_periodo(registros: list[dict]) -> dict:
     }
 
 
+_DOW_NOMBRES = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+
+
+def _patrones_chequeos(registros, por_semana, por_mes, resumen) -> dict:
+    """
+    Detecta patrones accionables: tendencia temporal, días pico de la semana,
+    desempeño por transcriptor / internista y hallazgos automáticos para la
+    toma de decisiones.
+    """
+    # ── Tendencia por semana y por mes (serie temporal) ──────────────────────
+    def serie(dic, claves):
+        out = []
+        for k in claves:
+            b = dic[k]
+            out.append({
+                "periodo":     k,
+                "total":       b["total"],
+                "pct_transc":  b["realiz_term_obj"]["pct_ok"],
+                "avg_transc":  b["realiz_term_obj"]["avg"],
+                "pct_entrega": b["entrega_real"]["pct_a_tiempo"],
+            })
+        return out
+
+    tendencia_semana = serie(por_semana, sorted(por_semana, key=lambda x: int(x)))
+    tendencia_mes    = serie(por_mes, sorted(por_mes))
+
+    # ── Volumen por día de la semana (lun–sáb; domingo no se cuenta) ──────────
+    dow = {i: 0 for i in range(6)}
+    for r in registros:
+        f = r.get("realizacion")
+        if f and f.weekday() < 6:
+            dow[f.weekday()] += 1
+    por_dia = [{"dia": _DOW_NOMBRES[i], "n": dow[i]} for i in range(6)]
+
+    # ── Desempeño por transcriptor / internista ──────────────────────────────
+    def desempeno(group_fn, dkey, lim):
+        g = {}
+        for r in registros:
+            v = r[dkey]
+            if not _dias_valido(v):
+                continue
+            k = group_fn(r)
+            g.setdefault(k, {"n": 0, "ok": 0, "suma": 0})
+            g[k]["n"]   += 1
+            g[k]["suma"] += v
+            if v <= lim:
+                g[k]["ok"] += 1
+        filas = []
+        for k, v in g.items():
+            filas.append({
+                "nombre": k, "n": v["n"],
+                "pct_ok": round(v["ok"] / v["n"] * 100, 1) if v["n"] else None,
+                "avg":    round(v["suma"] / v["n"], 1) if v["n"] else None,
+            })
+        return sorted(filas, key=lambda x: -x["n"])
+
+    transc_perf = desempeno(lambda r: _norm_transcriptor(r["transcriptor"]),
+                            "d_realiz_terminado", LIM_REALIZ_TERM)
+    intern_perf = desempeno(lambda r: _norm_internista(r["medico"]),
+                            "d_realiz_entregado", CHK_LIM_VERDE)
+
+    # ── Hallazgos automáticos ────────────────────────────────────────────────
+    hallazgos = []
+    er = resumen["entrega_real"]
+    rt = resumen["realiz_term_obj"]
+
+    # Cuello de botella
+    if rt["pct_ok"] is not None and er["pct_a_tiempo"] is not None:
+        if rt["pct_ok"] < OBJ_REALIZ_TERM and er["pct_a_tiempo"] >= OBJ_ENTREGA_REAL:
+            hallazgos.append({
+                "tipo": "bad",
+                "txt": f"El cuello de botella es la TRANSCRIPCIÓN: solo {rt['pct_ok']}% se "
+                       f"termina en ≤{LIM_REALIZ_TERM} días (objetivo {OBJ_REALIZ_TERM}%), "
+                       f"mientras que la entrega final cumple {er['pct_a_tiempo']}% "
+                       f"(objetivo {OBJ_ENTREGA_REAL}%). El retraso se origina antes de la entrega.",
+            })
+        elif rt["pct_ok"] >= OBJ_REALIZ_TERM:
+            hallazgos.append({
+                "tipo": "good",
+                "txt": f"Ambos objetivos se cumplen: transcripción {rt['pct_ok']}% "
+                       f"(≥{OBJ_REALIZ_TERM}%) y entrega {er['pct_a_tiempo']}% (≥{OBJ_ENTREGA_REAL}%).",
+            })
+
+    # Semanas críticas (más de 8 registros y cumplimiento bajo)
+    criticas = [s for s in tendencia_semana
+                if s["total"] >= 8 and s["pct_transc"] is not None
+                and s["pct_transc"] < 60]
+    if criticas:
+        criticas.sort(key=lambda x: x["pct_transc"])
+        etqs = ", ".join(f"Sem {c['periodo']} ({c['pct_transc']}%)" for c in criticas[:4])
+        hallazgos.append({
+            "tipo": "bad",
+            "txt": f"Semanas críticas en transcripción (<60% en ≤{LIM_REALIZ_TERM} días): {etqs}. "
+                   f"Conviene revisar carga de trabajo o ausencias en esas semanas.",
+        })
+
+    # Tendencia entre primer y último mes
+    if len(tendencia_mes) >= 2:
+        m0, m1 = tendencia_mes[0], tendencia_mes[-1]
+        if m0["pct_transc"] is not None and m1["pct_transc"] is not None:
+            delta = round(m1["pct_transc"] - m0["pct_transc"], 1)
+            if abs(delta) >= 5:
+                hallazgos.append({
+                    "tipo": "good" if delta > 0 else "warn",
+                    "txt": f"La transcripción {'mejoró' if delta>0 else 'empeoró'} "
+                           f"{abs(delta)} puntos de {m0['periodo']} ({m0['pct_transc']}%) "
+                           f"a {m1['periodo']} ({m1['pct_transc']}%).",
+                })
+
+    # Día pico de realización
+    if por_dia:
+        pico = max(por_dia, key=lambda x: x["n"])
+        total_dias = sum(x["n"] for x in por_dia) or 1
+        hallazgos.append({
+            "tipo": "info",
+            "txt": f"El {pico['dia']} concentra el mayor volumen de estudios "
+                   f"({pico['n']}, {round(pico['n']/total_dias*100)}% del total). "
+                   f"La carga se acumula a fin de semana (jueves a sábado), lo que presiona "
+                   f"la transcripción de los días siguientes.",
+        })
+
+    # Comparación entre transcriptores principales
+    principales = [t for t in transc_perf
+                   if t["nombre"] in TRANSCRIPTORES_CANON and t["n"] >= 20]
+    if len(principales) >= 2:
+        principales.sort(key=lambda x: -(x["pct_ok"] or 0))
+        mejor, peor = principales[0], principales[-1]
+        if (mejor["pct_ok"] or 0) - (peor["pct_ok"] or 0) >= 5:
+            hallazgos.append({
+                "tipo": "info",
+                "txt": f"Entre transcriptores, {mejor['nombre']} cumple {mejor['pct_ok']}% "
+                       f"en ≤{LIM_REALIZ_TERM} días vs {peor['nombre']} {peor['pct_ok']}% "
+                       f"(volúmenes {mejor['n']} y {peor['n']}).",
+            })
+
+    return {
+        "tendencia_semana": tendencia_semana,
+        "tendencia_mes":    tendencia_mes,
+        "por_dia":          por_dia,
+        "transc_perf":      transc_perf,
+        "intern_perf":      intern_perf,
+        "hallazgos":        hallazgos,
+    }
+
+
 def _analisis_chequeos(registros: list[dict]) -> dict:
     """Resume los chequeos (días por proceso) para el dashboard web."""
     def stats(key):
@@ -1209,6 +1372,7 @@ def _analisis_chequeos(registros: list[dict]) -> dict:
     por_mes    = {m: _resumen_periodo([r for r in registros if r.get("mes") == m])
                   for m in meses_ord}
     resumen_global = _resumen_periodo(registros)
+    patrones = _patrones_chequeos(registros, por_semana, por_mes, resumen_global)
 
     detalle = [{
         "semana":        r["semana"],
@@ -1252,6 +1416,7 @@ def _analisis_chequeos(registros: list[dict]) -> dict:
         "obj_entrega_real": OBJ_ENTREGA_REAL,
         "obj_realiz_term":  OBJ_REALIZ_TERM,
         "lim_realiz_term":  LIM_REALIZ_TERM,
+        "patrones":       patrones,
     }
 
 

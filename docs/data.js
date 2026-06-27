@@ -1,6 +1,6 @@
 // Generado automáticamente por procesar.py — no editar a mano
 window.DASHBOARD_DATA = {
-  "generado": "2026-06-27T14:27:01.462192",
+  "generado": "2026-06-27T14:47:13.655378",
   "rango": {
     "inicio": "2026-03-31",
     "fin": "2026-06-21"
@@ -11596,33 +11596,33 @@ window.DASHBOARD_DATA = {
   "chequeos": {
     "procesos": {
       "realiz_semaforo": {
-        "avg": 4.9,
-        "min": -25,
-        "max": 10,
+        "avg": 4.1,
+        "min": -22,
+        "max": 8,
         "n": 973
       },
       "realiz_terminado": {
-        "avg": 4.9,
-        "min": -58,
-        "max": 187,
+        "avg": 4.1,
+        "min": -50,
+        "max": 160,
         "n": 949
       },
       "terminado_entregado": {
-        "avg": 2.9,
-        "min": -3,
-        "max": 62,
+        "avg": 2.5,
+        "min": -2,
+        "max": 54,
         "n": 916
       },
       "realiz_entregado": {
-        "avg": 7.5,
+        "avg": 6.4,
         "min": 1,
-        "max": 55,
+        "max": 47,
         "n": 928
       },
       "entregado_vs_real": {
-        "avg": -2.9,
-        "min": -29,
-        "max": 33,
+        "avg": -2.6,
+        "min": -25,
+        "max": 28,
         "n": 923
       }
     },
@@ -11630,86 +11630,86 @@ window.DASHBOARD_DATA = {
       {
         "transcriptor": "Beto",
         "entregados": 462,
-        "avg": 7.3,
+        "avg": 6.2,
         "min": 1,
-        "max": 34
+        "max": 29
       },
       {
         "transcriptor": "Casandra",
         "entregados": 425,
-        "avg": 7.8,
+        "avg": 6.7,
         "min": 2,
-        "max": 55
+        "max": 47
       },
       {
         "transcriptor": "BACARDI",
         "entregados": 24,
-        "avg": 4.6,
-        "min": 3,
-        "max": 7
+        "avg": 3.7,
+        "min": 2,
+        "max": 6
       },
       {
         "transcriptor": "Casandra/Beto",
         "entregados": 5,
-        "avg": 8.6,
-        "min": 5,
-        "max": 13
+        "avg": 7.2,
+        "min": 4,
+        "max": 11
       },
       {
         "transcriptor": "(sin asignar)",
         "entregados": 2,
-        "avg": 13.0,
-        "min": 6,
-        "max": 20
+        "avg": 11.0,
+        "min": 5,
+        "max": 17
       },
       {
         "transcriptor": "Beto/Cas",
-        "entregados": 1,
-        "avg": 7.0,
-        "min": 7,
-        "max": 7
-      },
-      {
-        "transcriptor": "Beto/Casa",
-        "entregados": 1,
-        "avg": 7.0,
-        "min": 7,
-        "max": 7
-      },
-      {
-        "transcriptor": "Beto/Casandra",
-        "entregados": 1,
-        "avg": 9.0,
-        "min": 9,
-        "max": 9
-      },
-      {
-        "transcriptor": "Beto/Graciela",
         "entregados": 1,
         "avg": 6.0,
         "min": 6,
         "max": 6
       },
       {
-        "transcriptor": "Casandra / Graciela",
+        "transcriptor": "Beto/Casa",
+        "entregados": 1,
+        "avg": 6.0,
+        "min": 6,
+        "max": 6
+      },
+      {
+        "transcriptor": "Beto/Casandra",
         "entregados": 1,
         "avg": 8.0,
         "min": 8,
         "max": 8
       },
       {
+        "transcriptor": "Beto/Graciela",
+        "entregados": 1,
+        "avg": 5.0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "transcriptor": "Casandra / Graciela",
+        "entregados": 1,
+        "avg": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      {
         "transcriptor": "Casandra/Graciela",
         "entregados": 1,
-        "avg": 6.0,
-        "min": 6,
-        "max": 6
+        "avg": 5.0,
+        "min": 5,
+        "max": 5
       },
       {
         "transcriptor": "Casandra/Humberto",
         "entregados": 1,
-        "avg": 14.0,
-        "min": 14,
-        "max": 14
+        "avg": 12.0,
+        "min": 12,
+        "max": 12
       },
       {
         "transcriptor": "Martha",
@@ -11721,16 +11721,16 @@ window.DASHBOARD_DATA = {
       {
         "transcriptor": "Mayra",
         "entregados": 1,
-        "avg": 3.0,
-        "min": 3,
-        "max": 3
+        "avg": 2.0,
+        "min": 2,
+        "max": 2
       },
       {
         "transcriptor": "Sin transcriptor",
         "entregados": 1,
-        "avg": 15.0,
-        "min": 15,
-        "max": 15
+        "avg": 13.0,
+        "min": 13,
+        "max": 13
       },
       {
         "transcriptor": "AON RISK",
@@ -11754,114 +11754,98 @@ window.DASHBOARD_DATA = {
       },
       {
         "dias": 2,
-        "n": 4
+        "n": 13
       },
       {
         "dias": 3,
-        "n": 36
+        "n": 82
       },
       {
         "dias": 4,
-        "n": 95
+        "n": 221
       },
       {
         "dias": 5,
-        "n": 208
+        "n": 250
       },
       {
         "dias": 6,
-        "n": 223
-      },
-      {
-        "dias": 7,
         "n": 92
       },
       {
+        "dias": 7,
+        "n": 54
+      },
+      {
         "dias": 8,
-        "n": 49
+        "n": 40
       },
       {
         "dias": 9,
-        "n": 34
+        "n": 28
       },
       {
         "dias": 10,
-        "n": 23
+        "n": 45
       },
       {
         "dias": 11,
-        "n": 23
+        "n": 31
       },
       {
         "dias": 12,
-        "n": 39
-      },
-      {
-        "dias": 13,
-        "n": 30
-      },
-      {
-        "dias": 14,
         "n": 15
       },
       {
+        "dias": 13,
+        "n": 7
+      },
+      {
+        "dias": 14,
+        "n": 11
+      },
+      {
         "dias": 15,
-        "n": 6
+        "n": 5
       },
       {
         "dias": 16,
-        "n": 5
+        "n": 8
       },
       {
         "dias": 17,
         "n": 7
       },
       {
-        "dias": 18,
-        "n": 7
+        "dias": 21,
+        "n": 4
       },
       {
-        "dias": 19,
-        "n": 6
-      },
-      {
-        "dias": 20,
-        "n": 7
-      },
-      {
-        "dias": 24,
-        "n": 2
-      },
-      {
-        "dias": 25,
-        "n": 2
-      },
-      {
-        "dias": 27,
+        "dias": 23,
         "n": 5
       },
       {
-        "dias": 30,
+        "dias": 26,
         "n": 1
+      },
+      {
+        "dias": 27,
+        "n": 1
+      },
+      {
+        "dias": 28,
+        "n": 1
+      },
+      {
+        "dias": 29,
+        "n": 3
       },
       {
         "dias": 31,
         "n": 1
       },
       {
-        "dias": 33,
-        "n": 1
-      },
-      {
-        "dias": 34,
-        "n": 3
-      },
-      {
-        "dias": 36,
-        "n": 1
-      },
-      {
-        "dias": 55,
+        "dias": 47,
         "n": 1
       }
     ],
@@ -11913,7 +11897,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 24,
@@ -11929,8 +11913,8 @@ window.DASHBOARD_DATA = {
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -11951,7 +11935,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 24,
@@ -11970,7 +11954,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 24,
@@ -12024,8 +12008,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "SÍ",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -12045,8 +12029,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 24,
@@ -12061,10 +12045,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "-",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -12080,10 +12064,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12100,9 +12084,9 @@ window.DASHBOARD_DATA = {
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12118,10 +12102,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12138,9 +12122,9 @@ window.DASHBOARD_DATA = {
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -12156,10 +12140,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -12175,10 +12159,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12194,11 +12178,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -93
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
       },
       {
         "semana": 24,
@@ -12213,11 +12197,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -93
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
       },
       {
         "semana": 24,
@@ -12232,11 +12216,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -93
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
       },
       {
         "semana": 24,
@@ -12251,10 +12235,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -12270,11 +12254,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -93
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -80
       },
       {
         "semana": 24,
@@ -12292,7 +12276,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -12309,9 +12293,9 @@ window.DASHBOARD_DATA = {
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12329,8 +12313,8 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "Sí",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12346,10 +12330,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "Sí",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -12367,8 +12351,8 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "NO",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12384,10 +12368,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "Sí",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12403,10 +12387,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12422,10 +12406,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12441,11 +12425,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 24,
@@ -12460,10 +12444,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12479,11 +12463,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 24,
@@ -12498,10 +12482,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "Terminado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -12517,10 +12501,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12536,11 +12520,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 24,
@@ -12555,10 +12539,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12576,8 +12560,8 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "NO",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12593,10 +12577,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12612,10 +12596,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12631,10 +12615,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -12650,10 +12634,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12669,10 +12653,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -12688,10 +12672,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12707,10 +12691,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "Terminado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -12726,10 +12710,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12745,10 +12729,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12764,10 +12748,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12783,10 +12767,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12802,10 +12786,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "Terminado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -12823,8 +12807,8 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "NO",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12841,8 +12825,8 @@ window.DASHBOARD_DATA = {
         "estado": "FINALIZADO",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
@@ -12863,7 +12847,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 2,
@@ -12882,7 +12866,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 2,
@@ -12901,7 +12885,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 2,
@@ -12920,7 +12904,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 2,
@@ -12935,10 +12919,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -12954,11 +12938,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -12
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
       },
       {
         "semana": 2,
@@ -12973,10 +12957,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -12992,10 +12976,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13011,10 +12995,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -13030,10 +13014,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13049,11 +13033,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 2,
@@ -13068,10 +13052,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -13087,10 +13071,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -13106,10 +13090,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 19,
+        "d_realiz_terminado": 16,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 10,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 8,
         "d_entregado_vs_real": -1
       },
       {
@@ -13125,10 +13109,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -13144,10 +13128,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13167,7 +13151,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 3,
@@ -13184,9 +13168,9 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 34,
+        "d_realiz_entregado": 29,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": 24
+        "d_entregado_vs_real": 20
       },
       {
         "semana": 3,
@@ -13201,10 +13185,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -13223,8 +13207,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": -1,
         "d_realiz_entregado": 2,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 3,
@@ -13239,10 +13223,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
       {
@@ -13258,10 +13242,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13277,10 +13261,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13296,11 +13280,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 3,
@@ -13315,10 +13299,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13334,10 +13318,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -13353,11 +13337,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 3,
@@ -13372,10 +13356,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13391,10 +13375,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -13414,7 +13398,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 4,
@@ -13432,8 +13416,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 4,
@@ -13451,8 +13435,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -10
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 4,
@@ -13470,8 +13454,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 2,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -11
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 4,
@@ -13486,11 +13470,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 4,
@@ -13505,10 +13489,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -13524,10 +13508,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": 0
       },
       {
@@ -13543,10 +13527,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -13562,10 +13546,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13581,11 +13565,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 4,
@@ -13600,10 +13584,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13619,11 +13603,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 4,
@@ -13638,11 +13622,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -10
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 4,
@@ -13657,10 +13641,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -13676,10 +13660,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13695,10 +13679,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Mayra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -13714,10 +13698,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -13733,10 +13717,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -13752,10 +13736,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -13771,10 +13755,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -13790,10 +13774,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": 0
       },
       {
@@ -13809,10 +13793,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -13828,10 +13812,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -13851,7 +13835,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 5,
@@ -13908,7 +13892,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 5,
@@ -13924,8 +13908,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -13943,9 +13927,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -13961,10 +13945,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -13980,10 +13964,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto/Cas",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14000,9 +13984,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -14019,9 +14003,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -14037,10 +14021,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14054,32 +14038,32 @@ window.DASHBOARD_DATA = {
         "entregado": "2026-02-04",
         "medico": "Toriz",
         "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 5,
-        "mes": "2026-01",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-01-30",
-        "semaforo": "2026-02-05",
-        "terminado": "2026-02-04",
-        "entregado": "2026-02-04",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -10
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 5,
+        "mes": "2026-01",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-01-30",
+        "semaforo": "2026-02-05",
+        "terminado": "2026-02-04",
+        "entregado": "2026-02-04",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 5,
@@ -14094,10 +14078,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14113,10 +14097,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14132,10 +14116,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14151,10 +14135,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 20,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 27,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 17,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 23,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14170,10 +14154,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14189,10 +14173,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -14208,10 +14192,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -14227,10 +14211,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14246,11 +14230,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -21
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -18
       },
       {
         "semana": 5,
@@ -14265,11 +14249,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 5,
@@ -14284,10 +14268,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14306,7 +14290,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": null
       },
       {
@@ -14322,10 +14306,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14341,10 +14325,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14360,10 +14344,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -14383,7 +14367,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 6,
@@ -14399,8 +14383,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -14418,8 +14402,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -14440,7 +14424,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -7
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 6,
@@ -14459,7 +14443,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 6,
@@ -14478,7 +14462,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": null,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -7
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 6,
@@ -14497,7 +14481,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 6,
@@ -14516,7 +14500,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": null,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -10
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 6,
@@ -14531,10 +14515,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra/Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -14550,10 +14534,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14572,8 +14556,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": -1,
         "d_realiz_entregado": 2,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 6,
@@ -14589,9 +14573,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14609,9 +14593,9 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 6,
@@ -14626,10 +14610,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -14645,10 +14629,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14667,8 +14651,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": -1,
         "d_realiz_entregado": 1,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 6,
@@ -14683,11 +14667,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": -3,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": -2,
         "d_realiz_entregado": 1,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 6,
@@ -14702,10 +14686,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14721,10 +14705,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14740,10 +14724,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14759,10 +14743,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -14778,10 +14762,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -14797,10 +14781,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -14816,10 +14800,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -14835,11 +14819,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -16
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -14
       },
       {
         "semana": 6,
@@ -14854,10 +14838,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -14867,139 +14851,6 @@ window.DASHBOARD_DATA = {
         "transcriptor_norm": "Beto",
         "realizacion": "2026-02-06",
         "semaforo": "2026-02-11",
-        "terminado": "2026-02-10",
-        "entregado": "2026-02-11",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Oropeza",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-06",
-        "semaforo": "2026-02-11",
-        "terminado": "2026-02-11",
-        "entregado": "2026-02-12",
-        "medico": "Oropeza",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -1
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Santoyo",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-06",
-        "semaforo": "2026-02-11",
-        "terminado": "2026-02-11",
-        "entregado": "2026-02-11",
-        "medico": "Santoyo",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-06",
-        "semaforo": "2026-02-11",
-        "terminado": "2026-02-10",
-        "entregado": "2026-02-11",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Oropeza",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-06",
-        "semaforo": "2026-02-11",
-        "terminado": "2026-02-11",
-        "entregado": "2026-02-13",
-        "medico": "Oropeza",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-06",
-        "semaforo": "2026-02-11",
-        "terminado": "2026-02-10",
-        "entregado": "2026-02-13",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Oropeza",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-06",
-        "semaforo": "2026-02-11",
-        "terminado": "2026-02-11",
-        "entregado": "2026-02-13",
-        "medico": "Oropeza",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -21
-      },
-      {
-        "semana": 6,
-        "mes": "2026-02",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-02-07",
-        "semaforo": "2026-02-12",
         "terminado": "2026-02-10",
         "entregado": "2026-02-11",
         "medico": "Toriz",
@@ -15009,7 +14860,140 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-12",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-11",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-13",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Oropeza",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-06",
+        "semaforo": "2026-02-11",
+        "terminado": "2026-02-11",
+        "entregado": "2026-02-13",
+        "medico": "Oropeza",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -18
+      },
+      {
+        "semana": 6,
+        "mes": "2026-02",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-02-07",
+        "semaforo": "2026-02-12",
+        "terminado": "2026-02-10",
+        "entregado": "2026-02-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -15025,10 +15009,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15044,10 +15028,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15063,11 +15047,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 6,
@@ -15082,10 +15066,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15101,10 +15085,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15120,10 +15104,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15139,10 +15123,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15158,10 +15142,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15177,10 +15161,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15219,7 +15203,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 7,
@@ -15238,7 +15222,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 7,
@@ -15257,7 +15241,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 7,
@@ -15276,7 +15260,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -7
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 7,
@@ -15312,7 +15296,7 @@ window.DASHBOARD_DATA = {
         "entrega_digital": "",
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
-        "d_realiz_entregado": 6,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
@@ -15333,7 +15317,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 7,
@@ -15352,7 +15336,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": null,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 7,
@@ -15371,7 +15355,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 7,
@@ -15387,8 +15371,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -15443,11 +15427,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": -729,
-        "d_realiz_entregado": -724,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -732
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -625,
+        "d_realiz_entregado": -621,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -628
       },
       {
         "semana": 7,
@@ -15462,10 +15446,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15481,11 +15465,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 7,
@@ -15501,9 +15485,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
       {
@@ -15519,10 +15503,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15538,11 +15522,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -12
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
       },
       {
         "semana": 7,
@@ -15557,11 +15541,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 28,
-        "d_terminado_entregado": 27,
-        "d_realiz_entregado": 55,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": 33
+        "d_realiz_terminado": 24,
+        "d_terminado_entregado": 23,
+        "d_realiz_entregado": 47,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 28
       },
       {
         "semana": 7,
@@ -15576,11 +15560,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 7,
@@ -15595,10 +15579,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15614,10 +15598,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15633,10 +15617,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -15652,10 +15636,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -15671,10 +15655,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15690,10 +15674,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15709,10 +15693,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -15728,10 +15712,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15747,10 +15731,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -15766,11 +15750,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -29
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -25
       },
       {
         "semana": 7,
@@ -15785,10 +15769,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15804,10 +15788,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -15823,11 +15807,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 7,
@@ -15842,10 +15826,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -15861,10 +15845,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -15880,10 +15864,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -15899,11 +15883,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 7,
@@ -15918,11 +15902,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 8,
@@ -15960,7 +15944,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 8,
@@ -15979,7 +15963,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -15998,7 +15982,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 8,
@@ -16014,8 +15998,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 10,
-        "d_realiz_entregado": 14,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -16033,10 +16017,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -16055,7 +16039,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -16074,7 +16058,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 8,
@@ -16090,8 +16074,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -16147,8 +16131,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 5,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 7,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -16165,11 +16149,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 8,
+        "d_realiz_terminado": 7,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 8,
@@ -16184,10 +16168,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 8,
+        "d_realiz_terminado": 7,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": 0
       },
       {
@@ -16204,9 +16188,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -16223,9 +16207,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -16242,10 +16226,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -21
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -18
       },
       {
         "semana": 8,
@@ -16260,10 +16244,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": null
       },
       {
@@ -16279,10 +16263,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": -730480,
-        "d_terminado_entregado": 730487,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": -626126,
+        "d_terminado_entregado": 626132,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -16298,11 +16282,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -16317,11 +16301,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -16336,10 +16320,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16355,10 +16339,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16374,10 +16358,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16393,10 +16377,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -16412,10 +16396,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -16431,11 +16415,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -16450,11 +16434,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 8,
@@ -16469,11 +16453,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 8,
@@ -16488,10 +16472,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16507,10 +16491,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16526,11 +16510,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 8,
@@ -16545,10 +16529,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16564,10 +16548,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -16583,10 +16567,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16602,11 +16586,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 8,
@@ -16621,10 +16605,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 10,
+        "d_realiz_terminado": 8,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -16640,10 +16624,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16659,10 +16643,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16678,10 +16662,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -16697,11 +16681,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 9,
@@ -16717,8 +16701,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
@@ -16736,10 +16720,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -22
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -19
       },
       {
         "semana": 9,
@@ -16757,7 +16741,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -16774,9 +16758,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
       {
@@ -16792,10 +16776,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -16812,9 +16796,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -16830,10 +16814,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -16852,7 +16836,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -16869,10 +16853,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -25
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -22
       },
       {
         "semana": 9,
@@ -16887,10 +16871,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -16906,11 +16890,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 9,
@@ -16926,9 +16910,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -16945,9 +16929,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -16963,10 +16947,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -16982,10 +16966,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17001,11 +16985,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 9,
@@ -17020,10 +17004,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17039,10 +17023,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17058,11 +17042,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -10
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 9,
@@ -17077,10 +17061,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17096,10 +17080,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17115,10 +17099,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": -23,
-        "d_terminado_entregado": 28,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": -20,
+        "d_terminado_entregado": 24,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17134,11 +17118,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 9,
@@ -17153,10 +17137,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17172,11 +17156,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 9,
@@ -17191,10 +17175,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": -23,
+        "d_realiz_terminado": -20,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -17210,10 +17194,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17229,11 +17213,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 9,
@@ -17248,10 +17232,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17267,11 +17251,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 9,
@@ -17286,10 +17270,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17305,10 +17289,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17324,10 +17308,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -17343,10 +17327,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -17365,7 +17349,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -17381,11 +17365,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 9,
@@ -17403,7 +17387,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -17423,7 +17407,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 10,
@@ -17442,7 +17426,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 2,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -7
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 10,
@@ -17461,7 +17445,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 10,
@@ -17480,7 +17464,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 10,
@@ -17499,7 +17483,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 10,
@@ -17518,7 +17502,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 10,
@@ -17537,7 +17521,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 10,
@@ -17556,7 +17540,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 10,
@@ -17575,7 +17559,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -11
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 10,
@@ -17591,8 +17575,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -17613,7 +17597,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -7
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 10,
@@ -17632,7 +17616,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 10,
@@ -17651,7 +17635,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 10,
@@ -17670,7 +17654,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 10,
@@ -17686,8 +17670,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -17704,10 +17688,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra / Graciela",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 8,
+        "d_realiz_terminado": 7,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": 0
       },
       {
@@ -17724,10 +17708,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -12
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -11
       },
       {
         "semana": 10,
@@ -17742,10 +17726,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17761,10 +17745,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17780,10 +17764,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17799,10 +17783,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17818,10 +17802,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17837,10 +17821,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
       {
@@ -17856,10 +17840,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17875,10 +17859,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 29,
-        "d_realiz_entregado": 34,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 25,
+        "d_realiz_entregado": 29,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -17894,10 +17878,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -17913,10 +17897,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -17932,10 +17916,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -17951,10 +17935,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -17970,10 +17954,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -17989,10 +17973,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -18008,10 +17992,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -18027,11 +18011,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 10,
@@ -18046,10 +18030,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18065,86 +18049,48 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 10,
-        "mes": "2026-03",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-03-06",
-        "semaforo": "2026-03-11",
-        "terminado": "2026-03-10",
-        "entregado": "2026-03-18",
-        "medico": "Castellón",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 10,
-        "mes": "2026-03",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-03-06",
-        "semaforo": "2026-03-11",
-        "terminado": "2026-03-10",
-        "entregado": "2026-03-11",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 10,
-        "mes": "2026-03",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-03-06",
-        "semaforo": "2026-03-11",
-        "terminado": "2026-03-10",
-        "entregado": "2026-03-11",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 10,
-        "mes": "2026-03",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-03-06",
-        "semaforo": "2026-03-11",
-        "terminado": "2026-03-11",
-        "entregado": "2026-03-18",
-        "medico": "Castellón",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-11",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18160,10 +18106,48 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-11",
+        "entregado": "2026-03-18",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 10,
+        "mes": "2026-03",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-03-06",
+        "semaforo": "2026-03-11",
+        "terminado": "2026-03-10",
+        "entregado": "2026-03-11",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18179,10 +18163,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18198,10 +18182,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18217,10 +18201,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -18236,11 +18220,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 10,
@@ -18255,11 +18239,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 10,
@@ -18274,10 +18258,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18293,11 +18277,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 10,
@@ -18312,11 +18296,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 2,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 10,
@@ -18331,11 +18315,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 10,
@@ -18350,10 +18334,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18369,10 +18353,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18388,10 +18372,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18407,10 +18391,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18426,10 +18410,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18445,10 +18429,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18464,11 +18448,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 10,
@@ -18483,10 +18467,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18502,10 +18486,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18521,10 +18505,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18540,11 +18524,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 10,
@@ -18559,10 +18543,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18578,10 +18562,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -18601,7 +18585,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 11,
@@ -18617,10 +18601,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 11,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -18639,7 +18623,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 11,
@@ -18658,7 +18642,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 11,
@@ -18674,8 +18658,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -18693,10 +18677,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 11,
@@ -18734,7 +18718,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -18753,7 +18737,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 11,
@@ -18769,8 +18753,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -18791,7 +18775,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 11,
@@ -18882,11 +18866,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto/Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -18901,10 +18885,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -18923,7 +18907,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": null
       },
       {
@@ -18942,8 +18926,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -5
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 11,
@@ -18959,9 +18943,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -18977,10 +18961,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -18996,10 +18980,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19015,10 +18999,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19034,10 +19018,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto/Casa",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19053,10 +19037,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": 0
       },
       {
@@ -19072,10 +19056,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -19091,10 +19075,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -19110,10 +19094,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19130,9 +19114,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -19148,11 +19132,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -19167,10 +19151,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19186,10 +19170,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -19206,9 +19190,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -19224,10 +19208,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19244,10 +19228,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -19262,10 +19246,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19281,10 +19265,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19300,10 +19284,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19319,11 +19303,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 11,
@@ -19338,10 +19322,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": 0
       },
       {
@@ -19357,10 +19341,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto/Graciela",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19376,10 +19360,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -19395,11 +19379,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra/Graciela",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 11,
@@ -19414,10 +19398,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19433,11 +19417,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 11,
@@ -19452,11 +19436,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 11,
@@ -19471,10 +19455,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19490,10 +19474,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -19509,11 +19493,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 11,
@@ -19528,10 +19512,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -19547,11 +19531,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -19566,10 +19550,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19585,11 +19569,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 11,
@@ -19604,11 +19588,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 11,
@@ -19623,11 +19607,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 11,
@@ -19642,10 +19626,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 21,
-        "d_realiz_entregado": 27,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 18,
+        "d_realiz_entregado": 23,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19661,10 +19645,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19680,10 +19664,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19699,10 +19683,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19718,10 +19702,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19737,10 +19721,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -19757,8 +19741,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -19779,7 +19763,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 12,
@@ -19795,8 +19779,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -19814,8 +19798,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -19833,8 +19817,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -19851,10 +19835,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "BACARDI",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": 0
       },
       {
@@ -19870,10 +19854,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -19890,9 +19874,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -19908,10 +19892,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -19927,10 +19911,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -19946,10 +19930,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 187,
-        "d_terminado_entregado": -167,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 160,
+        "d_terminado_entregado": -143,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -19965,10 +19949,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -19984,10 +19968,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20003,10 +19987,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20022,10 +20006,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20041,10 +20025,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20060,10 +20044,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20079,10 +20063,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": -1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -20098,11 +20082,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 12,
@@ -20117,10 +20101,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20136,10 +20120,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 19,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20155,10 +20139,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20174,10 +20158,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20193,10 +20177,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20212,10 +20196,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20231,10 +20215,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20250,10 +20234,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 19,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20269,10 +20253,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 20,
-        "d_realiz_entregado": 25,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 17,
+        "d_realiz_entregado": 21,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -20288,10 +20272,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20307,11 +20291,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 12,
@@ -20326,10 +20310,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 20,
-        "d_realiz_entregado": 25,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 17,
+        "d_realiz_entregado": 21,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -20345,10 +20329,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -20364,10 +20348,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20383,10 +20367,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20402,10 +20386,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20421,11 +20405,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 12,
@@ -20440,10 +20424,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20459,10 +20443,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20478,11 +20462,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 12,
@@ -20497,11 +20481,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 27,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 34,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_terminado": 23,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 29,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 12,
@@ -20516,10 +20500,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20535,10 +20519,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20554,10 +20538,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20573,10 +20557,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20592,10 +20576,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 15,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 13,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20611,10 +20595,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20630,10 +20614,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -20649,10 +20633,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20668,10 +20652,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20687,10 +20671,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -20706,10 +20690,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20729,7 +20713,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 13,
@@ -20745,8 +20729,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 16,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -20767,7 +20751,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 13,
@@ -20783,8 +20767,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 10,
-        "d_realiz_entregado": 14,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -20805,7 +20789,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": -1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 13,
@@ -20824,7 +20808,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 2,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 13,
@@ -20843,7 +20827,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 13,
@@ -20859,8 +20843,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -20878,8 +20862,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -20897,10 +20881,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 13,
@@ -20916,8 +20900,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -20935,8 +20919,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -20954,8 +20938,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -20972,10 +20956,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra/Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -20991,10 +20975,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21011,9 +20995,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 11,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21029,10 +21013,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21048,10 +21032,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21067,10 +21051,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21087,9 +21071,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 11,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21105,10 +21089,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21124,10 +21108,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21143,11 +21127,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 16,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 13,
@@ -21162,10 +21146,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21181,10 +21165,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 10,
-        "d_realiz_entregado": 15,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21200,10 +21184,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21219,11 +21203,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 13,
@@ -21241,7 +21225,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -21257,10 +21241,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 19,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21276,10 +21260,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21295,10 +21279,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21314,10 +21298,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21333,10 +21317,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 13,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -21352,10 +21336,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21371,10 +21355,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21390,10 +21374,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21409,10 +21393,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21428,11 +21412,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 13,
@@ -21447,10 +21431,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21466,10 +21450,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -21485,11 +21469,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 13,
@@ -21504,10 +21488,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21523,10 +21507,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21542,11 +21526,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 13,
@@ -21561,10 +21545,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21580,10 +21564,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21599,11 +21583,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 13,
@@ -21618,10 +21602,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra/Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21637,10 +21621,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra/Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21656,10 +21640,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 13,
+        "d_realiz_terminado": 11,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21675,10 +21659,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21694,10 +21678,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21713,10 +21697,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21732,10 +21716,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 10,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 19,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 8,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -21751,10 +21735,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21770,10 +21754,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21789,10 +21773,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -21808,10 +21792,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 10,
+        "d_realiz_terminado": 8,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -21827,10 +21811,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -21846,10 +21830,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -21866,9 +21850,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 1,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 15,
-        "d_realiz_semaforo": 7,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -3
       },
       {
@@ -21884,10 +21868,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -2
       },
       {
@@ -21903,11 +21887,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 11,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -21922,10 +21906,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -21941,10 +21925,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -21960,10 +21944,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -21979,10 +21963,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -21998,11 +21982,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 11,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22017,10 +22001,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22036,11 +22020,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 5,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22055,10 +22039,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22074,10 +22058,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22093,11 +22077,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22112,10 +22096,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 7,
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -2
       },
       {
@@ -22131,10 +22115,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22150,10 +22134,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 7,
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -2
       },
       {
@@ -22169,10 +22153,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22188,10 +22172,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22207,11 +22191,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22226,10 +22210,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22245,10 +22229,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22264,10 +22248,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22283,10 +22267,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 26,
-        "d_realiz_entregado": 33,
-        "d_realiz_semaforo": 7,
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 22,
+        "d_realiz_entregado": 28,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -4
       },
       {
@@ -22302,11 +22286,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22321,11 +22305,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22340,10 +22324,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22359,10 +22343,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22378,10 +22362,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22397,10 +22381,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 7,
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -3
       },
       {
@@ -22416,10 +22400,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22435,10 +22419,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 7,
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -3
       },
       {
@@ -22454,11 +22438,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 14,
@@ -22473,10 +22457,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22492,10 +22476,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22511,10 +22495,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 7,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -1
       },
       {
@@ -22530,10 +22514,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 7,
+        "d_realiz_terminado": 6,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 6,
         "d_entregado_vs_real": -2
       },
       {
@@ -22549,11 +22533,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 7,
+        "d_realiz_terminado": 6,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 7,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 6,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -22569,8 +22553,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 15,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -22582,120 +22566,6 @@ window.DASHBOARD_DATA = {
         "realizacion": "2026-04-06",
         "semaforo": "2026-04-10",
         "terminado": "2026-04-09",
-        "entregado": "2026-04-15",
-        "medico": "Santoyo",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 3,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 15,
-        "mes": "2026-04",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-06",
-        "semaforo": "2026-04-10",
-        "terminado": "2026-04-09",
-        "entregado": "2026-04-10",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 3,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 15,
-        "mes": "2026-04",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-06",
-        "semaforo": "2026-04-10",
-        "terminado": "2026-04-10",
-        "entregado": "2026-04-10",
-        "medico": "Castellón",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 15,
-        "mes": "2026-04",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-06",
-        "semaforo": "2026-04-10",
-        "terminado": "2026-04-10",
-        "entregado": "2026-04-17",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 15,
-        "mes": "2026-04",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-06",
-        "semaforo": "2026-04-10",
-        "terminado": "2026-04-10",
-        "entregado": "2026-04-15",
-        "medico": "Castellón",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 15,
-        "mes": "2026-04",
-        "internista_norm": "Santoyo",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-07",
-        "semaforo": "2026-04-11",
-        "terminado": "2026-04-10",
-        "entregado": "2026-04-13",
-        "medico": "Santoyo",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 15,
-        "mes": "2026-04",
-        "internista_norm": "Santoyo",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-07",
-        "semaforo": "2026-04-11",
-        "terminado": "2026-04-10",
         "entregado": "2026-04-15",
         "medico": "Santoyo",
         "transcriptor": "Beto",
@@ -22712,6 +22582,120 @@ window.DASHBOARD_DATA = {
         "mes": "2026-04",
         "internista_norm": "Toriz",
         "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-09",
+        "entregado": "2026-04-10",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-10",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 0,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-17",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-06",
+        "semaforo": "2026-04-10",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-15",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-13",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-07",
+        "semaforo": "2026-04-11",
+        "terminado": "2026-04-10",
+        "entregado": "2026-04-15",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 15,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
         "realizacion": "2026-04-07",
         "semaforo": "2026-04-11",
         "terminado": "2026-04-10",
@@ -22724,7 +22708,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -22740,8 +22724,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 24,
-        "d_realiz_entregado": 27,
+        "d_terminado_entregado": 20,
+        "d_realiz_entregado": 23,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -22762,7 +22746,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -22777,10 +22761,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22797,9 +22781,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22815,10 +22799,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22834,10 +22818,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -22853,10 +22837,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22873,9 +22857,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22891,10 +22875,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22911,9 +22895,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22929,10 +22913,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22948,10 +22932,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22967,10 +22951,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -22986,10 +22970,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23005,11 +22989,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 15,
@@ -23024,10 +23008,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23043,10 +23027,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23062,11 +23046,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -23081,10 +23065,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23100,11 +23084,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -23119,10 +23103,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 13,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23138,11 +23122,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -23157,11 +23141,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 15,
@@ -23176,10 +23160,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23195,11 +23179,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 15,
@@ -23214,10 +23198,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23233,11 +23217,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 15,
@@ -23252,10 +23236,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23271,10 +23255,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23290,10 +23274,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
       {
@@ -23309,10 +23293,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 22,
-        "d_realiz_entregado": 27,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 19,
+        "d_realiz_entregado": 23,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -23328,10 +23312,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -5
       },
       {
@@ -23347,10 +23331,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23366,10 +23350,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23385,10 +23369,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23404,10 +23388,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23423,10 +23407,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -23442,10 +23426,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 16,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23465,7 +23449,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 16,
@@ -23484,7 +23468,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 16,
@@ -23503,7 +23487,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 16,
@@ -23519,8 +23503,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -23538,8 +23522,46 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-16",
+        "entregado": "2026-04-20",
+        "medico": "Castellón",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 16,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-13",
+        "semaforo": "2026-04-17",
+        "terminado": "2026-04-17",
+        "entregado": "2026-04-21",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
@@ -23551,7 +23573,7 @@ window.DASHBOARD_DATA = {
         "realizacion": "2026-04-13",
         "semaforo": "2026-04-17",
         "terminado": "2026-04-16",
-        "entregado": "2026-04-20",
+        "entregado": "2026-04-21",
         "medico": "Castellón",
         "transcriptor": "Casandra",
         "estado": "finalizado",
@@ -23567,44 +23589,6 @@ window.DASHBOARD_DATA = {
         "mes": "2026-04",
         "internista_norm": "Toriz",
         "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-13",
-        "semaforo": "2026-04-17",
-        "terminado": "2026-04-17",
-        "entregado": "2026-04-21",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
-      },
-      {
-        "semana": 16,
-        "mes": "2026-04",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-13",
-        "semaforo": "2026-04-17",
-        "terminado": "2026-04-16",
-        "entregado": "2026-04-21",
-        "medico": "Castellón",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 3,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 16,
-        "mes": "2026-04",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
         "realizacion": "2026-04-14",
         "semaforo": "2026-04-18",
         "terminado": "2026-04-18",
@@ -23614,8 +23598,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -23633,8 +23617,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -23655,7 +23639,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 16,
@@ -23674,7 +23658,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 16,
@@ -23693,7 +23677,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 16,
@@ -23709,8 +23693,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
@@ -23728,8 +23712,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -23747,10 +23731,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 27,
-        "d_realiz_entregado": 31,
+        "d_terminado_entregado": 23,
+        "d_realiz_entregado": 27,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -7
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 16,
@@ -23766,9 +23750,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23785,9 +23769,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23804,9 +23788,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23822,10 +23806,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23841,10 +23825,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23860,10 +23844,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23879,11 +23863,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -23899,9 +23883,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23917,10 +23901,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23936,10 +23920,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23955,10 +23939,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -23975,9 +23959,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -23993,10 +23977,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24012,10 +23996,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24031,10 +24015,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24050,10 +24034,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24069,10 +24053,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -24088,10 +24072,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24107,10 +24091,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 13,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -24126,10 +24110,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24145,10 +24129,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -24164,10 +24148,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24183,10 +24167,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24202,10 +24186,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -24221,10 +24205,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24240,10 +24224,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24259,11 +24243,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -24278,10 +24262,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -24297,10 +24281,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24316,11 +24300,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -24335,11 +24319,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -24354,11 +24338,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -24373,10 +24357,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24392,10 +24376,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24411,11 +24395,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -24430,10 +24414,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24449,10 +24433,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24468,10 +24452,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24487,10 +24471,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24506,11 +24490,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 16,
@@ -24525,10 +24509,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 15,
-        "d_realiz_entregado": 19,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 13,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24544,10 +24528,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24563,10 +24547,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -24582,10 +24566,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 15,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 13,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24601,10 +24585,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24620,11 +24604,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 22,
-        "d_realiz_entregado": 27,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 19,
+        "d_realiz_entregado": 23,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 16,
@@ -24639,11 +24623,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 16,
@@ -24658,10 +24642,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -24677,10 +24661,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24696,10 +24680,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -24715,10 +24699,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 19,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 16,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24734,11 +24718,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": -664728,
-        "d_realiz_entregado": -664723,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -664744
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -569767,
+        "d_realiz_entregado": -569763,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -569781
       },
       {
         "semana": 16,
@@ -24753,10 +24737,48 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-20",
+        "semaforo": "2026-04-24",
+        "terminado": "2026-04-24",
+        "entregado": "2026-04-25",
+        "medico": "Castellón",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -24795,7 +24817,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 17,
@@ -24814,45 +24836,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 17,
-        "mes": "2026-04",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-20",
-        "semaforo": "2026-04-24",
-        "terminado": "2026-04-24",
-        "entregado": "2026-04-25",
-        "medico": "Castellón",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 17,
-        "mes": "2026-04",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-20",
-        "semaforo": "2026-04-24",
-        "terminado": "2026-04-24",
-        "entregado": "2026-04-25",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 17,
@@ -24868,10 +24852,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 17,
@@ -24887,10 +24871,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 17,
@@ -24906,8 +24890,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -24928,7 +24912,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": -1,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 17,
@@ -24944,8 +24928,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -24963,8 +24947,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -24982,10 +24966,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 17,
@@ -25001,8 +24985,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -25020,8 +25004,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -25039,10 +25023,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 20,
-        "d_realiz_entregado": 24,
+        "d_terminado_entregado": 17,
+        "d_realiz_entregado": 21,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -13
+        "d_entregado_vs_real": -11
       },
       {
         "semana": 17,
@@ -25058,10 +25042,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 20,
-        "d_realiz_entregado": 24,
+        "d_terminado_entregado": 17,
+        "d_realiz_entregado": 21,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -13
+        "d_entregado_vs_real": -11
       },
       {
         "semana": 17,
@@ -25077,8 +25061,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 7,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -25095,9 +25079,9 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 30,
+        "d_realiz_terminado": 26,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 30,
+        "d_realiz_entregado": 26,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -25115,8 +25099,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -25134,8 +25118,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -25153,8 +25137,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 13,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
@@ -25172,8 +25156,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -25190,10 +25174,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25209,10 +25193,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25228,10 +25212,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25247,10 +25231,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25266,10 +25250,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25285,10 +25269,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25304,10 +25288,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25323,10 +25307,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25342,10 +25326,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25361,10 +25345,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 4,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 3,
         "d_entregado_vs_real": -2
       },
       {
@@ -25380,11 +25364,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 16,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25399,29 +25383,29 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-23",
+        "semaforo": "2026-04-28",
+        "terminado": "2026-04-28",
+        "entregado": "2026-04-29",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
         "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 17,
-        "mes": "2026-04",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-23",
-        "semaforo": "2026-04-28",
-        "terminado": "2026-04-28",
-        "entregado": "2026-04-29",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -25437,10 +25421,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -25456,10 +25440,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25475,10 +25459,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25494,10 +25478,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25513,10 +25497,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25532,10 +25516,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25551,11 +25535,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25568,32 +25552,32 @@ window.DASHBOARD_DATA = {
         "entregado": "2026-05-02",
         "medico": "Santoyo",
         "transcriptor": "Casandra",
+        "estado": "FINALIZADO",
+        "entrega_digital": "",
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 17,
+        "mes": "2026-04",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-24",
+        "semaforo": "2026-04-29",
+        "terminado": "2026-04-28",
+        "entregado": "2026-05-02",
+        "medico": "Santoyo",
+        "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 17,
-        "mes": "2026-04",
-        "internista_norm": "Santoyo",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-24",
-        "semaforo": "2026-04-29",
-        "terminado": "2026-04-28",
-        "entregado": "2026-05-02",
-        "medico": "Santoyo",
-        "transcriptor": "Beto",
-        "estado": "FINALIZADO",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25608,11 +25592,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25627,10 +25611,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -25646,10 +25630,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25665,11 +25649,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 11,
-        "d_realiz_entregado": 15,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25684,10 +25668,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "Terminado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -25703,11 +25687,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25722,10 +25706,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 14,
-        "d_realiz_entregado": 18,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 12,
+        "d_realiz_entregado": 15,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -25741,10 +25725,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25760,11 +25744,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 17,
@@ -25779,10 +25763,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25798,10 +25782,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -25817,11 +25801,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 17,
@@ -25836,11 +25820,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25855,11 +25839,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -25874,10 +25858,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25893,11 +25877,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 17,
@@ -25912,10 +25896,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25931,10 +25915,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 13,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -25950,10 +25934,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -25969,10 +25953,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -25988,10 +25972,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -26007,11 +25991,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 10,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 9,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 17,
@@ -26026,10 +26010,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 13,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -26045,10 +26029,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -26064,10 +26048,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 2,
+        "d_terminado_entregado": 8,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -26083,10 +26067,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -26102,10 +26086,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -26121,10 +26105,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -26140,10 +26124,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 17,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 14,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -26159,11 +26143,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 15,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 13,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 17,
@@ -26178,10 +26162,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -26197,10 +26181,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -26217,8 +26201,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26236,8 +26220,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26255,8 +26239,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 13,
-        "d_realiz_entregado": 16,
+        "d_terminado_entregado": 11,
+        "d_realiz_entregado": 14,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26274,8 +26258,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
@@ -26293,8 +26277,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 15,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -4
       },
@@ -26312,8 +26296,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
@@ -26334,7 +26318,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 2,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -26350,8 +26334,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 12,
-        "d_realiz_entregado": 15,
+        "d_terminado_entregado": 10,
+        "d_realiz_entregado": 13,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -4
       },
@@ -26369,8 +26353,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26388,8 +26372,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26410,7 +26394,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 2,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 18,
@@ -26426,8 +26410,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
@@ -26445,8 +26429,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
@@ -26464,8 +26448,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 9,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 8,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26483,8 +26467,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 5,
-        "d_terminado_entregado": 9,
-        "d_realiz_entregado": 14,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 12,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
@@ -26505,7 +26489,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 2,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 18,
@@ -26521,8 +26505,8 @@ window.DASHBOARD_DATA = {
         "estado": "FINALIZADO",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 9,
         "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
@@ -26539,11 +26523,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 5,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -26558,10 +26542,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -26577,10 +26561,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26596,10 +26580,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -26615,10 +26599,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26634,10 +26618,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26653,10 +26637,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26672,10 +26656,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -26691,10 +26675,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26710,10 +26694,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -26729,10 +26713,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -26748,10 +26732,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26767,10 +26751,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26786,10 +26770,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26805,10 +26789,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": 0
       },
       {
@@ -26824,10 +26808,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -26843,67 +26827,67 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -1
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-11",
+        "medico": "Castellon",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -2
+      },
+      {
+        "semana": 18,
+        "mes": "2026-04",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-04-29",
+        "semaforo": "2026-05-05",
+        "terminado": "2026-05-05",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 7,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -3
-      },
-      {
-        "semana": 18,
-        "mes": "2026-04",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-29",
-        "semaforo": "2026-05-05",
-        "terminado": "2026-05-05",
-        "entregado": "2026-05-11",
-        "medico": "Castellon",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 6,
         "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -1
-      },
-      {
-        "semana": 18,
-        "mes": "2026-04",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-04-29",
-        "semaforo": "2026-05-05",
-        "terminado": "2026-05-05",
-        "entregado": "2026-05-11",
-        "medico": "Castellon",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
-      },
-      {
-        "semana": 18,
-        "mes": "2026-04",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-04-29",
-        "semaforo": "2026-05-05",
-        "terminado": "2026-05-05",
-        "entregado": "2026-05-13",
-        "medico": "Toriz",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -26919,11 +26903,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -26938,10 +26922,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -26957,10 +26941,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -26976,10 +26960,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -26995,10 +26979,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -27014,10 +26998,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27033,10 +27017,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27052,11 +27036,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 10,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -27074,7 +27058,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": null,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": null
       },
       {
@@ -27090,11 +27074,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -4
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 18,
@@ -27109,11 +27093,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -27128,10 +27112,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27147,11 +27131,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -27166,10 +27150,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -27185,10 +27169,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 11,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 9,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -27204,10 +27188,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27223,10 +27207,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27242,10 +27226,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 13,
-        "d_realiz_semaforo": 6,
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 11,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -3
       },
       {
@@ -27261,10 +27245,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27280,10 +27264,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": 0
       },
       {
@@ -27299,11 +27283,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
-        "d_terminado_entregado": 8,
-        "d_realiz_entregado": 14,
-        "d_realiz_semaforo": 6,
-        "d_entregado_vs_real": -6
+        "d_realiz_terminado": 5,
+        "d_terminado_entregado": 7,
+        "d_realiz_entregado": 12,
+        "d_realiz_semaforo": 5,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 18,
@@ -27318,10 +27302,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27337,10 +27321,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27356,10 +27340,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27375,10 +27359,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27394,10 +27378,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 11,
+        "d_realiz_terminado": 9,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -2
       },
       {
@@ -27413,10 +27397,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27432,10 +27416,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27451,10 +27435,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 6,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 5,
         "d_entregado_vs_real": -1
       },
       {
@@ -27470,11 +27454,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -27489,11 +27473,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -2
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 18,
@@ -27508,10 +27492,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -27527,10 +27511,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -27547,8 +27531,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 2,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -27569,7 +27553,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 19,
@@ -27588,7 +27572,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 19,
@@ -27604,8 +27588,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 6,
-        "d_realiz_entregado": 10,
+        "d_terminado_entregado": 5,
+        "d_realiz_entregado": 9,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
@@ -27622,10 +27606,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -27642,9 +27626,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -27660,11 +27644,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": -25,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": -22,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 19,
@@ -27680,9 +27664,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": -25,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": -22,
         "d_entregado_vs_real": -2
       },
       {
@@ -27698,11 +27682,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 4,
-        "d_realiz_entregado": 9,
-        "d_realiz_semaforo": -25,
-        "d_entregado_vs_real": -16
+        "d_realiz_entregado": 8,
+        "d_realiz_semaforo": -22,
+        "d_entregado_vs_real": -13
       },
       {
         "semana": 19,
@@ -27717,11 +27701,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": -25,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": -22,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 19,
@@ -27736,11 +27720,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 19,
@@ -27755,10 +27739,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -27774,11 +27758,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 19,
@@ -27793,11 +27777,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -10
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 19,
@@ -27812,10 +27796,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -27831,10 +27815,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -27850,11 +27834,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 19,
@@ -27869,11 +27853,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 19,
@@ -27888,86 +27872,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
-      },
-      {
-        "semana": 19,
-        "mes": "2026-05",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-05-08",
-        "semaforo": "2026-05-13",
-        "terminado": "2026-05-12",
-        "entregado": "2026-05-13",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
-      },
-      {
-        "semana": 19,
-        "mes": "2026-05",
-        "internista_norm": "Santoyo",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-05-08",
-        "semaforo": "2026-05-13",
-        "terminado": "2026-05-13",
-        "entregado": "2026-05-14",
-        "medico": "Santoyo",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 1,
         "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
-      },
-      {
-        "semana": 19,
-        "mes": "2026-05",
-        "internista_norm": "Toriz",
-        "transcriptor_norm": "Beto",
-        "realizacion": "2026-05-08",
-        "semaforo": "2026-05-13",
-        "terminado": "2026-05-12",
-        "entregado": "2026-05-13",
-        "medico": "Toriz",
-        "transcriptor": "Beto",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
-      },
-      {
-        "semana": 19,
-        "mes": "2026-05",
-        "internista_norm": "Castellón",
-        "transcriptor_norm": "Casandra",
-        "realizacion": "2026-05-08",
-        "semaforo": "2026-05-13",
-        "terminado": "2026-05-12",
-        "entregado": "2026-05-13",
-        "medico": "Castellon",
-        "transcriptor": "Casandra",
-        "estado": "finalizado",
-        "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -6
       },
       {
@@ -27983,10 +27891,86 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Santoyo",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-13",
+        "entregado": "2026-05-14",
+        "medico": "Santoyo",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
         "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Castellón",
+        "transcriptor_norm": "Casandra",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Castellon",
+        "transcriptor": "Casandra",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
+      },
+      {
+        "semana": 19,
+        "mes": "2026-05",
+        "internista_norm": "Toriz",
+        "transcriptor_norm": "Beto",
+        "realizacion": "2026-05-08",
+        "semaforo": "2026-05-13",
+        "terminado": "2026-05-12",
+        "entregado": "2026-05-13",
+        "medico": "Toriz",
+        "transcriptor": "Beto",
+        "estado": "finalizado",
+        "entrega_digital": "",
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28002,11 +27986,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 19,
@@ -28021,11 +28005,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 19,
@@ -28040,11 +28024,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -12
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
       },
       {
         "semana": 19,
@@ -28059,10 +28043,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28078,11 +28062,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 19,
@@ -28097,10 +28081,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -28116,11 +28100,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 19,
@@ -28135,11 +28119,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 20,
@@ -28158,7 +28142,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -2
+        "d_entregado_vs_real": -1
       },
       {
         "semana": 20,
@@ -28174,8 +28158,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 4,
-        "d_realiz_entregado": 7,
+        "d_terminado_entregado": 3,
+        "d_realiz_entregado": 6,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": 0
       },
@@ -28196,7 +28180,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 20,
@@ -28214,8 +28198,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 20,
@@ -28231,9 +28215,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28249,11 +28233,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": -664742,
-        "d_realiz_entregado": -664737,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -664747
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": -569779,
+        "d_realiz_entregado": -569775,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -569784
       },
       {
         "semana": 20,
@@ -28268,10 +28252,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -28287,11 +28271,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 20,
@@ -28306,10 +28290,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28325,10 +28309,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -28344,10 +28328,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28363,11 +28347,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 20,
@@ -28382,10 +28366,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -28401,10 +28385,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28420,10 +28404,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -28439,10 +28423,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28458,10 +28442,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28477,10 +28461,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28496,11 +28480,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 20,
@@ -28515,10 +28499,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -28534,10 +28518,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -28553,10 +28537,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -28572,11 +28556,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 20,
@@ -28591,11 +28575,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 20,
@@ -28610,11 +28594,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 20,
@@ -28629,10 +28613,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28648,10 +28632,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -28667,10 +28651,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28686,11 +28670,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -15
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -13
       },
       {
         "semana": 20,
@@ -28705,10 +28689,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28724,10 +28708,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -28743,11 +28727,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 20,
@@ -28762,11 +28746,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 21,
@@ -28785,7 +28769,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -6
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 21,
@@ -28803,8 +28787,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 21,
@@ -28819,11 +28803,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 21,
@@ -28839,10 +28823,10 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 21,
@@ -28857,10 +28841,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -28876,11 +28860,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 21,
@@ -28895,10 +28879,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28914,10 +28898,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -28933,10 +28917,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -28952,11 +28936,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -10
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -9
       },
       {
         "semana": 21,
@@ -28971,11 +28955,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 21,
@@ -28990,10 +28974,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29009,10 +28993,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29028,10 +29012,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -4
       },
       {
@@ -29047,10 +29031,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29066,10 +29050,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -29085,10 +29069,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29104,10 +29088,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29123,10 +29107,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -29142,10 +29126,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 11,
+        "d_realiz_terminado": 9,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29165,7 +29149,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 22,
@@ -29184,7 +29168,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 22,
@@ -29203,7 +29187,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -5
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 22,
@@ -29222,7 +29206,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 22,
@@ -29237,11 +29221,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": -58,
-        "d_terminado_entregado": 62,
+        "d_realiz_terminado": -50,
+        "d_terminado_entregado": 54,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -4
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 22,
@@ -29259,8 +29243,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 22,
@@ -29275,10 +29259,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29294,11 +29278,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 31,
-        "d_realiz_entregado": 36,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": 29
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 27,
+        "d_realiz_entregado": 31,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": 25
       },
       {
         "semana": 22,
@@ -29313,10 +29297,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29333,9 +29317,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 2,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -29351,10 +29335,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -29370,11 +29354,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -16
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -14
       },
       {
         "semana": 22,
@@ -29389,11 +29373,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -11
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -10
       },
       {
         "semana": 22,
@@ -29408,11 +29392,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 22,
@@ -29427,10 +29411,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29446,10 +29430,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -29465,11 +29449,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 22,
@@ -29484,11 +29468,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 22,
@@ -29503,11 +29487,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -13
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -11
       },
       {
         "semana": 22,
@@ -29522,10 +29506,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -29541,10 +29525,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29560,10 +29544,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29579,10 +29563,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29598,11 +29582,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 23,
@@ -29621,7 +29605,7 @@ window.DASHBOARD_DATA = {
         "d_terminado_entregado": 1,
         "d_realiz_entregado": 4,
         "d_realiz_semaforo": 4,
-        "d_entregado_vs_real": -3
+        "d_entregado_vs_real": -2
       },
       {
         "semana": 23,
@@ -29637,8 +29621,8 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "",
         "d_realiz_terminado": 4,
-        "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
+        "d_terminado_entregado": 1,
+        "d_realiz_entregado": 5,
         "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
@@ -29655,11 +29639,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 7,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -8
+        "d_realiz_entregado": 6,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -7
       },
       {
         "semana": 23,
@@ -29677,8 +29661,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 3,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -21
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -18
       },
       {
         "semana": 23,
@@ -29694,9 +29678,9 @@ window.DASHBOARD_DATA = {
         "estado": "finalizado",
         "entrega_digital": "SÍ",
         "d_realiz_terminado": 3,
-        "d_terminado_entregado": 5,
-        "d_realiz_entregado": 8,
-        "d_realiz_semaforo": 5,
+        "d_terminado_entregado": 4,
+        "d_realiz_entregado": 7,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -29712,11 +29696,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 6,
+        "d_realiz_terminado": 5,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -6
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -5
       },
       {
         "semana": 23,
@@ -29731,10 +29715,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -29750,11 +29734,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -7
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -6
       },
       {
         "semana": 23,
@@ -29772,8 +29756,8 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": 0,
         "d_realiz_entregado": 2,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -5
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -4
       },
       {
         "semana": 23,
@@ -29791,7 +29775,7 @@ window.DASHBOARD_DATA = {
         "d_realiz_terminado": 2,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -29807,10 +29791,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -29826,10 +29810,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -29845,10 +29829,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "-",
         "estado": "Terminado",
         "entrega_digital": "SI",
-        "d_realiz_terminado": 97,
+        "d_realiz_terminado": 83,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -29864,10 +29848,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -29883,10 +29867,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -29902,10 +29886,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": -7302,
+        "d_realiz_terminado": -6259,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -29921,10 +29905,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29940,10 +29924,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -29959,10 +29943,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -29978,10 +29962,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -29997,10 +29981,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30016,10 +30000,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -30035,10 +30019,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30054,10 +30038,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30073,10 +30057,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 0,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -30092,10 +30076,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30111,10 +30095,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30130,11 +30114,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -4
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -3
       },
       {
         "semana": 23,
@@ -30149,10 +30133,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30168,10 +30152,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30187,10 +30171,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30206,10 +30190,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 4,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 3,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -3
       },
       {
@@ -30225,10 +30209,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30244,10 +30228,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 3,
+        "d_realiz_terminado": 2,
         "d_terminado_entregado": 3,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30263,10 +30247,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 2,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30282,11 +30266,11 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 4,
+        "d_realiz_terminado": 3,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 5,
-        "d_realiz_semaforo": 5,
-        "d_entregado_vs_real": -9
+        "d_realiz_entregado": 4,
+        "d_realiz_semaforo": 4,
+        "d_entregado_vs_real": -8
       },
       {
         "semana": 23,
@@ -30301,10 +30285,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "NO",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": 1,
-        "d_realiz_entregado": 6,
-        "d_realiz_semaforo": 5,
+        "d_realiz_entregado": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       },
       {
@@ -30320,10 +30304,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "FINALIZADO",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
-        "d_terminado_entregado": 7,
-        "d_realiz_entregado": 12,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 4,
+        "d_terminado_entregado": 6,
+        "d_realiz_entregado": 10,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -2
       },
       {
@@ -30339,10 +30323,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -30358,10 +30342,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Beto",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -30377,10 +30361,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "Casandra",
         "estado": "finalizado",
         "entrega_digital": "SÍ",
-        "d_realiz_terminado": 5,
+        "d_realiz_terminado": 4,
         "d_terminado_entregado": null,
         "d_realiz_entregado": null,
-        "d_realiz_semaforo": 5,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": null
       },
       {
@@ -30396,10 +30380,10 @@ window.DASHBOARD_DATA = {
         "transcriptor": "-",
         "estado": "FINALIZADO",
         "entrega_digital": "",
-        "d_realiz_terminado": 4,
-        "d_terminado_entregado": 16,
-        "d_realiz_entregado": 20,
-        "d_realiz_semaforo": 5,
+        "d_realiz_terminado": 3,
+        "d_terminado_entregado": 14,
+        "d_realiz_entregado": 17,
+        "d_realiz_semaforo": 4,
         "d_entregado_vs_real": -1
       }
     ],
@@ -30407,21 +30391,21 @@ window.DASHBOARD_DATA = {
       "total": 974,
       "entregados": 931,
       "realiz_terminado": {
-        "avg": 4.9,
-        "min": -58,
-        "max": 187,
+        "avg": 4.1,
+        "min": -50,
+        "max": 160,
         "n": 949
       },
       "terminado_entregado": {
-        "avg": 2.9,
-        "min": -3,
-        "max": 62,
+        "avg": 2.5,
+        "min": -2,
+        "max": 54,
         "n": 916
       },
       "realiz_entregado": {
-        "avg": 7.5,
+        "avg": 6.4,
         "min": 1,
-        "max": 55,
+        "max": 47,
         "n": 928
       },
       "entrega_real": {
@@ -30429,19 +30413,19 @@ window.DASHBOARD_DATA = {
         "a_tiempo": 919,
         "tarde": 4,
         "pct_a_tiempo": 99.6,
-        "avg_antes": 2.9,
+        "avg_antes": 2.6,
         "objetivo": 95,
         "dist": [
           {
-            "dias": -33,
+            "dias": -28,
             "n": 1
           },
           {
-            "dias": -29,
+            "dias": -25,
             "n": 1
           },
           {
-            "dias": -24,
+            "dias": -20,
             "n": 1
           },
           {
@@ -30454,67 +30438,63 @@ window.DASHBOARD_DATA = {
           },
           {
             "dias": 1,
-            "n": 246
+            "n": 284
           },
           {
             "dias": 2,
-            "n": 277
+            "n": 300
           },
           {
             "dias": 3,
-            "n": 163
+            "n": 152
           },
           {
             "dias": 4,
-            "n": 82
+            "n": 57
           },
           {
             "dias": 5,
-            "n": 33
+            "n": 34
           },
           {
             "dias": 6,
-            "n": 26
-          },
-          {
-            "dias": 7,
             "n": 21
           },
           {
-            "dias": 8,
+            "dias": 7,
             "n": 20
           },
           {
-            "dias": 9,
-            "n": 13
+            "dias": 8,
+            "n": 15
           },
           {
-            "dias": 10,
+            "dias": 9,
             "n": 7
           },
           {
-            "dias": 11,
-            "n": 3
+            "dias": 10,
+            "n": 4
           },
           {
-            "dias": 12,
+            "dias": 11,
             "n": 4
           },
           {
             "dias": 13,
-            "n": 3
+            "n": 2
           },
           {
-            "dias": 15,
-            "n": 1
+            "dias": 14,
+            "n": 2
           },
           {
-            "dias": 16,
-            "n": 3
-          },
-          {
-            "dias": 21,
+            "dias": 18,
             "n": 4
+          },
+          {
+            "dias": 19,
+            "n": 1
           },
           {
             "dias": 22,
@@ -30523,28 +30503,24 @@ window.DASHBOARD_DATA = {
           {
             "dias": 25,
             "n": 1
-          },
-          {
-            "dias": 29,
-            "n": 1
           }
         ]
       },
       "realiz_term_obj": {
         "n": 949,
-        "ok": 424,
-        "fuera": 525,
-        "pct_ok": 44.7,
-        "avg": 4.9,
+        "ok": 784,
+        "fuera": 165,
+        "pct_ok": 82.6,
+        "avg": 4.1,
         "limite": 4,
         "objetivo": 98,
         "dist": [
           {
-            "dias": -58,
+            "dias": -50,
             "n": 1
           },
           {
-            "dias": -23,
+            "dias": -20,
             "n": 2
           },
           {
@@ -30553,70 +30529,66 @@ window.DASHBOARD_DATA = {
           },
           {
             "dias": 2,
-            "n": 33
+            "n": 65
           },
           {
             "dias": 3,
-            "n": 119
+            "n": 256
           },
           {
             "dias": 4,
-            "n": 268
+            "n": 459
           },
           {
             "dias": 5,
-            "n": 366
+            "n": 109
           },
           {
             "dias": 6,
-            "n": 103
+            "n": 40
           },
           {
             "dias": 7,
-            "n": 40
+            "n": 3
           },
           {
             "dias": 8,
             "n": 3
           },
           {
-            "dias": 10,
-            "n": 3
-          },
-          {
-            "dias": 11,
+            "dias": 9,
             "n": 2
           },
           {
-            "dias": 13,
+            "dias": 11,
             "n": 1
           },
           {
-            "dias": 19,
+            "dias": 16,
             "n": 1
           },
           {
-            "dias": 20,
+            "dias": 17,
             "n": 1
           },
           {
-            "dias": 27,
+            "dias": 23,
             "n": 1
           },
           {
-            "dias": 28,
+            "dias": 24,
             "n": 1
           },
           {
-            "dias": 30,
+            "dias": 26,
             "n": 1
           },
           {
-            "dias": 97,
+            "dias": 83,
             "n": 1
           },
           {
-            "dias": 187,
+            "dias": 160,
             "n": 1
           }
         ]
@@ -30683,21 +30655,21 @@ window.DASHBOARD_DATA = {
         "total": 17,
         "entregados": 17,
         "realiz_terminado": {
-          "avg": 4.8,
+          "avg": 4.0,
           "min": 2,
-          "max": 19,
+          "max": 16,
           "n": 17
         },
         "terminado_entregado": {
-          "avg": 0.7,
+          "avg": 0.6,
           "min": 0,
-          "max": 3,
+          "max": 2,
           "n": 17
         },
         "realiz_entregado": {
-          "avg": 5.5,
-          "min": 3,
-          "max": 20,
+          "avg": 4.6,
+          "min": 2,
+          "max": 17,
           "n": 17
         },
         "entrega_real": {
@@ -30705,7 +30677,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 17,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 3.5,
+          "avg_antes": 3.1,
           "objetivo": 95,
           "dist": [
             {
@@ -30714,53 +30686,49 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 1
-            },
-            {
-              "dias": 3,
-              "n": 5
-            },
-            {
-              "dias": 4,
-              "n": 4
-            },
-            {
-              "dias": 5,
               "n": 2
             },
             {
-              "dias": 12,
+              "dias": 3,
+              "n": 7
+            },
+            {
+              "dias": 4,
+              "n": 2
+            },
+            {
+              "dias": 5,
+              "n": 1
+            },
+            {
+              "dias": 10,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 17,
-          "ok": 10,
-          "fuera": 7,
-          "pct_ok": 58.8,
-          "avg": 4.8,
+          "ok": 16,
+          "fuera": 1,
+          "pct_ok": 94.1,
+          "avg": 4.0,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 1
+              "n": 3
             },
             {
               "dias": 3,
-              "n": 5
-            },
-            {
-              "dias": 4,
-              "n": 4
-            },
-            {
-              "dias": 5,
               "n": 6
             },
             {
-              "dias": 19,
+              "dias": 4,
+              "n": 7
+            },
+            {
+              "dias": 16,
               "n": 1
             }
           ]
@@ -30802,9 +30770,9 @@ window.DASHBOARD_DATA = {
         "total": 13,
         "entregados": 13,
         "realiz_terminado": {
-          "avg": 3.8,
+          "avg": 2.9,
           "min": 2,
-          "max": 5,
+          "max": 4,
           "n": 12
         },
         "terminado_entregado": {
@@ -30814,9 +30782,9 @@ window.DASHBOARD_DATA = {
           "n": 12
         },
         "realiz_entregado": {
-          "avg": 6.2,
+          "avg": 5.0,
           "min": 2,
-          "max": 34,
+          "max": 29,
           "n": 13
         },
         "entrega_real": {
@@ -30828,7 +30796,7 @@ window.DASHBOARD_DATA = {
           "objetivo": 95,
           "dist": [
             {
-              "dias": -24,
+              "dias": -20,
               "n": 1
             },
             {
@@ -30837,7 +30805,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 4
+              "n": 5
             },
             {
               "dias": 4,
@@ -30850,36 +30818,28 @@ window.DASHBOARD_DATA = {
             {
               "dias": 6,
               "n": 1
-            },
-            {
-              "dias": 7,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 12,
-          "ok": 9,
-          "fuera": 3,
-          "pct_ok": 75.0,
-          "avg": 3.8,
+          "ok": 12,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 2.9,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 1
+              "n": 4
             },
             {
               "dias": 3,
-              "n": 4
+              "n": 5
             },
             {
               "dias": 4,
-              "n": 4
-            },
-            {
-              "dias": 5,
               "n": 3
             }
           ]
@@ -30913,9 +30873,9 @@ window.DASHBOARD_DATA = {
         "total": 23,
         "entregados": 23,
         "realiz_terminado": {
-          "avg": 4.3,
+          "avg": 3.4,
           "min": 2,
-          "max": 7,
+          "max": 6,
           "n": 23
         },
         "terminado_entregado": {
@@ -30925,9 +30885,9 @@ window.DASHBOARD_DATA = {
           "n": 23
         },
         "realiz_entregado": {
-          "avg": 4.7,
+          "avg": 3.8,
           "min": 2,
-          "max": 9,
+          "max": 8,
           "n": 23
         },
         "entrega_real": {
@@ -30935,7 +30895,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 23,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 3.9,
+          "avg_antes": 3.4,
           "objetivo": 95,
           "dist": [
             {
@@ -30952,42 +30912,38 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 4
+              "n": 7
             },
             {
               "dias": 4,
-              "n": 4
+              "n": 1
+            },
+            {
+              "dias": 8,
+              "n": 3
             },
             {
               "dias": 9,
               "n": 2
-            },
-            {
-              "dias": 10,
-              "n": 2
-            },
-            {
-              "dias": 11,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 23,
-          "ok": 13,
-          "fuera": 10,
-          "pct_ok": 56.5,
-          "avg": 4.3,
+          "ok": 21,
+          "fuera": 2,
+          "pct_ok": 91.3,
+          "avg": 3.4,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 2
+              "n": 3
             },
             {
               "dias": 3,
-              "n": 3
+              "n": 10
             },
             {
               "dias": 4,
@@ -30995,14 +30951,10 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 5,
-              "n": 8
-            },
-            {
-              "dias": 6,
               "n": 1
             },
             {
-              "dias": 7,
+              "dias": 6,
               "n": 1
             }
           ]
@@ -31044,21 +30996,21 @@ window.DASHBOARD_DATA = {
         "total": 28,
         "entregados": 25,
         "realiz_terminado": {
-          "avg": 5.4,
+          "avg": 4.6,
           "min": 2,
-          "max": 20,
+          "max": 17,
           "n": 25
         },
         "terminado_entregado": {
-          "avg": 1.4,
+          "avg": 1.2,
           "min": 0,
-          "max": 7,
+          "max": 6,
           "n": 25
         },
         "realiz_entregado": {
-          "avg": 6.8,
+          "avg": 5.8,
           "min": 4,
-          "max": 27,
+          "max": 23,
           "n": 25
         },
         "entrega_real": {
@@ -31066,7 +31018,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 25,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.7,
+          "avg_antes": 2.4,
           "objetivo": 95,
           "dist": [
             {
@@ -31075,28 +31027,28 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 6
+              "n": 9
             },
             {
               "dias": 3,
-              "n": 4
-            },
-            {
-              "dias": 10,
               "n": 1
             },
             {
-              "dias": 21,
+              "dias": 9,
+              "n": 1
+            },
+            {
+              "dias": 18,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 25,
-          "ok": 7,
-          "fuera": 18,
-          "pct_ok": 28.0,
-          "avg": 5.4,
+          "ok": 14,
+          "fuera": 11,
+          "pct_ok": 56.0,
+          "avg": 4.6,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -31106,22 +31058,18 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 2
+              "n": 3
             },
             {
               "dias": 4,
-              "n": 2
+              "n": 8
             },
             {
               "dias": 5,
-              "n": 7
-            },
-            {
-              "dias": 6,
               "n": 10
             },
             {
-              "dias": 20,
+              "dias": 17,
               "n": 1
             }
           ]
@@ -31175,21 +31123,21 @@ window.DASHBOARD_DATA = {
         "total": 43,
         "entregados": 43,
         "realiz_terminado": {
-          "avg": 4.2,
+          "avg": 3.4,
           "min": 2,
-          "max": 5,
+          "max": 4,
           "n": 40
         },
         "terminado_entregado": {
-          "avg": 0.8,
-          "min": -3,
+          "avg": 0.7,
+          "min": -2,
           "max": 3,
           "n": 40
         },
         "realiz_entregado": {
-          "avg": 4.8,
+          "avg": 4.0,
           "min": 1,
-          "max": 7,
+          "max": 6,
           "n": 43
         },
         "entrega_real": {
@@ -31197,7 +31145,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 43,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 4.2,
+          "avg_antes": 3.8,
           "objetivo": 95,
           "dist": [
             {
@@ -31210,7 +31158,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 4
+              "n": 5
             },
             {
               "dias": 4,
@@ -31218,7 +31166,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 5,
-              "n": 1
+              "n": 3
             },
             {
               "dias": 6,
@@ -31226,50 +31174,42 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 7,
-              "n": 3
-            },
-            {
-              "dias": 8,
               "n": 4
             },
             {
-              "dias": 10,
+              "dias": 8,
               "n": 1
             },
             {
-              "dias": 16,
+              "dias": 14,
               "n": 1
             },
             {
-              "dias": 21,
+              "dias": 18,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 40,
-          "ok": 22,
-          "fuera": 18,
-          "pct_ok": 55.0,
-          "avg": 4.2,
+          "ok": 40,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.4,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 3
+              "n": 5
             },
             {
               "dias": 3,
-              "n": 6
+              "n": 15
             },
             {
               "dias": 4,
-              "n": 13
-            },
-            {
-              "dias": 5,
-              "n": 18
+              "n": 20
             }
           ]
         },
@@ -31310,21 +31250,21 @@ window.DASHBOARD_DATA = {
         "total": 39,
         "entregados": 35,
         "realiz_terminado": {
-          "avg": 4.9,
+          "avg": 4.1,
           "min": 2,
-          "max": 28,
+          "max": 24,
           "n": 35
         },
         "terminado_entregado": {
-          "avg": 2.4,
+          "avg": 2.1,
           "min": 0,
-          "max": 27,
+          "max": 23,
           "n": 32
         },
         "realiz_entregado": {
-          "avg": 7.4,
+          "avg": 6.2,
           "min": 3,
-          "max": 55,
+          "max": 47,
           "n": 34
         },
         "entrega_real": {
@@ -31332,11 +31272,11 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 33,
           "tarde": 1,
           "pct_a_tiempo": 97.1,
-          "avg_antes": 3.6,
+          "avg_antes": 3.3,
           "objetivo": 95,
           "dist": [
             {
-              "dias": -33,
+              "dias": -28,
               "n": 1
             },
             {
@@ -31349,44 +31289,40 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 2
+              "n": 8
             },
             {
               "dias": 4,
-              "n": 11
+              "n": 5
             },
             {
               "dias": 5,
-              "n": 1
+              "n": 4
             },
             {
               "dias": 6,
-              "n": 3
-            },
-            {
-              "dias": 7,
               "n": 2
             },
             {
-              "dias": 9,
+              "dias": 8,
               "n": 1
             },
             {
-              "dias": 12,
+              "dias": 10,
               "n": 1
             },
             {
-              "dias": 29,
+              "dias": 25,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 35,
-          "ok": 17,
-          "fuera": 18,
-          "pct_ok": 48.6,
-          "avg": 4.9,
+          "ok": 34,
+          "fuera": 1,
+          "pct_ok": 97.1,
+          "avg": 4.1,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -31396,18 +31332,14 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 1
+              "n": 8
             },
             {
               "dias": 4,
-              "n": 12
+              "n": 22
             },
             {
-              "dias": 5,
-              "n": 17
-            },
-            {
-              "dias": 28,
+              "dias": 24,
               "n": 1
             }
           ]
@@ -31457,21 +31389,21 @@ window.DASHBOARD_DATA = {
         "total": 41,
         "entregados": 37,
         "realiz_terminado": {
-          "avg": 5.1,
+          "avg": 4.5,
           "min": 3,
-          "max": 10,
+          "max": 8,
           "n": 39
         },
         "terminado_entregado": {
-          "avg": 1.9,
+          "avg": 1.7,
           "min": 0,
-          "max": 10,
+          "max": 8,
           "n": 36
         },
         "realiz_entregado": {
-          "avg": 7.0,
+          "avg": 6.1,
           "min": 3,
-          "max": 14,
+          "max": 12,
           "n": 37
         },
         "entrega_real": {
@@ -31479,7 +31411,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 37,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.7,
+          "avg_antes": 2.2,
           "objetivo": 95,
           "dist": [
             {
@@ -31488,69 +31420,61 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 14
+              "n": 18
             },
             {
               "dias": 2,
-              "n": 6
+              "n": 9
             },
             {
               "dias": 3,
-              "n": 11
+              "n": 6
             },
             {
-              "dias": 4,
-              "n": 2
+              "dias": 5,
+              "n": 1
             },
             {
               "dias": 6,
               "n": 1
             },
             {
-              "dias": 7,
-              "n": 1
-            },
-            {
-              "dias": 21,
+              "dias": 18,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 39,
-          "ok": 13,
-          "fuera": 26,
-          "pct_ok": 33.3,
-          "avg": 5.1,
+          "ok": 24,
+          "fuera": 15,
+          "pct_ok": 61.5,
+          "avg": 4.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 3,
-              "n": 3
+              "n": 5
             },
             {
               "dias": 4,
-              "n": 10
+              "n": 19
             },
             {
               "dias": 5,
-              "n": 14
+              "n": 11
             },
             {
               "dias": 6,
-              "n": 8
-            },
-            {
-              "dias": 7,
               "n": 1
             },
             {
-              "dias": 8,
+              "dias": 7,
               "n": 2
             },
             {
-              "dias": 10,
+              "dias": 8,
               "n": 1
             }
           ]
@@ -31596,21 +31520,21 @@ window.DASHBOARD_DATA = {
         "total": 37,
         "entregados": 30,
         "realiz_terminado": {
-          "avg": 2.4,
-          "min": -23,
-          "max": 5,
+          "avg": 1.8,
+          "min": -20,
+          "max": 4,
           "n": 33
         },
         "terminado_entregado": {
-          "avg": 2.2,
+          "avg": 1.8,
           "min": 0,
-          "max": 28,
+          "max": 24,
           "n": 30
         },
         "realiz_entregado": {
-          "avg": 5.2,
-          "min": 4,
-          "max": 7,
+          "avg": 4.2,
+          "min": 3,
+          "max": 6,
           "n": 30
         },
         "entrega_real": {
@@ -31618,7 +31542,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 30,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 5.2,
+          "avg_antes": 4.7,
           "objetivo": 95,
           "dist": [
             {
@@ -31627,74 +31551,70 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 8
+              "n": 9
             },
             {
               "dias": 3,
-              "n": 8
+              "n": 7
             },
             {
               "dias": 4,
-              "n": 1
+              "n": 3
             },
             {
               "dias": 5,
-              "n": 4
+              "n": 2
             },
             {
-              "dias": 7,
+              "dias": 6,
               "n": 1
             },
             {
-              "dias": 8,
+              "dias": 7,
               "n": 2
+            },
+            {
+              "dias": 8,
+              "n": 1
             },
             {
               "dias": 9,
               "n": 1
             },
             {
-              "dias": 10,
+              "dias": 19,
               "n": 1
             },
             {
               "dias": 22,
-              "n": 1
-            },
-            {
-              "dias": 25,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 33,
-          "ok": 21,
-          "fuera": 12,
-          "pct_ok": 63.6,
-          "avg": 2.4,
+          "ok": 33,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 1.8,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
-              "dias": -23,
+              "dias": -20,
               "n": 2
             },
             {
               "dias": 2,
-              "n": 3
-            },
-            {
-              "dias": 3,
               "n": 5
             },
             {
-              "dias": 4,
-              "n": 11
+              "dias": 3,
+              "n": 13
             },
             {
-              "dias": 5,
-              "n": 12
+              "dias": 4,
+              "n": 13
             }
           ]
         },
@@ -31747,21 +31667,21 @@ window.DASHBOARD_DATA = {
         "total": 62,
         "entregados": 62,
         "realiz_terminado": {
-          "avg": 4.1,
+          "avg": 3.3,
           "min": 2,
-          "max": 8,
+          "max": 7,
           "n": 62
         },
         "terminado_entregado": {
-          "avg": 1.9,
+          "avg": 1.7,
           "min": 0,
-          "max": 29,
+          "max": 25,
           "n": 62
         },
         "realiz_entregado": {
-          "avg": 5.9,
-          "min": 3,
-          "max": 34,
+          "avg": 5.0,
+          "min": 2,
+          "max": 29,
           "n": 62
         },
         "entrega_real": {
@@ -31769,7 +31689,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 62,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 3.6,
+          "avg_antes": 3.3,
           "objetivo": 95,
           "dist": [
             {
@@ -31778,27 +31698,27 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 2
+              "n": 4
             },
             {
               "dias": 2,
-              "n": 28
+              "n": 30
             },
             {
               "dias": 3,
-              "n": 9
-            },
-            {
-              "dias": 4,
               "n": 6
             },
             {
+              "dias": 4,
+              "n": 7
+            },
+            {
               "dias": 5,
-              "n": 3
+              "n": 5
             },
             {
               "dias": 6,
-              "n": 4
+              "n": 3
             },
             {
               "dias": 7,
@@ -31806,7 +31726,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 8,
-              "n": 3
+              "n": 1
             },
             {
               "dias": 9,
@@ -31815,40 +31735,32 @@ window.DASHBOARD_DATA = {
             {
               "dias": 11,
               "n": 1
-            },
-            {
-              "dias": 12,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 62,
-          "ok": 43,
-          "fuera": 19,
-          "pct_ok": 69.4,
-          "avg": 4.1,
+          "ok": 61,
+          "fuera": 1,
+          "pct_ok": 98.4,
+          "avg": 3.3,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 1
+              "n": 8
             },
             {
               "dias": 3,
-              "n": 16
+              "n": 29
             },
             {
               "dias": 4,
-              "n": 26
+              "n": 24
             },
             {
-              "dias": 5,
-              "n": 18
-            },
-            {
-              "dias": 8,
+              "dias": 7,
               "n": 1
             }
           ]
@@ -31894,21 +31806,21 @@ window.DASHBOARD_DATA = {
         "total": 61,
         "entregados": 56,
         "realiz_terminado": {
-          "avg": 4.9,
+          "avg": 4.3,
           "min": 2,
-          "max": 7,
+          "max": 6,
           "n": 60
         },
         "terminado_entregado": {
-          "avg": 1.8,
+          "avg": 1.6,
           "min": 0,
-          "max": 21,
+          "max": 18,
           "n": 56
         },
         "realiz_entregado": {
-          "avg": 6.8,
+          "avg": 5.9,
           "min": 3,
-          "max": 27,
+          "max": 23,
           "n": 56
         },
         "entrega_real": {
@@ -31916,7 +31828,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 55,
           "tarde": 1,
           "pct_a_tiempo": 98.2,
-          "avg_antes": 2.4,
+          "avg_antes": 2.0,
           "objetivo": 95,
           "dist": [
             {
@@ -31929,15 +31841,15 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 23
+              "n": 24
             },
             {
               "dias": 2,
-              "n": 8
+              "n": 14
             },
             {
               "dias": 3,
-              "n": 9
+              "n": 6
             },
             {
               "dias": 4,
@@ -31945,24 +31857,20 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 5,
-              "n": 4
-            },
-            {
-              "dias": 6,
               "n": 1
             },
             {
-              "dias": 7,
+              "dias": 6,
               "n": 4
             }
           ]
         },
         "realiz_term_obj": {
           "n": 60,
-          "ok": 20,
-          "fuera": 40,
-          "pct_ok": 33.3,
-          "avg": 4.9,
+          "ok": 31,
+          "fuera": 29,
+          "pct_ok": 51.7,
+          "avg": 4.3,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -31972,22 +31880,18 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 6
+              "n": 7
             },
             {
               "dias": 4,
-              "n": 10
+              "n": 20
             },
             {
               "dias": 5,
-              "n": 12
+              "n": 27
             },
             {
               "dias": 6,
-              "n": 26
-            },
-            {
-              "dias": 7,
               "n": 2
             }
           ]
@@ -32041,21 +31945,21 @@ window.DASHBOARD_DATA = {
         "total": 51,
         "entregados": 51,
         "realiz_terminado": {
-          "avg": 8.8,
+          "avg": 7.4,
           "min": 3,
-          "max": 187,
+          "max": 160,
           "n": 51
         },
         "terminado_entregado": {
-          "avg": 3.9,
+          "avg": 3.3,
           "min": -1,
-          "max": 20,
+          "max": 17,
           "n": 50
         },
         "realiz_entregado": {
-          "avg": 9.4,
-          "min": 4,
-          "max": 34,
+          "avg": 7.8,
+          "min": 3,
+          "max": 29,
           "n": 51
         },
         "entrega_real": {
@@ -32063,7 +31967,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 50,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 1.8,
+          "avg_antes": 1.7,
           "objetivo": 95,
           "dist": [
             {
@@ -32072,11 +31976,11 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 23
+              "n": 25
             },
             {
               "dias": 2,
-              "n": 17
+              "n": 16
             },
             {
               "dias": 3,
@@ -32084,49 +31988,41 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 4,
-              "n": 2
-            },
-            {
-              "dias": 5,
-              "n": 2
+              "n": 3
             }
           ]
         },
         "realiz_term_obj": {
           "n": 51,
-          "ok": 13,
-          "fuera": 38,
-          "pct_ok": 25.5,
-          "avg": 8.8,
+          "ok": 44,
+          "fuera": 7,
+          "pct_ok": 86.3,
+          "avg": 7.4,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 3,
-              "n": 2
+              "n": 9
             },
             {
               "dias": 4,
-              "n": 11
+              "n": 35
             },
             {
               "dias": 5,
-              "n": 31
-            },
-            {
-              "dias": 6,
               "n": 4
             },
             {
-              "dias": 7,
+              "dias": 6,
               "n": 1
             },
             {
-              "dias": 27,
+              "dias": 23,
               "n": 1
             },
             {
-              "dias": 187,
+              "dias": 160,
               "n": 1
             }
           ]
@@ -32172,21 +32068,21 @@ window.DASHBOARD_DATA = {
         "total": 58,
         "entregados": 56,
         "realiz_terminado": {
-          "avg": 4.9,
+          "avg": 4.1,
           "min": 2,
-          "max": 13,
+          "max": 11,
           "n": 58
         },
         "terminado_entregado": {
-          "avg": 5.4,
+          "avg": 4.6,
           "min": -1,
-          "max": 14,
+          "max": 12,
           "n": 56
         },
         "realiz_entregado": {
-          "avg": 10.4,
+          "avg": 8.8,
           "min": 4,
-          "max": 19,
+          "max": 16,
           "n": 56
         },
         "entrega_real": {
@@ -32194,37 +32090,37 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 56,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 1.9,
+          "avg_antes": 1.7,
           "objetivo": 95,
           "dist": [
             {
               "dias": 1,
-              "n": 29
+              "n": 33
             },
             {
               "dias": 2,
-              "n": 17
+              "n": 16
             },
             {
               "dias": 3,
-              "n": 5
+              "n": 2
             },
             {
-              "dias": 5,
+              "dias": 4,
               "n": 3
             },
             {
-              "dias": 6,
+              "dias": 5,
               "n": 2
             }
           ]
         },
         "realiz_term_obj": {
           "n": 58,
-          "ok": 21,
-          "fuera": 37,
-          "pct_ok": 36.2,
-          "avg": 4.9,
+          "ok": 54,
+          "fuera": 4,
+          "pct_ok": 93.1,
+          "avg": 4.1,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -32234,22 +32130,22 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 3
+              "n": 9
             },
             {
               "dias": 4,
-              "n": 17
+              "n": 44
             },
             {
               "dias": 5,
-              "n": 34
+              "n": 1
             },
             {
-              "dias": 10,
+              "dias": 8,
               "n": 2
             },
             {
-              "dias": 13,
+              "dias": 11,
               "n": 1
             }
           ]
@@ -32291,21 +32187,21 @@ window.DASHBOARD_DATA = {
         "total": 39,
         "entregados": 39,
         "realiz_terminado": {
-          "avg": 6.8,
+          "avg": 5.8,
           "min": 1,
-          "max": 7,
+          "max": 6,
           "n": 39
         },
         "terminado_entregado": {
-          "avg": 3.7,
+          "avg": 3.4,
           "min": 0,
-          "max": 26,
+          "max": 22,
           "n": 39
         },
         "realiz_entregado": {
-          "avg": 10.5,
-          "min": 7,
-          "max": 33,
+          "avg": 9.2,
+          "min": 6,
+          "max": 28,
           "n": 39
         },
         "entrega_real": {
@@ -32313,7 +32209,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 39,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 1.8,
+          "avg_antes": 1.6,
           "objetivo": 95,
           "dist": [
             {
@@ -32322,11 +32218,11 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 4
+              "n": 13
             },
             {
               "dias": 3,
-              "n": 12
+              "n": 3
             },
             {
               "dias": 4,
@@ -32339,7 +32235,7 @@ window.DASHBOARD_DATA = {
           "ok": 1,
           "fuera": 38,
           "pct_ok": 2.6,
-          "avg": 6.8,
+          "avg": 5.8,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -32348,11 +32244,11 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 6,
+              "dias": 5,
               "n": 3
             },
             {
-              "dias": 7,
+              "dias": 6,
               "n": 35
             }
           ]
@@ -32394,21 +32290,21 @@ window.DASHBOARD_DATA = {
         "total": 47,
         "entregados": 47,
         "realiz_terminado": {
-          "avg": 4.2,
-          "min": 3,
-          "max": 5,
+          "avg": 3.5,
+          "min": 2,
+          "max": 4,
           "n": 47
         },
         "terminado_entregado": {
-          "avg": 4.5,
+          "avg": 3.9,
           "min": 0,
-          "max": 24,
+          "max": 20,
           "n": 47
         },
         "realiz_entregado": {
-          "avg": 8.7,
-          "min": 4,
-          "max": 27,
+          "avg": 7.4,
+          "min": 3,
+          "max": 23,
           "n": 47
         },
         "entrega_real": {
@@ -32416,7 +32312,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 47,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.6,
+          "avg_antes": 2.4,
           "objetivo": 95,
           "dist": [
             {
@@ -32425,42 +32321,42 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 25
+              "n": 34
             },
             {
               "dias": 3,
-              "n": 15
+              "n": 8
             },
             {
               "dias": 4,
-              "n": 3
+              "n": 2
             },
             {
               "dias": 5,
-              "n": 3
+              "n": 2
             }
           ]
         },
         "realiz_term_obj": {
           "n": 47,
-          "ok": 24,
-          "fuera": 23,
-          "pct_ok": 51.1,
-          "avg": 4.2,
+          "ok": 47,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
+              "dias": 2,
+              "n": 3
+            },
+            {
               "dias": 3,
-              "n": 13
+              "n": 17
             },
             {
               "dias": 4,
-              "n": 11
-            },
-            {
-              "dias": 5,
-              "n": 23
+              "n": 27
             }
           ]
         },
@@ -32497,21 +32393,21 @@ window.DASHBOARD_DATA = {
         "total": 69,
         "entregados": 69,
         "realiz_terminado": {
-          "avg": 4.3,
+          "avg": 3.6,
           "min": 2,
-          "max": 5,
+          "max": 4,
           "n": 69
         },
         "terminado_entregado": {
-          "avg": 4.0,
+          "avg": 3.4,
           "min": 0,
-          "max": 27,
+          "max": 23,
           "n": 68
         },
         "realiz_entregado": {
-          "avg": 8.3,
-          "min": 4,
-          "max": 31,
+          "avg": 7.0,
+          "min": 3,
+          "max": 27,
           "n": 68
         },
         "entrega_real": {
@@ -32519,7 +32415,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 68,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.6,
+          "avg_antes": 2.4,
           "objetivo": 95,
           "dist": [
             {
@@ -32528,15 +32424,15 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 22
+              "n": 28
             },
             {
               "dias": 3,
-              "n": 22
+              "n": 24
             },
             {
               "dias": 4,
-              "n": 10
+              "n": 3
             },
             {
               "dias": 5,
@@ -32545,37 +32441,29 @@ window.DASHBOARD_DATA = {
             {
               "dias": 6,
               "n": 1
-            },
-            {
-              "dias": 7,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 69,
-          "ok": 36,
-          "fuera": 33,
-          "pct_ok": 52.2,
-          "avg": 4.3,
+          "ok": 69,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.6,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 1
+              "n": 2
             },
             {
               "dias": 3,
-              "n": 10
+              "n": 23
             },
             {
               "dias": 4,
-              "n": 25
-            },
-            {
-              "dias": 5,
-              "n": 33
+              "n": 44
             }
           ]
         },
@@ -32608,21 +32496,21 @@ window.DASHBOARD_DATA = {
         "total": 76,
         "entregados": 75,
         "realiz_terminado": {
-          "avg": 4.6,
-          "min": 3,
-          "max": 30,
+          "avg": 3.9,
+          "min": 2,
+          "max": 26,
           "n": 76
         },
         "terminado_entregado": {
-          "avg": 5.3,
+          "avg": 4.6,
           "min": -1,
-          "max": 20,
+          "max": 17,
           "n": 75
         },
         "realiz_entregado": {
-          "avg": 9.9,
+          "avg": 8.5,
           "min": 3,
-          "max": 30,
+          "max": 26,
           "n": 75
         },
         "entrega_real": {
@@ -32630,27 +32518,27 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 75,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.5,
+          "avg_antes": 2.2,
           "objetivo": 95,
           "dist": [
             {
               "dias": 1,
-              "n": 23
+              "n": 34
             },
             {
               "dias": 2,
-              "n": 29
+              "n": 23
             },
             {
               "dias": 3,
-              "n": 8
+              "n": 7
             },
             {
               "dias": 4,
-              "n": 10
+              "n": 7
             },
             {
-              "dias": 5,
+              "dias": 6,
               "n": 1
             },
             {
@@ -32658,38 +32546,34 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 8,
-              "n": 1
-            },
-            {
-              "dias": 13,
+              "dias": 11,
               "n": 2
             }
           ]
         },
         "realiz_term_obj": {
           "n": 76,
-          "ok": 48,
-          "fuera": 28,
-          "pct_ok": 63.2,
-          "avg": 4.6,
+          "ok": 75,
+          "fuera": 1,
+          "pct_ok": 98.7,
+          "avg": 3.9,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
+              "dias": 2,
+              "n": 2
+            },
+            {
               "dias": 3,
-              "n": 4
-            },
-            {
-              "dias": 4,
-              "n": 44
-            },
-            {
-              "dias": 5,
               "n": 27
             },
             {
-              "dias": 30,
+              "dias": 4,
+              "n": 46
+            },
+            {
+              "dias": 26,
               "n": 1
             }
           ]
@@ -32727,21 +32611,21 @@ window.DASHBOARD_DATA = {
         "total": 70,
         "entregados": 69,
         "realiz_terminado": {
-          "avg": 5.3,
+          "avg": 4.5,
           "min": 2,
-          "max": 11,
+          "max": 9,
           "n": 69
         },
         "terminado_entregado": {
-          "avg": 3.9,
+          "avg": 3.4,
           "min": 0,
-          "max": 13,
+          "max": 11,
           "n": 69
         },
         "realiz_entregado": {
-          "avg": 9.2,
+          "avg": 7.9,
           "min": 5,
-          "max": 16,
+          "max": 14,
           "n": 69
         },
         "entrega_real": {
@@ -32749,7 +32633,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 69,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.0,
+          "avg_antes": 1.8,
           "objetivo": 95,
           "dist": [
             {
@@ -32758,32 +32642,32 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 23
+              "n": 31
             },
             {
               "dias": 2,
-              "n": 25
+              "n": 19
             },
             {
               "dias": 3,
-              "n": 15
+              "n": 14
             },
             {
               "dias": 4,
-              "n": 3
+              "n": 2
             },
             {
-              "dias": 6,
+              "dias": 5,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 69,
-          "ok": 16,
-          "fuera": 53,
-          "pct_ok": 23.2,
-          "avg": 5.3,
+          "ok": 20,
+          "fuera": 49,
+          "pct_ok": 29.0,
+          "avg": 4.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -32796,15 +32680,15 @@ window.DASHBOARD_DATA = {
               "n": 15
             },
             {
+              "dias": 4,
+              "n": 4
+            },
+            {
               "dias": 5,
-              "n": 5
+              "n": 48
             },
             {
-              "dias": 6,
-              "n": 47
-            },
-            {
-              "dias": 11,
+              "dias": 9,
               "n": 1
             }
           ]
@@ -32846,21 +32730,21 @@ window.DASHBOARD_DATA = {
         "total": 32,
         "entregados": 32,
         "realiz_terminado": {
-          "avg": 4.3,
+          "avg": 3.5,
           "min": 2,
-          "max": 5,
+          "max": 4,
           "n": 32
         },
         "terminado_entregado": {
-          "avg": 1.5,
+          "avg": 1.4,
           "min": 0,
-          "max": 6,
+          "max": 5,
           "n": 32
         },
         "realiz_entregado": {
-          "avg": 5.8,
-          "min": 4,
-          "max": 10,
+          "avg": 4.9,
+          "min": 3,
+          "max": 9,
           "n": 32
         },
         "entrega_real": {
@@ -32868,24 +32752,24 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 32,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 5.5,
+          "avg_antes": 4.8,
           "objetivo": 95,
           "dist": [
             {
               "dias": 1,
-              "n": 3
+              "n": 5
             },
             {
               "dias": 2,
-              "n": 8
+              "n": 6
             },
             {
               "dias": 3,
-              "n": 1
+              "n": 4
             },
             {
               "dias": 4,
-              "n": 4
+              "n": 2
             },
             {
               "dias": 5,
@@ -32893,58 +32777,50 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 6,
-              "n": 1
-            },
-            {
-              "dias": 7,
               "n": 2
             },
             {
-              "dias": 8,
+              "dias": 7,
               "n": 5
             },
             {
-              "dias": 9,
+              "dias": 8,
               "n": 4
+            },
+            {
+              "dias": 9,
+              "n": 1
             },
             {
               "dias": 10,
               "n": 1
             },
             {
-              "dias": 12,
-              "n": 1
-            },
-            {
-              "dias": 16,
+              "dias": 13,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 32,
-          "ok": 19,
-          "fuera": 13,
-          "pct_ok": 59.4,
-          "avg": 4.3,
+          "ok": 32,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 3.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 1
-            },
-            {
-              "dias": 3,
               "n": 2
             },
             {
-              "dias": 4,
-              "n": 16
+              "dias": 3,
+              "n": 13
             },
             {
-              "dias": 5,
-              "n": 13
+              "dias": 4,
+              "n": 17
             }
           ]
         },
@@ -32981,21 +32857,21 @@ window.DASHBOARD_DATA = {
         "total": 33,
         "entregados": 33,
         "realiz_terminado": {
-          "avg": 4.7,
+          "avg": 3.8,
           "min": 3,
-          "max": 6,
+          "max": 5,
           "n": 33
         },
         "terminado_entregado": {
-          "avg": 0.6,
+          "avg": 0.5,
           "min": 0,
-          "max": 4,
+          "max": 3,
           "n": 32
         },
         "realiz_entregado": {
-          "avg": 5.2,
+          "avg": 4.3,
           "min": 3,
-          "max": 7,
+          "max": 6,
           "n": 32
         },
         "entrega_real": {
@@ -33003,7 +32879,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 32,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 3.7,
+          "avg_antes": 3.3,
           "objetivo": 95,
           "dist": [
             {
@@ -33012,65 +32888,57 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 5
+              "n": 6
             },
             {
               "dias": 2,
-              "n": 11
+              "n": 10
             },
             {
               "dias": 3,
-              "n": 2
+              "n": 4
             },
             {
               "dias": 4,
-              "n": 4
+              "n": 3
             },
             {
               "dias": 5,
-              "n": 1
-            },
-            {
-              "dias": 6,
               "n": 4
             },
             {
-              "dias": 8,
+              "dias": 7,
               "n": 2
             },
             {
-              "dias": 9,
+              "dias": 8,
               "n": 1
             },
             {
-              "dias": 15,
+              "dias": 13,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 33,
-          "ok": 9,
-          "fuera": 24,
-          "pct_ok": 27.3,
-          "avg": 4.7,
+          "ok": 32,
+          "fuera": 1,
+          "pct_ok": 97.0,
+          "avg": 3.8,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 3,
-              "n": 3
+              "n": 7
             },
             {
               "dias": 4,
-              "n": 6
+              "n": 25
             },
             {
               "dias": 5,
-              "n": 23
-            },
-            {
-              "dias": 6,
               "n": 1
             }
           ]
@@ -33108,21 +32976,21 @@ window.DASHBOARD_DATA = {
         "total": 20,
         "entregados": 20,
         "realiz_terminado": {
-          "avg": 4.5,
+          "avg": 3.5,
           "min": 2,
-          "max": 11,
+          "max": 9,
           "n": 20
         },
         "terminado_entregado": {
-          "avg": 0.4,
+          "avg": 0.3,
           "min": 0,
-          "max": 2,
+          "max": 1,
           "n": 20
         },
         "realiz_entregado": {
-          "avg": 4.8,
+          "avg": 3.9,
           "min": 3,
-          "max": 12,
+          "max": 10,
           "n": 20
         },
         "entrega_real": {
@@ -33130,7 +32998,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 20,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 4.0,
+          "avg_antes": 3.6,
           "objetivo": 95,
           "dist": [
             {
@@ -33139,7 +33007,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 4
+              "n": 5
             },
             {
               "dias": 4,
@@ -33147,11 +33015,11 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 5,
-              "n": 1
+              "n": 2
             },
             {
-              "dias": 6,
-              "n": 2
+              "dias": 7,
+              "n": 1
             },
             {
               "dias": 8,
@@ -33160,40 +33028,32 @@ window.DASHBOARD_DATA = {
             {
               "dias": 9,
               "n": 1
-            },
-            {
-              "dias": 10,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 20,
-          "ok": 11,
-          "fuera": 9,
-          "pct_ok": 55.0,
-          "avg": 4.5,
+          "ok": 19,
+          "fuera": 1,
+          "pct_ok": 95.0,
+          "avg": 3.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 1
-            },
-            {
-              "dias": 3,
               "n": 4
             },
             {
-              "dias": 4,
+              "dias": 3,
               "n": 6
             },
             {
-              "dias": 5,
-              "n": 8
+              "dias": 4,
+              "n": 9
             },
             {
-              "dias": 11,
+              "dias": 9,
               "n": 1
             }
           ]
@@ -33231,21 +33091,21 @@ window.DASHBOARD_DATA = {
         "total": 24,
         "entregados": 24,
         "realiz_terminado": {
-          "avg": 1.7,
-          "min": -58,
-          "max": 5,
+          "avg": 1.3,
+          "min": -50,
+          "max": 4,
           "n": 24
         },
         "terminado_entregado": {
-          "avg": 4.2,
+          "avg": 3.6,
           "min": 0,
-          "max": 62,
+          "max": 54,
           "n": 24
         },
         "realiz_entregado": {
-          "avg": 5.9,
+          "avg": 5.0,
           "min": 3,
-          "max": 36,
+          "max": 31,
           "n": 24
         },
         "entrega_real": {
@@ -33253,11 +33113,11 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 23,
           "tarde": 1,
           "pct_a_tiempo": 95.8,
-          "avg_antes": 3.6,
+          "avg_antes": 3.1,
           "objetivo": 95,
           "dist": [
             {
-              "dias": -29,
+              "dias": -25,
               "n": 1
             },
             {
@@ -33270,14 +33130,14 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 3
+              "n": 9
             },
             {
               "dias": 4,
-              "n": 6
+              "n": 1
             },
             {
-              "dias": 5,
+              "dias": 6,
               "n": 1
             },
             {
@@ -33289,7 +33149,7 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 9,
+              "dias": 10,
               "n": 1
             },
             {
@@ -33297,31 +33157,27 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 13,
-              "n": 1
-            },
-            {
-              "dias": 16,
+              "dias": 14,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 24,
-          "ok": 11,
-          "fuera": 13,
-          "pct_ok": 45.8,
-          "avg": 1.7,
+          "ok": 24,
+          "fuera": 0,
+          "pct_ok": 100.0,
+          "avg": 1.3,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
-              "dias": -58,
+              "dias": -50,
               "n": 1
             },
             {
               "dias": 2,
-              "n": 1
+              "n": 3
             },
             {
               "dias": 3,
@@ -33329,11 +33185,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 4,
-              "n": 5
-            },
-            {
-              "dias": 5,
-              "n": 13
+              "n": 16
             }
           ]
         },
@@ -33370,21 +33222,21 @@ window.DASHBOARD_DATA = {
         "total": 42,
         "entregados": 34,
         "realiz_terminado": {
-          "avg": 6.6,
+          "avg": 5.4,
           "min": 2,
-          "max": 97,
+          "max": 83,
           "n": 41
         },
         "terminado_entregado": {
-          "avg": 2.0,
+          "avg": 1.9,
           "min": 0,
-          "max": 16,
+          "max": 14,
           "n": 34
         },
         "realiz_entregado": {
-          "avg": 6.3,
+          "avg": 5.3,
           "min": 2,
-          "max": 20,
+          "max": 17,
           "n": 34
         },
         "entrega_real": {
@@ -33392,7 +33244,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 34,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.9,
+          "avg_antes": 2.6,
           "objetivo": 95,
           "dist": [
             {
@@ -33401,7 +33253,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 4
+              "n": 5
             },
             {
               "dias": 3,
@@ -33428,46 +33280,38 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 9,
-              "n": 1
-            },
-            {
-              "dias": 21,
+              "dias": 18,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 41,
-          "ok": 20,
-          "fuera": 21,
-          "pct_ok": 48.8,
-          "avg": 6.6,
+          "ok": 39,
+          "fuera": 2,
+          "pct_ok": 95.1,
+          "avg": 5.4,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 2
+              "n": 4
             },
             {
               "dias": 3,
-              "n": 5
+              "n": 15
             },
             {
               "dias": 4,
-              "n": 13
+              "n": 20
             },
             {
               "dias": 5,
-              "n": 19
-            },
-            {
-              "dias": 6,
               "n": 1
             },
             {
-              "dias": 97,
+              "dias": 83,
               "n": 1
             }
           ]
@@ -33513,21 +33357,21 @@ window.DASHBOARD_DATA = {
         "total": 49,
         "entregados": 41,
         "realiz_terminado": {
-          "avg": 4.4,
+          "avg": 3.6,
           "min": 2,
-          "max": 6,
+          "max": 5,
           "n": 44
         },
         "terminado_entregado": {
-          "avg": 2.0,
+          "avg": 1.8,
           "min": 0,
-          "max": 8,
+          "max": 7,
           "n": 37
         },
         "realiz_entregado": {
-          "avg": 6.3,
+          "avg": 5.3,
           "min": 3,
-          "max": 13,
+          "max": 11,
           "n": 41
         },
         "entrega_real": {
@@ -33535,58 +33379,54 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 37,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 1.9,
+          "avg_antes": 1.8,
           "objetivo": 95,
           "dist": [
             {
               "dias": 1,
-              "n": 16
+              "n": 19
             },
             {
               "dias": 2,
-              "n": 12
+              "n": 11
             },
             {
               "dias": 3,
-              "n": 7
+              "n": 5
             },
             {
-              "dias": 5,
+              "dias": 4,
               "n": 1
             },
             {
-              "dias": 6,
+              "dias": 5,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 44,
-          "ok": 20,
-          "fuera": 24,
-          "pct_ok": 45.5,
-          "avg": 4.4,
+          "ok": 42,
+          "fuera": 2,
+          "pct_ok": 95.5,
+          "avg": 3.6,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 3
+              "n": 4
             },
             {
               "dias": 3,
-              "n": 3
+              "n": 10
             },
             {
               "dias": 4,
-              "n": 14
+              "n": 28
             },
             {
               "dias": 5,
-              "n": 22
-            },
-            {
-              "dias": 6,
               "n": 2
             }
           ]
@@ -33638,21 +33478,21 @@ window.DASHBOARD_DATA = {
         "total": 81,
         "entregados": 78,
         "realiz_terminado": {
-          "avg": 4.7,
+          "avg": 3.8,
           "min": 2,
-          "max": 20,
+          "max": 17,
           "n": 77
         },
         "terminado_entregado": {
           "avg": 0.7,
           "min": -1,
-          "max": 7,
+          "max": 6,
           "n": 77
         },
         "realiz_entregado": {
-          "avg": 5.8,
+          "avg": 4.8,
           "min": 2,
-          "max": 34,
+          "max": 29,
           "n": 78
         },
         "entrega_real": {
@@ -33660,11 +33500,11 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 77,
           "tarde": 1,
           "pct_a_tiempo": 98.7,
-          "avg_antes": 3.1,
+          "avg_antes": 2.8,
           "objetivo": 95,
           "dist": [
             {
-              "dias": -24,
+              "dias": -20,
               "n": 1
             },
             {
@@ -33677,89 +33517,77 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 12
+              "n": 16
             },
             {
               "dias": 3,
-              "n": 17
+              "n": 20
             },
             {
               "dias": 4,
-              "n": 11
+              "n": 6
             },
             {
               "dias": 5,
-              "n": 4
+              "n": 3
             },
             {
               "dias": 6,
               "n": 1
             },
             {
-              "dias": 7,
-              "n": 1
-            },
-            {
-              "dias": 9,
-              "n": 2
-            },
-            {
-              "dias": 10,
+              "dias": 8,
               "n": 3
             },
             {
-              "dias": 11,
+              "dias": 9,
+              "n": 3
+            },
+            {
+              "dias": 10,
               "n": 1
             },
             {
-              "dias": 12,
-              "n": 1
-            },
-            {
-              "dias": 21,
+              "dias": 18,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 77,
-          "ok": 39,
-          "fuera": 38,
-          "pct_ok": 50.6,
-          "avg": 4.7,
+          "ok": 63,
+          "fuera": 14,
+          "pct_ok": 81.8,
+          "avg": 3.8,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 7
+              "n": 13
             },
             {
               "dias": 3,
-              "n": 14
-            },
-            {
-              "dias": 4,
-              "n": 18
-            },
-            {
-              "dias": 5,
               "n": 24
             },
             {
-              "dias": 6,
+              "dias": 4,
+              "n": 26
+            },
+            {
+              "dias": 5,
               "n": 11
             },
             {
-              "dias": 7,
+              "dias": 6,
               "n": 1
             },
             {
-              "dias": 19,
+              "dias": 16,
               "n": 1
             },
             {
-              "dias": 20,
+              "dias": 17,
               "n": 1
             }
           ]
@@ -33817,21 +33645,21 @@ window.DASHBOARD_DATA = {
         "total": 160,
         "entregados": 145,
         "realiz_terminado": {
-          "avg": 4.2,
-          "min": -23,
-          "max": 28,
+          "avg": 3.5,
+          "min": -20,
+          "max": 24,
           "n": 147
         },
         "terminado_entregado": {
-          "avg": 1.8,
-          "min": -3,
-          "max": 28,
+          "avg": 1.5,
+          "min": -2,
+          "max": 24,
           "n": 138
         },
         "realiz_entregado": {
-          "avg": 6.1,
+          "avg": 5.1,
           "min": 1,
-          "max": 55,
+          "max": 47,
           "n": 144
         },
         "entrega_real": {
@@ -33839,11 +33667,11 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 143,
           "tarde": 1,
           "pct_a_tiempo": 99.3,
-          "avg_antes": 3.9,
+          "avg_antes": 3.5,
           "objetivo": 95,
           "dist": [
             {
-              "dias": -33,
+              "dias": -28,
               "n": 1
             },
             {
@@ -33852,23 +33680,23 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 24
+              "n": 28
             },
             {
               "dias": 2,
-              "n": 41
+              "n": 45
             },
             {
               "dias": 3,
-              "n": 25
+              "n": 26
             },
             {
               "dias": 4,
-              "n": 15
+              "n": 9
             },
             {
               "dias": 5,
-              "n": 6
+              "n": 10
             },
             {
               "dias": 6,
@@ -33876,31 +33704,31 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 7,
-              "n": 7
-            },
-            {
-              "dias": 8,
               "n": 6
             },
             {
+              "dias": 8,
+              "n": 3
+            },
+            {
               "dias": 9,
-              "n": 2
+              "n": 1
             },
             {
               "dias": 10,
-              "n": 2
-            },
-            {
-              "dias": 12,
               "n": 1
             },
             {
-              "dias": 16,
+              "dias": 14,
               "n": 1
             },
             {
-              "dias": 21,
+              "dias": 18,
               "n": 2
+            },
+            {
+              "dias": 19,
+              "n": 1
             },
             {
               "dias": 22,
@@ -33909,60 +33737,52 @@ window.DASHBOARD_DATA = {
             {
               "dias": 25,
               "n": 1
-            },
-            {
-              "dias": 29,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 147,
-          "ok": 73,
-          "fuera": 74,
-          "pct_ok": 49.7,
-          "avg": 4.2,
+          "ok": 131,
+          "fuera": 16,
+          "pct_ok": 89.1,
+          "avg": 3.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
-              "dias": -23,
+              "dias": -20,
               "n": 2
             },
             {
               "dias": 2,
-              "n": 10
+              "n": 14
             },
             {
               "dias": 3,
-              "n": 15
+              "n": 41
             },
             {
               "dias": 4,
-              "n": 46
+              "n": 74
             },
             {
               "dias": 5,
-              "n": 61
+              "n": 11
             },
             {
               "dias": 6,
-              "n": 8
+              "n": 1
             },
             {
               "dias": 7,
-              "n": 1
-            },
-            {
-              "dias": 8,
               "n": 2
             },
             {
-              "dias": 10,
+              "dias": 8,
               "n": 1
             },
             {
-              "dias": 28,
+              "dias": 24,
               "n": 1
             }
           ]
@@ -34020,21 +33840,21 @@ window.DASHBOARD_DATA = {
         "total": 254,
         "entregados": 247,
         "realiz_terminado": {
-          "avg": 5.6,
+          "avg": 4.7,
           "min": 1,
-          "max": 187,
+          "max": 160,
           "n": 253
         },
         "terminado_entregado": {
-          "avg": 3.2,
+          "avg": 2.8,
           "min": -1,
-          "max": 29,
+          "max": 25,
           "n": 246
         },
         "realiz_entregado": {
-          "avg": 8.2,
-          "min": 3,
-          "max": 34,
+          "avg": 7.0,
+          "min": 2,
+          "max": 29,
           "n": 247
         },
         "entrega_real": {
@@ -34042,7 +33862,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 245,
           "tarde": 1,
           "pct_a_tiempo": 99.6,
-          "avg_antes": 2.4,
+          "avg_antes": 2.1,
           "objetivo": 95,
           "dist": [
             {
@@ -34055,23 +33875,23 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 90
+              "n": 99
             },
             {
               "dias": 2,
-              "n": 73
+              "n": 84
             },
             {
               "dias": 3,
-              "n": 34
+              "n": 20
             },
             {
               "dias": 4,
-              "n": 12
+              "n": 17
             },
             {
               "dias": 5,
-              "n": 12
+              "n": 8
             },
             {
               "dias": 6,
@@ -34079,11 +33899,11 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 7,
-              "n": 7
+              "n": 3
             },
             {
               "dias": 8,
-              "n": 3
+              "n": 1
             },
             {
               "dias": 9,
@@ -34092,19 +33912,15 @@ window.DASHBOARD_DATA = {
             {
               "dias": 11,
               "n": 1
-            },
-            {
-              "dias": 12,
-              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 253,
-          "ok": 98,
-          "fuera": 155,
-          "pct_ok": 38.7,
-          "avg": 5.6,
+          "ok": 191,
+          "fuera": 62,
+          "pct_ok": 75.5,
+          "avg": 4.7,
           "limite": 4,
           "objetivo": 98,
           "dist": [
@@ -34114,46 +33930,42 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 2,
-              "n": 6
+              "n": 13
             },
             {
               "dias": 3,
-              "n": 27
+              "n": 54
             },
             {
               "dias": 4,
-              "n": 64
+              "n": 123
             },
             {
               "dias": 5,
-              "n": 95
+              "n": 35
             },
             {
               "dias": 6,
-              "n": 33
-            },
-            {
-              "dias": 7,
               "n": 21
             },
             {
-              "dias": 8,
+              "dias": 7,
               "n": 1
             },
             {
-              "dias": 10,
+              "dias": 8,
               "n": 2
             },
             {
-              "dias": 13,
+              "dias": 11,
               "n": 1
             },
             {
-              "dias": 27,
+              "dias": 23,
               "n": 1
             },
             {
-              "dias": 187,
+              "dias": 160,
               "n": 1
             }
           ]
@@ -34211,21 +34023,21 @@ window.DASHBOARD_DATA = {
         "total": 275,
         "entregados": 273,
         "realiz_terminado": {
-          "avg": 4.8,
+          "avg": 4.0,
           "min": 2,
-          "max": 30,
+          "max": 26,
           "n": 274
         },
         "terminado_entregado": {
-          "avg": 4.4,
+          "avg": 3.8,
           "min": -1,
-          "max": 27,
+          "max": 23,
           "n": 272
         },
         "realiz_entregado": {
-          "avg": 9.2,
+          "avg": 7.8,
           "min": 3,
-          "max": 33,
+          "max": 28,
           "n": 272
         },
         "entrega_real": {
@@ -34233,7 +34045,7 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 272,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.4,
+          "avg_antes": 2.1,
           "objetivo": 95,
           "dist": [
             {
@@ -34242,23 +34054,23 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 67
+              "n": 84
             },
             {
               "dias": 2,
-              "n": 98
+              "n": 107
             },
             {
               "dias": 3,
-              "n": 66
+              "n": 55
             },
             {
               "dias": 4,
-              "n": 27
+              "n": 15
             },
             {
               "dias": 5,
-              "n": 5
+              "n": 4
             },
             {
               "dias": 6,
@@ -34266,57 +34078,49 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 7,
-              "n": 2
-            },
-            {
-              "dias": 8,
               "n": 1
             },
             {
-              "dias": 13,
+              "dias": 11,
               "n": 2
             }
           ]
         },
         "realiz_term_obj": {
           "n": 274,
-          "ok": 124,
-          "fuera": 150,
-          "pct_ok": 45.3,
-          "avg": 4.8,
+          "ok": 207,
+          "fuera": 67,
+          "pct_ok": 75.5,
+          "avg": 4.0,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 2
+              "n": 8
             },
             {
               "dias": 3,
-              "n": 42
+              "n": 82
             },
             {
               "dias": 4,
-              "n": 80
+              "n": 117
             },
             {
               "dias": 5,
-              "n": 84
+              "n": 48
             },
             {
               "dias": 6,
-              "n": 47
-            },
-            {
-              "dias": 7,
               "n": 17
             },
             {
-              "dias": 11,
+              "dias": 9,
               "n": 1
             },
             {
-              "dias": 30,
+              "dias": 26,
               "n": 1
             }
           ]
@@ -34362,21 +34166,21 @@ window.DASHBOARD_DATA = {
         "total": 113,
         "entregados": 113,
         "realiz_terminado": {
-          "avg": 3.9,
-          "min": -58,
-          "max": 11,
+          "avg": 3.2,
+          "min": -50,
+          "max": 9,
           "n": 113
         },
         "terminado_entregado": {
-          "avg": 1.7,
+          "avg": 1.5,
           "min": 0,
-          "max": 62,
+          "max": 54,
           "n": 112
         },
         "realiz_entregado": {
-          "avg": 5.6,
+          "avg": 4.7,
           "min": 3,
-          "max": 36,
+          "max": 31,
           "n": 112
         },
         "entrega_real": {
@@ -34384,11 +34188,11 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 111,
           "tarde": 1,
           "pct_a_tiempo": 99.1,
-          "avg_antes": 4.2,
+          "avg_antes": 3.7,
           "objetivo": 95,
           "dist": [
             {
-              "dias": -29,
+              "dias": -25,
               "n": 1
             },
             {
@@ -34397,39 +34201,39 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 1,
-              "n": 9
+              "n": 14
             },
             {
               "dias": 2,
-              "n": 37
+              "n": 32
             },
             {
               "dias": 3,
-              "n": 10
+              "n": 22
             },
             {
               "dias": 4,
-              "n": 16
+              "n": 8
             },
             {
               "dias": 5,
-              "n": 4
+              "n": 7
             },
             {
               "dias": 6,
-              "n": 7
-            },
-            {
-              "dias": 7,
               "n": 3
             },
             {
-              "dias": 8,
+              "dias": 7,
               "n": 9
             },
             {
-              "dias": 9,
+              "dias": 8,
               "n": 7
+            },
+            {
+              "dias": 9,
+              "n": 2
             },
             {
               "dias": 10,
@@ -34440,58 +34244,46 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 12,
-              "n": 1
-            },
-            {
               "dias": 13,
-              "n": 1
-            },
-            {
-              "dias": 15,
-              "n": 1
-            },
-            {
-              "dias": 16,
               "n": 2
+            },
+            {
+              "dias": 14,
+              "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 113,
-          "ok": 50,
-          "fuera": 63,
-          "pct_ok": 44.2,
-          "avg": 3.9,
+          "ok": 111,
+          "fuera": 2,
+          "pct_ok": 98.2,
+          "avg": 3.2,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
-              "dias": -58,
+              "dias": -50,
               "n": 1
             },
             {
               "dias": 2,
-              "n": 3
+              "n": 9
             },
             {
               "dias": 3,
-              "n": 13
+              "n": 30
             },
             {
               "dias": 4,
-              "n": 33
+              "n": 71
             },
             {
               "dias": 5,
-              "n": 61
-            },
-            {
-              "dias": 6,
               "n": 1
             },
             {
-              "dias": 11,
+              "dias": 9,
               "n": 1
             }
           ]
@@ -34529,21 +34321,21 @@ window.DASHBOARD_DATA = {
         "total": 91,
         "entregados": 75,
         "realiz_terminado": {
-          "avg": 5.4,
+          "avg": 4.5,
           "min": 2,
-          "max": 97,
+          "max": 83,
           "n": 85
         },
         "terminado_entregado": {
-          "avg": 2.0,
+          "avg": 1.8,
           "min": 0,
-          "max": 16,
+          "max": 14,
           "n": 71
         },
         "realiz_entregado": {
-          "avg": 6.3,
+          "avg": 5.3,
           "min": 2,
-          "max": 20,
+          "max": 17,
           "n": 75
         },
         "entrega_real": {
@@ -34551,12 +34343,12 @@ window.DASHBOARD_DATA = {
           "a_tiempo": 71,
           "tarde": 0,
           "pct_a_tiempo": 100.0,
-          "avg_antes": 2.4,
+          "avg_antes": 2.2,
           "objetivo": 95,
           "dist": [
             {
               "dias": 1,
-              "n": 35
+              "n": 38
             },
             {
               "dias": 2,
@@ -34564,11 +34356,11 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 3,
-              "n": 11
+              "n": 9
             },
             {
               "dias": 4,
-              "n": 1
+              "n": 2
             },
             {
               "dias": 5,
@@ -34576,7 +34368,7 @@ window.DASHBOARD_DATA = {
             },
             {
               "dias": 6,
-              "n": 2
+              "n": 1
             },
             {
               "dias": 7,
@@ -34587,46 +34379,38 @@ window.DASHBOARD_DATA = {
               "n": 1
             },
             {
-              "dias": 9,
-              "n": 1
-            },
-            {
-              "dias": 21,
+              "dias": 18,
               "n": 1
             }
           ]
         },
         "realiz_term_obj": {
           "n": 85,
-          "ok": 40,
-          "fuera": 45,
-          "pct_ok": 47.1,
-          "avg": 5.4,
+          "ok": 81,
+          "fuera": 4,
+          "pct_ok": 95.3,
+          "avg": 4.5,
           "limite": 4,
           "objetivo": 98,
           "dist": [
             {
               "dias": 2,
-              "n": 5
-            },
-            {
-              "dias": 3,
               "n": 8
             },
             {
+              "dias": 3,
+              "n": 25
+            },
+            {
               "dias": 4,
-              "n": 27
+              "n": 48
             },
             {
               "dias": 5,
-              "n": 41
-            },
-            {
-              "dias": 6,
               "n": 3
             },
             {
-              "dias": 97,
+              "dias": 83,
               "n": 1
             }
           ]
@@ -34708,6 +34492,341 @@ window.DASHBOARD_DATA = {
     ],
     "obj_entrega_real": 95,
     "obj_realiz_term": 98,
-    "lim_realiz_term": 4
+    "lim_realiz_term": 4,
+    "patrones": {
+      "tendencia_semana": [
+        {
+          "periodo": "2",
+          "total": 17,
+          "pct_transc": 94.1,
+          "avg_transc": 4.0,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "3",
+          "total": 13,
+          "pct_transc": 100.0,
+          "avg_transc": 2.9,
+          "pct_entrega": 92.3
+        },
+        {
+          "periodo": "4",
+          "total": 23,
+          "pct_transc": 91.3,
+          "avg_transc": 3.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "5",
+          "total": 28,
+          "pct_transc": 56.0,
+          "avg_transc": 4.6,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "6",
+          "total": 43,
+          "pct_transc": 100.0,
+          "avg_transc": 3.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "7",
+          "total": 39,
+          "pct_transc": 97.1,
+          "avg_transc": 4.1,
+          "pct_entrega": 97.1
+        },
+        {
+          "periodo": "8",
+          "total": 41,
+          "pct_transc": 61.5,
+          "avg_transc": 4.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "9",
+          "total": 37,
+          "pct_transc": 100.0,
+          "avg_transc": 1.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "10",
+          "total": 62,
+          "pct_transc": 98.4,
+          "avg_transc": 3.3,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "11",
+          "total": 61,
+          "pct_transc": 51.7,
+          "avg_transc": 4.3,
+          "pct_entrega": 98.2
+        },
+        {
+          "periodo": "12",
+          "total": 51,
+          "pct_transc": 86.3,
+          "avg_transc": 7.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "13",
+          "total": 58,
+          "pct_transc": 93.1,
+          "avg_transc": 4.1,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "14",
+          "total": 39,
+          "pct_transc": 2.6,
+          "avg_transc": 5.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "15",
+          "total": 47,
+          "pct_transc": 100.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "16",
+          "total": 69,
+          "pct_transc": 100.0,
+          "avg_transc": 3.6,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "17",
+          "total": 76,
+          "pct_transc": 98.7,
+          "avg_transc": 3.9,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "18",
+          "total": 70,
+          "pct_transc": 29.0,
+          "avg_transc": 4.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "19",
+          "total": 32,
+          "pct_transc": 100.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "20",
+          "total": 33,
+          "pct_transc": 97.0,
+          "avg_transc": 3.8,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "21",
+          "total": 20,
+          "pct_transc": 95.0,
+          "avg_transc": 3.5,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "22",
+          "total": 24,
+          "pct_transc": 100.0,
+          "avg_transc": 1.3,
+          "pct_entrega": 95.8
+        },
+        {
+          "periodo": "23",
+          "total": 42,
+          "pct_transc": 95.1,
+          "avg_transc": 5.4,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "24",
+          "total": 49,
+          "pct_transc": 95.5,
+          "avg_transc": 3.6,
+          "pct_entrega": 100.0
+        }
+      ],
+      "tendencia_mes": [
+        {
+          "periodo": "2026-01",
+          "total": 81,
+          "pct_transc": 81.8,
+          "avg_transc": 3.8,
+          "pct_entrega": 98.7
+        },
+        {
+          "periodo": "2026-02",
+          "total": 160,
+          "pct_transc": 89.1,
+          "avg_transc": 3.5,
+          "pct_entrega": 99.3
+        },
+        {
+          "periodo": "2026-03",
+          "total": 254,
+          "pct_transc": 75.5,
+          "avg_transc": 4.7,
+          "pct_entrega": 99.6
+        },
+        {
+          "periodo": "2026-04",
+          "total": 275,
+          "pct_transc": 75.5,
+          "avg_transc": 4.0,
+          "pct_entrega": 100.0
+        },
+        {
+          "periodo": "2026-05",
+          "total": 113,
+          "pct_transc": 98.2,
+          "avg_transc": 3.2,
+          "pct_entrega": 99.1
+        },
+        {
+          "periodo": "2026-06",
+          "total": 91,
+          "pct_transc": 95.3,
+          "avg_transc": 4.5,
+          "pct_entrega": 100.0
+        }
+      ],
+      "por_dia": [
+        {
+          "dia": "Lunes",
+          "n": 116
+        },
+        {
+          "dia": "Martes",
+          "n": 111
+        },
+        {
+          "dia": "Miércoles",
+          "n": 135
+        },
+        {
+          "dia": "Jueves",
+          "n": 157
+        },
+        {
+          "dia": "Viernes",
+          "n": 266
+        },
+        {
+          "dia": "Sábado",
+          "n": 189
+        }
+      ],
+      "transc_perf": [
+        {
+          "nombre": "Beto",
+          "n": 467,
+          "pct_ok": 85.2,
+          "avg": 3.8
+        },
+        {
+          "nombre": "Casandra",
+          "n": 431,
+          "pct_ok": 81.4,
+          "avg": 4.2
+        },
+        {
+          "nombre": "Otros",
+          "n": 44,
+          "pct_ok": 65.9,
+          "avg": 4.0
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 5,
+          "pct_ok": 80.0,
+          "avg": 19.0
+        },
+        {
+          "nombre": "Mayra",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 2.0
+        },
+        {
+          "nombre": "Humberto",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 2.0
+        }
+      ],
+      "intern_perf": [
+        {
+          "nombre": "Toriz",
+          "n": 344,
+          "pct_ok": 75.9,
+          "avg": 6.1
+        },
+        {
+          "nombre": "Santoyo",
+          "n": 230,
+          "pct_ok": 81.3,
+          "avg": 6.3
+        },
+        {
+          "nombre": "Castellón",
+          "n": 213,
+          "pct_ok": 70.9,
+          "avg": 6.9
+        },
+        {
+          "nombre": "Oropeza",
+          "n": 114,
+          "pct_ok": 78.9,
+          "avg": 6.5
+        },
+        {
+          "nombre": "Blanca",
+          "n": 25,
+          "pct_ok": 96.0,
+          "avg": 4.2
+        },
+        {
+          "nombre": "Otros",
+          "n": 1,
+          "pct_ok": 100.0,
+          "avg": 5.0
+        },
+        {
+          "nombre": "(sin asignar)",
+          "n": 1,
+          "pct_ok": 0.0,
+          "avg": 13.0
+        }
+      ],
+      "hallazgos": [
+        {
+          "tipo": "bad",
+          "txt": "El cuello de botella es la TRANSCRIPCIÓN: solo 82.6% se termina en ≤4 días (objetivo 98%), mientras que la entrega final cumple 99.6% (objetivo 95%). El retraso se origina antes de la entrega."
+        },
+        {
+          "tipo": "bad",
+          "txt": "Semanas críticas en transcripción (<60% en ≤4 días): Sem 14 (2.6%), Sem 18 (29.0%), Sem 11 (51.7%), Sem 5 (56.0%). Conviene revisar carga de trabajo o ausencias en esas semanas."
+        },
+        {
+          "tipo": "good",
+          "txt": "La transcripción mejoró 13.5 puntos de 2026-01 (81.8%) a 2026-06 (95.3%)."
+        },
+        {
+          "tipo": "info",
+          "txt": "El Viernes concentra el mayor volumen de estudios (266, 27% del total). La carga se acumula a fin de semana (jueves a sábado), lo que presiona la transcripción de los días siguientes."
+        }
+      ]
+    }
   }
 };

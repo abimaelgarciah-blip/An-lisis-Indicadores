@@ -138,6 +138,16 @@ tr:hover{background:#edf3fb;}
 .usr-num{font-size:12px;font-weight:700;color:var(--azul2);min-width:36px;text-align:right;}
 .usr-pct{font-size:11px;color:#aab;min-width:48px;text-align:right;}
 
+/* ── Hallazgos / patrones ── */
+.hallazgo{display:flex;gap:10px;align-items:flex-start;padding:12px 16px;
+          border-radius:8px;margin-bottom:8px;font-size:13px;line-height:1.45;
+          background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:5px solid var(--azul2);}
+.hallazgo .ico{font-size:16px;line-height:1.3;}
+.hallazgo.bad{border-left-color:var(--rojo);background:#fdf3f2;}
+.hallazgo.warn{border-left-color:var(--amari);background:#fdf9ef;}
+.hallazgo.good{border-left-color:var(--verde);background:#f1f9ef;}
+.hallazgo.info{border-left-color:var(--azul2);background:#f2f6fc;}
+
 footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
 </style>
 </head>
@@ -389,6 +399,43 @@ footer{text-align:center;padding:20px;color:#aab;font-size:11px;}
         <h3>Cantidad por Transcriptor</h3>
         <canvas id="chartChkTranscriptores" height="200"></canvas>
       </div>
+    </div>
+
+    <div class="sec-titulo" style="margin-top:8px;"><span>🔎</span> Patrones y Hallazgos para la toma de decisiones</div>
+
+    <!-- Hallazgos automáticos -->
+    <div id="chk-hallazgos" style="margin-bottom:20px;"></div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <!-- Tendencia temporal -->
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+          <h3 style="margin:0;">Tendencia · % Transcrito en ≤ 4 días</h3>
+          <div class="tabs" style="padding:0;border:none;background:transparent;" id="chk-tend-modo">
+            <button class="tab activa" data-tend="semana">Semana</button>
+            <button class="tab" data-tend="mes">Mes</button>
+          </div>
+        </div>
+        <canvas id="chartChkTendencia" height="200"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          Línea punteada = objetivo 98%. Las caídas marcan semanas de saturación.
+        </p>
+      </div>
+
+      <!-- Volumen por día de la semana -->
+      <div class="card">
+        <h3>Volumen de estudios por día de la semana</h3>
+        <canvas id="chartChkDow" height="200"></canvas>
+        <p style="font-size:11px;color:#aab;margin-top:8px;">
+          Domingos excluidos (no se realizan estudios ni se cuentan en los días).
+        </p>
+      </div>
+    </div>
+
+    <!-- Desempeño por transcriptor -->
+    <div class="card" style="margin-bottom:24px;">
+      <h3>Desempeño por Transcriptor · % en ≤ 4 días (cumplimiento de transcripción)</h3>
+      <div id="chkTranscPerf" style="margin-top:10px;"></div>
     </div>
 
     <div class="sec-titulo" style="margin-top:8px;"><span>⏱️</span> Días por Proceso (Transcripción → Entrega)</div>
@@ -984,6 +1031,76 @@ function initChkSelector(){
   sel.onchange = renderChkObjetivos;
 }
 
+// ── Patrones / Hallazgos ──────────────────────────────────────────────────────
+let CHK_TEND = 'semana';
+
+function renderChkPatrones(){
+  const P = D.chequeos.patrones;
+  if(!P) return;
+  const OBJ = D.chequeos.obj_realiz_term || 98;
+
+  // Hallazgos
+  const ICO = {bad:'🔴', warn:'🟡', good:'🟢', info:'🔵'};
+  document.getElementById('chk-hallazgos').innerHTML = P.hallazgos.map(h=>
+    `<div class="hallazgo ${h.tipo}"><span class="ico">${ICO[h.tipo]||'•'}</span><div>${h.txt}</div></div>`
+  ).join('') || '<p style="color:#aab;">Sin hallazgos.</p>';
+
+  // Tendencia (línea) — semana o mes
+  const serie = CHK_TEND === 'mes' ? P.tendencia_mes : P.tendencia_semana;
+  const labels = serie.map(x=> CHK_TEND==='mes' ? x.periodo : 'S'+x.periodo);
+  mk('chartChkTendencia', {
+    type:'line',
+    data:{labels,
+      datasets:[
+        {label:'% ≤ 4 días', data: serie.map(x=>x.pct_transc),
+         borderColor:'#2e5fa3', backgroundColor:'rgba(46,95,163,.12)',
+         fill:true, tension:.25, pointRadius:3,
+         pointBackgroundColor: serie.map(x=> x.pct_transc>=OBJ ? '#52a53f' : '#c0392b')},
+        {label:`Objetivo ${OBJ}%`, data: serie.map(()=>OBJ),
+         borderColor:'#c0392b', borderDash:[6,4], pointRadius:0, fill:false, borderWidth:1.5},
+      ]},
+    options:{plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:11}}},
+        tooltip:{callbacks:{afterLabel:i=>{
+          const s=serie[i.dataIndex]; return i.datasetIndex===0
+            ? `n=${s.total} · avg ${s.avg_transc}d · entrega ${s.pct_entrega}%` : '';}}}},
+      scales:{y:{beginAtZero:true,max:100,title:{display:true,text:'% cumplimiento'}}}}
+  });
+
+  // Volumen por día de la semana
+  mk('chartChkDow', {
+    type:'bar',
+    data:{labels: P.por_dia.map(x=>x.dia),
+      datasets:[{data: P.por_dia.map(x=>x.n),
+        backgroundColor: P.por_dia.map(x=> x.n===Math.max(...P.por_dia.map(y=>y.n))?'#1F3864':'#5a8fd6')}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
+  });
+
+  // Desempeño por transcriptor (barras horizontales con % cumplimiento)
+  const perf = P.transc_perf.filter(t=>t.n>=10);
+  document.getElementById('chkTranscPerf').innerHTML = perf.map(t=>{
+    const v = t.pct_ok!=null ? t.pct_ok : 0;
+    const col = v>=OBJ ? '#52a53f' : (v>=70 ? '#d4920a' : '#c0392b');
+    return `<div class="usr-bar">
+      <span class="usr-nombre">${t.nombre}</span>
+      <div class="usr-pista"><div class="usr-fill" style="width:${v}%;background:${col};"></div></div>
+      <span class="usr-num">${t.pct_ok!=null? t.pct_ok+'%':'–'}</span>
+      <span class="usr-pct">${t.n} estudios · avg ${t.avg}d</span>
+    </div>`;
+  }).join('');
+}
+
+function initChkTendToggle(){
+  document.querySelectorAll('#chk-tend-modo .tab').forEach(btn=>{
+    btn.onclick = () => {
+      CHK_TEND = btn.dataset.tend;
+      document.querySelectorAll('#chk-tend-modo .tab').forEach(b=>
+        b.classList.toggle('activa', b===btn));
+      renderChkPatrones();
+    };
+  });
+}
+
 function renderChequeos(){
   const C = D.chequeos;
   const cont = document.querySelector('#vista-chequeos .seccion');
@@ -1018,6 +1135,10 @@ function renderChequeos(){
   // Indicadores de cumplimiento solicitados (entrega real / transcripción / conteos)
   initChkSelector();
   renderChkObjetivos();
+
+  // Patrones y hallazgos para la toma de decisiones
+  initChkTendToggle();
+  renderChkPatrones();
 
   // Gráfica: días por proceso
   mk('chartChkProcesos', {
