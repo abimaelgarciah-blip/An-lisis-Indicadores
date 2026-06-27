@@ -12,23 +12,38 @@
   --gris:#f0f3f8; --borde:#dde3ee; --texto:#1e2b3c;
   --blanco:#ffffff;
   /* Superficies (cambian con el tema) */
-  --bg:#f0f3f8; --card:#ffffff; --muted:#8899aa; --fila:#f7f9fc;
+  --bg:#f0f3f8; --bg-img:none; --card:#ffffff; --card-shadow:0 1px 4px rgba(0,0,0,.07);
+  --muted:#8899aa; --fila:#f7f9fc;
   --fila-hover:#edf3fb; --heading:#4a5e78; --pista:#edf1f7;
+  --accent:#2E5FA3; --accent-soft:rgba(46,95,163,.14);
+  --glass-bd:#dde3ee; --blur:0px;
+  --header-grad:linear-gradient(135deg,#1a3160,#2e5fa3);
+  --nav-bg:#1F3864;
 }
 :root[data-theme="dark"]{
-  --azul-c:#3a5a86;
-  --gris:#0f1722; --borde:#2a3a4d; --texto:#e6edf5;
-  --bg:#0f1722; --card:#18232f; --muted:#9fb2c4; --fila:#1d2a38;
-  --fila-hover:#243446; --heading:#bcd0e6; --pista:#243446;
+  /* Tema "crypto": navy profundo, acento cian, tarjetas glass translúcidas */
+  --azul-c:#2bd4e1;
+  --gris:#141d2b; --borde:rgba(255,255,255,.08); --texto:#e9f1fb;
+  --bg:#141d2b;
+  --bg-img:linear-gradient(160deg,#223150 0%,#18233a 42%,#101a2a 100%);
+  --card:rgba(255,255,255,.045); --card-shadow:0 4px 18px rgba(0,0,0,.28);
+  --muted:#8da3bd; --fila:rgba(255,255,255,.03);
+  --fila-hover:rgba(255,255,255,.07); --heading:#d4e6f4; --pista:rgba(255,255,255,.09);
+  --accent:#2bd4e1; --accent-soft:rgba(43,212,225,.16);
+  --glass-bd:rgba(255,255,255,.09); --blur:7px;
+  --header-grad:linear-gradient(135deg,rgba(43,212,225,.10),rgba(255,255,255,.015));
+  --nav-bg:rgba(255,255,255,.035);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-     background:var(--bg);color:var(--texto);font-size:14px;transition:background .2s,color .2s;}
+     background:var(--bg);background-image:var(--bg-img);background-attachment:fixed;
+     color:var(--texto);font-size:14px;transition:background .2s,color .2s;}
 
 /* ── Header ── */
-header{background:linear-gradient(135deg,#1a3160,#2e5fa3);
+header{background:var(--header-grad);
        color:#fff;padding:18px 32px 14px;
        display:flex;align-items:center;gap:20px;
+       border-bottom:1px solid var(--glass-bd);
        box-shadow:0 2px 8px rgba(0,0,0,.18);}
 header h1{font-size:20px;font-weight:700;letter-spacing:.3px;}
 header p{font-size:12px;opacity:.8;margin-top:2px;}
@@ -37,13 +52,15 @@ header p{font-size:12px;opacity:.8;margin-top:2px;}
 /* ── Barra de controles ── */
 .controls{background:var(--card);border-bottom:1px solid var(--borde);
           padding:10px 32px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;
-          position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+          position:sticky;top:0;z-index:100;box-shadow:0 1px 4px rgba(0,0,0,.06);
+          backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);}
 .controls label{font-weight:600;font-size:12px;color:var(--muted);}
 select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
        font-size:13px;background:var(--card);color:var(--texto);cursor:pointer;}
 
 /* ── Navegación principal (Dashboard / Chequeos) ── */
-.mainnav{display:flex;gap:6px;background:var(--azul);padding:0 32px;}
+.mainnav{display:flex;gap:6px;background:var(--nav-bg);padding:0 32px;
+         border-bottom:1px solid var(--glass-bd);}
 .mainnav-btn{padding:12px 22px;border:none;background:transparent;cursor:pointer;
      font-size:14px;font-weight:700;color:#cdd9ec;
      border-bottom:4px solid transparent;transition:all .14s;}
@@ -68,7 +85,7 @@ select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
 /* ── Layout ── */
 .wrap{max-width:1440px;margin:0 auto;padding:24px 32px;}
 .seccion{margin-bottom:32px;}
-.sec-titulo{font-size:15px;font-weight:700;color:var(--azul);
+.sec-titulo{font-size:15px;font-weight:700;color:var(--heading);
             margin-bottom:16px;padding-bottom:8px;
             border-bottom:3px solid var(--azul-c);display:flex;align-items:center;gap:8px;}
 .sec-titulo span{font-size:18px;}
@@ -79,15 +96,17 @@ select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
 @media(max-width:800px){.grid2,.grid3,.grid4{grid-template-columns:1fr;}}
 
 /* ── Cards ── */
-.card{background:var(--card);border-radius:10px;padding:20px;
-      box-shadow:0 1px 4px rgba(0,0,0,.07);}
+.card{background:var(--card);border-radius:13px;padding:20px;
+      border:1px solid var(--glass-bd);box-shadow:var(--card-shadow);
+      backdrop-filter:blur(var(--blur));-webkit-backdrop-filter:blur(var(--blur));}
 .card h3{font-size:13px;font-weight:700;color:var(--heading);
          margin-bottom:14px;text-transform:uppercase;letter-spacing:.4px;}
 
 /* ── KPI cards ── */
-.kpi{border-radius:10px;padding:18px 20px;
-     box-shadow:0 1px 4px rgba(0,0,0,.07);
-     border-left:5px solid var(--azul2);background:var(--card);}
+.kpi{border-radius:13px;padding:18px 20px;
+     box-shadow:var(--card-shadow);border:1px solid var(--glass-bd);
+     border-left:5px solid var(--accent);background:var(--card);
+     backdrop-filter:blur(var(--blur));-webkit-backdrop-filter:blur(var(--blur));}
 .kpi .klabel{font-size:11px;text-transform:uppercase;
              letter-spacing:.6px;color:var(--muted);font-weight:700;}
 .kpi .kval{font-size:32px;font-weight:800;margin-top:6px;line-height:1;}
@@ -423,9 +442,9 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 
     <!-- Selector de semana propio para interpretaciones -->
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;
-                background:#fff;padding:12px 16px;border-radius:8px;
-                box-shadow:0 1px 3px rgba(0,0,0,.06);">
-      <span style="font-weight:700;font-size:12px;color:#6a7d95;text-transform:uppercase;">Semana:</span>
+                background:var(--card);border:1px solid var(--glass-bd);padding:12px 16px;border-radius:10px;
+                box-shadow:var(--card-shadow);">
+      <span style="font-weight:700;font-size:12px;color:var(--muted);text-transform:uppercase;">Semana:</span>
       <div id="interp-tabs" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
     </div>
 
@@ -477,7 +496,7 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
         <button class="tab" data-modo="mes">Por mes</button>
       </div>
       <select id="chk-periodo" style="display:none;padding:7px 12px;border:1px solid var(--borde);
-              border-radius:7px;font-size:13px;font-weight:600;color:var(--azul);background:#fff;"></select>
+              border-radius:7px;font-size:13px;font-weight:600;color:var(--heading);background:var(--card);"></select>
     </div>
 
     <!-- KPIs de cumplimiento (solicitados) -->
@@ -631,6 +650,10 @@ const UCOLOR = {General:'#1F3864', LM:'#2E5FA3', AC:'#52A53F', CH:'#D4920A',
 const ucol     = u => UCOLOR[u] || '#7a8aa0';
 const unombre  = u => u==='General' ? 'General' : (D.sucursales?.[u] || u);
 const unidades = () => D.acumulado.map(r=>r.Unidad);
+// Acento del tema activo (cian en oscuro, azul en claro) — se relee al cambiar de tema
+const AC = () => getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#2E5FA3';
+const hex2rgba = (h,a) => { h=h.replace('#',''); const n=parseInt(h.length===3?h.replace(/(.)/g,'$1$1'):h,16);
+  return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`; };
 
 // ── Tema claro / oscuro ───────────────────────────────────────────────────────
 function themeIsDark(){ return document.documentElement.getAttribute('data-theme')==='dark'; }
@@ -1007,7 +1030,7 @@ function renderEstDeptoBar(){
   const vals = MOD.map(m=>f[m]||0);
   mk('chartEstDeptoBar',{type:'bar',
     data:{labels:MOD,datasets:[{label:'Estudios',data:vals,
-      backgroundColor:'#2e5fa3',borderRadius:4}]},
+      backgroundColor:AC(),borderRadius:4}]},
     options:{plugins:{legend:{display:false}},
       scales:{y:{beginAtZero:true}}}});
 }
@@ -1134,10 +1157,10 @@ function renderInterpTabs(){
       const lbl = s==='acumulado'?'Acumulado (todas)':`Semana ${s}`;
       const act = s===INTERP_SEM;
       return `<button onclick="INTERP_SEM='${s}';renderInterpSection();"
-        style="padding:6px 14px;border:none;border-radius:20px;cursor:pointer;
+        style="padding:6px 14px;border:1px solid ${act?'transparent':'var(--glass-bd)'};border-radius:20px;cursor:pointer;
                font-size:12px;font-weight:600;
-               background:${act?'#2e5fa3':'#eef3fa'};
-               color:${act?'#fff':'#6a7d95'};">${lbl}</button>`;
+               background:${act?AC():'var(--fila)'};
+               color:${act?'#06222a':'var(--muted)'};">${lbl}</button>`;
     }).join('');
 }
 
@@ -1346,8 +1369,8 @@ function renderChkPatrones(){
     data:{labels,
       datasets:[
         {label:'% ≤ 4 días', data: serie.map(x=>x.pct_transc),
-         borderColor:'#2e5fa3', backgroundColor:'rgba(46,95,163,.12)',
-         fill:true, tension:.25, pointRadius:3,
+         borderColor:AC(), backgroundColor:hex2rgba(AC(),.14),
+         fill:true, tension:.4, pointRadius:3, borderWidth:2,
          pointBackgroundColor: serie.map(x=> x.pct_transc>=OBJ ? '#52a53f' : '#c0392b')},
         {label:`Objetivo ${OBJ}%`, data: serie.map(()=>OBJ),
          borderColor:'#c0392b', borderDash:[6,4], pointRadius:0, fill:false, borderWidth:1.5},
@@ -1535,9 +1558,8 @@ function render(){
 
 // ── Tema y exportación (siempre activos) ──────────────────────────────────────
 (function initChrome(){
-  let saved='light';
-  try{ saved = localStorage.getItem('dash-theme') ||
-       (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark':'light'); }catch(e){}
+  let saved='dark';
+  try{ saved = localStorage.getItem('dash-theme') || 'dark'; }catch(e){}
   setTheme(saved, false);
   const tb=document.getElementById('theme-toggle');
   if(tb) tb.onclick=()=> setTheme(themeIsDark()?'light':'dark', true);
