@@ -80,6 +80,24 @@ select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
 .tab.activa{color:var(--azul);border-bottom-color:var(--azul2);background:var(--card);}
 :root[data-theme="dark"] .tab.activa{color:#cfe0f5;}
 .tab .uswatch{width:9px;height:9px;border-radius:2px;display:inline-block;}
+
+/* ── Selector de unidad (desplegable) ── */
+.tabs-dropdown{position:relative;display:flex;
+      background:var(--card);border-bottom:2px solid var(--borde);
+      padding:8px 32px;}
+.tabs-dd-btn{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;
+      border:1px solid var(--borde);border-radius:8px;background:var(--card);
+      color:var(--texto);font-size:13px;font-weight:700;cursor:pointer;transition:all .14s;}
+.tabs-dd-btn:hover{background:var(--fila-hover);border-color:var(--azul2);}
+.tabs-dd-btn .caret{font-size:10px;color:var(--muted);margin-left:2px;}
+.tabs-dd-menu{position:absolute;top:calc(100% + 4px);left:32px;z-index:40;
+      background:var(--card);border:1px solid var(--glass-bd);border-radius:10px;
+      box-shadow:var(--card-shadow);padding:6px;min-width:230px;max-height:360px;
+      overflow-y:auto;display:none;flex-direction:column;gap:2px;}
+.tabs-dd-menu.open{display:flex;}
+.tabs-dd-menu .tab{width:100%;justify-content:flex-start;border-radius:6px;
+      border-bottom:none;margin-bottom:0;}
+.tabs-dd-menu .tab.activa{background:var(--fila-hover);border-bottom:none;}
 .punto{display:inline-block;width:8px;height:8px;border-radius:50%;
        margin-left:5px;vertical-align:middle;}
 
@@ -257,7 +275,10 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
   <select id="periodo"></select>
 </div>
 
-<div class="tabs" id="tabs"></div>
+<div class="tabs-dropdown" id="tabs">
+  <button class="tabs-dd-btn" id="tabs-dd-btn" type="button"></button>
+  <div class="tabs-dd-menu" id="tabs-dd-menu"></div>
+</div>
 
 <div class="wrap" id="vista-cumplimiento">
 
@@ -348,6 +369,17 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
       <div class="card">
         <h3>Tendencia del Indicador por Unidad (semanas)</h3>
         <canvas id="chartUniTrend" height="210"></canvas>
+      </div>
+    </div>
+
+    <div class="grid2" style="margin-bottom:8px;">
+      <!-- Cantidad de estudios por semana (General + unidades) -->
+      <div class="card" style="grid-column:span 2;">
+        <h3>Cantidad de Estudios por Semana</h3>
+        <canvas id="chartUniVolTrend" height="200"></canvas>
+        <p style="font-size:11px;color:var(--muted);margin-top:8px;">
+          Usa los chips de arriba para comparar unidades.
+        </p>
       </div>
     </div>
   </div>
@@ -887,7 +919,7 @@ function initComparativo(){
 
 function renderComparativo(){
   renderGauge(); renderUniBar(); renderUniBubble();
-  renderUniRadar(); renderUniPolar(); renderUniTrend();
+  renderUniRadar(); renderUniPolar(); renderUniTrend(); renderUniVolTrend();
 }
 
 function renderGauge(){
@@ -970,6 +1002,18 @@ function renderUniTrend(){
       scales:{y:{suggestedMin:60,max:100,ticks:{callback:v=>v+'%'}}}}});
 }
 
+function renderUniVolTrend(){
+  const sel = unidades().filter(u=>CMP_UNI.has(u));
+  mk('chartUniVolTrend',{type:'line',
+    data:{labels:SEMS.map(s=>'S'+s),datasets:sel.map(u=>({
+      label:unombre(u),
+      data:SEMS.map(w=>{const row=(D.por_semana[w]||[]).find(r=>r.Unidad===u);return row?row.estudios:null;}),
+      borderColor:ucol(u),backgroundColor:ucol(u)+'22',tension:.25,
+      pointRadius:2,spanGaps:true,borderWidth:u==='General'?3:2}))},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:12}}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'estudios'}}}}});
+}
+
 // Análisis del periodo/unidad activo
 function analisisActivo(){
   const p = document.getElementById('periodo').value;
@@ -1009,17 +1053,22 @@ function initControles(){
 
 function renderTabs(){
   const t = tablaActual();
-  document.getElementById('tabs').innerHTML = D.acumulado.map(r=>{
+  const opciones = D.acumulado.map(r=>{
     const nom = r.Unidad==='General'?'General':(D.sucursales[r.Unidad]||r.Unidad);
     const fp  = t.find(x=>x.Unidad===r.Unidad);
     const ind = fp ? fp.indicador : null;
     const p   = r.Unidad==='General' ? '' :
       `<span class="punto" style="background:${cpunto(ind)}"></span>`;
     const sw  = `<span class="uswatch" style="background:${ucol(r.Unidad)}"></span>`;
-    return `<button class="tab${r.Unidad===UNIDAD?' activa':''}" data-u="${r.Unidad}">${sw}${nom}${p}</button>`;
-  }).join('');
-  document.querySelectorAll('.tab').forEach(b=>{
-    b.onclick=()=>{ UNIDAD=b.dataset.u; render(); };
+    return {u:r.Unidad, nom, html:`${sw}${nom}${p}`};
+  });
+  const actual = opciones.find(o=>o.u===UNIDAD) || opciones[0];
+  document.getElementById('tabs-dd-btn').innerHTML = `${actual.html}<span class="caret">▾</span>`;
+  const menu = document.getElementById('tabs-dd-menu');
+  menu.innerHTML = opciones.map(o=>
+    `<button class="tab${o.u===UNIDAD?' activa':''}" data-u="${o.u}">${o.html}</button>`).join('');
+  menu.querySelectorAll('.tab').forEach(b=>{
+    b.onclick=()=>{ UNIDAD=b.dataset.u; menu.classList.remove('open'); render(); };
   });
 }
 
@@ -1882,6 +1931,9 @@ if(!D){
   // Navegación principal primero, para que funcione aunque una gráfica falle
   document.querySelectorAll('.mainnav-btn').forEach(b=>
     b.onclick = ()=> setVista(b.dataset.vista));
+  const ddBtn = document.getElementById('tabs-dd-btn'), ddMenu = document.getElementById('tabs-dd-menu');
+  ddBtn.onclick = e=>{ e.stopPropagation(); ddMenu.classList.toggle('open'); };
+  document.addEventListener('click', ()=> ddMenu.classList.remove('open'));
   initControles();
   initComparativo();
   render();
