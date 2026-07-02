@@ -18,6 +18,7 @@ import argparse
 import datetime
 import zipfile
 import xml.etree.ElementTree as ET
+from collections import Counter
 from pathlib import Path
 
 import xlrd
@@ -41,8 +42,8 @@ ORDEN_UNIDADES = ["General", "LM", "AC", "CH", "GP", "CM", "MP", "LA"]
 
 MODALIDADES = {
     "Cardiología":  {"depto": "Cardiología",               "lim_ag": 7, "lim_te": 7},
-    "Densitometría":{"depto": "Densitometría",             "lim_ag": 2, "lim_te": 2},
-    "Ecosonografía":{"depto": "Ecosonografía",             "lim_ag": 7, "lim_te": 2},
+    "Densitometría":{"depto": "Densitometría",             "lim_ag": 3, "lim_te": 2},
+    "Ecosonografía":{"depto": "Ecosonografía",             "lim_ag": 2, "lim_te": 2},
     "Mamografía":   {"depto": "Mamografía",                "lim_ag": 3, "lim_te": 3},
     "Radiología":   {"depto": "Radiología",                "lim_ag": 2, "lim_te": 2},
     "RM":           {"depto": "Resonancia Magnética",      "lim_ag": 5, "lim_te": 5},
@@ -51,11 +52,18 @@ MODALIDADES = {
 
 DEPTO_A_MOD = {v["depto"]: k for k, v in MODALIDADES.items()}
 
-RM_48H  = ["tórax a muslo", "bodyscan", "valoración funcional", "oncológica",
-           "funcional", "tractografía", "difusión", "perfusión"]
-RM_5H   = ["columna", "cervical", "dorsal", "lumbar", "hombro", "cadera",
-           "sacroilíaca", "tobillo", "codo", "rodilla"]
-RM_5H_EXCL = ["muñeca", "mano"]
+# ── Clasificación de estudios de RM en bloques de entrega (5h/24h/48h) ────────
+# Los estudios que no calzan en ninguna lista van al bloque 24h por defecto.
+# "Cartilograma" y "Mano/Muñeca" tienen prioridad sobre las palabras de
+# articulación (p. ej. "Rodilla con Cartilograma" es 24h, no 5h).
+RM_48H_KW = ["bodyscan", "body scan", "valoración oncológica", "valoracion oncologica",
+             "funcional", "tractografía", "tractografia"]
+RM_24H_OVERRIDE_KW = ["cartilograma", "mano y muñeca", "mano o muñeca", "muñeca", "muneca", "mano"]
+RM_5H_KW = ["cervical", "dorsal", "lumbar", "hombro", "cadera",
+            "sacroilíaca", "sacroiliaca", "tobillo", "codo", "rodilla"]
+
+# ── Estudio de Electrocardiograma: hora promesa según franja de Agenda ────────
+ESTUDIO_EKG = "Electrocardiograma"
 
 DATOS_DIR  = Path(__file__).parent / "datos"
 OUTPUT_DIR = Path(__file__).parent / "output"
@@ -94,13 +102,42 @@ def parse_af_hours(val):
 
 
 def classify_rm(estudio: str) -> str:
-    """Clasifica un estudio RM en '5h', '24h' o '48h'."""
+    """Clasifica un estudio RM en '5h', '24h' o '48h' (bloques de entrega 2026)."""
     s = estudio.lower()
-    if any(kw in s for kw in RM_48H):
+    if any(kw in s for kw in RM_48H_KW):
         return "48h"
-    if any(kw in s for kw in RM_5H) and not any(ex in s for ex in RM_5H_EXCL):
+    if any(kw in s for kw in RM_24H_OVERRIDE_KW):
+        return "24h"
+    if any(kw in s for kw in RM_5H_KW):
         return "5h"
     return "24h"
+
+
+def promesa_ekg(dt_agenda: datetime.datetime) -> datetime.datetime:
+    """
+    Hora promesa real de un Electrocardiograma según la franja de Fecha Agenda[B]:
+
+      L-V   07:00–09:00 → 13:00 mismo día        L-V 13:01–17:00 → 20:00 mismo día
+      L-V   09:01–13:00 → 16:00 mismo día        L-V 17:01+      → 13:00 día siguiente
+      Sáb   07:00–13:00 → 16:00 mismo día        Sáb 13:01+ / Domingo → lunes 19:00
+    """
+    d = dt_agenda.date()
+    wd = dt_agenda.weekday()          # 0=lunes … 5=sábado, 6=domingo
+    mins = dt_agenda.hour * 60 + dt_agenda.minute
+
+    if wd <= 4:                       # lunes a viernes
+        if mins <= 9 * 60:
+            return datetime.datetime.combine(d, datetime.time(13, 0))
+        if mins <= 13 * 60:
+            return datetime.datetime.combine(d, datetime.time(16, 0))
+        if mins <= 17 * 60:
+            return datetime.datetime.combine(d, datetime.time(20, 0))
+        return datetime.datetime.combine(d + datetime.timedelta(days=1), datetime.time(13, 0))
+    if wd == 5:                       # sábado
+        if mins <= 13 * 60:
+            return datetime.datetime.combine(d, datetime.time(16, 0))
+        return datetime.datetime.combine(d + datetime.timedelta(days=2), datetime.time(19, 0))
+    return datetime.datetime.combine(d + datetime.timedelta(days=1), datetime.time(19, 0))  # domingo
 
 
 def semana_de_archivo(path: Path) -> int | None:
@@ -538,8 +575,11 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
         ag = row[21]
         ag = float(ag) if ag else None
 
-        fecha_alta_raw   = row[19]
-        fecha_recibe_raw = row[39]
+        fecha_agenda_raw     = row[9]
+        fecha_alta_raw       = row[19]
+        fecha_transcrito_raw = row[24]
+        fecha_firma_raw      = row[29]
+        fecha_recibe_raw     = row[39]
         af_str = str(row[41]).strip() if row[41] else ""
 
         te = None
@@ -550,11 +590,13 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
         af_hours = parse_af_hours(af_str)
 
         fecha = None
+        mes = None
         hora_alta = None
         dia_semana = None
         if isinstance(fecha_alta_raw, float) and fecha_alta_raw:
             dt = xlrd.xldate_as_datetime(fecha_alta_raw, wb.datemode)
             fecha = dt.date()
+            mes = fecha.strftime("%Y-%m")
             hora_alta = dt.hour
             dia_semana = dt.weekday()   # 0=lunes … 6=domingo
 
@@ -564,6 +606,27 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
         if isinstance(fecha_recibe_raw, float) and fecha_recibe_raw:
             dt_e = xlrd.xldate_as_datetime(fecha_recibe_raw, wb.datemode)
             hora_entrega = dt_e.hour
+
+        # Electrocardiograma: la hora promesa real depende de la franja de
+        # Fecha Agenda[B], no de la Fecha Promesa[A] del sistema de origen.
+        if (estudio == ESTUDIO_EKG and depto == "Cardiología"
+                and isinstance(fecha_agenda_raw, float) and fecha_agenda_raw
+                and isinstance(fecha_recibe_raw, float) and fecha_recibe_raw):
+            dt_agenda   = xlrd.xldate_as_datetime(fecha_agenda_raw, wb.datemode)
+            dt_recibe   = xlrd.xldate_as_datetime(fecha_recibe_raw, wb.datemode)
+            dt_promesa  = promesa_ekg(dt_agenda)
+            af_hours    = (dt_promesa - dt_recibe).total_seconds() / 3600
+
+        # Tiempos de proceso Alta[G]→Transcrito[C]→Firmado[D]→Recibido[F],
+        # calculados de las fechas crudas (en horas). None si falta alguna fecha.
+        def _delta_horas(a, b):
+            if isinstance(a, float) and a and isinstance(b, float) and b:
+                return (b - a) * 24
+            return None
+
+        d_alta_transcrito    = _delta_horas(fecha_alta_raw, fecha_transcrito_raw)
+        d_transcrito_firmado = _delta_horas(fecha_transcrito_raw, fecha_firma_raw)
+        d_firmado_recibido   = _delta_horas(fecha_firma_raw, fecha_recibe_raw)
 
         # Tiempos de proceso adicionales (en horas si son float, else None)
         gc = float(row[28]) if row[28] and isinstance(row[28], (int, float)) else None
@@ -579,8 +642,12 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
             "te":              te,
             "gc":              gc,   # alta → transcripción
             "gf":              gf,   # alta → recibe entrega
+            "d_alta_transcrito":    d_alta_transcrito,
+            "d_transcrito_firmado": d_transcrito_firmado,
+            "d_firmado_recibido":   d_firmado_recibido,
             "usuario_recibe":  usuario_recibe,
             "fecha":           fecha,
+            "mes":             mes,
             "hora_alta":       hora_alta,
             "hora_entrega":    hora_entrega,
             "dia_semana":      dia_semana,
@@ -595,6 +662,16 @@ def leer_xls(filepath: Path, semana: int | None = None) -> list[dict]:
 def es_incumplimiento(af):
     """Incumplimiento real: -24 < af < 0."""
     return af is not None and -24 < af < 0
+
+
+def es_seguimiento_calidad(af):
+    """
+    Estudios con -24h o más de retraso (A-F ≤ -24h): posible error de captura o
+    caso atípico. No se cuentan como incumplimiento (siguen sumando al
+    cumplimiento del indicador 98%, igual que hoy) pero se listan aparte para
+    darles seguimiento de calidad, y se excluyen de los promedios de Tiempos.
+    """
+    return af is not None and af <= -24
 
 
 def calcular_metricas(rows: list[dict]) -> dict:
@@ -1453,6 +1530,64 @@ def _analisis_chequeos(registros: list[dict]) -> dict:
     }
 
 
+def _resumen_tiempos_proceso(rows):
+    """
+    Promedios de los 3 tiempos de proceso (Alta→Transcrito, Transcrito→Firmado,
+    Firmado→Recibido) excluyendo los estudios en seguimiento de calidad
+    (A-F ≤ -24h), que distorsionarían el promedio.
+    """
+    sub = [r for r in rows if not es_seguimiento_calidad(r["af"])]
+
+    def stats(key):
+        vals = [r[key] for r in sub if r.get(key) is not None]
+        return {"avg": round(sum(vals) / len(vals), 2) if vals else None, "n": len(vals)}
+
+    return {
+        "alta_transcrito":    stats("d_alta_transcrito"),
+        "transcrito_firmado": stats("d_transcrito_firmado"),
+        "firmado_recibido":   stats("d_firmado_recibido"),
+        "n_total": len(sub),
+    }
+
+
+def _analisis_tiempos_proceso(todas_las_filas, semanas_presentes):
+    """
+    Tiempos de proceso Alta→Transcrito→Firmado→Recibido, acumulado y
+    desglosado por semana / por mes, más la lista aparte de estudios en
+    seguimiento de calidad (excluidos del cálculo de promedios).
+    """
+    modal_rows = [r for r in todas_las_filas if r["depto"] in DEPTO_A_MOD]
+
+    por_semana = {str(s): _resumen_tiempos_proceso(
+                      [r for r in modal_rows if r.get("semana") == s])
+                  for s in sorted(semanas_presentes)}
+
+    meses = sorted({r["mes"] for r in modal_rows if r.get("mes")})
+    por_mes = {m: _resumen_tiempos_proceso([r for r in modal_rows if r.get("mes") == m])
+               for m in meses}
+
+    seguimiento = sorted(
+        ({"estudio":        r["estudio"],
+          "depto":          r["depto"],
+          "sucursal":       r["sucursal"],
+          "semana":         r.get("semana"),
+          "fecha":          r["fecha"],
+          "af":             round(r["af"], 1) if r["af"] is not None else None,
+          "usuario_recibe": r.get("usuario_recibe", "")}
+         for r in modal_rows if es_seguimiento_calidad(r["af"])),
+        key=lambda x: x["af"] if x["af"] is not None else 0,
+    )
+
+    return {
+        "acumulado":          _resumen_tiempos_proceso(modal_rows),
+        "por_semana":         por_semana,
+        "por_mes":            por_mes,
+        "lista_meses":        meses,
+        "seguimiento_calidad":   seguimiento,
+        "n_seguimiento_calidad": len(seguimiento),
+    }
+
+
 def _analisis_web(rows):
     """Calcula todos los análisis detallados para el dashboard web."""
     from collections import defaultdict, Counter
@@ -1488,6 +1623,11 @@ def _analisis_web(rows):
     top_estudios_incump = [{"estudio": e, "n": n}
                            for e, n in est_incump.most_common(10)]
 
+    # ── Top 5 estudios más solicitados (por volumen, no por incumplimiento) ──
+    est_volumen = Counter(r["estudio"] for r in rows if r["depto"] in DEPTOS_MODAL)
+    top_estudios_volumen = [{"estudio": e, "n": n}
+                            for e, n in est_volumen.most_common(5)]
+
     # ── Mapa de calor: depto × sucursal → %cumplimiento ─────────────────────
     SUCURSALES_ORD = list(SUCURSALES.keys())
     deptos_modal   = sorted(DEPTOS_MODAL)
@@ -1516,6 +1656,58 @@ def _analisis_web(rows):
             "gf_avg": round(avg(gf_vals), 2) if avg(gf_vals) else None,
             "n":      len(sub),
         }
+
+    # ── Horas A-G (promesa) vs Tiempo real (Alta[G] → Recibe Entregas[F]) ────
+    ag_vs_real = {}
+    for mod, cfg in MODALIDADES.items():
+        depto   = cfg["depto"]
+        sub     = [r for r in rows if r["depto"] == depto]
+        ag_vals = [r["ag"] for r in sub if r["ag"] is not None]
+        te_vals = [r["te"] for r in sub if r["te"] is not None and 0 <= r["te"] <= 24 * 30]
+        ag_vs_real[mod] = {
+            "ag_avg":   round(avg(ag_vals), 1) if ag_vals else None,
+            "real_avg": round(avg(te_vals), 1) if te_vals else None,
+            "n":        len(sub),
+        }
+
+    # ── Horas de Entrega: histograma de A-G por departamento ─────────────────
+    # Verde = dentro del límite de SLA (o cada hora individual para Cardiología,
+    # que no usa un límite fijo); Rosa = fuera de límite, una barra por hora.
+    # RM usa una agrupación especial. Se omiten los bins con conteo 0.
+    RM_RANGOS = [(16, 20), (21, 25), (26, 30), (31, 35), (36, 40), (41, 45), (46, 50)]
+    horas_entrega_bins = {}
+    for mod, cfg in MODALIDADES.items():
+        depto = cfg["depto"]
+        sub   = [r for r in rows if r["depto"] == depto and r["ag"] is not None and r["ag"] >= 0]
+        bins  = []
+        if mod == "Cardiología":
+            conteo = Counter(int(r["ag"]) for r in sub)
+            for h in sorted(conteo):
+                bins.append({"label": f"{h}h", "n": conteo[h], "color": "rosa"})
+        elif mod == "RM":
+            conteo = Counter(int(r["ag"]) for r in sub)
+            verdes = sum(n for h, n in conteo.items() if h <= 5)
+            if verdes:
+                bins.append({"label": "≤5h", "n": verdes, "color": "verde"})
+            for h in range(6, 16):
+                if conteo.get(h):
+                    bins.append({"label": f"{h}h", "n": conteo[h], "color": "rosa"})
+            for lo, hi in RM_RANGOS:
+                n = sum(v for h, v in conteo.items() if lo <= h <= hi)
+                if n:
+                    bins.append({"label": f"{lo}-{hi}", "n": n, "color": "rosa"})
+            n51 = sum(v for h, v in conteo.items() if h >= 51)
+            if n51:
+                bins.append({"label": "≥51", "n": n51, "color": "rosa"})
+        else:
+            lim = cfg["lim_ag"]
+            verdes = sum(1 for r in sub if r["ag"] <= lim)
+            if verdes:
+                bins.append({"label": f"{lim}h o menos", "n": verdes, "color": "verde"})
+            conteo_rosa = Counter(int(r["ag"]) for r in sub if r["ag"] > lim)
+            for h in sorted(conteo_rosa):
+                bins.append({"label": f"{h}h", "n": conteo_rosa[h], "color": "rosa"})
+        horas_entrega_bins[mod] = bins
 
     # ── Usuarios recibe entregas ──────────────────────────────────────────────
     usr_data = defaultdict(lambda: {"total": 0, "incump": 0, "deptos": Counter()})
@@ -1606,10 +1798,13 @@ def _analisis_web(rows):
     return {
         "incump_depto":        incump_depto,
         "top_estudios_incump": top_estudios_incump,
+        "top_estudios_volumen": top_estudios_volumen,
         "calor_deptos":        deptos_modal,
         "calor_sucursales":    SUCURSALES_ORD,
         "calor":               calor,
         "tiempos_modal":       tiempos_modal,
+        "ag_vs_real":          ag_vs_real,
+        "horas_entrega_bins":  horas_entrega_bins,
         "usuarios_recibe":     usuarios_recibe,
         "dist_af":             dist_af,
         "calor_hora":          calor_hora,
@@ -1750,6 +1945,14 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
 
     chequeos = _analisis_chequeos(leer_todos_chequeos())
     acciones = _generar_acciones(tabla_por_semana, analisis_sem, chequeos)
+    tiempos_proceso = _analisis_tiempos_proceso(todas_las_filas, semanas_presentes)
+
+    # Estudios por departamento y semana (para la tendencia de "Estudios"),
+    # independiente del selector de Período — cubre todas las semanas siempre.
+    depto_por_semana = {}
+    for sem in sorted(semanas_presentes):
+        sub = [r for r in todas_las_filas if r.get("semana") == sem and r["depto"] in DEPTO_A_MOD]
+        depto_por_semana[str(sem)] = dict(Counter(r["depto"] for r in sub))
 
     data = {
         "generado":        datetime.datetime.now().isoformat(),
@@ -1765,6 +1968,9 @@ def exportar_web(tabla_acum, tabla_por_semana, todas_las_filas,
         "interpretaciones": leer_todas_interpretaciones(),
         "chequeos":        chequeos,
         "acciones":        acciones,
+        "tiempos_proceso": tiempos_proceso,
+        "depto_por_semana": depto_por_semana,
+        "deptos_modal":    sorted(DEPTO_A_MOD.keys()),
     }
 
     DOCS_DIR = Path(__file__).parent / "docs"

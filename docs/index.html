@@ -59,11 +59,11 @@ header p{font-size:12px;opacity:.8;margin-top:2px;}
 select{padding:6px 10px;border:1px solid var(--borde);border-radius:6px;
        font-size:13px;background:var(--card);color:var(--texto);cursor:pointer;}
 
-/* ── Navegación principal (Dashboard / Chequeos) ── */
-.mainnav{display:flex;gap:6px;background:var(--nav-bg);padding:0 32px;
+/* ── Navegación principal ── */
+.mainnav{display:flex;gap:6px;background:var(--nav-bg);padding:0 32px;flex-wrap:wrap;
          border-bottom:1px solid var(--glass-bd);}
-.mainnav-btn{padding:12px 22px;border:none;background:transparent;cursor:pointer;
-     font-size:14px;font-weight:700;color:#cdd9ec;
+.mainnav-btn{padding:12px 18px;border:none;background:transparent;cursor:pointer;
+     font-size:13px;font-weight:700;color:#cdd9ec;white-space:nowrap;
      border-bottom:4px solid transparent;transition:all .14s;}
 .mainnav-btn:hover{color:#fff;background:rgba(255,255,255,.08);}
 .mainnav-btn.activa{color:#fff;border-bottom-color:#fff;}
@@ -227,6 +227,9 @@ tr:hover{background:var(--fila-hover);}
 .uchip.on{color:var(--texto);border-color:currentColor;}
 .uchip:hover{filter:brightness(1.05);}
 
+/* ── Nota de referencia cruzada entre pestañas ── */
+.nota-cruzada{font-size:11px;color:var(--muted);margin:-10px 0 18px;font-style:italic;}
+
 footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 
 /* ── Glows difusos (tema oscuro) ── */
@@ -242,7 +245,7 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 
 /* ── Impresión / PDF ── */
 @media print{
-  .mainnav,.controls,.tabs,.hgroup,#cmp-controls,.uchips{display:none !important;}
+  .mainnav,.controls,.tabs,.tabs-dropdown,.hgroup,#cmp-controls,.uchips{display:none !important;}
   body{background:#fff;}
   .card,.kpi{break-inside:avoid;box-shadow:none;border:1px solid #ddd;}
   .wrap{max-width:none;}
@@ -264,9 +267,13 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 </header>
 
 <div class="mainnav">
-  <button class="mainnav-btn activa" data-vista="cumplimiento">🎯 Cumplimiento</button>
-  <button class="mainnav-btn" data-vista="transcripcion">📝 Transcripción</button>
+  <button class="mainnav-btn activa" data-vista="indicador">🎯 Indicador 98%</button>
+  <button class="mainnav-btn" data-vista="incumplimiento">⚠️ Incumplimiento</button>
+  <button class="mainnav-btn" data-vista="estudios">🔬 Estudios</button>
+  <button class="mainnav-btn" data-vista="interpretaciones">🩻 Interpretaciones</button>
   <button class="mainnav-btn" data-vista="chequeos">📋 Chequeos</button>
+  <button class="mainnav-btn" data-vista="tiempos">⏱️ Tiempos</button>
+  <button class="mainnav-btn" data-vista="horas_entrega">🕐 Horas de Entrega</button>
   <button class="mainnav-btn" data-vista="acciones">🚀 Acciones</button>
 </div>
 
@@ -280,11 +287,11 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
   <div class="tabs-dd-menu" id="tabs-dd-menu"></div>
 </div>
 
-<div class="wrap" id="vista-cumplimiento">
+<!-- ══════════════════════════════════════════════════════
+     VISTA 1 · INDICADOR 98% (entrega de resultados)
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-indicador">
 
-  <!-- ══════════════════════════════════════════════════════
-       HÉROE · INDICADOR DE CUMPLIMIENTO (meta 98%)
-  ═══════════════════════════════════════════════════════ -->
   <div class="seccion">
     <div class="sec-titulo"><span>🎯</span> Indicador de Cumplimiento · Entrega de Resultados</div>
     <div class="grid-hero" style="margin-bottom:20px;">
@@ -298,15 +305,13 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
       </div>
       <div class="grid2b" id="cump-kpis"></div>
     </div>
+    <div class="grid2b" id="seg-calidad-indicador"></div>
   </div>
 
-  <!-- ══════════════════════════════════════════════════════
-       SECCIÓN 0 · COMPARATIVO ENTRE UNIDADES (acumulado / rango)
-  ═══════════════════════════════════════════════════════ -->
+  <!-- Comparativo entre unidades: rango + comparador -->
   <div class="seccion">
-    <div class="sec-titulo"><span>🏥</span> Comparativo entre Unidades</div>
+    <div class="sec-titulo"><span>🏥</span> Cumplimiento por Sucursal</div>
 
-    <!-- Controles: rango de semanas + comparador de unidades -->
     <div class="card" id="cmp-controls" style="margin-bottom:18px;display:flex;flex-wrap:wrap;
          gap:18px 28px;align-items:center;padding:14px 20px;">
       <div style="display:flex;align-items:center;gap:8px;">
@@ -324,7 +329,6 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
     </div>
 
     <div class="grid3" style="margin-bottom:20px;">
-      <!-- Gauge global -->
       <div class="card">
         <h3>Indicador Global vs Meta</h3>
         <div style="position:relative;">
@@ -333,66 +337,26 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
                font-size:30px;font-weight:900;"></div>
         </div>
       </div>
-      <!-- Barras por unidad -->
       <div class="card" style="grid-column:span 2;">
-        <h3>Indicador de Cumplimiento por Unidad (meta 98%)</h3>
+        <h3>Indicador de Cumplimiento por Unidad — Acumulado (meta 98%)</h3>
         <canvas id="chartUniBar" height="150"></canvas>
       </div>
     </div>
 
-    <div class="grid2" style="margin-bottom:20px;">
-      <!-- Burbujas volumen vs cumplimiento -->
-      <div class="card">
-        <h3>Volumen vs % Cumplimiento por Unidad</h3>
-        <canvas id="chartUniBubble" height="210"></canvas>
-        <p style="font-size:11px;color:var(--muted);margin-top:8px;">
-          Eje X = estudios · Eje Y = % cumplimiento · tamaño = volumen. Abajo-derecha (mucho volumen, bajo %) = prioridad.
-        </p>
-      </div>
-      <!-- Radar perfil por modalidad -->
-      <div class="card">
-        <h3>Perfil por Modalidad (% del volumen de cada unidad)</h3>
-        <canvas id="chartUniRadar" height="210"></canvas>
-        <p style="font-size:11px;color:var(--muted);margin-top:8px;">
-          Usa los chips de arriba para comparar unidades.
-        </p>
-      </div>
+    <div class="card" style="margin-bottom:20px;">
+      <h3>Tendencia del Indicador por Unidad — Semana con Semana</h3>
+      <canvas id="chartUniTrend" height="200"></canvas>
     </div>
 
-    <div class="grid2" style="margin-bottom:8px;">
-      <!-- Polar composición de modalidades -->
-      <div class="card">
-        <h3>Composición de Estudios por Modalidad</h3>
-        <canvas id="chartUniPolar" height="210"></canvas>
-      </div>
-      <!-- Tendencia del indicador por unidad -->
-      <div class="card">
-        <h3>Tendencia del Indicador por Unidad (semanas)</h3>
-        <canvas id="chartUniTrend" height="210"></canvas>
-      </div>
-    </div>
-
-    <div class="grid2" style="margin-bottom:8px;">
-      <!-- Cantidad de estudios por semana (General + unidades) -->
-      <div class="card" style="grid-column:span 2;">
-        <h3>Cantidad de Estudios por Semana</h3>
-        <canvas id="chartUniVolTrend" height="200"></canvas>
-        <p style="font-size:11px;color:var(--muted);margin-top:8px;">
-          Usa los chips de arriba para comparar unidades.
-        </p>
-      </div>
+    <div class="card">
+      <h3>Mapa de Calor — % Cumplimiento por Departamento × Sucursal</h3>
+      <div class="calor-wrap" id="mapaCalor"></div>
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════════════════
-       SECCIÓN 1 · INDICADOR E INCUMPLIMIENTO
-  ═══════════════════════════════════════════════════════ -->
   <div class="seccion">
-    <div class="sec-titulo"><span>📈</span> Indicador de Cumplimiento e Incumplimiento</div>
-
-    <div class="grid2" style="margin-bottom:20px;">
-
-      <!-- Anillo indicador -->
+    <div class="sec-titulo"><span>📈</span> Indicador de Cumplimiento (A-F)</div>
+    <div class="grid2">
       <div class="card" style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
         <div style="flex:0 0 180px;">
           <canvas id="chartAnillo" height="180" width="180"></canvas>
@@ -410,32 +374,61 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
           </div>
         </div>
       </div>
+      <div class="card">
+        <h3>¿Cómo se mide?</h3>
+        <p style="font-size:13px;line-height:1.6;color:var(--texto);">
+          Columna <b>A-F</b>: tiempo entre la Fecha Promesa y la entrega real. Un valor
+          <b>negativo</b> significa entrega tardía (incumplimiento).
+        </p>
+        <p style="font-size:13px;line-height:1.6;color:var(--texto);margin-top:8px;">
+          Los estudios con A-F ≤ <b>-24h</b> (un día o más de retraso) no se cuentan como
+          incumplimiento — se consideran posible <b>seguimiento de calidad</b> (anomalía de
+          captura o caso atípico) y se listan aparte en la pestaña ⏱️ Tiempos.
+        </p>
+      </div>
+    </div>
+  </div>
 
-      <!-- Distribución de retraso (A-F) -->
+</div><!-- /vista-indicador -->
+
+<!-- ══════════════════════════════════════════════════════
+     VISTA 2 · INCUMPLIMIENTO
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-incumplimiento" style="display:none;">
+
+  <div class="seccion">
+    <div class="sec-titulo"><span>🏥</span> Incumplimiento — Acumulado y por Unidad</div>
+    <p class="nota-cruzada">El rango de semanas se ajusta en la pestaña 🎯 Indicador 98%.</p>
+    <div class="card">
+      <h3>Volumen vs % Cumplimiento por Unidad</h3>
+      <canvas id="chartUniBubble" height="210"></canvas>
+      <p style="font-size:11px;color:var(--muted);margin-top:8px;">
+        Eje X = estudios · Eje Y = % cumplimiento · tamaño = volumen. Abajo-derecha (mucho volumen, bajo %) = prioridad.
+      </p>
+    </div>
+  </div>
+
+  <div class="seccion">
+    <div class="sec-titulo"><span>📈</span> Distribución y Departamentos</div>
+    <div class="grid2" style="margin-bottom:20px;">
       <div class="card">
         <h3>Distribución de Retrasos — Horas de incumplimiento (A-F)</h3>
         <canvas id="chartDistAF" height="170"></canvas>
         <p style="font-size:11px;color:#aab;margin-top:8px;">
-          Solo registros con −24h &lt; A-F &lt; 0. Los con A-F ≤ −24h se clasifican como cumplimiento (anomalía de sistema).
+          Solo registros con −24h &lt; A-F &lt; 0. Los con A-F ≤ −24h son seguimiento de calidad.
         </p>
       </div>
-    </div>
-
-    <div class="grid2" style="margin-bottom:20px;">
-      <!-- Incumplimiento por departamento -->
       <div class="card">
         <h3>Incumplimiento por Departamento</h3>
-        <canvas id="chartIncDepto" height="210"></canvas>
-      </div>
-
-      <!-- Top estudios con incumplimiento -->
-      <div class="card">
-        <h3>Estudios con más Incumplimientos</h3>
-        <canvas id="chartTopEstudios" height="210"></canvas>
+        <canvas id="chartIncDepto" height="170"></canvas>
       </div>
     </div>
 
-    <!-- Mapa de calor horario -->
+    <div class="card" style="margin-bottom:20px;">
+      <h3>Estudios con más Incumplimientos</h3>
+      <canvas id="chartTopEstudios" height="200"></canvas>
+    </div>
+
     <div class="card">
       <h3>Mapa de Calor Horario — Incumplimientos por hora y departamento (07:00 – 21:00)</h3>
       <div style="overflow-x:auto;margin-top:8px;" id="mapaCalorHora"></div>
@@ -445,14 +438,10 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════════════════
-       SECCIÓN 1B · ANÁLISIS DE INCUMPLIMIENTO
-  ═══════════════════════════════════════════════════════ -->
   <div class="seccion">
     <div class="sec-titulo"><span>⏰</span> ¿Cuándo y dónde se incumple?</div>
 
     <div class="grid-2-1" style="margin-bottom:20px;">
-      <!-- Incumplimiento por semana (prioridad alta → ancho) -->
       <div class="card">
         <h3>Incumplimiento por Semana</h3>
         <canvas id="chartIncSemana" height="150"></canvas>
@@ -460,15 +449,13 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
           Barras = incumplimientos · línea = % cumplimiento (meta 98%).
         </p>
       </div>
-      <!-- Incumplimiento por día de la semana -->
       <div class="card">
         <h3>Por Día de la Semana</h3>
         <canvas id="chartIncDow" height="150"></canvas>
       </div>
     </div>
 
-    <div class="grid-1-2" style="margin-bottom:20px;">
-      <!-- Tiempo tras Fecha Promesa -->
+    <div class="grid-1-2">
       <div class="card">
         <h3>Retraso tras Fecha Promesa (horas)</h3>
         <canvas id="chartRetraso" height="200"></canvas>
@@ -476,7 +463,6 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
           Horas con las que se entregaron los estudios tarde. Promedio: <b id="retraso-prom">–</b>.
         </p>
       </div>
-      <!-- Heatmap entrega tardía -->
       <div class="card">
         <h3>Mapa de Calor — Horario en que se Entregaron Tarde los Estudios</h3>
         <div style="overflow-x:auto;margin-top:8px;" id="mapaEntregaTarde"></div>
@@ -487,51 +473,134 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════════════════
-       SECCIÓN 2 · ESTUDIOS
-  ═══════════════════════════════════════════════════════ -->
+</div><!-- /vista-incumplimiento -->
+
+<!-- ══════════════════════════════════════════════════════
+     VISTA 3 · ESTUDIOS
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-estudios" style="display:none;">
+
+  <div class="seccion">
+    <div class="sec-titulo"><span>🏥</span> Estudios — Acumulado y por Unidad</div>
+    <p class="nota-cruzada">El rango de semanas y las unidades a comparar se ajustan en la pestaña 🎯 Indicador 98%.</p>
+    <div class="grid2" style="margin-bottom:20px;">
+      <div class="card">
+        <h3>Perfil por Modalidad (% del volumen de cada unidad)</h3>
+        <canvas id="chartUniRadar" height="210"></canvas>
+      </div>
+      <div class="card">
+        <h3>Composición de Estudios por Modalidad (General)</h3>
+        <canvas id="chartUniPolar" height="210"></canvas>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Cantidad de Estudios por Semana — General y por Unidad</h3>
+      <canvas id="chartUniVolTrend" height="200"></canvas>
+    </div>
+  </div>
+
   <div class="seccion">
     <div class="sec-titulo"><span>🔬</span> Estudios por Modalidad</div>
-
     <div class="grid4" style="margin-bottom:20px;" id="kpis-estudios"></div>
 
     <div class="grid2" style="margin-bottom:20px;">
-      <!-- Cantidad de estudios por departamento -->
       <div class="card">
         <h3>Cantidad de Estudios por Departamento (dentro de límite A-G)</h3>
         <canvas id="chartEstDeptoBar" height="190"></canvas>
       </div>
-
-      <!-- Tiempos de proceso -->
       <div class="card">
-        <h3>Tiempos de Proceso por Modalidad (horas promedio)</h3>
-        <canvas id="chartTiempos" height="190"></canvas>
+        <h3>Top 5 Estudios más Solicitados</h3>
+        <canvas id="chartTopVolumen" height="190"></canvas>
       </div>
     </div>
 
-    <!-- Mapa de calor -->
     <div class="card" style="margin-bottom:20px;">
-      <h3>Mapa de Calor — % Cumplimiento por Departamento × Sucursal</h3>
-      <div class="calor-wrap" id="mapaCalor"></div>
+      <h3>Tendencia Semanal de Estudios por Departamento</h3>
+      <canvas id="chartDeptoTrend" height="200"></canvas>
     </div>
 
-    <!-- Tabla detallada por modalidad -->
+    <div class="grid2" style="margin-bottom:20px;">
+      <div class="card">
+        <h3>Horas A-G (promesa) vs Tiempo Real (Alta → Recibe Entregas)</h3>
+        <canvas id="chartAgVsReal" height="200"></canvas>
+      </div>
+      <div class="card">
+        <h3>Tiempos de Proceso por Modalidad (horas promedio)</h3>
+        <canvas id="chartTiempos" height="200"></canvas>
+      </div>
+    </div>
+
     <div class="card">
       <h3>Detalle por Modalidad</h3>
       <div class="tabla-scroll"><table id="tablaModal"></table></div>
     </div>
   </div>
 
-</div><!-- /vista-cumplimiento -->
+  <div class="seccion">
+    <div class="sec-titulo"><span>👥</span> Usuario Recibe Entregas</div>
+    <div class="grid2">
+      <div class="card">
+        <h3>Total de Estudios Recibidos por Usuario</h3>
+        <div id="usrBarras" style="margin-top:8px;"></div>
+      </div>
+      <div class="card">
+        <h3>Distribución de Carga por Usuario</h3>
+        <canvas id="chartUsrDona" height="280"></canvas>
+      </div>
+    </div>
+    <div class="card" style="margin-top:20px;">
+      <h3>Detalle por Usuario</h3>
+      <div class="tabla-scroll"><table id="tablaUsuarios"></table></div>
+    </div>
+  </div>
+
+</div><!-- /vista-estudios -->
 
 <!-- ══════════════════════════════════════════════════════
-     VISTA · TRANSCRIPCIÓN (Usuarios + Interpretaciones + Chequeos por persona)
+     VISTA 4 · INTERPRETACIONES EXA / SIO
 ═══════════════════════════════════════════════════════ -->
-<div class="wrap" id="vista-transcripcion" style="display:none;">
+<div class="wrap" id="vista-interpretaciones" style="display:none;">
+  <div class="seccion">
+    <div class="sec-titulo"><span>🩻</span> Interpretaciones por Usuario</div>
 
-  <!-- ══════════════════════════════════════════════════════
-       CHEQUEOS POR TRANSCRIPTOR / INTERNISTA
-  ═══════════════════════════════════════════════════════ -->
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;
+                background:var(--card);border:1px solid var(--glass-bd);padding:12px 16px;border-radius:10px;
+                box-shadow:var(--card-shadow);">
+      <span style="font-weight:700;font-size:12px;color:var(--muted);text-transform:uppercase;">Semana:</span>
+      <div id="interp-tabs" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
+    </div>
+
+    <div class="grid2" style="margin-bottom:20px;">
+      <div class="card">
+        <h3 style="color:#1a6e38;">🔬 EXA — Interpretaciones por Radiólogo</h3>
+        <div id="exaBarras" style="margin-top:10px;"></div>
+        <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;">
+          <canvas id="chartExaDona" height="200"></canvas>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="color:#2e5fa3;">📋 SIO — Interpretaciones por Transcriptor</h3>
+        <div id="sioBarras" style="margin-top:10px;"></div>
+        <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;">
+          <canvas id="chartSioDona" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Comparativo de Interpretaciones — EXA vs SIO</h3>
+      <div class="grid2" style="gap:16px;">
+        <div id="exaTabla"></div>
+        <div id="sioTabla"></div>
+      </div>
+    </div>
+  </div>
+</div><!-- /vista-interpretaciones -->
+
+<!-- ══════════════════════════════════════════════════════
+     VISTA 5 · CHEQUEOS (Días por Proceso)
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-chequeos" style="display:none;">
   <div class="seccion">
     <div class="sec-titulo"><span>📝</span> Chequeos por Transcriptor e Internista</div>
     <div class="grid2" style="margin-bottom:8px;">
@@ -546,88 +615,10 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
     </div>
   </div>
 
-  <!-- ══════════════════════════════════════════════════════
-       SECCIÓN 3 · USUARIOS
-  ═══════════════════════════════════════════════════════ -->
-  <div class="seccion">
-    <div class="sec-titulo"><span>👥</span> Usuarios · Recepción de Entregas</div>
-
-    <div class="grid2">
-      <!-- Barras de usuarios -->
-      <div class="card">
-        <h3>Total de Estudios Recibidos por Usuario</h3>
-        <div id="usrBarras" style="margin-top:8px;"></div>
-      </div>
-
-      <!-- Gráfica de dona usuarios -->
-      <div class="card">
-        <h3>Distribución de Carga por Usuario</h3>
-        <canvas id="chartUsrDona" height="280"></canvas>
-      </div>
-    </div>
-
-    <!-- Tabla de usuarios -->
-    <div class="card" style="margin-top:20px;">
-      <h3>Detalle por Usuario</h3>
-      <div class="tabla-scroll"><table id="tablaUsuarios"></table></div>
-    </div>
-  </div>
-
-  <!-- ══════════════════════════════════════════════════════
-       SECCIÓN 4 · INTERPRETACIONES EXA / SIO
-  ═══════════════════════════════════════════════════════ -->
-  <div class="seccion">
-    <div class="sec-titulo"><span>🩻</span> Interpretaciones por Usuario</div>
-
-    <!-- Selector de semana propio para interpretaciones -->
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;
-                background:var(--card);border:1px solid var(--glass-bd);padding:12px 16px;border-radius:10px;
-                box-shadow:var(--card-shadow);">
-      <span style="font-weight:700;font-size:12px;color:var(--muted);text-transform:uppercase;">Semana:</span>
-      <div id="interp-tabs" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
-    </div>
-
-    <div class="grid2" style="margin-bottom:20px;">
-      <!-- EXA -->
-      <div class="card">
-        <h3 style="color:#1a6e38;">🔬 EXA — Interpretaciones por Radiólogo</h3>
-        <div id="exaBarras" style="margin-top:10px;"></div>
-        <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;">
-          <canvas id="chartExaDona" height="200"></canvas>
-        </div>
-      </div>
-
-      <!-- SIO -->
-      <div class="card">
-        <h3 style="color:#2e5fa3;">📋 SIO — Interpretaciones por Transcriptor</h3>
-        <div id="sioBarras" style="margin-top:10px;"></div>
-        <div style="margin-top:14px;border-top:1px solid var(--borde);padding-top:12px;">
-          <canvas id="chartSioDona" height="200"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <!-- Comparativo EXA vs SIO -->
-    <div class="card">
-      <h3>Comparativo de Interpretaciones — EXA vs SIO</h3>
-      <div class="grid2" style="gap:16px;">
-        <div id="exaTabla"></div>
-        <div id="sioTabla"></div>
-      </div>
-    </div>
-  </div>
-
-</div><!-- /vista-transcripcion -->
-
-<!-- ══════════════════════════════════════════════════════
-     VISTA · CHEQUEOS (Días por Proceso)
-═══════════════════════════════════════════════════════ -->
-<div class="wrap" id="vista-chequeos" style="display:none;">
-  <div class="seccion">
+  <div class="seccion" id="chk-seccion-principal">
     <div class="sec-titulo"><span>📋</span> Chequeos · Indicadores de Entrega y Transcripción</div>
     <p id="chk-subtitulo" style="font-size:12px;color:#6a7d95;margin:-6px 0 14px;"></p>
 
-    <!-- Selector de periodo (Acumulado / Semana / Mes) -->
     <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:18px;">
       <div class="tabs" style="padding:0;border:none;background:transparent;" id="chk-modo">
         <button class="tab activa" data-modo="acum">Acumulado</button>
@@ -638,11 +629,9 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
               border-radius:7px;font-size:13px;font-weight:600;color:var(--heading);background:var(--card);"></select>
     </div>
 
-    <!-- KPIs de cumplimiento (solicitados) -->
     <div class="grid4" id="chk-obj-kpis" style="margin-bottom:20px;"></div>
 
     <div class="grid2" style="margin-bottom:20px;">
-      <!-- Entregado vs Fecha entrega real -->
       <div class="card">
         <h3>Días de anticipación · Entregado vs Fecha entrega real</h3>
         <canvas id="chartChkEntregaReal" height="200"></canvas>
@@ -651,7 +640,6 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
           (positivo = a tiempo). Objetivo: <b>95%</b> en/antes de la fecha.
         </p>
       </div>
-      <!-- Realización → Terminado -->
       <div class="card">
         <h3>Días de transcripción · Realización → Terminado</h3>
         <canvas id="chartChkRealizTerm" height="200"></canvas>
@@ -664,12 +652,10 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
     </div>
 
     <div class="grid2" style="margin-bottom:24px;">
-      <!-- Cantidad por internista -->
       <div class="card">
         <h3>Cantidad por Médico Internista</h3>
         <canvas id="chartChkInternistas" height="200"></canvas>
       </div>
-      <!-- Cantidad por transcriptor -->
       <div class="card">
         <h3>Cantidad por Transcriptor</h3>
         <canvas id="chartChkTranscriptores" height="200"></canvas>
@@ -678,11 +664,9 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 
     <div class="sec-titulo" style="margin-top:8px;"><span>🔎</span> Patrones y Hallazgos para la toma de decisiones</div>
 
-    <!-- Hallazgos automáticos -->
     <div id="chk-hallazgos" style="margin-bottom:20px;"></div>
 
     <div class="grid2" style="margin-bottom:20px;">
-      <!-- Tendencia temporal -->
       <div class="card">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
           <h3 style="margin:0;">Tendencia · % Transcrito en ≤ 4 días</h3>
@@ -697,7 +681,6 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
         </p>
       </div>
 
-      <!-- Volumen por día de la semana -->
       <div class="card">
         <h3>Volumen de estudios por día de la semana</h3>
         <canvas id="chartChkDow" height="200"></canvas>
@@ -707,7 +690,6 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
       </div>
     </div>
 
-    <!-- Desempeño por transcriptor -->
     <div class="card" style="margin-bottom:24px;">
       <h3>Desempeño por Transcriptor · % en ≤ 4 días (cumplimiento de transcripción)</h3>
       <div id="chkTranscPerf" style="margin-top:10px;"></div>
@@ -715,11 +697,9 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 
     <div class="sec-titulo" style="margin-top:8px;"><span>⏱️</span> Días por Proceso (Transcripción → Entrega)</div>
 
-    <!-- KPIs -->
     <div class="grid4" id="chk-kpis" style="margin-bottom:20px;"></div>
 
     <div class="grid2" style="margin-bottom:20px;">
-      <!-- Días promedio por proceso -->
       <div class="card">
         <h3>Días Promedio por Proceso</h3>
         <canvas id="chartChkProcesos" height="200"></canvas>
@@ -727,8 +707,6 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
           Promedio de días entre cada etapa. El total Realización → Entregado es el indicador principal.
         </p>
       </div>
-
-      <!-- Distribución del total -->
       <div class="card">
         <h3>Distribución — Días Realización → Entregado</h3>
         <canvas id="chartChkDist" height="200"></canvas>
@@ -740,13 +718,11 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
       </div>
     </div>
 
-    <!-- Por transcriptor -->
     <div class="card" style="margin-bottom:20px;">
       <h3>Días Promedio por Transcriptor (Realización → Entregado)</h3>
       <div id="chkTranscriptores" style="margin-top:10px;"></div>
     </div>
 
-    <!-- Detalle -->
     <div class="card">
       <h3>Detalle de Registros</h3>
       <div class="tabla-scroll"><table id="tablaChequeos"></table></div>
@@ -755,17 +731,101 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 </div><!-- /vista-chequeos -->
 
 <!-- ══════════════════════════════════════════════════════
-     VISTA · ACCIONES (decisiones, avisos, patrones)
+     VISTA 6 · TIEMPOS (Alta → Transcrito → Firmado → Recibido)
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-tiempos" style="display:none;">
+  <div class="seccion">
+    <div class="sec-titulo"><span>⏱️</span> Tiempos de Proceso</div>
+    <p style="font-size:12px;color:var(--muted);margin:-10px 0 18px;">
+      Alta → Transcrito → Firmado → Recibido en Entregas. Los estudios en
+      <b>seguimiento de calidad</b> (A-F ≤ -24h) se excluyen de estos promedios y
+      se listan aparte más abajo.
+    </p>
+    <div class="grid4" id="tiempos-kpis" style="margin-bottom:20px;"></div>
+
+    <div class="card" style="margin-bottom:20px;">
+      <h3>Promedio por Semana (horas)</h3>
+      <canvas id="chartTiemposSemana" height="200"></canvas>
+    </div>
+
+    <div class="card" style="margin-bottom:20px;">
+      <h3>Promedio por Mes (horas)</h3>
+      <canvas id="chartTiemposMes" height="200"></canvas>
+    </div>
+
+    <div class="card">
+      <h3>Seguimiento de Calidad — Estudios con A-F ≤ -24h (<span id="seg-calidad-count">0</span>)</h3>
+      <p style="font-size:11px;color:var(--muted);margin:6px 0 10px;">
+        Cuentan como cumplimiento en el indicador 98% pero requieren revisión: posible error
+        de captura o caso atípico.
+      </p>
+      <div class="tabla-scroll"><table id="tablaSeguimientoCalidad"></table></div>
+    </div>
+  </div>
+</div><!-- /vista-tiempos -->
+
+<!-- ══════════════════════════════════════════════════════
+     VISTA 7 · HORAS DE ENTREGA (histograma A-G por departamento)
+═══════════════════════════════════════════════════════ -->
+<div class="wrap" id="vista-horas_entrega" style="display:none;">
+  <div class="seccion">
+    <div class="sec-titulo"><span>🕐</span> Horas de Entrega — Horas A-G por Departamento</div>
+    <p style="font-size:12px;color:var(--muted);margin:-10px 0 18px;">
+      Verde = dentro del límite de SLA del departamento · Rosa = fuera de límite, una barra por hora.
+    </p>
+
+    <div class="grid3" style="margin-bottom:20px;">
+      <div class="card" style="grid-column:span 3;">
+        <h3>Cardiología (sin agrupación — cada hora individual)</h3>
+        <canvas id="chartHorasCard" height="110"></canvas>
+      </div>
+    </div>
+
+    <div class="grid3" style="margin-bottom:20px;">
+      <div class="card" style="grid-column:span 3;">
+        <h3>Resonancia Magnética (agrupación especial)</h3>
+        <canvas id="chartHorasRM" height="110"></canvas>
+      </div>
+    </div>
+
+    <div class="grid3" style="margin-bottom:20px;">
+      <div class="card">
+        <h3>Densitometría</h3>
+        <canvas id="chartHorasDens" height="220"></canvas>
+      </div>
+      <div class="card">
+        <h3>Ecosonografía</h3>
+        <canvas id="chartHorasEco" height="220"></canvas>
+      </div>
+      <div class="card">
+        <h3>Mamografía</h3>
+        <canvas id="chartHorasMamo" height="220"></canvas>
+      </div>
+    </div>
+
+    <div class="grid3">
+      <div class="card">
+        <h3>Radiología</h3>
+        <canvas id="chartHorasRad" height="220"></canvas>
+      </div>
+      <div class="card">
+        <h3>Tomografía Axial Computada</h3>
+        <canvas id="chartHorasTomo" height="220"></canvas>
+      </div>
+    </div>
+  </div>
+</div><!-- /vista-horas_entrega -->
+
+<!-- ══════════════════════════════════════════════════════
+     VISTA 8 · ACCIONES (decisiones, avisos, patrones)
 ═══════════════════════════════════════════════════════ -->
 <div class="wrap" id="vista-acciones" style="display:none;">
   <div class="seccion">
     <div class="sec-titulo"><span>🚀</span> Acciones · Qué hacer para cumplir los indicadores</div>
 
-    <!-- Avisos prioritarios -->
     <div id="acc-avisos" style="margin-bottom:20px;"></div>
 
     <div class="grid-2-1" style="margin-bottom:20px;">
-      <!-- Semáforo semana a semana (combo) -->
       <div class="card">
         <h3>Indicadores Semana a Semana</h3>
         <canvas id="chartAccTrend" height="160"></canvas>
@@ -773,18 +833,15 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
           Cumplimiento (A-F), transcripción ≤4 días y entrega ≥1 día antes. Líneas punteadas = objetivos.
         </p>
       </div>
-      <!-- Radar de objetivos (estado actual) -->
       <div class="card">
         <h3>Estado vs Objetivos</h3>
         <canvas id="chartAccRadar" height="160"></canvas>
       </div>
     </div>
 
-    <!-- Patrones (hallazgos) -->
     <div class="sec-titulo" style="margin-top:8px;"><span>🔎</span> Patrones detectados</div>
     <div id="acc-hallazgos" style="margin-bottom:20px;"></div>
 
-    <!-- Tabla de acciones semana a semana -->
     <div class="card">
       <h3>Plan Semana a Semana</h3>
       <div class="tabla-scroll"><table id="tablaAcciones"></table></div>
@@ -798,6 +855,8 @@ footer{text-align:center;padding:20px;color:var(--muted);font-size:11px;}
 <script>
 const D = window.DASHBOARD_DATA;
 const MOD = ["Cardiología","Densitometría","Ecosonografía","Mamografía","Radiología","RM","Tomografía"];
+const MOD_ID = {"Cardiología":"Card","Densitometría":"Dens","Ecosonografía":"Eco",
+                "Mamografía":"Mamo","Radiología":"Rad","RM":"RM","Tomografía":"Tomo"};
 const CHARTS = {};
 let UNIDAD = 'General';
 
@@ -883,10 +942,6 @@ function unidadesAgg(){
     return acc;
   });
 }
-function rangoTexto(){
-  const w = semsEnRango();
-  return w ? `Semanas ${w[0]}–${w[w.length-1]}` : 'Acumulado (todas las semanas)';
-}
 
 function renderCmpChips(){
   const cont = document.getElementById('cmp-chips');
@@ -898,7 +953,7 @@ function renderCmpChips(){
   cont.querySelectorAll('.uchip').forEach(c=> c.onclick=()=>{
     const u=c.dataset.u;
     if(CMP_UNI.has(u)) CMP_UNI.delete(u); else CMP_UNI.add(u);
-    renderCmpChips(); renderComparativo();
+    renderCmpChips(); render();
   });
 }
 
@@ -910,16 +965,11 @@ function initComparativo(){
   const opts = SEMS.map(s=>`<option value="${s}">Sem ${s}</option>`).join('');
   ds.innerHTML=opts; hs.innerHTML=opts;
   ds.value=SEMS[0]; hs.value=SEMS[SEMS.length-1];
-  ds.onchange = hs.onchange = ()=>{ CMP_DESDE=ds.value; CMP_HASTA=hs.value; renderComparativo(); };
+  ds.onchange = hs.onchange = ()=>{ CMP_DESDE=ds.value; CMP_HASTA=hs.value; render(); };
   document.getElementById('cmp-reset').onclick = ()=>{
-    CMP_DESDE=CMP_HASTA=null; ds.value=SEMS[0]; hs.value=SEMS[SEMS.length-1]; renderComparativo();
+    CMP_DESDE=CMP_HASTA=null; ds.value=SEMS[0]; hs.value=SEMS[SEMS.length-1]; render();
   };
   renderCmpChips();
-}
-
-function renderComparativo(){
-  renderGauge(); renderUniBar(); renderUniBubble();
-  renderUniRadar(); renderUniPolar(); renderUniTrend(); renderUniVolTrend();
 }
 
 function renderGauge(){
@@ -1031,10 +1081,6 @@ function filaUnidad(){
   return t.find(r=>r.Unidad===UNIDAD) || t[0];
 }
 
-// Filtrar análisis por unidad (para incump_depto y tiempos el análisis ya
-// viene global; para usuarios se filtra aquí si tuviéramos datos por unidad)
-// En esta versión los análisis detallados son globales del periodo.
-
 // ── Init ─────────────────────────────────────────────────────────────────────
 function initControles(){
   const per = document.getElementById('periodo');
@@ -1072,7 +1118,7 @@ function renderTabs(){
   });
 }
 
-// ── Sección 1: Indicador ─────────────────────────────────────────────────────
+// ── Indicador (donut + seguimiento de calidad) ───────────────────────────────
 function renderIndicador(){
   const f   = filaUnidad();
   const ind = f.indicador;
@@ -1080,7 +1126,6 @@ function renderIndicador(){
   const tot = f.estudios;
   const cls = ind!=null ? ci(ind) : '';
 
-  // KPIs
   const kInd = document.getElementById('kpi-ind');
   kInd.className = 'kpi '+cls;
   document.getElementById('val-ind').textContent = ind!=null ? ind.toFixed(1)+'%' : '–';
@@ -1088,7 +1133,6 @@ function renderIndicador(){
   document.getElementById('sub-inc').textContent =
     tot ? `de ${tot.toLocaleString()} estudios catalogados (${((inc/tot)*100).toFixed(1)}%)` : '';
 
-  // Anillo
   const cumpl = tot - inc;
   mk('chartAnillo',{type:'doughnut',
     data:{labels:['Cumplimiento','Incumplimiento'],
@@ -1099,10 +1143,45 @@ function renderIndicador(){
       tooltip:{callbacks:{label:c=>c.label+': '+c.raw.toLocaleString()}}}}});
 }
 
+function renderSeguimientoCalidadKpi(){
+  const seg = (D.tiempos_proceso && D.tiempos_proceso.seguimiento_calidad) || [];
+  const p = document.getElementById('periodo').value;
+  const activos = p==='acumulado' ? seg : seg.filter(s=>String(s.semana)===p);
+  document.getElementById('seg-calidad-indicador').innerHTML =
+    `<div class="kpi amari" style="grid-column:1 / -1;">
+       <div class="klabel">Seguimiento de Calidad</div>
+       <div class="kval">${activos.length}</div>
+       <div class="ksub">Estudios con A-F ≤ -24h · cuentan como cumplimiento · detalle en pestaña ⏱️ Tiempos</div>
+     </div>`;
+}
+
+function renderMapaCalor(){
+  const a   = analisisActivo();
+  const dep = a.calor_deptos  || [];
+  const suc = a.calor_sucursales || [];
+  const cal = a.calor || {};
+
+  const nomSuc = cod=> D.sucursales[cod]||cod;
+  const nomDep = d=> d.replace('Tomografía Axial Computada','TAC').replace('Resonancia Magnética','RM');
+
+  let html = '<table class="calor-tabla"><thead><tr><th>Departamento</th>'
+    + suc.map(c=>`<th>${c}<br><small>${nomSuc(c).split(' ')[0]}</small></th>`).join('')
+    + '</tr></thead><tbody>';
+  dep.forEach(d=>{
+    html += `<tr><td class="etq">${nomDep(d)}</td>`;
+    suc.forEach(c=>{
+      const v = cal[d]?.[c];
+      const bg = cCalor(v);
+      html += `<td style="background:${bg};color:#fff;">${v!=null?v.toFixed(1)+'%':'–'}</td>`;
+    });
+    html += '</tr>';
+  });
+  document.getElementById('mapaCalor').innerHTML = html + '</tbody></table>';
+}
+
 function renderDistAF(){
   const a = analisisActivo();
   const dist = a.dist_af || [];
-  // solo mostrar horas con datos
   const labels = dist.map(d=>`-${d.hora}h`);
   const data   = dist.map(d=>d.n);
   mk('chartDistAF',{type:'bar',
@@ -1123,7 +1202,6 @@ function renderIncDepto(){
   mk('chartIncDepto',{type:'bar',
     data:{labels,
       datasets:[
-        // order:1 → se renderiza encima de las barras (order más bajo = encima)
         {label:'% Cumplimiento',data:items.map(x=>x.pct_cumpl),
          type:'line',order:1,
          borderColor:'#2e5fa3',backgroundColor:'#2e5fa340',
@@ -1145,7 +1223,6 @@ function renderIncDepto(){
 function renderTopEstudios(){
   const a = analisisActivo();
   const items = (a.top_estudios_incump||[]).slice(0,10);
-  // Nombres cortos
   const labels = items.map(x=>x.estudio.length>38?x.estudio.slice(0,38)+'…':x.estudio);
   mk('chartTopEstudios',{type:'bar',
     data:{labels,
@@ -1163,7 +1240,6 @@ function renderMapaCalorHora(){
   const deps = a.calor_hora_deptos || [];
   const hs   = (a.calor_horas || []).filter(h=>h>=7 && h<=21);
 
-  // Máximo global para escalar colores
   const maxVal = Math.max(1, ...Object.values(tot).map(Number));
 
   function bgHora(v){
@@ -1183,7 +1259,6 @@ function renderMapaCalorHora(){
     + hs.map(h=>`<th>${h}:00</th>`).join('')
     + '<th>Total</th></tr></thead><tbody>';
 
-  // Fila por departamento
   deps.forEach(d=>{
     const short = d.replace('Tomografía Axial Computada','TAC')
                    .replace('Resonancia Magnética','RM')
@@ -1197,7 +1272,6 @@ function renderMapaCalorHora(){
     html += `<td style="background:#1f3864;color:#fff;font-weight:800;">${rowTot}</td></tr>`;
   });
 
-  // Fila total
   const totalGlobal = hs.reduce((s,h)=>s+(tot[h]||0),0);
   html += '<tr class="total-row"><td class="etq" style="background:#1f3864;color:#fff;">TOTAL</td>';
   hs.forEach(h=>{
@@ -1209,7 +1283,67 @@ function renderMapaCalorHora(){
   document.getElementById('mapaCalorHora').innerHTML = html + '</tbody></table>';
 }
 
-// ── Sección 2: Estudios ───────────────────────────────────────────────────────
+function renderIncSemana(){
+  const sems = D.semanas;
+  const g = s => (D.por_semana[s]||[]).find(r=>r.Unidad==='General');
+  const inc = sems.map(s=>{const x=g(s);return x?x.incumplimiento:0;});
+  const ind = sems.map(s=>{const x=g(s);return x?x.indicador:null;});
+  mk('chartIncSemana',{type:'bar',
+    data:{labels:sems.map(s=>'S'+s),datasets:[
+      {label:'Incumplimientos',data:inc,backgroundColor:hex2rgba('#7048d6',.72),borderRadius:5,yAxisID:'y'},
+      {type:'line',label:'% Cumplimiento',data:ind,borderColor:AC(),backgroundColor:hex2rgba(AC(),.14),
+       tension:.4,pointRadius:3,yAxisID:'y2',borderWidth:2,fill:true}
+    ]},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:10}}},
+      scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'incumpl.'}},
+              y2:{position:'right',min:80,max:100,grid:{drawOnChartArea:false},ticks:{callback:v=>v+'%'}}}}});
+}
+
+function renderIncDow(){
+  const dow = analisisActivo().incump_dow||[];
+  mk('chartIncDow',{type:'bar',
+    data:{labels:dow.map(x=>x.dia),datasets:[{label:'Incumplimientos',data:dow.map(x=>x.incump),
+      backgroundColor:dow.map((x,i)=>hex2rgba(AZULMORADO[i%AZULMORADO.length],.82)),borderRadius:5}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false},
+      tooltip:{callbacks:{afterLabel:c=>{const x=dow[c.dataIndex];return `${x.pct_cumpl}% cumpl. · ${x.total} estudios`;}}}},
+      scales:{x:{beginAtZero:true,ticks:{precision:0}}}}});
+}
+
+function renderRetraso(){
+  const a=analisisActivo(); const d=a.dist_retraso||[];
+  const rp=document.getElementById('retraso-prom'); if(rp) rp.textContent = a.retraso_prom!=null? a.retraso_prom+' h':'–';
+  mk('chartRetraso',{type:'bar',
+    data:{labels:d.map(x=>x.horas+'h'),datasets:[{data:d.map(x=>x.n),
+      backgroundColor:hex2rgba('#9d4edd',.8),borderRadius:5}]},
+    options:{plugins:{legend:{display:false}},
+      scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}});
+}
+
+function renderMapaEntregaTarde(){
+  const a=analisisActivo();
+  const hora=a.calor_entrega||{}, tot=a.calor_entrega_total||{},
+        deps=a.calor_hora_deptos||[], hs=(a.calor_horas||[]).filter(h=>h>=7&&h<=21);
+  const maxVal=Math.max(1,...Object.values(tot).map(Number));
+  const bg=v=>{ if(!v)return 'transparent'; const p=v/maxVal;
+    return p>=.8?'#4a148c':p>=.6?'#6a1b9a':p>=.4?'#7b3fd6':p>=.2?'#9d4edd':'rgba(157,78,221,.4)';};
+  const tc=v=> v && v/maxVal>=.2?'#fff':'var(--muted)';
+  const short=d=>d.replace('Tomografía Axial Computada','TAC').replace('Resonancia Magnética','RM').replace('Ecosonografía','Ecosono.');
+  let html='<table class="calor-hora-tabla"><thead><tr><th class="depto-th">Departamento</th>'
+    +hs.map(h=>`<th>${h}:00</th>`).join('')+'<th>Total</th></tr></thead><tbody>';
+  deps.forEach(d=>{ const rowTot=hs.reduce((s,h)=>s+(hora[d]?.[h]||0),0); if(!rowTot)return;
+    html+=`<tr><td class="etq">${short(d)}</td>`;
+    hs.forEach(h=>{const v=hora[d]?.[h]||0; html+=`<td style="background:${bg(v)};color:${tc(v)};">${v||'–'}</td>`;});
+    html+=`<td style="background:var(--accent);color:#06222a;font-weight:800;">${rowTot}</td></tr>`;});
+  const totG=hs.reduce((s,h)=>s+(tot[h]||0),0);
+  html+='<tr class="total-row"><td class="etq">TOTAL</td>';
+  hs.forEach(h=>{const v=tot[h]||0; html+=`<td style="background:${bg(v)};color:${tc(v)};">${v||'–'}</td>`;});
+  html+=`<td style="background:var(--accent);color:#06222a;font-weight:800;">${totG}</td></tr>`;
+  const cont=document.getElementById('mapaEntregaTarde');
+  cont.innerHTML = totG ? html+'</tbody></table>'
+    : '<p style="color:var(--muted);padding:20px;">Sin entregas tardías con hora registrada en este periodo.</p>';
+}
+
+// ── Estudios ──────────────────────────────────────────────────────────────────
 function renderKpisEstudios(){
   const f = filaUnidad();
   const items = MOD.map(m=>({mod:m, n:f[m]||0, te:f['TE_'+m]}));
@@ -1231,6 +1365,43 @@ function renderEstDeptoBar(){
       scales:{y:{beginAtZero:true}}}});
 }
 
+function renderTopVolumen(){
+  const a = analisisActivo();
+  const items = (a.top_estudios_volumen||[]);
+  const labels = items.map(x=>x.estudio.length>38?x.estudio.slice(0,38)+'…':x.estudio);
+  mk('chartTopVolumen',{type:'bar',
+    data:{labels, datasets:[{label:'Estudios',data:items.map(x=>x.n),
+      backgroundColor:AC(),borderRadius:3}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false}},
+      scales:{x:{beginAtZero:true}}}});
+}
+
+function renderDeptoTrend(){
+  const dxs = D.depto_por_semana||{};
+  const deptos = D.deptos_modal||[];
+  const PAL = ['#2E5FA3','#52A53F','#D4920A','#8E44AD','#E84393','#16A085','#C0392B'];
+  mk('chartDeptoTrend',{type:'line',
+    data:{labels:SEMS.map(s=>'S'+s), datasets:deptos.map((d,i)=>({
+      label:d.replace('Tomografía Axial Computada','TAC').replace('Resonancia Magnética','RM'),
+      data:SEMS.map(s=>(dxs[s]||{})[d]||0),
+      borderColor:PAL[i%PAL.length],backgroundColor:PAL[i%PAL.length]+'22',
+      tension:.3,pointRadius:2,borderWidth:2}))},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:10},boxWidth:10}}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'estudios'}}}}});
+}
+
+function renderAgVsReal(){
+  const a = analisisActivo();
+  const av = a.ag_vs_real||{};
+  mk('chartAgVsReal',{type:'bar',
+    data:{labels:MOD,datasets:[
+      {label:'A-G (promesa)',data:MOD.map(m=>av[m]?.ag_avg??null),backgroundColor:'#d4920a',borderRadius:3},
+      {label:'Tiempo real (G→F)',data:MOD.map(m=>av[m]?.real_avg??null),backgroundColor:'#2e5fa3',borderRadius:3}
+    ]},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11}}}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'horas promedio'}}}}});
+}
+
 function renderTiempos(){
   const a = analisisActivo();
   const tm = a.tiempos_modal || {};
@@ -1243,31 +1414,6 @@ function renderTiempos(){
     ]},
     options:{plugins:{legend:{position:'bottom',labels:{font:{size:11}}}},
       scales:{y:{beginAtZero:true,title:{display:true,text:'Horas promedio'}}}}});
-}
-
-function renderMapaCalor(){
-  const a   = analisisActivo();
-  const dep = a.calor_deptos  || [];
-  const suc = a.calor_sucursales || [];
-  const cal = a.calor || {};
-
-  const nomSuc = cod=> D.sucursales[cod]||cod;
-  const nomDep = d=> d.replace('Tomografía Axial Computada','TAC').replace('Resonancia Magnética','RM');
-
-  let html = '<table class="calor-tabla"><thead><tr><th>Departamento</th>'
-    + suc.map(c=>`<th>${c}<br><small>${nomSuc(c).split(' ')[0]}</small></th>`).join('')
-    + '</tr></thead><tbody>';
-  dep.forEach(d=>{
-    html += `<tr><td class="etq">${nomDep(d)}</td>`;
-    suc.forEach(c=>{
-      const v = cal[d]?.[c];
-      const bg = cCalor(v);
-      const tc = (v!=null && v<90) ? '#fff' : '#fff';
-      html += `<td style="background:${bg};color:#fff;">${v!=null?v.toFixed(1)+'%':'–'}</td>`;
-    });
-    html += '</tr>';
-  });
-  document.getElementById('mapaCalor').innerHTML = html + '</tbody></table>';
 }
 
 function renderTablaModal(){
@@ -1288,13 +1434,11 @@ function renderTablaModal(){
   document.getElementById('tablaModal').innerHTML = html+'</tbody>';
 }
 
-// ── Sección 3: Usuarios ───────────────────────────────────────────────────────
 function renderUsuarios(){
   const a = analisisActivo();
   const usrs = (a.usuarios_recibe||[]);
   const max  = usrs[0]?.total || 1;
 
-  // Barras manuales
   document.getElementById('usrBarras').innerHTML = usrs.map(u=>{
     const w = Math.round(u.total/max*100);
     const cls = ci(u.pct_cumpl);
@@ -1306,7 +1450,6 @@ function renderUsuarios(){
     </div>`;
   }).join('');
 
-  // Dona top 10
   const top = usrs.slice(0,10);
   const PALETA = ['#1f3864','#2e5fa3','#4472c4','#5b9bd5','#70b0e0',
                   '#52a53f','#a3c96b','#d4920a','#e87722','#c0392b'];
@@ -1315,7 +1458,6 @@ function renderUsuarios(){
       datasets:[{data:top.map(u=>u.total),backgroundColor:PALETA,borderWidth:1}]},
     options:{plugins:{legend:{position:'right',labels:{font:{size:11},boxWidth:12}}}}});
 
-  // Tabla
   let html = '<thead><tr><th>Usuario</th><th>Total</th><th>Incumpl.</th><th>% Cumpl.</th><th>Top departamentos</th></tr></thead><tbody>';
   usrs.forEach((u,i)=>{
     const cls = ci(u.pct_cumpl);
@@ -1331,7 +1473,7 @@ function renderUsuarios(){
   document.getElementById('tablaUsuarios').innerHTML = html+'</tbody>';
 }
 
-// ── Sección 4: Interpretaciones ──────────────────────────────────────────────
+// ── Interpretaciones ──────────────────────────────────────────────────────────
 let INTERP_SEM = 'acumulado';
 
 const PALETA_EXA = ['#1a6e38','#2d9e56','#52a53f','#80c46a','#a3c96b',
@@ -1432,6 +1574,18 @@ function renderInterpSection(){
   tablaInterp(sio, 'sioTabla', '#2e5fa3');
 }
 
+// ── Chequeos por persona (Transcriptor / Internista) ──────────────────────────
+function renderChkPersonas(){
+  const R=D.chequeos&&D.chequeos.resumen; if(!R) return;
+  const tr=R.transcriptores_cnt||[], it=R.internistas||[];
+  mk('chartTrChk',{type:'bar',data:{labels:tr.map(x=>x.nombre),datasets:[{data:tr.map(x=>x.n),
+    backgroundColor:tr.map((x,i)=>hex2rgba(AZULMORADO[i%AZULMORADO.length],.82)),borderRadius:5}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0}}}}});
+  mk('chartIntChk',{type:'bar',data:{labels:it.map(x=>x.nombre),datasets:[{data:it.map(x=>x.n),
+    backgroundColor:it.map((x,i)=>hex2rgba(AZULMORADO[(i+3)%AZULMORADO.length],.82)),borderRadius:5}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0}}}}});
+}
+
 // ── Vista Chequeos ────────────────────────────────────────────────────────────
 function cChk(d, lv, la){
   if(d==null)  return '#cfd6e0';
@@ -1440,7 +1594,6 @@ function cChk(d, lv, la){
   return '#c0392b';
 }
 
-// ── Indicadores de cumplimiento (Entrega real / Transcripción / Conteos) ──────
 let CHK_MODO = 'acum';
 
 function chkBundleActivo(){
@@ -1461,7 +1614,6 @@ function renderChkObjetivos(){
   if(!b) return;
   const ER = b.entrega_real, RT = b.realiz_term_obj;
 
-  // KPIs · los 2 indicadores principales (objetivo 95%)
   const clsObj = (v,obj) => v==null ? '' : (v>=obj ? 'verde' : 'rojo');
   const kpis = [
     {lab:'① Transcrito ≤ 4 días', val: RT.pct_ok!=null? RT.pct_ok+'%':'–',
@@ -1476,7 +1628,6 @@ function renderChkObjetivos(){
     `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div>`
     + `<div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
 
-  // Histograma: días de anticipación (Entregado vs Fecha real)
   mk('chartChkEntregaReal', {
     type:'bar',
     data:{labels: ER.dist.map(x=> x.dias>0? '+'+x.dias+'d' : x.dias+'d'),
@@ -1488,7 +1639,6 @@ function renderChkObjetivos(){
       scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
   });
 
-  // Histograma: días Realización → Terminado
   mk('chartChkRealizTerm', {
     type:'bar',
     data:{labels: RT.dist.map(x=>x.dias+'d'),
@@ -1498,7 +1648,6 @@ function renderChkObjetivos(){
       scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
   });
 
-  // Cantidad por internista
   mk('chartChkInternistas', {
     type:'bar',
     data:{labels: b.internistas.map(x=>x.nombre),
@@ -1509,7 +1658,6 @@ function renderChkObjetivos(){
       scales:{x:{beginAtZero:true,ticks:{precision:0}}}}
   });
 
-  // Cantidad por transcriptor
   mk('chartChkTranscriptores', {
     type:'bar',
     data:{labels: b.transcriptores_cnt.map(x=>x.nombre),
@@ -1543,7 +1691,6 @@ function initChkSelector(){
   sel.onchange = renderChkObjetivos;
 }
 
-// ── Patrones / Hallazgos ──────────────────────────────────────────────────────
 let CHK_TEND = 'semana';
 
 function renderChkPatrones(){
@@ -1551,13 +1698,11 @@ function renderChkPatrones(){
   if(!P) return;
   const OBJ = D.chequeos.obj_realiz_term || 98;
 
-  // Hallazgos
   const ICO = {bad:'🔴', warn:'🟡', good:'🟢', info:'🔵'};
   document.getElementById('chk-hallazgos').innerHTML = P.hallazgos.map(h=>
     `<div class="hallazgo ${h.tipo}"><span class="ico">${ICO[h.tipo]||'•'}</span><div>${h.txt}</div></div>`
   ).join('') || '<p style="color:#aab;">Sin hallazgos.</p>';
 
-  // Tendencia (línea) — semana o mes
   const serie = CHK_TEND === 'mes' ? P.tendencia_mes : P.tendencia_semana;
   const labels = serie.map(x=> CHK_TEND==='mes' ? x.periodo : 'S'+x.periodo);
   mk('chartChkTendencia', {
@@ -1578,7 +1723,6 @@ function renderChkPatrones(){
       scales:{y:{beginAtZero:true,max:100,title:{display:true,text:'% cumplimiento'}}}}
   });
 
-  // Volumen por día de la semana
   mk('chartChkDow', {
     type:'bar',
     data:{labels: P.por_dia.map(x=>x.dia),
@@ -1588,7 +1732,6 @@ function renderChkPatrones(){
       scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
   });
 
-  // Desempeño por transcriptor (barras horizontales con % cumplimiento)
   const perf = P.transc_perf.filter(t=>t.n>=10);
   document.getElementById('chkTranscPerf').innerHTML = perf.map(t=>{
     const v = t.pct_ok!=null ? t.pct_ok : 0;
@@ -1614,10 +1757,11 @@ function initChkTendToggle(){
 }
 
 function renderChequeos(){
+  renderChkPersonas();
   const C = D.chequeos;
-  const cont = document.querySelector('#vista-chequeos .seccion');
+  const cont = document.getElementById('chk-seccion-principal');
   if(!C || !C.total){
-    cont.innerHTML = '<p style="padding:40px;text-align:center;color:#aab;">'
+    if(cont) cont.innerHTML = '<p style="padding:40px;text-align:center;color:#aab;">'
       + 'No hay datos de chequeos. Coloca archivos .ods en <code>datos/chequeos/</code>.</p>';
     return;
   }
@@ -1629,7 +1773,6 @@ function renderChequeos(){
   document.getElementById('chk-lim-v').textContent = C.lim_verde;
   document.getElementById('chk-lim-a').textContent = C.lim_amarillo;
 
-  // KPIs
   const tot = P.realiz_entregado;
   const kpis = [
     {lab:'Realización → Entregado', val: tot.avg!=null? tot.avg+' días':'–',
@@ -1644,15 +1787,12 @@ function renderChequeos(){
     `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div>`
     + `<div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
 
-  // Indicadores de cumplimiento solicitados (entrega real / transcripción / conteos)
   initChkSelector();
   renderChkObjetivos();
 
-  // Patrones y hallazgos para la toma de decisiones
   initChkTendToggle();
   renderChkPatrones();
 
-  // Gráfica: días por proceso
   mk('chartChkProcesos', {
     type:'bar',
     data:{labels:['R→Semáforo','R→Terminado','Term→Entreg.','R→Entregado'],
@@ -1663,7 +1803,6 @@ function renderChequeos(){
       scales:{y:{beginAtZero:true,title:{display:true,text:'días'}}}}
   });
 
-  // Gráfica: distribución del total
   const dist = C.distribucion;
   mk('chartChkDist', {
     type:'bar',
@@ -1674,7 +1813,6 @@ function renderChequeos(){
       scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}
   });
 
-  // Barras por transcriptor
   const maxAvg = Math.max(...C.transcriptores.map(t=>t.avg||0), 1);
   document.getElementById('chkTranscriptores').innerHTML = C.transcriptores.map(t=>{
     const w = t.avg!=null ? (t.avg/maxAvg*100) : 0;
@@ -1687,7 +1825,6 @@ function renderChequeos(){
     </div>`;
   }).join('');
 
-  // Tabla de detalle
   const f = v => v==null ? '–' : v;
   let html = `<thead><tr>
     <th>Sem</th><th>Realización</th><th>Semáforo</th><th>Terminado</th><th>Entregado</th>
@@ -1714,161 +1851,78 @@ function renderChequeos(){
   document.getElementById('tablaChequeos').innerHTML = html + '</tbody>';
 }
 
-// ── Cambio de vista principal (Dashboard / Chequeos) ──────────────────────────
-let VISTA = 'cumplimiento';
-const RENDERED = {};
-const VISTAS = ['cumplimiento','transcripcion','chequeos','acciones'];
-
-function setVista(v){
-  VISTA = v;
-  VISTAS.forEach(x=> document.getElementById('vista-'+x).style.display = x===v ? '' : 'none');
-  // Controles de unidad/periodo solo en Cumplimiento
-  const cump = v==='cumplimiento';
-  document.getElementById('controls').style.display = cump ? '' : 'none';
-  document.getElementById('tabs').style.display     = cump ? '' : 'none';
-  document.querySelectorAll('.mainnav-btn').forEach(b=>
-    b.classList.toggle('activa', b.dataset.vista===v));
-  renderVista(v);
-}
-
-function renderVista(v){
-  if(v==='cumplimiento'){ render(); return; }
-  if(v==='transcripcion'){ renderTranscripcion(); return; }
-  if(v==='chequeos'){ if(!RENDERED.chequeos){ renderChequeos(); RENDERED.chequeos=true; } return; }
-  if(v==='acciones'){ renderAcciones(); return; }
-}
-
-function reRenderTodo(){ renderVista(VISTA); }
-
-// ── Render Cumplimiento ───────────────────────────────────────────────────────
-function render(){
-  const t = tablaActual();
-  if(!t.find(r=>r.Unidad===UNIDAD)) UNIDAD='General';
-  renderTabs();
-  renderCumpHero();
-  // S0 · Comparativo entre unidades
-  renderComparativo();
-  // S1
-  renderIndicador();
-  renderDistAF();
-  renderIncDepto();
-  renderTopEstudios();
-  renderMapaCalorHora();
-  // S1B · incumplimiento (cuándo/dónde)
-  renderIncSemana();
-  renderIncDow();
-  renderRetraso();
-  renderMapaEntregaTarde();
-  // S2
-  renderKpisEstudios();
-  renderEstDeptoBar();
-  renderTiempos();
-  renderMapaCalor();
-  renderTablaModal();
-}
-
-// ── Render Transcripción ──────────────────────────────────────────────────────
-function renderTranscripcion(){
-  renderChkPersonas();
-  renderUsuarios();
-  renderInterpSection();
-}
-
-// ── Cumplimiento: héroe + incumplimiento (cuándo/dónde) ───────────────────────
-function renderCumpHero(){
-  const f = filaUnidad();
-  const ind=f.indicador, inc=f.incumplimiento, tot=f.estudios;
-  const col = ind==null?'#888':(ind>=META_AF?'#52a53f':ind>=95?'#d4920a':'#c0392b');
-  const v = ind==null?0:ind;
-  mk('chartCumpGauge',{type:'doughnut',
-    data:{datasets:[{data:[v,Math.max(0,100-v)],
-      backgroundColor:[col, themeIsDark()?'rgba(255,255,255,.07)':'#e7ecf3'],
-      borderWidth:0,circumference:180,rotation:270}]},
-    options:{cutout:'74%',plugins:{legend:{display:false},tooltip:{enabled:false}}}});
-  const el=document.getElementById('cump-gauge-val');
-  el.textContent= ind==null?'–':ind.toFixed(1)+'%'; el.style.color=col;
-  const a = analisisActivo();
-  const cumple = ind!=null && ind>=META_AF;
-  const kpis=[
-    {lab:'Estudios catalogados', val:(tot||0).toLocaleString(), sub:'dentro de límite A-G', cls:''},
-    {lab:'Incumplimientos', val:inc??'–', sub: tot? ((inc/tot)*100).toFixed(1)+'% del total':'', cls:'rojo'},
-    {lab:'Retraso promedio', val: a.retraso_prom!=null? a.retraso_prom+' h':'–', sub:'tras la hora promesa', cls:'amari'},
-    {lab:'Meta '+META_AF+'%', val: cumple?'✓':'✗', sub: cumple?'cumple objetivo':'por debajo', cls: cumple?'verde':'rojo'},
+// ── Vista Tiempos (Alta → Transcrito → Firmado → Recibido) ────────────────────
+function renderTiemposVista(){
+  const TP = D.tiempos_proceso;
+  if(!TP) return;
+  const ac = TP.acumulado;
+  const kpis = [
+    {lab:'Alta → Transcrito', val: ac.alta_transcrito.avg!=null? fh(ac.alta_transcrito.avg)+' h':'–',
+     sub:`promedio · n=${ac.alta_transcrito.n}`, cls:''},
+    {lab:'Transcrito → Firmado', val: ac.transcrito_firmado.avg!=null? fh(ac.transcrito_firmado.avg)+' h':'–',
+     sub:`promedio · n=${ac.transcrito_firmado.n}`, cls:''},
+    {lab:'Firmado → Recibido', val: ac.firmado_recibido.avg!=null? fh(ac.firmado_recibido.avg)+' h':'–',
+     sub:`promedio · n=${ac.firmado_recibido.n}`, cls:''},
+    {lab:'Seguimiento de calidad', val: TP.n_seguimiento_calidad,
+     sub:'estudios con A-F ≤ -24h (excluidos del promedio)', cls:'amari'},
   ];
-  document.getElementById('cump-kpis').innerHTML = kpis.map(k=>
+  document.getElementById('tiempos-kpis').innerHTML = kpis.map(k=>
     `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div><div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
-}
 
-function renderIncSemana(){
-  const sems = D.semanas;
-  const g = s => (D.por_semana[s]||[]).find(r=>r.Unidad==='General');
-  const inc = sems.map(s=>{const x=g(s);return x?x.incumplimiento:0;});
-  const ind = sems.map(s=>{const x=g(s);return x?x.indicador:null;});
-  mk('chartIncSemana',{type:'bar',
-    data:{labels:sems.map(s=>'S'+s),datasets:[
-      {label:'Incumplimientos',data:inc,backgroundColor:hex2rgba('#7048d6',.72),borderRadius:5,yAxisID:'y'},
-      {type:'line',label:'% Cumplimiento',data:ind,borderColor:AC(),backgroundColor:hex2rgba(AC(),.14),
-       tension:.4,pointRadius:3,yAxisID:'y2',borderWidth:2,fill:true}
+  const semanas = Object.keys(TP.por_semana).sort((a,b)=>+a-+b);
+  const dsSemana = clave => semanas.map(s=>TP.por_semana[s][clave].avg);
+  mk('chartTiemposSemana',{type:'line',
+    data:{labels:semanas.map(s=>'S'+s), datasets:[
+      {label:'Alta → Transcrito', data:dsSemana('alta_transcrito'), borderColor:'#5b9bd5',
+       backgroundColor:'#5b9bd522', tension:.3, pointRadius:3, borderWidth:2, spanGaps:true},
+      {label:'Transcrito → Firmado', data:dsSemana('transcrito_firmado'), borderColor:'#9d4edd',
+       backgroundColor:'#9d4edd22', tension:.3, pointRadius:3, borderWidth:2, spanGaps:true},
+      {label:'Firmado → Recibido', data:dsSemana('firmado_recibido'), borderColor:'#52a53f',
+       backgroundColor:'#52a53f22', tension:.3, pointRadius:3, borderWidth:2, spanGaps:true},
     ]},
-    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:10}}},
-      scales:{y:{beginAtZero:true,position:'left',title:{display:true,text:'incumpl.'}},
-              y2:{position:'right',min:80,max:100,grid:{drawOnChartArea:false},ticks:{callback:v=>v+'%'}}}}});
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:12}}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'horas promedio'}}}}});
+
+  const meses = TP.lista_meses||[];
+  const dsMes = clave => meses.map(m=>TP.por_mes[m][clave].avg);
+  mk('chartTiemposMes',{type:'line',
+    data:{labels:meses, datasets:[
+      {label:'Alta → Transcrito', data:dsMes('alta_transcrito'), borderColor:'#5b9bd5',
+       backgroundColor:'#5b9bd522', tension:.3, pointRadius:3, borderWidth:2, spanGaps:true},
+      {label:'Transcrito → Firmado', data:dsMes('transcrito_firmado'), borderColor:'#9d4edd',
+       backgroundColor:'#9d4edd22', tension:.3, pointRadius:3, borderWidth:2, spanGaps:true},
+      {label:'Firmado → Recibido', data:dsMes('firmado_recibido'), borderColor:'#52a53f',
+       backgroundColor:'#52a53f22', tension:.3, pointRadius:3, borderWidth:2, spanGaps:true},
+    ]},
+    options:{plugins:{legend:{position:'bottom',labels:{font:{size:11},boxWidth:12}}},
+      scales:{y:{beginAtZero:true,title:{display:true,text:'horas promedio'}}}}});
+
+  const seg = TP.seguimiento_calidad||[];
+  document.getElementById('seg-calidad-count').textContent = seg.length;
+  let html = '<thead><tr><th>Estudio</th><th>Depto</th><th>Sucursal</th><th>Semana</th>'
+    + '<th>Fecha</th><th>A-F</th><th>Usuario Recibe</th></tr></thead><tbody>';
+  seg.forEach(s=>{
+    html += `<tr><td>${s.estudio}</td><td>${s.depto}</td><td>${s.sucursal}</td>
+      <td>${s.semana??''}</td><td>${s.fecha??''}</td>
+      <td style="color:#c0392b;font-weight:700;">${fh(s.af)}</td><td>${s.usuario_recibe||''}</td></tr>`;
+  });
+  document.getElementById('tablaSeguimientoCalidad').innerHTML = html + '</tbody>';
 }
 
-function renderIncDow(){
-  const dow = analisisActivo().incump_dow||[];
-  mk('chartIncDow',{type:'bar',
-    data:{labels:dow.map(x=>x.dia),datasets:[{label:'Incumplimientos',data:dow.map(x=>x.incump),
-      backgroundColor:dow.map((x,i)=>hex2rgba(AZULMORADO[i%AZULMORADO.length],.82)),borderRadius:5}]},
-    options:{indexAxis:'y',plugins:{legend:{display:false},
-      tooltip:{callbacks:{afterLabel:c=>{const x=dow[c.dataIndex];return `${x.pct_cumpl}% cumpl. · ${x.total} estudios`;}}}},
-      scales:{x:{beginAtZero:true,ticks:{precision:0}}}}});
-}
-
-function renderRetraso(){
-  const a=analisisActivo(); const d=a.dist_retraso||[];
-  const rp=document.getElementById('retraso-prom'); if(rp) rp.textContent = a.retraso_prom!=null? a.retraso_prom+' h':'–';
-  mk('chartRetraso',{type:'bar',
-    data:{labels:d.map(x=>x.horas+'h'),datasets:[{data:d.map(x=>x.n),
-      backgroundColor:hex2rgba('#9d4edd',.8),borderRadius:5}]},
-    options:{plugins:{legend:{display:false}},
-      scales:{y:{beginAtZero:true,ticks:{precision:0},title:{display:true,text:'estudios'}}}}});
-}
-
-function renderMapaEntregaTarde(){
-  const a=analisisActivo();
-  const hora=a.calor_entrega||{}, tot=a.calor_entrega_total||{},
-        deps=a.calor_hora_deptos||[], hs=(a.calor_horas||[]).filter(h=>h>=7&&h<=21);
-  const maxVal=Math.max(1,...Object.values(tot).map(Number));
-  const bg=v=>{ if(!v)return 'transparent'; const p=v/maxVal;
-    return p>=.8?'#4a148c':p>=.6?'#6a1b9a':p>=.4?'#7b3fd6':p>=.2?'#9d4edd':'rgba(157,78,221,.4)';};
-  const tc=v=> v && v/maxVal>=.2?'#fff':'var(--muted)';
-  const short=d=>d.replace('Tomografía Axial Computada','TAC').replace('Resonancia Magnética','RM').replace('Ecosonografía','Ecosono.');
-  let html='<table class="calor-hora-tabla"><thead><tr><th class="depto-th">Departamento</th>'
-    +hs.map(h=>`<th>${h}:00</th>`).join('')+'<th>Total</th></tr></thead><tbody>';
-  deps.forEach(d=>{ const rowTot=hs.reduce((s,h)=>s+(hora[d]?.[h]||0),0); if(!rowTot)return;
-    html+=`<tr><td class="etq">${short(d)}</td>`;
-    hs.forEach(h=>{const v=hora[d]?.[h]||0; html+=`<td style="background:${bg(v)};color:${tc(v)};">${v||'–'}</td>`;});
-    html+=`<td style="background:var(--accent);color:#06222a;font-weight:800;">${rowTot}</td></tr>`;});
-  const totG=hs.reduce((s,h)=>s+(tot[h]||0),0);
-  html+='<tr class="total-row"><td class="etq">TOTAL</td>';
-  hs.forEach(h=>{const v=tot[h]||0; html+=`<td style="background:${bg(v)};color:${tc(v)};">${v||'–'}</td>`;});
-  html+=`<td style="background:var(--accent);color:#06222a;font-weight:800;">${totG}</td></tr>`;
-  const cont=document.getElementById('mapaEntregaTarde');
-  cont.innerHTML = totG ? html+'</tbody></table>'
-    : '<p style="color:var(--muted);padding:20px;">Sin entregas tardías con hora registrada en este periodo.</p>';
-}
-
-// ── Transcripción: chequeos por persona ───────────────────────────────────────
-function renderChkPersonas(){
-  const R=D.chequeos&&D.chequeos.resumen; if(!R) return;
-  const tr=R.transcriptores_cnt||[], it=R.internistas||[];
-  mk('chartTrChk',{type:'bar',data:{labels:tr.map(x=>x.nombre),datasets:[{data:tr.map(x=>x.n),
-    backgroundColor:tr.map((x,i)=>hex2rgba(AZULMORADO[i%AZULMORADO.length],.82)),borderRadius:5}]},
-    options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0}}}}});
-  mk('chartIntChk',{type:'bar',data:{labels:it.map(x=>x.nombre),datasets:[{data:it.map(x=>x.n),
-    backgroundColor:it.map((x,i)=>hex2rgba(AZULMORADO[(i+3)%AZULMORADO.length],.82)),borderRadius:5}]},
-    options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0}}}}});
+// ── Vista Horas de Entrega (histograma A-G por departamento) ──────────────────
+function renderHorasEntregaVista(){
+  const a = analisisActivo();
+  const bins = a.horas_entrega_bins || {};
+  MOD.forEach(m=>{
+    const arr = bins[m] || [];
+    mk('chartHoras'+MOD_ID[m], {
+      type:'bar',
+      data:{labels:arr.map(b=>b.label), datasets:[{data:arr.map(b=>b.n),
+        backgroundColor:arr.map(b=>b.color==='verde'?'#52a53f':'#e85d9c'), borderRadius:3}]},
+      options:{plugins:{legend:{display:false},
+          tooltip:{callbacks:{label:c=>`${c.raw} estudios`}}},
+        scales:{x:{ticks:{font:{size:9}}},y:{beginAtZero:true,ticks:{precision:0}}}}});
+  });
 }
 
 // ── Acciones ──────────────────────────────────────────────────────────────────
@@ -1912,6 +1966,105 @@ function renderAcciones(){
     html+=`<tr><td>${w.semana}</td>${cell(w.af_ind,A.obj_af)}${cell(w.chk_transc,A.obj_transc)}${cell(w.chk_1dia,A.obj_1dia)}<td style="text-align:left;">${acc}</td></tr>`;
   });
   document.getElementById('tablaAcciones').innerHTML=html+'</tbody>';
+}
+
+// ── Cambio de vista principal ──────────────────────────────────────────────────
+let VISTA = 'indicador';
+const RENDERED = {};
+const VISTAS = ['indicador','incumplimiento','estudios','interpretaciones','chequeos','tiempos','horas_entrega','acciones'];
+const VISTAS_CON_PERIODO = ['indicador','incumplimiento','estudios','horas_entrega'];
+
+function setVista(v){
+  VISTA = v;
+  VISTAS.forEach(x=> document.getElementById('vista-'+x).style.display = x===v ? '' : 'none');
+  const conPeriodo = VISTAS_CON_PERIODO.includes(v);
+  document.getElementById('controls').style.display = conPeriodo ? '' : 'none';
+  document.getElementById('tabs').style.display     = conPeriodo ? '' : 'none';
+  document.querySelectorAll('.mainnav-btn').forEach(b=>
+    b.classList.toggle('activa', b.dataset.vista===v));
+  renderVista(v);
+}
+
+function renderVista(v){
+  if(v==='indicador' || v==='incumplimiento' || v==='estudios'){ render(); return; }
+  if(v==='interpretaciones'){ renderInterpSection(); return; }
+  if(v==='chequeos'){ if(!RENDERED.chequeos){ renderChequeos(); RENDERED.chequeos=true; } return; }
+  if(v==='tiempos'){ renderTiemposVista(); return; }
+  if(v==='horas_entrega'){ renderHorasEntregaVista(); return; }
+  if(v==='acciones'){ renderAcciones(); return; }
+}
+
+function reRenderTodo(){ renderVista(VISTA); }
+
+// ── Render (Indicador / Incumplimiento / Estudios comparten Unidad + Periodo) ─
+function render(){
+  const t = tablaActual();
+  if(!t.find(r=>r.Unidad===UNIDAD)) UNIDAD='General';
+  renderTabs();
+  if(VISTA==='incumplimiento'){ renderIncumplimientoVista(); return; }
+  if(VISTA==='estudios'){ renderEstudiosVista(); return; }
+  renderIndicadorVista();
+}
+
+function renderIndicadorVista(){
+  renderCumpHero();
+  renderGauge();
+  renderUniBar();
+  renderUniTrend();
+  renderMapaCalor();
+  renderIndicador();
+  renderSeguimientoCalidadKpi();
+}
+
+function renderIncumplimientoVista(){
+  renderUniBubble();
+  renderDistAF();
+  renderIncDepto();
+  renderTopEstudios();
+  renderMapaCalorHora();
+  renderIncSemana();
+  renderIncDow();
+  renderRetraso();
+  renderMapaEntregaTarde();
+}
+
+function renderEstudiosVista(){
+  renderUniRadar();
+  renderUniPolar();
+  renderUniVolTrend();
+  renderKpisEstudios();
+  renderEstDeptoBar();
+  renderTopVolumen();
+  renderDeptoTrend();
+  renderAgVsReal();
+  renderTiempos();
+  renderTablaModal();
+  renderUsuarios();
+}
+
+// ── Héroe (indicador global + KPIs) ────────────────────────────────────────────
+function renderCumpHero(){
+  const f = filaUnidad();
+  const ind=f.indicador, inc=f.incumplimiento, tot=f.estudios;
+  const col = ind==null?'#888':(ind>=META_AF?'#52a53f':ind>=95?'#d4920a':'#c0392b');
+  const v = ind==null?0:ind;
+  mk('chartCumpGauge',{type:'doughnut',
+    data:{datasets:[{data:[v,Math.max(0,100-v)],
+      backgroundColor:[col, themeIsDark()?'rgba(255,255,255,.07)':'#e7ecf3'],
+      borderWidth:0,circumference:180,rotation:270}]},
+    options:{cutout:'74%',plugins:{legend:{display:false},tooltip:{enabled:false}}}});
+  const el=document.getElementById('cump-gauge-val');
+  el.textContent= ind==null?'–':ind.toFixed(1)+'%'; el.style.color=col;
+  const a = analisisActivo();
+  const cumple = ind!=null && ind>=META_AF;
+  const kpis=[
+    {lab:'Estudios catalogados', val:(tot||0).toLocaleString(), sub:'dentro de límite A-G', cls:''},
+    {lab:'Incumplimientos', val:inc??'–', sub: tot? ((inc/tot)*100).toFixed(1)+'% del total':'', cls:'rojo'},
+    {lab:'Retraso promedio', val: a.retraso_prom!=null? a.retraso_prom+' h':'–', sub:'tras la hora promesa', cls:'amari'},
+    {lab:'Meta '+META_AF+'%', val: cumple?'✓':'✗', sub: cumple?'cumple objetivo':'por debajo', cls: cumple?'verde':'rojo'},
+  ];
+  document.getElementById('cump-kpis').innerHTML = kpis.map(k=>
+    `<div class="kpi ${k.cls}"><div class="klabel">${k.lab}</div><div class="kval">${k.val}</div><div class="ksub">${k.sub}</div></div>`).join('');
 }
 
 // ── Tema y exportación (siempre activos) ──────────────────────────────────────

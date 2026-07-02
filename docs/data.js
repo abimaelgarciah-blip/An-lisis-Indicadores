@@ -1,6 +1,6 @@
 // Generado automáticamente por procesar.py — no editar a mano
 window.DASHBOARD_DATA = {
-  "generado": "2026-06-27T19:03:14.569472",
+  "generado": "2026-07-02T20:45:10.652212",
   "rango": {
     "inicio": "2026-03-31",
     "fin": "2026-06-21"
@@ -53,41 +53,41 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "General",
       "Fecha": "2026-06-21",
-      "indicador": 96.58864090001813,
+      "indicador": 94.94647069497368,
       "estudios": 11022,
-      "incumplimiento": 376,
+      "incumplimiento": 557,
       "modalidades_total": 14619,
       "Cardiología": 245,
       "TE_Cardiología": 3.391128187614577,
-      "Densitometría": 570,
-      "TE_Densitometría": 0.9365884418948554,
-      "Ecosonografía": 1696,
-      "TE_Ecosonografía": 0.7997125197646017,
+      "Densitometría": 608,
+      "TE_Densitometría": 0.9483733779433596,
+      "Ecosonografía": 1379,
+      "TE_Ecosonografía": 0.7678170680168913,
       "Mamografía": 682,
       "TE_Mamografía": 1.1025702811286509,
       "Radiología": 1251,
       "TE_Radiología": 0.8639660363168271,
       "RM": 647,
       "TE_RM": 2.2947136404688426,
-      "RM_5h": 484,
-      "RM_24h": 162,
-      "RM_48h": 1,
+      "RM_5h": 483,
+      "RM_24h": 164,
+      "RM_48h": 0,
       "Tomografía": 700,
       "TE_Tomografía": 1.5016041979048125
     },
     {
       "Unidad": "LM",
       "Fecha": "",
-      "indicador": 96.11479890667708,
+      "indicador": 95.27528309254197,
       "estudios": 5122,
-      "incumplimiento": 199,
+      "incumplimiento": 242,
       "modalidades_total": 6620,
       "Cardiología": 238,
       "TE_Cardiología": 3.3912751992510137,
-      "Densitometría": 384,
-      "TE_Densitometría": 0.9322373015954093,
-      "Ecosonografía": 742,
-      "TE_Ecosonografía": 0.7460622499211417,
+      "Densitometría": 407,
+      "TE_Densitometría": 0.9412786835817551,
+      "Ecosonografía": 664,
+      "TE_Ecosonografía": 0.7279556233036756,
       "Mamografía": 294,
       "TE_Mamografía": 0.7916533485569669,
       "Radiología": 891,
@@ -95,32 +95,32 @@ window.DASHBOARD_DATA = {
       "RM": 290,
       "TE_RM": 2.3593888888875623,
       "RM_5h": 201,
-      "RM_24h": 88,
-      "RM_48h": 1,
+      "RM_24h": 89,
+      "RM_48h": 0,
       "Tomografía": 600,
       "TE_Tomografía": 1.4342328042367458
     },
     {
       "Unidad": "AC",
       "Fecha": "",
-      "indicador": 93.75838926174497,
+      "indicador": 93.69127516778524,
       "estudios": 1490,
-      "incumplimiento": 93,
+      "incumplimiento": 94,
       "modalidades_total": 1502,
       "Cardiología": 2,
       "TE_Cardiología": 3.8156944444344845,
       "Densitometría": 4,
       "TE_Densitometría": 0.8869444444135297,
-      "Ecosonografía": 303,
-      "TE_Ecosonografía": 0.9638090128800532,
+      "Ecosonografía": 209,
+      "TE_Ecosonografía": 0.9109002848997569,
       "Mamografía": 2,
       "TE_Mamografía": 1.6590277777577285,
       "Radiología": 339,
       "TE_Radiología": 1.0091585233439357,
       "RM": 92,
       "TE_RM": 2.9436241830192396,
-      "RM_5h": 84,
-      "RM_24h": 8,
+      "RM_5h": 83,
+      "RM_24h": 9,
       "RM_48h": 0,
       "Tomografía": 98,
       "TE_Tomografía": 2.016659451661444
@@ -134,10 +134,10 @@ window.DASHBOARD_DATA = {
       "modalidades_total": 584,
       "Cardiología": 1,
       "TE_Cardiología": 2.6805555554456078,
-      "Densitometría": 2,
-      "TE_Densitometría": 1.3868055555503815,
-      "Ecosonografía": 83,
-      "TE_Ecosonografía": 0.6870590277896553,
+      "Densitometría": 3,
+      "TE_Densitometría": 1.3788888888666406,
+      "Ecosonografía": 74,
+      "TE_Ecosonografía": 0.6635648148270169,
       "Mamografía": 1,
       "TE_Mamografía": 2.156666666676756,
       "Radiología": 1,
@@ -161,8 +161,8 @@ window.DASHBOARD_DATA = {
       "TE_Cardiología": null,
       "Densitometría": 0,
       "TE_Densitometría": null,
-      "Ecosonografía": 17,
-      "TE_Ecosonografía": 0.84236111107748,
+      "Ecosonografía": 15,
+      "TE_Ecosonografía": 0.811818181775214,
       "Mamografía": 1,
       "TE_Mamografía": 2.9938888888573274,
       "Radiología": 1,
@@ -184,10 +184,10 @@ window.DASHBOARD_DATA = {
       "modalidades_total": 1371,
       "Cardiología": 1,
       "TE_Cardiología": 1.1908333333558403,
-      "Densitometría": 175,
-      "TE_Densitometría": 0.9361387163545989,
-      "Ecosonografía": 540,
-      "TE_Ecosonografía": 0.8152800546449726,
+      "Densitometría": 188,
+      "TE_Densitometría": 0.9527215608437213,
+      "Ecosonografía": 409,
+      "TE_Ecosonografía": 0.7760805778944149,
       "Mamografía": 380,
       "TE_Mamografía": 1.3355685286986665,
       "Radiología": 10,
@@ -203,16 +203,16 @@ window.DASHBOARD_DATA = {
     {
       "Unidad": "MP",
       "Fecha": "",
-      "indicador": 99.92022337455126,
+      "indicador": 94.45552453131234,
       "estudios": 2507,
-      "incumplimiento": 2,
+      "incumplimiento": 139,
       "modalidades_total": 4499,
       "Cardiología": 3,
       "TE_Cardiología": 4.066759259265382,
       "Densitometría": 2,
       "TE_Densitometría": 1.6287499999743886,
-      "Ecosonografía": 8,
-      "TE_Ecosonografía": 0.8074305556001491,
+      "Ecosonografía": 6,
+      "TE_Ecosonografía": 0.9123611111426726,
       "Mamografía": 2,
       "TE_Mamografía": 1.110972222260898,
       "Radiología": 7,
@@ -234,10 +234,10 @@ window.DASHBOARD_DATA = {
       "modalidades_total": 20,
       "Cardiología": 0,
       "TE_Cardiología": null,
-      "Densitometría": 3,
+      "Densitometría": 4,
       "TE_Densitometría": 0.7729629629757255,
-      "Ecosonografía": 3,
-      "TE_Ecosonografía": 1.2473148147691973,
+      "Ecosonografía": 2,
+      "TE_Ecosonografía": 1.428055555501487,
       "Mamografía": 2,
       "TE_Mamografía": 2.0531944444519468,
       "Radiología": 2,
@@ -256,16 +256,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 98.0649188514357,
+        "indicador": 95.50561797752809,
         "estudios": 1602,
-        "incumplimiento": 31,
+        "incumplimiento": 72,
         "modalidades_total": 2209,
         "Cardiología": 21,
         "TE_Cardiología": 3.0247619047544765,
-        "Densitometría": 51,
-        "TE_Densitometría": 0.8497281324011868,
-        "Ecosonografía": 178,
-        "TE_Ecosonografía": 0.7064906832337616,
+        "Densitometría": 53,
+        "TE_Densitometría": 0.879109977338254,
+        "Ecosonografía": 139,
+        "TE_Ecosonografía": 0.6536346153884481,
         "Mamografía": 68,
         "TE_Mamografía": 1.0733417508361691,
         "Radiología": 143,
@@ -281,16 +281,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 97.10391822827938,
+        "indicador": 96.59284497444634,
         "estudios": 587,
-        "incumplimiento": 17,
+        "incumplimiento": 20,
         "modalidades_total": 734,
         "Cardiología": 20,
         "TE_Cardiología": 3.0419722222199197,
-        "Densitometría": 37,
-        "TE_Densitometría": 0.8824691358167911,
-        "Ecosonografía": 73,
-        "TE_Ecosonografía": 0.6014003044174512,
+        "Densitometría": 38,
+        "TE_Densitometría": 0.8942342342484768,
+        "Ecosonografía": 68,
+        "TE_Ecosonografía": 0.5874387254957315,
         "Mamografía": 31,
         "TE_Mamografía": 0.6779121863655746,
         "Radiología": 118,
@@ -314,8 +314,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 1,
         "TE_Densitometría": 0.7580555555177853,
-        "Ecosonografía": 39,
-        "TE_Ecosonografía": 0.9535370370431338,
+        "Ecosonografía": 26,
+        "TE_Ecosonografía": 0.8951932367104429,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 23,
@@ -339,8 +339,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": 2.6805555554456078,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 16,
-        "TE_Ecosonografía": 0.7061805555713363,
+        "Ecosonografía": 15,
+        "TE_Ecosonografía": 0.6463703703950159,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 1,
@@ -387,10 +387,10 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 139,
         "Cardiología": 0,
         "TE_Cardiología": null,
-        "Densitometría": 13,
-        "TE_Densitometría": 0.7410277777933516,
-        "Ecosonografía": 48,
-        "TE_Ecosonografía": 0.7213211382111739,
+        "Densitometría": 14,
+        "TE_Densitometría": 0.8392424242602746,
+        "Ecosonografía": 28,
+        "TE_Ecosonografía": 0.6251328502371705,
         "Mamografía": 36,
         "TE_Mamografía": 1.413431372553425,
         "Radiología": 0,
@@ -406,9 +406,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 99.69418960244649,
+        "indicador": 93.88379204892966,
         "estudios": 654,
-        "incumplimiento": 2,
+        "incumplimiento": 40,
         "modalidades_total": 1096,
         "Cardiología": 0,
         "TE_Cardiología": null,
@@ -458,16 +458,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 96.43112062812277,
+        "indicador": 95.64596716630977,
         "estudios": 1401,
-        "incumplimiento": 50,
+        "incumplimiento": 61,
         "modalidades_total": 1902,
         "Cardiología": 33,
         "TE_Cardiología": 3.5956481481394307,
-        "Densitometría": 75,
-        "TE_Densitometría": 1.0201247987241242,
-        "Ecosonografía": 248,
-        "TE_Ecosonografía": 0.8046678743960397,
+        "Densitometría": 77,
+        "TE_Densitometría": 1.0249765258320136,
+        "Ecosonografía": 193,
+        "TE_Ecosonografía": 0.7785346854786713,
         "Mamografía": 93,
         "TE_Mamografía": 1.3040066425082446,
         "Radiología": 177,
@@ -483,16 +483,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 95.08448540706605,
+        "indicador": 94.93087557603687,
         "estudios": 651,
-        "incumplimiento": 32,
+        "incumplimiento": 33,
         "modalidades_total": 847,
         "Cardiología": 32,
         "TE_Cardiología": 3.670798611101418,
         "Densitometría": 47,
         "TE_Densitometría": 1.0288888889140586,
-        "Ecosonografía": 94,
-        "TE_Ecosonografía": 0.7366666666550926,
+        "Ecosonografía": 82,
+        "TE_Ecosonografía": 0.7279355281088674,
         "Mamografía": 28,
         "TE_Mamografía": 0.7418650793406414,
         "Radiología": 122,
@@ -516,8 +516,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 1,
         "TE_Densitometría": 0.7930555554921739,
-        "Ecosonografía": 48,
-        "TE_Ecosonografía": 0.8750142450086199,
+        "Ecosonografía": 36,
+        "TE_Ecosonografía": 0.8233660130679388,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 51,
@@ -541,8 +541,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 12,
-        "TE_Ecosonografía": 0.7233333333861083,
+        "Ecosonografía": 11,
+        "TE_Ecosonografía": 0.6428787879360077,
         "Mamografía": 1,
         "TE_Mamografía": 2.156666666676756,
         "Radiología": 0,
@@ -566,8 +566,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 3,
-        "TE_Ecosonografía": 0.9419444444356486,
+        "Ecosonografía": 1,
+        "TE_Ecosonografía": 0.7055555554688908,
         "Mamografía": 1,
         "TE_Mamografía": 2.9938888888573274,
         "Radiología": 1,
@@ -589,10 +589,10 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 219,
         "Cardiología": 1,
         "TE_Cardiología": 1.1908333333558403,
-        "Densitometría": 25,
-        "TE_Densitometría": 1.0333888888824732,
-        "Ecosonografía": 88,
-        "TE_Ecosonografía": 0.8415887533934083,
+        "Densitometría": 27,
+        "TE_Densitometría": 1.0451646090433415,
+        "Ecosonografía": 60,
+        "TE_Ecosonografía": 0.8272551789128032,
         "Mamografía": 62,
         "TE_Mamografía": 1.5343032786918454,
         "Radiología": 2,
@@ -608,9 +608,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 95.74468085106383,
         "estudios": 235,
-        "incumplimiento": 0,
+        "incumplimiento": 10,
         "modalidades_total": 528,
         "Cardiología": 0,
         "TE_Cardiología": null,
@@ -660,16 +660,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 96.796875,
+        "indicador": 94.609375,
         "estudios": 1280,
-        "incumplimiento": 41,
+        "incumplimiento": 69,
         "modalidades_total": 1706,
         "Cardiología": 23,
         "TE_Cardiología": 3.291376811604056,
-        "Densitometría": 85,
-        "TE_Densitometría": 1.0626638176685306,
-        "Ecosonografía": 202,
-        "TE_Ecosonografía": 1.0058427495236697,
+        "Densitometría": 88,
+        "TE_Densitometría": 1.0702503429406702,
+        "Ecosonografía": 173,
+        "TE_Ecosonografía": 1.0031170886005512,
         "Mamografía": 88,
         "TE_Mamografía": 1.29038821954311,
         "Radiología": 150,
@@ -685,16 +685,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 96.50986342943855,
+        "indicador": 95.59939301972686,
         "estudios": 659,
-        "incumplimiento": 23,
+        "incumplimiento": 29,
         "modalidades_total": 870,
         "Cardiología": 21,
         "TE_Cardiología": 3.2769841269889315,
-        "Densitometría": 61,
-        "TE_Densitometría": 1.0298065476215146,
-        "Ecosonografía": 93,
-        "TE_Ecosonografía": 1.0164367816017554,
+        "Densitometría": 64,
+        "TE_Densitometría": 1.0418926553704018,
+        "Ecosonografía": 87,
+        "TE_Ecosonografía": 1.0168320105752042,
         "Mamografía": 46,
         "TE_Mamografía": 1.0262247474708024,
         "Radiología": 120,
@@ -718,8 +718,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 40,
-        "TE_Ecosonografía": 0.8364950980381657,
+        "Ecosonografía": 32,
+        "TE_Ecosonografía": 0.8490770609238215,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 28,
@@ -743,8 +743,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 2,
         "TE_Densitometría": 1.3868055555503815,
-        "Ecosonografía": 14,
-        "TE_Ecosonografía": 0.9137499999986696,
+        "Ecosonografía": 13,
+        "TE_Ecosonografía": 0.9808119658085231,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 0,
@@ -793,8 +793,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 22,
         "TE_Densitometría": 1.1222500000119908,
-        "Ecosonografía": 51,
-        "TE_Ecosonografía": 1.1766096866026952,
+        "Ecosonografía": 38,
+        "TE_Ecosonografía": 1.1574801587204482,
         "Mamografía": 41,
         "TE_Mamografía": 1.5549999999991422,
         "Radiología": 0,
@@ -810,9 +810,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 91.88191881918819,
         "estudios": 271,
-        "incumplimiento": 0,
+        "incumplimiento": 22,
         "modalidades_total": 477,
         "Cardiología": 2,
         "TE_Cardiología": 3.4425000000628643,
@@ -843,8 +843,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 1,
-        "TE_Ecosonografía": 0.8858333333046176,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
         "Mamografía": 1,
         "TE_Mamografía": 2.8583333333954215,
         "Radiología": 0,
@@ -862,16 +862,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 95.52941176470588,
+        "indicador": 95.2156862745098,
         "estudios": 1275,
-        "incumplimiento": 57,
+        "incumplimiento": 61,
         "modalidades_total": 1653,
         "Cardiología": 20,
         "TE_Cardiología": 2.8581527777627342,
-        "Densitometría": 79,
-        "TE_Densitometría": 0.9936029411893448,
-        "Ecosonografía": 237,
-        "TE_Ecosonografía": 0.7831205402686765,
+        "Densitometría": 81,
+        "TE_Densitometría": 0.9939331723144278,
+        "Ecosonografía": 210,
+        "TE_Ecosonografía": 0.7682314349549598,
         "Mamografía": 88,
         "TE_Mamografía": 1.0369345238265981,
         "Radiología": 142,
@@ -887,16 +887,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 94.83870967741936,
+        "indicador": 94.6774193548387,
         "estudios": 620,
-        "incumplimiento": 32,
+        "incumplimiento": 33,
         "modalidades_total": 805,
         "Cardiología": 20,
         "TE_Cardiología": 2.8581527777627342,
         "Densitometría": 54,
         "TE_Densitometría": 1.0418813131519444,
-        "Ecosonografía": 91,
-        "TE_Ecosonografía": 0.774194444452102,
+        "Ecosonografía": 87,
+        "TE_Ecosonografía": 0.7847319121518562,
         "Mamografía": 33,
         "TE_Mamografía": 0.7451094276356426,
         "Radiología": 106,
@@ -920,8 +920,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 46,
-        "TE_Ecosonografía": 0.9600825825945247,
+        "Ecosonografía": 34,
+        "TE_Ecosonografía": 0.8960573476825601,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 34,
@@ -945,8 +945,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 16,
-        "TE_Ecosonografía": 0.48924074074020607,
+        "Ecosonografía": 13,
+        "TE_Ecosonografía": 0.4221296296163928,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 0,
@@ -993,10 +993,10 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 193,
         "Cardiología": 0,
         "TE_Cardiología": null,
-        "Densitometría": 24,
-        "TE_Densitometría": 0.8796497584528128,
-        "Ecosonografía": 82,
-        "TE_Ecosonografía": 0.7729166666599544,
+        "Densitometría": 26,
+        "TE_Densitometría": 0.8853472222181153,
+        "Ecosonografía": 76,
+        "TE_Ecosonografía": 0.750682539677447,
         "Mamografía": 55,
         "TE_Mamografía": 1.2257625272442751,
         "Radiología": 1,
@@ -1012,16 +1012,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 98.4126984126984,
         "estudios": 189,
-        "incumplimiento": 0,
+        "incumplimiento": 3,
         "modalidades_total": 366,
         "Cardiología": 0,
         "TE_Cardiología": null,
         "Densitometría": 1,
         "TE_Densitometría": 1.4902777777751908,
-        "Ecosonografía": 2,
-        "TE_Ecosonografía": 0.49263888897257857,
+        "Ecosonografía": 0,
+        "TE_Ecosonografía": null,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 1,
@@ -1064,16 +1064,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 96.2291515591008,
+        "indicador": 95.286439448876,
         "estudios": 1379,
-        "incumplimiento": 52,
+        "incumplimiento": 65,
         "modalidades_total": 1755,
         "Cardiología": 24,
         "TE_Cardiología": 3.468854166647361,
-        "Densitometría": 92,
-        "TE_Densitometría": 0.9841372549054487,
-        "Ecosonografía": 209,
-        "TE_Ecosonografía": 0.8272522909503152,
+        "Densitometría": 95,
+        "TE_Densitometría": 0.9917635658937289,
+        "Ecosonografía": 167,
+        "TE_Ecosonografía": 0.7455335365815611,
         "Mamografía": 96,
         "TE_Mamografía": 1.1158695652221744,
         "Radiología": 138,
@@ -1081,24 +1081,24 @@ window.DASHBOARD_DATA = {
         "RM": 103,
         "TE_RM": 1.977864758695377,
         "RM_5h": 80,
-        "RM_24h": 22,
-        "RM_48h": 1,
+        "RM_24h": 23,
+        "RM_48h": 0,
         "Tomografía": 99,
         "TE_Tomografía": 1.4744644902728152
       },
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 96.60326086956522,
+        "indicador": 96.19565217391305,
         "estudios": 736,
-        "incumplimiento": 25,
+        "incumplimiento": 28,
         "modalidades_total": 959,
         "Cardiología": 22,
         "TE_Cardiología": 3.4373232323030773,
-        "Densitometría": 59,
-        "TE_Densitometría": 0.9951440329249535,
-        "Ecosonografía": 101,
-        "TE_Ecosonografía": 0.7652186761155695,
+        "Densitometría": 62,
+        "TE_Densitometría": 1.0068686868699097,
+        "Ecosonografía": 86,
+        "TE_Ecosonografía": 0.6816236772408176,
         "Mamografía": 48,
         "TE_Mamografía": 0.9240740740751789,
         "Radiología": 87,
@@ -1106,8 +1106,8 @@ window.DASHBOARD_DATA = {
         "RM": 51,
         "TE_RM": 2.245759637180564,
         "RM_5h": 36,
-        "RM_24h": 14,
-        "RM_48h": 1,
+        "RM_24h": 15,
+        "RM_48h": 0,
         "Tomografía": 81,
         "TE_Tomografía": 1.365113168730642
       },
@@ -1122,8 +1122,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": 3.8156944444344845,
         "Densitometría": 1,
         "TE_Densitometría": 0.5247222221223637,
-        "Ecosonografía": 38,
-        "TE_Ecosonografía": 1.0858159722356504,
+        "Ecosonografía": 25,
+        "TE_Ecosonografía": 0.9443666666653008,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 47,
@@ -1147,7 +1147,7 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 5,
+        "Ecosonografía": 4,
         "TE_Ecosonografía": 0.9368750000285218,
         "Mamografía": 0,
         "TE_Mamografía": null,
@@ -1197,8 +1197,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 32,
         "TE_Densitometría": 0.9796388888964429,
-        "Ecosonografía": 65,
-        "TE_Ecosonografía": 0.7822309027787924,
+        "Ecosonografía": 52,
+        "TE_Ecosonografía": 0.7383224400862887,
         "Mamografía": 48,
         "TE_Mamografía": 1.325101010109806,
         "Radiología": 3,
@@ -1214,9 +1214,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 94.9748743718593,
         "estudios": 199,
-        "incumplimiento": 0,
+        "incumplimiento": 10,
         "modalidades_total": 340,
         "Cardiología": 0,
         "TE_Cardiología": null,
@@ -1266,16 +1266,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 96.57370517928287,
+        "indicador": 94.42231075697211,
         "estudios": 1255,
-        "incumplimiento": 43,
+        "incumplimiento": 70,
         "modalidades_total": 1594,
         "Cardiología": 34,
         "TE_Cardiología": 3.1354738562145297,
-        "Densitometría": 87,
-        "TE_Densitometría": 0.7754379084956942,
-        "Ecosonografía": 192,
-        "TE_Ecosonografía": 0.677087256750013,
+        "Densitometría": 88,
+        "TE_Densitometría": 0.7819702842348624,
+        "Ecosonografía": 155,
+        "TE_Ecosonografía": 0.6440537037013564,
         "Mamografía": 88,
         "TE_Mamografía": 0.8938636363587151,
         "Radiología": 172,
@@ -1291,16 +1291,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 96.94189602446484,
+        "indicador": 94.95412844036697,
         "estudios": 654,
-        "incumplimiento": 20,
+        "incumplimiento": 33,
         "modalidades_total": 828,
         "Cardiología": 34,
         "TE_Cardiología": 3.1354738562145297,
-        "Densitometría": 65,
-        "TE_Densitometría": 0.7742404513910515,
-        "Ecosonografía": 95,
-        "TE_Ecosonografía": 0.6145380116974641,
+        "Densitometría": 66,
+        "TE_Densitometría": 0.7829017094014069,
+        "Ecosonografía": 86,
+        "TE_Ecosonografía": 0.6105555555563918,
         "Mamografía": 47,
         "TE_Mamografía": 0.6223640661845182,
         "Radiología": 115,
@@ -1316,16 +1316,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "AC",
         "Fecha": "",
-        "indicador": 89.01734104046243,
+        "indicador": 88.4393063583815,
         "estudios": 173,
-        "incumplimiento": 19,
+        "incumplimiento": 20,
         "modalidades_total": 175,
         "Cardiología": 0,
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 23,
-        "TE_Ecosonografía": 0.8734615384556281,
+        "Ecosonografía": 13,
+        "TE_Ecosonografía": 0.8123333333234768,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 53,
@@ -1399,8 +1399,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 21,
         "TE_Densitometría": 0.7809166666556848,
-        "Ecosonografía": 62,
-        "TE_Ecosonografía": 0.7289766081927442,
+        "Ecosonografía": 44,
+        "TE_Ecosonografía": 0.6528637566079851,
         "Mamografía": 40,
         "TE_Mamografía": 1.2040208333346527,
         "Radiología": 2,
@@ -1416,9 +1416,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 94.03669724770643,
         "estudios": 218,
-        "incumplimiento": 0,
+        "incumplimiento": 13,
         "modalidades_total": 370,
         "Cardiología": 0,
         "TE_Cardiología": null,
@@ -1468,16 +1468,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 95.33045977011494,
+        "indicador": 93.82183908045977,
         "estudios": 1392,
-        "incumplimiento": 65,
+        "incumplimiento": 86,
         "modalidades_total": 1866,
         "Cardiología": 40,
         "TE_Cardiología": 3.206039886035097,
-        "Densitometría": 68,
-        "TE_Densitometría": 0.8389462081083495,
-        "Ecosonografía": 231,
-        "TE_Ecosonografía": 0.824994632312893,
+        "Densitometría": 71,
+        "TE_Densitometría": 0.8614358974316229,
+        "Ecosonografía": 186,
+        "TE_Ecosonografía": 0.7715660919503565,
         "Mamografía": 89,
         "TE_Mamografía": 1.0794191919300251,
         "Radiología": 161,
@@ -1493,16 +1493,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 93.97394136807817,
+        "indicador": 92.99674267100977,
         "estudios": 614,
-        "incumplimiento": 37,
+        "incumplimiento": 43,
         "modalidades_total": 814,
         "Cardiología": 40,
         "TE_Cardiología": 3.206039886035097,
-        "Densitometría": 41,
-        "TE_Densitometría": 0.7396171171205571,
-        "Ecosonografía": 98,
-        "TE_Ecosonografía": 0.7405263157843269,
+        "Densitometría": 43,
+        "TE_Densitometría": 0.7821937321971816,
+        "Ecosonografía": 83,
+        "TE_Ecosonografía": 0.6884789972810257,
         "Mamografía": 34,
         "TE_Mamografía": 0.8177696078714422,
         "Radiología": 121,
@@ -1526,8 +1526,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 1,
         "TE_Densitometría": 1.471944444521796,
-        "Ecosonografía": 38,
-        "TE_Ecosonografía": 1.05475198413894,
+        "Ecosonografía": 23,
+        "TE_Ecosonografía": 0.9870580808201339,
         "Mamografía": 1,
         "TE_Mamografía": 2.842222222185228,
         "Radiología": 38,
@@ -1551,8 +1551,8 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 8,
-        "TE_Ecosonografía": 0.6794841269895967,
+        "Ecosonografía": 7,
+        "TE_Ecosonografía": 0.5733796296117362,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 0,
@@ -1599,10 +1599,10 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 199,
         "Cardiología": 0,
         "TE_Cardiología": null,
-        "Densitometría": 25,
+        "Densitometría": 26,
         "TE_Densitometría": 0.9270254629445844,
-        "Ecosonografía": 83,
-        "TE_Ecosonografía": 0.8502207001565942,
+        "Ecosonografía": 69,
+        "TE_Ecosonografía": 0.8095555555599276,
         "Mamografía": 54,
         "TE_Mamografía": 1.2140094339627914,
         "Radiología": 2,
@@ -1618,9 +1618,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 95.71428571428572,
         "estudios": 350,
-        "incumplimiento": 0,
+        "incumplimiento": 15,
         "modalidades_total": 612,
         "Cardiología": 0,
         "TE_Cardiología": null,
@@ -1670,24 +1670,24 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "General",
         "Fecha": "",
-        "indicador": 97.4269819193324,
+        "indicador": 94.92350486787204,
         "estudios": 1438,
-        "incumplimiento": 37,
+        "incumplimiento": 73,
         "modalidades_total": 1934,
         "Cardiología": 50,
         "TE_Cardiología": 3.950000000023283,
-        "Densitometría": 33,
-        "TE_Densitometría": 0.951965020568524,
-        "Ecosonografía": 199,
-        "TE_Ecosonografía": 0.7564682539681659,
+        "Densitometría": 55,
+        "TE_Densitometría": 0.976897018958769,
+        "Ecosonografía": 156,
+        "TE_Ecosonografía": 0.74877667402238,
         "Mamografía": 72,
         "TE_Mamografía": 0.9969561815509428,
         "Radiología": 168,
         "TE_Radiología": 0.8516315261069657,
         "RM": 94,
         "TE_RM": 2.899021604946271,
-        "RM_5h": 75,
-        "RM_24h": 19,
+        "RM_5h": 74,
+        "RM_24h": 20,
         "RM_48h": 0,
         "Tomografía": 76,
         "TE_Tomografía": 1.532708333346818
@@ -1695,16 +1695,16 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "LM",
         "Fecha": "",
-        "indicador": 97.8369384359401,
+        "indicador": 96.1730449251248,
         "estudios": 601,
-        "incumplimiento": 13,
+        "incumplimiento": 23,
         "modalidades_total": 763,
         "Cardiología": 49,
         "TE_Cardiología": 3.922137188234566,
-        "Densitometría": 20,
-        "TE_Densitometría": 1.009043209865922,
-        "Ecosonografía": 97,
-        "TE_Ecosonografía": 0.7105439814858983,
+        "Densitometría": 33,
+        "TE_Densitometría": 0.9654662698303582,
+        "Ecosonografía": 85,
+        "TE_Ecosonografía": 0.7001176470609874,
         "Mamografía": 27,
         "TE_Mamografía": 0.6748868313022993,
         "Radiología": 102,
@@ -1728,16 +1728,16 @@ window.DASHBOARD_DATA = {
         "TE_Cardiología": null,
         "Densitometría": 0,
         "TE_Densitometría": null,
-        "Ecosonografía": 31,
-        "TE_Ecosonografía": 1.1118888888886431,
+        "Ecosonografía": 20,
+        "TE_Ecosonografía": 1.131301169583917,
         "Mamografía": 1,
         "TE_Mamografía": 0.4758333333302289,
         "Radiología": 65,
         "TE_Radiología": 1.1179253472191704,
         "RM": 21,
         "TE_RM": 3.238703703723981,
-        "RM_5h": 19,
-        "RM_24h": 2,
+        "RM_5h": 18,
+        "RM_24h": 3,
         "RM_48h": 0,
         "Tomografía": 5,
         "TE_Tomografía": 2.4377777777554
@@ -1751,10 +1751,10 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 70,
         "Cardiología": 0,
         "TE_Cardiología": null,
-        "Densitometría": 0,
-        "TE_Densitometría": null,
-        "Ecosonografía": 4,
-        "TE_Ecosonografía": 0.6321527777326992,
+        "Densitometría": 1,
+        "TE_Densitometría": 1.3630555554991588,
+        "Ecosonografía": 3,
+        "TE_Ecosonografía": 0.7277777777635492,
         "Mamografía": 0,
         "TE_Mamografía": null,
         "Radiología": 0,
@@ -1801,10 +1801,10 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 152,
         "Cardiología": 0,
         "TE_Cardiología": null,
-        "Densitometría": 13,
-        "TE_Densitometría": 0.8378086419737277,
-        "Ecosonografía": 61,
-        "TE_Ecosonografía": 0.7328975095728749,
+        "Densitometría": 20,
+        "TE_Densitometría": 0.9713888888800284,
+        "Ecosonografía": 42,
+        "TE_Ecosonografía": 0.6921666666545206,
         "Mamografía": 44,
         "TE_Mamografía": 1.2113049095726658,
         "Radiología": 0,
@@ -1820,9 +1820,9 @@ window.DASHBOARD_DATA = {
       {
         "Unidad": "MP",
         "Fecha": "",
-        "indicador": 100.0,
+        "indicador": 93.35038363171356,
         "estudios": 391,
-        "incumplimiento": 0,
+        "incumplimiento": 26,
         "modalidades_total": 710,
         "Cardiología": 1,
         "TE_Cardiología": 5.315277777670417,
@@ -1851,7 +1851,7 @@ window.DASHBOARD_DATA = {
         "modalidades_total": 3,
         "Cardiología": 0,
         "TE_Cardiología": null,
-        "Densitometría": 0,
+        "Densitometría": 1,
         "TE_Densitometría": null,
         "Ecosonografía": 0,
         "TE_Ecosonografía": null,
@@ -1881,6 +1881,22 @@ window.DASHBOARD_DATA = {
   "total_registros": 14619,
   "analisis": {
     "incump_depto": [
+      {
+        "depto": "Cardiología",
+        "total": 1327,
+        "incump": 187,
+        "pct_cumpl": 85.9,
+        "top_estudios": [
+          {
+            "estudio": "Electrocardiograma",
+            "n": 186
+          },
+          {
+            "estudio": "Mapa de 24 horas",
+            "n": 1
+          }
+        ]
+      },
       {
         "depto": "Resonancia Magnética",
         "total": 2035,
@@ -2054,22 +2070,6 @@ window.DASHBOARD_DATA = {
         ]
       },
       {
-        "depto": "Cardiología",
-        "total": 1327,
-        "incump": 6,
-        "pct_cumpl": 99.5,
-        "top_estudios": [
-          {
-            "estudio": "Electrocardiograma",
-            "n": 5
-          },
-          {
-            "estudio": "Mapa de 24 horas",
-            "n": 1
-          }
-        ]
-      },
-      {
         "depto": "Servicios Especiales",
         "total": 1520,
         "incump": 6,
@@ -2164,6 +2164,10 @@ window.DASHBOARD_DATA = {
     ],
     "top_estudios_incump": [
       {
+        "estudio": "Electrocardiograma",
+        "n": 186
+      },
+      {
         "estudio": "Densitometría de Cadera y Columna Lumbar",
         "n": 65
       },
@@ -2198,10 +2202,28 @@ window.DASHBOARD_DATA = {
       {
         "estudio": "TAC - 2R - Tórax y Abdomen [C]",
         "n": 9
+      }
+    ],
+    "top_estudios_volumen": [
+      {
+        "estudio": "Eco de Mama",
+        "n": 976
       },
       {
-        "estudio": "RX Rodillas Comparativas - 2P",
-        "n": 7
+        "estudio": "Densitometría de Cadera y Columna Lumbar",
+        "n": 767
+      },
+      {
+        "estudio": "Mamografía - Bilateral",
+        "n": 739
+      },
+      {
+        "estudio": "RX Tórax - 1P",
+        "n": 707
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "n": 678
       }
     ],
     "calor_deptos": [
@@ -2224,12 +2246,12 @@ window.DASHBOARD_DATA = {
     ],
     "calor": {
       "Cardiología": {
-        "LM": 98.6,
-        "AC": 100.0,
+        "LM": 88.2,
+        "AC": 80.0,
         "CH": 100.0,
         "GP": null,
         "CM": 100.0,
-        "MP": 100.0,
+        "MP": 84.8,
         "LA": null
       },
       "Densitometría": {
@@ -2294,14 +2316,14 @@ window.DASHBOARD_DATA = {
         "n": 245
       },
       "Densitometría": {
-        "gc_avg": 1.18,
-        "gf_avg": 1.2,
-        "n": 570
+        "gc_avg": 1.22,
+        "gf_avg": 1.25,
+        "n": 608
       },
       "Ecosonografía": {
-        "gc_avg": 1.39,
-        "gf_avg": 1.33,
-        "n": 1696
+        "gc_avg": 1.24,
+        "gf_avg": 1.18,
+        "n": 1379
       },
       "Mamografía": {
         "gc_avg": 1.3,
@@ -2324,12 +2346,1815 @@ window.DASHBOARD_DATA = {
         "n": 700
       }
     },
+    "ag_vs_real": {
+      "Cardiología": {
+        "ag_avg": 56.5,
+        "real_avg": 27.1,
+        "n": 1327
+      },
+      "Densitometría": {
+        "ag_avg": 8.4,
+        "real_avg": 3.3,
+        "n": 795
+      },
+      "Ecosonografía": {
+        "ag_avg": 21.5,
+        "real_avg": 9.2,
+        "n": 2745
+      },
+      "Mamografía": {
+        "ag_avg": 10.0,
+        "real_avg": 5.2,
+        "n": 894
+      },
+      "Radiología": {
+        "ag_avg": 14.7,
+        "real_avg": 4.0,
+        "n": 2201
+      },
+      "RM": {
+        "ag_avg": 20.7,
+        "real_avg": 17.0,
+        "n": 2035
+      },
+      "Tomografía": {
+        "ag_avg": 8.8,
+        "real_avg": 8.0,
+        "n": 1025
+      }
+    },
+    "horas_entrega_bins": {
+      "Cardiología": [
+        {
+          "label": "1h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "2h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "3h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "4h",
+          "n": 82,
+          "color": "rosa"
+        },
+        {
+          "label": "5h",
+          "n": 58,
+          "color": "rosa"
+        },
+        {
+          "label": "6h",
+          "n": 55,
+          "color": "rosa"
+        },
+        {
+          "label": "7h",
+          "n": 26,
+          "color": "rosa"
+        },
+        {
+          "label": "8h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "9h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "10h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "11h",
+          "n": 18,
+          "color": "rosa"
+        },
+        {
+          "label": "12h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "17h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "18h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "19h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "20h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "21h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "22h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "24h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "25h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "26h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "27h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "28h",
+          "n": 18,
+          "color": "rosa"
+        },
+        {
+          "label": "29h",
+          "n": 29,
+          "color": "rosa"
+        },
+        {
+          "label": "30h",
+          "n": 26,
+          "color": "rosa"
+        },
+        {
+          "label": "31h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "33h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "34h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "36h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "46h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "47h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "48h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "49h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "50h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "51h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "52h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "53h",
+          "n": 21,
+          "color": "rosa"
+        },
+        {
+          "label": "54h",
+          "n": 23,
+          "color": "rosa"
+        },
+        {
+          "label": "55h",
+          "n": 40,
+          "color": "rosa"
+        },
+        {
+          "label": "56h",
+          "n": 34,
+          "color": "rosa"
+        },
+        {
+          "label": "57h",
+          "n": 58,
+          "color": "rosa"
+        },
+        {
+          "label": "58h",
+          "n": 87,
+          "color": "rosa"
+        },
+        {
+          "label": "59h",
+          "n": 52,
+          "color": "rosa"
+        },
+        {
+          "label": "60h",
+          "n": 18,
+          "color": "rosa"
+        },
+        {
+          "label": "69h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "71h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "76h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "77h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "78h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "79h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "80h",
+          "n": 37,
+          "color": "rosa"
+        },
+        {
+          "label": "81h",
+          "n": 55,
+          "color": "rosa"
+        },
+        {
+          "label": "82h",
+          "n": 73,
+          "color": "rosa"
+        },
+        {
+          "label": "83h",
+          "n": 72,
+          "color": "rosa"
+        },
+        {
+          "label": "84h",
+          "n": 29,
+          "color": "rosa"
+        },
+        {
+          "label": "99h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "102h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "103h",
+          "n": 38,
+          "color": "rosa"
+        },
+        {
+          "label": "104h",
+          "n": 48,
+          "color": "rosa"
+        },
+        {
+          "label": "105h",
+          "n": 45,
+          "color": "rosa"
+        },
+        {
+          "label": "106h",
+          "n": 51,
+          "color": "rosa"
+        },
+        {
+          "label": "107h",
+          "n": 41,
+          "color": "rosa"
+        },
+        {
+          "label": "108h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "126h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "129h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "130h",
+          "n": 1,
+          "color": "rosa"
+        }
+      ],
+      "Densitometría": [
+        {
+          "label": "3h o menos",
+          "n": 608,
+          "color": "verde"
+        },
+        {
+          "label": "4h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "5h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "6h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "13h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "14h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "16h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "17h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "21h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "22h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "23h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "24h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "25h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "26h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "27h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "29h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "30h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "31h",
+          "n": 14,
+          "color": "rosa"
+        },
+        {
+          "label": "32h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "33h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "34h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "35h",
+          "n": 19,
+          "color": "rosa"
+        },
+        {
+          "label": "36h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "42h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "46h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "49h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "51h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "54h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "55h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "56h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "57h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "58h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "59h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "60h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "103h",
+          "n": 3,
+          "color": "rosa"
+        }
+      ],
+      "Ecosonografía": [
+        {
+          "label": "2h o menos",
+          "n": 1378,
+          "color": "verde"
+        },
+        {
+          "label": "3h",
+          "n": 222,
+          "color": "rosa"
+        },
+        {
+          "label": "4h",
+          "n": 85,
+          "color": "rosa"
+        },
+        {
+          "label": "5h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "6h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "13h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "14h",
+          "n": 14,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "16h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "17h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "18h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "19h",
+          "n": 14,
+          "color": "rosa"
+        },
+        {
+          "label": "20h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "21h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "22h",
+          "n": 21,
+          "color": "rosa"
+        },
+        {
+          "label": "23h",
+          "n": 19,
+          "color": "rosa"
+        },
+        {
+          "label": "24h",
+          "n": 22,
+          "color": "rosa"
+        },
+        {
+          "label": "25h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "26h",
+          "n": 18,
+          "color": "rosa"
+        },
+        {
+          "label": "27h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "28h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "29h",
+          "n": 101,
+          "color": "rosa"
+        },
+        {
+          "label": "30h",
+          "n": 79,
+          "color": "rosa"
+        },
+        {
+          "label": "31h",
+          "n": 34,
+          "color": "rosa"
+        },
+        {
+          "label": "32h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "33h",
+          "n": 47,
+          "color": "rosa"
+        },
+        {
+          "label": "34h",
+          "n": 40,
+          "color": "rosa"
+        },
+        {
+          "label": "35h",
+          "n": 137,
+          "color": "rosa"
+        },
+        {
+          "label": "36h",
+          "n": 53,
+          "color": "rosa"
+        },
+        {
+          "label": "37h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "39h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "42h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "43h",
+          "n": 15,
+          "color": "rosa"
+        },
+        {
+          "label": "44h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "45h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "46h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "47h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "49h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "50h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "51h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "52h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "53h",
+          "n": 22,
+          "color": "rosa"
+        },
+        {
+          "label": "54h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "55h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "56h",
+          "n": 14,
+          "color": "rosa"
+        },
+        {
+          "label": "57h",
+          "n": 22,
+          "color": "rosa"
+        },
+        {
+          "label": "58h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "59h",
+          "n": 38,
+          "color": "rosa"
+        },
+        {
+          "label": "60h",
+          "n": 43,
+          "color": "rosa"
+        },
+        {
+          "label": "75h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "77h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "79h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "81h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "82h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "84h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "103h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "131h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "188h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "189h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "190h",
+          "n": 14,
+          "color": "rosa"
+        },
+        {
+          "label": "191h",
+          "n": 14,
+          "color": "rosa"
+        },
+        {
+          "label": "192h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "193h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "195h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "199h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "213h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "214h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "215h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "216h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "217h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "235h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "237h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "238h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "239h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "240h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "241h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "242h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "244h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "245h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "261h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "262h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "263h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "264h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "265h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "271h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "273h",
+          "n": 1,
+          "color": "rosa"
+        }
+      ],
+      "Mamografía": [
+        {
+          "label": "3h o menos",
+          "n": 682,
+          "color": "verde"
+        },
+        {
+          "label": "4h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "5h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "13h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "14h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "16h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "18h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "19h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "20h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "21h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "22h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "23h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "24h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "25h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "26h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "27h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "28h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "29h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "30h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "31h",
+          "n": 11,
+          "color": "rosa"
+        },
+        {
+          "label": "32h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "33h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "34h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "35h",
+          "n": 11,
+          "color": "rosa"
+        },
+        {
+          "label": "36h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "37h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "42h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "43h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "44h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "46h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "49h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "50h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "51h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "52h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "55h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "56h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "57h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "58h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "59h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "60h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "67h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "68h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "79h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "103h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "220h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "222h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "223h",
+          "n": 1,
+          "color": "rosa"
+        }
+      ],
+      "Radiología": [
+        {
+          "label": "2h o menos",
+          "n": 1251,
+          "color": "verde"
+        },
+        {
+          "label": "3h",
+          "n": 48,
+          "color": "rosa"
+        },
+        {
+          "label": "4h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "5h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "6h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "9h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "10h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "11h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "12h",
+          "n": 11,
+          "color": "rosa"
+        },
+        {
+          "label": "13h",
+          "n": 51,
+          "color": "rosa"
+        },
+        {
+          "label": "14h",
+          "n": 35,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "16h",
+          "n": 11,
+          "color": "rosa"
+        },
+        {
+          "label": "17h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "19h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "20h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "21h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "22h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "23h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "24h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "25h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "26h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "28h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "29h",
+          "n": 93,
+          "color": "rosa"
+        },
+        {
+          "label": "30h",
+          "n": 84,
+          "color": "rosa"
+        },
+        {
+          "label": "31h",
+          "n": 20,
+          "color": "rosa"
+        },
+        {
+          "label": "32h",
+          "n": 4,
+          "color": "rosa"
+        },
+        {
+          "label": "33h",
+          "n": 34,
+          "color": "rosa"
+        },
+        {
+          "label": "34h",
+          "n": 40,
+          "color": "rosa"
+        },
+        {
+          "label": "35h",
+          "n": 135,
+          "color": "rosa"
+        },
+        {
+          "label": "36h",
+          "n": 60,
+          "color": "rosa"
+        },
+        {
+          "label": "37h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "42h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "43h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "44h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "45h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "46h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "47h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "49h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "52h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "53h",
+          "n": 24,
+          "color": "rosa"
+        },
+        {
+          "label": "54h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "55h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "56h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "57h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "58h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "59h",
+          "n": 37,
+          "color": "rosa"
+        },
+        {
+          "label": "60h",
+          "n": 54,
+          "color": "rosa"
+        },
+        {
+          "label": "65h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "73h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "77h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "81h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "82h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "314h",
+          "n": 1,
+          "color": "rosa"
+        }
+      ],
+      "RM": [
+        {
+          "label": "≤5h",
+          "n": 647,
+          "color": "verde"
+        },
+        {
+          "label": "6h",
+          "n": 24,
+          "color": "rosa"
+        },
+        {
+          "label": "7h",
+          "n": 15,
+          "color": "rosa"
+        },
+        {
+          "label": "8h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "9h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "10h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "11h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "12h",
+          "n": 29,
+          "color": "rosa"
+        },
+        {
+          "label": "13h",
+          "n": 50,
+          "color": "rosa"
+        },
+        {
+          "label": "14h",
+          "n": 86,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 83,
+          "color": "rosa"
+        },
+        {
+          "label": "16-20",
+          "n": 288,
+          "color": "rosa"
+        },
+        {
+          "label": "21-25",
+          "n": 293,
+          "color": "rosa"
+        },
+        {
+          "label": "26-30",
+          "n": 110,
+          "color": "rosa"
+        },
+        {
+          "label": "31-35",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "36-40",
+          "n": 19,
+          "color": "rosa"
+        },
+        {
+          "label": "41-45",
+          "n": 77,
+          "color": "rosa"
+        },
+        {
+          "label": "46-50",
+          "n": 128,
+          "color": "rosa"
+        },
+        {
+          "label": "≥51",
+          "n": 131,
+          "color": "rosa"
+        }
+      ],
+      "Tomografía": [
+        {
+          "label": "3h o menos",
+          "n": 700,
+          "color": "verde"
+        },
+        {
+          "label": "4h",
+          "n": 65,
+          "color": "rosa"
+        },
+        {
+          "label": "5h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "6h",
+          "n": 13,
+          "color": "rosa"
+        },
+        {
+          "label": "7h",
+          "n": 5,
+          "color": "rosa"
+        },
+        {
+          "label": "8h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "10h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "13h",
+          "n": 12,
+          "color": "rosa"
+        },
+        {
+          "label": "14h",
+          "n": 24,
+          "color": "rosa"
+        },
+        {
+          "label": "15h",
+          "n": 18,
+          "color": "rosa"
+        },
+        {
+          "label": "16h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "18h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "19h",
+          "n": 7,
+          "color": "rosa"
+        },
+        {
+          "label": "20h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "21h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "22h",
+          "n": 21,
+          "color": "rosa"
+        },
+        {
+          "label": "23h",
+          "n": 16,
+          "color": "rosa"
+        },
+        {
+          "label": "24h",
+          "n": 22,
+          "color": "rosa"
+        },
+        {
+          "label": "25h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "26h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "28h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "31h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "38h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "39h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "40h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "41h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "42h",
+          "n": 6,
+          "color": "rosa"
+        },
+        {
+          "label": "43h",
+          "n": 11,
+          "color": "rosa"
+        },
+        {
+          "label": "44h",
+          "n": 10,
+          "color": "rosa"
+        },
+        {
+          "label": "45h",
+          "n": 9,
+          "color": "rosa"
+        },
+        {
+          "label": "46h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "47h",
+          "n": 8,
+          "color": "rosa"
+        },
+        {
+          "label": "48h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "49h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "51h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "53h",
+          "n": 3,
+          "color": "rosa"
+        },
+        {
+          "label": "100h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "188h",
+          "n": 1,
+          "color": "rosa"
+        },
+        {
+          "label": "190h",
+          "n": 2,
+          "color": "rosa"
+        },
+        {
+          "label": "238h",
+          "n": 1,
+          "color": "rosa"
+        }
+      ]
+    },
     "usuarios_recibe": [
       {
         "usuario": "Mora Ponce Samanta Noemi",
         "total": 4230,
-        "incump": 118,
-        "pct_cumpl": 97.2,
+        "incump": 135,
+        "pct_cumpl": 96.8,
         "top_deptos": [
           {
             "depto": "Ecosonografía",
@@ -2348,8 +4173,8 @@ window.DASHBOARD_DATA = {
       {
         "usuario": "Cortés Vázquez Graciela",
         "total": 2018,
-        "incump": 15,
-        "pct_cumpl": 99.3,
+        "incump": 119,
+        "pct_cumpl": 94.1,
         "top_deptos": [
           {
             "depto": "Cardiología",
@@ -2368,8 +4193,8 @@ window.DASHBOARD_DATA = {
       {
         "usuario": "Rios Meza Oswaldo Josue",
         "total": 1979,
-        "incump": 79,
-        "pct_cumpl": 96.0,
+        "incump": 104,
+        "pct_cumpl": 94.7,
         "top_deptos": [
           {
             "depto": "Radiología",
@@ -2388,8 +4213,8 @@ window.DASHBOARD_DATA = {
       {
         "usuario": "González Pérez Humberto",
         "total": 1651,
-        "incump": 1,
-        "pct_cumpl": 99.9,
+        "incump": 35,
+        "pct_cumpl": 97.9,
         "top_deptos": [
           {
             "depto": "Radiología",
@@ -2592,8 +4417,8 @@ window.DASHBOARD_DATA = {
       {
         "usuario": "Anaya Constante Monica",
         "total": 117,
-        "incump": 3,
-        "pct_cumpl": 97.4,
+        "incump": 4,
+        "pct_cumpl": 96.6,
         "top_deptos": [
           {
             "depto": "Tomografía Axial Computada",
@@ -2817,31 +4642,31 @@ window.DASHBOARD_DATA = {
     "dist_af": [
       {
         "hora": 0,
-        "n": 288
+        "n": 314
       },
       {
         "hora": 1,
-        "n": 45
+        "n": 63
       },
       {
         "hora": 2,
-        "n": 19
+        "n": 33
       },
       {
         "hora": 3,
-        "n": 2
+        "n": 9
       },
       {
         "hora": 4,
-        "n": 3
+        "n": 9
       },
       {
         "hora": 5,
-        "n": 2
+        "n": 4
       },
       {
         "hora": 6,
-        "n": 1
+        "n": 3
       },
       {
         "hora": 7,
@@ -2869,47 +4694,47 @@ window.DASHBOARD_DATA = {
       },
       {
         "hora": 13,
-        "n": 3
-      },
-      {
-        "hora": 14,
         "n": 4
       },
       {
+        "hora": 14,
+        "n": 8
+      },
+      {
         "hora": 15,
-        "n": 5
+        "n": 8
       },
       {
         "hora": 16,
-        "n": 2
+        "n": 8
       },
       {
         "hora": 17,
-        "n": 1
+        "n": 9
       },
       {
         "hora": 18,
-        "n": 3
+        "n": 15
       },
       {
         "hora": 19,
-        "n": 2
+        "n": 14
       },
       {
         "hora": 20,
-        "n": 2
+        "n": 18
       },
       {
         "hora": 21,
-        "n": 3
+        "n": 34
       },
       {
         "hora": 22,
-        "n": 2
+        "n": 9
       },
       {
         "hora": 23,
-        "n": 2
+        "n": 8
       }
     ],
     "calor_hora": {
@@ -2931,20 +4756,20 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "Cardiología": {
-        "7": 0,
-        "8": 3,
-        "9": 1,
-        "10": 0,
-        "11": 0,
-        "12": 0,
-        "13": 1,
+        "7": 23,
+        "8": 45,
+        "9": 47,
+        "10": 32,
+        "11": 19,
+        "12": 11,
+        "13": 3,
         "14": 0,
-        "15": 0,
-        "16": 0,
+        "15": 3,
+        "16": 2,
         "17": 1,
         "18": 0,
         "19": 0,
-        "20": 0,
+        "20": 1,
         "21": 0
       },
       "Densitometría": {
@@ -3119,20 +4944,20 @@ window.DASHBOARD_DATA = {
       }
     },
     "calor_hora_total": {
-      "7": 11,
-      "8": 43,
-      "9": 52,
-      "10": 58,
-      "11": 40,
-      "12": 40,
-      "13": 42,
+      "7": 34,
+      "8": 85,
+      "9": 98,
+      "10": 90,
+      "11": 59,
+      "12": 51,
+      "13": 44,
       "14": 33,
-      "15": 22,
-      "16": 18,
+      "15": 25,
+      "16": 20,
       "17": 18,
       "18": 10,
       "19": 7,
-      "20": 6,
+      "20": 7,
       "21": 0
     },
     "calor_hora_deptos": [
@@ -3186,19 +5011,19 @@ window.DASHBOARD_DATA = {
       },
       "Cardiología": {
         "7": 0,
-        "8": 0,
-        "9": 0,
-        "10": 0,
-        "11": 0,
-        "12": 0,
-        "13": 4,
-        "14": 0,
-        "15": 0,
-        "16": 0,
-        "17": 1,
-        "18": 0,
-        "19": 1,
-        "20": 0,
+        "8": 2,
+        "9": 2,
+        "10": 13,
+        "11": 12,
+        "12": 16,
+        "13": 63,
+        "14": 24,
+        "15": 13,
+        "16": 13,
+        "17": 9,
+        "18": 11,
+        "19": 6,
+        "20": 3,
         "21": 0
       },
       "Densitometría": {
@@ -3374,87 +5199,87 @@ window.DASHBOARD_DATA = {
     },
     "calor_entrega_total": {
       "7": 12,
-      "8": 7,
-      "9": 27,
-      "10": 38,
-      "11": 42,
-      "12": 40,
-      "13": 47,
-      "14": 38,
-      "15": 42,
-      "16": 35,
-      "17": 34,
-      "18": 21,
-      "19": 9,
-      "20": 8,
+      "8": 9,
+      "9": 29,
+      "10": 51,
+      "11": 54,
+      "12": 56,
+      "13": 106,
+      "14": 62,
+      "15": 55,
+      "16": 48,
+      "17": 42,
+      "18": 32,
+      "19": 14,
+      "20": 11,
       "21": 0
     },
     "incump_dow": [
       {
         "dia": "Lunes",
         "total": 1849,
-        "incump": 85,
-        "pct_cumpl": 95.4
+        "incump": 120,
+        "pct_cumpl": 93.5
       },
       {
         "dia": "Martes",
         "total": 1705,
-        "incump": 53,
-        "pct_cumpl": 96.9
+        "incump": 75,
+        "pct_cumpl": 95.6
       },
       {
         "dia": "Miércoles",
         "total": 1732,
-        "incump": 56,
-        "pct_cumpl": 96.8
+        "incump": 87,
+        "pct_cumpl": 95.0
       },
       {
         "dia": "Jueves",
         "total": 1834,
-        "incump": 52,
-        "pct_cumpl": 97.2
+        "incump": 79,
+        "pct_cumpl": 95.7
       },
       {
         "dia": "Viernes",
         "total": 1918,
-        "incump": 67,
-        "pct_cumpl": 96.5
+        "incump": 132,
+        "pct_cumpl": 93.1
       },
       {
         "dia": "Sábado",
         "total": 1656,
-        "incump": 54,
+        "incump": 55,
         "pct_cumpl": 96.7
       }
     ],
     "dist_retraso": [
       {
         "horas": 0,
-        "n": 288
+        "n": 314
       },
       {
         "horas": 1,
-        "n": 45
+        "n": 63
       },
       {
         "horas": 2,
-        "n": 19
+        "n": 33
       },
       {
         "horas": 3,
-        "n": 2
+        "n": 9
       },
       {
         "horas": 4,
-        "n": 3
+        "n": 9
       },
       {
         "horas": 5,
-        "n": 2
+        "n": 4
       },
       {
         "horas": 6,
-        "n": 1
+        "n": 3
       },
       {
         "horas": 10,
@@ -3470,55 +5295,67 @@ window.DASHBOARD_DATA = {
       },
       {
         "horas": 13,
-        "n": 3
-      },
-      {
-        "horas": 14,
         "n": 4
       },
       {
+        "horas": 14,
+        "n": 8
+      },
+      {
         "horas": 15,
-        "n": 5
+        "n": 8
       },
       {
         "horas": 16,
-        "n": 2
+        "n": 8
       },
       {
         "horas": 17,
-        "n": 1
+        "n": 9
       },
       {
         "horas": 18,
-        "n": 3
+        "n": 15
       },
       {
         "horas": 19,
-        "n": 2
+        "n": 14
       },
       {
         "horas": 20,
-        "n": 2
+        "n": 18
       },
       {
         "horas": 21,
-        "n": 3
+        "n": 34
       },
       {
         "horas": 22,
-        "n": 2
+        "n": 9
       },
       {
         "horas": 23,
-        "n": 2
+        "n": 8
       }
     ],
-    "retraso_prom": 2.2,
-    "total_incump": 400
+    "retraso_prom": 5.4,
+    "total_incump": 581
   },
   "analisis_sem": {
     "18": {
       "incump_depto": [
+        {
+          "depto": "Cardiología",
+          "total": 273,
+          "incump": 41,
+          "pct_cumpl": 85.0,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 41
+            }
+          ]
+        },
         {
           "depto": "Radiología",
           "total": 348,
@@ -3651,13 +5488,6 @@ window.DASHBOARD_DATA = {
           "top_estudios": []
         },
         {
-          "depto": "Cardiología",
-          "total": 273,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
           "depto": "Eeg Y Mapeo Cerebral",
           "total": 20,
           "incump": 0,
@@ -3709,6 +5539,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 41
+        },
+        {
           "estudio": "TAC - Abdomen - Total [C]",
           "n": 3
         },
@@ -3743,10 +5577,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Mamografía - Bilateral",
           "n": 1
+        }
+      ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 120
         },
         {
-          "estudio": "RX Columna Sacro-Coxígea - 1P",
-          "n": 1
+          "estudio": "Eco de Mama",
+          "n": 119
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 111
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 106
+        },
+        {
+          "estudio": "RX Columna Lumbar - 2P",
+          "n": 89
         }
       ],
       "calor_deptos": [
@@ -3769,12 +5621,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 100.0,
+          "LM": 93.8,
           "AC": 100.0,
           "CH": 100.0,
           "GP": null,
           "CM": null,
-          "MP": 100.0,
+          "MP": 83.0,
           "LA": null
         },
         "Densitometría": {
@@ -3839,14 +5691,14 @@ window.DASHBOARD_DATA = {
           "n": 21
         },
         "Densitometría": {
-          "gc_avg": 1.21,
-          "gf_avg": 1.22,
-          "n": 51
+          "gc_avg": 1.19,
+          "gf_avg": 1.2,
+          "n": 53
         },
         "Ecosonografía": {
-          "gc_avg": 1.47,
-          "gf_avg": 1.38,
-          "n": 178
+          "gc_avg": 1.43,
+          "gf_avg": 1.31,
+          "n": 139
         },
         "Mamografía": {
           "gc_avg": 1.46,
@@ -3869,12 +5721,1035 @@ window.DASHBOARD_DATA = {
           "n": 90
         }
       },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 66.8,
+          "real_avg": 33.8,
+          "n": 273
+        },
+        "Densitometría": {
+          "ag_avg": 21.4,
+          "real_avg": 4.7,
+          "n": 115
+        },
+        "Ecosonografía": {
+          "ag_avg": 27.4,
+          "real_avg": 8.9,
+          "n": 403
+        },
+        "Mamografía": {
+          "ag_avg": 13.9,
+          "real_avg": 5.2,
+          "n": 109
+        },
+        "Radiología": {
+          "ag_avg": 22.9,
+          "real_avg": 6.0,
+          "n": 348
+        },
+        "RM": {
+          "ag_avg": 21.0,
+          "real_avg": 18.2,
+          "n": 222
+        },
+        "Tomografía": {
+          "ag_avg": 11.3,
+          "real_avg": 10.6,
+          "n": 132
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "4h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "50h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 18,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 28,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 18,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "69h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "76h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "77h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "78h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "79h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "80h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "105h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "106h",
+            "n": 21,
+            "color": "rosa"
+          },
+          {
+            "label": "107h",
+            "n": 20,
+            "color": "rosa"
+          },
+          {
+            "label": "108h",
+            "n": 9,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 53,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 4,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 139,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 26,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 30,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 18,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 37,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "37h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "39h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "47h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 22,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "191h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "193h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "237h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "238h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "239h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "271h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 68,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "37h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 3,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 143,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 22,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 18,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 40,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "37h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 24,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 16,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "73h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 80,
+            "color": "verde"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 41,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "36-40",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 13,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 90,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "38h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "39h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ]
+      },
       "usuarios_recibe": [
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 680,
-          "incump": 1,
-          "pct_cumpl": 99.9,
+          "incump": 32,
+          "pct_cumpl": 95.3,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -3893,8 +6768,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Mora Ponce Samanta Noemi",
           "total": 390,
-          "incump": 8,
-          "pct_cumpl": 97.9,
+          "incump": 10,
+          "pct_cumpl": 97.4,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -3913,8 +6788,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 246,
-          "incump": 1,
-          "pct_cumpl": 99.6,
+          "incump": 8,
+          "pct_cumpl": 96.7,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -3933,8 +6808,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 232,
-          "incump": 9,
-          "pct_cumpl": 96.1,
+          "incump": 10,
+          "pct_cumpl": 95.7,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -4290,7 +7165,7 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 25
+          "n": 28
         },
         {
           "hora": 1,
@@ -4302,11 +7177,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 3,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 4,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 5,
@@ -4346,39 +7221,39 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 14,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 15,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 16,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 17,
-          "n": 0
+          "n": 3
         },
         {
           "hora": 18,
-          "n": 0
+          "n": 3
         },
         {
           "hora": 19,
-          "n": 0
+          "n": 6
         },
         {
           "hora": 20,
-          "n": 0
+          "n": 10
         },
         {
           "hora": 21,
-          "n": 0
+          "n": 6
         },
         {
           "hora": 22,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 23,
@@ -4386,6 +7261,23 @@ window.DASHBOARD_DATA = {
         }
       ],
       "calor_hora": {
+        "Cardiología": {
+          "7": 1,
+          "8": 8,
+          "9": 8,
+          "10": 12,
+          "11": 7,
+          "12": 4,
+          "13": 0,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 0,
@@ -4490,15 +7382,15 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 1,
-        "8": 3,
-        "9": 4,
-        "10": 2,
-        "11": 3,
-        "12": 4,
+        "7": 2,
+        "8": 11,
+        "9": 12,
+        "10": 14,
+        "11": 10,
+        "12": 8,
         "13": 3,
         "14": 3,
-        "15": 1,
+        "15": 2,
         "16": 2,
         "17": 2,
         "18": 0,
@@ -4507,6 +7399,7 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "calor_hora_deptos": [
+        "Cardiología",
         "Densitometría",
         "Ecosonografía",
         "Mamografía",
@@ -4532,6 +7425,23 @@ window.DASHBOARD_DATA = {
         21
       ],
       "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 2,
+          "11": 4,
+          "12": 7,
+          "13": 11,
+          "14": 4,
+          "15": 4,
+          "16": 6,
+          "17": 1,
+          "18": 0,
+          "19": 0,
+          "20": 1,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 0,
@@ -4638,38 +7548,38 @@ window.DASHBOARD_DATA = {
       "calor_entrega_total": {
         "7": 0,
         "8": 1,
-        "9": 5,
-        "10": 1,
-        "11": 4,
-        "12": 3,
-        "13": 2,
-        "14": 2,
-        "15": 7,
-        "16": 2,
-        "17": 2,
+        "9": 6,
+        "10": 3,
+        "11": 8,
+        "12": 10,
+        "13": 13,
+        "14": 6,
+        "15": 11,
+        "16": 8,
+        "17": 3,
         "18": 1,
         "19": 0,
-        "20": 1,
+        "20": 2,
         "21": 0
       },
       "incump_dow": [
         {
           "dia": "Lunes",
           "total": 324,
-          "incump": 9,
-          "pct_cumpl": 97.2
+          "incump": 17,
+          "pct_cumpl": 94.8
         },
         {
           "dia": "Martes",
           "total": 327,
-          "incump": 5,
-          "pct_cumpl": 98.5
+          "incump": 16,
+          "pct_cumpl": 95.1
         },
         {
           "dia": "Miércoles",
           "total": 294,
-          "incump": 3,
-          "pct_cumpl": 99.0
+          "incump": 8,
+          "pct_cumpl": 97.3
         },
         {
           "dia": "Jueves",
@@ -4680,8 +7590,8 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Viernes",
           "total": 64,
-          "incump": 0,
-          "pct_cumpl": 100.0
+          "incump": 17,
+          "pct_cumpl": 73.4
         },
         {
           "dia": "Sábado",
@@ -4693,7 +7603,7 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 25
+          "n": 28
         },
         {
           "horas": 1,
@@ -4704,12 +7614,56 @@ window.DASHBOARD_DATA = {
           "n": 1
         },
         {
+          "horas": 3,
+          "n": 1
+        },
+        {
+          "horas": 4,
+          "n": 2
+        },
+        {
           "horas": 12,
           "n": 1
+        },
+        {
+          "horas": 14,
+          "n": 1
+        },
+        {
+          "horas": 15,
+          "n": 2
+        },
+        {
+          "horas": 16,
+          "n": 2
+        },
+        {
+          "horas": 17,
+          "n": 3
+        },
+        {
+          "horas": 18,
+          "n": 3
+        },
+        {
+          "horas": 19,
+          "n": 6
+        },
+        {
+          "horas": 20,
+          "n": 10
+        },
+        {
+          "horas": 21,
+          "n": 6
+        },
+        {
+          "horas": 22,
+          "n": 2
         }
       ],
-      "retraso_prom": 1.0,
-      "total_incump": 31
+      "retraso_prom": 10.1,
+      "total_incump": 72
     },
     "19": {
       "incump_depto": [
@@ -4738,6 +7692,18 @@ window.DASHBOARD_DATA = {
             {
               "estudio": "RM 3.0T Digital - Tórax a Muslo",
               "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Cardiología",
+          "total": 146,
+          "incump": 11,
+          "pct_cumpl": 92.5,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 11
             }
           ]
         },
@@ -4873,13 +7839,6 @@ window.DASHBOARD_DATA = {
           "top_estudios": []
         },
         {
-          "depto": "Cardiología",
-          "total": 146,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
           "depto": "Eeg Y Mapeo Cerebral",
           "total": 15,
           "incump": 0,
@@ -4917,6 +7876,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 11
+        },
+        {
           "estudio": "Densitometría de Cadera y Columna Lumbar",
           "n": 11
         },
@@ -4951,10 +7914,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Eco Obstétrico II Nivel Primer Trimestre con cálculo de riesgo",
           "n": 1
+        }
+      ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "Eco de Mama",
+          "n": 133
         },
         {
-          "estudio": "Eco de Tiroides",
-          "n": 1
+          "estudio": "Mamografía - Bilateral",
+          "n": 93
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 89
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 88
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 76
         }
       ],
       "calor_deptos": [
@@ -4977,12 +7958,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 100.0,
+          "LM": 98.0,
           "AC": null,
           "CH": null,
           "GP": null,
           "CM": 100.0,
-          "MP": 100.0,
+          "MP": 89.5,
           "LA": null
         },
         "Densitometría": {
@@ -5049,12 +8030,12 @@ window.DASHBOARD_DATA = {
         "Densitometría": {
           "gc_avg": 1.26,
           "gf_avg": 1.27,
-          "n": 75
+          "n": 77
         },
         "Ecosonografía": {
-          "gc_avg": 1.17,
-          "gf_avg": 1.25,
-          "n": 248
+          "gc_avg": 1.1,
+          "gf_avg": 1.09,
+          "n": 193
         },
         "Mamografía": {
           "gc_avg": 1.3,
@@ -5076,6 +8057,779 @@ window.DASHBOARD_DATA = {
           "gf_avg": 1.26,
           "n": 105
         }
+      },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 61.0,
+          "real_avg": 47.5,
+          "n": 146
+        },
+        "Densitometría": {
+          "ag_avg": 7.4,
+          "real_avg": 2.3,
+          "n": 92
+        },
+        "Ecosonografía": {
+          "ag_avg": 19.8,
+          "real_avg": 9.0,
+          "n": 358
+        },
+        "Mamografía": {
+          "ag_avg": 7.4,
+          "real_avg": 3.2,
+          "n": 110
+        },
+        "Radiología": {
+          "ag_avg": 10.1,
+          "real_avg": 2.6,
+          "n": 283
+        },
+        "RM": {
+          "ag_avg": 20.2,
+          "real_avg": 17.9,
+          "n": 279
+        },
+        "Tomografía": {
+          "ag_avg": 6.5,
+          "real_avg": 7.2,
+          "n": 133
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "3h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "99h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "102h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "105h",
+            "n": 16,
+            "color": "rosa"
+          },
+          {
+            "label": "106h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "130h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 77,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 3,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 193,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 39,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 28,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "75h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "213h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "214h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "215h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "216h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "217h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "244h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "245h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "261h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "262h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "263h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "265h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "271h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 93,
+            "color": "verde"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 177,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 27,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 16,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 4,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 82,
+            "color": "verde"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 46,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 44,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "36-40",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 18,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 12,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 105,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "100h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ]
       },
       "usuarios_recibe": [
         {
@@ -5101,8 +8855,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 237,
-          "incump": 8,
-          "pct_cumpl": 96.6,
+          "incump": 9,
+          "pct_cumpl": 96.2,
           "top_deptos": [
             {
               "depto": "Salud Visual",
@@ -5121,8 +8875,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 210,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 3,
+          "pct_cumpl": 98.6,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -5161,8 +8915,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 148,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 7,
+          "pct_cumpl": 95.3,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -5442,11 +9196,11 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 41
+          "n": 42
         },
         {
           "hora": 1,
-          "n": 7
+          "n": 9
         },
         {
           "hora": 2,
@@ -5458,11 +9212,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 4,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 5,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 6,
@@ -5518,15 +9272,15 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 19,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 20,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 21,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 22,
@@ -5534,10 +9288,27 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 23,
-          "n": 0
+          "n": 2
         }
       ],
       "calor_hora": {
+        "Cardiología": {
+          "7": 4,
+          "8": 3,
+          "9": 2,
+          "10": 1,
+          "11": 1,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 1,
           "8": 0,
@@ -5676,11 +9447,11 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 1,
-        "8": 8,
-        "9": 5,
-        "10": 10,
-        "11": 4,
+        "7": 5,
+        "8": 11,
+        "9": 7,
+        "10": 11,
+        "11": 5,
         "12": 7,
         "13": 6,
         "14": 3,
@@ -5693,6 +9464,7 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "calor_hora_deptos": [
+        "Cardiología",
         "Densitometría",
         "Ecosonografía",
         "Mamografía",
@@ -5720,6 +9492,23 @@ window.DASHBOARD_DATA = {
         21
       ],
       "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 1,
+          "12": 3,
+          "13": 2,
+          "14": 2,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 1,
+          "19": 0,
+          "20": 2,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 0,
@@ -5862,24 +9651,24 @@ window.DASHBOARD_DATA = {
         "8": 1,
         "9": 6,
         "10": 5,
-        "11": 6,
-        "12": 5,
-        "13": 4,
-        "14": 6,
+        "11": 7,
+        "12": 8,
+        "13": 6,
+        "14": 8,
         "15": 7,
         "16": 5,
         "17": 2,
-        "18": 3,
+        "18": 4,
         "19": 1,
-        "20": 0,
+        "20": 2,
         "21": 0
       },
       "incump_dow": [
         {
           "dia": "Lunes",
           "total": 243,
-          "incump": 10,
-          "pct_cumpl": 95.9
+          "incump": 17,
+          "pct_cumpl": 93.0
         },
         {
           "dia": "Martes",
@@ -5890,14 +9679,14 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Miércoles",
           "total": 213,
-          "incump": 11,
-          "pct_cumpl": 94.8
+          "incump": 12,
+          "pct_cumpl": 94.4
         },
         {
           "dia": "Jueves",
           "total": 303,
-          "incump": 7,
-          "pct_cumpl": 97.7
+          "incump": 10,
+          "pct_cumpl": 96.7
         },
         {
           "dia": "Viernes",
@@ -5915,11 +9704,11 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 41
+          "n": 42
         },
         {
           "horas": 1,
-          "n": 7
+          "n": 9
         },
         {
           "horas": 2,
@@ -5930,15 +9719,51 @@ window.DASHBOARD_DATA = {
           "n": 1
         },
         {
+          "horas": 4,
+          "n": 2
+        },
+        {
+          "horas": 5,
+          "n": 1
+        },
+        {
           "horas": 12,
+          "n": 2
+        },
+        {
+          "horas": 19,
+          "n": 1
+        },
+        {
+          "horas": 20,
+          "n": 1
+        },
+        {
+          "horas": 21,
+          "n": 1
+        },
+        {
+          "horas": 23,
           "n": 2
         }
       ],
-      "retraso_prom": 1.0,
-      "total_incump": 52
+      "retraso_prom": 2.9,
+      "total_incump": 63
     },
     "20": {
       "incump_depto": [
+        {
+          "depto": "Cardiología",
+          "total": 165,
+          "incump": 29,
+          "pct_cumpl": 82.4,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 29
+            }
+          ]
+        },
         {
           "depto": "Ecosonografía",
           "total": 307,
@@ -6068,18 +9893,6 @@ window.DASHBOARD_DATA = {
           ]
         },
         {
-          "depto": "Cardiología",
-          "total": 165,
-          "incump": 1,
-          "pct_cumpl": 99.4,
-          "top_estudios": [
-            {
-              "estudio": "Electrocardiograma",
-              "n": 1
-            }
-          ]
-        },
-        {
           "depto": "Salud Visual",
           "total": 96,
           "incump": 1,
@@ -6143,6 +9956,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 29
+        },
+        {
           "estudio": "Densitometría de Cadera y Columna Lumbar",
           "n": 8
         },
@@ -6167,10 +9984,6 @@ window.DASHBOARD_DATA = {
           "n": 2
         },
         {
-          "estudio": "Electrocardiograma",
-          "n": 1
-        },
-        {
           "estudio": "Eco de Pelvis Transvaginal",
           "n": 1
         },
@@ -6181,6 +9994,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Eco Obstétrico II Nivel Segundo Trimestre (18-24 Semanas)",
           "n": 1
+        }
+      ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 108
+        },
+        {
+          "estudio": "Eco de Mama",
+          "n": 100
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 97
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 78
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 74
         }
       ],
       "calor_deptos": [
@@ -6203,12 +10038,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 97.9,
+          "LM": 85.4,
           "AC": null,
           "CH": null,
           "GP": null,
           "CM": null,
-          "MP": 100.0,
+          "MP": 81.2,
           "LA": null
         },
         "Densitometría": {
@@ -6274,13 +10109,13 @@ window.DASHBOARD_DATA = {
         },
         "Densitometría": {
           "gc_avg": 1.07,
-          "gf_avg": 1.09,
-          "n": 85
+          "gf_avg": 1.08,
+          "n": 88
         },
         "Ecosonografía": {
-          "gc_avg": 1.28,
-          "gf_avg": 1.3,
-          "n": 202
+          "gc_avg": 1.19,
+          "gf_avg": 1.21,
+          "n": 173
         },
         "Mamografía": {
           "gc_avg": 1.36,
@@ -6303,12 +10138,835 @@ window.DASHBOARD_DATA = {
           "n": 96
         }
       },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 52.5,
+          "real_avg": 21.5,
+          "n": 165
+        },
+        "Densitometría": {
+          "ag_avg": 5.4,
+          "real_avg": 2.7,
+          "n": 109
+        },
+        "Ecosonografía": {
+          "ag_avg": 21.2,
+          "real_avg": 8.8,
+          "n": 307
+        },
+        "Mamografía": {
+          "ag_avg": 10.0,
+          "real_avg": 6.8,
+          "n": 113
+        },
+        "Radiología": {
+          "ag_avg": 12.8,
+          "real_avg": 3.2,
+          "n": 237
+        },
+        "RM": {
+          "ag_avg": 16.6,
+          "real_avg": 13.5,
+          "n": 219
+        },
+        "Tomografía": {
+          "ag_avg": 7.0,
+          "real_avg": 6.0,
+          "n": 130
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "2h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "80h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 21,
+            "color": "rosa"
+          },
+          {
+            "label": "84h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "106h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 88,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 173,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 21,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "77h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "188h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "191h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "193h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "235h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "263h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "264h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "265h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 88,
+            "color": "verde"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "222h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 150,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 24,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "77h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 90,
+            "color": "verde"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 28,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 31,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 7,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 96,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "40h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ]
+      },
       "usuarios_recibe": [
         {
           "usuario": "Mora Ponce Samanta Noemi",
           "total": 600,
-          "incump": 11,
-          "pct_cumpl": 98.2,
+          "incump": 12,
+          "pct_cumpl": 98.0,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -6327,8 +10985,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 247,
-          "incump": 7,
-          "pct_cumpl": 97.2,
+          "incump": 12,
+          "pct_cumpl": 95.1,
           "top_deptos": [
             {
               "depto": "Medicina Nuclear",
@@ -6347,8 +11005,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 206,
-          "incump": 8,
-          "pct_cumpl": 96.1,
+          "incump": 23,
+          "pct_cumpl": 88.8,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -6367,8 +11025,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 186,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 7,
+          "pct_cumpl": 96.2,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -6668,15 +11326,15 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 34
+          "n": 39
         },
         {
           "hora": 1,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 2,
-          "n": 2
+          "n": 5
         },
         {
           "hora": 3,
@@ -6684,7 +11342,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 4,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 5,
@@ -6732,31 +11390,31 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 16,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 17,
-          "n": 0
-        },
-        {
-          "hora": 18,
-          "n": 0
-        },
-        {
-          "hora": 19,
-          "n": 0
-        },
-        {
-          "hora": 20,
-          "n": 0
-        },
-        {
-          "hora": 21,
           "n": 2
         },
         {
+          "hora": 18,
+          "n": 1
+        },
+        {
+          "hora": 19,
+          "n": 2
+        },
+        {
+          "hora": 20,
+          "n": 1
+        },
+        {
+          "hora": 21,
+          "n": 7
+        },
+        {
           "hora": 22,
-          "n": 0
+          "n": 4
         },
         {
           "hora": 23,
@@ -6765,12 +11423,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor_hora": {
         "Cardiología": {
-          "7": 0,
-          "8": 0,
-          "9": 0,
-          "10": 0,
-          "11": 0,
-          "12": 0,
+          "7": 5,
+          "8": 9,
+          "9": 5,
+          "10": 6,
+          "11": 2,
+          "12": 1,
           "13": 1,
           "14": 0,
           "15": 0,
@@ -6902,12 +11560,12 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 1,
-        "8": 5,
-        "9": 4,
-        "10": 5,
-        "11": 3,
-        "12": 4,
+        "7": 6,
+        "8": 14,
+        "9": 9,
+        "10": 11,
+        "11": 5,
+        "12": 5,
         "13": 4,
         "14": 3,
         "15": 5,
@@ -6948,18 +11606,18 @@ window.DASHBOARD_DATA = {
       "calor_entrega": {
         "Cardiología": {
           "7": 0,
-          "8": 0,
+          "8": 1,
           "9": 0,
           "10": 0,
-          "11": 0,
-          "12": 0,
-          "13": 0,
-          "14": 0,
-          "15": 0,
-          "16": 0,
-          "17": 0,
-          "18": 0,
-          "19": 1,
+          "11": 3,
+          "12": 1,
+          "13": 12,
+          "14": 6,
+          "15": 2,
+          "16": 1,
+          "17": 2,
+          "18": 1,
+          "19": 0,
           "20": 0,
           "21": 0
         },
@@ -7085,18 +11743,18 @@ window.DASHBOARD_DATA = {
       },
       "calor_entrega_total": {
         "7": 0,
-        "8": 1,
+        "8": 2,
         "9": 5,
         "10": 6,
-        "11": 4,
-        "12": 4,
-        "13": 1,
-        "14": 6,
-        "15": 5,
-        "16": 2,
-        "17": 2,
-        "18": 2,
-        "19": 3,
+        "11": 7,
+        "12": 5,
+        "13": 13,
+        "14": 12,
+        "15": 7,
+        "16": 3,
+        "17": 4,
+        "18": 3,
+        "19": 2,
         "20": 1,
         "21": 0
       },
@@ -7104,51 +11762,55 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Lunes",
           "total": 175,
-          "incump": 8,
-          "pct_cumpl": 95.4
+          "incump": 9,
+          "pct_cumpl": 94.9
         },
         {
           "dia": "Martes",
           "total": 178,
-          "incump": 0,
-          "pct_cumpl": 100.0
+          "incump": 2,
+          "pct_cumpl": 98.9
         },
         {
           "dia": "Miércoles",
           "total": 198,
-          "incump": 3,
-          "pct_cumpl": 98.5
+          "incump": 9,
+          "pct_cumpl": 95.5
         },
         {
           "dia": "Jueves",
           "total": 207,
-          "incump": 7,
-          "pct_cumpl": 96.6
+          "incump": 12,
+          "pct_cumpl": 94.2
         },
         {
           "dia": "Viernes",
           "total": 285,
-          "incump": 15,
-          "pct_cumpl": 94.7
+          "incump": 28,
+          "pct_cumpl": 90.2
         },
         {
           "dia": "Sábado",
           "total": 185,
-          "incump": 5,
-          "pct_cumpl": 97.3
+          "incump": 6,
+          "pct_cumpl": 96.8
         }
       ],
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 34
+          "n": 39
         },
         {
           "horas": 1,
-          "n": 1
+          "n": 3
         },
         {
           "horas": 2,
+          "n": 5
+        },
+        {
+          "horas": 4,
           "n": 2
         },
         {
@@ -7160,12 +11822,36 @@ window.DASHBOARD_DATA = {
           "n": 2
         },
         {
-          "horas": 21,
+          "horas": 16,
+          "n": 1
+        },
+        {
+          "horas": 17,
           "n": 2
+        },
+        {
+          "horas": 18,
+          "n": 1
+        },
+        {
+          "horas": 19,
+          "n": 2
+        },
+        {
+          "horas": 20,
+          "n": 1
+        },
+        {
+          "horas": 21,
+          "n": 7
+        },
+        {
+          "horas": 22,
+          "n": 4
         }
       ],
-      "retraso_prom": 2.3,
-      "total_incump": 42
+      "retraso_prom": 6.4,
+      "total_incump": 70
     },
     "21": {
       "incump_depto": [
@@ -7262,6 +11948,18 @@ window.DASHBOARD_DATA = {
           ]
         },
         {
+          "depto": "Cardiología",
+          "total": 120,
+          "incump": 4,
+          "pct_cumpl": 96.7,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 4
+            }
+          ]
+        },
+        {
           "depto": "Ecosonografía",
           "total": 325,
           "incump": 4,
@@ -7349,13 +12047,6 @@ window.DASHBOARD_DATA = {
           "top_estudios": []
         },
         {
-          "depto": "Cardiología",
-          "total": 120,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
           "depto": "Eeg Y Mapeo Cerebral",
           "total": 20,
           "incump": 0,
@@ -7397,6 +12088,10 @@ window.DASHBOARD_DATA = {
           "n": 21
         },
         {
+          "estudio": "Electrocardiograma",
+          "n": 4
+        },
+        {
           "estudio": "RX Panorámica de Miembros Inferiores (Escanometría)",
           "n": 4
         },
@@ -7427,10 +12122,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Agudeza Visual",
           "n": 2
+        }
+      ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "Eco de Mama",
+          "n": 131
         },
         {
-          "estudio": "Diagnóstico Ojo Seco",
-          "n": 2
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 91
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 89
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 61
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 55
         }
       ],
       "calor_deptos": [
@@ -7453,12 +12166,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 100.0,
+          "LM": 97.7,
           "AC": 100.0,
           "CH": null,
           "GP": null,
           "CM": 100.0,
-          "MP": 100.0,
+          "MP": 96.0,
           "LA": null
         },
         "Densitometría": {
@@ -7523,14 +12236,14 @@ window.DASHBOARD_DATA = {
           "n": 20
         },
         "Densitometría": {
-          "gc_avg": 1.18,
-          "gf_avg": 1.24,
-          "n": 79
+          "gc_avg": 1.21,
+          "gf_avg": 1.26,
+          "n": 81
         },
         "Ecosonografía": {
-          "gc_avg": 1.51,
-          "gf_avg": 1.27,
-          "n": 237
+          "gc_avg": 1.37,
+          "gf_avg": 1.18,
+          "n": 210
         },
         "Mamografía": {
           "gc_avg": 1.15,
@@ -7552,6 +12265,814 @@ window.DASHBOARD_DATA = {
           "gf_avg": 1.38,
           "n": 90
         }
+      },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 53.5,
+          "real_avg": 29.2,
+          "n": 120
+        },
+        "Densitometría": {
+          "ag_avg": 5.5,
+          "real_avg": 6.6,
+          "n": 95
+        },
+        "Ecosonografía": {
+          "ag_avg": 18.5,
+          "real_avg": 10.4,
+          "n": 325
+        },
+        "Mamografía": {
+          "ag_avg": 11.6,
+          "real_avg": 10.7,
+          "n": 112
+        },
+        "Radiología": {
+          "ag_avg": 11.8,
+          "real_avg": 4.3,
+          "n": 218
+        },
+        "RM": {
+          "ag_avg": 21.7,
+          "real_avg": 17.3,
+          "n": 270
+        },
+        "Tomografía": {
+          "ag_avg": 7.8,
+          "real_avg": 6.0,
+          "n": 135
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "1h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "2h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "3h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "80h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 25,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "84h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 81,
+            "color": "verde"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 209,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 19,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "50h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "191h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "193h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "195h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "237h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "239h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 88,
+            "color": "verde"
+          },
+          {
+            "label": "18h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "220h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "222h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 142,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 85,
+            "color": "verde"
+          },
+          {
+            "label": "6h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 34,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 42,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 21,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 21,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 90,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "41h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "48h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ]
       },
       "usuarios_recibe": [
         {
@@ -7577,8 +13098,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 259,
-          "incump": 19,
-          "pct_cumpl": 92.7,
+          "incump": 20,
+          "pct_cumpl": 92.3,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -7597,8 +13118,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 207,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 1,
+          "pct_cumpl": 99.5,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -7657,8 +13178,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 84,
-          "incump": 2,
-          "pct_cumpl": 97.6,
+          "incump": 4,
+          "pct_cumpl": 95.2,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -7930,7 +13451,7 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 52
+          "n": 53
         },
         {
           "hora": 1,
@@ -7938,11 +13459,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 2,
-          "n": 2
+          "n": 3
         },
         {
           "hora": 3,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 4,
@@ -7986,7 +13507,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 14,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 15,
@@ -8026,6 +13547,23 @@ window.DASHBOARD_DATA = {
         }
       ],
       "calor_hora": {
+        "Cardiología": {
+          "7": 0,
+          "8": 2,
+          "9": 1,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 1,
@@ -8182,9 +13720,9 @@ window.DASHBOARD_DATA = {
       },
       "calor_hora_total": {
         "7": 1,
-        "8": 3,
-        "9": 11,
-        "10": 10,
+        "8": 5,
+        "9": 12,
+        "10": 11,
         "11": 8,
         "12": 7,
         "13": 5,
@@ -8198,6 +13736,7 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "calor_hora_deptos": [
+        "Cardiología",
         "Densitometría",
         "Ecosonografía",
         "Mamografía",
@@ -8226,6 +13765,23 @@ window.DASHBOARD_DATA = {
         21
       ],
       "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 1,
+          "14": 0,
+          "15": 1,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 1,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 0,
@@ -8384,16 +13940,16 @@ window.DASHBOARD_DATA = {
         "7": 3,
         "8": 0,
         "9": 0,
-        "10": 4,
+        "10": 5,
         "11": 9,
         "12": 7,
-        "13": 8,
+        "13": 9,
         "14": 10,
-        "15": 4,
+        "15": 5,
         "16": 5,
         "17": 8,
         "18": 5,
-        "19": 1,
+        "19": 2,
         "20": 2,
         "21": 0
       },
@@ -8401,14 +13957,14 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Lunes",
           "total": 207,
-          "incump": 12,
-          "pct_cumpl": 94.2
+          "incump": 13,
+          "pct_cumpl": 93.7
         },
         {
           "dia": "Martes",
           "total": 201,
-          "incump": 6,
-          "pct_cumpl": 97.0
+          "incump": 7,
+          "pct_cumpl": 96.5
         },
         {
           "dia": "Miércoles",
@@ -8425,8 +13981,8 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Viernes",
           "total": 244,
-          "incump": 9,
-          "pct_cumpl": 96.3
+          "incump": 11,
+          "pct_cumpl": 95.5
         },
         {
           "dia": "Sábado",
@@ -8438,7 +13994,7 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 52
+          "n": 53
         },
         {
           "horas": 1,
@@ -8446,7 +14002,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "horas": 2,
-          "n": 2
+          "n": 3
+        },
+        {
+          "horas": 3,
+          "n": 1
         },
         {
           "horas": 4,
@@ -8459,10 +14019,14 @@ window.DASHBOARD_DATA = {
         {
           "horas": 11,
           "n": 1
+        },
+        {
+          "horas": 14,
+          "n": 1
         }
       ],
-      "retraso_prom": 1.1,
-      "total_incump": 66
+      "retraso_prom": 1.4,
+      "total_incump": 70
     },
     "22": {
       "incump_depto": [
@@ -8491,6 +14055,18 @@ window.DASHBOARD_DATA = {
             {
               "estudio": "RX Rodilla - 2P",
               "n": 1
+            }
+          ]
+        },
+        {
+          "depto": "Cardiología",
+          "total": 117,
+          "incump": 13,
+          "pct_cumpl": 88.9,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 13
             }
           ]
         },
@@ -8626,13 +14202,6 @@ window.DASHBOARD_DATA = {
           "top_estudios": []
         },
         {
-          "depto": "Cardiología",
-          "total": 117,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
           "depto": "Eeg Y Mapeo Cerebral",
           "total": 29,
           "incump": 0,
@@ -8684,6 +14253,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 13
+        },
+        {
           "estudio": "Mamografía - Bilateral",
           "n": 7
         },
@@ -8718,10 +14291,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Densitometría de 3 Regiones (excepto Cuerpo entero)",
           "n": 1
+        }
+      ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "Eco de Mama",
+          "n": 126
         },
         {
-          "estudio": "Eco Doppler - 1 extremidad - Venoso",
-          "n": 1
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 116
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 115
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 70
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 61
         }
       ],
       "calor_deptos": [
@@ -8744,12 +14335,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 100.0,
+          "LM": 92.5,
           "AC": 100.0,
           "CH": null,
           "GP": null,
           "CM": null,
-          "MP": 100.0,
+          "MP": 86.7,
           "LA": null
         },
         "Densitometría": {
@@ -8814,14 +14405,14 @@ window.DASHBOARD_DATA = {
           "n": 24
         },
         "Densitometría": {
-          "gc_avg": 1.14,
-          "gf_avg": 1.14,
-          "n": 92
+          "gc_avg": 1.24,
+          "gf_avg": 1.21,
+          "n": 95
         },
         "Ecosonografía": {
-          "gc_avg": 1.25,
-          "gf_avg": 1.24,
-          "n": 209
+          "gc_avg": 1.05,
+          "gf_avg": 1.02,
+          "n": 167
         },
         "Mamografía": {
           "gc_avg": 1.38,
@@ -8844,12 +14435,890 @@ window.DASHBOARD_DATA = {
           "n": 99
         }
       },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 52.0,
+          "real_avg": 20.0,
+          "n": 117
+        },
+        "Densitometría": {
+          "ag_avg": 6.5,
+          "real_avg": 2.1,
+          "n": 120
+        },
+        "Ecosonografía": {
+          "ag_avg": 20.3,
+          "real_avg": 8.5,
+          "n": 320
+        },
+        "Mamografía": {
+          "ag_avg": 9.5,
+          "real_avg": 5.2,
+          "n": 127
+        },
+        "Radiología": {
+          "ag_avg": 15.3,
+          "real_avg": 4.0,
+          "n": 243
+        },
+        "RM": {
+          "ag_avg": 19.0,
+          "real_avg": 16.5,
+          "n": 298
+        },
+        "Tomografía": {
+          "ag_avg": 12.2,
+          "real_avg": 12.7,
+          "n": 154
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "1h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "47h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "48h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "50h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "78h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "80h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 19,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "84h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 95,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 167,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 32,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "84h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "189h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "191h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "237h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "238h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "239h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "273h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 96,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "67h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 138,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "47h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "314h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 103,
+            "color": "verde"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 16,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 57,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 23,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "36-40",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 19,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 14,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 99,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "41h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "45h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "47h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ]
+      },
       "usuarios_recibe": [
         {
           "usuario": "Mora Ponce Samanta Noemi",
           "total": 620,
-          "incump": 18,
-          "pct_cumpl": 97.1,
+          "incump": 20,
+          "pct_cumpl": 96.8,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -8868,8 +15337,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 243,
-          "incump": 6,
-          "pct_cumpl": 97.5,
+          "incump": 7,
+          "pct_cumpl": 97.1,
           "top_deptos": [
             {
               "depto": "Medicina Nuclear",
@@ -8888,8 +15357,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 177,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 5,
+          "pct_cumpl": 97.2,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -8908,8 +15377,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 120,
-          "incump": 1,
-          "pct_cumpl": 99.2,
+          "incump": 6,
+          "pct_cumpl": 95.0,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -9177,7 +15646,7 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 38
+          "n": 43
         },
         {
           "hora": 1,
@@ -9249,11 +15718,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 18,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 19,
-          "n": 1
+          "n": 2
         },
         {
           "hora": 20,
@@ -9261,18 +15730,35 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 21,
-          "n": 0
+          "n": 3
         },
         {
           "hora": 22,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 23,
-          "n": 1
+          "n": 2
         }
       ],
       "calor_hora": {
+        "Cardiología": {
+          "7": 3,
+          "8": 2,
+          "9": 6,
+          "10": 2,
+          "11": 0,
+          "12": 0,
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 3,
@@ -9394,10 +15880,10 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 0,
-        "8": 7,
-        "9": 6,
-        "10": 9,
+        "7": 3,
+        "8": 9,
+        "9": 12,
+        "10": 11,
         "11": 9,
         "12": 3,
         "13": 7,
@@ -9411,6 +15897,7 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "calor_hora_deptos": [
+        "Cardiología",
         "Densitometría",
         "Ecosonografía",
         "Mamografía",
@@ -9437,6 +15924,23 @@ window.DASHBOARD_DATA = {
         21
       ],
       "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 1,
+          "12": 0,
+          "13": 5,
+          "14": 2,
+          "15": 1,
+          "16": 1,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 0,
@@ -9561,13 +16065,13 @@ window.DASHBOARD_DATA = {
         "7": 1,
         "8": 0,
         "9": 4,
-        "10": 7,
-        "11": 5,
+        "10": 10,
+        "11": 6,
         "12": 4,
-        "13": 13,
-        "14": 2,
-        "15": 6,
-        "16": 6,
+        "13": 18,
+        "14": 4,
+        "15": 7,
+        "16": 7,
         "17": 6,
         "18": 1,
         "19": 0,
@@ -9578,8 +16082,8 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Lunes",
           "total": 217,
-          "incump": 13,
-          "pct_cumpl": 94.0
+          "incump": 16,
+          "pct_cumpl": 92.6
         },
         {
           "dia": "Martes",
@@ -9590,20 +16094,20 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Miércoles",
           "total": 191,
-          "incump": 5,
-          "pct_cumpl": 97.4
+          "incump": 10,
+          "pct_cumpl": 94.8
         },
         {
           "dia": "Jueves",
           "total": 210,
-          "incump": 5,
-          "pct_cumpl": 97.6
+          "incump": 6,
+          "pct_cumpl": 97.1
         },
         {
           "dia": "Viernes",
           "total": 241,
-          "incump": 10,
-          "pct_cumpl": 95.9
+          "incump": 14,
+          "pct_cumpl": 94.2
         },
         {
           "dia": "Sábado",
@@ -9615,7 +16119,7 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 38
+          "n": 43
         },
         {
           "horas": 1,
@@ -9639,22 +16143,42 @@ window.DASHBOARD_DATA = {
         },
         {
           "horas": 18,
-          "n": 1
+          "n": 3
         },
         {
           "horas": 19,
+          "n": 2
+        },
+        {
+          "horas": 21,
+          "n": 3
+        },
+        {
+          "horas": 22,
           "n": 1
         },
         {
           "horas": 23,
-          "n": 1
+          "n": 2
         }
       ],
-      "retraso_prom": 2.3,
-      "total_incump": 55
+      "retraso_prom": 4.4,
+      "total_incump": 68
     },
     "23": {
       "incump_depto": [
+        {
+          "depto": "Cardiología",
+          "total": 137,
+          "incump": 27,
+          "pct_cumpl": 80.3,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 27
+            }
+          ]
+        },
         {
           "depto": "Resonancia Magnética",
           "total": 231,
@@ -9812,13 +16336,6 @@ window.DASHBOARD_DATA = {
           ]
         },
         {
-          "depto": "Cardiología",
-          "total": 137,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
           "depto": "Eeg Y Mapeo Cerebral",
           "total": 19,
           "incump": 0,
@@ -9870,6 +16387,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 27
+        },
+        {
           "estudio": "Densitometría de Cadera y Columna Lumbar",
           "n": 5
         },
@@ -9904,10 +16425,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Análisis de Composición Corporal",
           "n": 1
-        },
+        }
+      ],
+      "top_estudios_volumen": [
         {
           "estudio": "Eco de Mama",
-          "n": 1
+          "n": 118
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 99
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 91
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 91
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 82
         }
       ],
       "calor_deptos": [
@@ -9930,12 +16469,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 100.0,
-          "AC": 100.0,
+          "LM": 79.7,
+          "AC": 0.0,
           "CH": null,
           "GP": null,
           "CM": null,
-          "MP": 100.0,
+          "MP": 81.9,
           "LA": null
         },
         "Densitometría": {
@@ -10001,13 +16540,13 @@ window.DASHBOARD_DATA = {
         },
         "Densitometría": {
           "gc_avg": 1.1,
-          "gf_avg": 1.1,
-          "n": 87
+          "gf_avg": 1.09,
+          "n": 88
         },
         "Ecosonografía": {
-          "gc_avg": 1.43,
-          "gf_avg": 1.47,
-          "n": 192
+          "gc_avg": 1.18,
+          "gf_avg": 1.21,
+          "n": 155
         },
         "Mamografía": {
           "gc_avg": 1.38,
@@ -10030,12 +16569,810 @@ window.DASHBOARD_DATA = {
           "n": 83
         }
       },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 46.3,
+          "real_avg": 14.9,
+          "n": 137
+        },
+        "Densitometría": {
+          "ag_avg": 3.6,
+          "real_avg": 2.1,
+          "n": 98
+        },
+        "Ecosonografía": {
+          "ag_avg": 18.9,
+          "real_avg": 7.6,
+          "n": 295
+        },
+        "Mamografía": {
+          "ag_avg": 8.0,
+          "real_avg": 3.4,
+          "n": 110
+        },
+        "Radiología": {
+          "ag_avg": 11.4,
+          "real_avg": 3.9,
+          "n": 270
+        },
+        "RM": {
+          "ag_avg": 20.7,
+          "real_avg": 16.5,
+          "n": 231
+        },
+        "Tomografía": {
+          "ag_avg": 8.1,
+          "real_avg": 7.1,
+          "n": 114
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "3h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "84h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "105h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "106h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "107h",
+            "n": 6,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 88,
+            "color": "verde"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 155,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 28,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 20,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "37h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "193h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "199h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "240h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "241h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 88,
+            "color": "verde"
+          },
+          {
+            "label": "5h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "68h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 172,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "37h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 6,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 67,
+            "color": "verde"
+          },
+          {
+            "label": "6h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 29,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 36,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 17,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 83,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "47h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "238h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ]
+      },
       "usuarios_recibe": [
         {
           "usuario": "Mora Ponce Samanta Noemi",
           "total": 533,
-          "incump": 8,
-          "pct_cumpl": 98.5,
+          "incump": 16,
+          "pct_cumpl": 97.0,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -10054,8 +17391,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 277,
-          "incump": 12,
-          "pct_cumpl": 95.7,
+          "incump": 17,
+          "pct_cumpl": 93.9,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -10074,8 +17411,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 214,
-          "incump": 1,
-          "pct_cumpl": 99.5,
+          "incump": 14,
+          "pct_cumpl": 93.5,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -10094,8 +17431,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 103,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 1,
+          "pct_cumpl": 99.0,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -10415,15 +17752,15 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 33
+          "n": 38
         },
         {
           "hora": 1,
-          "n": 7
+          "n": 11
         },
         {
           "hora": 2,
-          "n": 1
+          "n": 2
         },
         {
           "hora": 3,
@@ -10467,11 +17804,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 13,
-          "n": 1
+          "n": 2
         },
         {
           "hora": 14,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 15,
@@ -10479,7 +17816,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 16,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 17,
@@ -10487,19 +17824,19 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 18,
-          "n": 0
+          "n": 3
         },
         {
           "hora": 19,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 20,
-          "n": 1
+          "n": 2
         },
         {
           "hora": 21,
-          "n": 1
+          "n": 8
         },
         {
           "hora": 22,
@@ -10526,6 +17863,23 @@ window.DASHBOARD_DATA = {
           "18": 0,
           "19": 0,
           "20": 0,
+          "21": 0
+        },
+        "Cardiología": {
+          "7": 4,
+          "8": 7,
+          "9": 10,
+          "10": 1,
+          "11": 0,
+          "12": 0,
+          "13": 2,
+          "14": 0,
+          "15": 0,
+          "16": 2,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 1,
           "21": 0
         },
         "Densitometría": {
@@ -10649,24 +18003,25 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 2,
-        "8": 5,
-        "9": 7,
-        "10": 4,
+        "7": 6,
+        "8": 12,
+        "9": 17,
+        "10": 5,
         "11": 5,
         "12": 3,
-        "13": 7,
+        "13": 9,
         "14": 3,
         "15": 5,
-        "16": 1,
+        "16": 3,
         "17": 3,
         "18": 0,
         "19": 1,
-        "20": 0,
+        "20": 1,
         "21": 0
       },
       "calor_hora_deptos": [
         "Bioimpedanciología",
+        "Cardiología",
         "Densitometría",
         "Ecosonografía",
         "Radiología",
@@ -10704,6 +18059,23 @@ window.DASHBOARD_DATA = {
           "14": 0,
           "15": 0,
           "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
+        "Cardiología": {
+          "7": 0,
+          "8": 0,
+          "9": 1,
+          "10": 5,
+          "11": 2,
+          "12": 1,
+          "13": 11,
+          "14": 4,
+          "15": 1,
+          "16": 2,
           "17": 0,
           "18": 0,
           "19": 0,
@@ -10833,14 +18205,14 @@ window.DASHBOARD_DATA = {
       "calor_entrega_total": {
         "7": 3,
         "8": 1,
-        "9": 1,
-        "10": 6,
-        "11": 1,
-        "12": 2,
-        "13": 4,
-        "14": 5,
-        "15": 6,
-        "16": 3,
+        "9": 2,
+        "10": 11,
+        "11": 3,
+        "12": 3,
+        "13": 15,
+        "14": 9,
+        "15": 7,
+        "16": 5,
         "17": 9,
         "18": 2,
         "19": 2,
@@ -10851,32 +18223,32 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Lunes",
           "total": 202,
-          "incump": 8,
-          "pct_cumpl": 96.0
+          "incump": 10,
+          "pct_cumpl": 95.0
         },
         {
           "dia": "Martes",
           "total": 183,
-          "incump": 1,
-          "pct_cumpl": 99.5
+          "incump": 2,
+          "pct_cumpl": 98.9
         },
         {
           "dia": "Miércoles",
           "total": 227,
-          "incump": 8,
-          "pct_cumpl": 96.5
+          "incump": 16,
+          "pct_cumpl": 93.0
         },
         {
           "dia": "Jueves",
           "total": 189,
-          "incump": 6,
-          "pct_cumpl": 96.8
+          "incump": 13,
+          "pct_cumpl": 93.1
         },
         {
           "dia": "Viernes",
           "total": 252,
-          "incump": 13,
-          "pct_cumpl": 94.8
+          "incump": 22,
+          "pct_cumpl": 91.3
         },
         {
           "dia": "Sábado",
@@ -10888,15 +18260,15 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 33
+          "n": 38
         },
         {
           "horas": 1,
-          "n": 7
+          "n": 11
         },
         {
           "horas": 2,
-          "n": 1
+          "n": 2
         },
         {
           "horas": 12,
@@ -10904,26 +18276,54 @@ window.DASHBOARD_DATA = {
         },
         {
           "horas": 13,
-          "n": 1
+          "n": 2
         },
         {
           "horas": 14,
+          "n": 3
+        },
+        {
+          "horas": 16,
           "n": 1
+        },
+        {
+          "horas": 18,
+          "n": 3
+        },
+        {
+          "horas": 19,
+          "n": 2
         },
         {
           "horas": 20,
-          "n": 1
+          "n": 2
         },
         {
           "horas": 21,
-          "n": 1
+          "n": 8
         }
       ],
-      "retraso_prom": 2.3,
-      "total_incump": 46
+      "retraso_prom": 6.1,
+      "total_incump": 73
     },
     "24": {
       "incump_depto": [
+        {
+          "depto": "Cardiología",
+          "total": 145,
+          "incump": 26,
+          "pct_cumpl": 82.1,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 25
+            },
+            {
+              "estudio": "Mapa de 24 horas",
+              "n": 1
+            }
+          ]
+        },
         {
           "depto": "Radiología",
           "total": 299,
@@ -11065,22 +18465,6 @@ window.DASHBOARD_DATA = {
           ]
         },
         {
-          "depto": "Cardiología",
-          "total": 145,
-          "incump": 5,
-          "pct_cumpl": 96.6,
-          "top_estudios": [
-            {
-              "estudio": "Electrocardiograma",
-              "n": 4
-            },
-            {
-              "estudio": "Mapa de 24 horas",
-              "n": 1
-            }
-          ]
-        },
-        {
           "depto": "Salud Visual",
           "total": 105,
           "incump": 2,
@@ -11160,6 +18544,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 25
+        },
+        {
           "estudio": "Densitometría de Cadera y Columna Lumbar",
           "n": 5
         },
@@ -11170,10 +18558,6 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Mamografía - Bilateral",
           "n": 5
-        },
-        {
-          "estudio": "Electrocardiograma",
-          "n": 4
         },
         {
           "estudio": "RM 3.0T Digital - Cráneo",
@@ -11200,6 +18584,28 @@ window.DASHBOARD_DATA = {
           "n": 2
         }
       ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "Eco de Mama",
+          "n": 137
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 106
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 94
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 90
+        },
+        {
+          "estudio": "Electrocardiograma",
+          "n": 88
+        }
+      ],
       "calor_deptos": [
         "Cardiología",
         "Densitometría",
@@ -11220,12 +18626,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 90.0,
+          "LM": 78.0,
           "AC": null,
           "CH": null,
           "GP": null,
           "CM": null,
-          "MP": 100.0,
+          "MP": 84.2,
           "LA": null
         },
         "Densitometría": {
@@ -11290,14 +18696,14 @@ window.DASHBOARD_DATA = {
           "n": 40
         },
         "Densitometría": {
-          "gc_avg": 1.19,
-          "gf_avg": 1.24,
-          "n": 68
+          "gc_avg": 1.35,
+          "gf_avg": 1.36,
+          "n": 71
         },
         "Ecosonografía": {
-          "gc_avg": 1.53,
-          "gf_avg": 1.43,
-          "n": 231
+          "gc_avg": 1.47,
+          "gf_avg": 1.32,
+          "n": 186
         },
         "Mamografía": {
           "gc_avg": 1.2,
@@ -11320,12 +18726,880 @@ window.DASHBOARD_DATA = {
           "n": 61
         }
       },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 50.5,
+          "real_avg": 24.4,
+          "n": 145
+        },
+        "Densitometría": {
+          "ag_avg": 7.4,
+          "real_avg": 2.4,
+          "n": 94
+        },
+        "Ecosonografía": {
+          "ag_avg": 20.2,
+          "real_avg": 8.9,
+          "n": 384
+        },
+        "Mamografía": {
+          "ag_avg": 8.4,
+          "real_avg": 2.7,
+          "n": 116
+        },
+        "Radiología": {
+          "ag_avg": 15.6,
+          "real_avg": 4.1,
+          "n": 299
+        },
+        "RM": {
+          "ag_avg": 25.8,
+          "real_avg": 19.6,
+          "n": 243
+        },
+        "Tomografía": {
+          "ag_avg": 9.8,
+          "real_avg": 7.1,
+          "n": 111
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "1h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "2h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "3h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 12,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "80h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "84h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 71,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 186,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 31,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 43,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 34,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "50h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "191h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "238h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "240h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "241h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "242h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 89,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "27h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "32h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "50h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "52h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 161,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "16h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "17h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 41,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 32,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 8,
+            "color": "rosa"
+          },
+          {
+            "label": "65h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 46,
+            "color": "verde"
+          },
+          {
+            "label": "6h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "9h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 39,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 37,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "31-35",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 35,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 61,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "188h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ]
+      },
       "usuarios_recibe": [
         {
           "usuario": "Mora Ponce Samanta Noemi",
           "total": 493,
-          "incump": 25,
-          "pct_cumpl": 94.9,
+          "incump": 27,
+          "pct_cumpl": 94.5,
           "top_deptos": [
             {
               "depto": "Resonancia Magnética",
@@ -11344,8 +19618,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 338,
-          "incump": 1,
-          "pct_cumpl": 99.7,
+          "incump": 16,
+          "pct_cumpl": 95.3,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -11364,8 +19638,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 267,
-          "incump": 14,
-          "pct_cumpl": 94.8,
+          "incump": 18,
+          "pct_cumpl": 93.3,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -11733,19 +20007,19 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 39
+          "n": 44
         },
         {
           "hora": 1,
-          "n": 13
+          "n": 15
         },
         {
           "hora": 2,
-          "n": 8
+          "n": 11
         },
         {
           "hora": 3,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 4,
@@ -11753,11 +20027,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 5,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 6,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 7,
@@ -11801,7 +20075,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 17,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 18,
@@ -11813,11 +20087,11 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 20,
-          "n": 1
+          "n": 4
         },
         {
           "hora": 21,
-          "n": 0
+          "n": 2
         },
         {
           "hora": 22,
@@ -11830,12 +20104,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor_hora": {
         "Cardiología": {
-          "7": 0,
-          "8": 3,
-          "9": 1,
-          "10": 0,
-          "11": 0,
-          "12": 0,
+          "7": 2,
+          "8": 7,
+          "9": 6,
+          "10": 4,
+          "11": 3,
+          "12": 3,
           "13": 0,
           "14": 0,
           "15": 0,
@@ -11984,12 +20258,12 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 3,
-        "8": 7,
-        "9": 10,
-        "10": 12,
-        "11": 7,
-        "12": 10,
+        "7": 5,
+        "8": 11,
+        "9": 15,
+        "10": 16,
+        "11": 10,
+        "12": 13,
         "13": 2,
         "14": 5,
         "15": 3,
@@ -12035,14 +20309,14 @@ window.DASHBOARD_DATA = {
           "9": 0,
           "10": 0,
           "11": 0,
-          "12": 0,
-          "13": 4,
-          "14": 0,
-          "15": 0,
-          "16": 0,
+          "12": 3,
+          "13": 12,
+          "14": 2,
+          "15": 1,
+          "16": 3,
           "17": 1,
-          "18": 0,
-          "19": 0,
+          "18": 3,
+          "19": 1,
           "20": 0,
           "21": 0
         },
@@ -12189,14 +20463,14 @@ window.DASHBOARD_DATA = {
         "9": 0,
         "10": 6,
         "11": 8,
-        "12": 10,
-        "13": 11,
-        "14": 6,
-        "15": 3,
-        "16": 11,
+        "12": 13,
+        "13": 19,
+        "14": 8,
+        "15": 4,
+        "16": 14,
         "17": 3,
-        "18": 6,
-        "19": 2,
+        "18": 9,
+        "19": 3,
         "20": 0,
         "21": 0
       },
@@ -12204,32 +20478,32 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Lunes",
           "total": 216,
-          "incump": 17,
-          "pct_cumpl": 92.1
+          "incump": 22,
+          "pct_cumpl": 89.8
         },
         {
           "dia": "Martes",
           "total": 185,
-          "incump": 14,
-          "pct_cumpl": 92.4
+          "incump": 16,
+          "pct_cumpl": 91.4
         },
         {
           "dia": "Miércoles",
           "total": 208,
-          "incump": 6,
-          "pct_cumpl": 97.1
+          "incump": 9,
+          "pct_cumpl": 95.7
         },
         {
           "dia": "Jueves",
           "total": 199,
-          "incump": 2,
-          "pct_cumpl": 99.0
+          "incump": 4,
+          "pct_cumpl": 98.0
         },
         {
           "dia": "Viernes",
           "total": 324,
-          "incump": 14,
-          "pct_cumpl": 95.7
+          "incump": 23,
+          "pct_cumpl": 92.9
         },
         {
           "dia": "Sábado",
@@ -12241,18 +20515,26 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 39
+          "n": 44
         },
         {
           "horas": 1,
-          "n": 13
+          "n": 15
         },
         {
           "horas": 2,
-          "n": 8
+          "n": 11
         },
         {
           "horas": 3,
+          "n": 3
+        },
+        {
+          "horas": 5,
+          "n": 1
+        },
+        {
+          "horas": 6,
           "n": 1
         },
         {
@@ -12269,11 +20551,15 @@ window.DASHBOARD_DATA = {
         },
         {
           "horas": 17,
-          "n": 1
+          "n": 3
         },
         {
           "horas": 20,
-          "n": 1
+          "n": 4
+        },
+        {
+          "horas": 21,
+          "n": 2
         },
         {
           "horas": 22,
@@ -12284,11 +20570,23 @@ window.DASHBOARD_DATA = {
           "n": 1
         }
       ],
-      "retraso_prom": 2.6,
-      "total_incump": 68
+      "retraso_prom": 3.9,
+      "total_incump": 89
     },
     "25": {
       "incump_depto": [
+        {
+          "depto": "Cardiología",
+          "total": 224,
+          "incump": 36,
+          "pct_cumpl": 83.9,
+          "top_estudios": [
+            {
+              "estudio": "Electrocardiograma",
+              "n": 36
+            }
+          ]
+        },
         {
           "depto": "Resonancia Magnética",
           "total": 273,
@@ -12437,13 +20735,6 @@ window.DASHBOARD_DATA = {
           "top_estudios": []
         },
         {
-          "depto": "Cardiología",
-          "total": 224,
-          "incump": 0,
-          "pct_cumpl": 100.0,
-          "top_estudios": []
-        },
-        {
           "depto": "Eeg Y Mapeo Cerebral",
           "total": 17,
           "incump": 0,
@@ -12495,6 +20786,10 @@ window.DASHBOARD_DATA = {
       ],
       "top_estudios_incump": [
         {
+          "estudio": "Electrocardiograma",
+          "n": 36
+        },
+        {
           "estudio": "Densitometría de Cadera y Columna Lumbar",
           "n": 8
         },
@@ -12529,10 +20824,28 @@ window.DASHBOARD_DATA = {
         {
           "estudio": "Eco de Pelvis Transvaginal",
           "n": 1
+        }
+      ],
+      "top_estudios_volumen": [
+        {
+          "estudio": "Electrocardiograma",
+          "n": 132
         },
         {
-          "estudio": "Eco de Riñón",
-          "n": 1
+          "estudio": "Eco de Mama",
+          "n": 112
+        },
+        {
+          "estudio": "RX Tórax - 1P",
+          "n": 97
+        },
+        {
+          "estudio": "Mamografía - Bilateral",
+          "n": 74
+        },
+        {
+          "estudio": "Densitometría de Cadera y Columna Lumbar",
+          "n": 71
         }
       ],
       "calor_deptos": [
@@ -12555,12 +20868,12 @@ window.DASHBOARD_DATA = {
       ],
       "calor": {
         "Cardiología": {
-          "LM": 100.0,
+          "LM": 86.3,
           "AC": null,
           "CH": null,
           "GP": null,
           "CM": null,
-          "MP": 100.0,
+          "MP": 82.8,
           "LA": null
         },
         "Densitometría": {
@@ -12625,14 +20938,14 @@ window.DASHBOARD_DATA = {
           "n": 50
         },
         "Densitometría": {
-          "gc_avg": 1.44,
-          "gf_avg": 1.38,
-          "n": 33
+          "gc_avg": 1.53,
+          "gf_avg": 1.68,
+          "n": 55
         },
         "Ecosonografía": {
-          "gc_avg": 1.63,
-          "gf_avg": 1.44,
-          "n": 199
+          "gc_avg": 1.14,
+          "gf_avg": 1.11,
+          "n": 156
         },
         "Mamografía": {
           "gc_avg": 1.13,
@@ -12655,12 +20968,840 @@ window.DASHBOARD_DATA = {
           "n": 76
         }
       },
+      "ag_vs_real": {
+        "Cardiología": {
+          "ag_avg": 57.9,
+          "real_avg": 21.7,
+          "n": 224
+        },
+        "Densitometría": {
+          "ag_avg": 8.2,
+          "real_avg": 3.2,
+          "n": 72
+        },
+        "Ecosonografía": {
+          "ag_avg": 24.1,
+          "real_avg": 11.1,
+          "n": 353
+        },
+        "Mamografía": {
+          "ag_avg": 11.4,
+          "real_avg": 4.3,
+          "n": 97
+        },
+        "Radiología": {
+          "ag_avg": 14.5,
+          "real_avg": 3.5,
+          "n": 303
+        },
+        "RM": {
+          "ag_avg": 20.3,
+          "real_avg": 16.5,
+          "n": 273
+        },
+        "Tomografía": {
+          "ag_avg": 6.7,
+          "real_avg": 5.7,
+          "n": 116
+        }
+      },
+      "horas_entrega_bins": {
+        "Cardiología": [
+          {
+            "label": "3h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "30h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "46h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "47h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "53h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "55h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "57h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 28,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "60h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "71h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "80h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "81h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "82h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "83h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "102h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "103h",
+            "n": 6,
+            "color": "rosa"
+          },
+          {
+            "label": "104h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "105h",
+            "n": 10,
+            "color": "rosa"
+          },
+          {
+            "label": "106h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "107h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "108h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "126h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "129h",
+            "n": 2,
+            "color": "rosa"
+          }
+        ],
+        "Densitometría": [
+          {
+            "label": "3h o menos",
+            "n": 55,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "54h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Ecosonografía": [
+          {
+            "label": "2h o menos",
+            "n": 156,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 26,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 13,
+            "color": "rosa"
+          },
+          {
+            "label": "5h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "18h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "24h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "26h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 33,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 27,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "49h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "50h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "58h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "79h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "131h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "189h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "190h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "191h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "192h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "193h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "238h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "239h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "240h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "241h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Mamografía": [
+          {
+            "label": "3h o menos",
+            "n": 72,
+            "color": "verde"
+          },
+          {
+            "label": "14h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "19h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "20h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "79h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "223h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ],
+        "Radiología": [
+          {
+            "label": "2h o menos",
+            "n": 168,
+            "color": "verde"
+          },
+          {
+            "label": "3h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "4h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "11h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "12h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "28h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "29h",
+            "n": 33,
+            "color": "rosa"
+          },
+          {
+            "label": "31h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "33h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "34h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "35h",
+            "n": 30,
+            "color": "rosa"
+          },
+          {
+            "label": "36h",
+            "n": 14,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "56h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "59h",
+            "n": 10,
+            "color": "rosa"
+          }
+        ],
+        "RM": [
+          {
+            "label": "≤5h",
+            "n": 94,
+            "color": "verde"
+          },
+          {
+            "label": "6h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "7h",
+            "n": 3,
+            "color": "rosa"
+          },
+          {
+            "label": "8h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "10h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 7,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 9,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 5,
+            "color": "rosa"
+          },
+          {
+            "label": "16-20",
+            "n": 41,
+            "color": "rosa"
+          },
+          {
+            "label": "21-25",
+            "n": 45,
+            "color": "rosa"
+          },
+          {
+            "label": "26-30",
+            "n": 17,
+            "color": "rosa"
+          },
+          {
+            "label": "41-45",
+            "n": 11,
+            "color": "rosa"
+          },
+          {
+            "label": "46-50",
+            "n": 24,
+            "color": "rosa"
+          },
+          {
+            "label": "≥51",
+            "n": 12,
+            "color": "rosa"
+          }
+        ],
+        "Tomografía": [
+          {
+            "label": "3h o menos",
+            "n": 76,
+            "color": "verde"
+          },
+          {
+            "label": "4h",
+            "n": 15,
+            "color": "rosa"
+          },
+          {
+            "label": "6h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "13h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "14h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "15h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "21h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "22h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "23h",
+            "n": 2,
+            "color": "rosa"
+          },
+          {
+            "label": "25h",
+            "n": 4,
+            "color": "rosa"
+          },
+          {
+            "label": "42h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "43h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "44h",
+            "n": 1,
+            "color": "rosa"
+          },
+          {
+            "label": "51h",
+            "n": 1,
+            "color": "rosa"
+          }
+        ]
+      },
       "usuarios_recibe": [
         {
           "usuario": "Mora Ponce Samanta Noemi",
           "total": 517,
-          "incump": 7,
-          "pct_cumpl": 98.6,
+          "incump": 9,
+          "pct_cumpl": 98.3,
           "top_deptos": [
             {
               "depto": "Ecosonografía",
@@ -12679,8 +21820,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "González Pérez Humberto",
           "total": 351,
-          "incump": 0,
-          "pct_cumpl": 100.0,
+          "incump": 10,
+          "pct_cumpl": 97.2,
           "top_deptos": [
             {
               "depto": "Radiología",
@@ -12699,8 +21840,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Cortés Vázquez Graciela",
           "total": 228,
-          "incump": 1,
-          "pct_cumpl": 99.6,
+          "incump": 17,
+          "pct_cumpl": 92.5,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -12719,8 +21860,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Rios Meza Oswaldo Josue",
           "total": 217,
-          "incump": 4,
-          "pct_cumpl": 98.2,
+          "incump": 11,
+          "pct_cumpl": 94.9,
           "top_deptos": [
             {
               "depto": "Cardiología",
@@ -12847,8 +21988,8 @@ window.DASHBOARD_DATA = {
         {
           "usuario": "Anaya Constante Monica",
           "total": 40,
-          "incump": 2,
-          "pct_cumpl": 95.0,
+          "incump": 3,
+          "pct_cumpl": 92.5,
           "top_deptos": [
             {
               "depto": "Resonancia Magnética",
@@ -13040,19 +22181,19 @@ window.DASHBOARD_DATA = {
       "dist_af": [
         {
           "hora": 0,
-          "n": 26
+          "n": 27
         },
         {
           "hora": 1,
-          "n": 0
+          "n": 8
         },
         {
           "hora": 2,
-          "n": 0
+          "n": 6
         },
         {
           "hora": 3,
-          "n": 0
+          "n": 3
         },
         {
           "hora": 4,
@@ -13064,7 +22205,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 6,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 7,
@@ -13100,19 +22241,19 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 15,
-          "n": 2
+          "n": 3
         },
         {
           "hora": 16,
-          "n": 1
+          "n": 3
         },
         {
           "hora": 17,
-          "n": 0
+          "n": 1
         },
         {
           "hora": 18,
-          "n": 2
+          "n": 5
         },
         {
           "hora": 19,
@@ -13124,7 +22265,7 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 21,
-          "n": 0
+          "n": 7
         },
         {
           "hora": 22,
@@ -13132,10 +22273,27 @@ window.DASHBOARD_DATA = {
         },
         {
           "hora": 23,
-          "n": 0
+          "n": 3
         }
       ],
       "calor_hora": {
+        "Cardiología": {
+          "7": 4,
+          "8": 7,
+          "9": 9,
+          "10": 5,
+          "11": 6,
+          "12": 3,
+          "13": 0,
+          "14": 0,
+          "15": 2,
+          "16": 0,
+          "17": 0,
+          "18": 0,
+          "19": 0,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 0,
           "8": 0,
@@ -13257,15 +22415,15 @@ window.DASHBOARD_DATA = {
         }
       },
       "calor_hora_total": {
-        "7": 2,
-        "8": 5,
-        "9": 5,
-        "10": 6,
-        "11": 1,
-        "12": 2,
+        "7": 6,
+        "8": 12,
+        "9": 14,
+        "10": 11,
+        "11": 7,
+        "12": 5,
         "13": 8,
         "14": 1,
-        "15": 2,
+        "15": 4,
         "16": 3,
         "17": 1,
         "18": 2,
@@ -13274,6 +22432,7 @@ window.DASHBOARD_DATA = {
         "21": 0
       },
       "calor_hora_deptos": [
+        "Cardiología",
         "Densitometría",
         "Ecosonografía",
         "Mamografía",
@@ -13300,6 +22459,23 @@ window.DASHBOARD_DATA = {
         21
       ],
       "calor_entrega": {
+        "Cardiología": {
+          "7": 0,
+          "8": 1,
+          "9": 0,
+          "10": 2,
+          "11": 1,
+          "12": 1,
+          "13": 9,
+          "14": 4,
+          "15": 3,
+          "16": 0,
+          "17": 5,
+          "18": 6,
+          "19": 4,
+          "20": 0,
+          "21": 0
+        },
         "Densitometría": {
           "7": 2,
           "8": 1,
@@ -13422,18 +22598,18 @@ window.DASHBOARD_DATA = {
       },
       "calor_entrega_total": {
         "7": 3,
-        "8": 2,
+        "8": 3,
         "9": 6,
-        "10": 3,
-        "11": 5,
-        "12": 5,
-        "13": 4,
-        "14": 1,
-        "15": 4,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 13,
+        "14": 5,
+        "15": 7,
         "16": 1,
-        "17": 2,
-        "18": 1,
-        "19": 0,
+        "17": 7,
+        "18": 7,
+        "19": 4,
         "20": 3,
         "21": 0
       },
@@ -13441,32 +22617,32 @@ window.DASHBOARD_DATA = {
         {
           "dia": "Lunes",
           "total": 265,
-          "incump": 8,
-          "pct_cumpl": 97.0
+          "incump": 16,
+          "pct_cumpl": 94.0
         },
         {
           "dia": "Martes",
           "total": 211,
-          "incump": 7,
-          "pct_cumpl": 96.7
+          "incump": 12,
+          "pct_cumpl": 94.3
         },
         {
           "dia": "Miércoles",
           "total": 221,
-          "incump": 5,
-          "pct_cumpl": 97.7
+          "incump": 8,
+          "pct_cumpl": 96.4
         },
         {
           "dia": "Jueves",
           "total": 243,
-          "incump": 6,
-          "pct_cumpl": 97.5
+          "incump": 15,
+          "pct_cumpl": 93.8
         },
         {
           "dia": "Viernes",
           "total": 284,
-          "incump": 5,
-          "pct_cumpl": 98.2
+          "incump": 16,
+          "pct_cumpl": 94.4
         },
         {
           "dia": "Sábado",
@@ -13478,10 +22654,26 @@ window.DASHBOARD_DATA = {
       "dist_retraso": [
         {
           "horas": 0,
-          "n": 26
+          "n": 27
+        },
+        {
+          "horas": 1,
+          "n": 8
+        },
+        {
+          "horas": 2,
+          "n": 6
+        },
+        {
+          "horas": 3,
+          "n": 3
         },
         {
           "horas": 5,
+          "n": 1
+        },
+        {
+          "horas": 6,
           "n": 1
         },
         {
@@ -13494,27 +22686,39 @@ window.DASHBOARD_DATA = {
         },
         {
           "horas": 15,
-          "n": 2
+          "n": 3
         },
         {
           "horas": 16,
+          "n": 3
+        },
+        {
+          "horas": 17,
           "n": 1
         },
         {
           "horas": 18,
-          "n": 2
+          "n": 5
         },
         {
           "horas": 19,
           "n": 1
         },
         {
+          "horas": 21,
+          "n": 7
+        },
+        {
           "horas": 22,
           "n": 1
+        },
+        {
+          "horas": 23,
+          "n": 3
         }
       ],
-      "retraso_prom": 5.4,
-      "total_incump": 40
+      "retraso_prom": 8.0,
+      "total_incump": 76
     }
   },
   "interpretaciones": {
@@ -37218,21 +46422,21 @@ window.DASHBOARD_DATA = {
       },
       {
         "semana": "18",
-        "af_ind": 98.1,
+        "af_ind": 95.5,
         "chk_transc": 98.6,
         "chk_1dia": 97.1,
         "total_chk": 70,
         "estudios": 1602,
         "acciones": [
           {
-            "tipo": "good",
-            "txt": "Semana en objetivo. Mantener el ritmo."
+            "tipo": "bad",
+            "txt": "Cumplimiento 95.5% (<98%). Enfocar en Cardiología (41), Radiología (10)."
           }
         ]
       },
       {
         "semana": "19",
-        "af_ind": 96.4,
+        "af_ind": 95.6,
         "chk_transc": 100.0,
         "chk_1dia": 100.0,
         "total_chk": 32,
@@ -37240,13 +46444,13 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 96.4% (<98%). Enfocar en Resonancia (14), Densitometría (11)."
+            "txt": "Cumplimiento 95.6% (<98%). Enfocar en Resonancia (14), Cardiología (11)."
           }
         ]
       },
       {
         "semana": "20",
-        "af_ind": 96.8,
+        "af_ind": 94.6,
         "chk_transc": 97.0,
         "chk_1dia": 96.9,
         "total_chk": 33,
@@ -37254,13 +46458,13 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 96.8% (<98%). Enfocar en Ecosonografía (9), Resonancia (9)."
+            "txt": "Cumplimiento 94.6% (<98%). Enfocar en Cardiología (29), Ecosonografía (9)."
           }
         ]
       },
       {
         "semana": "21",
-        "af_ind": 95.5,
+        "af_ind": 95.2,
         "chk_transc": 95.0,
         "chk_1dia": 100.0,
         "total_chk": 20,
@@ -37268,13 +46472,13 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 95.5% (<98%). Enfocar en Densitometría (22), Radiología (18)."
+            "txt": "Cumplimiento 95.2% (<98%). Enfocar en Densitometría (22), Radiología (18)."
           }
         ]
       },
       {
         "semana": "22",
-        "af_ind": 96.2,
+        "af_ind": 95.3,
         "chk_transc": 100.0,
         "chk_1dia": 95.8,
         "total_chk": 24,
@@ -37282,13 +46486,13 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 96.2% (<98%). Enfocar en Radiología (16), Resonancia (13)."
+            "txt": "Cumplimiento 95.3% (<98%). Enfocar en Radiología (16), Cardiología (13)."
           }
         ]
       },
       {
         "semana": "23",
-        "af_ind": 96.6,
+        "af_ind": 94.4,
         "chk_transc": 95.1,
         "chk_1dia": 100.0,
         "total_chk": 42,
@@ -37296,13 +46500,13 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 96.6% (<98%). Enfocar en Resonancia (14), Tomografía (12)."
+            "txt": "Cumplimiento 94.4% (<98%). Enfocar en Cardiología (27), Resonancia (14)."
           }
         ]
       },
       {
         "semana": "24",
-        "af_ind": 95.3,
+        "af_ind": 93.8,
         "chk_transc": 95.5,
         "chk_1dia": 100.0,
         "total_chk": 49,
@@ -37310,13 +46514,13 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 95.3% (<98%). Enfocar en Radiología (15), Resonancia (13)."
+            "txt": "Cumplimiento 93.8% (<98%). Enfocar en Cardiología (26), Radiología (15)."
           }
         ]
       },
       {
         "semana": "25",
-        "af_ind": 97.4,
+        "af_ind": 94.9,
         "chk_transc": null,
         "chk_1dia": null,
         "total_chk": null,
@@ -37324,7 +46528,7 @@ window.DASHBOARD_DATA = {
         "acciones": [
           {
             "tipo": "bad",
-            "txt": "Cumplimiento 97.4% (<98%). Enfocar en Resonancia (12), Densitometría (8)."
+            "txt": "Cumplimiento 94.9% (<98%). Enfocar en Cardiología (36), Resonancia (12)."
           }
         ]
       }
@@ -37673,5 +46877,1947 @@ window.DASHBOARD_DATA = {
         }
       ]
     }
-  }
+  },
+  "tiempos_proceso": {
+    "acumulado": {
+      "alta_transcrito": {
+        "avg": 6.85,
+        "n": 10835
+      },
+      "transcrito_firmado": {
+        "avg": 1.37,
+        "n": 10835
+      },
+      "firmado_recibido": {
+        "avg": 1.49,
+        "n": 10835
+      },
+      "n_total": 10837
+    },
+    "por_semana": {
+      "18": {
+        "alta_transcrito": {
+          "avg": 8.84,
+          "n": 1563
+        },
+        "transcrito_firmado": {
+          "avg": 1.34,
+          "n": 1563
+        },
+        "firmado_recibido": {
+          "avg": 1.91,
+          "n": 1563
+        },
+        "n_total": 1563
+      },
+      "19": {
+        "alta_transcrito": {
+          "avg": 7.6,
+          "n": 1370
+        },
+        "transcrito_firmado": {
+          "avg": 1.2,
+          "n": 1370
+        },
+        "firmado_recibido": {
+          "avg": 1.31,
+          "n": 1370
+        },
+        "n_total": 1370
+      },
+      "20": {
+        "alta_transcrito": {
+          "avg": 6.16,
+          "n": 1266
+        },
+        "transcrito_firmado": {
+          "avg": 1.24,
+          "n": 1266
+        },
+        "firmado_recibido": {
+          "avg": 1.2,
+          "n": 1266
+        },
+        "n_total": 1266
+      },
+      "21": {
+        "alta_transcrito": {
+          "avg": 7.49,
+          "n": 1252
+        },
+        "transcrito_firmado": {
+          "avg": 1.57,
+          "n": 1252
+        },
+        "firmado_recibido": {
+          "avg": 0.96,
+          "n": 1253
+        },
+        "n_total": 1253
+      },
+      "22": {
+        "alta_transcrito": {
+          "avg": 6.12,
+          "n": 1364
+        },
+        "transcrito_firmado": {
+          "avg": 0.91,
+          "n": 1364
+        },
+        "firmado_recibido": {
+          "avg": 1.59,
+          "n": 1363
+        },
+        "n_total": 1364
+      },
+      "23": {
+        "alta_transcrito": {
+          "avg": 5.17,
+          "n": 1246
+        },
+        "transcrito_firmado": {
+          "avg": 1.66,
+          "n": 1246
+        },
+        "firmado_recibido": {
+          "avg": 1.28,
+          "n": 1246
+        },
+        "n_total": 1246
+      },
+      "24": {
+        "alta_transcrito": {
+          "avg": 6.34,
+          "n": 1369
+        },
+        "transcrito_firmado": {
+          "avg": 1.37,
+          "n": 1369
+        },
+        "firmado_recibido": {
+          "avg": 1.72,
+          "n": 1369
+        },
+        "n_total": 1369
+      },
+      "25": {
+        "alta_transcrito": {
+          "avg": 6.64,
+          "n": 1405
+        },
+        "transcrito_firmado": {
+          "avg": 1.69,
+          "n": 1405
+        },
+        "firmado_recibido": {
+          "avg": 1.79,
+          "n": 1405
+        },
+        "n_total": 1406
+      }
+    },
+    "por_mes": {
+      "2026-04": {
+        "alta_transcrito": {
+          "avg": 12.08,
+          "n": 1512
+        },
+        "transcrito_firmado": {
+          "avg": 2.32,
+          "n": 1512
+        },
+        "firmado_recibido": {
+          "avg": 2.47,
+          "n": 1512
+        },
+        "n_total": 1512
+      },
+      "2026-05": {
+        "alta_transcrito": {
+          "avg": 6.18,
+          "n": 5439
+        },
+        "transcrito_firmado": {
+          "avg": 1.38,
+          "n": 5439
+        },
+        "firmado_recibido": {
+          "avg": 1.2,
+          "n": 5439
+        },
+        "n_total": 5440
+      },
+      "2026-06": {
+        "alta_transcrito": {
+          "avg": 5.76,
+          "n": 3884
+        },
+        "transcrito_firmado": {
+          "avg": 0.99,
+          "n": 3884
+        },
+        "firmado_recibido": {
+          "avg": 1.51,
+          "n": 3884
+        },
+        "n_total": 3885
+      }
+    },
+    "lista_meses": [
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "seguimiento_calidad": [
+      {
+        "estudio": "RM 3.0T Digital - Columna - Lumbar",
+        "depto": "Resonancia Magnética",
+        "sucursal": "López Mateos",
+        "semana": 20,
+        "fecha": "2026-05-15",
+        "af": -775.5,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Eco de Mama",
+        "depto": "Ecosonografía",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-30",
+        "af": -770.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Mamografía - Bilateral con Tomosíntesis",
+        "depto": "Mamografía",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-30",
+        "af": -770.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RM 1.5T - Articulación - Rodilla",
+        "depto": "Resonancia Magnética",
+        "sucursal": "López Mateos",
+        "semana": 19,
+        "fecha": "2026-05-06",
+        "af": -555.0,
+        "usuario_recibe": "Garcia Hernandez Abimael"
+      },
+      {
+        "estudio": "Mapa de 24 horas",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 18,
+        "fecha": "2026-05-20",
+        "af": -551.2,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Mapa de 24 horas",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 18,
+        "fecha": "2026-05-20",
+        "af": -479.4,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Densitometría de Cadera y Columna Lumbar",
+        "depto": "Densitometría",
+        "sucursal": "López Mateos",
+        "semana": 21,
+        "fecha": "2026-05-19",
+        "af": -431.4,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Eco de Mama",
+        "depto": "Ecosonografía",
+        "sucursal": "Clínica de la Mujer",
+        "semana": 21,
+        "fecha": "2026-05-20",
+        "af": -359.1,
+        "usuario_recibe": "Chavez Jimenez America"
+      },
+      {
+        "estudio": "Mamografía - Bilateral con Tomosíntesis",
+        "depto": "Mamografía",
+        "sucursal": "Clínica de la Mujer",
+        "semana": 21,
+        "fecha": "2026-05-20",
+        "af": -358.6,
+        "usuario_recibe": "Macías Rodríguez Karla Lizbet"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-09",
+        "af": -327.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Articulación - Rodilla",
+        "depto": "Resonancia Magnética",
+        "sucursal": "Acueducto",
+        "semana": 19,
+        "fecha": "2026-05-07",
+        "af": -323.1,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "RM 1.5T - Articulación - Rodilla Derecha [E]",
+        "depto": "Resonancia Magnética",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-26",
+        "af": -293.9,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "TAC - Oídos",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 19,
+        "fecha": "2026-05-04",
+        "af": -240.2,
+        "usuario_recibe": "Garcia Hernandez Abimael"
+      },
+      {
+        "estudio": "TAC - Cuello",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-29",
+        "af": -239.6,
+        "usuario_recibe": "Tabares Martínez Hugo"
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-29",
+        "af": -239.6,
+        "usuario_recibe": "Tabares Martínez Hugo"
+      },
+      {
+        "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-29",
+        "af": -239.6,
+        "usuario_recibe": "Tabares Martínez Hugo"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Articulación - Rodilla",
+        "depto": "Resonancia Magnética",
+        "sucursal": "López Mateos",
+        "semana": 18,
+        "fecha": "2026-05-02",
+        "af": -239.2,
+        "usuario_recibe": "Garcia Hernandez Abimael"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Cráneo",
+        "depto": "Resonancia Magnética",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-23",
+        "af": -215.4,
+        "usuario_recibe": "Garcia Hernandez Abimael"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Articulación - Rodilla",
+        "depto": "Resonancia Magnética",
+        "sucursal": "Acueducto",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -198.2,
+        "usuario_recibe": "Gonzalez Medina Nestor Alan"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 23,
+        "fecha": "2026-06-02",
+        "af": -165.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Articulación - Hombro",
+        "depto": "Resonancia Magnética",
+        "sucursal": "Acueducto",
+        "semana": 18,
+        "fecha": "2026-04-30",
+        "af": -146.7,
+        "usuario_recibe": "Enriquez Velazquez Manuel"
+      },
+      {
+        "estudio": "RX Tibia y Peroné - 2P",
+        "depto": "Radiología",
+        "sucursal": "Acueducto",
+        "semana": 21,
+        "fecha": "2026-05-22",
+        "af": -142.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-23",
+        "af": -141.8,
+        "usuario_recibe": "Mora Ponce Samanta Noemi"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-13",
+        "af": -118.6,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Eco de Pelvis",
+        "depto": "Ecosonografía",
+        "sucursal": "Acueducto",
+        "semana": 21,
+        "fecha": "2026-05-22",
+        "af": -116.8,
+        "usuario_recibe": "Enriquez Velazquez Manuel"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Cráneo",
+        "depto": "Resonancia Magnética",
+        "sucursal": "Acueducto",
+        "semana": 20,
+        "fecha": "2026-05-14",
+        "af": -103.8,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -101.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -99.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -99.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -98.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -95.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -94.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -94.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -94.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -93.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -93.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -92.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RX Tórax - 1P",
+        "depto": "Radiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-15",
+        "af": -91.4,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -90.0,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -89.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RX Tórax - 1P",
+        "depto": "Radiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-16",
+        "af": -89.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -89.2,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-24",
+        "af": -88.3,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -87.2,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -77.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "RX Tórax - 1P",
+        "depto": "Radiología",
+        "sucursal": "López Mateos",
+        "semana": 23,
+        "fecha": "2026-06-02",
+        "af": -76.5,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 18,
+        "fecha": "2026-04-27",
+        "af": -75.1,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 22,
+        "fecha": "2026-05-22",
+        "af": -73.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -73.3,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "TAC - 2R - Tórax y Abdomen [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 24,
+        "fecha": "2026-06-08",
+        "af": -73.3,
+        "usuario_recibe": "Mora Ponce Samanta Noemi"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -72.6,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 21,
+        "fecha": "2026-05-19",
+        "af": -72.3,
+        "usuario_recibe": "Anaya Constante Monica"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-05",
+        "af": -70.5,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-05",
+        "af": -70.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -69.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -69.0,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -68.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 22,
+        "fecha": "2026-05-23",
+        "af": -68.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -68.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -68.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -68.3,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-09",
+        "af": -68.2,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-09",
+        "af": -68.0,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -66.9,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-05",
+        "af": -66.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -66.4,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -66.2,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 23,
+        "fecha": "2026-06-03",
+        "af": -66.1,
+        "usuario_recibe": "Garcia Hernandez Abimael"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -65.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -65.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -65.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -64.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-05",
+        "af": -64.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RX Tórax - 1P",
+        "depto": "Radiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-16",
+        "af": -64.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -63.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -61.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-15",
+        "af": -61.6,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -61.5,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Eco de Abdomen",
+        "depto": "Ecosonografía",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-02",
+        "af": -61.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Eco de Pelvis",
+        "depto": "Ecosonografía",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-02",
+        "af": -61.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -60.5,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-02",
+        "af": -51.5,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-02",
+        "af": -51.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-10",
+        "af": -50.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -50.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Mamografía - Bilateral",
+        "depto": "Mamografía",
+        "sucursal": "Clínica de la Mujer",
+        "semana": 20,
+        "fecha": "2026-05-15",
+        "af": -50.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-14",
+        "af": -49.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RM 1.5T - Articulación - Muñeca o Mano",
+        "depto": "Resonancia Magnética",
+        "sucursal": "Chamizal",
+        "semana": 24,
+        "fecha": "2026-06-12",
+        "af": -49.1,
+        "usuario_recibe": "García Araiza Jaime Damián"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 19,
+        "fecha": "2026-05-02",
+        "af": -48.7,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-27",
+        "af": -48.4,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 23,
+        "fecha": "2026-06-02",
+        "af": -47.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 22,
+        "fecha": "2026-05-25",
+        "af": -47.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -47.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -47.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -47.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -47.0,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-14",
+        "af": -46.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -46.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 22,
+        "fecha": "2026-05-23",
+        "af": -46.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -46.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -46.5,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-16",
+        "af": -46.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -46.2,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -46.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-13",
+        "af": -46.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-13",
+        "af": -46.0,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -45.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-08",
+        "af": -45.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -45.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 23,
+        "fecha": "2026-05-30",
+        "af": -45.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -45.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -45.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 19,
+        "fecha": "2026-05-04",
+        "af": -45.7,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -45.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-13",
+        "af": -45.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 22,
+        "fecha": "2026-05-23",
+        "af": -45.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -45.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -45.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 22,
+        "fecha": "2026-05-23",
+        "af": -45.5,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -45.4,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Eco de Mama",
+        "depto": "Ecosonografía",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-25",
+        "af": -45.4,
+        "usuario_recibe": "Mora Ponce Samanta Noemi"
+      },
+      {
+        "estudio": "E - RM 3.0T Digital de Mama",
+        "depto": "Resonancia Magnética",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-25",
+        "af": -45.4,
+        "usuario_recibe": "Mora Ponce Samanta Noemi"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-02",
+        "af": -45.3,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-27",
+        "af": -44.9,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-16",
+        "af": -44.9,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-16",
+        "af": -44.9,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-25",
+        "af": -44.5,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-12",
+        "af": -44.5,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-16",
+        "af": -44.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-13",
+        "af": -44.3,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-13",
+        "af": -44.2,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -43.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-21",
+        "af": -43.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-04-30",
+        "af": -42.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-13",
+        "af": -42.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 20,
+        "fecha": "2026-05-09",
+        "af": -42.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Eco de Pelvis Transvaginal",
+        "depto": "Ecosonografía",
+        "sucursal": "Chamizal",
+        "semana": 24,
+        "fecha": "2026-06-13",
+        "af": -42.3,
+        "usuario_recibe": "Estrada Valle Gloria Itzel"
+      },
+      {
+        "estudio": "Eco de Abdomen y Pelvis",
+        "depto": "Ecosonografía",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-30",
+        "af": -42.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-11",
+        "af": -42.0,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 23,
+        "fecha": "2026-05-30",
+        "af": -41.9,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-16",
+        "af": -41.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-13",
+        "af": -41.7,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 21,
+        "fecha": "2026-05-21",
+        "af": -40.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Eco de Abdomen Total",
+        "depto": "Ecosonografía",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -39.0,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -37.6,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "RX Rodillas Comparativas - 2P",
+        "depto": "Radiología",
+        "sucursal": "López Mateos",
+        "semana": 23,
+        "fecha": "2026-05-31",
+        "af": -35.9,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Prueba de Esfuerzo",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -35.2,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-11",
+        "af": -30.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-15",
+        "af": -29.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-18",
+        "af": -29.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-15",
+        "af": -28.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "RM 3.0T Digital - Columna - Cervical",
+        "depto": "Resonancia Magnética",
+        "sucursal": "Acueducto",
+        "semana": 24,
+        "fecha": "2026-06-06",
+        "af": -28.6,
+        "usuario_recibe": "Gonzalez Medina Nestor Alan"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-07",
+        "af": -28.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -27.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-11",
+        "af": -27.0,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 25,
+        "fecha": "2026-06-15",
+        "af": -26.9,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-11",
+        "af": -26.8,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "TAC - Abdomen - Total [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "Acueducto",
+        "semana": 19,
+        "fecha": "2026-05-04",
+        "af": -26.7,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "TAC - Cráneo",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "Acueducto",
+        "semana": 20,
+        "fecha": "2026-05-09",
+        "af": -26.7,
+        "usuario_recibe": "Enriquez Velazquez Manuel"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-11",
+        "af": -26.7,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-18",
+        "af": -26.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-27",
+        "af": -26.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "López Mateos",
+        "semana": 22,
+        "fecha": "2026-05-27",
+        "af": -26.1,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-15",
+        "af": -26.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-17",
+        "af": -26.1,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 23,
+        "fecha": "2026-06-04",
+        "af": -26.0,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-17",
+        "af": -26.0,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 23,
+        "fecha": "2026-06-04",
+        "af": -25.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-12",
+        "af": -25.8,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -25.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 19,
+        "fecha": "2026-05-07",
+        "af": -25.4,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "TAC - Abdomen - Total",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 25,
+        "fecha": "2026-06-16",
+        "af": -25.4,
+        "usuario_recibe": "Rios Meza Oswaldo Josue"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-08",
+        "af": -25.1,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-27",
+        "af": -24.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-08",
+        "af": -24.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-08",
+        "af": -24.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-11",
+        "af": -24.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-16",
+        "af": -24.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 25,
+        "fecha": "2026-06-18",
+        "af": -24.9,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-28",
+        "af": -24.6,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 24,
+        "fecha": "2026-06-10",
+        "af": -24.5,
+        "usuario_recibe": "González Pérez Humberto"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-27",
+        "af": -24.3,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "TAC - Tórax (Pulmonar o Mediastino) [C]",
+        "depto": "Tomografía Axial Computada",
+        "sucursal": "López Mateos",
+        "semana": 21,
+        "fecha": "2026-05-19",
+        "af": -24.3,
+        "usuario_recibe": "Anaya Constante Monica"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -24.2,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      },
+      {
+        "estudio": "Electrocardiograma",
+        "depto": "Cardiología",
+        "sucursal": "Medicina Preventiva",
+        "semana": 18,
+        "fecha": "2026-04-29",
+        "af": -24.0,
+        "usuario_recibe": "Cortés Vázquez Graciela"
+      }
+    ],
+    "n_seguimiento_calidad": 185
+  },
+  "depto_por_semana": {
+    "18": {
+      "Cardiología": 273,
+      "Densitometría": 115,
+      "Ecosonografía": 403,
+      "Mamografía": 109,
+      "Radiología": 348,
+      "Resonancia Magnética": 222,
+      "Tomografía Axial Computada": 132
+    },
+    "19": {
+      "Cardiología": 146,
+      "Densitometría": 92,
+      "Ecosonografía": 358,
+      "Mamografía": 110,
+      "Radiología": 283,
+      "Resonancia Magnética": 279,
+      "Tomografía Axial Computada": 133
+    },
+    "20": {
+      "Cardiología": 165,
+      "Densitometría": 109,
+      "Ecosonografía": 307,
+      "Mamografía": 113,
+      "Radiología": 237,
+      "Resonancia Magnética": 219,
+      "Tomografía Axial Computada": 130
+    },
+    "21": {
+      "Cardiología": 120,
+      "Densitometría": 95,
+      "Ecosonografía": 325,
+      "Mamografía": 112,
+      "Radiología": 218,
+      "Resonancia Magnética": 270,
+      "Tomografía Axial Computada": 135
+    },
+    "22": {
+      "Cardiología": 117,
+      "Densitometría": 120,
+      "Ecosonografía": 320,
+      "Mamografía": 127,
+      "Radiología": 243,
+      "Resonancia Magnética": 298,
+      "Tomografía Axial Computada": 154
+    },
+    "23": {
+      "Cardiología": 137,
+      "Densitometría": 98,
+      "Ecosonografía": 295,
+      "Mamografía": 110,
+      "Radiología": 270,
+      "Resonancia Magnética": 231,
+      "Tomografía Axial Computada": 114
+    },
+    "24": {
+      "Cardiología": 145,
+      "Densitometría": 94,
+      "Ecosonografía": 384,
+      "Mamografía": 116,
+      "Radiología": 299,
+      "Resonancia Magnética": 243,
+      "Tomografía Axial Computada": 111
+    },
+    "25": {
+      "Cardiología": 224,
+      "Densitometría": 72,
+      "Ecosonografía": 353,
+      "Mamografía": 97,
+      "Radiología": 303,
+      "Resonancia Magnética": 273,
+      "Tomografía Axial Computada": 116
+    }
+  },
+  "deptos_modal": [
+    "Cardiología",
+    "Densitometría",
+    "Ecosonografía",
+    "Mamografía",
+    "Radiología",
+    "Resonancia Magnética",
+    "Tomografía Axial Computada"
+  ]
 };
